@@ -1,0 +1,977 @@
+{
+  "label": "Monstros",
+  "entries": {
+    "Aboleth": {
+      "name": "Abolete"
+    },
+    "Acolyte": {
+      "name": "Acólito"
+    },
+    "Adult Black Dragon": {
+      "name": "Dragão Negro Adulto"
+    },
+    "Adult Blue Dragon": {
+      "name": "Dragão Azul Adulto"
+    },
+    "Adult Brass Dragon": {
+      "name": "Dragão de Latão Adulto"
+    },
+    "Adult Bronze Dragon": {
+      "name": "Dragão de Bronze Adulto"
+    },
+    "Adult Copper Dragon": {
+      "name": "Dragão de Cobre Adulto"
+    },
+    "Adult Gold Dragon": {
+      "name": "Dragão de Ouro Adulto"
+    },
+    "Adult Green Dragon": {
+      "name": "Dragão Verde Adulto"
+    },
+    "Adult Red Dragon": {
+      "name": "Dragão Vermelho Adulto"
+    },
+    "Adult Silver Dragon": {
+      "name": "Dragão de Prata Adulto"
+    },
+    "Adult White Dragon": {
+      "name": "Dragão Branco Adulto"
+    },
+    "Air Elemental": {
+      "name": "Elemental do Ar"
+    },
+    "Ancient Black Dragon": {
+      "name": "Dragão Negro Ancião"
+    },
+    "Ancient Blue Dragon": {
+      "name": "Dragão Azul Ancião"
+    },
+    "Ancient Brass Dragon": {
+      "name": "Dragão de Latão Ancião"
+    },
+    "Ancient Bronze Dragon": {
+      "name": "Dragão de Bronze Ancião"
+    },
+    "Ancient Copper Dragon": {
+      "name": "Dragão de Cobre Ancião"
+    },
+    "Ancient Gold Dragon": {
+      "name": "Dragão de Ouro Ancião"
+    },
+    "Ancient Green Dragon": {
+      "name": "Dragão Verde Ancião"
+    },
+    "Ancient Red Dragon": {
+      "name": "Dragão Vermelho Ancião"
+    },
+    "Ancient Silver Dragon": {
+      "name": "Dragão de Prata Ancião"
+    },
+    "Ancient White Dragon": {
+      "name": "Dragão Branco Ancião"
+    },
+    "Androsphinx": {
+      "name": "Androesfinge"
+    },
+    "Animated Armor": {
+      "name": "Armadura Animada"
+    },
+    "Ankheg": {
+      "name": "Ankheg"
+    },
+    "Ape": {
+      "name": "Gorila"
+    },
+    "Archmage": {
+      "name": "Arquimago"
+    },
+    "Assassin": {
+      "name": "Assassino"
+    },
+    "Avatar of Death": {
+      "name": "Avatar da Morte"
+    },
+    "Awakened Shrub": {
+      "name": "Arbusto Desperto"
+    },
+    "Awakened Tree": {
+      "name": "Árvore Desperta"
+    },
+    "Axe Beak": {
+      "name": "Bico de Machado"
+    },
+    "Azer": {
+      "name": "Azer"
+    },
+    "Baboon": {
+      "name": "Babuíno"
+    },
+    "Badger": {
+      "name": "Texugo"
+    },
+    "Balor": {
+      "name": "Balor"
+    },
+    "Bandit": {
+      "name": "Bandido"
+    },
+    "Bandit Captain": {
+      "name": "Capitão dos Bandidos"
+    },
+    "Barbed Devil": {
+      "name": "Diabo Farpado"
+    },
+    "Basilisk": {
+      "name": "Basilisco"
+    },
+    "Bat": {
+      "name": "Morcego"
+    },
+    "Bearded Devil": {
+      "name": "Diabo Barbado"
+    },
+    "Behir": {
+      "name": "Behir"
+    },
+    "Berserker": {
+      "name": "Furioso"
+    },
+    "Black Bear": {
+      "name": "Urso Preto"
+    },
+    "Black Dragon Wyrmling": {
+      "name": "Dragão Negro Filhote"
+    },
+    "Black Pudding": {
+      "name": "Pudim Negro"
+    },
+    "Blink Dog": {
+      "name": "Cão Teleportador"
+    },
+    "Blood Hawk": {
+      "name": "Falcão de Sangue"
+    },
+    "Blue Dragon Wyrmling": {
+      "name": "Dragão Azul Filhote"
+    },
+    "Boar": {
+      "name": "Javali"
+    },
+    "Bone Devil": {
+      "name": "Diabo dos Ossos"
+    },
+    "Brass Dragon Wyrmling": {
+      "name": "Dragão de Latão Filhote"
+    },
+    "Bronze Dragon Wyrmling": {
+      "name": "Dragão de Bronze Filhote"
+    },
+    "Brown Bear": {
+      "name": "Urso Marrom"
+    },
+    "Bugbear": {
+      "name": "Bugbear"
+    },
+    "Bulette": {
+      "name": "Bulette"
+    },
+    "Camel": {
+      "name": "Camelo"
+    },
+    "Cat": {
+      "name": "Gato"
+    },
+    "Centaur": {
+      "name": "Centauro"
+    },
+    "Chain Devil": {
+      "name": "Diabo das Correntes"
+    },
+    "Chimera": {
+      "name": "Quimera"
+    },
+    "Chuul": {
+      "name": "Chuul"
+    },
+    "Clay Golem": {
+      "name": "Golem de Barro"
+    },
+    "Cloaker": {
+      "name": "Mantor"
+    },
+    "Cloud Giant": {
+      "name": "Gigante das Nuvens"
+    },
+    "Cockatrice": {
+      "name": "Cocatriz"
+    },
+    "Commoner": {
+      "name": "Plebeu"
+    },
+    "Constrictor Snake": {
+      "name": "Cobra Constritora"
+    },
+    "Copper Dragon Wyrmling": {
+      "name": "Dragão de Cobre Filhote"
+    },
+    "Couatl": {
+      "name": "Couatl"
+    },
+    "Crab": {
+      "name": "Caranguejo"
+    },
+    "Crocodile": {
+      "name": "Crocodilo"
+    },
+    "Cult Fanatic": {
+      "name": "Fanático de Culto"
+    },
+    "Cultist": {
+      "name": "Cultista"
+    },
+    "Darkmantle": {
+      "name": "Manto Negro"
+    },
+    "Death Dog": {
+      "name": "Cão de Morte"
+    },
+    "Deep Gnome": {
+      "name": "Gnomo das Profundezas"
+    },
+    "Deer": {
+      "name": "Veado"
+    },
+    "Deva": {
+      "name": "Deva"
+    },
+    "Dire Wolf": {
+      "name": "Lobo Atroz"
+    },
+    "Djinni": {
+      "name": "Djinni"
+    },
+    "Doppelganger": {
+      "name": "Duplo"
+    },
+    "Draft Horse": {
+      "name": "Cavalo de Carga"
+    },
+    "Dragon Turtle": {
+      "name": "Tartaruga-Dragão"
+    },
+    "Dretch": {
+      "name": "Dretch"
+    },
+    "Drider": {
+      "name": "Drider"
+    },
+    "Drow": {
+      "name": "Drow"
+    },
+    "Druid": {
+      "name": "Druida"
+    },
+    "Dryad": {
+      "name": "Dríade"
+    },
+    "Duergar": {
+      "name": "Duergar"
+    },
+    "Dust Mephit": {
+      "name": "Mephit da Poeira"
+    },
+    "Eagle": {
+      "name": "Águia"
+    },
+    "Earth Elemental": {
+      "name": "Elemental da Terra"
+    },
+    "Efreeti": {
+      "name": "Efreeti"
+    },
+    "Elephant": {
+      "name": "Elefante"
+    },
+    "Elk": {
+      "name": "Alce"
+    },
+    "Erinyes": {
+      "name": "Erínia"
+    },
+    "Ettercap": {
+      "name": "Ettercap"
+    },
+    "Ettin": {
+      "name": "Ettin"
+    },
+    "Fire Elemental": {
+      "name": "Elemental do Fogo"
+    },
+    "Fire Giant": {
+      "name": "Gigante do Fogo"
+    },
+    "Flesh Golem": {
+      "name": "Golem de carne"
+    },
+    "Flying Snake": {
+      "name": "Cobra Voadora"
+    },
+    "Flying Sword": {
+      "name": "Espada Voadora"
+    },
+    "Frog": {
+      "name": "Sapo"
+    },
+    "Frost Giant": {
+      "name": "Gigante do Gelo"
+    },
+    "Gargoyle": {
+      "name": "Gárgula"
+    },
+    "Gelatinous Cube": {
+      "name": "Cubo Gelatinoso"
+    },
+    "Ghast": {
+      "name": "Lívido"
+    },
+    "Ghost": {
+      "name": "Fantasma"
+    },
+    "Ghoul": {
+      "name": "Carniçal"
+    },
+    "Giant Ape": {
+      "name": "Gorila Gigante"
+    },
+    "Giant Badger": {
+      "name": "Texugo Gigante"
+    },
+    "Giant Bat": {
+      "name": "Morcego Gigante"
+    },
+    "Giant Boar": {
+      "name": "Javali Gigante"
+    },
+    "Giant Centipede": {
+      "name": "Centopeia Gigante"
+    },
+    "Giant Constrictor Snake": {
+      "name": "Cobra Constritora Gigante"
+    },
+    "Giant Crab": {
+      "name": "Caranguejo Gigante"
+    },
+    "Giant Crocodile": {
+      "name": "Crocodilo Gigante"
+    },
+    "Giant Eagle": {
+      "name": "Águia Gigante"
+    },
+    "Giant Elk": {
+      "name": "Alce Gigante"
+    },
+    "Giant Fire Beetle": {
+      "name": "Besouro de Fogo Gigante"
+    },
+    "Giant Fly": {
+      "name": "Mosca Gigante"
+    },
+    "Giant Frog": {
+      "name": "Sapo Gigante"
+    },
+    "Giant Goat": {
+      "name": "Bode Gigante"
+    },
+    "Giant Hyena": {
+      "name": "Hiena Gigante"
+    },
+    "Giant Lizard": {
+      "name": "Lagarto Gigante"
+    },
+    "Giant Octopus": {
+      "name": "Polvo Gigante"
+    },
+    "Giant Owl": {
+      "name": "Coruja Gigante"
+    },
+    "Giant Poisonous Snake": {
+      "name": "Serpente Venenosa Gigante"
+    },
+    "Giant Rat": {
+      "name": "Rato Gigante"
+    },
+    "Giant Rat (Diseased)": {
+      "name": "Rato Gigante (Infectado)"
+    },
+    "Giant Scorpion": {
+      "name": "Escorpião Gigante"
+    },
+    "Giant Sea Horse": {
+      "name": "Cavalo Marinho Gigante"
+    },
+    "Giant Shark": {
+      "name": "Tubarão Gigante"
+    },
+    "Giant Spider": {
+      "name": "Aranha Gigante"
+    },
+    "Giant Toad": {
+      "name": "Sapo Gigante"
+    },
+    "Giant Vulture": {
+      "name": "Abutre Gigante"
+    },
+    "Giant Wasp": {
+      "name": "Vespa Gigante"
+    },
+    "Giant Weasel": {
+      "name": "Arminho Gigante"
+    },
+    "Giant Wolf Spider": {
+      "name": "Aranha-Lobo Gigante"
+    },
+    "Gibbering Mouther": {
+      "name": "Abocanhador Matraqueante"
+    },
+    "Glabrezu": {
+      "name": "Glabrezu"
+    },
+    "Gladiator": {
+      "name": "Gladiador"
+    },
+    "Gnoll": {
+      "name": "Gnoll"
+    },
+    "Goat": {
+      "name": "Cabra"
+    },
+    "Goblin": {
+      "name": "Goblin"
+    },
+    "Gold Dragon Wyrmling": {
+      "name": "Dragão de Ouro Filhote"
+    },
+    "Gorgon": {
+      "name": "Gorgon"
+    },
+    "Gray Ooze": {
+      "name": "Limo Cinzento"
+    },
+    "Green Dragon Wyrmling": {
+      "name": "Dragão Verde Filhote"
+    },
+    "Green Hag": {
+      "name": "Bruxa Verde"
+    },
+    "Grick": {
+      "name": "Grick"
+    },
+    "Griffon": {
+      "name": "Grifo"
+    },
+    "Grimlock": {
+      "name": "Grimlock"
+    },
+    "Guard": {
+      "name": "Guarda"
+    },
+    "Guardian Naga": {
+      "name": "Naga Guardiã"
+    },
+    "Gynosphinx": {
+      "name": "Ginoesfinge"
+    },
+    "Half-Red Dragon Veteran": {
+      "name": "Meio-Dragão Vermelho Veterano"
+    },
+    "Harpy": {
+      "name": "Harpia"
+    },
+    "Hawk": {
+      "name": "Falcão"
+    },
+    "Hell Hound": {
+      "name": "Cão Infernal"
+    },
+    "Hezrou": {
+      "name": "Hezrou"
+    },
+    "Hill Giant": {
+      "name": "Gigante da Colina"
+    },
+    "Hippogriff": {
+      "name": "Hipogrifo"
+    },
+    "Hobgoblin": {
+      "name": "Hobgoblin"
+    },
+    "Homunculus": {
+      "name": "Homúnculo"
+    },
+    "Horned Devil": {
+      "name": "Diabo de Chifres"
+    },
+    "Hunter Shark": {
+      "name": "Tubarão Caçador"
+    },
+    "Hydra": {
+      "name": "Hidra"
+    },
+    "Hyena": {
+      "name": "Hiena"
+    },
+    "Ice Devil": {
+      "name": "Diabo do Gelo"
+    },
+    "Ice Mephit": {
+      "name": "Mephit do Gelo"
+    },
+    "Imp": {
+      "name": "Diabrete"
+    },
+    "Invisible Stalker": {
+      "name": "Caçador Invisivel"
+    },
+    "Iron Golem": {
+      "name": "Golem de Ferro"
+    },
+    "Jackal": {
+      "name": "Chacal"
+    },
+    "Killer Whale": {
+      "name": "Baleia Assassina"
+    },
+    "Knight": {
+      "name": "Cavaleiro"
+    },
+    "Kobold": {
+      "name": "Kobold"
+    },
+    "Kraken": {
+      "name": "Kraken"
+    },
+    "Lamia": {
+      "name": "Lâmia"
+    },
+    "Lemure": {
+      "name": "Lêmure"
+    },
+    "Lich": {
+      "name": "Lich"
+    },
+    "Lion": {
+      "name": "Leão"
+    },
+    "Lizard": {
+      "name": "Lagarto"
+    },
+    "Lizardfolk": {
+      "name": "Povo Lagarto"
+    },
+    "Mage": {
+      "name": "Arcano"
+    },
+    "Magma Mephit": {
+      "name": "Mephit do Magma"
+    },
+    "Magmin": {
+      "name": "Magmin"
+    },
+    "Mammoth": {
+      "name": "Mamute"
+    },
+    "Manticore": {
+      "name": "Manticora"
+    },
+    "Marilith": {
+      "name": "Marilith"
+    },
+    "Mastiff": {
+      "name": "Mastim"
+    },
+    "Medusa": {
+      "name": "Medusa"
+    },
+    "Merfolk": {
+      "name": "Povo do Mar"
+    },
+    "Merrow": {
+      "name": "Sirenídeo"
+    },
+    "Mimic": {
+      "name": "Mímico"
+    },
+    "Minotaur": {
+      "name": "Minotauro"
+    },
+    "Minotaur Skeleton": {
+      "name": "Esqueleto de Minotauro"
+    },
+    "Mule": {
+      "name": "Mula"
+    },
+    "Mummy": {
+      "name": "Múmia"
+    },
+    "Mummy Lord": {
+      "name": "Senhor das Múmias"
+    },
+    "Nalfeshnee": {
+      "name": "Nalfeshnee"
+    },
+    "Night Hag": {
+      "name": "Bruxa da Noite"
+    },
+    "Nightmare": {
+      "name": "Pesadelo"
+    },
+    "Noble": {
+      "name": "Nobre"
+    },
+    "Ochre Jelly": {
+      "name": "Gosma Ocre"
+    },
+    "Octopus": {
+      "name": "Polvo"
+    },
+    "Ogre": {
+      "name": "Ogro"
+    },
+    "Ogre Zombie": {
+      "name": "Ogro Zumbi"
+    },
+    "Oni": {
+      "name": "Oni"
+    },
+    "Orc": {
+      "name": "Orc"
+    },
+    "Otyugh": {
+      "name": "Otyugh"
+    },
+    "Owl": {
+      "name": "Coruja"
+    },
+    "Owlbear": {
+      "name": "Urso-Coruja"
+    },
+    "Panther": {
+      "name": "Pantera"
+    },
+    "Pegasus": {
+      "name": "Pegasus"
+    },
+    "Phase Spider": {
+      "name": "Aranha Interplanar"
+    },
+    "Pit Fiend": {
+      "name": "Senhor das Profundezas"
+    },
+    "Planetar": {
+      "name": "Planetário"
+    },
+    "Plesiosaurus": {
+      "name": "Plesiossauro"
+    },
+    "Poisonous Snake": {
+      "name": "Serpente Venenosa"
+    },
+    "Polar Bear": {
+      "name": "Urso Polar"
+    },
+    "Pony": {
+      "name": "Pônei"
+    },
+    "Priest": {
+      "name": "Sacerdote"
+    },
+    "Pseudodragon": {
+      "name": "Pseudodragão"
+    },
+    "Purple Worm": {
+      "name": "Verme Púrpura"
+    },
+    "Quasit": {
+      "name": "Quasit"
+    },
+    "Quipper": {
+      "name": "Piranha"
+    },
+    "Rakshasa": {
+      "name": "Rakshasa"
+    },
+    "Rat": {
+      "name": "Rato"
+    },
+    "Raven": {
+      "name": "Corvo"
+    },
+    "Red Dragon Wyrmling": {
+      "name": "Dragão Vermelho Filhote"
+    },
+    "Reef Shark": {
+      "name": "Tubarão dos Arrecifes"
+    },
+    "Remorhaz": {
+      "name": "Remorhaz"
+    },
+    "Rhinoceros": {
+      "name": "Rinoceronte"
+    },
+    "Riding Horse": {
+      "name": "Cavalo de Montaria"
+    },
+    "Roc": {
+      "name": "Roca"
+    },
+    "Roper": {
+      "name": "Estrangulador"
+    },
+    "Rug of Smothering": {
+      "name": "Tapete Sufocador"
+    },
+    "Rust Monster": {
+      "name": "Monstro da Ferrugem"
+    },
+    "Saber-Toothed Tiger": {
+      "name": "Tigre Dentes-de-Sabre"
+    },
+    "Sahuagin": {
+      "name": "Sahuagin"
+    },
+    "Salamander": {
+      "name": "Salamandra"
+    },
+    "Satyr": {
+      "name": "Sátiro"
+    },
+    "Scorpion": {
+      "name": "Escorpião"
+    },
+    "Scout": {
+      "name": "Batedor"
+    },
+    "Sea Hag": {
+      "name": "Bruxa do Mar"
+    },
+    "Sea Horse": {
+      "name": "Cavalo Marinho"
+    },
+    "Shadow": {
+      "name": "Sombra"
+    },
+    "Shambling Mound": {
+      "name": "Arbusto Errante"
+    },
+    "Shield Guardian": {
+      "name": "Guardião do Escudo"
+    },
+    "Shrieker": {
+      "name": "Guinchador"
+    },
+    "Silver Dragon Wyrmling": {
+      "name": "Dragão de Prata Filhote"
+    },
+    "Skeleton": {
+      "name": "Esqueleto"
+    },
+    "Solar": {
+      "name": "Solar"
+    },
+    "Specter": {
+      "name": "Espectro"
+    },
+    "Spider": {
+      "name": "Aranha"
+    },
+    "Spirit Naga": {
+      "name": "Naga Espiritual"
+    },
+    "Sprite": {
+      "name": "Sprite"
+    },
+    "Spy": {
+      "name": "Espião"
+    },
+    "Steam Mephit": {
+      "name": "Mephit do Vapor"
+    },
+    "Stirge": {
+      "name": "Stirge"
+    },
+    "Stone Giant": {
+      "name": "Gigante de Pedra"
+    },
+    "Stone Golem": {
+      "name": "Golem de Pedra"
+    },
+    "Storm Giant": {
+      "name": "Gigante da Tempestade"
+    },
+    "Succubus/Incubus": {
+      "name": "Súcubo/Íncubo"
+    },
+    "Swarm of Bats": {
+      "name": "Enxame de Morcegos"
+    },
+    "Swarm of Beetles": {
+      "name": "Enxame de Besouros"
+    },
+    "Swarm of Centipedes": {
+      "name": "Enxame de Centopeias"
+    },
+    "Swarm of Insects": {
+      "name": "Enxame de Insetos"
+    },
+    "Swarm of Poisonous Snakes": {
+      "name": "Enxame de Serpentes Venenosas"
+    },
+    "Swarm of Quippers": {
+      "name": "Enxame de Piranhas"
+    },
+    "Swarm of Rats": {
+      "name": "Enxame de Ratos"
+    },
+    "Swarm of Ravens": {
+      "name": "Enxame de Corvos"
+    },
+    "Swarm of Spiders": {
+      "name": "Enxame de Aranhas"
+    },
+    "Swarm of Wasps": {
+      "name": "Enxame de Vespas"
+    },
+    "Tarrasque": {
+      "name": "Tarrasque"
+    },
+    "Thug": {
+      "name": "Rufião"
+    },
+    "Tiger": {
+      "name": "Tigre"
+    },
+    "Treant": {
+      "name": "Ente"
+    },
+    "Tribal Warrior": {
+      "name": "Guerreiro Tribal"
+    },
+    "Triceratops": {
+      "name": "Tricerátops"
+    },
+    "Troll": {
+      "name": "Troll"
+    },
+    "Tyrannosaurus Rex": {
+      "name": "Tiranossauro"
+    },
+    "Unicorn": {
+      "name": "Unicórnio"
+    },
+    "Vampire": {
+      "name": "Vampiro"
+    },
+    "Vampire Spawn": {
+      "name": "Cria Vampírica"
+    },
+    "Veteran": {
+      "name": "Veterano"
+    },
+    "Violet Fungus": {
+      "name": "Fungo Violeta"
+    },
+    "Vrock": {
+      "name": "Vrock"
+    },
+    "Vulture": {
+      "name": "Abutre"
+    },
+    "Warhorse": {
+      "name": "Cavalo de Guerra"
+    },
+    "Warhorse Skeleton": {
+      "name": "Esqueleto de Cavalo de Guerra"
+    },
+    "Water Elemental": {
+      "name": "Elemental da Água"
+    },
+    "Weasel": {
+      "name": "Arminho"
+    },
+    "Werebear": {
+      "name": "Homem-Urso"
+    },
+    "Wereboar": {
+      "name": "Homem-Urso"
+    },
+    "Wererat": {
+      "name": "Homem-Rato"
+    },
+    "Weretiger": {
+      "name": "Homem-Tigre"
+    },
+    "Werewolf": {
+      "name": "Lobisomem"
+    },
+    "White Dragon Wyrmling": {
+      "name": "Dragão Branco Filhote"
+    },
+    "Wight": {
+      "name": "Inumano"
+    },
+    "Will-o'-Wisp": {
+      "name": "Fogo-Fátuo"
+    },
+    "Winter Wolf": {
+      "name": "Lobo Invernal"
+    },
+    "Wolf": {
+      "name": "Lobo"
+    },
+    "Worg": {
+      "name": "Worg"
+    },
+    "Wraith": {
+      "name": "Aparição"
+    },
+    "Wyvern": {
+      "name": "Wyvern"
+    },
+    "Xorn": {
+      "name": "Xorn"
+    },
+    "Young Black Dragon": {
+      "name": "Dragão Negro Jovem"
+    },
+    "Young Blue Dragon": {
+      "name": "Dragão Azul Jovem"
+    },
+    "Young Brass Dragon": {
+      "name": "Dragão de Latão Jovem"
+    },
+    "Young Bronze Dragon": {
+      "name": "Dragão de Bronze Jovem"
+    },
+    "Young Copper Dragon": {
+      "name": "Dragão de Cobre Jovem"
+    },
+    "Young Gold Dragon": {
+      "name": "Dragão de Ouro Jovem"
+    },
+    "Young Green Dragon": {
+      "name": "Dragão Verde Jovem"
+    },
+    "Young Red Dragon": {
+      "name": "Dragão Vermelho Jovem"
+    },
+    "Young Silver Dragon": {
+      "name": "Dragão de Prata Jovem"
+    },
+    "Young White Dragon": {
+      "name": "Dragão Branco Jovem"
+    },
+    "Zombie": {
+      "name": "Zumbi"
+    }
+  }
+}

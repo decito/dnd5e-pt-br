@@ -1,0 +1,54 @@
+{
+  "id": "decito-dnd5e-pt-br",
+  "title": "Translation: Português Brasileiro [D&D 5e](SRD)",
+  "description": "Tradução para o Português do Brasil do sistema D&D 5E (SRD)",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pt-BR",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "dnd5e_pt-BR",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["main.js"],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português Brasileiro",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "decito",
+      "flags": {}
+    }
+  ]
+}

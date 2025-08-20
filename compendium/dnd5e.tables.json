@@ -1,0 +1,129 @@
+{
+  "label": "Tabelas",
+  "entries": {
+    "Armor of Resistance": {
+      "name": "Armor of Resistance",
+      "description": ""
+    },
+    "Bag of Beans": {
+      "name": "Bag of Beans",
+      "description": ""
+    },
+    "Bonds (Acolyte)": {
+      "name": "Bonds (Acolyte)",
+      "description": ""
+    },
+    "Candle of Invocation": {
+      "name": "Candle of Invocation",
+      "description": ""
+    },
+    "Carpet of Flying": {
+      "name": "Carpet of Flying",
+      "description": ""
+    },
+    "Confusion": {
+      "name": "Confusion",
+      "description": ""
+    },
+    "Efreeti Bottle": {
+      "name": "Efreeti Bottle",
+      "description": ""
+    },
+    "Feather Token": {
+      "name": "Feather Token",
+      "description": "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect."
+    },
+    "Flaws (Acolyte)": {
+      "name": "Flaws (Acolyte)",
+      "description": ""
+    },
+    "Grey Bag of Tricks": {
+      "name": "Grey Bag of Tricks",
+      "description": ""
+    },
+    "Horn of Valhalla": {
+      "name": "Horn of Valhalla",
+      "description": ""
+    },
+    "Ideals (Acolyte)": {
+      "name": "Ideals (Acolyte)",
+      "description": ""
+    },
+    "Indefinite Madness": {
+      "name": "Indefinite Madness",
+      "description": "The character is afflicted with indefinite madness."
+    },
+    "Iron Flask": {
+      "name": "Iron Flask",
+      "description": ""
+    },
+    "Long-Term Madness": {
+      "name": "Long-Term Madness",
+      "description": "<p>The character is afflicted with long-term madness for [[/r 1d10*10]] hours.</p>"
+    },
+    "Manual of Golems": {
+      "name": "Manual of Golems",
+      "description": ""
+    },
+    "Necklace of Prayer Beads": {
+      "name": "Necklace of Prayer Beads",
+      "description": ""
+    },
+    "Personality Traits (Acolyte)": {
+      "name": "Personality Traits (Acolyte)",
+      "description": ""
+    },
+    "Potion of Resistance": {
+      "name": "Poção de Resistência",
+      "description": ""
+    },
+    "Reincarnate": {
+      "name": "Reincarnar",
+      "description": ""
+    },
+    "Ring of Resistance": {
+      "name": "Anel de Resistência",
+      "description": ""
+    },
+    "Robe of Useful Items": {
+      "name": "Manto de Itens Úteis",
+      "description": ""
+    },
+    "Rust Bag of Tricks": {
+      "name": "Bolsa Ferrugenta de Truques",
+      "description": ""
+    },
+    "Sentient Magic Items Alignment": {
+      "name": "Alinhamento de Itens Mágicos Sentientes",
+      "description": ""
+    },
+    "Sentient Magic Items Communication": {
+      "name": "Sentient Magic Items Communication",
+      "description": ""
+    },
+    "Sentient Magic Items Purpose": {
+      "name": "Sentient Magic Items Purpose",
+      "description": ""
+    },
+    "Sentient Magic Items Senses": {
+      "name": "Sentient Magic Items Senses",
+      "description": ""
+    },
+    "Short-Term Madness": {
+      "name": "Short-Term Madness",
+      "description": "<p>The character is afflicted with short-term madness for [[/r 1d10]] minutes.</p>"
+    },
+    "Sphere of Annihilation": {
+      "name": "Sphere of Annihilation",
+      "description": ""
+    },
+    "Tan Bag of Tricks": {
+      "name": "Tan Bag of Tricks",
+      "description": ""
+    },
+    "Wand of Wonder": {
+      "name": "Wand of Wonder",
+      "description": ""
+    }
+  }
+}

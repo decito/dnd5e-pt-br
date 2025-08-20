@@ -1,0 +1,1013 @@
+{
+  "label": "Características",
+  "entries": {
+    "Aberrant Ground": {
+      "description": "<section class=\"secret\">\n<p>O solo fica pegajoso e torna-se terreno difícil em um <strong>raio de 3 metros</strong> em torno do {creature}.</p><p>Cada criatura que inicie o turno nessa área deve ser bem-sucedida em uma <strong>salvaguarda de Força CD 10</strong>, ou tem o deslocamento reduzido para 0 até o começo do seu próximo turno.</p>\n</section>\n<p>O solo fica pegajoso e torna-se terreno difícil em um <strong>raio de 3 metros</strong> em torno do {creature}. Faça uma salvaguarda de <strong>Força</strong>.</p>",
+      "name": "Solo Aberrante"
+    },
+    "Acid Absorption": {
+      "description": "<p>Sempre que {creature} for alvo de <strong><em>dano ácido</em></strong>, ele não sofre dano e recupera uma quantidade de <strong>pontos de vida</strong> equivalente ao <strong><em>dano ácido</em> causado</strong>.</p>",
+      "name": "Absorção de Ácido"
+    },
+    "Acid Breath": {
+      "description": "<section class=\"secret\">\n<p>O {type} exala ácido em uma linha de 18 metros de comprimento por 1,5 metros de largura.</p> \n<p>Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza CD 18</strong>, sofrendo <strong>54 (12d8) pontos de <em>dano ácido</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>O {type} exala ácido em uma linha de 18 metros de comprimento por 1,5 metros de largura. Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza</strong></p>",
+      "name": "Sopro Ácido"
+    },
+    "Acid Spray": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} cospe ácido em uma linha de 9 metros de comprimento e 1,5 metro de largura, desde que ele não esteja agarrando nenhuma criatura.<p></p>Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza CD 13</strong>, sofrendo <strong>10 (3d6) pontos de <em>dano ácido</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>A criatura {creature} cospe ácido em uma linha de 9 metros de comprimento e 1,5 metro de largura. Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Jato Ácido"
+    },
+    "Adhesive": {
+      "description": "<section class=\"secret\"><p>O {creature} adere a tudo que toca. Uma criatura Enorme ou menor aderida ao {creature} também fica agarrada por ele <strong>(CD 13 para escapar)</strong>. Testes de atributo feitos para escapar deste agarramento têm desvantagem.</p></section><p>O {creature} adere a tudo que toca. Uma criatura Enorme ou menor aderida ao {creature} também fica agarrada por ele. Faça um teste para escapar, com desvantagem.</p>",
+      "name": "Adesivo"
+    },
+    "Aggressive": {
+      "description": "<p>Com uma ação bônus, o {creature} pode mover-se até o máximo do seu deslocamento em direção a uma criatura hostil à sua vista.</p>",
+      "name": "Agressivo"
+    },
+    "Air Form": {
+      "description": "<p>A criatura {creature} pode entrar no espaço de uma criatura hostil e parar nele. O elemental pode mover-se através de um espaço tão estreito quanto 2,5 centímetros de largura sem se espremer.</p>",
+      "name": "Forma de Ar"
+    },
+    "Ambusher": {
+      "description": "<p>Na primeira rodada de um combate, a criatura {creature} tem <strong>vantagem</strong> em jogadas de ataque contra qualquer criatura que tenha surpreendido.</p>",
+      "name": "Emboscador"
+    },
+    "Amorphous": {
+      "description": "<p>O {creature} pode mover-se através de espaços tão estreitos quanto 2,5 centímetros de largura sem se espremer.</p>",
+      "name": "Amorfo"
+    },
+    "Amphibious": {
+      "description": "<p>O {creature} pode respirar ar e água.</p>",
+      "name": "Anfíbio"
+    },
+    "Angelic Weapons": {
+      "description": "<section class=\"secret\">\n<p>Os ataques armados do {creature} são mágicos. Quando o {creature} acerta com qualquer arma, esta causa <strong>4d8 pontos de <em>dano radiante</em> adicionais</strong> (incluídos no ataque).</p>\n</section>\n<p>Os ataques armados do {creature} são mágicos. Quando o {creature} acerta com qualquer arma, esta causa <em>dano radiante</em> adicional (incluído no ataque).</p>",
+      "name": "Armas Angelicais"
+    },
+    "Animate Chains": {
+      "description": "<section class=\"secret\">\n<p>Até quatro correntes à vista e a até 18 metros do {type} são animadas sob o controle do {type}, delas brotando magicamente farpas afiadas, desde que as correntes não estejam sendo usadas ou carregadas.</p>\n<p>Cada corrente animada é um objeto com CA 20, 20 pontos de vida, resistência a <em>dano perfurante</em>, e imunidade a dano psíquico e trovejante. Quando o {type} usa Ataques Múltiplos no seu turno, ele pode fazer um ataque adicional com cada corrente animada. Uma corrente animada pode agarrar uma criatura por conta própria, mas não ataca enquanto estiver agarrando. Uma corrente animada volta ao estado inanimado se reduzida a 0 pontos de vida ou se o {type} ficar incapacitado ou morrer.</p>\n</section>\n<p>Até quatro correntes à vista e a até 18 metros do {type} são animadas sob o controle do {type}, delas brotando magicamente farpas afiadas, desde que as correntes não estejam sendo usadas ou carregadas.</p>",
+      "name": "Animar Correntes"
+    },
+    "Animate Trees": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} anima magicamente uma ou duas árvores à vista e a <strong>até 18 metros</strong> dele. Estas árvores têm as mesmas estatísticas de uma criatura {creature}, exceto que elas têm o valor de Inteligência e Carisma igual a 1, não podem falar e têm apenas a opção de ação Pancada.</p><p>Uma árvore animada age como um aliado da criatura {creature}. A árvore permanece animada por um dia, ou até morrer; até que a criatura {creature} morra ou fique a mais de 36 metros da árvore; ou até que a criatura {creature} use uma ação bônus para transformá-la de volta em uma árvore inanimada. A árvore, então, se enraíza, caso isso seja possível.</p></section><p>A criatura {creature} anima magicamente uma ou duas árvores à vista e a <strong>até 18 metros</strong> dele.</p>",
+      "name": "Animar Árvores"
+    },
+    "Antennae": {
+      "description": "<section class=\"secret\"><p>O {creature} corrói qualquer metal ferroso não mágico à vista e a até 1,5 metro dele. Se o objeto não estiver sendo usado ou carregado, o toque destrói um cubo de 30 centímetros dele.</p><p>Se o objeto estiver sendo usado ou carregado por uma criatura, ela pode realizar uma salvaguarda de <strong>Destreza CD 11</strong> para evitar o toque do {creature}. Se o objeto tocado for uma armadura ou escudo de metal sendo usado ou carregado, este sofre uma penalidade permanente e cumulativa de -1 na sua CA. Armaduras que tenham a CA reduzida a 10 e escudos que tenham seu bônus reduzidos para +0 são destruídos. Se o objeto tocado for uma arma de metal, ela enferruja como descrito na característica Enferrujar Metal.</p></section>\n<p>O {creature} corrói qualquer metal ferroso não mágico à vista e a até 1,5 metro dele.  Se o objeto não estiver sendo usado ou carregado, o toque destrói um cubo de 30 centímetros dele.</p>",
+      "name": "Antena"
+    },
+    "Antimagic Susceptibility": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} fica incapacitada enquanto estiver na área de um campo antimagia.</p>\n<p> Se for alvo de dissipar magia, ela deve ser bem-sucedida em uma salvaguarda de Constituição contra a CD para evitar a magia do conjurador, ou fica inconsciente por <strong>1 minuto</strong>.</p>\n</section>\n<p>A criatura {creature} fica incapacitada enquanto estiver na área de um campo antimagia.</p>",
+      "name": "Suscetibilidade a Antimagia"
+    },
+    "Assassinate": {
+      "description": "<p>Durante o primeiro turno da criatura {creature}, ele tem vantagem em jogadas de ataque contra qualquer criatura que ainda não tenha iniciado o próprio turno. Qualquer acerto da criatura {creature} contra uma criatura surpreendida é um acerto crítico.</p>",
+      "name": "Assassinar"
+    },
+    "Aversion of Fire": {
+      "description": "<section class=\"secret\">\n<p>Se a criatura {creature} sofrer <strong><em>dano ígneo</em></strong>, ele tem <strong>desvantagem</strong> em jogadas de ataque e testes de atributo até o final do seu próximo turno.</p>\n</section>\n<p>Se a criatura {creature} sofrer <strong><em>dano ígneo</em></strong>, ele tem <strong>desvantagem</strong> em algumas rolagens.</p>",
+      "name": "Aversão a Fogo"
+    },
+    "Barbed Hide": {
+      "description": "<p>No começo de cada turno da criatura {creature}, ela causa <strong>5 (1d10) pontos de <em>dano perfurante</em></strong> em qualquer criatura que o esteja agarrando.</p>",
+      "name": "Couro Farpado"
+    },
+    "Beast of Burden": {
+      "description": "<p>A {creature} é considerada um animal Grande para determinar a sua capacidade de carga.</p>",
+      "name": "Animal de Carga"
+    },
+    "Berserk": {
+      "description": "<section class=\"secret\">\n<p>Sempre que a criatura {creature} inicia o turno com <strong>60 pontos de vida</strong> ou menos, jogue 1d6. Se o resultado for 6, ela fica furiosa. Em cada um dos seus turnos enquanto estiver furiosa, a criatura {creature} ataca a criatura mais próxima à vista.</p>\n<p>Se não houver criatura perto o suficiente para que ele se mova e ataque, a criatura {creature} ataca um objeto, preferindo aqueles menores do que ele próprio. Uma vez furioso, ele continua assim até que seja destruído ou recupere todos os <strong>pontos de vida</strong>.</p>\n</section>\n<p>A criatura {creature} fica furiosa. Em cada um dos seus turnos enquanto estiver furiosa, a criatura {creature} ataca a criatura mais próxima à vista. Se não houver criatura perto o suficiente para que ele se mova e ataque, a criatura {creature} ataca um objeto, preferindo aqueles menores do que ele próprio.</p>",
+      "name": "Furioso"
+    },
+    "Bite": {
+      "description": "<section class=\"secret\">\n<p>Arma de Combate Corpo a Corpo: +11 para acertar, alcance 3 m, uma criatura. Dano: 17 (2d10 + 6) perfurante.</p>\n</section>\n<p>A criatura {creature} ataca com sua mordida.</p>",
+      "name": "Mordida"
+    },
+    "Blasphemous Word": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} profere uma palavra blasfema. Cada criatura não {type} a até 3 metros da criatura {creature} que possa ouvir a palavra mágica proferida deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 16</strong> ou fica atordoada até o final do próximo turno da criatura {creature}.</p>\n</section>\n<p>A criatura {creature} profere uma palavra blasfema. Cada criatura não {type} a até 3 metros da criatura {creature} que possa ouvir a palavra mágica proferida deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Palavra Blasfema"
+    },
+    "Blind Senses": {
+      "description": "<p>O(a) {creature} não pode usar a percepção às cegas enquanto estiver surdo e é incapaz de usar o olfato.</p>",
+      "name": "Percepção às Cegas"
+    },
+    "Blinding Breath": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} exala um cone de 4,5 metros de poeira cegante.</p><p>Cada criatura naquela área deve ser bem-sucedida em uma salvaguarda de <strong>Destreza CD 10</strong> ou fica cega por 1 minuto. Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p>A criatura {creature} exala um cone de 4,5 metros de poeira cegante. Cada criatura naquela área deve ser bem-sucedida em uma salvaguarda de <strong>Destreza</strong>. Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos.</p>",
+      "name": "Sopro Cegante"
+    },
+    "Blinding Dust": {
+      "description": "<section class=\"secret\">\n<p>Poeira cegante e areia rodopiam magicamente ao redor da criatura {creature}. Cada criatura a até 1,5 metro dela deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 16</strong> ou fica cega até o final do seu próximo turno.</p>\n</section>\n<p>Poeira cegante e areia rodopiam magicamente ao redor da criatura {creature}. Cada criatura a até 1,5 metro dela deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Poeira Cegante"
+    },
+    "Blinding Gaze": {
+      "description": "<section class=\"secret\">O(a) {creature} escolhe uma criatura à vista a até 9 metros dele. Se o alvo puder vê-lo, deve ser bem-sucedido em uma salvaguarda de <strong>Constituição CD 15</strong> ou fica cego até que uma magia como restauração menor remova a cegueira.</section>\n<p>O(a) {creature} escolhe uma criatura à vista a até 9 metros dele. Se o alvo puder vê-lo, deve ser bem-sucedido em uma salvaguarda de Constituição ou fica cego.</p>",
+      "name": "Olhar Cegante"
+    },
+    "Blinding Spittle": {
+      "description": "<section class=\"secret\">\n<p>O {creature} cospe uma bolha química em um ponto à vista e a até 4,5 metros. A bolha explode em um clarão de luz cegante no momento do impacto.</p><p>Cada criatura a até 1,5 metro da explosão deve ser bem-sucedida em uma salvaguarda de <strong>Destreza CD 13</strong> ou fica cega até o final do próximo turno do {creature}.</p>\n</section>\n<p>O {creature} cospe uma bolha química em um ponto à vista e a até 4,5 metros. A bolha explode em um clarão de luz cegante no momento do impacto. Cada criatura a até 1,5 metro da explosão deve ser bem-sucedida em uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Cusparada Cegante"
+    },
+    "Blood Frenzy": {
+      "description": "<p>O(a) {creature} tem <strong>vantagem</strong> nas jogadas de ataque corpo a corpo contra qualquer criatura que não esteja com todos os <strong>pontos de vida</strong>.</p>",
+      "name": "Frenesi de Sangue"
+    },
+    "Bound": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} está magicamente vinculado a um amuleto. Enquanto ambos estiverem no mesmo plano de existência, o usuário do amuleto pode ordenar telepaticamente que a criatura {creature} venha até ele. A criatura {creature} sabe a distância e direção exatas até o amuleto.</p><p>Caso esteja a <strong>até 18 metros</strong> do portador do amuleto, metade de qualquer dano que o portador sofra (arredondado para cima) é transferido para a criatura {creature}.</p>\n</section>\n<p>A criatura {creature} está magicamente vinculado a um amuleto.</p>",
+      "name": "Vínculo"
+    },
+    "Brave": {
+      "description": "<p>O {creature} tem vantagem em salvaguardas contra ficar amedrontado.</p>",
+      "name": "Bravura"
+    },
+    "Breath Weapons": {
+      "description": "<section class=\"secret\">\n<p>(<strong>OBSERVAÇÃO: ISSO SÓ DEVE SER USADO SE A CRIATURA TIVER MAIS DE UM TIPO DE SOPRO E CONTÉM AS CARGAS PARA ESSES SOPROS. CADA SOPRO TAMBÉM DEVE SER ADICIONADA SEPARADAMENTE.</strong>)</p><p><br />O {type} usa um dos seguintes sopros.</p><p>**Sopro de Fogo.** O {type} exala fogo em um cone de 18 metros. Cada criatura na área deve fazer uma salvaguarda de <strong>Destreza CD 21</strong>, sofrendo <strong>45 (13d6) <em>pontos de dano ígneo</em></strong> se falhar, ou metade do dano em caso de sucesso.</p><p>**Sopro Sonífero.** O {type} exala gás sonífero em um cone de 18 metros. Cada criatura nessa área deve ser bem-sucedido em uma salvaguarda de <strong>Constituição CD 18</strong> ou fica inconsciente por 10 minutos. Este efeito se encerra para a criatura se ela sofrer dano ou se alguém usar uma ação para acordá-la.</p>\n</section>\n<p>O {type} inspira!</p>",
+      "name": "Armas de Sopro"
+    },
+    "Brute": {
+      "description": "<p>Uma arma de combate corpo a corpo causa um dado de dano adicional quando o {creature} acerta um ataque com ela (incluso no ataque).</p>",
+      "name": "Bruto"
+    },
+    "Cast a Spell": {
+      "description": "<p>A criatura {creature} conjura uma magia da sua lista de magias preparadas, usando um espaço de magia normalmente.</p>",
+      "name": "Conjurar Magia"
+    },
+    "Change Shape": {
+      "description": "<p>O {type} magicamente se <strong>transforma</strong> em um <strong>humanoide</strong> ou em uma <strong>fera</strong> que tenha nível de desafio igual ou menor ao dele próprio, ou retorna para a sua forma verdadeira. Ele reverte para a forma verdadeira ao morrer. Qualquer equipamento que esteja usando ou carregando é absorvido ou carregado pela nova forma (à escolha do {type}).</p><p>Na nova forma, o {type} <strong>mantém seu alinhamento, pontos de vida, Dados de Vida, a habilidade de falar, proficiências, Resistência Lendária, ações de covil e valores de Inteligência, Sabedoria e Carisma, assim como esta ação. </strong>As estatísticas e capacidades do dragão são substituídas pelas da nova forma, <strong>exceto por quaisquer características de classe ou ações lendárias da nova forma.</strong></p>",
+      "name": "Alterar Forma"
+    },
+    "Channel Negative Energy": {
+      "description": "<p>A criatura {creature} magicamente libera energia negativa. Criaturas a até 18 metros dela, incluindo as que estiverem protegidas por barreiras e cantos, não podem recuperar pontos de vida até o final do próximo turno da criatura {creature}.</p>",
+      "name": "Canalizar Energia Negativa"
+    },
+    "Charge": {
+      "description": "<section class=\"secret\">\n<p>Se a criatura {creature} se mover pelo menos 6 metros em linha reta em direção a um alvo e, no mesmo turno, atingi-lo com as presas, o alvo sofre <strong>3 (1d6) pontos de <em>dano cortante</em></strong> adicionais.</p><p>Se o alvo for uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Força CD 11</strong> ou ficará caída.</p>\n</section>\n<p>Se a criatura {creature} se mover pelo menos 6 metros em linha reta em direção a um alvo e, no mesmo turno, atingi-lo com as presas, o alvo sofre pontos de <em>dano cortante</em> adicionais. Se o alvo for uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Força</strong> ou ficará caída.</p>",
+      "name": "Carga"
+    },
+    "Charm": {
+      "description": "<section class=\"secret\">\n<p>Um humanoide que o {creature} possa ver a até 9 metros dele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria Cd 15</strong> ou fica magicamente enfeitiçado por 1 dia. O alvo enfeitiçado obedece aos comandos verbais ou telepáticos do {creature}.</p><p>Se o alvo sofrer qualquer dano ou receber um comando suicida, ele pode repetir a salvaguarda, encerrando o efeito sobre si em caso de sucesso. Se for bem-sucedido contra o efeito, ou se o efeito acabar, o alvo fica imune à Enfeitiçar do {creature} pelas próximas 24 horas. O {creature} só pode ter um único alvo enfeitiçado de cada vez. Se enfeitiçar outro, o efeito sobre o alvo anterior termina.</p>\n</section>\n<p>Um humanoide que o {creature} possa ver a até 9 metros dele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Enfeitiçar"
+    },
+    "Children of the Night": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} convoca magicamente 2d4 fúrias de morcegos ou ratos, desde que o sol não tenha nascido. Enquanto ao ar livre, em vez disso a criatura {creature} pode chamar 3d6 lobos. </p><p>As criaturas chamadas chegam em 1d4 rodadas, atuando como aliados da criatura {creature} e obedecendo aos comandos dela. Os animais permanecem por 1 hora, até que a criatura {creature} morra ou até a criatura {creature} dispensá-los com uma ação bônus.</p></section><p>A criatura {creature} convoca magicamente fúrias de morcegos ou ratos. Enquanto ao ar livre, em vez disso a criatura {creature} pode chamar lobos.</p>",
+      "name": "Filhos da Noite"
+    },
+    "Chomp": {
+      "description": "<p>O {creature} faz um ataque de mordida ou usa Engolir.</p>",
+      "name": "Mastigar"
+    },
+    "Claw Attack": {
+      "description": "<p>A criatura {creature} faz um ataque de garra.</p>",
+      "name": "Ataque com Garras"
+    },
+    "Cold Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro Congelante.** O {type} exala uma rajada de gelo em um cone de 18 metros. Cada criatura nessa área deve fazer uma salvaguarda de <strong>Constituição CD 20</strong>, sofrendo <strong>58 (13d8) pontos de <em>dano gélido</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>O {type} exala uma rajada de gelo em um cone de 18 metros. Cada criatura nessa área deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Congelante"
+    },
+    "Confer Fire Resistance": {
+      "description": "<p>O {creature} pode conceder resistência a <em>dano ígneo</em> a qualquer um que o cavalgar.</p>",
+      "name": "Conferir Resistência ao Fogo"
+    },
+    "Consume Life": {
+      "description": "<section class=\"secret\"><p>Com uma ação bônus, o {creature} pode escolher uma criatura à vista e a até <strong>1,5 metro</strong> dele, que tenha <strong>0 ponto de vida</strong> e ainda esteja viva.</p><p>O alvo deve ser bem-sucedido em uma <strong>salvaguarda de Constituição CD 10</strong> contra esta magia ou morre. Se o alvo morrer, o {creature} recupera 10 (3d6) <strong>pontos de vida</strong>.</p></section><p>O {creature} pode escolher uma criatura à vista e a até <strong>1,5 metro</strong> dele. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição.</p>",
+      "name": "Consumir Vida"
+    },
+    "Corrode Metal": {
+      "description": "<section class=\"secret\">\n<p>Qualquer arma não-mágica feita de metal que atinja o {type}, é corroída. Após <strong>causar dano</strong>, a arma sofre uma penalidade permanente e cumulativa de –1 nas jogadas de dano.</p><p>Se a penalidade chegar a –5, a arma é destruída. Munições não-mágicas feitas de metal que atingirem o {type} são destruídas depois de causarem dano. O {type} pode corroer até 5 centímetros de metais não mágicos por rodada.</p>\n</section>\n<p>O {type} corrói metal</p>",
+      "name": "Corroer Metal"
+    },
+    "Corrosive Form": {
+      "description": "<section class=\"secret\">\n<p>Uma criatura que toque a criatura {creature} ou a acerte com um ataque corpo a corpo enquanto estiver a até 1, 5 metro dele, sofre <strong>4 (1d8) pontos de <em>dano ácido</em></strong>. A criatura {creature} corrói qualquer arma não mágica feita de metal ou madeira que o acerte.</p><p> Após causar dano, a arma sofre uma penalidade permanente e cumulativa de -1 nas jogadas de dano. Se a penalidade cair para -5, a arma é destruída. Munição não mágica feita de metal ou madeira que acerte a criatura {creature} é destruída após causar dano. O pudim pode corroer até 5 centímetros de metal ou madeira não mágicos por rodada.</p>\n</section>\n<p>Uma criatura que toque a criatura {creature} ou a acerte com um ataque corpo a corpo enquanto estiver a até 1, 5 metro dele, sofre <em>dano ácido</em>. A criatura {creature} corrói qualquer arma não mágica feita de metal ou madeira que o acerte.</p>",
+      "name": "Forma Corrosiva"
+    },
+    "Create Specter": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} escolhem um humanoide a uma distância de até 3 metros que esteja morto há não mais de 1 minuto e tenha morrido de forma violenta. </p><p>O espírito do alvo ergue-se como um espectro no espaço do seu cadáver ou no espaço desocupado mais próximo. O espectro fica sob controle da criatura {creature}. A criatura {creature} não pode ter mais do que sete espectros sob seu controle de uma vez.</p></section><p>O espírito do alvo ergue-se como um espectro no espaço do seu cadáver ou no espaço desocupado mais próximo.</p>",
+      "name": "Criar Espectro"
+    },
+    "Create Whirlwind": {
+      "description": "<section class=\"secret\">\n<p>Um cilindro de 1,5 metro de raio, 9 metros de altura, feito de ar rodopiante, se forma magicamente em um ponto à vista e até 36 metros do {creature}. O redemoinho dura enquanto o {creature} mantiver a concentração (como se estivesse se concentrando em uma magia).</p><p>Qualquer criatura, exceto o {creature}, que entre no redemoinho deve ser bem sucedida em uma salvaguarda de <strong>Força CD 18<strong> ou fica contida por ele. O {creature} pode mover o redemoinho até 18 metros com uma ação, e as criaturas contidas pelo vendaval se movem com ele. O redemoinho se desfaz se o {creature} o perder de vista.</p><p>Uma criatura pode usar sua ação para libertar uma criatura contida pelo vendaval, incluindo a si mesma, sendo bem sucedida num teste de Força CD 18. Em caso de sucesso, a criatura não está mais contida e se move para o espaço livre mais próximo fora do redemoinho.</p>\n</section>\n<p>Um cilindro de 1,5 metro de raio, 9 metros de altura, feito de ar rodopiante, se forma magicamente em um ponto à vista e até 36 metros do {creature}. Qualquer criatura, exceto o {creature}, que entre no redemoinho deve ser bem sucedida em uma salvaguarda de <strong>Força<strong> ou fica contida por ele. O {creature} pode mover o redemoinho até 18 metros com uma ação, e as criaturas contidas pelo vendaval se movem com ele. Uma criatura pode usar sua ação para libertar uma criatura contida pelo vendaval, incluindo a si mesma, sendo bem sucedida num teste de Força CD. Em caso de sucesso, a criatura não está mais contida e se move para o espaço livre mais próximo fora do redemoinho.</p>",
+      "name": "Criar Redemoinho"
+    },
+    "Cunning Action": {
+      "description": "<p>Em cada um dos seus turnos, a criatura {creature} pode usar uma ação bônus para executar a ação Correr, Desengajar ou Esconder.</p>",
+      "name": "Ação Ardilosa"
+    },
+    "Damage Transfer": {
+      "description": "<p>Enquanto estiver agarrado a uma criatura, o {creature} sofre apenas metade do dano causado a ele (arredondado para baixo), e a criatura agarrada pelo tapete sofre a outra metade.</p>",
+      "name": "Transferência de Dano"
+    },
+    "Dark Devotion": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em salvaguardas contra ficar enfeitiçado ou amedrontado.</p>",
+      "name": "Devoção Obscura"
+    },
+    "Darkness Aura": {
+      "description": "<section class=\"secret\">\n<p>Uma escuridão mágica de 4,5 metros de raio se estende da criatura {creature}, move-se com ele e se alastra, contornando cantos. A escuridão dura enquanto a criatura {creature} mantiver a concentração, até 10 minutos (como se estivesse se concentrando em uma magia).</p><p>Visão no escuro não pode penetrar esta escuridão, e nenhuma luz natural pode iluminá-la. Se a escuridão se sobrepuser a uma área de luz criada por uma magia de 2° círculo ou inferior, a magia que criou a luz é dissipada.</p>\n</section>\n<p>Uma escuridão mágica de 4,5 metros de raio se estende da criatura {creature}, move-se com ele e se alastra, contornando cantos. Visão no escuro não pode penetrar esta escuridão, e nenhuma luz natural pode iluminá-la.</p>",
+      "name": "Aura de Escuridão"
+    },
+    "Deadly leap": {
+      "description": "<section class=\"secret\">\n<p>Se a criatura {creature} saltar ao menos 4,5 metros como parte do movimento, ele pode, então, usar uma ação para cair em pé em um espaço que contenha uma ou mais criaturas.</p><p> Cada uma das criaturas deve ser bem-sucedida em uma salvaguarda de Força ou Destreza CD 16 (à escolha do alvo) ou fica caída e sofre <strong>14 (3d6 + 4) pontos de <em>dano contundente</em></strong> mais <strong>14 (3d6 + 4) pontos de <em>dano cortante</em></strong>. Em caso de sucesso, a criatura sofre apenas metade do dano, não fica caída e é empurrada 1,5 metro para fora do espaço da criatura {creature}, até um espaço desocupado à escolha da criatura. Se nenhum espaço desocupado estiver dentro do alcance, a criatura fica caída no espaço da criatura {creature}.</p>\n</section>\n<p>Se a criatura {creature} saltar ao menos 4,5 metros como parte do movimento, ele pode, então, usar uma ação para cair em pé em um espaço que contenha uma ou mais criaturas. Cada uma das criaturas deve ser bem-sucedida em uma salvaguarda de Força ou Destreza (à escolha do alvo) ou fica caída.</p>",
+      "name": "Salto Mortal"
+    },
+    "Death Burst": {
+      "description": "<section class=\"secret\">\n<p>Quando o {creature} morre, ele explode em uma erupção de pó. Cada criatura a até <strong>1,5 metro</strong> dele deve ser bemsucedida em uma salvaguarda de <strong>Constituição CD 10</strong> ou fica cega por <strong>1 minuto</strong>. Uma criatura cega pode repetir a salvaguarda no final de cada turno dela, encerrando o efeito em si mesma em caso de sucesso.</p>\n</section>\n<p>Quando o {creature} morre, ele explode em uma erupção de pó. Cada criatura a até <strong>1,5 metro</strong> dele deve ser bemsucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Explosão da Morte"
+    },
+    "Death Glare": {
+      "description": "<section class=\"secret\">\n<p>A {creature} escolhe como alvo uma criatura à vista e a até 9 metros dela. Se o alvo puder ver a {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 11</strong> contra esta magia ou cai para 0 pontos de vida.</p>\n</section>\n<p>A {creature} escolhe como alvo uma criatura à vista e a até 9 metros dela. Se o alvo puder ver a {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong> contra esta magia",
+      "name": "Olhar Mortal"
+    },
+    "Death Throes": {
+      "description": "<section class=\"secret\">\n<p>Quando a criatura {creature} morre, ela explode, e cada criatura a até 9 metros dele deve fazer uma salvaguarda de <strong>Destreza CD 20</strong>, sofrendo <strong>70 (20d6) pontos de <em>dano ígneo</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n<p>A explosão incendeia objetos inflamáveis na área, que não estejam sendo usados ou carregados, e destrói as armas da criatura {creature}.</p>\n</section>\n<p>Quando a criatura {creature} morre, ela explode, e cada criatura a até 9 metros dele deve fazer uma salvaguarda de <strong>Destreza</strong>. A explosão incendeia objetos inflamáveis na área, que não estejam sendo usados ou carregados, e destrói as armas da criatura {creature}.</p>",
+      "name": "Espasmos de Morte"
+    },
+    "Detect (Legendary)": {
+      "description": "<p>O {creature} faz um teste de Sabedoria (Percepção).</p>",
+      "name": "Detectar (Lendário)"
+    },
+    "Devil Sight": {
+      "description": "<p>Escuridão mágica não impede a visão no escuro desta criatura {creature}.</p>",
+      "name": "Visão Diabólica"
+    },
+    "Disrupt Life": {
+      "description": "<section class=\"secret\">\n<p>Cada criatura não {type} a até 6 metros da criatura {creature} deve fazer uma salvaguarda de <strong>Constituição CD 18</strong> contra esta magia, sofrendo <strong>21 (6d6) pontos de <em>dano necrótico</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>Cada criatura não {type} a até 6 metros da criatura {creature} deve fazer uma salvaguarda de <strong>Constituição</strong> contra esta magia.</p>",
+      "name": "Romper Vida"
+    },
+    "Divine Awareness": {
+      "description": "<p>O {creature} sabe quando ouve uma mentira.</p>",
+      "name": "Consciência Divina"
+    },
+    "Divine Eminence": {
+      "description": "<section class=\"secret\"><p>Com uma ação bônus, o {creature} pode gastar um espaço de magia para que seus ataques com armas de combate corpo a corpo causem <strong>10 (3d6) pontos de <em>dano radiante</em></strong> adicionais a um alvo, no caso de acerto.</p><p>Este benefício dura até o final do próximo turno. Se o {creature} gastar um espaço de magia de 2° círculo ou superior, o dano adicional aumenta em 1d6 para cada espaço acima do 1°.</p></section><p>Com uma ação bônus, o {creature} pode gastar um espaço de magia para que seus ataques com armas de combate corpo a corpo causem pontos de <em>dano radiante</em> adicionais, no caso de acerto.</p>",
+      "name": "Eminência Divina"
+    },
+    "Draining Kiss": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} beija uma criatura enfeitiçada por ele ou uma criatura voluntária. O alvo deve fazer uma salvaguarda de <strong>Constituição CD 15</strong> contra esta magia, sofrendo <strong>32 (5d10 + 5) pontos de <em>dano psíquico</em></strong> se falhar, ou metade do dano em caso de sucesso.</p><p>Os pontos de vida máximos do alvo são reduzidos em uma quantidade equivalente ao dano sofrido. Esta redução dura até o alvo terminar um descanso longo. O alvo morre se este efeito reduzir seus pontos de vida máximos a 0.</p>\n</section>\n<p>O alvo deve fazer uma salvaguarda de <strong>Constituição</strong> contra esta magia.</p>",
+      "name": "Beijo Drenante"
+    },
+    "Dreadful Glare": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} escolhe uma criatura à vista e a até 18 metros dela. Se o alvo puder ver a criatura {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 11</strong> contra esta magia ou fica amedrontado até o final do próximo turno da criatura {creature}.</p><p> Se o alvo falhar por 5 ou mais, ele também fica paralisado pela mesma duração. Um alvo que seja bem-sucedido na salvaguarda está imune ao Olhar Apavorante de todas as criaturas {creature} (exceto múmias supremas) pelas próximas 24 horas.</p>\n</section>\n<p>A criatura {creature} escolhe uma criatura à vista e a até 18 metros dela. Se o alvo puder ver a criatura {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong> contra esta magia.</p>",
+      "name": "Olhar Apavorante"
+    },
+    "Duergar Resilience": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> nas salvaguardas contra venenos, magias e ilusões, bem como para resistir a ser enfeitiçado ou paralisado.</p>",
+      "name": "Resiliência Duergar"
+    },
+    "Earth Glide": {
+      "description": "<p>O {type} pode escavar através de terra e pedra não mágicas e não trabalhadas. Enquanto faz isso, ele não perturba o material através do qual se move.</p>",
+      "name": "Deslizar na Terra"
+    },
+    "Echolocation": {
+      "description": "<p>A criatura {creature} não pode usar a percepção às cegas enquanto estiver surdo.</p>",
+      "name": "Ecolocalização"
+    },
+    "Elemental Demise": {
+      "description": "<p>Se a criatura {creature} morrer, seu corpo se desintegra em uma poeira cristalina, deixando para trás apenas o equipamento que ela estava usando ou carregando.</p>",
+      "name": "Morte Elemental"
+    },
+    "Engulf": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} se move até o máximo do deslocamento. Enquanto faz isso, ele pode entrar no espaço de criaturas Grandes ou menores. Sempre que a {creature} entrar no espaço de uma criatura, esta deve fazer uma salvaguarda de <strong>Destreza CD 12</strong>. Em um sucesso, a criatura pode escolher ser empurrada 1,5 metro para trás ou para o lado da criatura {creature}. Uma criatura que escolher não ser empurrada sofre as consequências de uma falha na salvaguarda.</p> \n<p>Em caso de falha, a criatura {creature} entra no espaço de uma criatura e ela sofre <strong>10 (3d6) pontos de <em>dano ácido</em></strong>, ficando engolfada. A criatura engolfada não pode respirar, fica contida, e sofre <strong>21 (6d6) pontos de <em>dano ácido</em></strong> no começo de cada turno da criatura {creature}. Quando a criatura {creature} se mover, a criatura engolfada se move com ela. Uma criatura engolfada pode tentar escapar usando uma ação para fazer um teste de Força CD 12. Se tiver sucesso, ela escapa e entra em um espaço da sua escolha a até 1,5 metro da criatura {creature}.</p>\n</section>\n<p>Sempre que a {creature} entrar no espaço de uma criatura, esta deve fazer uma salvaguarda de <strong>Destreza</strong>. Em um sucesso, a criatura pode escolher ser empurrada 1,5 metro para trás ou para o lado da criatura {creature}. Uma criatura que escolher não ser empurrada sofre as consequências de uma falha na salvaguarda.</p>",
+      "name": "Engolfar"
+    },
+    "Enlarge": {
+      "description": "<p>Durante 1 minuto, a criatura {creature} magicamente aumenta de tamanho, junto com qualquer coisa que esteja usando ou carregando. Enquanto estiver aumentado, a criatura {creature} é Grande, dobra seus dado de dano em ataques armados baseados em Força (incluso no ataque), e tem vantagem nos testes de Força e salvaguardas de Força. Se a criatura {creature} não tiver espaço para se tornar Grande, ele alcança o tamanho máximo possível no espaço disponível.</p>",
+      "name": "Aumentar"
+    },
+    "Enslave": {
+      "description": "<section class=\"secret\">\n<p>O {creature} escolhe como alvo uma criatura à sua vista e a até 9 metros de distância dele. O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 14</strong> ou fica magicamente enfeitiçado pelo {creature}, até que este morra ou até que esteja em um plano de existência diferente daquele do alvo.</p>\n<p>O alvo enfeitiçado está sob o controle do {creature} e não pode executar reações. O {creature} e o alvo podem se comunicar telepaticamente entre si, qualquer que seja a distância entre eles. Sempre que o alvo enfeitiçado sofre dano, ele pode repetir a salvaguarda. Se for bem-sucedido, o efeito se encerra. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>\n</section>\n<p>O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>. Sempre que o alvo sofre dano, ele pode repetir a salvaguarda. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>",
+      "name": "Escravizar"
+    },
+    "Ephemeral": {
+      "description": "<p>A criatura {creature} não pode usar ou carregar nada.</p>",
+      "name": "Efêmero"
+    },
+    "Ethereal Jaunt": {
+      "description": "<p>Com uma ação bônus, a {creature} pode magicamente mudar do Plano Material para o Plano Etéreo, ou vice-versa.</p>",
+      "name": "Salto Etéreo"
+    },
+    "Ethereal Sight": {
+      "description": "<p>A criatura {creature} pode ver até <strong>18 metros</strong> no Plano Etéreo quando estiver no Plano Material, e vice-versa.</p>",
+      "name": "Visão Etérea"
+    },
+    "Ethereal Stride": {
+      "description": "<p>A criatura {creature} e até três criaturas voluntárias a até 1,5 metro dele magicamente entram no Plano Etéreo a partir do Plano Material, ou vice-versa.</p>",
+      "name": "Passo Etéreo"
+    },
+    "Etherealness": {
+      "description": "<p>O {creature} entra no Plano Etéreo a partir do Plano Material, ou vice-versa. Ele é visível no Plano Material enquanto estiver na Fronteira Etérea e vice-versa, mas não pode afetar ou ser afetado por qualquer coisa no outro plano.</p>",
+      "name": "Forma Etérea"
+    },
+    "Evasion": {
+      "description": "<p>Se o {creature} for submetido a um efeito que lhe permita realizar uma salvaguarda de <strong>Destreza</strong> para reduzir o dano à metade, se for bem-sucedido, ele não sofre dano algum, e apenas metade em caso de falha.</p>",
+      "name": "Evasão"
+    },
+    "False Appearance": {
+      "description": "<p>Enquanto a {creature} permanecer imóvel, ele é indistinguível de uma armadura comum.</p>",
+      "name": "Aparência Falsa"
+    },
+    "Faultless Tracker": {
+      "description": "<p>O invocador da criatura {creature} lhe indica uma presa. A criatura {creature} sabe a direção e a distância até a presa, contanto que ambos estejam no mesmo plano de existência. A criatura {creature} também sabe a localização de quem o invocou.</p>\n</section>\n<p>A criatura {creature} sabe a direção e a distância até a presa, contanto que ambos estejam no mesmo plano de existência.</p>",
+      "name": "Rastreador Implacável"
+    },
+    "Fear Aura": {
+      "description": "<section class=\"secret\"><p>A não ser que a criatura {creature} esteja incapacitada, qualquer criatura hostil a ela que inicie o próprio turno a até <strong>6 metros</strong> dele, deve fazer uma salvaguarda de <strong>Sabedoria CD 21</strong>. Se falhar, fica amedrontada até o início do próximo turno dela. Se for bem-sucedida, a criatura fica imune à Aura de Medo do diabo do fosso pelas próximas 24 horas.</p></section>\n<p>Qualquer criatura hostil à criatura {creature} que inicie o próprio turno a até <strong>6 metros</strong> dela, deve fazer uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Aura de Medo"
+    },
+    "Fetid Cloud": {
+      "description": "<section class=\"secret\">\n<p>Um gás esverdeado e repugnante se estende da criatura {creature} em um raio de 3 metros. O gás se alastra, contornando cantos, e a área que afetada é parcialmente obscurecida. Ele dura 1 minuto ou até que um vento forte o disperse.</p><p>Qualquer criatura que inicie o turno na área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 11</strong> ou fica envenenada até o começo do próximo turno dela. Enquanto envenenado por este efeito, o alvo pode executar uma ação ou uma ação bônus no seu turno, mas não ambas, e não pode executar reações. (1/dia)</p>\n</section>\n<p>Um gás esverdeado e repugnante se estende da criatura {creature}. O gás se alastra, contornando cantos, e a área que afetada é parcialmente obscurecida. Qualquer criatura que inicie o turno na área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Nuvem Fétida"
+    },
+    "Fey Ancestry": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em salvaguardas contra ser enfeitiçada, e magia não pode colocá-la para dormir.</p>",
+      "name": "Ancestral Feérico"
+    },
+    "Fey Charm": {
+      "description": "<section class=\"secret\">\n<p> A criatura {creature} escolhe como alvo um humanoide ou fera que esteja à vista e a até 9 metros dela. Se o alvo puder ver a criatura {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 14</strong> ou fica enfeitiçado.</p><p> A criatura enfeitiçada considera a criatura {creature} uma amiga de confiança que deve ser atendida e protegida. Embora o alvo não esteja sob controle da criatura {creature}, ele atende às solicitações ou ações dela da melhor maneira possível. Cada vez que a criatura {creature} ou os aliados dela fizerem algo prejudicial para o alvo, ele pode repetir a salvaguarda, encerrando o efeito sobre si em caso de sucesso. Caso contrário, o efeito dura 24 horas ou até a criatura {creature} morrer, estar em um outro plano de existência diferente do do alvo, ou encerrar o efeito com uma ação bônus. Se a salvaguarda do alvo for bem-sucedida, ele fica imune ao Encanto Feérico da criatura {creature} pelas próximas 24 horas. A criatura {creature} não pode ter mais do que um humanoide e até três feras enfeitiçados ao mesmo tempo.</p>\n</section>\n<p>A criatura {creature} escolhe como alvo um humanoide ou fera que esteja à vista e a até 9 metros dela. Se o alvo puder ver a criatura {creature}, ele deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>. Cada vez que a criatura {creature} ou os aliados dela fizerem algo prejudicial para o alvo, ele pode repetir a salvaguarda.</p>",
+      "name": "Encanto Feérico"
+    },
+    "Fire Absorption": {
+      "description": "<p>Sempre que a criatura {creature} for alvo de <strong><em>dano ígneo</em></strong>, ele não sofre dano e recupera uma quantidade de <strong>pontos de vida</strong> equivalente ao <strong><em>dano ígneo</em></strong> causado.</p>",
+      "name": "Absorção de Fogo"
+    },
+    "Fire Aura": {
+      "description": "<section class=\"secret\">\n<p>No início de cada turno da criatura {creature}, cada criatura a até 1,5 metro dele sofre <strong>10 (3d6) pontos de <em>dano ígneo</em></strong>, e objetos inflamáveis na aura, que não estejam sendo usados ou carregados, se incendeiam.</p>\n<p>Uma criatura que toque a criatura {creature} ou a acerte com um ataque corpo a corpo enquanto estiver a até 1,5 metro dele, sofre <strong>10 (3d6) pontos de <em>dano ígneo</em></strong>.</p>\n</section>\n<p>No início de cada turno da criatura {creature}, cada criatura a até 1,5 metro dele sofre <em>dano ígneo</em>, e objetos inflamáveis na aura, que não estejam sendo usados ou carregados, se incendeiam. Uma criatura que toque a criatura {creature} ou a acerte com um ataque corpo a corpo enquanto estiver a até 1,5 metro dele, sofre <em>dano ígneo</em>.</p>",
+      "name": "Aura Flamejante"
+    },
+    "Fire Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro de Fogo.** A criatura do tipo {type} exala fogo em um cone de 27 metros. Cada criatura na área deve fazer uma salvaguarda de <strong>Destreza CD 24</strong>, sofrendo <strong>45 (13d6) pontos de <em>dano ígneo</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>A criatura do tipo {type} exala fogo em um cone de 27 metros. Cada criatura na área deve fazer uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Sopro de Fogo"
+    },
+    "Fire Form": {
+      "description": "<section class=\"secret\">\n<p>O {type} elemental pode mover-se através de um espaço tão estreito quanto 2,5 centímetros de largura sem se espremer. Uma criatura que toque o {type} ou o acerte com um ataque corpo a corpo enquanto estiver a até 1,5 metro dele sofre <strong>5 (1d10) <em>dano ígneo</em></strong>. </p>\n<p>Além disso, o {type} pode entrar no espaço de uma criatura hostil e parar no local. A primeira vez que o elemental entra no espaço de uma criatura em um turno, ela sofre <strong>5 (1d10) <em>dano ígneo</em></strong> e começa a incendiar; até que alguém use uma ação para apagar o fogo, a criatura sofre <strong>5 (1d10) <em>dano ígneo</em></strong> no início de cada um dos próprios turnos.</p>\n</section>\n<p>Uma criatura que toque o {type} ou o acerte com um ataque corpo a corpo enquanto estiver a até 1,5 metro dele sofre <em>dano ígneo</em>. Além disso, o {type} pode entrar no espaço de uma criatura hostil e parar no local. A primeira vez que o elemental entra no espaço de uma criatura em um turno, ela sofre <em>dano ígneo</em> e começa a incendiar; até que alguém use uma ação para apagar o fogo, a criatura sofre <em>dano ígneo</em> no início de cada um dos próprios turnos.</p>",
+      "name": "Forma de Fogo"
+    },
+    "First Roar": {
+      "description": "<p>Cada criatura que falhe em uma salvaguarda de <strong>Sabedoria CD 18</strong> fica amedrontada por 1 minuto. Uma criatura amedrontada pode repetir a salvaguarda no final de cada um de seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>",
+      "name": "Primeiro Rugido"
+    },
+    "Fling": {
+      "description": "<section class=\"secret\"><p>Um objeto ou criatura Grande ou menor, agarrada pela criatura {creature}, é arremessada a até 18 metros em uma direção aleatória e fica caída.</p><p> Se um alvo arremessado atingir uma superfície sólida, sofre <strong>3 (1d6) pontos de <em>dano contundente</em></strong> para cada 3 metros que foi arremessado. Se o alvo for arremessado contra uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Destreza CD 18</strong> ou sofre o mesmo dano e fica caída.</p></section><p>Um objeto ou criatura Grande ou menor, agarrada pela criatura {creature}, é arremessada a até 18 metros em uma direção aleatória e fica caída. Se o alvo for arremessado contra uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Destreza </strong> ou sofre o mesmo dano e fica caída.</p>",
+      "name": "Arremessar"
+    },
+    "Flyby": {
+      "description": "<p>A {creature} não provoca ataques de oportunidade quando voa para fora do alcance de um inimigo.</p>",
+      "name": "Sobrevoo"
+    },
+    "Flying Sword": {
+      "description": "<section class=\"secret\">\n<p>O {creature} libera sua espada grande para que flutue magicamente em um espaço desocupado a <strong>1,5 metros</strong> dele. Se o {creature} puder ver a espada, ele pode comandá-la mentalmente com uma ação bônus para que esta voe a até <strong>15 metros</strong> e tanto faça um ataque contra um alvo quanto retorne para as mãos do {creature}.</p>\n<p>Se a espada flutuante for alvo de qualquer efeito, considera-se que o {creature} a está empunhando. A espada flutuante cai se o {creature} morrer.</p>\n</section>\n<p>O {creature} libera sua espada grande para que flutue magicamente em um espaço desocupado a <strong>1,5 metros</strong> dele. Se a espada flutuante for alvo de qualquer efeito, considera-se que o {creature} a está empunhando.</p>",
+      "name": "Espada Voadora"
+    },
+    "Freedom of Movement": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} ignora terreno difícil e efeitos mágicos não podem reduzir o deslocamento dela ou fazer com que fique contido. Ela pode usar 7,5 metro de movimento para escapar de qualquer contenção não mágica ou agarramento.</p></section><p>A criatura {creature} ignora terreno difícil e efeitos mágicos não podem reduzir o deslocamento dela ou fazer com que fique contido.</p>",
+      "name": "Movimentação Livre"
+    },
+    "Freeze": {
+      "description": "<section class=\"secret\"><p>Se o {type} sofrer <strong><em>dano gélido</em></strong>, ele congela parcialmente, e seu deslocamento é reduzido em <strong>6 metros</strong> até o final do próximo turno dele.</p></section><p>Se o {type} sofrer <strong><em>dano gélido</em></strong>, ele congela parcialmente.</p>",
+      "name": "Congelar"
+    },
+    "Frightening Gaze": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} fixa o olhar numa criatura à vista e a até 3 metros dele. O alvo deve ser-bem sucedido em uma salvaguarda de <strong>Sabedoria CD 18</strong> contra esta magia ou fica amedrontado por 1 minuto. O alvo amedrontado pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso. Se for bem-sucedido ou se o efeito se encerrar para ele, o alvo fica imune ao olhar da criatura {creature} pelas próximas 24 horas.</p>\n</section>\n<p>A criatura {creature} fixa o olhar numa criatura à vista e a até 3 metros dele. O alvo deve ser-bem sucedido em uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Olhar Assustador"
+    },
+    "Frightful Presence": {
+      "description": "<section class=\"secret\"><p>Cada criatura, à escolha do {type}, que esteja a <strong>até 36 metros</strong> e ciente dele, deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 16</strong> ou fica amedrontada por <strong>1 minuto</strong>.</p><p>Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso. Caso seja bem-sucedida na salvaguarda ou quando o efeito se encerrar para ela, a criatura fica imune à Presença Aterradora do {type} pelas próximas 24 horas.</p>\n</section>\n<p>Cada criatura, à escolha do {type}, que esteja a <strong>até 36 metros</strong> e ciente dele, deve ser bem-sucedida em uma salvaguarda de Sabedoria. Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos.</p>",
+      "name": "Presença Aterradora"
+    },
+    "Frost Breath": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} exala um cone de frio de 4,5 metros. Cada criatura nesta área deve fazer uma salvaguarda de <strong>Constituição CD 10</strong>, sofrendo <strong>5 (2d4) de pontos de <em>dano gélido</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>A criatura {creature} exala um cone de frio de 4,5 metros. Cada criatura nesta área deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Gélido"
+    },
+    "Gibbering": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} balbucia incoerentemente enquanto puder ver qualquer criatura e não estiver incapacitado. Cada criatura que iniciar o turno a <strong>até 6 metros</strong> da criatura {creature} e puder ouvir a tagarelice dela deve fazer uma salvaguarda de <strong>Sabedoria CD 10</strong>. Se falhar, a criatura não pode executar reações até o final de seu próximo turno, e joga 1d8 para determinar o que ela faz neste turno.</p><p>Em um resultado de 1 a 4, ela não faz nada. Em 5 ou 6, não executa ações ou ações bônus e usa todo o seu deslocamento para se mover em uma direção determinada aleatoriamente. Em 7 ou 8, a criatura faz um ataque corpo a corpo contra uma criatura determinada aleatoriamente e dentro do seu alcance, ou não faz nada se não puder realizar tal ataque.</p>\n</section>\n<p>A criatura {creature} balbucia incoerentemente enquanto puder ver qualquer criatura e não estiver incapacitado. Cada criatura que iniciar o turno a <strong>até 6 metros</strong> da criatura {creature} e puder ouvir a tagarelice dela deve fazer uma salvaguarda de Sabedoria.</p>",
+      "name": "Tagarelice"
+    },
+    "Gnome Cunning": {
+      "description": "<p>O {creature} tem <strong> vantagem </strong>em todas as salvaguardas de Inteligência, Sabedoria e Carisma contra magia.</p>",
+      "name": "Esperteza Gnômica"
+    },
+    "Grappler": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em jogadas de ataques contra qualquer criatura agarrada por ele.</p>",
+      "name": "Imobilizador"
+    },
+    "Grasping Tendrils": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} pode ter até seis tentáculos de cada vez. Cada tentáculo pode ser atacado (CA 20; <strong>10 pontos de vida</strong>; imunidade a <em>dano venenoso e psíquico</em>).</p>\n<p>Destruir um tentáculo não causa dano á criatura {creature}, que pode brotar um tentáculo substituto no seu próximo turno. Um tentáculo também pode ser arrancado se uma criatura gastar uma ação para fazer um teste bem-sucedido de <strong>Força CD 15</strong> contra ele.</p>\n</section>\n<p>A criatura {creature} pode ter até seis tentáculos de cada vez. Cada tentáculo pode ser atacado. Um tentáculo também pode ser arrancado se uma criatura gastar uma ação para fazer um teste bem-sucedido de Força contra ele.</p>",
+      "name": "Tentáculos Aderentes"
+    },
+    "Haste": {
+      "description": "<section class=\"secret\">\n<p>Recarga 5–6.</p>\n</section>\n<p>Até o final do próximo turno da criatura {creature}, ela ganha magicamente +2 de bônus na CA, tem vantagem em salvaguardas de Destreza e pode usar o ataque com a pancada com uma ação bônus.</p>",
+      "name": "Celeridade"
+    },
+    "Heal Self": {
+      "description": "<p>A criatura {creature} magicamente recupera 11 (2d8 + 2) pontos de vida.</p>",
+      "name": "Curar-se"
+    },
+    "Healing Touch": {
+      "description": "<p>O {creature} toca outra criatura. O alvo recupera magicamente 20 (4d8 + 2) pontos de vida e fica livre de qualquer maldição, doença, envenenamento, cegueira ou surdez.</p>",
+      "name": "Toque Curativo"
+    },
+    "Heart Sight": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} toca uma criatura e magicamente conhece o estado emocional atual dela.</p><p> Se o alvo falhar em uma salvaguarda de <strong>Carisma CD 10</strong>, a criatura {creature} também descobre o alinhamento dele. Celestiais, ínferos e mortos-vivos falham automaticamente na salvaguarda.</p></section><p>A criatura {creature} toca uma criatura. O alvo deve fazer uma salvaguarda de <strong>Carisma</strong>.</p>",
+      "name": "Ver o Coração"
+    },
+    "Heated Body": {
+      "description": "<p>Uma criatura que toque a criatura criatura {creature} ou o acerte com um ataque corpo a corpo enquanto estiver a 1,5 metro dele, sofre <strong>5 (1d10) pontos de <em>dano ígneo</em></strong>.</p>",
+      "name": "Corpo Aquecido"
+    },
+    "Heated Weapons": {
+      "description": "<section class=\"secret\"><p>Qualquer arma corpo a corpo de metal que a criatura {creature} empunhe causa <strong>3 (1d6) pontos de <em>dano ígneo</em></strong> adicionais em um acerto (inclusos no ataque).</p></section><p>Qualquer arma corpo a corpo de metal que a criatura {creature} empunhe causa <em>dano ígneo</em></strong> adicional em um acerto (inclusos no ataque).</p>",
+      "name": "Armas Aquecidas"
+    },
+    "Hellish Rejuvenation": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} que morre nos Nove Infernos retorna à vida com todos os <strong>pontos de vida</strong> em 1d10 dias, a não ser que seja morto por uma criatura de alinhamento bom que se encontre sob os efeitos da magia benção, ou que ele tenha seus restos mortais borrifados com água benta.</p>\n</section>\n<p>A criatura {creature} que morre nos Nove Infernos às vezes retorna à vida.</p>",
+      "name": "Regeneração Infernal"
+    },
+    "Hellish Weapons": {
+      "description": "<section class=\"secret\">\n<p>Os ataques armados da criatura {creature} são mágicos e causam <strong>13 (3d8) pontos de <em>dano venenoso</em></strong> adicionais (incluídos nos ataques).</p>\n</section>\n<p>Os ataques armados da criatura {creature} são mágicos e causam 13 (3d8) pontos de <em>dano venenoso</em>.</p>",
+      "name": "Armas Infernais"
+    },
+    "Hold Breath": {
+      "description": "<p>O {creature} pode prender a respiração por <strong>15 minutos</strong>.</p>",
+      "name": "Prender a Respiração"
+    },
+    "Hooves": {
+      "description": "<p>A criatura {creature} faz um ataque com os cascos.</p>",
+      "name": "Cascos"
+    },
+    "Horrific Appearance": {
+      "description": "<section class=\"secret\">\n<p>Qualquer humanoide que comece o seu turno a <strong>até 9 metros</strong> da criatura {creature} e possa ver a verdadeira forma dela deve fazer uma salvaguarda de <strong>Sabedoria CD 11</strong>. Se falhar, fica amedrontado por <strong>1 minuto</strong>. Uma criatura pode repetir a salvaguarda no final de cada um dos próprios turnos, com <strong>desvantagem</strong> se criatura {creature} estiver dentro da sua linha de visão, encerrando o efeito sobre si em caso de sucesso.</p>\n<p>A criatura fica imune à Aparência Horrenda da criatura {creature} pelas próximas 24 horas caso seja bem-sucedida na salvaguarda ou se o efeito terminar para ela. A menos que o alvo esteja surpreso ou que a revelação da forma verdadeira da criatura {creature} seja repentina, ele pode desviar seus olhos e evitar fazer a salvaguarda inicial. Uma criatura que desvie os olhos tem <strong>desvantagem</strong> em ataques contra a criatura {creature} até o começo de seu próximo turno.</p>\n</section>\n<p>Qualquer humanoide que comece o seu turno a <strong>até 9 metros</strong> da criatura {creature} e possa ver a verdadeira forma dela deve fazer uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Aparência Horrenda"
+    },
+    "Horrifying Visage": {
+      "description": "<section class=\"secret\"><p>Cada criatura que não seja um {creature}, que esteja a até 18 metros do {creature} e que possa vê-lo deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 13</strong> ou fica amedrontada por 1 minuto. Se falhar por 5 ou mais, o alvo também envelhece, 1d4 x 10 anos.</p><p>Uma criatura amedrontada pode repetir a salvaguarda no final dos próprios turnos, encerrando a condição sobre si em caso de sucesso. Caso seja bem-sucedida na salvaguarda ou quando o efeito se encerrar para ela, a criatura fica imune ao Aspecto Horripilante deste {creature} pelas próximas 24 horas. O efeito de envelhecimento pode ser revertido com uma magia restauração maior, mas apenas dentro de um prazo de 24 horas após o ocorrido.</p></section>\n<p>Cada criatura que não seja um {creature}, que esteja a até 18 metros do {creature} e que possa vê-lo deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria</strong>. Uma criatura pode repetir a salvaguarda no final dos próprios turnos, encerrando a condição sobre si em caso de sucesso.</p>",
+      "name": "Aspecto Horripilante"
+    },
+    "Horror Nimbus": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} emite magicamente uma luz cintilante e multicolorida. Cada criatura a até 4,5 metros da criatura {creature}, que possa ver a luz, deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 15</strong> ou fica amedrontada por 1 minuto.</p><p> Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso. Se a salvaguarda da criatura for bem-sucedida ou o efeito se encerrar para ela, a criatura fica imune à Aura de Horror da criatura {creature} pelas próximas 24 horas.</p></section><p>Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso. Se a salvaguarda da criatura for bem-sucedida ou o efeito se encerrar para ela, a criatura fica imune à Aura de Horror da criatura {creature} pelas próximas 24 horas.</p>",
+      "name": "Aura de Horror"
+    },
+    "Ice Walk": {
+      "description": "<p>O tipo {type} pode se mover através de superfícies de gelo e escalá-las sem precisar fazer um teste de atributo. Além disso, terreno difícil feito de gelo ou neve não lhe custa movimento adicional.</p>",
+      "name": "Andar no Gelo"
+    },
+    "Ignited Illumination": {
+      "description": "<p>Com uma ação bônus, a criatura {creature} pode acender ou extinguir as próprias chamas. Enquanto estiver em chamas, emite luz plena em um <strong>raio de 3 metros</strong> e meia-luz por mais <strong>3 metros</strong>.</p>",
+      "name": "Iluminação Inflamada"
+    },
+    "Illumination": {
+      "description": "<p>A criatura {creature} lança luz plena em um raio de 3 metros e meia-luz por mais 3 metros.</p>",
+      "name": "Iluminação"
+    },
+    "Illusory Appearance": {
+      "description": "<p>A criatura {creature} cobre a si mesma e tudo o que estiver vestindo ou carregando com uma ilusão mágica que a faz parecer com outra criatura, de tamanho aproximado e de forma humanoide. A ilusão termina se a criatura {creature} usar uma ação bônus para encerrá-la ou se ela morrer.</p><p>As alterações feitas por este efeito não se sustentam diante de uma inspeção física. Por exemplo, a criatura {creature} pode parecer ter uma pele macia, mas alguém que a toque sente a pele áspera. Caso contrário, uma criatura deve usar uma ação para inspecionar visualmente a ilusão e ser bem-sucedida em um teste de Inteligência CD 20 (Investigação) para perceber que a criatura {creature} está disfarçada.</p>",
+      "name": "Aparência Ilusória"
+    },
+    "Immutable Form": {
+      "description": "<p>A criatura {creature} é imune a qualquer magia ou efeito que altere sua forma.</p>",
+      "name": "Forma Imutável"
+    },
+    "Incorporeal Movement": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} pode se mover através de outras criaturas e objetos como se estes fossem terreno difícil.</p>\n<p>Ela sofre <strong>5 (1d10) pontos de <em>dano energético</em></strong> se terminar o turno dentro de um objeto.</p>\n</section>\n<p>A criatura {creature} pode se mover através de outras criaturas e objetos como se estes fossem terreno difícil.</p>",
+      "name": "Movimento Incorpóreo"
+    },
+    "Ink Cloud": {
+      "description": "<section class=\"secret\">\n<p>Uma nuvem de tinta de 6 metros de raio se estende ao redor da criatura {creature} se ela estiver debaixo d'água. A área fica totalmente obscurecida por 1 minuto, embora uma corrente forte possa dispersar a tinta. Após liberar a tinta, a criatura {creature} pode usar a ação Correr como uma ação bônus. Recarrega após um Descanso Curto ou Longo</p>\n</section>\n<p>Uma nuvem de tinta de 6 metros de raio se estende ao redor da criatura {creature} se ela estiver debaixo d'água.</p>",
+      "name": "Nuvem de Tinta"
+    },
+    "Innate Spellcasting": {
+      "description": "<p>O atributo de conjuração do {type} é o Carisma. Ele pode conjurar inatamente as magias a seguir, sem precisar de componentes materiais:</p>\n<p>À vontade: detectar magia, luz, névoa obscurecente</p>\n<p>3/dia: passo nebuloso, queda suave, telecinese, voo</p>\n<p>1/dia: controlar o clima, forma gasosa</p>",
+      "name": "Conjuração Inata"
+    },
+    "Inscrutable": {
+      "description": "<p>A criatura {creature} é imune a qualquer efeito capaz de sentir suas emoções ou ler seus pensamentos, sendo igualmente imune a todas as magias de adivinhação. Testes de Sabedoria (Intuição) feitos para averiguar as intenções ou a sinceridade da criatura {creature} tem desvantagem.</p>",
+      "name": "Inescrutável"
+    },
+    "Intoxicating Touch": {
+      "description": "<section class=\"secret\">\n<p><em>Ataque Mágico Corpo a Corpo:</em><strong>+5 para acertar, alcance</strong> <strong>1,5 m,</strong> uma criatura. Dano: O alvo é magicamente amaldiçoado por 1 hora. Até a maldição acabar, o alvo tem desvantagem em salvaguardas de Sabedoria e em todos os testes de atributo.</p><p></p>\n</section>\n<p>O alvo tem desvantagem em salvaguardas de Sabedoria e em todos os testes de atributo.</p>",
+      "name": "Toque Intoxicante"
+    },
+    "Invisibility": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} fica invisível magicamente até atacar, conjurar uma magia ou usar Aumentar, ou até que a concentração dele seja interrompida, por até 1 hora (como se estivesse se concentrando em uma magia).</p>\n</section>\n<p>A criatura {creature} fica invisível magicamente. Qualquer equipamento que a criatura {creature} esteja usando ou carregando fica invisível com ele.</p>",
+      "name": "Invisibilidade"
+    },
+    "Invisible Passage": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} fica magicamente invisível até que ataque ou conjure uma magia, ou até perder a concentração (como se estivesse se concentrando em uma magia). Enquanto estiver invisível, ela não deixa nenhuma evidência física de sua passagem, portanto só pode ser rastreada por magia. Qualquer equipamento que esteja vestindo ou carregando fica invisível com ela.</p>\n</section>\n<p>A criatura {creature} fica magicamente invisível. Qualquer equipamento que esteja vestindo ou carregando fica invisível com ela.</p>",
+      "name": "Passagem Invisível"
+    },
+    "Iron Scent": {
+      "description": "<p>A criatura {creature} pode identificar precisamente, através do faro, a localização de metais ferrosos a <strong>até 9 metros</strong> dela.</p>",
+      "name": "Farejar Ferro"
+    },
+    "Keen Senses": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em testes de Sabedoria (Percepção) que dependam da visão, da audição ou do olfato.</p>",
+      "name": "Sentidos Aguçados"
+    },
+    "Labyrinthine Recall": {
+      "description": "<p>O {creature} pode lembrar perfeitamente de qualquer caminho que tenha percorrido.</p>",
+      "name": "Memória Labiríntica"
+    },
+    "Lair Actions": {
+      "description": "<section class=\"secret\">\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can’t do so while incapacitated or otherwise unable to take actions. If surprised, it can’t use one until after its first turn in the combat.</p>\n</section>\n<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. </p>",
+      "name": "Ações de Covil"
+    },
+    "Leadership": {
+      "description": "<p>Durante 1 minuto, a criatura {creature} pode proferir um comando especial ou um aviso sempre que uma criatura não hostil à vista e a até 9 metros dele fizer uma jogada de ataque ou salvaguarda. A criatura pode adicionar 1d4 à jogada, desde que ela possa ouvir e entender a criatura {creature}. Uma criatura pode se beneficiar de apenas um dado de liderança por vez. O efeito se encerra se a criatura {creature} estiver incapacitada.</p>",
+      "name": "Liderança"
+    },
+    "Legendary Actions": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} pode executar 3 ações lendárias, escolhendo dentre as opções a seguir. Apenas uma opção de ação lendária pode ser usada por vez, e apenas no final do turno de outra criatura. A criatura {creature} recupera as ações lendárias gastas no início do turno dela.</p>\n</section>\n<p>A criatura {creature} pode executar 3 ações lendárias.</p>",
+      "name": "Ações Lendárias"
+    },
+    "Legendary Resistance": {
+      "description": "<p>A criatura {type} escolhe se quer ser bem-sucedido em uma salvaguarda que tenha falhado.</p>",
+      "name": "Resistência Lendária"
+    },
+    "Light Sensitivity": {
+      "description": "<p>Enquanto estiver sob luz solar, o {creature} tem <strong>desvantagem</strong> nas jogadas de ataque, assim como em testes de Sabedoria (Percepção) que dependam da visão.</p>",
+      "name": "Sensibilidade à Luz Solar"
+    },
+    "Lightning Absorption": {
+      "description": "<p>Sempre que a criatura {criatura} for alvo de <strong><em>dano elétrico</em></strong>, ele não sofre dano e recupera uma quantidade de <strong>pontos de vida</strong> equivalentes ao <strong><em>dano elétrico</em></strong> causado.</p>",
+      "name": "Absorção de Eletricidade"
+    },
+    "Lightning Breath": {
+      "description": "<section class=\"secret\">\n<p>A criatura {type} exala eletricidade em uma linha de 27 metros por 1,5 metro de largura. Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza CD 19</strong>, sofrendo <strong>66 (12d10) pontos de <em>dano elétrico</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n</section>\n<p>A criatura {type} exala eletricidade em uma linha de 27 metros por 1,5 metro de largura. Cada criatura na linha deve fazer uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Sopro Elétrico"
+    },
+    "Lightning Storm": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} cria magicamente três raios elétricos, cada um podendo acertar um alvo à vista e a até 36 metros dela.</p><p> Um alvo deve ser bem-sucedido em uma salvaguarda de <strong>Destreza CD 23</strong>, sofrendo <strong>22 (4d10) pontos de <em>dano elétrico</em></strong> se falhar, ou metade do dano em caso de sucesso.</p></section><p>A criatura {creature} cria magicamente três raios elétricos, cada um podendo acertar um alvo à vista e a até 36 metros dela. Um alvo deve ser bem-sucedido em uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Tempestade de Raios"
+    },
+    "Limited Amphibiousness": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} pode respirar ar e água, mas precisa submergir pelo menos uma vez a cada 4 horas para evitar sufocar.</p></section><p>A criatura {creature} pode respirar ar e água.</p>",
+      "name": "Condição Anfíbia Limitada"
+    },
+    "Limited Magic Immunity": {
+      "description": "<p>A criatura {creature} não pode ser afetado ou detectado por magias de 6° círculo ou inferiores, a menos que deseje ser. Ele tem <strong>vantagem</strong> nas salvaguardas contra todas as outras magias e efeitos mágicos.</p>",
+      "name": "Imunidade Limitada à Magia"
+    },
+    "Limited Telepathy": {
+      "description": "<p>O {creature} pode transmitir magicamente mensagens simples e imagens para qualquer criatura a até <strong>36 metros</strong> dele e que possa compreender um idioma. Esta forma de telepatia não permite que a criatura que recebe a mensagem responda telepaticamente.</p>",
+      "name": "Telepatia Limitada"
+    },
+    "Luring Song": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} entoa uma melodia mágica. Cada humanoide e gigante a até 90 metros da criatura {creature} e que possa ouvir a canção deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 11</strong>, ou fica enfeitiçado até a canção terminar. A criatura {creature} deve usar uma ação bônus em cada turno subsequente para continuar cantando. Ela pode parar de cantar a qualquer momento. A canção se encerra se a criatura {creature} ficar incapacitada.</p>\n<p>Enquanto enfeitiçado pela criatura {creature}, um alvo fica incapacitado e ignora as canções de outras criaturas {creature}. Se o alvo enfeitiçado estiver a mais de 1,5 metro de distância da criatura {creature}, em seu turno ele deve se mover na direção dela pela rota mais direta. Ele não se esquiva de ataques de oportunidade, mas antes de se mover em terreno que pode feri-lo, como lava ou um fosso, e sempre que sofrer dano de uma fonte que não seja a harpia, o alvo pode repetir a salvaguarda. Uma criatura também pode repetir a salvaguarda no final de cada um dos turnos dela, encerrando os efeitos sobre si, em caso de sucesso.</p>\n<p>Um alvo que seja bem-sucedido na salvaguarda fica imune ao canto desta criatura {creature} pelas próximas 24 horas.</p>\n</section>\n<p>A criatura {creature} entoa uma melodia mágica. Cada humanoide e gigante a até 90 metros da criatura {creature} e que possa ouvir a canção deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>. Uma criatura também pode repetir a salvaguarda no final de cada um dos turnos dela.</p>",
+      "name": "Canção Sedutora"
+    },
+    "Magic Resistance": {
+      "description": "<p>O {creature} tem <strong>vantagem</strong> em salvaguardas contra magias e outros efeitos mágicos.</p>",
+      "name": "Resistência à Magia"
+    },
+    "Magic Weapons": {
+      "description": "<p>Os ataques armados desta criatura {creature} são mágicos.</p>",
+      "name": "Armas Mágicas"
+    },
+    "Martial Advantage": {
+      "description": "<section class=\"secret\">Uma vez por turno, o {creature} pode causar 7 (2d6) pontos de dano adicionais a uma criatura que acertar com um ataque com arma, se a criatura estiver a até 1,5 metro de um aliado do {creature} que não esteja incapacitado.</p></section><p>Uma vez por turno, o {creature} pode causar pontos de dano adicionais a uma criatura que acertar com um ataque com arma, se a criatura estiver a até 1,5 metro de um aliado do {creature} que não esteja incapacitado.</p>",
+      "name": "Vantagem Marcial"
+    },
+    "Mimicry": {
+      "description": "<section class=\"secret\">\n<p>A {creature} pode imitar sons de animais e vozes humanoides. Uma criatura que ouça tais sons pode percebe-los como imitações com um teste bem-sucedido de <strong>Sabedoria CD 14 (Intuição)</strong>.</p>\n</section>\n<p>A {creature} pode imitar sons de animais e vozes humanoides. Uma criatura que ouça tais sons pode percebe-los como imitações com um teste bem-sucedido de Sabedoria (Intuição).</p>",
+      "name": "Mimetismo"
+    },
+    "Misty Escape": {
+      "description": "<section class=\"secret\"><p>Quando chega a <strong>0 pontos de vida</strong> fora do lugar de descanso que escolheu, a criatura {creature} se transforma em uma nuvem de névoa (como na característica Metamorfo) em vez de ficar inconsciente, desde que não esteja sob a luz do sol ou água corrente. Se não puder se transformar, ela é destruída.</p><p>Enquanto está com <strong>0 pontos de vida</strong> em forma de névoa, ela não pode reverter para a forma de {creature}, e deve chegar ao lugar de descanso dentro de 2 horas ou é destruído. Uma vez que esteja no lugar de descanso, ela reverte para a forma de {creature}. Ela, então, fica paralisada até recuperar pelo menos <strong>1 ponto de vida</strong>. Depois de passar 1 hora no lugar de descanso com <strong>0 pontos de vida</strong>, ela\nrecupera <strong>1 ponto de vida</strong>.</p></section><p>A derrotada criatura {creature} se transforma em uma nuvem de névoa (como na característica Metamorfo) em vez de ficar inconsciente.</p>",
+      "name": "Fuga em Névoa"
+    },
+    "Moan": {
+      "description": "<section class=\"secret\"><p>Cada criatura a até 18 metros da criatura {creature} que puder ouvir o gemido dela, e que não seja uma {type}, deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 13</strong> ou fica amedrontada até o final do próximo turno da criatura {creature}.</p><p> Se a salvaguarda da criatura for bem-sucedida, ela fica imune ao gemido dessa criatura {creature} pelas próximas 24 horas.</p></section><p>Cada criatura a até 18 metros da criatura {creature} que puder ouvir o gemido dela, e que não seja uma {type}, deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Gemido"
+    },
+    "Move (legendary)": {
+      "description": "<p>A criatura {creature} pode se movimentar até metade do seu deslocamento.</p>",
+      "name": "Mover (Lendária)"
+    },
+    "Mucous Cloud": {
+      "description": "<section class=\"secret\">\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição CD 14</strong>. Se falhar, fica doente por 1d4 horas. A criatura doente só pode respirar debaixo d'água.</p>\n</section>\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Nuvem de Muco"
+    },
+    "Multiattack": {
+      "description": "<p>A criatura {creature} faz vários ataques em uma ação. Esses ataques podem ser do mesmo tipo ou uma mistura das suas ações de ataque.</p>",
+      "name": "Ataque Múltiplo"
+    },
+    "Multiple Heads": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} tem cinco cabeças. Enquanto possuir mais do que uma cabeça, ela tem <strong>vantagem</strong> em salvaguardas <strong>contra ficar amedrontada, atordoada, cega, enfeitiçada, surda e inconsciente</strong>.</p><p> Sempre que a criatura {creature} sofre 25 ou mais pontos dano em um único turno, uma das cabeças morre. Se todas as cabeças morrerem, a criatura {creature} também morre.</p><p> No final de cada turno da criatura {creature}, ela ganha duas cabeças para cada cabeça morta desde o seu último turno, a não ser que tenha sofrido <em>dano ígneo</em> desde então. A criatura {creature} recupera <strong>10 pontos de vida</strong> para cada cabeça que cresce desta maneira.</p></section><p>A criatura {creature} tem cinco cabeças. Enquanto possuir mais do que uma cabeça, ela tem <strong>vantagem</strong> em salvaguardas <strong>contra ficar amedrontada, atordoada, cega, enfeitiçada, surda e inconsciente</strong>.</p>",
+      "name": "Múltiplas Cabeças"
+    },
+    "Nightmare Haunting": {
+      "description": "<section class=\"secret\">\n<p>Enquanto estiver no Plano Etéreo, a criatura {creature} magicamente toca em um humanoide adormecido no Plano Material. Uma magia proteção contra o bem e o mal conjurada no alvo previne esse contato, da mesma forma que um círculo mágico.</p>\n<p>Enquanto persistir o contato, o alvo tem visões terríveis. Se estas visões durarem pelo menos 1 hora, o alvo não ganha nenhum benefício do descanso e tem os pontos de vida máximos reduzidos em 5 (1d10). Se este efeito diminuir os pontos de vida máximos do alvo para O, ele morre. Se o alvo for mau, sua alma fica aprisionada no saco de almas da megera. A redução dos pontos de vida máximos do alvo dura até ser removida por uma magia restauração maior ou similar.</p>\n</section>\n<p>Enquanto estiver no Plano Etéreo, a criatura {creature} magicamente toca em um humanoide adormecido no Plano Material. Enquanto persistir o contato, o alvo tem visões terríveis.</p>",
+      "name": "Pesadelo Assombrado"
+    },
+    "Nimble Escape": {
+      "description": "<p>A criatura {creature} pode executar as ações Desengajar ou Esconder com uma ação bônus em cada um dos seus turnos.</p>",
+      "name": "Escapada Ágil"
+    },
+    "Ooze Cube": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} ocupa o espaço inteiro em que estiver. Outras criaturas podem entrar no espaço, mas sujeitas à ação Engolfar da criatura {creature} e com <strong>desvantagem</strong> em </strong>salvaguardas<strong>. Criaturas dentro do cubo podem ser vistas, mas têm cobertura total.</p>\n<p>Uma criatura a <strong>até 1,5 metro</strong> da criatura {creature} pode usar uma ação para puxar uma criatura ou objeto para fora dela. Fazer isso requer um teste bem-sucedido de <strong>Força CD 12</strong>, e a criatura fazendo a tentativa sofre <strong>10 (3d6) pontos de <em>dano ácido</em></strong>. A criatura {creature} pode manter apenas uma criatura Grande ou até quatro criaturas Médias ou menores dentro de si por vez.</p>\n</section>\n<p>A criatura {creature} ocupa o espaço inteiro em que estiver. Outras criaturas podem entrar no espaço, mas sujeitas à ação Engolfar da criatura {creature} e com <strong>desvantagem</strong> em </strong>salvaguardas<strong>. Criaturas dentro do cubo podem ser vistas, mas têm cobertura total. Uma criatura a <strong>até 1,5 metro</strong> da criatura {creature} pode usar uma ação para puxar uma criatura ou objeto para fora dela. Fazer isso requer um teste bem-sucedido de Força.</p>",
+      "name": "Cubo de Gosma"
+    },
+    "Pack Tactics": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em uma jogada de ataque contra uma criatura se ao menos um dos seus aliados, não incapacitados, estiver a até <strong>1,5 metro</strong> da mesma criatura.</p>",
+      "name": "Táticas de Grupo"
+    },
+    "Paralyzing Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro Paralisante.** O(a) {type} exala gás paralisante em um cone de 18 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 20</strong> ou fica paralisada durante 1 minuto. Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p> O(a) {type} exala gás paralisante em um cone de 18 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Paralisante"
+    },
+    "Paralyzing Touch": {
+      "description": "<p>A criatura {creature} usa o Toque Paralisante.</p>",
+      "name": "Toque Paralisante"
+    },
+    "Parry": {
+      "description": "<p>O {creature} ganha um bônus de +2 na própria CA contra um ataque corpo a corpo que o tenha como alvo. Para tanto, ele deve ver o atacante e estar empunhando uma arma de combate corpo a corpo.</p>",
+      "name": "Aparar"
+    },
+    "Petrifying Breath": {
+      "description": "<section class=\"secret\"><p>O {creature} exala gás petrificante em um cone de 9 metros. Cada criatura na área deve ser bem sucedida em uma salvaguarda de <strong>Constituição CD 13</strong>.</p><p>Se falhar, começa a se transformar em pedra e fica contida. O alvo contido pode repetir a salvaguarda no final do seu próximo turno. Se for bem-sucedido, o efeito se encerra. Se falhar, fica petrificado até ser libertado por restauração maior ou outro efeito mágico.</p></section><p>O {creature} exala gás petrificante em um cone de 9 metros. Cada criatura na área deve ser bem sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Petrificante"
+    },
+    "Petrifying Gaze": {
+      "description": "<section class=\"secret\">\n<p>Se uma criatura começar seu turno a até <strong>9 metros</strong> do {creature} e ambos puderem ver um ao outro, caso não esteja incapacitado, o {creature} pode forçar a criatura a fazer uma salvaguarda de <strong>Constituição CD 12</strong>. Se falhar, a criatura magicamente começa a se transformar em pedra e fica contida. Ela deve repetir a salvaguarda no fim de seu próximo turno. Em caso de sucesso, o efeito se encerra. Se falhar, a criatura fica petrificada até ser libertada por uma magia restauração maior ou outra magia.</p><p>Uma criatura que não esteja surpresa pode desviar o olhar para evitar a salvaguarda no início do seu turno. Se fizer isto, ela não poderá ver o {creature} até o início do próximo turno dela, quando então pode desviar o olhar novamente. Se a criatura olhar para o {creature} nesse meio-tempo, deve fazer a salvaguarda imediatamente. Se a criatura {creature} vir o próprio reflexo a até 9 metros, em luz plena, ele se confunde, pensando ser um rival e atinge a si próprio com o olhar.</p>\n</section>\n<p>O {creature} pode forçar a criatura a fazer uma salvaguarda de <strong>Constituição</strong>. Ela deve repetir a salvaguarda no fim de seu próximo turno. Uma criatura que não esteja surpresa pode desviar o olhar para evitar a salvaguarda no início do seu turno. Se fizer isto, ela não poderá ver o {creature} até o início do próximo turno dela, quando então pode desviar o olhar novamente. Se a criatura {creature} vir o próprio reflexo a até 9 metros, em luz plena, ele se confunde, pensando ser um rival e atinge a si próprio com o olhar.</p>",
+      "name": "Olhar Petrificante"
+    },
+    "Phantasms": {
+      "description": "<p>A criatura {creature} magicamente cria três duplicatas ilusórias de si mesmo se não estiver sob luz plena. As duplicatas se movem com ele e imitam suas ações, mudando de posição para que seja impossível saber qual criatura {creature} é o verdadeiro. Se a criatura {creature} entrar em uma área de luz plena, as duplicatas desaparecem.</p><p>Sempre que qualquer criatura tentar acertar a criatura {creature} com um ataque ou uma magia ofensiva enquanto as duplicatas estiverem presentes, ela joga aleatoriamente para determinar se acerta a criatura {creature} ou uma duplicata. Uma criatura não é afetada por este efeito mágico se não puder ver ou se depender de outros sentidos além da visão.</p><p>Uma duplicata tem a CA da criatura {creature} e usa as salvaguardas dele. Se o ataque acertar uma duplicata, ou se a duplicata falhar em uma salvaguarda contra um efeito que cause dano, ela desaparece.</p>",
+      "name": "Fantasmas"
+    },
+    "Poison Breath": {
+      "description": "<section class=\"secret\">A criatura {creature} exala gás venenoso em um cone de 18 metros. Cada criatura na área afetada deve fazer uma salvaguarda de <strong>Constituição CD 18</strong>, sofrendo <strong>56 (16d6) pontos de <em>dano venenoso</em></strong> se falhar, ou metade do dano em caso de sucesso.</p></section>\n<p>A criatura {creature} exala gás venenoso em um cone de 18 metros. Cada criatura na área afetada deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Venenoso"
+    },
+    "Possession": {
+      "description": "<section class=\"secret\"><p>Uma criatura humanoide à vista e até 1,5 metro da criatura {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Carisma CD 13</strong> ou é possuída por ela. A criatura {creature}, então, desaparece, e o alvo fica incapacitado, perdendo o controle sobre o próprio corpo. A criatura {creature}, agora, controla o corpo, mas não priva o alvo da consciência. A criatura {creature} não pode ser afetado por nenhum ataque, magia ou outros efeitos, exceto os que expulsam {type}, e mantém o alinhamento, Inteligência, Sabedoria, Carisma e imunidade contra ser enfeitiçado e amedrontado. Exceto por isso, ele usa as outras estatísticas do alvo possuído, mas não ganha acesso aos conhecimentos, níveis de classe ou proficiências deste.</p> \n<p>A possessão dura até o corpo chegar a 0 pontos de vida. A criatura {creature} pode encerrá-la com uma ação bônus, se for expulso ou forçado a sair como por efeito da magia dissipar o bem e o mal. Quando a possessão se encerrar, o fantasma reaparece em um espaço desocupado a até 1,5 metro do corpo possuído. O alvo fica imune contra a Possessão desta criatura {creature} por 24 horas após ser bem-sucedido em uma salvaguarda, ou após a posessão se encerrar.</p>\n</section>\n<p>Uma criatura humanoide à vista e até 1,5 metro da criatura {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Carisma</strong>.</p>",
+      "name": "Possessão"
+    },
+    "Pounce": {
+      "description": "<section class=\"secret\">\n<p>Se a criatura {creature} se mover ao menos <strong>9 metros</strong> em linha reta na direção de uma criatura e, no mesmo turno, atingi-la com um ataque de garra, o alvo deve ser bem-sucedido em uma salvaguarda de <strong>Força CD 13</strong> ou fica caído.</p> \n<p>Se o alvo estiver caído, a criatura {creature} pode fazer um ataque de mordida contra ele com uma ação bônus.</p>\n</section>\n<p>Se a criatura {creature} se mover ao menos <strong>9 metros</strong> em linha reta na direção de uma criatura e, no mesmo turno, atingi-la com um ataque de garra, o alvo deve ser bem-sucedido em uma salvaguarda de <strong>Força </strong>.</p>",
+      "name": "Bote"
+    },
+    "Probing Telepathy": {
+      "description": "<p>Se uma criatura se comunicar telepaticamente com o {creature}, este toma conhecimento dos maiores desejos dela, se puder vê-la.</p>",
+      "name": "Sondagem Telepática"
+    },
+    "Psychic Drain": {
+      "description": "<p>Uma criatura enfeitiçada pelo {creature} sofre <strong>10 (3d6) pontos de dano psíquico</strong>, e o {creature} recupera uma quantidade de pontos de vida iguais ao dano que a criatura sofreu.</p>",
+      "name": "Dreno Psíquico"
+    },
+    "Rampage": {
+      "description": "<p>Quando a criatura {creature} reduz uma criatura a <strong>0 pontos de vida</strong> com um ataque corpo a corpo no seu turno, a criatura {creature} pode usar uma ação bônus para mover-se até metade do seu deslocamento e fazer um ataque com a mordida.</p>",
+      "name": "Frenesi"
+    },
+    "Reactive": {
+      "description": "<p>Esta {creature} pode executar uma reação em todo turno durante o combate.</p>",
+      "name": "Reativa"
+    },
+    "Reactive Heads": {
+      "description": "<p>Para cada cabeça além da primeira, a {creature} ganha uma reação que pode ser usada apenas para ataques de oportunidade.</p>",
+      "name": "Cabeças Reativas"
+    },
+    "Read Thoughts": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} lê magicamente os pensamentos superficiais de uma criatura a até 18 metros dele. O efeito pode penetrar barreiras, mas 1 metro de madeira ou terra, 60 centímetros de pedra, 5 centímetros de metal ou uma folha fina de chumbo o bloqueiam.</p><p>Enquanto o alvo estiver no alcance, a criatura {creature} pode continuar a ler os pensamentos dele, desde que a concentração da criatura {creature} não seja quebrada (como se estivesse se concentrando em uma magia). Enquanto estiver lendo a mente do alvo, a criatura {creature} tem vantagem em testes de Sabedoria (Intuição) e Carisma (Enganação, Intimidação e Persuasão) contra o alvo.</p>\n</section>\n<p>A criatura {creature} lê magicamente os pensamentos superficiais de uma criatura a até 18 metros dele.</p>",
+      "name": "Ler Pensamentos"
+    },
+    "Reaping Scythe": {
+      "description": "<section class=\"secret\">\n<p>O {creature} golpeia com sua foice espectral através de uma criatura a até 1,5 metro dele, causando <strong>7 (1d8 + 3) pontos de <em>dano cortante</em></strong> mais <strong>4 (1d8) pontos de <em>dano necrótico</em></strong>.</p>\n</section>\n<p>O {creature} golpeia com sua foice espectral através de uma criatura a até 1,5 metro dele.</p>",
+      "name": "Foice Ceifadora"
+    },
+    "Reckless": {
+      "description": "<p>No início do seu turno, o {creature} pode ganhar vantagem em todas as jogadas de ataque com armas de combate corpo a corpo que fizer durante neste turno, mas as jogadas de ataque contra ele tem vantagem até o início do seu próximo turno.</p>",
+      "name": "Imprudente"
+    },
+    "Reel": {
+      "description": "<p>A criatura {creature} puxa cada criatura agarrada até 7,5 m em linha reta em direção a ele.</p>",
+      "name": "Enrolar"
+    },
+    "Reflective Carapace": {
+      "description": "<section class=\"secret\">\n<p>A qualquer momento que a criatura {creature} for alvo da magia mísseis mágicos, uma magia em linha ou uma magia que necessite de uma jogada de ataque à distância, jogue 1d6. Com um resultado de 1 a 5, a criatura {creature} não é afetada.</p>\n<p>Com um 6, a criatura {creature} não é afetada e o efeito é refletido no conjurador, como se tivesse se originado da criatura {creature}, transformando o conjurador no alvo.</p>\n</section>\n<p>A criatura {creature} não é afetada e o efeito é refletido no conjurador, como se tivesse se originado da criatura {creature}, transformando o conjurador no alvo.</p>",
+      "name": "Carapaça Reflexiva"
+    },
+    "Regeneration": {
+      "description": "<section class=\"secret\"><p>O(a) {creature} recupera <strong>10 pontos de vida</strong> no início do turno dele enquanto possuir pelo menos <strong>1 ponto de vida</strong>.</p></section><p>O(a) {creature} recupera <strong>10 pontos de vida</strong> no início do turno dele.</p>",
+      "name": "Regeneração"
+    },
+    "Regional Effects": {
+      "description": "<p>A mera presença de uma criatura lendária pode ter estranhos e maravilhosos efeitos sobre o meio ambiente. Quando a criatura lendária morre, os efeitos regionais terminam abruptamente ou dissipam-se ao longo do tempo.</p>",
+      "name": "Efeitos Regionais"
+    },
+    "Rejuvenation": {
+      "description": "<section class=\"secret\">\n<p>Se morrer, a criatura {creature} retorna à vida em 1d6 dias e recupera todos os <strong>pontos de vida</strong>.</p>\n<p>Apenas uma magia desejo pode impedir que esta característica funcione.</p>\n</section>\n<p>Se morrer, a criatura {creature} retorna à vida em 1d6 dias e recupera todos os <strong>pontos de vida</strong>.</p>",
+      "name": "Rejuvenescimento"
+    },
+    "Relentless": {
+      "description": "<section class=\"secret\">\n<p>Se o(a) {creature} sofrer <strong>7 pontos de dano</strong> ou menos que reduza a <strong>0 pontos de vida</strong>, em vez disso são reduzidos a <strong>1 ponto de vida</strong>. Recarga após um Descanso Curto ou Longo.</p>\n</section>\n<p>Se o(a) {creature} sofrer pontos de dano que reduza a <strong>0 pontos de vida</strong>, em vez disso são reduzidos a <strong>1 ponto de vida</strong>.</p>",
+      "name": "Incansável"
+    },
+    "Repulsion Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro Repulsivo.** O {type} exala energia repulsiva em um cone de 9 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Força CD 19</strong>. Se falhar, a criatura é empurrada 18 metros para longe do {type}.</p>\n</section>\n<p>O {type} exala energia repulsiva em um cone de 9 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Força</strong>.</p>",
+      "name": "Sopro Repulsivo"
+    },
+    "Roar": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} emite um rugido mágico. Sempre que o faz antes de terminar um descanso longo, o rugido é mais alto e o efeito é diferente, como detalhado a seguir. Cada criatura a até 150 metros da criatura {creature} capaz de ouvir o rugido deve fazer uma salvaguarda.</p>\n<p>**Primeiro Rugido**. Cada criatura que falhe em uma salvaguarda de <strong>Sabedoria CD 18</strong> fica amedrontada por 1 minuto. Uma criatura amedrontada pode repetir a salvaguarda no final de cada um de seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n<p>**Segundo Rugido**. Cada criatura que falhe em uma salvaguarda de <strong>Sabedoria CD 18</strong> fica surda e amedrontada por 1 minuto. Uma criatura amedrontada fica paralisada e pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n<p>**Terceiro Rugido.** Cada criatura faz uma salvaguarda de <strong>Constituição CD 18</strong>. Se falhar, a criatura sofre 44 (8d10) pontos de dano trovejante e fica caída. Em caso de sucesso, a criatura sofre metade do dano e não fica caída.</p>\n</section>\n<p>A criatura {creature} emite um rugido mágico. Sempre que o faz antes de terminar um descanso longo, o rugido é mais alto e o efeito é diferente. Cada criatura a até 150 metros da criatura {creature} capaz de ouvir o rugido deve fazer uma salvaguarda.</p>",
+      "name": "Rugido"
+    },
+    "Rock Catching": {
+      "description": "<section class=\"secret\"><p>Se uma rocha ou objeto sim ilar for atirado contra a criatura {type}, esta pode, com uma salvaguarda bem-sucedida de Destreza CD 10, pegar o projétil e não sofrer <em>dano contundente</em> dele. </p></section><p> Se uma rocha ou objeto similar for atirado contra a criatura {type}, esta pode pegar o projétil e não sofrer <em>dano contundente</em> dele.</p>",
+      "name": "Apanhar Rocha"
+    },
+    "Running Leap": {
+      "description": "<p>Com uma corrida inicial de 3 metros, a criatura {creature} pode dar um salto em distância de até <strong>7,5 metros</strong>.</p>",
+      "name": "Salto com Impulso"
+    },
+    "Rust Metal": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} corrói qualquer arma não mágica feita de metal que a acerte. Após <strong>causar dano</strong>, a arma sofre uma penalidade permanente e cumulativa de -1 nas jogadas de dano. Se a penalidade cair para -5, a arma é destruída. Munição não mágica feita de metal que acerte a criatura {creature} é destruída após causar dano.</p></section>\n<p>A criatura {creature} corrói qualquer arma não mágica feita de metal que a acerte. Após <strong>causar dano</strong>, a arma sofre uma penalidade permanente e cumulativa de -1 nas jogadas de dano.</p>",
+      "name": "Enferrujar Metal"
+    },
+    "Scare": {
+      "description": "<section class=\"secret\"><p>Uma criatura à escolha da criatura {creature} a até 6 metros dela deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 10</strong> ou fica amedrontada por 1 minuto.</p><p> O alvo pode repetir a salvaguarda ao final de cada um dos seus turnos, com desvantagem se a criatura {creature} estiver na linha de visão, encerrando o efeito sobre si com um sucesso.</p></section><p>Uma criatura à escolha da criatura {creature} a até 6 metros dela deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria </strong>. O alvo pode repetir a salvaguarda ao final de cada um dos seus turnos, com desvantagem se a criatura {creature} estiver na linha de visão, encerrando o efeito sobre si com um sucesso.</p>",
+      "name": "Assustar"
+    },
+    "Searing Burst": {
+      "description": "<section class=\"secret\">O {creature} emite energia mágica divina. Cada criatura à escolha dele em um raio de 3 metros deve fazer uma salvaguarda de <strong>Destreza CD 23</strong>. Se falhar, sofre <strong>14 (4d6) pontos de <em>dano ígneo</em></strong> mais <strong>14 (4d6) pontos de <em>dano radiante</em></strong>, ou metade do dano em caso de sucesso.</section>\n<p>O {creature} emite energia mágica divina. Cada criatura à escolha dele em um raio de 3 metros deve fazer uma salvaguarda de <strong>Destreza</strong>.</p>",
+      "name": "Explosão Abrasadora"
+    },
+    "Second Roar": {
+      "description": "<p>Cada criatura que falhe em uma salvaguarda de <strong>Sabedoria CD 18</strong> fica surda e amedrontada por 1 minuto. Uma criatura amedrontada fica paralisada e pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>",
+      "name": "Segundo Rugido"
+    },
+    "Sense Magic": {
+      "description": "<p>A criatura {creature} detecta magia a <strong>até 36 metros</strong>, à vontade. Essa característica funciona como detectar magia, porém não é uma magia.</p>",
+      "name": "Sentir Magia"
+    },
+    "Shadow Stealth": {
+      "description": "<section class=\"secret\"><p>Enquanto estiver sob meia-luz ou escuridão, o {creature} pode executar a ação de Esconder com uma ação bônus.</p></section><p>O {creature} pode executar a ação de Esconder com uma ação bônus.</p>",
+      "name": "Furtividade nas Sombras"
+    },
+    "Shapechanger": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} pode usar uma ação para se <strong>transformar</strong> em um humanoide Pequeno ou Médio que já tenha visto, ou retornar à sua forma verdadeira.</p>\n<p>Suas estatísticas, exceto o tamanho, são as mesmas em todas as formas. Qualquer equipamento que estiver usando ou carregando não é transformado. Ele reverte para a forma verdadeira ao morrer.</p></section>\n<p>A criatura {creature} pode usar uma ação para se <strong>transformar</strong> em um humanoide Pequeno ou Médio que já tenha visto, ou retornar à sua forma verdadeira.</p>",
+      "name": "Metamorfo"
+    },
+    "Shark Telepathy": {
+      "description": "<p>A criatura {creature} pode comandar magicamente qualquer tubarão a <strong>menos de 36 metros</strong> dele, usando uma telepatia limitada.</p>",
+      "name": "Telepatia com Tubarões"
+    },
+    "Shield": {
+      "description": "<p>Se o {creature} estiver a 1,5 metro do portador de seu amuleto, ele concede um bônus de +2 à CA do portador quando uma criatura fizer um ataque contra este.</p>",
+      "name": "Égide"
+    },
+    "Shielded Mind": {
+      "description": "<p>A criatura {creature} é imune à vidência e a qualquer efeito que poderia sentir suas emoções, ler sua mente ou detectar sua localização.</p>",
+      "name": "Mente Blindada"
+    },
+    "Shimmering Shield": {
+      "description": "<p> O(a) {creature} cria um campo mágico cintilante ao seu redor ou ao redor de outra criatura à vista e a até 18 metros dele. O alvo ganha um bônus de +2 na CA até o final do próximo turno do(a) {creature}.</p>",
+      "name": "Escudo Cintilante"
+    },
+    "Shriek": {
+      "description": "<section class=\"secret\">\n<p>Quando recebe luz plena ou quando uma criatura se aproxima a até 9 metros da criatura {creature}, ele emite um guincho audível a até 90 metros. A criatura {creature} continua a guinchar até a perturbação sair do alcance, continuando por mais 1d4 dos seus turnos.</p></section>\n<p>Quando recebe luz plena ou quando uma criatura se aproxima a até 9 metros da criatura {creature}, ele emite um guincho audível a até 90 metros.</p>",
+      "name": "Guinchador"
+    },
+    "Siege Monster": {
+      "description": "<p>A criatura {type} causa o dobro de dano a objetos e estruturas.</p>",
+      "name": "Monstro de Cerco"
+    },
+    "Sleep Breath": {
+      "description": "<section class=\"secret\">\n<p>O {type} exala gás sonífero em um cone de 27 metros. Cada criatura na área deve ser bem sucedida em uma salvaguarda de <strong>Constituição CD 21</strong> ou fica inconsciente por 10 minutos. Esse efeito se encerra para a criatura se ela sofrer dano ou se alguém usar uma ação para acorda-la.</p>\n</section>\n<p>O {type} exala gás sonífero em um cone de 27 metros. Cada criatura na área deve ser bem sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro Sonífero"
+    },
+    "Slowing Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro Letárgico.** A criatura {creature} exala gás em um cone de 18 metros. Cada criatura nessa área deve fazer uma salvaguarda de <strong>Constituição CD 18</strong>. Se falhar, a criatura não pode usar reações, tem o deslocamento reduzido pela metade e não pode fazer mais do que um ataque no seu turno. Além disso, ela pode usar tanto uma ação quanto uma ação bônus no próprio turno, mas não ambas. Estes efeitos duram 1 minuto. A criatura pode repetir a salvaguarda ao final de cada turno dela, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p>A criatura {creature} exala gás em um cone de 18 metros. Cada criatura nessa área deve fazer uma salvaguarda de <strong>Constituição</strong></p>",
+      "name": "Sopro Letárgico"
+    },
+    "Sneak Attack": {
+      "description": "<section class=\"secret\">(1/Turno).</section>\n<p>O(a) {creature} causa 13 (4d6) pontos de dano adicionais ao atingir o alvo com um ataque armado no qual tenha vantagem na jogada de ataque, ou quando o alvo estiver a até 1,5 metro de um aliado do(a) {creature} que não esteja incapacitado, caso o(a) {creature} não tenha desvantagem na jogada de ataque.</p>",
+      "name": "Ataque Furtivo"
+    },
+    "Snow Camouflage": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em testes de Destreza (Furtividade) feitos para se esconder em terrenos nevados.</p>",
+      "name": "Camuflagem na Neve"
+    },
+    "Speak with Beasts and Plants": {
+      "description": "<p>A {creature} pode se comunicar com feras e plantas como se compartilhassem o mesmo idioma.</p>",
+      "name": "Falar com Feras e Plantas"
+    },
+    "Spell Storing": {
+      "description": "<p>Um conjurador que porte o amuleto pode canalizar energia mágica, amazenando uma magia de 4° círculo ou inferior diretamente no égide. Para tanto, deve conjurar a magia na criatura {creature}. A magia não tem efeito, mas é armazenada dentro dela. Quando ordenado pelo portador ou quando surge uma situação pré-definida pelo conjurador, a criatura {creature} conjura a magia armazenada com quaisquer parâmetros estabelecidos pelo conjurador original, sem a necessidade de componentes. Quando a magia é conjurada ou uma nova é armazenada, qualquer magia anteriormente armazenada é perdida.</p>",
+      "name": "Armazenar Magia"
+    },
+    "Spellcasting": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} é um conjurador de 1º nível. Seu atributo de conjuração é a Sabedoria (CD 12 para evitar magia, +4 para acertar com ataques mágicos). A criatura {creature} tem as seguintes magias de clérigo preparadas:</p><p>Truques (à vontade): chama sagrada, luz, taumaturgia</p><p>1º círculo (3 espaços): benção, curar ferimentos, santuário</p></section><p>A criatura {creature} é um conjurador. Seu atributo de conjuração é a Sabedoria.</p>",
+      "name": "Conjuração"
+    },
+    "Spider Climb": {
+      "description": "<p>A criatura {creature} pode escalar superfícies difíceis, incluindo ficar de cabeça para baixo no teto, sem precisar fazer um teste de atributo.</p>",
+      "name": "Escalada de Aranha"
+    },
+    "Split": {
+      "description": "<section class=\"secret\">\n<p>Quando uma criatura {creature} de tamanho Médio ou maior for alvo de <em>dano cortante ou elétrico</em>, ele se separa em duas novas criaturas {creature}, caso tenha pelo menos 10 pontos de vida. Cada uma das novas criaturas {creature} tem pontos de vida iguais aos da metade da criatura {creature} original, arredondado para baixo. Novas criaturas {creatures} são de um tamanho menor que a criatura {creature} original.</p>\n</section>\n<p>A criatura {creature} se separa em duas novas criaturas {creature}. Novas criaturas {creatures} são de um tamanho menor que a criatura {creature} original.</p>",
+      "name": "Dividir"
+    },
+    "Spores": {
+      "description": "<section class=\"secret\"><p>Uma nuvem de esporos tóxicos com 4,5 metros de raio se estende a partir da criatura {creature}. Os esporos se alastram, contornando cantos. Cada criatura na área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 14</strong> ou fica envenenada.</p><p> Enquanto envenenado desta forma, o alvo sofre <strong>5 (1d10) pontos de <em>dano venenoso</em></strong> no começo de cada um dos seus turnos. Um alvo pode repetir a salvaguarda ao final de cada um dos seus próprios turnos, encerrando o efeito sobre si em caso de sucesso. Esvaziar um frasco de água benta no alvo também encerra o efeito.</p></section><p>Uma nuvem de esporos tóxicos com 4,5 metros de raio se estende a partir da criatura {creature}. Os esporos se alastram, contornando cantos. Cada criatura na área deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>. Um alvo pode repetir a salvaguarda ao final de cada um dos seus próprios turnos, encerrando o efeito sobre si em caso de sucesso.</p>",
+      "name": "Esporos"
+    },
+    "Standing Leap": {
+      "description": "<p>O salto em distância da criatura {creature} é de até <strong>9 metros</strong> e seu salto em altura é de até <strong>4,5 metros</strong>, com ou sem uma corrida inicial.</p>",
+      "name": "Salto Parado"
+    },
+    "Steadfast": {
+      "description": "<p>O {creature} não pode ser amedrontado enquanto puder ver uma criatura aliada a <strong>até 9 metros</strong> dele.</p>",
+      "name": "Resoluto"
+    },
+    "Steam Breath": {
+      "description": "<section class=\"secret\"><p>O {creature} exala vapor escaldante num cone de 18 metros. Cada criatura nessa área deve\nrealizar uma salvaguarda de <strong>Constituição CD 18</strong>, sofrendo <strong>52 (15d6) pontos de <em>dano ígneo</em></strong> se falhar, ou metade desse dano em caso de sucesso.</p><p>Estar submerso não confere resistência contra esse dano.</p></section><p>O {creature} exala vapor escaldante num cone de 18 metros. Cada criatura nessa área deve realizar uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Sopro de Vapor"
+    },
+    "Stench": {
+      "description": "<section class=\"secret\"><p>Qualquer criatura que inicie seu turno a até <strong>1,5 metro</strong> da criatura {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 10</strong> ou fica envenenada até o início do próximo turno dela. Em caso de sucesso, a criatura fica imune ao Fedor da criatura {creature} por 24 horas.</p></section>\n<p>Qualquer criatura que inicie seu turno a até <strong>1,5 metro</strong> da criatura {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong></p>",
+      "name": "Fedor"
+    },
+    "Stone Camouflage": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> nos testes de Destreza (Furtividade) feitos para se esconder em terreno rochoso.</p>",
+      "name": "Camuflagem de Pedra"
+    },
+    "Stone Golem - Slow": {
+      "description": "<section class=\"secret\">\n<p>O(a) {creature} escolhe como alvo uma ou mais criaturas à vista e a até 3 metros dele. Cada alvo deve fazer uma salvaguarda de <strong>Sabedoria CD 17</strong> contra esta magia.</p>\n<p>Se falhar, não pode usar reações, tem o deslocamento reduzido pela metade e não pode fazer mais do que um ataque no seu turno. Além disso, a criatura pode usar uma ação ou uma ação bônus no turno dela, mas não ambas. Estes efeitos duram 1 minuto. Um alvo pode repetir a salvaguarda ao final de cada turno dele, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p>O(a) {creature} escolhe como alvo uma ou mais criaturas à vista e a até 3 metros dele. Cada alvo deve fazer uma salvaguarda de <strong>Sabedoria </strong> contra esta magia. Um alvo pode repetir a salvaguarda ao final de cada turno dele, encerrando o efeito sobre si em caso de sucesso.</p>",
+      "name": "Golem de Pedra - Lentidão"
+    },
+    "Stunning Screech": {
+      "description": "<section class=\"secret\">\n<p> A criatura {creature} emite um guincho horrível. Cada criatura a até 6 metros que possa ouvi-la e que não seja do tipo {type} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 14</strong>, ou fica paralisada até o final do próximo turno da criatura {creature}.</p>\n</section>\n<p>A criatura {creature} emite um guincho horrível. Cada criatura a até 6 metros que possa ouvi-la e que não seja do tipo {type} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Guincho Atordoante"
+    },
+    "Sunlight Sensitivity": {
+      "description": "<p>Enquanto estiver sob a luz do sol, a criatura {creature} tem <strong>desvantagem</strong> em jogadas de ataque, assim como em testes de Sabedoria (Percepção) que dependam da visão.</p>",
+      "name": "Sensibilidade à Luz Solar"
+    },
+    "Sunlight Weakness": {
+      "description": "<p>Quando está sob a luz do sol, a criatura {creature} tem <strong>desvantagem</strong> nas jogadas de ataque, testes de habilidade e salvaguardas.</p>",
+      "name": "Fraqueza à Luz Solar"
+    },
+    "Sure-Footed": {
+      "description": "<p>O {creature} tem <strong>vantagem</strong> em salvaguardas de Força ou Destreza feitos contra efeitos que o deixariam caído.</p>",
+      "name": "Estabilidade"
+    },
+    "Surprise Attack": {
+      "description": "<p>Se o {creature} surpreender uma criatura e acertá-la com um ataque na primeira rodada de combate, o alvo sofre 7 (2d6) pontos de dano adicionais desse ataque.</p>",
+      "name": "Ataque Surpresa"
+    },
+    "Swallow": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} faz um ataque de mordida contra um <strong>alvo Médio ou menor que ele já esteja agarrando</strong>. Em caso de sucesso, o alvo também é engolido e o agarramento termina. Enquanto estiver engolido, o alvo fica cego e contido, tem cobertura total contra ataques e outros efeitos vindos do lado de fora da criatura {creature}, e sofre <strong>21 (6d6) pontos de <em>dano ácido</em></strong> no início de cada um dos turnos da criatura {creature}. Uma criatura {creature} só pode ter um inimigo engolido por vez.</p><p> Se a criatura {creature} sofrer 30 ou mais pontos de dano proveniente da criatura engolida em um único turno, ela deve fazer uma salvaguarda de <strong>Constituição com CD 14</strong> no final daquele turno. Se falhar, regurgita a criatura, que fica caída em um espaço a até 3 metros da criatura {creature}. Se a criatura {creature} morrer, a criatura engolida não está mais contida e pode escapar do cadáver usando 4,5 metros de movimento, ficando caída ao sair.</p>\n</section>\n<p>A criatura {creature} ataca com seu Engolir.</p>",
+      "name": "Engolir"
+    },
+    "Swarm": {
+      "description": "<p>A fúria pode ocupar o espaço de outra criatura e vice-versa, e também pode mover-se através de qualquer abertura grande o suficiente para uma criatura {creature} de tamanho Minúsculo passar. A fúria não pode recuperar <strong>pontos de vida</strong> ou ganhar <strong>pontos de vida</strong> temporários.</p>",
+      "name": "Fúria"
+    },
+    "Tail Spike Regrowth": {
+      "description": "<p>A criatura {creature} tem 24 espinhos na cauda. Espinhos usados crescem novamente após a criatura {creature} terminar um descanso longo.</p>",
+      "name": "Regeneração dos Espinhos da Cauda"
+    },
+    "Tail Swipe (Legendary)": {
+      "description": "<section class=\"secret\">\n<p>O {creature} faz um ataque com a cauda.</p>\n</section>\n<p>O {creature} bate sua cauda contra sua presa!</p>",
+      "name": "Golpe com a Cauda (Lendário)"
+    },
+    "Telepathic Bond": {
+      "description": "<p>Enquanto a criatura {creature} estiver no mesmo plano de existência que seu mestre, ela pode magicamente transmitir o que sente para o mestre, com ambos podendo se comunicar telepaticamente.</p>",
+      "name": "Ligação Telepática"
+    },
+    "Teleport": {
+      "description": "<p>A criatura {creature} se teleporta magicamente, junto com todo o equipamento que estiver usando ou carregando, até 36 metros para um espaço desocupado à vista dele.</p>",
+      "name": "Teleporte"
+    },
+    "Tentacle Attack or Fling": {
+      "description": "<p>A criatura {creature} faz um ataque de tentáculo ou usa Arremessar.</p>",
+      "name": "Ataque de Tentáculo ou Arremesso"
+    },
+    "Tentacle Disease": {
+      "description": "<section class=\"secret\">\n<p><strong>Após 1 minuto</strong>, a pele da criatura doente torna-se translúcida e viscosa, ela não pode recuperar pontos de vida, a menos que esteja submersa, e a doença pode ser removida apenas por cura completa ou outro magia de 6º círculo ou superior, que cure doenças. Quando a criatura está <strong>fora d'água</strong>, ela sofre <strong>6 (1d12) pontos de dano ácido a cada 10 minutos</strong>, a menos que umidade seja plicada sobre sua pele antes que 10 minutos se passem.</p>\n</section>\n<p>Você sente uma dor surgindo pelo seu corpo!</p>",
+      "name": "Doença de Tentáculo"
+    },
+    "Tentacle Slam": {
+      "description": "<section class=\"secret\"><p>A criatura {creature} pode golpear criaturas agarradas por ele, uma contra a outra ou contra uma superfície sólida. Cada criatura deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 14</strong> ou sofre <strong>10 (2d6 + 3) pontos de <em>dano contundente</em></strong> e fica atordoada até o final do próximo turno da criatura {creature}.</p>\n<p>Em caso de sucesso, a criatura sofre metade do dano contundente e não fica atordoada.</p>\n</section>\n<p>A criatura {creature} pode golpear criaturas agarradas por ele, uma contra a outra ou contra uma superfície sólida. Cada criatura deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Pancada com Tentáculo"
+    },
+    "Tentacles": {
+      "description": "<section class=\"secret\">\n<p>Uma criatura agarrada pelo {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição CD 13</strong> ou fica envenenada por 1 minuto.</p><p>O alvo fica paralisado enquanto o veneno durar. O alvo pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p>Uma criatura agarrada pelo {creature} deve ser bem-sucedida em uma salvaguarda de <strong>Constituição</strong>. O alvo pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>",
+      "name": "Tentáculos"
+    },
+    "Third Roar": {
+      "description": "<p>Each creature makes a  <strong>DC 18 Constitution</strong> saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.</p>",
+      "name": "Terceiro Rugido"
+    },
+    "Trampling Charge": {
+      "description": "<section class=\"secret\">\n<p>Se o {creature} se mover ao menos <strong>6 metros</strong> em linha reta em direção a uma criatura e, em seguida, atingi-la com um ataque de presas, o alvo deve ser bem-sucedido em uma salvaguarda de <strong>Força CD 12</strong> ou fica caído. Se o alvo ficar caído, o {creature} pode fazer um ataque de pisão contra ele com uma ação bônus.</p>\n</section>\n<p>Se o {creature} se mover ao menos <strong>6 metros</strong> em linha reta em direção a uma criatura e, em seguida, atingi-la com um ataque de presas, o alvo deve ser bem-sucedido em uma salvaguarda de Força.</p>",
+      "name": "Atropelar em Carga"
+    },
+    "Transparent": {
+      "description": "<section class=\"secret\">\n<p>Mesmo quando a criatura {creature} está à vista, é necessário um teste bem-sucedido de <strong>Sabedoria CD 15 (Percepção)</strong> para detectar uma criatura {creature} que não tenha se movido nem atacado. Uma criatura que tentar entrar no espaço da criatura {creature} enquanto não estiver ciente dela é surpreendida por ela.</p>\n</section>\n<p>Mesmo quando a criatura {creature} está à vista, é necessário um teste bem-sucedido de Sabedoria CD(Percepção) para detectar uma criatura {creature} que não tenha se movido nem atacado. Uma criatura que tentar entrar no espaço da criatura {creature} enquanto não estiver ciente dela é surpreendida por ela.</p>",
+      "name": "Transparente"
+    },
+    "Treasure Sense": {
+      "description": "<p>A criatura {creature} pode identificar, pelo cheiro, a localização de pedras e metais preciosos, como moedas e gemas, a até <strong>18 metros</strong> dela.</p>",
+      "name": "Sentido de Tesouro"
+    },
+    "Tree Stride": {
+      "description": "<p>Uma vez no seu turno, a criatura {creature} pode usar 3 metros do seu deslocamento para entrar magicamente em uma árvore viva ao seu alcance e emergir de uma segunda árvore viva a até 18 metros da primeira árvore, aparecendo em um espaço desocupado a até 1,5 metro da segunda árvore. Ambas as árvores devem ser de tamanho Grande ou maior.</p>",
+      "name": "Passo Arbóreo"
+    },
+    "Tunneler": {
+      "description": "<p>O {creature} pode escavar através de rocha sólida com metade do seu deslocamento de escavação e deixa para trás um túnel de 1,5 metro de largura por 2,5 metros de altura.</p>",
+      "name": "Escavador de Túneis"
+    },
+    "Turn Defiance": {
+      "description": "<p>O {creature} e quaisquer carniçais a até <strong>9 metros</strong> dele têm <strong>vantagem</strong> em salvaguardas contra efeitos que expulsam mortos-vivos.</p>",
+      "name": "Proteção contra Expulsão"
+    },
+    "Turn Immunity": {
+      "description": "<p>O(a) {creature} é imune a efeitos que expulsam mortos-vivos.</p>",
+      "name": "Imunidade a Expulsão"
+    },
+    "Turn Resistance": {
+      "description": "<p>O {creature} tem <strong>vantagem</strong> em salvaguardas contra qualquer efeito que expulse mortos-vivos.</p>",
+      "name": "Resistência a Expulsão"
+    },
+    "Two Heads": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em testes de Sabedoria (Percepção) e em salvaguardas <strong>contra ficar amedrontado, atordoado, cego, enfeitiçado, surdo ou cair inconsciente</strong>.</p>",
+      "name": "Duas Cabeças"
+    },
+    "Two-Headed": {
+      "description": "<p>O {creature} tem <strong>vantagem</strong> em testes de Sabedoria (Percepção) e em salvaguardas contra ser amedrontado, atordoado, cego, enfeitiçado, inconsciente e surdo.</p>",
+      "name": "Duas Cabeças"
+    },
+    "Unarmed Strike (Legendary)": {
+      "description": "<p>O(a) {creature} faz um ataque desarmado.</p>",
+      "name": "Ataque Desarmado (Lendário)"
+    },
+    "Undead Fortitude": {
+      "description": "<section class=\"secret\">\n<p>Quando a criatura {creature} recebe dano que reduz seus pontos de vida para <strong>0</strong>, ela deve fazer uma salvaguarda de <strong>Constituição</strong> com CD 5 + o dano sofrido, a não ser que este seja radiante ou derivado de um acerto crítico. Se for bem-sucedido, em vez disso a criatura {creature} fica com <strong>1 ponto de vida</strong>.</p>\n</section>\n<p>Se o dano reduz os pontos de vida da criatura {creature} para <strong>0</strong>, ela deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
+      "name": "Fortitude de Morto-Vivo"
+    },
+    "Underwater Camouflage": {
+      "description": "<p>A criatura {creature} tem <strong>vantagem</strong> em testes de Destreza (Furtividade) feitos enquanto estiver sob a água.</p>",
+      "name": "Camuflagem Subaquática"
+    },
+    "Unnerving Mask": {
+      "description": "<section class=\"secret\">\n<p>Quando uma criatura à vista do {type} iniciar o próprio turno a até 9 metros dele, o {type} pode criar uma ilusão que se parece com um ente querido ou inimigo jurado, já falecido, da criatura. Caso a criatura possa ver o {type}, ela deve ser bem-sucedida em uma salvaguarda de <strong>Sabedoria CD 14</strong> ou fica amedrontada até o final do turno dela.</p>\n</section>\n<p>O {type} pode criar uma ilusão que se parece com um ente querido ou inimigo jurado, já falecido, da criatura. Faça uma salvaguarda de <strong>Sabedoria</strong>.</p>",
+      "name": "Máscara Enervante"
+    },
+    "Vampire Weaknesses": {
+      "description": "<p>A criatura {creature} tem as seguintes fraquezas:</p>\n<p><em>Proibição.</em> A criatura {creature} não pode entrar em uma residência sem um convite de um dos moradores.</p>\n<p><em>Ferido por Água Corrente.</em> A criatura {creature} sofre 20 pontos de <em>dano ácido</em> se terminar seu turno em água corrente.\n<p><em>Estaca no Coração.</em> Se uma arma perfurante feita de madeira é empurrada contra seu coração enquanto está incapacitada em seu lugar de descanso, a criatura {creature} fica paralisada até que a estaca seja removida.</p>\n<p><em>Hipersensibilidade à Luz Solar.</em> A criatura {creature} sofre 20 pontos de <em>dano radiante</em> quando começa seu turno sob a luz do sol. Enquanto estiver sob essa luz ele tem <strong>desvantagem</strong> nas jogadas de ataque e testes de atributo.</p>",
+      "name": "Fraquezas de Vampiro"
+    },
+    "Variable Illumination": {
+      "description": "<p>Uma criatura {creature} projeta luz plena em um raio de 1,5 a <strong>6 metros</strong> e meia-luz por um número adicional de <strong>metros</strong> igual ao raio escolhido. A criatura {creature} pode alterar o raio com uma ação bônus.</p>",
+      "name": "Iluminação Variável"
+    },
+    "Wakeful": {
+      "description": "<p>Enquanto a criatura {creature} dorme, pelo menos uma das suas cabeças permanece acordada.</p>",
+      "name": "Vigilante"
+    },
+    "Wall of Ice": {
+      "description": "<section class=\"secret\">\n<p>A criatura {creature} magicamente forma uma muralha de gelo opaco em uma superfície sólida à vista e a até 18 metros dele. A muralha tem 30 centímetros de espessura, até 9 metros de comprimento e 3 metros de altura, ou assume a forma de um domo hemisférico de até 6 metros de diâmetro.</p>\n<p>Quando a muralha aparece, cada criatura no espaço dela é empurrada pela rota mais curta. A criatura escolhe de qual lado da muralha fica, a menos que esteja incapacitada. A criatura faz então uma salvaguarda de <strong>Destreza CD 17</strong>, sofrendo <strong>35 (10d6) pontos de <em>dano gélido</em></strong> se falhar, ou metade do dano em caso de sucesso.</p>\n<p>A muralha dura 1 minuto ou até a criatura {creature} ficar incapacitada ou morrer. A muralha pode ser danificada e rompida. Cada seção de 3 metros tem CA 5, 30 pontos de vida, vulnerabilidade a <em>dano ígneo</em> e imunidade a <em>dano ácido, gélido, necrótico, psíquico e venenoso</em>. Se uma seção for destruída, ela deixa para trás uma camada de ar frígido no espaço que ocupava. Sempre que uma criatura se mover através desse ar, voluntariamente ou não, ela deve fazer uma salvaguarda de <strong>Constituição CD 17</strong>. Se falhar, sofre <strong>17 (5d6)<em> pontos de dano gélido</em></strong>, ou metade do dano em caso de sucesso. O ar frígido dissipa-se quando o restante da muralha desaparece.</p>\n</section>\n<p>A criatura {creature} magicamente forma uma muralha de gelo opaco em uma superfície sólida à vista e a até 18 metros dele. A muralha tem 30 centímetros de espessura, até 9 metros de comprimento e 3 metros de altura, ou assume a forma de um domo hemisférico de até 6 metros de diâmetro. Quando a muralha aparece, cada criatura no espaço dela é empurrada pela rota mais curta. A criatura escolhe de qual lado da muralha fica, a menos que esteja incapacitada. A criatura faz então uma salvaguarda de Destreza.</p>\n<p>A muralha pode ser danificada e rompida. Se uma seção for destruída, ela deixa para trás uma camada de ar frígido no espaço que ocupava. Sempre que uma criatura se mover através desse ar, voluntariamente ou não, ela deve fazer uma salvaguarda de <strong>Constituição CD</strong>.</p>",
+      "name": "Muralha de Gelo"
+    },
+    "Water Breathing": {
+      "description": "<p>A criatura {creature} só pode respirar debaixo d'água.</p>",
+      "name": "Respirar na Água"
+    },
+    "Water Form": {
+      "description": "<p>O(a) {type} pode entrar no espaço de uma criatura hostil e parar nele. O elemental pode mover-se através de um espaço tão estreito quanto 2,5 centímetros de largura sem se espremer.</p>",
+      "name": "Forma de Água"
+    },
+    "Water Susceptibility": {
+      "description": "<p>O {type} sofre <strong>1 ponto de <em>dano gélido</em></strong> para cada <strong>1,5 metro</strong> que se mova na água, ou para cada litro de água jogado sobre ele.</p>",
+      "name": "Suscetibilidade à Água"
+    },
+    "Weakening Breath": {
+      "description": "<section class=\"secret\">\n<p>**Sopro Enfraquecedor** A criatura {type} exala gás em um cone de 18 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Força CD 21</strong> ou tem desvantagem nas jogadas de ataque baseadas em Força, testes de Força e salvaguardas de Força durante 1 minuto. Uma criatura pode repetir a salvaguarda no final de cada um dos seus turnos, encerrando o efeito sobre si em caso de sucesso.</p>\n</section>\n<p>A criatura {type} exala gás em um cone de 18 metros. Cada criatura nessa área deve ser bem-sucedida em uma salvaguarda de <strong>Força</strong>.</p>",
+      "name": "Sopro Enfraquecedor"
+    },
+    "Web": {
+      "description": "<section class=\"secret\"><p>Arma de Combate à Distância: +4 para acertar, alcance 9/18 m, uma criatura Grande ou menor. Dano: A criatura fica contida por teias.</p><p>Com uma ação, a criatura contida pode realizar um teste de Força CD 11, escapando das teias em caso de sucesso. O efeito também se encerra se as teias forem destruídas. As teias têm CA 10, 5 pontos de vida, vulnerabilidade a <em>dano ígneo</em> e imunidade a <em>dano contundente</em>.</p></section><p>A criatura fica contida por teias. Com uma ação, a criatura contida pode realizar um teste de Força, escapando das teias em caso de sucesso.</p>",
+      "name": "Teia"
+    },
+    "Web Sense": {
+      "description": "<p>Enquanto estiver em contato com uma teia, a criatura {creature} sabe a localização exata de qualquer outra criatura em contato com a mesma teia.</p>",
+      "name": "Sentido de Teia"
+    },
+    "Web Walker": {
+      "description": "<p> A {creature} ignora restrições de movimento causadas por teias.</p>",
+      "name": "Escalada Aracnídea"
+    },
+    "Whelm": {
+      "description": "<section class=\"secret\"><p>Cada criatura no espaço do {type} deve fazer uma salvaguarda de <strong>Força CD 15</strong>. Se falhar, sofre <strong>13 (2d8 + 4) pontos de <em>dano contundente</em></strong>. Se for Grande ou menor, também fica agarrado (CD 14 para escapar). Até este agarramento terminar, o alvo fica contido e incapaz de respirar, a menos que possa respirar na água.</p><p>Se a salvaguarda for bem-sucedida, o alvo é empurrado para fora do espaço do {type}. O {type} pode agarrar uma criatura Grande ou duas criaturas Médias ou menores ao mesmo tempo. No início de cada um dos turnos do {type}, cada alvo agarrado por ele sofre <strong>13 (2d8 + 4) pontos de <em>dano contundente</em></strong>. Uma criatura a 1,5 metro do {type} pode puxar uma criatura ou objeto para fora dele, usando uma ação para fazer um teste bem-sucedido de Força CD 14.</p></section><p>Cada criatura no espaço do {type} deve fazer uma salvaguarda de <strong>Força</strong>. Se for Grande ou menor, também fica agarrado. Até este agarramento terminar, o alvo fica contido e incapaz de respirar, a menos que possa respirar na água. Uma criatura a 1,5 metro do {type} pode puxar uma criatura ou objeto para fora dele, usando uma ação para fazer um teste bem-sucedido de Força.</p>",
+      "name": "Submergir"
+    },
+    "Whirlwind": {
+      "description": "<section class=\"secret\">\n<p>Cada criatura no espaço do {type} deve fazer uma salvaguarda de <strong>Força CD 13</strong>. Se falhar, sofre <strong>15 (3d8 + 2) pontos de <em>dano contundente</em></strong> e é arremessado a até 6 metros de distância do {type}, em uma direção aleatória, e fica caído.</p><p>Se um alvo arremessado atinge um objeto, como uma parede ou o chão, ele sofre <strong>3 (1d6) pontos de <em>dano contundente</em></strong> para cada 3 metros de distância a que foi arremessado. Caso seja arremessado contra uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Destreza CD 13</strong>, ou sofre o mesmo dano e fica igualmente caída. Se a salvaguarda for bem-sucedida, o alvo sofre metade do <em>dano contundente</em>, não é arremessado para longe e nem fica caído.</p>\n</section>\n<p>Cada criatura no espaço do {type} deve fazer uma salvaguarda de <strong>Força</strong>. Se falhar, é arremessado a até 6 metros de distância do {type}, em uma direção aleatória, e fica caído. Caso seja arremessado contra uma criatura, esta deve ser bem-sucedida em uma salvaguarda de <strong>Destreza</strong> ou sofre o mesmo dano e fica igualmente caída.</p>",
+      "name": "Redemoinho"
+    },
+    "Whirlwind of Sand": {
+      "description": "<p>A criatura {creature} transforma-se magicamente em um redemoinho de areia, movendo-se até 18 metros e voltando à sua forma normal. Enquanto na forma de redemoinho, a criatura {creature} é imune a todos os tipos de dano e não pode ser agarrada, atordoada, contida, derrubada ou petrificada. Equipamentos usados ou carregados pela criatura {creature} continuam em sua posse.</p>",
+      "name": "Redemoinho de Areia"
+    }
+  }
+}
