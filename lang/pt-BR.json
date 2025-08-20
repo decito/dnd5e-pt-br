@@ -8,8 +8,8 @@
 
   "TYPES.Actor.character": "Personagem",
   "TYPES.Actor.characterPl": "Personagens",
-  "TYPES.Actor.npc": "NPC",
-  "TYPES.Actor.npcPl": "NPCs",
+  "TYPES.Actor.npc": "PNJ",
+  "TYPES.Actor.npcPl": "PNJs",
 
   "TYPES.Actor.vehicle": "Veículo",
   "TYPES.Actor.vehiclePl": "Veículos",
@@ -2088,7 +2088,7 @@
   "DND5E.Normal": "Normal",
   "DND5E.NotProficient": "Não Proficiente",
   "DND5E.Notes": "Notas",
-  "DND5E.NPC": "NPC",
+  "DND5E.NPC": "PNJ",
   "DND5E.Number": "Número",
   "DND5E.OtherFormula": "Outra Fórmula",
   "DND5E.PactMagic": "Magia de Pacto",
@@ -2343,8 +2343,8 @@
   "DND5E.SheetClassItemLegacy": "Ficha de Item D&D 5e (Legado)",
   "DND5E.SheetClassJournalEntry": "Ficha de Jornal D&D 5e Padrão",
   "DND5E.SheetClassMapLocation": "Ficha de Mapa D&D 5e Padrão",
-  "DND5E.SheetClassNPC": "Ficha de NPC D&D 5e Padrão",
-  "DND5E.SheetClassNPCLegacy": "Ficha de NPC D&D 5e (Legado)",
+  "DND5E.SheetClassNPC": "Ficha de PNJ D&D 5e Padrão",
+  "DND5E.SheetClassNPCLegacy": "Ficha de PNJ D&D 5e (Legado)",
   "DND5E.SheetClassRule": "Ficha de Regras D&D 5e Padrão",
   "DND5E.SheetClassSpellList": "Ficha de Lista de Magias D&D 5e Padrão",
   "DND5E.SheetClassToken": "Ficha de Token D&D 5e Padrão",
@@ -2631,7 +2631,7 @@
         },
         "hd": {
           "label": "Bônus nos Dados de Vida",
-          "hint": "Dados de Vida adicionais além do derivado da fórmula de PV no bloco de estatísticas. Só pode ser usado ao invocar atores NPC."
+          "hint": "Dados de Vida adicionais além do derivado da fórmula de PV no bloco de estatísticas. Só pode ser usado ao invocar atores PNJ."
         },
         "healing": {
           "label": "Bônus na Cura",
@@ -3470,7 +3470,7 @@
     },
     "DEFAULTSKILLS": {
       "Name": "Perícias Padrão",
-      "Hint": "As perícias padrão que aparecem nas fichas de NPC, independentemente do nível de proficiência."
+      "Hint": "As perícias padrão que aparecem nas fichas de PNJ, independentemente do nível de proficiência."
     },
     "LEVELING": {
       "Name": "Modo de Avanço de Nível",
