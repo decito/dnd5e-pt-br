@@ -1,6 +1,6 @@
 # Translation: Português Brasileiro [D&D 5e] (SRD) for FoundryVTT
 
-![Compatible Foundry Version](https://img.shields.io/badge/Foundry-v13-informational)
+![Foundry 12](https://img.shields.io/badge/Foundry-v12-informational) ![Foundry 13](https://img.shields.io/badge/Foundry-v13-informational)
 
 Check instructions in [pt-BR](#português) or [en-US](#english).
 
