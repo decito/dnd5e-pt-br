@@ -8,7 +8,7 @@ Check instructions in [pt-BR](#português) or [en-US](#english).
 
 ### Overview
 
-This is a community-driven update to the outdated Brazilian Portuguese translation module for the [Dungeons & Dragons 5th Edition (dnd5e)](https://foundryvtt.com/packages/dnd5e) system on [Foundry Virtual Tabletop](https://foundryvtt.com/). The goal is to provide a comprehensive, accurate, and fully updated translation of all in-game texts and compendium content, adhering to the latest Brazilian Portuguese orthographic standards.
+This is a community-driven update to the outdated Brazilian Portuguese translation module for the [Dungeons & Dragons 5th Edition (D&D 5E)](https://foundryvtt.com/packages/dnd5e) system on [Foundry Virtual Tabletop](https://foundryvtt.com/). The goal is to provide a comprehensive, accurate, and fully updated translation of all in-game texts and compendium content, adhering to the latest Brazilian Portuguese orthographic standards.
 
 **Note:** Some translation strings in this package originate from the original module. For the latest updates and progress on new translations, please consult the status table referenced [here](https://github.com/decito/dnd5e-pt-br/blob/main/status.md).
 
