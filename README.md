@@ -4,32 +4,13 @@
 
 Check instructions in [pt-BR](#português) or [en-US](#english).
 
-## Status
-
-Strings checked / Textos verificados
-
-| item             | strings   | %       |
-| ---------------- | --------- | ------- |
-| lang             | 3410/3410 | (100%)  |
-| backgrounds      | 6/13      | (46.2%) |
-| classes          | 53/53     | (100%)  |
-| classes features | 0/961     | (0.0%)  |
-| items            | 0/313     | (0.0%)  |
-| monster features | 0/1013    | (0.0%)  |
-| monsters         | 0/977     | (0.0%)  |
-| races            | 0/121     | (0.0%)  |
-| rules            | 0/59      | (0.0%)  |
-| spells           | 0/310     | (0.0%)  |
-| subclasses       | 0/53      | (0.0%)  |
-| trade goods      | 0/97      | (0.0%)  |
-
 ## English
 
 ### Overview
 
 This is a community-driven update to the outdated Brazilian Portuguese translation module for the [Dungeons & Dragons 5th Edition (dnd5e)](https://foundryvtt.com/packages/dnd5e) system on [Foundry Virtual Tabletop](https://foundryvtt.com/). The goal is to provide a comprehensive, accurate, and fully updated translation of all in-game texts and compendium content, adhering to the latest Brazilian Portuguese orthographic standards.
 
-FYI: The texts present here today and not listed at the table above are the ones that were already included in the parent module. Check the status at mentioned table in order to track the translation progress.
+**Note:** Some translation strings in this package originate from the original module. For the latest updates and progress on new translations, please consult the status table referenced [here](https://github.com/decito/dnd5e-pt-br/blob/main/status.md).
 
 ### Installation
 
@@ -57,7 +38,7 @@ FYI: The texts present here today and not listed at the table above are the ones
 
 Este projeto é uma atualização comunitária do módulo desatualizado de tradução para o português brasileiro do sistema [Dungeons & Dragons 5th Edition (dnd5e)](https://foundryvtt.com/packages/dnd5e) no [Foundry Virtual Tabletop](https://foundryvtt.com/). O objetivo é fornecer uma tradução completa, precisa e totalmente atualizada de todos os textos do sistema e do conteúdo dos compêndios, em conformidade com as normas mais recentes do novo acordo ortográfico do português brasileiro.
 
-OBS: Os textos presentes aqui hoje e que não estão listados na tabela acima são aqueles que já estavam incluídos no módulo original. Consulte o status na tabela mencionada para acompanhar o progresso da tradução.
+**Nota:** Algumas strings de tradução neste pacote são provenientes do módulo original. Para as últimas atualizações e progresso das novas traduções, consulte a tabela de status referenciada [aqui](https://github.com/decito/dnd5e-pt-br/blob/main/status.md).
 
 ### Instalação
 
