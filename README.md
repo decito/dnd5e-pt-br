@@ -19,7 +19,7 @@ This is a community-driven update to the outdated Brazilian Portuguese translati
 1. Open the Foundry Virtual Tabletop application.
 2. Click the "Install Module" button in the "Add-on Modules" section.
 3. Enter the following URL into the "Manifest URL" field:
-   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
+   <https://raw.githubusercontent.com/decito/dnd5e-pt-br/refs/heads/main/module.json>
 4. Click the "Install" button.
 5. After installation, enable the module in your game world settings.
 6. Enjoy!
@@ -47,7 +47,7 @@ Este projeto é uma atualização comunitária do módulo desatualizado de tradu
 1. Abra o aplicativo Foundry Virtual Tabletop.
 2. Clique no botão "Instalar Módulo" na seção "Módulos Adicionais".
 3. Insira a seguinte URL no campo "URL do Manifesto":
-   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
+   <https://raw.githubusercontent.com/decito/dnd5e-pt-br/refs/heads/main/module.json>
 4. Clique no botão "Instalar".
 5. Após a instalação, ative o módulo nas configurações do seu mundo de jogo.
 6. Aproveite!
