@@ -1,38 +1,16 @@
-# Translation: Português Brasileiro [D&D 5e] (SRD) for FoundryVTT
+# Translation: Português Brasileiro [D&D 5E] (SRD) for FoundryVTT
 
-![Compatible Foundry Version](https://img.shields.io/badge/Foundry-v13-informational)
+![Foundry 12](https://img.shields.io/badge/Foundry-v12-informational) ![Foundry 13](https://img.shields.io/badge/Foundry-v13-informational)
 
 Check instructions in [pt-BR](#português) or [en-US](#english).
-
-## Status
-
-Strings checked / Textos verificados
-
-| lang | strings   | %      |
-| ---- | --------- | ------ |
-| -    | 3410/3410 | (100%) |
-
-| compendium       | strings | %      |
-| ---------------- | ------- | ------ |
-| backgrounds      | 0/13    | (0.0%) |
-| classes          | 0/53    | (0.0%) |
-| classes features | 0/961   | (0.0%) |
-| items            | 0/313   | (0.0%) |
-| monster features | 0/1013  | (0.0%) |
-| monsters         | 0/977   | (0.0%) |
-| races            | 0/121   | (0.0%) |
-| rules            | 0/59    | (0.0%) |
-| spells           | 0/310   | (0.0%) |
-| subclasses       | 0/53    | (0.0%) |
-| trade goods      | 0/97    | (0.0%) |
 
 ## English
 
 ### Overview
 
-This is a community-driven update to the outdated Brazilian Portuguese translation module for the [Dungeons & Dragons 5th Edition (dnd5e)](https://foundryvtt.com/packages/dnd5e) system on [Foundry Virtual Tabletop](https://foundryvtt.com/). The goal is to provide a comprehensive, accurate, and fully updated translation of all in-game texts and compendium content, adhering to the latest Brazilian Portuguese orthographic standards.
+This is a community-driven update to the outdated Brazilian Portuguese translation module for the [Dungeons & Dragons 5th Edition (D&D 5E)](https://foundryvtt.com/packages/dnd5e) system on [Foundry Virtual Tabletop](https://foundryvtt.com/). The goal is to provide a comprehensive, accurate, and fully updated translation of all in-game texts and compendium content, adhering to the latest Brazilian Portuguese orthographic standards.
 
-FYI: The texts present here today and not listed at the table above are the ones that were already included in the parent module. Check the status at mentioned table in order to track the translation progress.
+**Note:** Some translation strings in this package originate from the parent module. For the latest updates and progress on new translations, please consult the status table referenced [here](https://github.com/decito/dnd5e-pt-br/blob/main/status.md).
 
 ### Installation
 
@@ -41,7 +19,7 @@ FYI: The texts present here today and not listed at the table above are the ones
 1. Open the Foundry Virtual Tabletop application.
 2. Click the "Install Module" button in the "Add-on Modules" section.
 3. Enter the following URL into the "Manifest URL" field:
-   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
+   <https://raw.githubusercontent.com/decito/dnd5e-pt-br/refs/heads/main/module.json>
 4. Click the "Install" button.
 5. After installation, enable the module in your game world settings.
 6. Enjoy!
@@ -58,9 +36,9 @@ FYI: The texts present here today and not listed at the table above are the ones
 
 ### Visão Geral
 
-Este projeto é uma atualização comunitária do módulo desatualizado de tradução para o português brasileiro do sistema [Dungeons & Dragons 5th Edition (dnd5e)](https://foundryvtt.com/packages/dnd5e) no [Foundry Virtual Tabletop](https://foundryvtt.com/). O objetivo é fornecer uma tradução completa, precisa e totalmente atualizada de todos os textos do sistema e do conteúdo dos compêndios, em conformidade com as normas mais recentes do novo acordo ortográfico do português brasileiro.
+Este projeto é uma atualização comunitária do módulo desatualizado de tradução para o português brasileiro do sistema [Dungeons & Dragons 5th Edition (D&D 5E)](https://foundryvtt.com/packages/dnd5e) no [Foundry Virtual Tabletop](https://foundryvtt.com/). O objetivo é fornecer uma tradução completa, precisa e totalmente atualizada de todos os textos do sistema e do conteúdo dos compêndios, em conformidade com as normas mais recentes do novo acordo ortográfico do português brasileiro.
 
-OBS: Os textos presentes aqui hoje e que não estão listados na tabela acima são aqueles que já estavam incluídos no módulo original. Consulte o status na tabela mencionada para acompanhar o progresso da tradução.
+**Nota:** Algumas strings de tradução neste pacote são provenientes do módulo-pai. Para as últimas atualizações e progresso das novas traduções, consulte a tabela de status referenciada [aqui](https://github.com/decito/dnd5e-pt-br/blob/main/status.md).
 
 ### Instalação
 
@@ -69,7 +47,7 @@ OBS: Os textos presentes aqui hoje e que não estão listados na tabela acima s�
 1. Abra o aplicativo Foundry Virtual Tabletop.
 2. Clique no botão "Instalar Módulo" na seção "Módulos Adicionais".
 3. Insira a seguinte URL no campo "URL do Manifesto":
-   <https://raw.githubusercontent.com/decito/dnd5e_pt-BR/refs/heads/main/module.json>
+   <https://raw.githubusercontent.com/decito/dnd5e-pt-br/refs/heads/main/module.json>
 4. Clique no botão "Instalar".
 5. Após a instalação, ative o módulo nas configurações do seu mundo de jogo.
 6. Aproveite!

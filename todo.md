@@ -1,5 +1,18 @@
 # TODO
 
-- [~] Alterar todas as traduções para o português brasileiro dos arquivos presentes neste projeto.
-- [ ] Incluir as novas strings de um novo arquivo puxado do D&D5e após alteração das existentes.
-- [ ] Revisar se as classes de ícones do FontAwesome estão disponíveis
+- [x] Traduzir arquivo lang para o português brasileiro.
+- [~] Traduzir compêndio de 2014 para o português brasileiro.
+  - [x] Backgrounds
+  - [x] Classes
+  - [~] Class Features
+  - [ ] Items
+  - [ ] Monster Features
+  - [ ] Monsters
+  - [ ] Races
+  - [ ] Rules
+  - [ ] Spells
+  - [ ] Subclasses
+  - [ ] Trade Goods
+- [ ] Traduzir compêndio de 2024 para o português brasileiro.
+- [ ] Revisar todo o conteúdo para identificar itens faltantes ou incompletos.
+- [ ] Revisar se as classes de ícones do FontAwesome estão disponíveis.

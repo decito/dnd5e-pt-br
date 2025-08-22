@@ -8,8 +8,8 @@
 
   "TYPES.Actor.character": "Personagem",
   "TYPES.Actor.characterPl": "Personagens",
-  "TYPES.Actor.npc": "NPC",
-  "TYPES.Actor.npcPl": "NPCs",
+  "TYPES.Actor.npc": "PNJ",
+  "TYPES.Actor.npcPl": "PNJs",
 
   "TYPES.Actor.vehicle": "Veículo",
   "TYPES.Actor.vehiclePl": "Veículos",
@@ -1699,7 +1699,7 @@
     }
   },
 
-  "DND5E.FlagsInstructions": "Configure características e traços de personagens que ajustam os comportamentos do sistema D&D 5e.",
+  "DND5E.FlagsInstructions": "Configure características e traços de personagens que ajustam os comportamentos do sistema D&D 5E.",
   "DND5E.FlagsSave": "Atualizar Traços Especiais",
   "DND5E.FlagsTitle": "Configurar Traços Especiais",
 
@@ -2088,7 +2088,7 @@
   "DND5E.Normal": "Normal",
   "DND5E.NotProficient": "Não Proficiente",
   "DND5E.Notes": "Notas",
-  "DND5E.NPC": "NPC",
+  "DND5E.NPC": "PNJ",
   "DND5E.Number": "Número",
   "DND5E.OtherFormula": "Outra Fórmula",
   "DND5E.PactMagic": "Magia de Pacto",
@@ -2333,22 +2333,22 @@
 
   "DND5E.Shape": "Forma",
 
-  "DND5E.SheetClassCharacter": "Ficha de Personagem D&D 5e Padrão",
-  "DND5E.SheetClassCharacterLegacy": "Ficha de Personagem D&D 5e (Legado)",
-  "DND5E.SheetClassClassSummary": "Ficha de Resumo de Classe D&D 5e Padrão",
-  "DND5E.SheetClassContainer": "Ficha de Recipiente D&D 5e Padrão",
-  "DND5E.SheetClassContainerLegacy": "Ficha de Recipiente D&D 5e (Legado)",
-  "DND5E.SheetClassGroup": "Ficha de Grupo D&D 5e Padrão",
-  "DND5E.SheetClassItem": "Ficha de Item D&D 5e Padrão",
-  "DND5E.SheetClassItemLegacy": "Ficha de Item D&D 5e (Legado)",
-  "DND5E.SheetClassJournalEntry": "Ficha de Jornal D&D 5e Padrão",
-  "DND5E.SheetClassMapLocation": "Ficha de Mapa D&D 5e Padrão",
-  "DND5E.SheetClassNPC": "Ficha de NPC D&D 5e Padrão",
-  "DND5E.SheetClassNPCLegacy": "Ficha de NPC D&D 5e (Legado)",
-  "DND5E.SheetClassRule": "Ficha de Regras D&D 5e Padrão",
-  "DND5E.SheetClassSpellList": "Ficha de Lista de Magias D&D 5e Padrão",
-  "DND5E.SheetClassToken": "Ficha de Token D&D 5e Padrão",
-  "DND5E.SheetClassVehicle": "Ficha de Veículo D&D 5e Padrão",
+  "DND5E.SheetClassCharacter": "Ficha de Personagem D&D 5E Padrão",
+  "DND5E.SheetClassCharacterLegacy": "Ficha de Personagem D&D 5E (Legado)",
+  "DND5E.SheetClassClassSummary": "Ficha de Resumo de Classe D&D 5E Padrão",
+  "DND5E.SheetClassContainer": "Ficha de Recipiente D&D 5E Padrão",
+  "DND5E.SheetClassContainerLegacy": "Ficha de Recipiente D&D 5E (Legado)",
+  "DND5E.SheetClassGroup": "Ficha de Grupo D&D 5E Padrão",
+  "DND5E.SheetClassItem": "Ficha de Item D&D 5E Padrão",
+  "DND5E.SheetClassItemLegacy": "Ficha de Item D&D 5E (Legado)",
+  "DND5E.SheetClassJournalEntry": "Ficha de Jornal D&D 5E Padrão",
+  "DND5E.SheetClassMapLocation": "Ficha de Mapa D&D 5E Padrão",
+  "DND5E.SheetClassNPC": "Ficha de PNJ D&D 5E Padrão",
+  "DND5E.SheetClassNPCLegacy": "Ficha de PNJ D&D 5E (Legado)",
+  "DND5E.SheetClassRule": "Ficha de Regras D&D 5E Padrão",
+  "DND5E.SheetClassSpellList": "Ficha de Lista de Magias D&D 5E Padrão",
+  "DND5E.SheetClassToken": "Ficha de Token D&D 5E Padrão",
+  "DND5E.SheetClassVehicle": "Ficha de Veículo D&D 5E Padrão",
 
   "DND5E.SheetModeEdit": "Editar",
   "DND5E.SheetModePlay": "Jogar",
@@ -2631,7 +2631,7 @@
         },
         "hd": {
           "label": "Bônus nos Dados de Vida",
-          "hint": "Dados de Vida adicionais além do derivado da fórmula de PV no bloco de estatísticas. Só pode ser usado ao invocar atores NPC."
+          "hint": "Dados de Vida adicionais além do derivado da fórmula de PV no bloco de estatísticas. Só pode ser usado ao invocar atores PNJ."
         },
         "healing": {
           "label": "Bônus na Cura",
@@ -2914,13 +2914,13 @@
   "DND5E.ToolBonuses": "Bônus de Ferramenta",
   "DND5E.ToolCheck": "Teste de Ferramenta",
   "DND5E.ToolConfigure": "Configurar Proficiência em Ferramenta",
-  "DND5E.ToolDisguiseKit": "Kit de Disfarce",
-  "DND5E.ToolForgeryKit": "Kit de Falsificação",
+  "DND5E.ToolDisguiseKit": "Pacote de Disfarce",
+  "DND5E.ToolForgeryKit": "Pacote de Falsificação",
   "DND5E.ToolGamingSet": "Conjunto de Jogos",
-  "DND5E.ToolHerbalismKit": "Kit de Herbalismo",
+  "DND5E.ToolHerbalismKit": "Pacote de Herbalismo",
   "DND5E.ToolMusicalInstrument": "Instrumento Musical",
   "DND5E.ToolNavigators": "Ferramentas de Navegação",
-  "DND5E.ToolPoisonersKit": "Kit de Venenos",
+  "DND5E.ToolPoisonersKit": "Pacote de Venenos",
   "DND5E.ToolPromptTitle": "Teste de {tool}",
   "DND5E.ToolThieves": "Ferramentas de Ladrão",
   "DND5E.ToolVehicle": "Veículos",
@@ -3376,9 +3376,9 @@
   "MACRO.5eNoActorSelected": "Nenhum personagem selecionado ou atribuído foi encontrado para que a macro seja usada.",
   "MACRO.5eUnownedWarn": "Você só pode criar botões de macro para itens que possui permissão.",
 
-  "MIGRATION.5eBegin": "Aplicando a Migração do Sistema D&D 5e para a versão {version}. Por favor, seja paciente e não feche seu jogo ou desligue seu servidor.",
-  "MIGRATION.5eComplete": "Migração do Sistema D&D 5e para a versão {version} concluída!",
-  "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5e são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
+  "MIGRATION.5eBegin": "Aplicando a Migração do Sistema D&D 5E para a versão {version}. Por favor, seja paciente e não feche seu jogo ou desligue seu servidor.",
+  "MIGRATION.5eComplete": "Migração do Sistema D&D 5E para a versão {version} concluída!",
+  "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5E são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
 
   "SETTINGS.5eAllowPolymorphingL": "Permitir que jogadores polimorfem seus próprios personagens.",
   "SETTINGS.5eAllowPolymorphingN": "Permitir Polimorfia",
@@ -3470,7 +3470,7 @@
     },
     "DEFAULTSKILLS": {
       "Name": "Perícias Padrão",
-      "Hint": "As perícias padrão que aparecem nas fichas de NPC, independentemente do nível de proficiência."
+      "Hint": "As perícias padrão que aparecem nas fichas de PNJ, independentemente do nível de proficiência."
     },
     "LEVELING": {
       "Name": "Modo de Avanço de Nível",
