@@ -1,4 +1,4 @@
-# Translation: Português Brasileiro [D&D 5e] (SRD) for FoundryVTT
+# Translation: Português Brasileiro [D&D 5E] (SRD) for FoundryVTT
 
 ![Foundry 12](https://img.shields.io/badge/Foundry-v12-informational) ![Foundry 13](https://img.shields.io/badge/Foundry-v13-informational)
 
