@@ -73,59 +73,87 @@
     },
     "Arcane Recovery": {
       "name": "Recuperação Arcana",
-      "description": "<p>Você aprendeu a recuperar sua energia mágica ao estudar seu livro de magias. Uma vez por dia, ao fim de um descanso curto, você pode recuperar espaços de magia gastos. Esses espaços devem ter um círculo combinado que equivale a menos da metade do seu nível de mago (arredondado para cima) e nenhum deles pode ser de 6° círculo ou superior.</p>\n<p>Por exemplo, caso você seja um mago de 4° nível, pode recuperar até dois espaços de magia. Você pode récuperar um espaço de magia de 2° círculo ou dois espaços de magia de 1° círculo.</p>"
+      "description": "<p>Você aprendeu a recuperar parte de sua energia mágica estudando seu grimório. Uma vez por dia, ao finalizar um descanso curto, você pode escolher espaços de magia gastos para recuperá-los. A soma dos níveis desses espaços deve ser igual ou inferior à metade do seu nível de mago (arredondado para cima), e nenhum deles pode ser de 6º nível ou superior.</p><p>Por exemplo, se você for um mago de 4º nível, poderá recuperar até dois níveis em espaços de magia: um espaço de 2º nível ou dois de 1º nível.</p>"
     },
     "Arcane Tradition": {
       "name": "Tradição Arcana",
-      "description": "<p>Ao alcançar o 2° nível, você precisa escolher uma tradição arcana, moldando sua prática de magia por meio de uma das oito escolas, como Evocação.</p>\n<p>Sua escolha lhe confere características no 2°, 6°, 10° e 14° níveis.</p>"
+      "description": "<p>No 2º nível, você escolhe uma tradição arcana, que molda sua prática da magia por meio da ótica de uma das oito escolas: Abjuração, Adivinhação, Conjuração, Encantamento, Evocação, Ilusionismo, Necromancia e Transmutação, todas detalhadas no fim da descrição da sua subclasse.</p><p>Essa escolha concede a você certos traços quando alcança os níveis 2, 6, 10 e 14.</p>"
     },
     "Archdruid": {
       "name": "Arquidruida",
-      "description": "<p>No 20° nível, você pode usar @Compendium[dnd5e.classfeatures.swK0r5TOIxredxWS]{Forma Selvagem} um número ilimitado de vezes.</p>\n<p>Além disso, torna-se capaz de ignorar os componentes somáticos e verbais de suas magias de druida, bem como quaisquer componentes materiais que não tenham um custo e não sejam consumidos por uma magia.</p> \n<p>Você ganha este benefício tanto em sua forma normal quanto em sua Forma Animal.</p>"
+      "description": "<p>No 20° nível, você pode usar @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Selvagem} um número ilimitado de vezes.</p>\n<p>Além disso, você se torna capaz de lançar suas magias de druida sem precisar de componentes somáticos ou verbais, assim como de quaisquer componentes materiais que não tenham custo e não sejam consumidos pela magia.</p>\n<p>Você ganha este benefício tanto em sua forma normal quanto na forma de besta da sua Forma Selvagem.</p>"
+    },
+    "Archery": {
+      "name": "Tiro com Arco",
+      "description": "<p>Você recebe um bônus de +2 nas jogadas de ataque feitas com armas de ataque à distância.</p>"
+    },
+    "Armor of Shadows": {
+      "name": "Armadura das Sombras",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{Armadura Arcana} em si mesmo à vontade, sem gastar espaços de magia ou componentes materiais.</p>"
+    },
+    "Ascendant Step": {
+      "name": "Passo Ascendente",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitação} em si mesmo à vontade, sem gastar espaços de magia ou componentes materiais.</p>"
     },
     "Aura of Courage": {
       "name": "Aura de Coragem",
-      "description": "<p>A partir do 10° nível, enquanto você estiver consciente, você e quaisquer criaturas amigáveis num raio de até 3 metros não podem ser amedrontados.</p>\n<p>No 18° nível, o raio da aura aumenta para 9 metros</p>"
+      "description": "<p>A partir do 10° nível, enquanto você estiver consciente, você e todas as criaturas aliadas num raio de até 3 metros não podem ser amedrontados.</p>\n<p>No 18° nível, o raio da aura aumenta para 9 metros.</p>"
     },
     "Aura of Devotion": {
       "name": "Aura de Devoção",
-      "description": "<p>A partir do 7° nível, enquanto estiver consciente, você e quaisquer criaturas amigáveis num raio de até 3 metros não podem ser enfeitiçadas.</p>\n<p>No 18° nível, o raio da aura aumenta para 9 metros.</p>"
+      "description": "<p>A partir do 7° nível, enquanto você estiver consciente, você e todas as criaturas aliadas num raio de até 3 metros não podem ser amedrontadas.</p>\n<p>No 18° nível, o raio da aura aumenta para 9 metros.</p>"
     },
     "Aura of Protection": {
       "name": "Aura de Proteção",
-      "description": "<p>A partir do 6° nível, sempre que você ou uma criatura amigá vel, e que esteja a até 3 metros de distância, precisar realizar uma salvaguarda, ambos ganham um bônus igual ao seu modificador de Carisma (com um mínimo de +l). É preciso que você esteja consciente para conferir esse bônus.</p><p>No 18° nível, o raio da aura aumenta para 9 metros.</p>"
+      "description": "<p>A partir do 6° nível, sempre que você ou uma criatura aliada a até 3 metros de você precisar fazer uma salvaguarda, essa criatura recebe um bônus igual ao seu modificador de Carisma (com um bônus mínimo de +1). Você deve estar consciente para garantir esse bônus.</p><p>No 18° nível, o raio da aura aumenta para 9 metros.</p>"
     },
     "Bard College": {
       "name": "Colégio de Bardo",
-      "description": "<p>No 3° nível, você se aprofunda nas técnicas avançadas de um colégio de bardo à sua escolha, como o Colégio do Conhecimento. Sua escolha lhe concede características no 3° nível e, novamente, no 6° e 14° níveis.</p>"
+      "description": "<p>No 3° nível, você escolhe um colégio de bardo para entrar, como o Colégio do Conhecimento. Sua escolha concede características no 3°, 6° e 14° níveis.</p>"
     },
     "Bardic Inspiration": {
       "name": "Inspiração de Bardo",
-      "description": "<p>Você pode inspirar os outros por meio da música ou das palavras. Para isso, no seu turno, deve usar uma ação bônus para escolher uma criatura que não seja você mesmo, que esteja a no máximo 18 metros [60 pés] de distância, e que seja capaz de ouvi- lo. Essa criatura ganha 1d6 de Inspiração Bárdica. Uma vez durante os próximos 10 minutos, essa criatura poderá jogar o d6 e adicionar o resultado a qualquer teste de atributo, salvaguarda ou jogada de ataque que realizar. Ela pode jogar o d20 antes de decidir se usará o dado de Inspiração Bárdica, mas precisa decidir antes de o DM dizer se a jogada foi bem-sucedida ou não. Uma vez que o dado de Inspiração Bárdica tenha sido jogado, ele será gasto. Uma criatura pode ganhar apenas um dado de Inspiração Bárdica por vez.</p>\n<p>Você pode usar esta característica uma quantidade de vezes igual ao seu modificador de Carisma (uma vez, no mínimo).</p> \n<p>Você recupera todos os usos ao final de um descanso longo.</p>\n<p>Seu dado de Inspiração Bárdica muda quando você alcança certos níveis nesta classe. O dado se torna 1d8 no 5° nível, 1d10 no 10° e 1d12 no 15° nível</p>\n<p><em>**Nota do Foundry: Observe que a outra fórmula está definida para o padrão básico de 1d6 e os usos limitados estão definidos para o mínimo de 1. Além disso, a recuperação está definida para descanso longo (para níveis anteriores a @Compendium[dnd5e.classfeatures.3VDZGs5Ug3hIE322]{Fonte de Inspiração} é ganho). Ajuste manualmente conforme necessário</em></p>"
+      "description": "<p>Você pode inspirar os outros por meio de palavras encorajadoras ou da música. Para isso, use uma ação bônus em seu turno para escolher uma criatura diferente de você, a até 18 metros de distância e que possa ouvi-lo. Essa criatura recebe um dado de Inspiração de Bardo, um d6.</p><p>Nos próximos 10 minutos, a criatura pode rolar esse dado e adicionar o resultado a um teste de atributo, jogada de ataque ou salvaguarda que fizer. Ela pode decidir usá-lo após rolar o d20, mas antes de o Mestre informar o sucesso ou fracasso da rolagem. Quando o dado de Inspiração de Bardo é rolado, ele é gasto. Uma criatura pode ter apenas um dado de Inspiração de Bardo por vez.</p><p>Você pode usar essa característica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), recuperando todos os usos ao terminar um descanso longo.</p><p>O valor do dado de Inspiração de Bardo aumenta com seus níveis de bardo: torna-se um d8 no 5° nível, um d10 no 10° nível e um d12 no 15° nível.</p>"
+    },
+    "Beast Speech": {
+      "name": "Idioma Bestial",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{Falar com Animais} à vontade, sem gastar espaços de magia.</p>"
     },
     "Beast Spells": {
-      "name": "Magias Bestiais",
-      "description": "<p>A partir do 18° nível, você pode conjurar muitas de suas magias de druida em qualquer forma que assuma, usando @Compendium[dnd5e.classfeatures.swK0r5TOIxredxWS]{Forma Selvagem}. Você pode executar os componentes verbais e somáticos de uma magia de druida enquanto está na forma animal, mas não é capaz de manipular componentes materiais.</p>"
+      "name": "Magias de Besta",
+      "description": "<p>A partir do 18° nível, você pode conjurar muitas das suas magias de druida enquanto estiver em sua @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Selvagem}. Você pode realizar os componentes somáticos e verbais, mas não é capaz de fornecer componentes materiais.</p>"
+    },
+    "Beguiling Influence": {
+      "name": "Influência Enganadora",
+      "description": "<p>Você ganha proficiência nas perícias Enganação e Persuasão.</p>"
+    },
+    "Bewitching Whispers": {
+      "name": "Sussurros Sedutores",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.P6f1PPKPd9BCb742]{Compulsão} uma vez por descanso longo usando um espaço de magia de bruxo.</p>"
     },
     "Blessed Healer": {
       "name": "Curandeiro Abençoado",
-      "description": "<p>A partir do 6° nível, suas magias de cura conjuradas sobre terceiros também o curam. Ao conjurar urna magia de 1° círculo ou superior, que restaure pontos de vida a outrem, você recupera urna quantidade de pontos de vida igual a 2 + o círculo da magia.</p><section class=\"secret foundry-note\" id=\"secret-8pxfORAMtA2mWG44\"><p><strong>Nota do Foundry</strong></p><p>A fórmula de cura está definida para 2. Por favor, adicione o adicional do nível de magia manualmente.</p></section>"
+      "description": "<p>A partir do 6° nível, as magias que você conjurar para curar os outros também curam você.</p><p>Quando você conjurar uma magia de cura em outra criatura, você recupera 2 + o nível da magia em pontos de vida.</p><p><em>**Nota do Foundry: A fórmula de cura foi configurada para 2. Adicione manualmente o bônus referente ao nível da magia.</em></p>"
     },
     "Blindsense": {
       "name": "Sentido Cego",
-      "description": "<p>A partir do 14° nível, se você for capaz de ouvir, conseguirá determinar a localização de qualquer criatura invisível ou escondida a uma distância de até 3 metros.</p>"
+      "description": "<p>No 14° nível, se você puder ouvir, será capaz de determinar a localização de qualquer criatura invisível ou escondida a até 3 metros de distância.</p>"
     },
-    "Bonus Cantrip (Druid)": {
-      "name": "Truque Bônus (Druida)",
-      "description": "<p>Ao optar por este círculo no 2° nível, você pode escolher um truque de druida adicional.</p>"
+    "Bonus Cantrip": {
+      "name": "Truque Adicional",
+      "description": "<p>Quando você escolhe este círculo no 2° nível, você aprende um truque de druida adicional à sua escolha.</p>"
     },
-    "Bonus Proficiencies (College of Lore)": {
-      "name": "Proficiência Bônus (Colégio do Conhecimento)",
-      "description": "<p>Ao entrar para o Colégio do Conhecimento no 3° nível, você ganha proficiência em três perícias, à sua escolha.</p>"
+    "Bonus Proficiencies": {
+      "name": "Proficiência Adicional",
+      "description": "<p>Ao entrar para o Colégio do Conhecimento, no 3° nível, você adquire proficiência em três habilidades à sua escolha.</p>"
     },
-    "Bonus Proficiency (Life Domain)": {
-      "name": "Proficiência Adicional (Domínio da Vida)",
+    "Bonus Proficiency": {
+      "name": "Proficiência Adicional",
       "description": "<p>Quando você escolhe este domínio no 1° nível, você ganha proficiência com armaduras pesadas.</p>"
+    },
+    "Book of Ancient Secrets": {
+      "name": "Livro dos Segredos Antigos",
+      "description": "<p>Você agora pode registrar rituais mágicos em seu Livro das Sombras. Escolha duas magias de 1° nível que tenham a marcação de ritual na lista de magias de qualquer classe (não precisam ser da mesma lista). Essas magias aparecem em seu livro e não contam para o limite de magias que você conhece. Enquanto tiver o Livro das Sombras em mãos, você pode conjurar essas magias escolhidas apenas como rituais, a menos que as tenha obtido por outros meios. Além disso, você pode conjurar como ritual qualquer magia de bruxo que conheça e que tenha a marcação de ritual.</p><p>Você também pode adicionar ao seu Livro das Sombras outros rituais que encontrar em suas aventuras. Quando encontrar uma magia desse tipo, poderá incorporá-la ao livro se o nível dela for igual ou inferior à metade do seu nível de bruxo (arredondado para cima) e se dispuser do tempo necessário para transcrevê-la. Para cada nível da magia, a transcrição requer 2 horas de trabalho e custa 50 po, devido às tintas incomuns exigidas para registrá-la.</p>"
     },
     "Brutal Critical": {
       "name": "Crítico Brutal",
