@@ -5,9 +5,9 @@
 | item             | strings   | %       |
 | ---------------- | --------- | ------- |
 | lang             | 3410/3410 | (100%)  |
-| backgrounds      | 6/13      | (46.2%) |
+| backgrounds      | 13/13     | (100%)  |
 | classes          | 53/53     | (100%)  |
-| class features   | 73/961    | (7.6%)  |
+| class features   | 550/884   | (62.2%) |
 | items            | 0/313     | (0.0%)  |
 | monster features | 0/1013    | (0.0%)  |
 | monsters         | 0/977     | (0.0%)  |

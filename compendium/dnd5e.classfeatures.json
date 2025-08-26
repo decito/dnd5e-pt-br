@@ -452,284 +452,101 @@
       "description": "<p>Quando você conjurar uma magia que obrigue pelo menos uma criatura a fazer uma salvaguarda para evitar seus efeitos, você pode gastar 3 pontos de feitiçaria para que um dos alvos da magia tenha desvantagem na primeira salvaguarda que fizer contra ela.</p>"
     },
     "Hide in Plain Sight": {
-      "name": "Sumir de Vista",
-      "description": "<p>A partir do 10° nível, você pode dedicar 1 minuto a criar uma camuflagem para si mesmo, contanto que tenha acesso a lama fresca, terra, plantas, fuligem e materiais naturais semelhantes.</p>\n<p>Uma vez camuflado, você pode tentar se esconder, posicionando-se contra uma superfície sólida que seja, no mínimo, tão alta e larga quanto você, como uma árvore ou uma parede. Você ganha um bônus de +10 em testes de Destreza (Furtividade) enquanto permanecer imóvel e sem executar ações. Caso se mova ou execute alguma ação ou reação, você deve se camuflar novamente para recuperar este benefício.</p>"
+      "name": "Esconder-se em Plena Vista",
+      "description": "<p>A partir do 10º nível, você pode gastar 1 minuto confeccionando uma camuflagem que oculte sua presença. Você deve ter acesso a lama fresca, terra, plantas, fuligem ou outros materiais naturais comuns que deseja usar para criar esta camuflagem.</p><p>Uma vez camuflado, você pode tentar se esconder apoiando-se em uma superfície sólida, como uma árvore ou um muro, que seja pelo menos tão alta e larga quanto você. Enquanto permanecer imóvel e não realizar ações, você recebe +10 em testes de Destreza (Furtividade). Assim que se mover, realizar uma ação ou reação, deverá fabricar a camuflagem novamente para usufruir desse benefício.</p>"
     },
     "Holy Nimbus": {
-      "name": "Resplendor Sagrado",
-      "description": "<p>No 20° nível, como uma ação, você pode emanar uma aura de luz solar. Durante 1 minuto, você emanará luz plena em um raio de 9 metros e meia-luz por mais 9 metros. Sempre que uma criatura inimiga iniciar o turno dela na área de luz plena, sofrerá 10 pontos de dano radiante.</p><p>Além disso, enquanto durar a luz, você tem vantagem em salvaguardas contra magias conjuradas por ínferos e mortos-vivos.</p><p>Uma vez usada esta característica, ela não pode ser usada novamente até que você termine um descanso longo.</p>"
+      "name": "Halo Sagrado",
+      "description": "<p>No 20° nível, como uma ação, você pode emanar uma aura de luz solar. Durante 1 minuto, você emanará luz plena em um raio de 9 metros e meia-luz por mais 9 metros. Sempre que uma criatura inimiga iniciar o turno dela na área de luz plena, sofrerá 10 pontos de dano radiante.</p><p>Além disso, enquanto durar a luz, você tem vantagem em salvaguardas contra magias conjuradas por ínferos ou mortos-vivos.</p><p>Uma vez usada esta característica, ela não pode ser usada novamente até que você termine um descanso longo.</p>"
+    },
+    "Horde Breaker": {
+      "name": "Destruidor de Hordas",
+      "description": "<p>Uma vez em cada um dos seus turnos, quando fizer um ataque com uma arma, você pode realizar outro ataque com a mesma arma contra uma criatura diferente que esteja a até 1,5 metro do alvo inicial e dentro do alcance da sua arma.</p>"
     },
     "Hunter's Prey": {
       "name": "Presa do Caçador",
-      "description": "<p>No 3° nível, você ganha uma das características a seguir, à sua escolha.</p>\n<p>@Compendium[dnd5e.classfeatures.5gx1O0sxK08awEO9]{Assassino de Colossos}</p>\n<p>@Compendium[dnd5e.classfeatures.StfmqK1twVfukpa0]{Matador de Gigantes}</p>\n<p>@Compendium[dnd5e.classfeatures.C6sHdDGmCMo0cYHd]{Destruidor de Hordas}</p>\n<p>Você pode arrastar sua escolha acima para sua ficha de personagem e ela será atualizada automaticamente.</p>"
+      "description": "<p>No 3º nível, você adquire um dos seguintes recursos, à sua escolha:</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.StfmqK1twVfukpa0]{Matador de Gigantes}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.5gx1O0sxK08awEO9]{Assassino de Colossos}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.C6sHdDGmCMo0cYHd]{Destruidor de Hordas}</p><p>Você pode arrastar sua escolha para a ficha de personagem e ela será atualizada automaticamente.</p>"
     },
-    "Hunter's Prey: Colossus Slayer": {
-      "name": "Presa do Caçador: Assassino de Colossos",
-      "description": "<p>Sua tenacidade pode derrubar os mais poderosos oponentes. Quando você atinge uma criatura com um ataque com arma, a criatura sofre 1d8 de dano extra, se ela estiver abaixo do máximo de pontos de vida dela. Você só pode causar esse dano extra uma vez por turno.</p>"
-    },
-    "Hunter's Prey: Giant Killer": {
-      "name": "Presa do Caçador: Matador de Gigantes",
-      "description": "<p>Quando uma criatura Grande ou maior, que esteja a até 1,5 metro de distância, atacá-lo, você pode usar sua reação para contra-atacar.</p>"
-    },
-    "Hunter's Prey: Horde Breaker": {
-      "name": "Presa do Caçador: Destruidor de Hordas",
-      "description": "<p>Uma vez por turno, ao realizar um ataque armado, você pode realizar outro ataque, com a mesma arma contra outra criatura que esteja a até 1,5 metros do alvo do primeiro ataque e dentro do alcance da sua arma.</p>"
-    },
+
     "Hurl Through Hell": {
       "name": "Lançar no Inferno",
-      "description": "<p>A partir do 14° nível, ao atingir uma criatura com um ataque, você pode usar esta característica para transportá-la instantaneamente para os planos inferiores. A criatura desaparece e é lançada numa paisagem de pesadelos.</p>\n<p>No final do seu próximo turno, o alvo retorna para o espaço que ocupava anteriormente ou para o espaço desocupado mais próximo. Se não se tratava de um ínfero, o alvo sofre 10d10 pontos de dano psíquico, por conta da experiência aterrorizante.</p>\n<p>Uma vez usada esta característica, você só pode utilizá-la novamente após completar um descanso longo.</p>"
+      "description": "<p>A partir do 14º nível, quando atingir uma criatura com um ataque, você pode usar esta habilidade para teletransportar instantaneamente o alvo para os Planos Inferiores. A criatura desaparece e é jogada para um lugar similar a um pesadelo.</p><p>No fim do seu próximo turno, o alvo retorna ao espaço que ocupava anteriormente ou ao espaço desocupado mais próximo. Se a criatura não for um ínfero, sofrerá 10d10 de dano psíquico, devido ao profundo impacto da experiência traumática.</p><p>Uma vez usado esta habilidade, você só poderá usá-lo novamente após concluir um descanso longo.</p>"
     },
     "Improved Critical": {
       "name": "Crítico Aprimorado",
-      "description": "<p>Seus ataques armados passam a causar um acerto crítico nas jogadas com resultados 19 ou 20.</p>"
+      "description": "<p>A partir do 3º nível, seus ataques com armas passam a causar acertos críticos com resultados 19 ou 20 no dado de ataque.</p>"
     },
     "Improved Divine Smite": {
       "name": "Destruição Divina Aprimorada",
-      "description": "<p>No 11° nível, você está tão imbuído do poder da justiça que todos os seus ataques feitos com uma arma de combate corpo a corpo estão carregados de poder divino.</p> \n<p>Sempre que você acertar uma criatura com uma arma de combate corpo a corpo, seu dano aumenta em ld8 pontos de dano radiante. Se você também usar @Compendium[dnd5e.classfeatures.ySMPQ6zNSlvkrl2f]{Destruição Divina} com um ataque, deve adicionar o d8 acima com o dano adicional de Destruição Divina.</p>"
+      "description": "<p>No 11º nível, você está tão imbuído no poder da virtude que todos os seus ataques corpo a corpo carregam energia divina.</p><p>Sempre que atingir uma criatura com um ataque corpo a corpo, causa 1d8 de dano radiante adicional. Se você também usar seu @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Golpe Divino} com o ataque, você adiciona este dano ao dano extra do seu Golpe Divino.</p>"
     },
     "Indomitable": {
       "name": "Indomável",
-      "description": "<p>A partir do 9° nível, você pode jogar de novo um teste de resistência que falhou. Se o fizer, você deve usar o novo valor e não pode usar essa característica de novo antes de terminar um descanso longo.</p><p>Você pode usar esta característica duas vezes entre descansos longos quando chegar no 13° nível e três vezes entre descansos longos quando chegar no 17° nível.</p><p><em>**Foundry note: Observe que o limite padrão de usos definido é 1 por descanso longo. Ajuste manualmente caso for necessário.</em></p>"
+      "description": "<p>Você pode repetir uma salvaguarda que tenha falhado e deve usar o novo resultado, mesmo que seja pior. Uma vez usado esta habilidade, você só poderá usá-la novamente após concluir um descanso longo.</p><p>Você pode usar esta habilidade duas vezes entre descansos longos ao atingir o 13º nível e três vezes entre descansos longos a partir do 17º nível.</p><p><em>**Nota do Foundry: Os usos limitados estão definidos por padrão como 1 por descanso longo. Ajuste manualmente conforme necessário.</em></p>"
     },
     "Indomitable Might": {
       "name": "Força Indomável",
-      "description": "<p>A partir do 18° nível, caso o seu resultado em um teste de Força seja menor do que o valor da sua Força, você pôde usar o valor da Força no lugar do resultado do teste.</p>"
+      "description": "<p>A partir do 18º nível, se o resultado de uma de suas jogadas de Força for menor que seu valor de Força, você pode usar esse valor no lugar do resultado.</p>"
     },
     "Intimidating Presence": {
       "name": "Presença Intimidante",
-      "description": "<p>A partir do 10° nível, você pode usar sua ação para amedrontar alguém com sua presença ameaçadora.</p>\n<p>Como alvo, escolha uma criatura que você possa ver e que esteja a até 9 metros de distância. Caso ela possa vê-lo ou ouvi-lo, precisa ser bem-sucedida em uma salvaguarda de Sabedoria (CD igual a 8 + seu bônus de proficiência + seu modificador de Carisma), ou ficará amedrontada por você até o fim do seu próximo turno. Nos turnos subsequentes, você poderá usar sua ação para estender a duração deste efeito sobre a criatura amedrontada até o final do seu próximo turno. Este efeito termina se, no fim do seu turno, a criatura estiver fora da sua linha de visão, ou a uma distância superior a 18 metros de você.</p>\n<p>Caso a criatura seja bem-sucedida em sua salvaguarda, ela ficará imune aos efeitos desta característica por 24 horas.</p>"
-    },
-    "Invocation: Agonizing Blast": {
-      "name": "Invocação: Explosão Agonizante",
-      "description": "<p>Ao conjurar @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{raio místico}, adicione o seu modificador de Carisma ao dano causado por ela.</p>"
-    },
-    "Invocation: Armor of Shadows": {
-      "name": "Invocação: Armadura de Sombras",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.CKZTpZlxj7hjjo2H]{armadura arcana} em si mesmo à vontade, sem gastar espaços de magia ou componentes materiais.</p>"
-    },
-    "Invocation: Ascendant Step": {
-      "name": "Invocação: Passo Ascendente",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.MRxldJd6C4bsBo3O]{levitação} em si mesmo à vontade, sem gastar um espaço de magia ou componentes materiais.</p>"
-    },
-    "Invocation: Beast Speech": {
-      "name": "Invocação: Idioma Bestial",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Speak with Animals}, à vontade, sem precisar gastar um espaço de magia.</p>"
-    },
-    "Invocation: Beguiling Influence": {
-      "name": "Invocação: Influência Enganadora",
-      "description": "<p>Você ganha proficiência nas perícias Enganação e Persuasão.</p>"
-    },
-    "Invocation: Bewitching Whispers": {
-      "name": "Invocação: Sussurros Sedutores",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.P6f1PPKPd9BCb742]{compulsão} uma vez usando um espaço de magia de bruxo. Você não pode fazer isso novamente até terminar um descanso longo.</p>"
-    },
-    "Invocation: Book of Ancient Secrets": {
-      "name": "Invocação: Livro dos Segredos Antigos",
-      "description": "<p>Você pode inscrever rituais mágicos no seu Livro das Sombras. Escolha duas magias de 1° círculo que possuam a tag ritual, da lista de magias de qualquer classe (as duas não precisam ser da mesma lista). As magias aparecem no livro e não contam para o número de magias que você conhece. Com o seu Livro de Sombras em mãos, você pode conjurar as magias escolhidas como rituais. Você não pode conjurá-las de outra forma, a não ser que as tenha aprendido por outros meios. Você também pode conjurar uma magia de bruxo que conheça como ritual se ela possuir a tag ritual.</p>\n<p>Em suas aventuras você pode adicionar outras magias rituais ao seu Livro das Sombras. Ao encontrar uma magia desse tipo, pode adicioná-la ao livro caso o círculo dela seja igual ou menor que o seu nível como bruxo (arredondado para cima) e tenha tempo para transcrevê-la. Graças às tintas raras necessárias para a inscrição, o processo leva 2 horas e custa 50 Po por círculo da magia.</p>"
-    },
-    "Invocation: Chains of Carceri": {
-      "name": "Invocação: Correntes de Cárceri",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.l9Ju5KE7bbn3WpTm]{imobilizar monstro} à vontade - mas apenas quando o alvo for um celestial, ínfero ou elemental - sem gastar um espaço de magia ou componentes materiais. Você precisa terminar um descanso longo antes de poder usar esta invocação na mesma criatura novamente.</p>"
-    },
-    "Invocation: Devil's Sight": {
-      "name": "Invocação: Visão Diabólica",
-      "description": "<p>Você pode ver normalmente na escuridão, tanto mágica quanto normal, com um alcance de 36 metros.</p>"
-    },
-    "Invocation: Dreadful Word": {
-      "name": "Invocação: Vozes Pertubadoras",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{confusão} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Eldritch Sight": {
-      "name": "Invocação: Visão Mistica",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{detectar magia} à vontade, sem gastar um espaço de magia.</p>"
-    },
-    "Invocation: Eldritch Spear": {
-      "name": "Invocação: Lança Mística",
-      "description": "<p>Ao conjurar @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{raio místico}, o alcance desta magia passa a ser de 90 metros.</p>"
-    },
-    "Invocation: Eyes of the Rune Keeper": {
-      "name": "Invocação: Olhos do Protetor das Runas",
-      "description": "<p>Você pode ler qualquer texto escrito.</p>"
-    },
-    "Invocation: Fiendish Vigor": {
-      "name": "Invocação: Vigor Ínfero",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.7e3QXF10hLNDEdr6]{vitalidade vazia} em si mesmo à vontade como uma magia de 1° círculo sem gastar um espaço de magia ou componentes materiais.</p>"
-    },
-    "Invocation: Gaze of Two Minds": {
-      "name": "Invocação: Olhar de Duas Mentes",
-      "description": "<p>Você pode usar sua ação para tocar um humanoide voluntário e perceber através do seus sentidos até o final do seu próximo turno. Conquanto que a criatura esteja no mesmo plano de existência que você, você pode usar sua ação nas rodadas subsequentes para manter a conexão, estendendo a duração até o início do seu próximo turno. Enquanto estiver percebendo através dos sentidos de outra criatura, você aproveita os benefícios de todos os sentidos especiais possuídos pela criatura e você fica cego e surdo ao que está a sua volta.</p>"
-    },
-    "Invocation: Lifedrinker": {
-      "name": "Invocation: Life Drinker",
-      "description": "<p>Ao atingir uma criatura com a sua arma de pacto, ela sofre dano necrótico igual ao seu modificador de Carisma (mínimo de 1).</p>"
-    },
-    "Invocation: Mask of Many Faces": {
-      "name": "Invocação: Máscara das Muitas Faces",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.A3q2gTNqG6fvNGrv]{disfarçar-se} à vontade, sem gastar um espaço de magia.</p>"
-    },
-    "Invocation: Master of Myriad Forms": {
-      "name": "Invocação: Mestre das Infindáveis Formas",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{alterar-se} à vontade, sem gastar um espaço de magia.</p>"
-    },
-    "Invocation: Minions of Chaos": {
-      "name": "Invocação: Lacaios do Caos",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{invocar elemental} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Mire the Mind": {
-      "name": "Invocação: Encharcar a Mente",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{lentidão} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Misty Visions": {
-      "name": "Invocação: Visões Nebulosas",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.BrBZdCCrJRIVg7YX]{imagem silenciosa} à vontade, sem gastar um espaço de magia ou componentes materiais.</p>"
-    },
-    "Invocation: One With Shadows": {
-      "name": "Invocação: Uno com as Sombras",
-      "description": "<p>Quando estiver em uma área de meia-luz ou escuridão, você pode usar sua ação para se tornar invisível, até se mover ou realizar uma ação ou reação.</p>"
-    },
-    "Invocation: Otherworldly Leap": {
-      "name": "Invocation: Otherwordly Leap",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.ZrTc23tToJ0JpH2h]{salto} em si mesmo à vontade, sem gastar um espaço de magia ou componentes materiais.</p>"
-    },
-    "Invocation: Repelling Blast": {
-      "name": "Invocação: Explosão Repulsiva",
-      "description": "<p>Ao atingir uma criatura com @Compendium[dnd5e.spells.Z9p1vezIn95jw1Yw]{raio místico}, você pode empurrá-la até 3 metros para longe em uma linha reta.</p>"
-    },
-    "Invocation: Sculptor of Flesh": {
-      "name": "Invocação: Escultor de Carne",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{polimorfia} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Sign of Ill Omen": {
-      "name": "Invocação: Sinal de Mau Agouro",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{rogar maldição} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Thief of Five Fates": {
-      "name": "Invocação: Ladrão dos Cinco Destinos",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{perdição} uma vez usando um espaço de magia de bruxo. Você só pode tornar a fazê-lo após um descanso longo.</p>"
-    },
-    "Invocation: Thirsting Blade": {
-      "name": "Invocação: Lâmina Sedenta",
-      "description": "<p>Você pode atacar com sua arma de pacto duas vezes, ao invés de uma, sempre que executar a ação Atacar no seu turno.</p>"
-    },
-    "Invocation: Visions of Distant Realms": {
-      "name": "Invocação: Visões dos Reinos Distantes",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.ImlCJQwR1VL40Qem]{olho arcano} à vontade, sem gastar um espaço de magia.</p>"
-    },
-    "Invocation: Voice of the Chain Master": {
-      "name": "Invocação: Voz do Mestre das Correntes",
-      "description": "<p>Você pode se comunicar telepaticamente com seu familiar e perceber através dos sentidos dele enquanto estiverem no mesmo plano de existência. Além disso, ao usar os sentidos de seu familiar, você pode falar através dele com a sua própria voz, mesmo que normalmente ele seja incapaz disso.</p>"
-    },
-    "Invocation: Whispers of the Grave": {
-      "name": "Invocação: Lamento das Sepulturas",
-      "description": "<p>Você pode conjurar @Compendium[dnd5e.spells.I2LUSF5ogc7Bj62e]{falar com os mortos} à vontade, sem gastar um espaço de magia.</p>"
-    },
-    "Invocation: Witch Sight": {
-      "name": "Invocação: Visão da Bruxa",
-      "description": "<p>Você pode enxergar a verdadeira forma de qualquer metamorfo ou outra criatura oculta por magias de ilusão ou transmutação, contanto que ela esteja a até 9 metros de distância de você e dentro de sua linha de visão.</p>"
+      "description": "<p>No 10º nível, você pode usar sua ação para amedrontar alguém apenas com sua presença.</p><p>Escolha uma criatura que você possa ver a até 9 metros de você. Se a criatura puder vê-lo ou ouvi-lo, deve realizar uma salvaguarda de Sabedoria (CD 8 + seu bônus de proficiência + seu modificador de Carisma). Em caso de falha, ela ficará amedrontada até o final do seu próximo turno. Em turnos subsequentes, você pode usar sua ação para estender a duração desse efeito até o final do seu próximo turno. O efeito termina se a criatura terminar seu turno fora da sua linha de visão ou a mais de 18 metros de você.</p><p>Se a criatura obtiver sucesso no teste, você não poderá usar este recurso novamente contra ela pelas próximas 24 horas.</p>"
     },
     "Jack of All Trades": {
-      "name": "Pau pra Toda Obra",
-      "description": "<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>"
+      "name": "Versatilidade",
+      "description": "<p>No 2º nível, você pode adicionar metade do seu bônus de proficiência (arredondado para baixo) a qualquer teste de atributo que fizer que não se beneficie do seu bônus de proficiência.</p>"
     },
     "Ki": {
-      "name": "Ki",
-      "description": "<p>A partir do 2° nível, seu treinamento permite que você utilize o poder místico do ki. Seu acesso a essa energia é representado por um número de pontos de ki. Seu nível de Monge determina o número de pontos possuídos, então um monge de 2° nível possui 2 pontos de ki, um monge de 16° nível possui 16.</p><p>Você pode usar esses pontos para ativar diversas características de ki. Você começa com três características: @Compendium[dnd5e.classfeatures.5MwNlVZK7m6VolOH]{Torrente de Golpes}, @Compendium[dnd5e.classfeatures.TDglPcxIVEzvVSgK]{Defesa Paciente} e @Compendium[dnd5e.classfeatures.yrSFIGTaQOH2PFRI]{Passos do Vento}. Você aprende mais características de ki conforme ganha níveis nesta classe.</p><p>Ao usar um ponto de ki, ele ficará gasto até que você complete um descanso curto ou longo, após o que você recupera todos os pontos gastos. É preciso meditar por pelo menos 30 minutos durante o período de descanso para recuperar seus pontos de ki.</p><p>Algumas características de ki exigem que seu alvo realize uma salvaguarda para evitar seus efeitos. A CD desses testes é calculada da seguinte forma:</p><p><em><strong>CD para evitar os efeitos do seu ki</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</em></p><section class=\"secret foundry-note\" id=\"secret-gGH32momMmy9KjV3\"><p><strong>Nota do Foundry</strong></p><p>Use isso para rastrear todos os vários usos do ki para o monge.</p></section>"
+      "name": "Chi",
+      "description": "<p>A partir do 2° nível, seu treinamento permite que você utilize o poder místico do chi. Seu acesso a essa energia é representado por um número de pontos de chi. Seu nível de Monge determina o número de pontos possuídos, então um monge de 2° nível possui 2 pontos de chi, um monge de 16° nível possui 16.</p><p>Você pode usar esses pontos para ativar diversas características de chi. Você começa com três características: @Compendium[dnd5e.classfeatures.5MwNlVZK7m6VolOH]{Rajada de Golpes}, @Compendium[dnd5e.classfeatures.TDglPcxIVEzvVSgK]{Defesa Paciente} e @Compendium[dnd5e.classfeatures.yrSFIGTaQOH2PFRI]{Passo do Vento}. Você aprende mais características de chi conforme ganha níveis nesta classe.</p><p>Ao usar um ponto de chi, ele ficará gasto até que você complete um descanso curto ou longo. Você recupera todos os pontos de chi gastos ao fim do descanso caso medite por pelo menos 30 minutos durante o período de descanso.</p><p>Algumas características de chi exigem que seu alvo realize uma salvaguarda para evitar seus efeitos. A CD desses testes é calculada da seguinte forma:</p><p><em><strong>CD para evitar os efeitos do seu chi</strong> = 8 + seu bônus de proficiência + seu modificador de Sabedoria</em></p><section class=\"secret foundry-note\" id=\"secret-gGH32momMmy9KjV3\"><p><strong>Nota do Foundry</strong></p><p>Use isso para rastrear todos os vários usos do chi para o monge.</p></section>"
     },
     "Ki-Empowered Strikes": {
       "name": "Golpes De Chi",
-      "description": "<p>A partir do 6° nível, seus golpes desarmados contam como armas mágicas com o propósito de ultrapassar a resistência ou imunidade a ataque e danos não-mágicos.</p>"
+      "description": "<p>A partir do 6º nível, seus ataques desarmados contam como mágicos para efeitos de superar resistências e imunidades a ataques e danos não-mágicos.</p>"
     },
-    "Ki: Diamond Soul": {
-      "name": "Chi: Alma de Diamante",
-      "description": "<p>A partir do 14° nível, sua maestria do chi concede a você proficiência em todos os testes de resistência. Além disso, toda vez que você realizar um teste de resistência e falha, você pode gastar 1 ponto de chi para jogar novamente e ficar com o segundo resultado.</p>"
-    },
-    "Ki: Empty Body": {
-      "name": "Chi: Corpo Vazio",
-      "description": "<p>A partir do 18° nível, você pode usar sua ação para gastar 4 pontos de chi e ficar invisível por 1 minuto. Durante esse tempo, você também adquire resistência a todos os danos, exceto dano de energia.</p>\n<p>Além disso, você pode gastar 8 pontos de chi para conjurar a magia @Compendium[dnd5e.spells.TIoadMIsUKD4edXi]{Astral Projection}, sem precisar de componentes materiais. Quando o fizer, você não pode levar qualquer outra criatura com você.</p>"
-    },
-    "Ki: Flurry of Blows": {
-      "name": "Chi: Rajada de Golpes",
-      "description": "<p>Imediatamente após você realizar a ação de Ataque no seu turno, você pode gastar 1 ponto de chi para realizar dois golpes desarmados com uma ação bônus.</p>"
-    },
-    "Ki: Patient Defense": {
-      "name": "Ki: Defesa Paciente",
-      "description": "<p>Você pode usar 1 ponto de ki para executar a ação Esquivar como sua ação bônus do turno.</p>"
-    },
-    "Ki: Quivering Palm": {
-      "name": "Ki: Palma Vibrante",
-      "description": "<p>A partir do 17° nível, você adquire a habilidade de criar vibrações letais no corpo de alguém. Quando você atingir uma criatura com um ataque desarmado, pode gastar 3 pontos de ki para iniciar essas vibrações imperceptíveis, que duram por um número de dias igual ao seu nível de monge. As vibrações são inofensivas, a menos que você use sua ação para encerrá-las. Para fazer isso, você e o alvo devem estar no mesmo plano de existência. Quando você usar essa ação, a criatura deve fazer um teste de resistência de Constituição. Se falhar, ela é reduzida a 0 pontos de vida. Se tiver sucesso, ela sofre 10d10 de dano necrótico.</p><p>Você pode ter apenas uma criatura sob o efeito dessa característica por vez. Pode escolher terminar as vibrações de forma inofensiva, sem usar uma ação.</p>"
-    },
-    "Ki: Step of the Wind": {
-      "name": "Ki: Passos do Vento",
-      "description": "<p>Você pode gastar 1 ponto de ki para executar a ação Desengajar ou Correr como sua ação bônus do turno. Sua distância de salto é dobrada.</p>"
-    },
-    "Ki: Stunning Strike": {
-      "name": "Ki: Golpe Atordoante",
-      "description": "<p>A partir do 5° nível, você pode interferir no fluxo de ki no corpo de um oponente. Quando você atingir outra criatura com um ataque corpo a corpo com arma, pode gastar 1 ponto de ki para tentar um golpe atordoante. O alvo deve ter sucesso em um teste de resistência de Constituição ou ficará atordoado até o final do seu próximo turno.</p>"
-    },
-    "Land's Stride (Circle of the Land)": {
-      "name": "Caminho da Floresta (Círculo da Terra)",
-      "description": "<p>A partir do 6° nível, mover-se através de terreno difícil não-mágico não te custará nenhum movimento extra. Você também pode passar através de plantas não-mágicas sem ser atrasado por elas e sem sofrer dano delas se elas tiverem espinhos, espinhas ou perigos similares.</p><p>Além disso, você tem vantagem em testes de resistência contra plantas criadas magicamente ou manipuladas para impedir movimentação, como as criadas pela magia @Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{Entangle}.</p>"
-    },
-    "Land's Stride (Ranger)": {
-      "name": "Passo da Terra (Guardião)",
-      "description": "<p>A partir do 8° nível, mover-se através de terreno difícil, não-mágico, não lhe custa movimento adicional. Você também pode passar por vegetação não mágica sem ser atrasado e sem sofrer dano.</p>\n<p>Além disso, você tem vantagem em salvaguardas contra plantas criadas ou manipuladas magicamente para impedir movimento, como aquelas criadas pela magia @Compendium[dnd5e.spells.gMrWeG8fMDPRFiVe]{constrição}.</p>"
+    "Land's Stride": {
+      "name": "Caminho da Floresta",
+      "description": "<p>No 6º nível, mover-se através de terreno difícil não-mágico não custa movimento adicional. Você também pode atravessar plantas não-mágicas sem que reduzam sua velocidade e, mesmo que possuam espinhos, cipós ou perigos semelhantes, não sofrerá dano deles.</p><p>Além disso, você tem vantagem em salvaguardas contra plantas criadas ou manipuladas magicamente para dificultar o movimento, como as produzidas pela magia @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{Constrição}.</p>"
     },
     "Lay on Hands": {
-      "name": "Mãos Consagradas",
-      "description": "<p>Seu toque abençoado pode curar ferimentos. Você possui uma reserva de poder curativo que se regenera ao fim de um descanso longo. Com essa reserva, você pode restaurar um total de pontos de vida igual ao seu nível x 5.</p>\n<p>Como uma ação, você pode tocar uma criatura e transferir-lhe parte dessa reserva, restaurando-lhe os pontos de vida até o valor máximo.</p>\n<p>Se preferir, pode gastar 5 pontos de sua reserva para curar a criatura de uma doença, ou neutralizar um veneno que a esteja afetando. Você pode curar múltiplas doenças e neutralizar múltiplos venenos com um único uso de Repousar Mãos, gastando 5 pontos separadamente para cada doença ou veneno.</p>\n<p>Esta característica não afeta mortos-vivos ou constructos.</p>\n<p><em>**Nota do Foundry: Observe que os usos limitados são definidos para o padrão básico de 5 pontos de poder de cura por descanso longo. Ajuste manualmente conforme necessário</em></p>"
+      "name": "Cura Pelas Mãos",
+      "description": "<p>Seu toque abençoado pode curar ferimentos. Você possui uma reserva de poder curativo que se recupera ao finalizar um descanso longo. Pode usar essa reserva para restaurar um número de pontos de vida igual a 5 vezes seu nível de paladino.</p><p>Como uma ação, você pode tocar uma criatura e usar uma quantidade escolhida de pontos dessa reserva para restaurar pontos de vida ao alvo, contanto que não exceda o máximo de pontos restantes na reserva.</p><p>Alternativamente, você pode gastar 5 pontos de sua reserva para curar uma doença ou neutralizar um veneno que esteja afetando o alvo. Você pode curar múltiplas doenças e venenos em um único uso de Cura Pelas Mãos, desde que gaste os pontos necessários para cada um.</p><p>Esta habilidade não afeta mortos-vivos nem construtos.</p><p><em>**Nota do Foundry: Os usos limitados estão definidos por padrão como 5 pontos de cura por descanso longo. Ajuste manualmente conforme necessário.</em></p>"
+    },
+    "Lifedrinker": {
+      "name": "Sorvedor de Vida",
+      "description": "<p>Quando você atingir uma criatura com sua arma do pacto, a criatura sofre dano necrótico adicional igual ao seu modificador de Carisma (mínimo de 1).</p>"
     },
     "Magical Secrets": {
       "name": "Segredos Mágicos",
-      "description": "<p>No 10° nível, você já reuniu conhecimento mágico de um amplo acervo de disciplinas.</p>\n<p>Escolha duas magias de qualquer classe, incluindo as de bardo. Essas magias devem ser truques ou pertencer a um círculo que você possa conjurar, conforme mostrado na tabela O Bardo.</p>\n<p>As magias escolhidas contam como magias de bardo, e devem ser incluídas na quantidade mostrada na coluna Magias, da tabela O Bardo.</p>\n<p>Você aprende duas magias adicionais de qualquer classe no 14° nível e novamente no 18° nível.</p>"
+      "description": "<p>No 10º nível, você usurpou conhecimento mágico de um vasto espectro de disciplinas.</p><p>Escolha duas magias de qualquer classe, incluindo a sua. Essas magias devem ser de um nível que você possa conjurar, conforme mostrado na tabela do bardo, ou truques.</p><p>Essas magias são consideradas magias de bardo para você e contam para o número de magias conhecidas que pode ter (consulte a tabela do bardo).</p><p>Você aprende mais duas magias de qualquer classe ao atingir os níveis 14 e 18.</p>"
     },
     "Martial Archetype": {
       "name": "Arquétipo Marcial",
-      "description": "No 3° nível, você escolhe um arquétipo que busca incorporar nos seus estilos e técnicas de combate, como o Campeão. O arquétipo escolhido lhe concede características no 3° nível e, novamente, no 7°, 10°, 15° e 18° níveis."
+      "description": "<p>No 3º nível, você escolhe um arquétipo que busca emular com seu estilo e técnicas de combate, como o Campeão. Essa escolha lhe concede certos recursos nos níveis 3, 7, 10, 15 e 18.</p>"
     },
     "Martial Arts": {
       "name": "Artes Marciais",
-      "description": "<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use and monk weapons, which are shortswords and any simple melee weapons that don’t have the two-handed or heavy property. You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:</p>\n<ul>\n<li>\n<p>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</p>\n</li>\n<li>\n<p>You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</p>\n</li>\n<li>\n<p>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.</p>\n</li>\n</ul>\n<p>Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon.</p>"
+      "description": "<p>No 1º nível, sua prática das artes marciais lhe concedeu maestria em estilos de combate que utilizam ataques desarmados e armas de monge, que são as espadas curtas e qualquer arma simples que não possua a propriedade duas mãos ou pesada. Você obtém os seguintes benefícios enquanto não estiver vestindo armadura nem empunhando escudo, e estiver desarmado ou usando apenas armas de monge:</p><ul><li><p>Você pode usar sua Destreza em vez de sua Força para as jogadas de ataque e dano de seus ataques desarmados e armas de monge.</p></li><li><p>Você pode rolar 1d4 em vez do dano normal de seus ataques desarmados ou armas de monge. Esse dado muda à medida que você sobe de nível como monge, conforme mostrado na coluna Artes Marciais da tabela do monge.</p></li><li><p>Quando você realiza a ação Atacar com um ataque desarmado ou uma arma de monge em seu turno, pode usar sua ação bônus para fazer um ataque desarmado. Assim, se você usar a ação Atacar para atacar com um bordão, também poderá realizar um ataque desarmado com sua ação bônus, desde que ainda não a tenha usado para realizar outra ação bônus.</p></li></ul><p>Certos monastérios utilizam armas de monge específicas. Por exemplo, você pode usar uma clava chamada nunchaku, composto por dois pedaços de madeira ligados por uma corrente curta, ou uma foice de lâmina curta e reta, chamada kama. Independentemente do nome que a arma de monge receba, ela utiliza os valores de jogo da arma da qual se deriva.</p>"
+    },
+    "Mask of Many Faces": {
+      "name": "Máscara das Muitas Faces",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{Disfarçar-se} à vontade, sem gastar um espaço de magia.</p>"
+    },
+    "Master of Myriad Forms": {
+      "name": "Mestre das Infindáveis Formas",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{Alterar-se} à vontade, sem gastar um espaço de magia.</p>"
     },
     "Metamagic": {
-      "name": "Metamagia",
-      "description": "<p>No 3° nível, você ganha a habilidade de distorcer suas magias para que elas se ajustem às suas necessidades. Você ganha duas das opções de Metamagia descritas a seguir, à sua escolha. Outras são adquiridas no 10° e 17° níveis. Você pode usar apenas uma opção de Metamagia por conjuração, a não ser que seja dito o contrário.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.nViGf6bZ6DQAJhkw]{Magia Acelerada}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.tNG2qi9zhmXEkecA]{Magia Agravada}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.zElYrOcCFFMhB6Xl]{Magia Cautelosa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.DZpAa3LzMNBexbmX]{Magia Distante}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Qb391hakCfmH4w8p]{Magia Duplicada}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.tQxlKyAx9sgPrbgj]{Magia Persistente}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.IWpe0Y9uAStHGiH1]{Magia Potencializada}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.fXa0DMhoVLtbBu9l]{Magia Sutil}</p>\n<section class=\"secret foundry-note\">\n<p><strong>Nota do Foundry</strong></p>\n<p>Você pode arrastar suas escolhas acima para sua ficha de personagem e ela será atualizada automaticamente.</p>\n</section>"
-    },
-    "Metamagic: Careful Spell": {
-      "name": "Metamagia: Magia Cautelosa",
-      "description": "<p>Ao conjurar uma magia que force outras criaturas a realizarem uma salvaguarda, você pode poupar algumas dessas criaturas do poder total da magia. Para tanto, deve gastar 1 ponto de feitiçaria, e escolher um número de criaturas equivalente ao seu modificador de Carisma (mínimo de uma criatura). Uma criatura escolhida é automaticamente bem-sucedida na salvaguarda contra a magia.</p>"
-    },
-    "Metamagic: Distant Spell": {
-      "name": "Metamagia: Magia Distante",
-      "description": "<p>Ao conjurar uma magia que possua alcance igual ou maior que 1,5 metro, você pode gastar 1 ponto de feitiçaria para dobrar essa distância.</p>\n<p>Ao conjurar uma magia que tenha alcance de toque, você pode gastar 1 ponto de feitiçaria para fazer com que esse alcance aumente para 9 metros.</p>"
-    },
-    "Metamagic: Empowered Spell": {
-      "name": "Metamagia: Magia Potencializada",
-      "description": "<p>Ao determinar o dano causado por uma magia, você pode gastar 1 ponto de feitiçaria para jogar novamente um número de dados de dano equivalente ao seu modificador de Carisma (mínimo de um). Você deve usar a nova jogada.</p>\n<p>Você pode usar Magia Potencializada mesmo que já tenha usado uma opção diferente de Metamagia durante uma conjuração.</p>"
-    },
-    "Metamagic: Extended Spell": {
-      "name": "Metamagia: Magia Persistente",
-      "description": "<p>Ao conjurar uma magia que tenha duração de 1 minuto ou mais, você pode gastar 1 ponto de feitiçaria para dobrar essa duração, até um máximo de 24 horas.</p>"
-    },
-    "Metamagic: Heightened Spell": {
-      "name": "Metamagia: Magia Agravada",
-      "description": "<p>Ao conjurar uma magia que force uma criatura a realizar uma salvaguarda para evitar seus efeitos, você pode gastar 3 pontos de feitiçaria para conferir desvantagem à primeira salvaguarda.</p>"
-    },
-    "Metamagic: Quickened Spell": {
-      "name": "Metamagia: Magia Acelerada",
-      "description": "<p>Ao conjurar uma magia cujo tempo de conjuração seja de uma ação, você pode gastar 2 pontos de feitiçaria para alterar o tempo de conjuração para uma ação bônus</p>"
-    },
-    "Metamagic: Subtle Spell": {
-      "name": "Metamagia: Magia Sutil",
-      "description": "<p>Você pode gastar 1 ponto de feitiçaria para conjurar uma magia sem precisar de qualquer componente somático ou verbal.</p>"
-    },
-    "Metamagic: Twinned Spell": {
-      "name": "Metamagia: Magia Duplicada",
-      "description": "<p>Ao conjurar uma magia que tenha apenas uma criatura como alvo, e não possua alcance pessoal, você pode gastar um número de pontos de feitiçaria igual ao círculo da magia para atingir um segundo alvo ao alcance da magia (1 ponto de feitiçaria se a magia for um truque).</p>\n<p>Para tanto, no seu círculo atual, a magia não pode ser capaz de ter mais que um alvo. Por exemplo, @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{mísseis mágicos} e @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{raio ardente} não se encaixam, mas @Compendium[dnd5e.spells.ctW81uiX56xZR2c5]{raio de frio} sim.</p>"
+      "name": "Metamágica",
+      "description": "<p>No 3º nível, você adquire a capacidade de moldar suas magias, adaptando-as às suas necessidades. Você escolhe duas opções de Metamágica, descritas adiante. Você aprende outra opção adicional nos níveis 10 e 17. Ao conjurar uma magia, você só pode aplicar uma opção de Metamágica, a menos que seja especificado o contrário.</p><p>@UUID[Compendium.dnd5e.classfeatures.nViGf6bZ6DQAJhkw]{Magia Acelerada}</p><p>@UUID[Compendium.dnd5e.classfeatures.tNG2qi9zhmXEkecA]{Magia Aumentada}</p><p>@UUID[Compendium.dnd5e.classfeatures.zElYrOcCFFMhB6Xl]{Magia Cuidadosa}</p><p>@UUID[Compendium.dnd5e.classfeatures.DZpAa3LzMNBexbmX]{Magia Distante}</p><p>@UUID[Compendium.dnd5e.classfeatures.Qb391hakCfmH4w8p]{Magia Duplicada}</p><p>@UUID[Compendium.dnd5e.classfeatures.tQxlKyAx9sgPrbgj]{Magia Estendida}</p><p>@UUID[Compendium.dnd5e.classfeatures.IWpe0Y9uAStHGiH1]{Magia Potencializada}</p><p>@UUID[Compendium.dnd5e.classfeatures.fXa0DMhoVLtbBu9l]{Magia Sutil}</p><p>Você pode arrastar suas escolhas para a ficha de personagem e elas serão atualizadas automaticamente.</p>"
     },
     "Mindless Rage": {
-      "name": "Fúria Irracional",
-      "description": "<p>A partir do 6° nível, você não pode ser enfeitiçado ou amedrontado enquanto estiver em fúria. Se estiver enfeitiçado ou amedrontado ao entrar em @Compendium[dnd5e.classfeatures.VoR0SUrNX5EJVPIO]{fúria}, o efeito é suspenso pelo tempo que a fúria durar.</p>"
+      "name": "Fúria Inconsciente",
+      "description": "<p>A partir do 6º nível, você não pode ser amedrontado nem enfeitiçado enquanto estiver em @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Fúria}. Se você já estiver sob uma dessas condições antes de entrar em Fúria, elas serão suspensas temporariamente enquanto a Fúria durar.</p>"
+    },
+    "Minions of Chaos": {
+      "name": "Lacaios do Caos",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjurar Elemental} uma vez usando um espaço de magia de bruxo. Você não poderá fazê-lo novamente até terminar um descanso longo.</p>"
     },
     "Monastic Tradition": {
       "name": "Tradição Monástica",
@@ -849,7 +666,7 @@
     },
     "Rage": {
       "name": "Fúria",
-      "description": "<p>Em batalha, você luta com uma ferocidade primitiva. No seu turno, pode entrar em fúria usando sua ação bônus. Enquanto estiver enfurecido e não estiver usando armadura pesada, você recebe os seguintes benefícios:</p>\n<ul>\n<li>\n<p>Você tem vantagem em testes de Força e em salvaguardas baseadas nesse atributo.</p>\n</li>\n<li>\n<p>Ao realizar um ataque com uma arma de combate corpo a corpo usando Força, suas jogadas de dano recebem um bônus que aumenta à medida que você adquire níveis desta classe, conforme mostrado na coluna Dano da Fúria, da tabela O Bárbaro.</p>\n</li>\n<li>\n<p>Você é resistente a dano contundente, cortante e perfurante.</p>\n</li>\n</ul>\n<p>Caso seja capaz de conjurar magias, não poderá conjurá-las ou concentrar-se nelas enquanto estiver em fúria.</p>\n<p>Sua fúria dura um minuto. Ela termina antes disso se você ficar inconsciente ou se, no fim do seu turno, não tiver atacado uma criatura hostil ou sofrido nenhum dano. Você também pode encerrar sua fúria com sua ação bônus.</p>\n<p>Quando tiver entrado em fúria o número de vezes mostrado na coluna Fúria, da tabela O Bárbaro, você precisa concluir um descanso longo antes de entrar em fúria novamente.</p>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Nota do Foundry: Observe que os usos limitados estão configurados para o padrão básico de 2. Ajuste manualmente conforme necessário.</em></p>\n<table style=\"width: 286px; height: 170px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\"><strong>Nível do Bárbaro</strong></td>\n<td style=\"width: 68px; height: 17px;\"><strong>Fúria</strong></td>\n<td style=\"width: 96px; height: 17px;\"><strong>Dano da Fúria</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">1°</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">2°</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">3°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">4°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">5°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">6°</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">7°</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">8°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">9°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">10°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">11°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">12°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">13°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">14°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">15°</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">16°</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">17°</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">18°</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">19°</td>\n<td style=\"width: 68px; height: 17px;\">6</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">20°</td>\n<td style=\"width: 68px; height: 17px;\">Ilimitada</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>"
+      "description": "<p>Em batalha, você luta com uma ferocidade primitiva. No seu turno, pode entrar em fúria usando sua ação bônus. Enquanto estiver enfurecido e não estiver usando armadura pesada, você recebe os seguintes benefícios:</p>\n<ul>\n<li>\n<p>Você tem vantagem em testes de Força e em salvaguardas baseadas nesse atributo.</p>\n</li>\n<li>\n<p>Ao realizar um ataque com uma arma de combate corpo a corpo usando Força, suas jogadas de dano recebem um bônus que aumenta à medida que você adquire níveis desta classe, conforme mostrado na coluna Dano da Fúria, da tabela O Bárbaro.</p>\n</li>\n<li>\n<p>Você é resistente a dano contundente, cortante e perfurante.</p>\n</li>\n</ul>\n<p>Caso seja capaz de conjurar magias, não poderá conjurá-las ou concentrar-se nelas enquanto estiver em fúria.</p>\n<p>Sua fúria dura um minuto. Ela termina antes disso se você ficar inconsciente ou se, no fim do seu turno, não tiver atacado uma criatura hostil ou sofrido nenhum dano. Você também pode encerrar sua fúria com sua ação bônus.</p>\n<p>Quando tiver entrado em fúria o número de vezes mostrado na coluna Fúria, da tabela O Bárbaro, você precisa concluir um descanso longo antes de entrar em fúria novamente.</p>\n<p><em>**Nota do Foundry: Observe que os usos limitados estão configurados para o padrão básico de 2. Ajuste manualmente conforme necessário.</em></p>\n<table style=\"width: 286px; height: 170px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\"><strong>Nível do Bárbaro</strong></td>\n<td style=\"width: 68px; height: 17px;\"><strong>Fúria</strong></td>\n<td style=\"width: 96px; height: 17px;\"><strong>Dano da Fúria</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">1°</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">2°</td>\n<td style=\"width: 68px; height: 17px;\">2</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">3°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">4°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">5°</td>\n<td style=\"width: 68px; height: 17px;\">3</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">6°</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">7°</td>\n<td style=\"width: 68px; height: 17px;\">4</td>\n<td style=\"width: 96px; height: 17px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">8°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+2</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">9°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">10°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">11°</td>\n<td style=\"width: 68px;\">4</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">12°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">13°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">14°</td>\n<td style=\"width: 68px;\">5</td>\n<td style=\"width: 96px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">15°</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">16°</td>\n<td style=\"width: 68px; height: 17px;\">5</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">17°</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr>\n<td style=\"width: 112px;\">18°</td>\n<td style=\"width: 68px;\">6</td>\n<td style=\"width: 96px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">19°</td>\n<td style=\"width: 68px; height: 17px;\">6</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 112px; height: 17px;\">20°</td>\n<td style=\"width: 68px; height: 17px;\">Ilimitada</td>\n<td style=\"width: 96px; height: 17px;\">+4</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>"
     },
     "Ranger Archetype": {
       "name": "Arquétipo de Guardião",
