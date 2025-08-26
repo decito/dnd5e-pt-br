@@ -317,127 +317,139 @@
     },
     "Eldritch Master": {
       "name": "Mestre Místico",
-      "description": "<p>No 20° nível você pode recarregar sua reserva de poder místico ao pedir ao seu patrono a recuperação dos espaços de magia gastos. Você deve gastar 1 minuto suplicando ao eu patrono por ajuda para recuperar todos os seus espaços de magia gastos da sua característica Magia de Pacto. Uma vez que tenha recuperado espaços de magia com esta característica, você precisa finalizar um descanso longo antes de poder usá-la novamente.</p>"
+      "description": "<p>No 20º nível, você pode acessar sua reserva interior de poder místico ao suplicar ao seu patrono que lhe permita recuperar espaços de magia gastos. Você pode gastar 1 minuto suplicando ao seu patrono e, ao fim desse tempo, recupera todos os espaços de magia gastos obtidos pela sua característica Magia do Pacto. Uma vez que use esta habilidade, só poderá utilizá-la novamente após terminar um descanso longo.</p>"
+    },
+    "Eldritch Sight": {
+      "name": "Visão Mística",
+      "description": "<p>Você pode conjurar @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detectar Magia} à vontade, sem gastar um espaço de magia.</p>"
+    },
+    "Eldritch Spear": {
+      "name": "Lança Mística",
+      "description": "<p>Quando você conjura @UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Rajada Mística}, o alcance dela aumenta para 300 pés.</p>"
     },
     "Elemental Affinity": {
       "name": "Afinidade Elemental",
-      "description": "<p>A partir do 6° nível, ao conjurar uma magia que cause dano do tipo associado com a sua ancestralidade dracônica, você pode adicionar seu modificador de Carisma a uma jogada de dano com essa magia. Ao mesmo tempo, pode gastar 1 ponto de feitiçaria para ganhar resistência contra aquele tipo de dano durante 1 hora.</p>"
+      "description": "<p>A partir do 6º nível, quando você conjurar uma magia que cause dano do tipo associado à sua Linhagem Dracônica, poderá adicionar seu modificador de Carisma a uma das jogadas de dano dessa magia. Além disso, você pode gastar 1 ponto de Feitiçaria para obter resistência a esse tipo de dano por 1 hora.</p>"
     },
     "Elusive": {
       "name": "Elusivo",
-      "description": "<p>Começando no 18° nível, você é tão evasivo que os atacantes não têm vantagem contra você, a não ser que esteja incapacitado.</p>"
+      "description": "<p>A partir do 18º nível, você se torna tão sagaz que é raro alguém conseguir encostar a mão em você. Nenhuma jogada de ataque contra você terá vantagem enquanto você não estiver incapacitado.</p>"
     },
     "Empowered Evocation": {
       "name": "Evocação Potencializada",
-      "description": "<p>A partir do 10° nível, você pode adicionar seu modificador de Inteligência no resultado das jogadas de dano de qualquer magia de evocação de mago que você conjurar.</p><blockquote></blockquote>"
+      "description": "<p>A partir do 10º nível, você pode adicionar seu modificador de Inteligência a uma das jogadas de dano de qualquer magia de evocação de mago que conjurar.</p>"
+    },
+    "Empowered Spell": {
+      "name": "Magia Potencializada",
+      "description": "<p>Quando rolar o dano de uma magia, você pode gastar 1 ponto de Feitiçaria para repetir a rolagem de um número de dados de dano igual ou menor que o seu modificador de Carisma (mínimo de um dado). Você deve usar os novos resultados.</p><p>Você pode usar Magia Potencializada mesmo que já tenha aplicado uma opção diferente de Metamagia ao conjurar a magia.</p>"
+    },
+    "Empty Body": {
+      "name": "Corpo Vazio",
+      "description": "<p>A partir do 18º nível, você pode usar sua ação e gastar 4 pontos de Ki para se tornar invisível por 1 minuto. Durante esse tempo, você também terá resistência a todo tipo de dano, exceto o de energia.</p><p>Além disso, você pode gastar 8 pontos de Ki para conjurar @UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{Projeção Astral} sem a necessidade de componentes materiais. Ao fazê-lo, não poderá levar nenhuma outra criatura com você.</p>"
+    },
+    "Escape the Horde": {
+      "name": "Escapar da Horda",
+      "description": "<p>Ataques de oportunidade contra você têm desvantagem.</p>"
     },
     "Evasion": {
       "name": "Evasão",
-      "description": "<p>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>"
+      "description": "<p>No 7º nível, sua agilidade instintiva permite que você esquive-se de certos efeitos em área, como o sopro flamejante de um dragão vermelho ou uma magia como tempestade de gelo. Quando for alvo de um efeito que permita fazer uma salvaguarda de Destreza para sofrer apenas metade do dano, você não sofrerá dano algum se obtiver sucesso na salvaguarda e apenas metade do dano se falhar.</p>"
     },
     "Evocation Savant": {
       "name": "Abjuração Instruída",
-      "description": "<p>Quando você escolhe essa escola no 2° nível, o ouro e o tempo que você precisa gastar para copiar uma magia da escola de abjuração em seu grimório é reduzido à metade.</p>"
+      "description": "<p>A partir do 2º nível, quando você escolhe esta escola, só precisa gastar metade do tempo e do custo em dinheiro para copiar uma magia de abjuração em seu livro de magias.</p>"
     },
     "Expanded Spell List": {
-      "name": "Lista de Magia Expandida",
-      "description": "<p>O Corruptor permite que você escolha magias de uma lista expandida quando você for aprender magias de bruxo. As seguintes magias são adicionadas a sua lista de magias de bruxo.</p>\n<table border=\"1\"><caption>Magias Expandidas do Corruptor</caption>\n<thead>\n<tr>\n<td><strong>Nível de Magia</strong></td>\n<td><strong>Magias</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1°</td>\n<td>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands}, @Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{Command}</td>\n</tr>\n<tr>\n<td>2°</td>\n<td>@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td>3°</td>\n<td>@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Fireball}, @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td>\n</tr>\n<tr>\n<td>4°</td>\n<td>@Compendium[dnd5e.spells.avD5XUtkBPQQR97c]{Fire Shield}, @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td>5°</td>\n<td>@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]{Flame Strike}, @Compendium[dnd5e.spells.SLxA9QhrggTz0taU]{Hallow}</td>\n</tr>\n</tbody>\n</table>"
+      "name": "Lista de Magias Expandida",
+      "description": "<p>O Ínfero permite que você escolha a partir de uma lista expandida sempre que aprender uma magia de bruxo. As seguintes magias são adicionadas a sua lista de magias de bruxo.</p><table border=\"1\"><caption>Magias adicionais do Ínfero</caption><thead><tr><td><strong>Nível de Magia</strong></td><td><strong>Magias</strong></td></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Mãos Flamejantes}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Comando}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Cegueira/Surdez}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Raio Ardente}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Bola de Fogo}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Névoa Fétida}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Escudo de Fogo}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Muralha de Fogo}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Coluna de Chamas}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Consagrar}</td></tr></tbody></table>"
     },
-    "Expertise (Bard)": {
-      "name": "Especialista (Bardo)",
-      "description": "<p>No 3° nível, escolha duas perícias na quais já seja proficiente. Seu bônus de proficiência é duplicado em qualquer teste de atributo que utilize uma dessas perícias. No 10° nível, você pode atribuir este mesmo benefício a outras duas perícias em que seja proficiente.</p>"
+    "Expertise": {
+      "name": "Aptidão",
+      "description": "<p>No 3º nível, escolha duas perícias nas quais você seja proficiente. Seu bônus de proficiência é duplicado para qualquer teste de atributo que você fizer que utilize essas duas perícias escolhidas. No 10º nível, você pode escolher mais duas perícias nas quais seja proficiente para receber o mesmo benefício.</p>"
     },
-    "Expertise (Rogue)": {
-      "name": "Especialização (Ladino)",
-      "description": "<p>No 1° nível, você escolhe duas de suas perícias que seja proficiente, ou uma perícia que seja proficiente e ferramentas de ladrão. Seu bônus de proficiência é dobrado em qualquer teste de habilidade que fizer com elas.</p><p>No 6° nível, você pode escolher outras duas de suas proficiências (em perícias ou ferramentas de ladrão) para ganhar esse benefício.</p>"
+    "Extended Spell": {
+      "name": "Magia Estendida",
+      "description": "<p>Quando você conjurar uma magia que tenha duração de pelo menos 1 minuto, pode gastar 1 ponto de feitiçaria para dobrar a sua duração, até um máximo de 24 horas.</p>"
     },
     "Extra Attack": {
       "name": "Ataque Extra",
-      "description": "<p>Durante o seu turno, sempre que executar a ação Atacar, você pode realizar dois ataques em vez de um.</p>"
+      "description": "<p>Quando você realiza a ação de ataque em seu turno, pode realizar dois ataques em vez de um.</p><p>O número de ataques aumenta para três quando você alcança o 11º nível nesta classe e para quatro quando alcança o 20º nível.</p>"
     },
-    "Extra Attack (Fighter)": {
-      "name": "Ataque Extra (Guerreiro)",
-      "description": "<p>Durante o seu turno, sempre que executar a ação Atacar, você pode realizar dois ataques em vez de um.</p>\n<p>A quantidade de ataques aumenta para três quando você alcança o 11° nível e para quatro quando alcança o 20° nível.</p>"
+    "Eyes of the Rune Keeper": {
+      "name": "Olhos do Guardião das Runas",
+      "description": "<p>Você pode ler todas as escrita.</p>"
     },
     "Fast Hands": {
-      "name": "Mão Leve",
-      "description": "<p>A partir do 3° nível, você pode usar a ação bônus, dada pela sua @Compendium[dnd5e.classfeatures.01pcLg6PRu5zGrsb]{Ação Ardilosa}, para testar Destreza (Prestidigitação) no uso das suas ferramentas de ladrão para desarmar armadilhas, abrir fechaduras, ou ainda executar a ação Usar Objeto.</p>"
+      "name": "Mãos Rápidas",
+      "description": "<p>A partir do 3º nível, você pode usar a ação bônus concedida pela @UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Ação Ardilosa} para realizar um teste de Destreza (Prestidigitação), realizar a ação Usar um Objeto ou usar suas ferramentas de ladrão para tentar desarmar uma armadilha ou arrombar uma fechadura.</p>"
     },
     "Fast Movement": {
       "name": "Movimento Rápido",
-      "description": "<p>Seu deslocamento aumenta em 4 metros enquanto você não estiver vestindo armadura pesada.</p>"
+      "description": "<p>A partir do 5° nível, seu deslocamento aumenta em 3 metros enquanto você não estiver vestindo armadura pesada.</p>"
     },
     "Favored Enemy": {
       "name": "Inimigo Favorito",
-      "description": "<p>A partir do 1° nível, você tem experiência significativa estudando, rastreando, caçando e, até mesmo, falando com certos tipos de inimigos.</p><p>Escolha um tipo de inimigo favorito: aberrações, bestas, celestiais, constructos, corruptores, dragões, elementais, fadas, gigantes, limos, monstruosidades, mortos-vivos ou plantas. Alternativamente, você pode escolher duas raças de humanoides (como gnolls e orcs) para seus inimigos favoritos.</p><p>Você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para lembrar informações sobre eles.</p><p>Quando você adquire essa característica, você também aprende um idioma, à sua escolha, que seja falado pelos seus inimigos favoritos, se eles falarem algum.</p><p>Você escolhe um inimigo favorito adicional, assim como um idioma associado, no 6° e 14° nível. A medida que você ganha níveis, suas escolhas deverão refletir os tipos de monstros que você encontrou nas suas aventuras.</p><section class=\"secret foundry-note\" id=\"secret-2vKbF8oen9AQiV1L\"><p><strong>Nota do Foundry</strong></p><p>Se desejar, edite manualmente e anote suas escolhas aqui:</p><ul><li><em>1° nível</em></li><li><em>6° nível</em></li><li><em>14° nível</em></li></ul></section>"
+      "description": "<p>A partir do 1º nível, você possui experiência significativa em estudar, rastrear, caçar e até mesmo em interagir ou em falar com um tipo específico de inimigo.</p><p>Escolha um tipo de inimigo favorito: aberrações, autômatos, bestas, celestiais, limos, dragões, elementais, feéricos, gigantes, ínferos, monstruosidades, mortos-vivos ou plantas. Como alternativa, você pode escolher duas raças de humanoides (como gnolls e orcs, por exemplo) como inimigos favoritos.</p><p>Você possui vantagem em testes de Sabedoria (Sobrevivência) para rastrear seus inimigos favoritos, assim como em testes de Inteligência para relembrar informações sobre eles.</p><p>Quando adquire esta característica, você também aprende um idioma de sua escolha que seja falado pelos seus inimigos favoritos (se eles possuírem algum).</p><p>Você pode escolher um inimigo favorito adicional, bem como o idioma associado a ele, ao alcançar os níveis 6 e 14. Essas escolhas devem representar os tipos de monstros que você encontrou durante suas aventuras.</p><p>Você pode editar manualmente esta entrada e anotar suas escolhas aqui:</p><ul><li><em>1º nível</em></li><li><em>6º nível</em></li><li><em>14º nível</em></li></ul>"
     },
     "Feral Instinct": {
-      "name": "Instintos Primitivos",
-      "description": "<p>No 7° nível, seus instintos encontram-se tão apurados, que você passa a ter vantagem nas jogadas de iniciativa.</p>\n<p>Além disso, se no início do combate você estiver surpreso (mas não incapacitado), é capaz de agir normalmente em seu primeiro turno, mas apenas se entrar em fúria antes de realizar qualquer outra ação.</p>"
+      "name": "Instinto Selvagem",
+      "description": "<p>A partir do 7º nível, seu instinto está tão aguçado que você passa a ter vantagem nos testes de iniciativa.</p><p>Além disso, se você estiver surpreso no início de um combate e não estiver incapacitado, você poderá agir normalmente em seu primeiro turno, mas apenas se você entrar em fúria antes de fazer qualquer outra coisa nesse turno.</p>"
     },
     "Feral Senses": {
       "name": "Sentidos Selvagens",
-      "description": "<p>No 18° nível, você ganha sentidos sobrenaturais que o ajudam a lutar contra criaturas invisíveis. Ao atacar uma criatura que não possa ver, não sofrerá desvantagem nas suas jogadas de ataque contra ela.</p>\n<p>Você também está ciente da localização de qualquer criatura invisível a até 9 metros de distância, desde que ela não esteja escondida e você não esteja cego ou surdo.</p>"
+      "description": "<p>No 18º nível, você desenvolve sentidos sobrenaturais que ajudam a lutar contra criaturas que não pode ver. Quando atacar um alvo que não consegue enxergar, sua incapacidade de vê-lo não impõe desvantagem em suas jogadas de ataque contra ele.</p><p>Além disso, você tem consciência da localização de qualquer criatura invisível a até 30 pés de você, desde que ela não esteja escondida de você e você não esteja cego nem surdo.</p>"
     },
     "Fiendish Resilience": {
-      "name": "Resistência Ínfera",
-      "description": "<p>A partir do 10° nível, ao terminar um período de descanso curto ou longo, você pode escolher um tipo de dano, contra o qual ganha resistência até escolher outro tipo, usando novamente esta característica. Dano causado por armas mágicas ou de prata ignoram esta resistência.</p>"
+      "name": "Resistência Demoníaca",
+      "description": "<p>A partir do 10º nível, você pode escolher um tipo de dano sempre que terminar um descanso curto ou longo. Você adquire resistência a esse tipo de dano até usar este traço novamente para escolher outro. O dano causado por armas mágicas ou de prata não é afetado por essa resistência.</p>"
     },
-    "Fighting Style (Fighter)": {
-      "name": "Estilo de Luta (Guerreiro)",
-      "description": "<p>Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Caso você tenha a opção de escolher um novo Estilo de Luta, não pode escolher um que já possua.</p>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Archery}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Defense}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Dueling}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Great Weapon Fighting}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Protection}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Two Weapon Fighting}</p>"
+    "Fiendish Vigor": {
+      "name": "Vigor Abissal",
+      "description": "<p>Você pode lançar @UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{Vitalidade Falsa} em si mesmo à vontade, como uma magia de 1º nível, sem gastar espaço de magia nem componentes materiais.</p>"
     },
-    "Fighting Style (Paladin)": {
-      "name": "Estilo de Luta (Paladino)",
-      "description": "<p>Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Caso você tenha a opção de escolher um novo Estilo de Luta, não pode escolher um que já possua.</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Defense}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Dueling}</p>\n<p>@Compendium[dnd5e.classfeatures.3Nc6u9pyStByuJsm]{Great Weapon Fighting}</p>\n<p>@Compendium[dnd5e.classfeatures.06NVMYf58Z76O85O]{Protection}</p>"
+    "Fighting Style": {
+      "name": "Estilo de Luta",
+      "description": "<p>Você adota um estilo específico de luta como sua especialidade. Escolha uma das opções listadas abaixo. Você não pode escolher o mesmo Estilo de Luta mais de uma vez, mesmo que obtenha novamente essa característica.</p><h3>Opções de Guerreiro</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Arquearia}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Combate com Armas Grandes}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Combate com Duas Armas}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelismo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Proteção}</p><h3>Opções de Paladino</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Combate com Armas Grandes}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelismo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Proteção}</p><h3>Opções de Patrulheiro</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Arquearia}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Combate com Duas Armas}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelismo}</p>"
     },
-    "Fighting Style (Ranger)": {
-      "name": "Estilo de Luta (Guardião)",
-      "description": "<p>Você adota um estilo particular de luta como sua especialidade. Escolha uma das seguintes opções. Caso você tenha a opção de escolher um novo Estilo de Luta, não pode escolher um que já possua.</p>\n<p>@Compendium[dnd5e.classfeatures.8YwPFv3UAPjWVDNf]{Archery}</p>\n<p>@Compendium[dnd5e.classfeatures.zSlV0O2rQMdoq6pB]{Defense}</p>\n<p>@Compendium[dnd5e.classfeatures.hCop9uJrWhF1QPb4]{Dueling}</p>\n<p>@Compendium[dnd5e.classfeatures.mHcSjcHJ8oZu3hkb]{Two Weapon Fighting}</p>"
-    },
-    "Fighting Style: Archery": {
-      "name": "Estilo de Luta: Arquearia",
-      "description": "<p>Você ganha um bônus de +2 nas jogadas de ataque feitas com armas de combate à distância.</p>"
-    },
-    "Fighting Style: Defense": {
-      "name": "Estilo do Luta: Defensivo",
-      "description": "<p>Enquanto estiver vestindo armadura, você ganha um bônus de +l na sua CA.</p>"
-    },
-    "Fighting Style: Dueling": {
-      "name": "Estilo do Luta: Duelismo",
-      "description": "<p>Enquanto estiver empunhando uma única arma de combate corpo a corpo, você ganha um bônus de +2 nas jogadas de dano com essa arma.</p>"
-    },
-    "Fighting Style: Great Weapon Fighting": {
-      "name": "Estilo de Luta: Combate com Armas Grandes",
-      "description": "<p>Quando você rolar um 1 ou um 2 num dado de dano de um ataque com arma corpo-a-corpo que você esteja empunhando com duas mãos, você pode rolar o dado novamente e usar a nova rolagem, mesmo que resulte em 1 ou 2. A arma deve ter a propriedade duas mãos ou versátil para ganhar esse benefício.</p>"
-    },
-    "Fighting Style: Protection": {
-      "name": "Estilo de Luta: Protetivo",
-      "description": "<p>Você pode usar sua reação para impor desvantagem à jogada de ataque de uma criatura que você possa ver, quando ela atacar um alvo que não seja você e que esteja a até 2 metros de distância. Você precisa estar empunhando um escudo.</p>"
-    },
-    "Fighting Style: Two-Weapon Fighting": {
-      "name": "Fighting Style: Two Weapon Fighting",
-      "description": "<p>Ao se engajar em combate com duas armas, você pode adicionar o seu modificador de atributo ao dano do segundo ataque.</p>"
+    "Flurry of Blows": {
+      "name": "Rajada de Golpes",
+      "description": "<p>Imediatamente após realizar a ação de atacar em seu turno, você pode gastar 1 ponto de Ki para realizar dois ataques desarmados como ação bônus.</p>"
     },
     "Foe Slayer": {
       "name": "Matador de Inimigos",
-      "description": "<p>No 20° nível, você se torna um caçador incomparável de inimigos. Uma vez em cada um dos seus turnos, você pode adicionar seu modificador de Sabedoria na jogada de ataque ou jogada de dano de um ataque que você faça contra um dos seus inimigos favoritos. Você pode escolher usar essa característica antes ou depois da rolagem, mas antes de qualquer efeito da jogada ser aplicado.</p>"
+      "description": "<p>No 20º nível, você se torna um caçador incomparável. Uma vez em cada um de seus turnos, você pode adicionar seu modificador de Sabedoria a uma jogada de ataque ou de dano de um de seus ataques que você fizer. Você pode decidir usar esta habilidade antes ou depois da jogada, mas sempre antes de aplicar os efeitos.</p>"
     },
     "Font of Inspiration": {
       "name": "Fonte de Inspiração",
-      "description": "<p>Começando no momento em que você atinge o 5° nível, você recupera todos as utilizações gastas da sua @Compendium[dnd5e.classfeatures.hpLNiGq7y67d2EHA]{Inspiração de Bardo} quando você termina um descanso curto ou longo.</p><section class=\"secret foundry-note\" id=\"secret-2Ixwv0urEA2kot3D\"><p><strong>Nota do Foundry</strong></p><p>Observe que, o padrão do Foundry para Inspiração de Bardo está definido para recuperar após um descanso longo por padrão. Por favor, edite para um descanso curto ao atingir este nível.</p></section>"
+      "description": "<p>A partir do 5º nível, você recupera todos os usos de @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Inspiração Bárdica} após realizar um descanso curto ou longo.</p><p><strong>Nota do Foundry:</strong> por padrão, a Inspiração Bárdica está configurada para ser recuperada apenas após um descanso longo. Edite para descanso curto ao alcançar este nível.</p>"
     },
     "Font of Magic": {
       "name": "Fonte de Magia",
-      "description": "<p>No 2° nível, sua magia passa a se alimentar de uma profunda fonte dentro de você. Essa fonte é representada por pontos de feitiçaria, que lhe permitem criar uma variedade de efeitos mágicos.</p><h5>Pontos de Feitiçaria</h5><p>Você tem 2 pontos de feitiçaria, ganhando mais pontos conforme atinge níveis mais altos. Seu nível de feiticeiro é igual ao número de pontos de feitiçaria que você tem, então um feiticeiro de 4° nível tem 4 pontos de feitiçaria, um feiticeiro de 16° nível tem 16. Você não pode ter mais pontos de feitiçaria do que o mostrado para o seu nível. Você recupera todos os pontos de feitiçaria gastos ao terminar um descanso longo.</p><h5>Conjuração Flexível</h5><p>Você pode usar seus pontos de feitiçaria para ganhar espaços de magia adicionais, ou sacrificar espaços de magia para ganhar pontos de feitiçaria adicionais. Você aprende outros modos de usar seus pontos de feitiçaria conforme alcança níveis mais altos.</p><p><em><strong>Criando Espaços de Magia</strong>.</em>Você pode transformar pontos de feitiçaria não gastos em um espaço de magia usando sua ação bônus em seu turno. A tabela Criando Espaços de Magia mostra o custo para a criação de um espaço de magia de determinado círculo. Você não pode criar um espaço de magia superior ao 5° círculo.</p><p>Qualquer espaço de magia criado com esta característica desaparece no fim de um descanso longo.</p><table><caption>Criando Espaços de Magia</caption><thead><tr><td><strong>Círculo do Espaço de Magia</strong></td><td><strong>Custo em Pontos de Feitiçaria</strong></td></tr></thead><tbody><tr><td>1°</td><td>2</td></tr><tr><td>2°</td><td>3</td></tr><tr><td>3°</td><td>5</td></tr><tr><td>4°</td><td>6</td></tr><tr><td>5°</td><td>7</td></tr></tbody></table><p><em><strong>Convertendo um Espaço de Magia em Pontos de Feitiçaria</strong>. </em>Ao usar sua ação bônus no seu turno, você pode gastar um espaço de magia e ganhar um número de pontos de feitiçaria igual ao círculo do espaço.</p><section class=\"secret foundry-note\" id=\"secret-6nrlbnZxIbKqf5Ul\"><p><strong>Nota do Foundry</strong></p><p>Use isso para rastrear todos os vários usos de pontos de feitiçaria para o feiticeiro.</p></section>"
+      "description": "<p>No 2º nível, você passa a acessar uma abundante fonte de magia que vem de dentro de você. Essa fonte é representada por pontos de feitiçaria, que permitem que você crie uma grande variedade de efeitos mágicos.</p><h3>Pontos de Feitiçaria</h3><p>Você possui 2 pontos de feitiçaria e ganha mais à medida que sobe de nível nesta classe, conforme mostrado na coluna Pontos de Feitiçaria da tabela do Feiticeiro. Você nunca pode ter mais pontos de feitiçaria do que o indicado para o seu nível. Você recupera todos os pontos de feitiçaria gastos após terminar um descanso longo.</p><h3>Conjuração Flexível</h3><p>Você pode usar seus pontos de feitiçaria para obter espaços de magia adicionais ou, inversamente, sacrificar espaços de magia para conseguir pontos de feitiçaria adicionais. Você aprenderá outras formas de usar seus pontos de feitiçaria conforme alcançar níveis mais altos.</p><p><em><strong>Criar Espaços de Magia</strong>.</em> Você pode usar uma ação bônus no seu turno para transformar pontos de feitiçaria não gastos em um espaço de magia. A tabela “Criar Espaços de Magia” indica o custo em pontos para criar um espaço de um nível específico. Você não pode criar espaços de magia de níveis acima de 5.</p><p>Qualquer espaço de magia criado dessa forma desaparece quando você termina um descanso longo.</p><table border=\"1\"><caption>Criar Espaços de Magia</caption><thead><tr><td><strong>Nível do Espaço de Magia</strong></td><td><strong>Custo em Pontos de Feitiçaria</strong></td></tr></thead><tbody><tr><td>1º</td><td>2</td></tr><tr><td>2º</td><td>3</td></tr><tr><td>3º</td><td>5</td></tr><tr><td>4º</td><td>6</td></tr><tr><td>5º</td><td>7</td></tr></tbody></table><p><em><strong>Converter Espaços em Pontos de Feitiçaria</strong>.</em> Você pode usar uma ação bônus no seu turno para gastar um espaço de magia e ganhar um número de pontos de feitiçaria igual ao nível do espaço.</p><p><em><strong>Nota do Foundry:</strong> Use este recurso para registrar todos os usos dos pontos de feitiçaria. Por padrão, os usos limitados estão definidos como 2 por descanso longo. Ajuste manualmente conforme necessário.</em></p>"
     },
     "Frenzy": {
       "name": "Frenesi",
-      "description": "<p>Ao escolher esta trilha no terceiro nível, você se torna capaz de entrar em frenesi quando se enfurece. Ao fazê-lo, por toda a duração da sua @Compendium[dnd5e.classfeatures.VoR0SUrNX5EJVPIO]{fúria}, pode usar sua ação bônus a cada turno para realizar um único ataque com uma arma de combate corpo a corpo. no fim da fúria, você sofre um nível de exaustão (conforme descrito no Apêndice A).</p>"
+      "description": "<p>A partir do 3º nível, quando você escolhe esse caminho, pode entrar num frenesi quando entrar em @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Fúria}. Enquanto permanecer em fúria, você poderá realizar um único ataque corpo a corpo adicional como ação bônus em cada um dos seus turnos (começando no turno seguinte ao que entrou em fúria). Como contrapartida, quando sua fúria terminar você sofrerá um nível de exaustão (conforme descrito no Apêndice A).</p>"
+    },
+    "Gaze of Two Minds": {
+      "name": "Olhar de Duas Mentes",
+      "description": "<p>Você pode usar sua ação para tocar um humanoide voluntário e perceber o mundo através dos sentidos dele até o fim do seu próximo turno. Enquanto a criatura permanecer no mesmo plano de existência que você, poderá usar sua ação nos turnos seguintes para manter essa conexão, estendendo a duração até o fim do seu próximo turno. Enquanto perceber o mundo através dos sentidos da outra criatura, você ganha os benefícios de quaisquer sentidos especiais que ela possua, mas ficará cego e surdo em relação ao seu próprio entorno.</p>"
+    },
+    "Giant Killer": {
+      "name": "Matador de Gigantes",
+      "description": "<p>Quando uma criatura de tamanho maior ou igual a Grande a até 1,5 metro de você realizar um ataque contra você (acertando ou errando), você pode usar sua reação para atacá-la imediatamente após o ataque, desde que possa vê-la.</p>"
     },
     "Grappler": {
       "name": "Imobilizador",
-      "description": "<p><em>Pré-requisito: Força 13 ou maior</em></p>\n<p>Você desenvolveu as habilidades necessárias para manter sua posição durante um agarramento em combate corpo a corpo.</p>\n<p>Eis os benefícios ganhos:</p>\n<ul>\n<li>Você tem vantagem nas jogadas de ataque feitas contra uma criatura que você esteja agarrando.</li>\n<li>Você pode usar sua ação para tentar imobilizar uma criatura que já tenha agarrado. Para tanto, faça outro teste de agarrar. Se for bem-sucedido, você e a criatura ficam imobilizados até o agarramento terminar.</li>\n</ul>"
+      "description": "<p><em>Pré-requisito: Força 13 ou mais.</em></p><p>Você desenvolveu as aptidões necessárias para lutar bem a curta distância.</p><p>Você recebe os seguintes benefícios:</p><ul><li>Você tem vantagem nas jogadas de ataque contra uma criatura que esteja agarrando.</li><li>Você pode usar sua ação para tentar subjugar um alvo que esteja agarrando. Para isso, faça outra tentativa de agarrar. Se tiver sucesso, tanto você quanto a criatura ficarão impedidos até que o agarrão termine.</li></ul>"
+    },
+    "Great Weapon Fighting": {
+      "name": "Combate com Armas Grandes",
+      "description": "<p>Quando você rolar 1 ou 2 em um dado de dano de um ataque com uma arma corpo a corpo que esteja empunhando com as duas mãos, você pode rolar novamente o dado. Deve usar o novo resultado, mesmo que seja um 1 ou um 2. Para obter este benefício, a arma deve possuir a propriedade versátil ou pesada (duas mãos).</p>"
+    },
+    "Heightened Spell": {
+      "name": "Magia Aumentada",
+      "description": "<p>Quando você conjurar uma magia que obrigue pelo menos uma criatura a fazer uma salvaguarda para evitar seus efeitos, você pode gastar 3 pontos de feitiçaria para que um dos alvos da magia tenha desvantagem na primeira salvaguarda que fizer contra ela.</p>"
     },
     "Hide in Plain Sight": {
       "name": "Sumir de Vista",
