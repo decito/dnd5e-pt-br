@@ -7,7 +7,7 @@
 | lang             | 3410/3410 | (100%)  |
 | backgrounds      | 13/13     | (100%)  |
 | classes          | 53/53     | (100%)  |
-| class features   | 550/884   | (62.2%) |
+| class features   | 813/944   | (86.1%) |
 | items            | 0/313     | (0.0%)  |
 | monster features | 0/1013    | (0.0%)  |
 | monsters         | 0/977     | (0.0%)  |
