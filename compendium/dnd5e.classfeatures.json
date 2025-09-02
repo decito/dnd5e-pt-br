@@ -804,7 +804,7 @@
     },
     "Spell Mastery": {
       "name": "Dominar Magia",
-      "description": "<p>No 18° nível, você alcança tal maestria em determinadas magias que pode conjurá-las à vontade. Escolha uma de 1° nível de mago e uma magia de mago de 2° nível de seu grimório. Você pode conjurar essas magias em seu nível mais baixo à vontade, sem gastar espaços de magia. No entanto, deve ter essas magias preparadas. Se quiser conjurá-las em níveis superiores, deverá gastar um espaço de magia normalmente.</p><p>Após 8 horas de estudo, você pode trocar uma ou ambas as magias por outras do mesmo nível.</p><p>Você pode editar manualmente esta entrada e anotar suas opções aqui:</p><ul><li><em>Magia de 1° nível</em></li><li><em>Magia de 2° nível</em></li></ul>"
+      "description": "<p>No 18° nível, você alcança tal maestria em determinadas magias que pode conjurá-las à vontade. Escolha uma de 1° nível de mago e uma magia de mago de 2° nível de seu grimório. Você pode conjurar essas magias em seu nível mais baixo à vontade, sem gastar espaços de magia. No entanto, deve ter essas magias preparadas. Se quiser conjurá-las em níveis superiores, deverá gastar um espaço de magia normalmente.</p><p>Após 8 horas de estudo, você pode trocar uma ou ambas as magias por outras do mesmo nível.</p><section class=\"secret foundry-note\" id=\"secret-0RuufEpTBv0uYysU\"><p><strong>Nota do Foundry</strong></p><p>Você pode editar manualmente esta entrada e anotar suas opções aqui:</p><ul><li><em>Magia de 1° nível</em></li><li><em>Magia de 2° nível</em></li></ul></section>"
     },
     "u4NLajXETJhJU31v": {
       "label": "Conjuração (Bardo)",
