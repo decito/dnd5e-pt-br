@@ -1,0 +1,33 @@
+{
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontSize": 15,
+  "editor.fontWeight": 500,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.renderLineHighlight": "gutter",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Monokai",
+  "workbench.tree.indent": 16,
+  "editor.unicodeHighlight.allowedLocales": {
+    "pt-BR": true
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  }
+}
