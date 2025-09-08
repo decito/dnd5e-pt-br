@@ -2,52 +2,53 @@
   "label": "Herois",
   "entries": {
     "Akra (Dragonborn Cleric)": {
-      "description": "<p>Um seguidor devoto de sua divindade e dos costumes de sua sociedade, Akra se sente um pouco fora de lugar ao se aventurar em terras estrangeiras. Mas ela se sente obrigada a fazer tudo em seu poder para levar paz à região.</p>\n",
-      "name": "Akra (Draconato Clérigo)"
+      "name": "Akra (Draconato Clérigo)",
+      "description": "<p>Um seguidor devoto de sua divindade e dos costumes de sua sociedade, Akra se sente um pouco fora de lugar ao se aventurar em terras estrangeiras. Mas ela se sente obrigada a fazer tudo em seu poder para levar paz à região.</p>"
     },
     "Aoth (Human Druid)": {
-      "description": "<p>Aoth viveu entre os animais por tanto tempo que agora tem dificuldade em falar Comum. Com seu habitat natural em perigo, decidiu entrar em um grupo de aventureiros para devolver o equilíbrio a sua terra.</p>\n",
-      "name": "Aoth (Humano Druida)"
+      "name": "Aoth (Humano Druida)",
+      "description": "<p>Aoth viveu entre os animais por tanto tempo que agora tem dificuldade em falar Comum. Com seu habitat natural em perigo, decidiu entrar em um grupo de aventureiros para devolver o equilíbrio a sua terra.</p>"
     },
     "Beiro (Half-Elf Bard)": {
-      "description": "<p>O Beiro era um artista famoso em sua taverna local quando um dia ficou sem histórias para contar. Para resolver este problema, ele decidiu sair em busca de fazer as suas próprias histórias, para que um dia possa contá-las novamente em sua taverna.</p>\n",
-      "name": "Beiro (Meio-Elfo Bardo)"
+      "name": "Beiro (Meio-Elfo Bardo)",
+      "description": "<p>O Beiro era um artista famoso em sua taverna local quando um dia ficou sem histórias para contar. Para resolver este problema, ele decidiu sair em busca de fazer as suas próprias histórias, para que um dia possa contá-las novamente em sua taverna.</p>"
     },
     "Krusk (Half-Orc Paladin)": {
-      "description": "<p>Vagando pela terra trazendo justiça a todos, Krusk tem apenas um objetivo: a destruição do mal onde quer que ele esteja.</p>\n",
-      "name": "Krusk (Meio-Orc Paladino)"
+      "name": "Krusk (Meio-Orc Paladino)",
+      "description": "<p>Vagando pela terra trazendo justiça a todos, Krusk tem apenas um objetivo: a destruição do mal onde quer que ele esteja.</p>"
     },
     "Merric (Halfling Barbarian)": {
-      "description": "<p>Merric já foi uma justiceira, devido ao seu senso inato de justiça de rua. Embora seu tamanho pequeno possa não parecer muito em combate, ela mais do que compensa isso com suas violentas explosões de raiva.</p>\n",
-      "name": "Merric (Pequenino Bárbaro)"
+      "name": "Merric (Pequenino Bárbaro)",
+      "description": "<p>Merric já foi uma justiceira, devido ao seu senso inato de justiça de rua. Embora seu tamanho pequeno possa não parecer muito em combate, ela mais do que compensa isso com suas violentas explosões de raiva.</p>"
     },
     "Morthos (Tiefling Sorcerer)": {
-      "description": "<p>A investigação de Morthos sobre sua complexa ascendência dracônico-infernal a levou a uma vida acadêmica, mas logo ficou claro que os tolos no comando ​​estavam escondendo muitos segredos dela.</p>\n",
-      "name": "Morthos (Tiferino Feiticeiro)"
+      "name": "Morthos (Tiferino Feiticeiro)",
+      "description": "<p>A investigação de Morthos sobre sua complexa ascendência dracônico-infernal a levou a uma vida acadêmica, mas logo ficou claro que os tolos no comando ​​estavam escondendo muitos segredos dela.</p>"
     },
     "Perrin (Halfling Monk)": {
-      "description": "<p>Um estudante dedicado de seu mosteiro local, Perrin foi encarregado de trazer equilíbrio às terras vizinhas.</p>",
-      "name": "Perrin (Pequenino Monge)"
+      "name": "Perrin (Pequenino Monge)",
+      "description": "<p>Um estudante dedicado de seu mosteiro local, Perrin foi encarregado de trazer equilíbrio às terras vizinhas.</p>"
     },
     "Quillathe (Elf Ranger)": {
-      "description": "<p>Quillathe limpa monstros de sua floresta como um hobby, mas agora uma nova força ameaça sua terra e ela deve se unir a aventureiros para derrotá-la.</p>\n",
-      "name": "Quillathe (Elfo Guardião)"
+      "name": "Quillathe (Elfo Guardião)",
+      "description": "<p>Quillathe limpa monstros de sua floresta como um hobby, mas agora uma nova força ameaça sua terra e ela deve se unir a aventureiros para derrotá-la.</p>"
     },
     "Randal (Human Fighter)": {
-      "description": "<p>Randal fez seu caminho nos postos da guarda de sua cidade natal até ficar inquieto com a vida da cidade e acabar por vagar em busca de aventura.</p>\n",
-      "name": "Randal (Humano Guerreiro)"
+      "name": "Randal (Humano Guerreiro)",
+      "description": "<p>Randal fez seu caminho nos postos da guarda de sua cidade natal até ficar inquieto com a vida da cidade e acabar por vagar em busca de aventura.</p>"
     },
     "Riswynn (Dwarf Rogue)": {
-      "description": "<p>Outrora uma burocrata muito respeitada nos salões dos anões, Riswynn se envolveu em intrigas, aprendeu alguns truques e se meteu em problemas com alguns nobres. Ela procura fazer um nome para si mesma e recuperar seu status social.</p>\n",
-      "name": "Riswynn (Anão Ladino)"
+      "name": "Riswynn (Anão Ladino)",
+      "description": "<p>Outrora uma burocrata muito respeitada nos salões dos anões, Riswynn se envolveu em intrigas, aprendeu alguns truques e se meteu em problemas com alguns nobres. Ela procura fazer um nome para si mesma e recuperar seu status social.</p>"
     },
     "Sefris (Half-Elf Warlock)": {
-      "description": "<p>As batidas de carteira na infância de Sefris agora se transformaram em pequenos furtos e eventualmente em grandes assaltos usando o vínculo sombrio com seu demônio para ajudar em suas façanhas. Ele trabalhará para qualquer um que possa colocar alguma moeda em seu caminho.</p>\n",
-      "name": "Sefris (Meio-Elfo Bruxo)"
+      "name": "Sefris (Meio-Elfo Bruxo)",
+      "description": "<p>As batidas de carteira na infância de Sefris agora se transformaram em pequenos furtos e eventualmente em grandes assaltos usando o vínculo sombrio com seu demônio para ajudar em suas façanhas. Ele trabalhará para qualquer um que possa colocar alguma moeda em seu caminho.</p>"
     },
     "Zanna (Gnome Wizard)": {
-      "description": "<p>Sempre interessada em criar, Zanna partiu para uma aventura a fim de encontrar mais magias para seu grimório e talvez um dia criar algumas de autoria própria.</p>\n",
-      "name": "Zanna (Gnomo Mago)"
+      "name": "Zanna (Gnomo Mago)",
+      "tokenName": "Zanna",
+      "description": "<p>Sempre interessada em criar, Zanna partiu para uma aventura a fim de encontrar mais magias para seu grimório e talvez um dia criar algumas de autoria própria.</p>"
     }
   }
 }
