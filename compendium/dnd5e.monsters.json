@@ -1,5 +1,22 @@
 {
   "label": "Monstros",
+  "folders": {
+    "Aberration": "Aberração",
+    "Beast": "Bestas",
+    "Celestial": "Celestial",
+    "Construct": "Constructo",
+    "Dragon": "Dragão",
+    "Elemental": "Elemental",
+    "Fey": "Fada",
+    "Fiend": "Corruptor",
+    "Giant": "Gigante",
+    "Humanoid": "Humanoide",
+    "Monstrosity": "Monstruosidade",
+    "Ooze": "Limo",
+    "Plant": "Planta",
+    "Summons": "Invocações",
+    "Undead": "Morto-vivo"
+  },
   "entries": {
     "Aboleth": {
       "name": "Abolete"
@@ -81,6 +98,15 @@
     },
     "Ape": {
       "name": "Gorila"
+    },
+    "Arcane Eye": {
+      "name": "Olho Arcano"
+    },
+    "Arcane Hand": {
+      "name": "Mão Mágica"
+    },
+    "Arcane Sword": {
+      "name": "Espada Arcana"
     },
     "Archmage": {
       "name": "Arquimago"
@@ -228,6 +254,12 @@
     },
     "Cultist": {
       "name": "Cultista"
+    },
+    "Dancing Lights (medium)": {
+      "name": "Luzes Dançantes (M)"
+    },
+    "Dancing Lights (tiny)": {
+      "name": "Luzes Dançantes (P)"
     },
     "Darkmantle": {
       "name": "Manto Negro"
@@ -569,7 +601,10 @@
       "name": "Povo Lagarto"
     },
     "Mage": {
-      "name": "Arcano"
+      "name": "Mago"
+    },
+    "Mage Hand": {
+      "name": "Mão Mágica"
     },
     "Magma Mephit": {
       "name": "Mephit do Magma"
@@ -867,6 +902,9 @@
     },
     "Unicorn": {
       "name": "Unicórnio"
+    },
+    "Unseen Servant": {
+      "name": "Servo Invisível"
     },
     "Vampire": {
       "name": "Vampiro"
