@@ -1,5 +1,22 @@
 {
   "label": "Raças",
+  "folders": {
+    "Dragonborn": "Draconato",
+    "Dragonborn Features": "Características de Draconato",
+    "Dwarf": "Anão",
+    "Dwarf Features": "Características de Anão",
+    "Elf": "Elfo",
+    "Elf Features": "Características de Elfo",
+    "Gnome": "Gnomo",
+    "Gnome Features": "Características de Gnomo",
+    "Halfling": "Halfling",
+    "Halfling Features": "Características de Halfling",
+    "Human": "Humano",
+    "Orc": "Orc",
+    "Orc Features": "Características de Orc",
+    "Tiefling": "Tiefling",
+    "Tiefling Features": "Características de Tiefling"
+  },
   "entries": {
     "Artificer's Lore": {
       "description": "<p>Toda vez que você fizer um teste de Inteligência (História) relacionado a itens mágicos, objetos alquímicos ou mecanismos tecnológicos, você pode adicionar o dobro do seu bônus de proficiência, ao invés de qualquer bônus de proficiência que você normalmente use.</p>",
