@@ -301,104 +301,104 @@
       "description": "<p>A large crossbow mounted on a sturdy block of wood which is loaded using a hand crank and fires thick steel bolts with deadly acceleration that punches through armor and flesh.</p>"
     },
     "Bit and Bridle": {
-      "name": "Bit and Bridle",
-      "description": "<p>A component of a horse's tack that is worn on its head and connected to the reins. It consists of several adjustable leather straps, connecting metal rings, and a mouthpiece called the 'bit' or 'mullen', made of rope, bone, horn, or other hard substance such as bronze, steel, nickel, or wood.</p>"
+      "name": "Freio e Rédea",
+      "description": "<p>Componente da sela de um cavalo, usado na cabeça do animal e conectado às rédeas. Consiste em várias tiras de couro ajustáveis, anéis metálicos e uma peça chamada 'freio' ou 'mullen', feita de corda, osso, chifre ou outra substância dura como bronze, aço, níquel ou madeira.</p>"
     },
     "Blanket": {
-      "name": "Blanket",
-      "description": "<p>A blanket to keep you warm at night.</p>"
+      "name": "Cobertor",
+      "description": "<p>Um cobertor para mantê-lo aquecido à noite.</p>"
     },
     "Block and Tackle": {
-      "name": "Block and Tackle",
-      "description": "<p>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</p>"
+      "name": "Roldana e Polia",
+      "description": "<p>Um sistema de roldanas com um cabo entre elas e um gancho para fixar aos objetos, que permite levantar até quatro vezes o peso que você normalmente conseguiria erguer.</p>"
     },
     "Block of Incense": {
       "name": "Block of Incense",
       "description": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>"
     },
     "Blowgun +1": {
-      "name": "Blowgun +1",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Zarabatana +1",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Blowgun +2": {
-      "name": "Blowgun +2",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Zarabatana +2",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +2 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Blowgun +3": {
-      "name": "Blowgun +3",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Zarabatana +3",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +3 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Blowgun Needle": {
-      "name": "Blowgun Needle",
-      "description": "<p>This ammunition is designed to be fired through a blowgun using the force of the wielders lungs. These needles are frequently tipped with deadly or crippling venoms.</p>"
+      "name": "Dardo de Zarabatana",
+      "description": "<p>Esta munição é feita para ser disparada por uma zarabatana usando a força dos pulmões. Estes dardos geralmente são revestidos com venenos letais ou paralisantes.</p>"
     },
     "Bolt of Slaying": {
-      "name": "Bolt of Slaying",
-      "description": "<p>A Bolt of Slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both Bolts of Dragon Slaying and Bolts of Blue Dragon Slaying. If a creature belonging to the type, race, or group associated with a bolt of slaying takes damage from the bolt, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.</p>\n<p>Once a Bolt of Slaying deals its extra damage to a creature, it becomes a nonmagical bolt.</p>"
+      "name": "Virotes Assassinos",
+      "description": "<p><em>Arma (virote), muito rara</em></p><p>Um virote assassino é uma arma mágica feita para matar um tipo de criatura. Algumas são mais específicas que outras; por exemplo. existem tanto os <em>virotes assassinos de dragão</em> quanto os <em>virotes assassinos de dragão azul</em>. Se uma criatura do tipo, raça ou grupo associado sofrer dano deste virote, deve fazer uma salvaguarda de [[/save]], sofrendo [[/damage]]{6d10 de dano perfurante} adicional em falha, ou metade em sucesso.</p><p>Após causar dano adicional, o virote perde suas propriedades mágicas.</p><p>Existem outras munições semelhantes, como a <em>flecha assassina</em> para arcos.</p>"
     },
     "Book": {
-      "name": "Book",
-      "description": "<p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</p>"
+      "name": "Livro",
+      "description": "<p>Um livro pode conter poesia, relatos históricos, informações sobre um campo específico de conhecimento, diagramas e anotações sobre invenções gnômicas, enfim, tudo que pode ser representado em texto e imagens. Um livro de magias é chamado de grimório.</p>"
     },
     "Book of Lore": {
-      "name": "Book of Lore",
-      "description": "<p>A book containing historical accounts, information pertaining to a particular field of lore, myth, or legend.</p>"
+      "name": "Livro de Conhecimento",
+      "description": "<p>Um livro contendo relatos históricos, informações sobre um campo específico de conhecimento, mitos ou lendas.</p>"
     },
     "Book of Shadows": {
-      "name": "Book of Shadows",
-      "description": "<p>A grimoire given to you by your patron. Choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. </p>\n<p>If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>"
+      "name": "Livro das Sombras",
+      "description": "<p>Um grimório concedido pelo seu patrono transcendental. Ao receber este livro, escolha três truques da lista de magias de qualquer classe. Eles não precisam ser da mesma lista. Enquanto estiver com este livro, você pode conjurar esses truques à vontade e eles não contam no seu limite de truques conhecidos. Além disso, mesmo que não façam parte da lista de magias de bruxo, para você são considerados magias de bruxo.</p><p>Se perder o Livro das Sombras, você pode realizar uma cerimônia de 1 hora através da qual seu patrono lhe fornecerá um substituto. Essa cerimônia pode ser feita como parte de um descanso curto ou longo, e destrói o livro anterior. O Livro das Sombras se transforma em cinzas quando você morre.</p>"
     },
     "Boots of Elvenkind": {
-      "name": "Boots of Elvenkind",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.</p>"
+      "name": "Botas élficas",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Enquanto estiver usando estas botas, seus passos não emitem som, independentemente da superfície. Você também tem vantagem em testes de Destreza (Furtividade) que envolvam movimento silencioso.</p>"
     },
     "Boots of Levitation": {
-      "name": "Boots of Levitation",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear these boots, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate}</em> spell on yourself at will.</p>"
+      "name": "Botas de Levitação",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando estas botas, você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitação} em si mesmo, à vontade.</p>"
     },
     "Boots of Speed": {
-      "name": "Boots of Speed",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.</p>\n<p>When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest.</p>"
+      "name": "Botas de Velocidade",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando estas botas, você pode usar uma ação bônus para bater os calcanhares um contra o outro. A partir desse momento, as botas dobram sua velocidade de movimento e qualquer criatura que fizer um ataque de oportunidade contra você terá desvantagem na jogada de ataque. Este efeito termina se você bater os calcanhares novamente.</p><p>Quando a propriedade das botas for usada por um total de 10 minutos, sua magia deixa de funcionar até que você termine um descanso longo.</p>"
     },
     "Boots of Striding and Springing": {
-      "name": "Boots of Striding and Springing",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.</p>"
+      "name": "Botas de Caminhar e Saltar",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Enquanto estiver usando estas botas, seu deslocamento de caminhada passa a ser 9 metros, a menos que já seja maior, e seu deslocamento não é reduzido se você estiver sobrecarregado ou vestindo uma armadura pesada. Além disso, você pode saltar três vezes a distância normal, limitada ao deslocamento restante no turno.</p>"
     },
     "Boots of the Winterlands": {
-      "name": "Boots of the Winterlands",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:</p>\n<ul>\n<li>You have resistance to cold damage.</li>\n<li>You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as −50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degrees Fahrenheit.</li>\n</ul>"
+      "name": "Botas do Inverno",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Estas botas peludas são confortáveis e mantêm seus pés bem aquecidos. Enquanto você estiver calçando elas, você recebe os seguintes benefícios:</p><ul><li>Você tem resistência a dano de frio.</li><li>Você ignora terreno difícil causado por gelo e neve.</li><li>Você suporta temperaturas de até -45 °C sem proteção adicional. Se estiver usando roupas quentes, o limite aumenta para -75 °C.</li></ul>"
     },
     "Bowl of Commanding Water Elementals": {
-      "name": "Bowl of Commanding Water Elementals",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a <em>@UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{Water Elemental}</em>, as if you had cast the <em>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental}</em> spell. The bowl can't be used this way again until the next dawn.</p>\n<p>The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.</p>"
+      "name": "Bacia de Comandar Elementais da Água",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Enquanto esta bacia estiver cheia de água, você pode usar uma ação para falar a palavra de comando da bacia e invocar um @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{elemental da água}, como se tivesse conjurado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}. A bacia não pode ser usada novamente desta forma até o próximo amanhecer.</p><p>A bacia tem cerca de 30 centímetros de diâmetro e 15 centímetros de profundidade. Ela pesa 1,5 kg e pode conter cerca de 11 litros.</p>"
     },
     "Bracers of Archery": {
-      "name": "Bracers of Archery",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</p>"
+      "name": "Braçadeiras de Arquearia",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Enquanto estiver usando estas braçadeiras, você recebe proficiência com arco longo e arco curto, e recebe um bônus de +2 nas jogadas de dano de ataques à distância feitos com essas armas.</p>"
     },
     "Bracers of Defense": {
-      "name": "Bracers of Defense",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.</p>"
+      "name": "Braceletes de Defesa",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando estes braceletes e não estiver usando armadura ou escudo, você recebe um bônus de +2 na CA.</p>"
     },
     "Brass Horn of Valhalla": {
-      "name": "Brass Horn of Valhalla",
-      "description": "<p><em>Wondrous item</em></p>\n<p>You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{Berserker}. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.</p>\n<p>Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Horn of Valhalla} table.</p>\n<p><strong>Brass Horn of Valhalla.</strong>This brass horn summons [[/r 3d4 + 3]] berserkers when blown and requires proficiency with all simple weapons to be used.</p>\n<p>If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.</p>"
+      "name": "Trombeta de Latão do Valhalla",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Você pode usar uma ação para soprar esta trombeta. Em resposta, espíritos guerreiros do plano de Ysgard aparecem em um raio de até 18 metros de você. Eles usam as estatísticas do @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{furioso}. Eles retornam para Ysgard após 1 hora ou quando caem a 0 pontos de vida. Após usar a trombeta, ela não pode ser usada novamente por 7 dias.</p><p>Se têm conhecimento da existência de quatro tipos de trombeta de Valhalla, cada uma feita de um metal diferente. O tipo determina quantos furiosos são invocados e se há requerimento para uso. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Trombeta de Valhalla}.</p><p><strong>Trombeta de Latão do Valhalla.</strong> Esta trombeta invoca [[/r 3d4 + 3]] furiosos ao ser soprada e requer proficiência com todas as armas simples para ser usada.</p><p>Se você soprar a trombeta sem cumprir o requerimento, os furiosos invocados atacam você. Se cumprir, eles são amigáveis a você e aos seus companheiros e seguirão seus comandos.</p>"
     },
     "Brazier of Commanding Fire Elementals": {
       "name": "Brazier of Commanding Fire Elementals",
       "description": "<p><em>Wondrous item</em></p>\n<p>While a fire burns in this brazier, you can use an action to speak the brazier's command word and summon a @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental}, as if you had cast the <em>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental}</em> spell. The brazier can't be used this way again until the next dawn.</p>\n<p>The brazier weighs 5 pounds.</p>"
     },
     "Breastplate +1": {
-      "name": "Breastplate +1",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Peitoral +1",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus de +1 na CA enquanto estiver usando esta armadura.</p>"
     },
     "Breastplate +2": {
-      "name": "Breastplate +2",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Peitoral +2",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus de +2 na CA enquanto estiver usando esta armadura.</p>"
     },
     "Breastplate +3": {
-      "name": "Breastplate +3",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Peitoral +3",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus de +3 na CA enquanto estiver usando esta armadura.</p>"
     },
     "Breastplate Armor of Resistance": {
       "name": "Breastplate Armor of Resistance",
