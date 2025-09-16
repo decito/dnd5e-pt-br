@@ -405,36 +405,36 @@
       "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
     },
     "Bronze Horn of Valhalla": {
-      "name": "Bronze Horn of Valhalla",
-      "description": "<p><em>Wondrous item</em></p>\n<p>You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{Berserker}. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.</p>\n<p>Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Horn of Valhalla} table.</p>\n<p><strong>Bronze Horn of Valhalla.</strong>This bronze horn summons [[/r 4d4 + 4]] berserkers when blown and requires proficiency with all medium armor to be used.</p>\n<p>If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.</p>"
+      "name": "Trombeta de Bronze do Valhalla",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Você pode usar uma ação para soprar esta trombeta. Em resposta, espíritos guerreiros de Valhalla aparecem em um raio de 18 metros de você. Eles usam o perfil de @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{furioso}. Eles retornam a Valhalla após 1 hora ou quando caem a 0 pontos de vida. Após usar a trombeta, ela não pode ser usada novamente por 7 dias.</p><p>Existem quatro tipos de trombeta de Valhalla, cada uma feita de um metal diferente. O tipo determina quantos furiosos são invocados e se há requerimento para uso. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Trombeta de Valhalla}.</p><p><strong>Trombeta de Bronze de Valhalla.</strong> Esta trombeta invoca [[/r 4d4 + 4]] furiosos ao ser soprada e requer proficiência com todas as armas simples para ser usada.</p><p>Se você soprar a trombeta sem cumprir o requerimento, os furiosos invocados atacam você. Se cumprir, eles são amigáveis a você e aos seus companheiros e seguirão seus comandos.</p>"
     },
     "Brooch of Shielding": {
-      "name": "Brooch of Shielding",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the <em>@UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}</em> spell.</p>"
+      "name": "Broche do Escudo",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Enquanto estiver usando este broche, você recebe resistência a dano de energia e imunidade ao dano causado pela magia @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{mísseis mágicos}.</p>"
     },
     "Broom of Flying": {
-      "name": "Broom of Flying",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.</p>\n<p>You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.</p>"
+      "name": "Vassoura Voadora",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta vassoura de madeira que pesa 1,5 quilo funciona como uma vassoura comum até que você a monte e pronuncie a palavra de comando. Ela então flutua abaixo de você e pode ser cavalgada no ar. Sua velocidade de voo é de 15 metros. Ela pode transportar até 200 quilos, mas sua velocidade de voo é reduzida para 9 metros se transportar mais de 100 quilos. A vassoura para de flutuar no ar quando você aterrissa.</p><p>Você pode fazer a vassoura viajar sozinha para um destino a até 1,5 quilômetro de você se pronunciar a palavra de comando, nomear o local e conhecer aquele lugar. A vassoura retorna para você quando você pronuncia outra palavra de comando, desde que a vassoura ainda esteja dentro do raio de 1,5 quilômetro de você.</p>"
     },
     "Bucket": {
-      "name": "Bucket",
-      "description": "<p>A bucket holds 3 gallons of liquid or ½ cubic foot of solids.</p>"
+      "name": "Balde",
+      "description": "<p>Um balde pode conter 12 litros de líquido ou 15 cm³ de sólido.</p>"
     },
     "Bullseye Lantern": {
-      "name": "Bullseye Lantern",
-      "description": "<p>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p>"
+      "name": "Lanterna Coberta",
+      "description": "<p>Uma lanterna coberta produz uma luz intensa em um raio de 9 metros e penumbra por mais 9 metros. Uma vez acesa, ela queima por 6 horas consumindo uma frasco de óleo (500 ml). Usando uma ação, você pode abaixar a cobertura, reduzindo a claridade para penumbra em um raio de 1,5 metro.</p>"
     },
     "Burglar's Pack": {
       "name": "Burglar's Pack",
       "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
     },
     "Caltrops": {
-      "name": "Caltrops",
-      "description": "<p>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</p>"
+      "name": "Estrepes (bolsa com 20)",
+      "description": "<p>Com uma ação, você pode espalhar o conteúdo de um saco de estrepes para cobrir uma área quadrada de 1,5 metro de lado. Qualquer criatura que entrar na área deve ser bem-sucedida em uma salvaguarda de [[/save]] ou terá seu deslocamento interrompido naquele turno e sofrerá 1 ponto de dano perfurante. Sofrer esse dano reduz a velocidade de caminhada da criatura em 3 metros até que ela recupere pelo menos 1 ponto de vida. Se atravessar a área movendo-se à metade de sua velocidade, não precisa fazer a salvaguarda.</p>"
     },
     "Candle": {
-      "name": "Candle",
-      "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
+      "name": "Vela",
+      "description": "<p>Por 1 hora, uma vela acesa produz luz intensa em um raio de 1,5 metro e penumbra em mais 1,5 metro.</p>"
     },
     "Candle of Invocation": {
       "name": "Candle of Invocation",
