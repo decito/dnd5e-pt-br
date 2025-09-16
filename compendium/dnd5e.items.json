@@ -1,9 +1,28 @@
 {
   "label": "Itens",
+  "folders": {
+    "Ammunition": "Munição",
+    "Armor": "Armadura",
+    "Container": "Recipiente",
+    "Equipment": "Equipamento",
+    "Equipment Packs": "Pacotes de Equipamento",
+    "Food": "Comida",
+    "Loot": "Tesouro",
+    "Poison": "Veneno",
+    "Potion": "Poção",
+    "Rod": "Cajado",
+    "Scroll": "Pergaminho",
+    "Tool": "Ferramenta",
+    "Trinket": "Bugiganga",
+    "Wand": "Varinha",
+    "Weapon": "Arma",
+    "Ring": "Anel",
+    "Spellcasting Focus": "Foco de Conjuração"
+  },
   "entries": {
     "Abacus": {
-      "name": "Abacus",
-      "description": "<p>The abacus, also called a counting frame, is a calculating tool.</p>"
+      "name": "Ábaco",
+      "description": "<p>O ábaco, também chamado de quadro de contagem, é uma ferramenta de cálculo.</p>"
     },
     "Acid (vial)": {
       "name": "Acid (vial)",
