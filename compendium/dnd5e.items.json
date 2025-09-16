@@ -57,52 +57,44 @@
       "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Splint Armor": {
-      "name": "Adamantine Splint Armor",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
-    },
-    "Halberd": {
-      "name": "Alabarda",
-      "description": "<p>A spear-tipped metal shaft accompanied by a crescent blade, the halberd is a strong defensive weapon which allows a warrior to fend off foes using the reach of the shaft to attack from safe distance.</p>"
-    },
-    "Lute": {
-      "name": "Alaúde",
-      "description": "<p><strong>Atributo:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar uma melodia conhecida (CD 10) ou improvisar uma música (CD 15)</p>"
+      "name": "Cota de talas de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Alchemist's Fire": {
       "name": "Alchemist's Fire",
       "description": "<p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p>"
     },
     "Alchemy Jug": {
-      "name": "Alchemy Jug",
-      "description": "<p><em>Wondrous item</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p><p>You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><thead><tr><th>Liquid</th><th>Max Amount</th></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td></tr><tr><td>Basic poison</td><td>1/2 ounce</td></tr><tr><td>Beer</td><td>4 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td></tr><tr><td>Oil</td><td>1 quart</td></tr><tr><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Wine</td><td>1 gallon</td></tr></tbody></table>"
+      "name": "Jarro de Alquimia",
+      "description": "<p><em>Item Maravilhoso, incomum</em></p><p>Este jarro de cerâmica parece comportar 4 litros de líquido e pesar 6 quilos tanto cheio quanto vazio. Sons de líquido podem ser ouvidos de dentro do jarro quando ele é sacudido, mesmo se o jarro estiver vazio.</p><p>Você pode usar uma ação e nomear um líquido da tabela abaixo para fazer com que o jarro produza o líquido escolhido. Depois disso, você pode desarrolhar o jarro com uma ação e derramar o líquido, até 7 litros por minuto. A quantidade máxima de líquido que o jarro pode produzir depende do líquido que você nomeou.</p><p>Uma vez que o jarro tenha começado a produzir um líquido, ele não poderá produzir um diferente, ou mais de um que já tenha atingido seu máximo, até o próximo amanhecer.</p><table><thead><tr><th>Líquido</th><th>Limite Máximo</th></tr></thead><tbody><tr><td>Ácido</td><td>25 ml</td></tr><tr><td>Cerveja</td><td>16 litros</td></tr><tr><td>Maionese</td><td>8 litros</td></tr><tr><td>Mel</td><td>4 litros</td></tr><tr><td>Veneno básico</td><td>1,5 ml</td></tr><tr><td>Óleo</td><td>1 litro</td></tr><tr><td>Água doce</td><td>32 litros</td></tr><tr><td>Vinho</td><td>4 litros</td></tr><tr><td>Água salgada</td><td>48 litros</td></tr><tr><td>Vinagre</td><td>8 litros</td></tr></tbody></table>"
     },
     "Alms Box": {
-      "name": "Alms Box",
-      "description": "<p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>"
+      "name": "Caixa de Esmolas",
+      "description": "<p>Uma caixa com uma abertura para moedas e uma base removível, usada principalmente por sacerdotes e semelhantes para recolher esmolas.</p>"
     },
     "Amulet": {
-      "name": "Amulet",
-      "description": "<p>An amulet depicting a symbol representing a deity through which a true believer can call forth their power and in doing so spread the faith.</p>\n<p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>"
+      "name": "Amuleto",
+      "description": "<p>Um amuleto marcado com o símbolo de uma divindade, através do qual um verdadeiro devoto pode invocar seu poder e, assim, difundir a fé.</p><p><strong>Canalizador Mágico.</strong> Clérigos e paladinos podem usar um símbolo sagrado como canalizador de magia. Para utilizá-lo dessa forma, o conjurador deve segurá-lo em uma das mãos, exibi-lo de forma visível em seu corpo ou portá-lo em um escudo que possua o símbolo gravado.</p>"
     },
     "Amulet of Health": {
-      "name": "Amulet of Health",
-      "description": "<p><em>Wondrous item (requires attunement)</em></p>\n<p>Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.</p>"
+      "name": "Amuleto da Saúde",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Sua constituição é de 19 enquanto você estiver usando este amuleto. Ele não tem efeito se sua Constituição já for 19 ou maior sem ele.</p>"
     },
     "Amulet of Proof against Detection and Location": {
-      "name": "Amulet of Proof against Detection and Location",
-      "description": "<p><em>Wondrous Item (requires attunement)</em></p><p>While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p>"
+      "name": "Amuleto de Proteção contra Detecção e Localização",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Enquanto você estiver usando este amuleto, magias de adivinhação não têm efeito sobre você. Você não pode ser alvo desse tipo de magia nem ser percebido por sensores de espionagem mágicos.</p>"
     },
     "Amulet of the Planes": {
-      "name": "Amulet of the Planes",
-      "description": "<p><em>Wondrous Item (requires attunement)</em></p><p>While wearing this Amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence.</p>"
+      "name": "Amuleto dos Planos",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Enquanto estiver usando este amuleto, você pode usar uma ação para nomear um local que conheça em outro plano de existência. Em seguida, faça uma salvaguarda de Inteligência CD 15. Se for bem sucedido, você conjura a magia @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Viagem Planar}. Se falhar, você e todas as criaturas e objetos em um raio de 4,5 metros viajam para um destino aleatório. Role um d100. Com um resultado de 1 a 60, você chega a um destino aleatório no plano escolhido. Com um resultado de 61 a 100, você vai para um plano de existência aleatório.</p>"
     },
     "Animated Shield": {
-      "name": "Animated Shield",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.</p>"
+      "name": "Escudo Animado",
+      "description": "<p><em>Armadura (escudo), muito raro (requer sintonização)</em></p><p>Enquanto você estiver segurando este escudo, você pode falar sua palavra de comando como uma ação bônus para animá-lo. O escudo se ergue no ar, pairando em seu espaço e protegendo-o como se estivesse sendo empunhado, liberando suas mãos. O escudo permanece animado por 1 minuto, até você usar uma ação bônus para encerrar o efeito, ou até você ficar incapacitado ou morrer, caso em que ele cai no chão ou retorna à sua mão se estiver livre.</p>"
     },
     "Antitoxin": {
-      "name": "Antitoxin",
-      "description": "<p>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</p>"
+      "name": "Antídoto",
+      "description": "<p>Uma criatura que beber o líquido deste frasco recebe vantagem em salvaguardas contra veneno por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.</p>"
     },
     "Apparatus of the Crab": {
       "name": "Apparatus of the Crab",
@@ -141,12 +133,12 @@
       "description": "<p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>"
     },
     "Armor of Invulnerability": {
-      "name": "Armor of Invulnerability",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.</p>"
+      "name": "Armadura de Invulnerabilidade",
+      "description": "<p><em>Armadura (leve, média ou pesada), rara (requer sintonização)</em></p><p>Você tem resistência a dano não-mágico enquanto estiver vestindo esta armadura. Além disso, você pode usar uma ação para se tornar imune a dano não-mágico por até 10 minutos ou até que você não esteja mais vestindo a armadura. Após usar esse efeito especial, você não pode usá-lo novamente até o próximo amanhecer.</p>"
     },
     "Armor of Vulnerability": {
-      "name": "Armor of Vulnerability",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The GM chooses the type or determines it randomly.</p>\n<p><strong>Curse</strong>. This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).</p>"
+      "name": "Armadura de Vulnerabilidade",
+      "description": "<p><em>Armadura (placas), rara (requer sintonização)</em></p><p>Enquanto estiver vestindo esta armadura, você tem resistência a um dos seguintes tipos de dano: concussão, perfurante ou cortante. O Mestre escolhe o tipo de dado ou o determina aleatoriamente.</p><p><em><strong>Maldição.</strong></em> Esta armadura é amaldiçoada, fato revelado apenas por magia de identificação ou ao se sintonizar com ela. Ao se sintonizar, você fica amaldiçoado até ser alvo de <em>remover maldição</em> ou efeito equivalente. Retirar a armadura não remove a maldição. Enquanto amaldiçoado, você sofre vulnerabilidade aos dois tipos de dano não escolhidos.</p>"
     },
     "Arrow": {
       "name": "Arrow",
