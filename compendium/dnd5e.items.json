@@ -61,8 +61,12 @@
       "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Alchemist's Fire": {
-      "name": "Alchemist's Fire",
-      "description": "<p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p>"
+      "name": "Fogo alquímico",
+      "description": "<p>Este líquido pegajoso e viscoso inflama ao entrar em contato com o ar. Como uma ação, você pode arremessar este frasco a até 6 metros de distância, quebrando-o no impacto. Faça um ataque à distância contra a criatura ou objeto, tratando o fogo alquímico como uma arma improvisada: em caso de acerto, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode usar sua ação para apagar as chamas e impedir o dano contínuo, realizando um teste de Destreza CD 10.</p>"
+    },
+    "Alchemist's Supplies": {
+      "name": "Ferramentas de Alquimista",
+      "description": "<p>Este conjunto específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um alquimista.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Alchemy Jug": {
       "name": "Jarro de Alquimia",
@@ -86,7 +90,7 @@
     },
     "Amulet of the Planes": {
       "name": "Amuleto dos Planos",
-      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Enquanto estiver usando este amuleto, você pode usar uma ação para nomear um local que conheça em outro plano de existência. Em seguida, faça uma salvaguarda de Inteligência CD 15. Se for bem sucedido, você conjura a magia @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Viagem Planar}. Se falhar, você e todas as criaturas e objetos em um raio de 4,5 metros viajam para um destino aleatório. Role um d100. Com um resultado de 1 a 60, você chega a um destino aleatório no plano escolhido. Com um resultado de 61 a 100, você vai para um plano de existência aleatório.</p>"
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Enquanto estiver usando este amuleto, você pode usar uma ação para nomear um local que conheça em outro plano de existência. Em seguida, faça uma salvaguarda de Inteligência CD 15. Se for bem sucedido, você conjura a magia @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{viagem planar}. Se falhar, você e todas as criaturas e objetos em um raio de 4,5 metros viajam para um destino aleatório. Role um d100. Com um resultado de 1 a 60, você chega a um destino aleatório no plano escolhido. Com um resultado de 61 a 100, você vai para um plano de existência aleatório.</p>"
     },
     "Animated Shield": {
       "name": "Escudo Animado",
@@ -97,40 +101,8 @@
       "description": "<p>Uma criatura que beber o líquido deste frasco recebe vantagem em salvaguardas contra veneno por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.</p>"
     },
     "Apparatus of the Crab": {
-      "name": "Apparatus of the Crab",
-      "description": "<p><em>Wondrous item</em></p><p>This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.</p><p>The Apparatus of the Crab is a Large object with the following statistics:</p><p><strong>AC</strong>: 20<br /><strong>Hit Points</strong>: 200<br /><strong>Speed</strong>: 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail aren't extended)<br /><strong>Damage Immunities</strong>: poison, psychic</p><p>To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.</p><p>The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure.</p><p>A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as show in the Apparatus of the Crab Levers table.</p><table border=\"1\"><caption><strong>Apparatus of the Crab Levers table:</strong></caption><thead><tr><th>Lever</th><th>Up</th><th>Down</th></tr></thead><tbody><tr><td>1</td><td>Legs and tail extend, allowing the apparatus to walk and swim.</td><td>Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed.</td></tr><tr><td>2</td><td>Forward window shutter opens.</td><td>Forward window shutter closes.</td></tr><tr><td>3</td><td>Side window shutters open (two per side).</td><td>Side window shutters close (two per side).</td></tr><tr><td>4</td><td>Two claws extend from the front sides of the apparatus.</td><td>The claws retract.</td></tr><tr><td>5</td><td>Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage.</td><td>Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: The target is Grappled (escape DC 15).</td></tr><tr><td>6</td><td>The apparatus walks or swims forward.</td><td>The apparatus walks or swims backward.</td></tr><tr><td>7</td><td>The apparatus turns 90 degrees left.</td><td>The apparatus turns 90 degrees right.</td></tr><tr><td>8</td><td>Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.</td><td>The light turns off.</td></tr><tr><td>9</td><td>The apparatus sinks as much as 20 feet in liquid.</td><td>The apparatus rises up to 20 feet in liquid.</td></tr><tr><td>10</td><td>The rear hatch unseals and opens.</td><td>The rear hatch closes and seals.</td></tr></tbody></table>"
-    },
-    "Shortbow": {
-      "name": "Arco Curto",
-      "description": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>"
-    },
-    "Longbow": {
-      "name": "Arco Longo",
-      "description": "<p>A thick shaft of laminated wood is bowed by a taut string capable of launching deadly arrows at long distances.</p>"
-    },
-    "Padded Armor": {
-      "name": "Armadura Acolchoada",
-      "description": "<p>Padded armor consists of quilted layers of cloth and batting. Padded armor offers a comparable level of protection as stiffened leather but is somewhat less encumbering to the wearer.</p>"
-    },
-    "Splint Armor": {
-      "name": "Armadura de Cota de Talas",
-      "description": "<p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>"
-    },
-    "Leather Armor": {
-      "name": "Armadura de Couro",
-      "description": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>"
-    },
-    "Studded Leather Armor": {
-      "name": "Armadura de Couro Batido",
-      "description": "<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>"
-    },
-    "Plate Armor": {
-      "name": "Armadura de Placas",
-      "description": "<p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>"
-    },
-    "Half Plate Armor": {
-      "name": "Armadura de Placas Parcial",
-      "description": "<p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>"
+      "name": "Dispositivo de Kwalish",
+      "description": "<p><em>Item maravilhoso, lendário</em></p><p>Este item, à primeira vista, parece um barril de ferro selado Grande pesando 250 kg. O barril possui uma trava escondida, encontrada com um teste de Inteligência (Investigação) CD 20. Liberar essa trava abre uma escotilha em uma das extremidades do barril, permitindo que duas criaturas de tamanho Médio ou menor entrem. Dez alavancas estão dispostas linearmente na extremidade oposta, cada uma em posição neutra, podendo ser movidas para cima ou para baixo. Quando determinadas alavancas são ativadas, o aparelho se transforma em uma lagosta metálica gigante.</p><p>O Dispositivo de Kwalish é um objeto Grande, e tem as seguintes características:</p><p><strong>Classe de Armadura:</strong> 20<br /><strong>Pontos de Vida:</strong> 200<br /><strong>Deslocamento:</strong> 9 m, natação 9 m (ou 0 m para ambos caso as pernas e cauda não estejam estendidas)<br /><strong>Imunidades a dano:</strong> veneno, psíquico</p><p>Para ser usado como veículo, o dispositivo precisa de um piloto. Com a escotilha fechada, o compartimento é à prova d’água e ar. Contém ar suficiente para 10 horas, divididas pelo número de ocupantes respirando.</p><p>O dispositivo flutua na água, podendo submergir a uma profundidade de até 270 metros. Mais fundo que isso, sofre 2d6 de dano de concussão por minuto devido à pressão. Uma criatura pode usar uma ação para acionar uma ou duas alavancas por vez. Após o uso, a alavanca retorna à posição neutra. As funções estão descritas na tabela « Alavancas do Dispositivo de Kwalish ».</p><table border=\"1\"><caption><strong>Alavancas do Dispositivo de Kwalish</strong></caption><thead><tr><th>Alavanca</th><th>Para Cima</th><th>Para Baixo</th></tr></thead><tbody><tr><td>1</td><td>Pernas e cauda se estendem, permitindo que o dispositivo ande ou nade.</td><td>Pernas e cauda se retraem, reduzindo o deslocamento a 0.</td></tr><tr><td>2</td><td>Escotilha frontal se abre.</td><td>Escotilha frontal se fecha.</td></tr><tr><td>3</td><td>Escotilha laterais se abrem (duas de cada lado).</td><td>Escotilhas laterais se fecham.</td></tr><tr><td>4</td><td>Duas garras se estendem dos lados frontais.</td><td>As garras se retraem.</td></tr><tr><td>5</td><td>Cada garra realiza um ataque corpo-a-corpo: +8 para atingir, alcance 1,5 m, um alvo. Acerto: 7 (2d6) de dano de concussão.</td><td>Cada garra realiza um ataque corpo-a-corpo: +8 para atingir, alcance 1,5 m, um alvo. Acerto: o alvo fica agarrado (CD 15 para escapar).</td></tr><tr><td>6</td><td>O dispositivo anda ou nada para frente.</td><td>O dispositivo anda ou nada para trás.</td></tr><tr><td>7</td><td>O dispositivo vira 90 graus para a esquerda.</td><td>O dispositivo vira 90 graus para a direita.</td></tr><tr><td>8</td><td>Olhos mecânicos emitem luz plena num raio de 9 m e penumbra num raio adicional de 9 m.</td><td>A luz se apaga.</td></tr><tr><td>9</td><td>O dispositivo submerge até 6 metros em um líquido.</td><td>O dispositivo emerge até 6 metros em um líquido.</td></tr><tr><td>10</td><td>A escotilha traseira se destranca e abre.</td><td>A escotilha traseira se fecha e tranca.</td></tr></tbody></table>"
     },
     "Armor of Invulnerability": {
       "name": "Armadura de Invulnerabilidade",
@@ -161,16 +133,8 @@
       "description": "<p><em>Arma (flecha), muito rara</em></p><p>Uma flecha assassina é uma arma mágica feita para matar um tipo de criatura. Algumas são mais específicas que outras; por exemplo. existem tanto as <em>flechas assassinas de dragão</em> quanto as <em>flechas assassinas de dragão azul</em>. Se uma criatura do tipo, raça ou grupo associado sofrer dano desta flecha, deve fazer uma salvaguarda de Constituição CD 17, sofrendo 6d10 de dano perfurante adicional em falha, ou metade em sucesso.</p><p>Após causar dano adicional, a flecha perde suas propriedades mágicas.</p><p>Existem outras munições semelhantes, como os <em>virotes assassinos</em> para bestas, apesar de as flechas serem as mais comuns.</p>"
     },
     "Arrow-Catching Shield": {
-      "name": "Arrow-Catching Shield",
-      "description": "<p>You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.</p>"
-    },
-    "Unarmed Strike": {
-      "name": "Ataque Desarmado",
-      "description": "<p>A  punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.</p>"
-    },
-    "Javelin": {
-      "name": "Azagaia",
-      "description": "<p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p>"
+      "name": "Escudo Apanhador de Flechas",
+      "description": "<p><em>Armadura (escudo), raro (requer sintonização)</em></p><p>Você recebe um bônus de +2 na CA contra ataques à distância enquanto estiver empunhando este escudo. Esse bônus é adicionado ao bônus normal do escudo na CA. Além disso, sempre que uma criatura fizer um ataque à distância contra uma criatura a até 1,5 m de você, pode usar sua reação para se tornar o alvo do ataque no lugar dela.</p>"
     },
     "Backpack": {
       "name": "Mochila",
@@ -197,12 +161,16 @@
       "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta bolsa comum, feita de tecido cinza, ferrugem ou bronze, parece vazia. Contudo, ao procurar dentro dela, revelará a presença de um pequeno objeto felpudo. A bolsa pesa 250 gramas.</p><p>Você pode usar uma ação para puxar o objeto felpudo e arremessa-lo a até 6 metros. Quando atinge o chão, o objeto se transforma em uma criatura determinada rolando 1d8 na tabela @UUID[Compendium.dnd5e.tables.RollTable.VPGP621PW7k03YfB]{Bolsa de Truques Cinza}. A criatura desaparece no próximo amanhecer ou quando chega a 0 pontos de vida.</p><p>Essa criatura é amigável em relação a você e seus companheiros e age no seu turno. Você pode usar uma ação bônus para decidir para onde a criatura se move e qual ação ela realizará em seu próximo turno, ou dar ordens mais gerais, como atacar seus inimigos. Sem ordens, a criatura age de acordo com sua natureza.</p><p>Depois que três objetos felpudos forem retirados da bolsa, ela não pode ser usada novamente até o próximo amanhecer.</p>"
     },
     "Bag of Tricks (Rust)": {
-      "name": "Bag of Tricks (Rust)",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This ordinary bag, made from rust-colored cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.</p>\n<p>You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the @UUID[Compendium.dnd5e.tables.RollTable.PLHwT9dC6fCZqkeo]{Rust Bag of Tricks} table.</p>\n<p>The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>\n<p>Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>"
+      "name": "Bolsa de Truques (Ferrugem)",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta bolsa comum, feita de tecido cinza, ferrugem ou bronze, parece vazia. Contudo, ao procurar dentro dela, revelará a presença de um pequeno objeto felpudo. A bolsa pesa 250 gramas.</p><p>Você pode usar uma ação para puxar o objeto felpudo e arremessa-lo a até 6 metros. Quando atinge o chão, o objeto se transforma em uma criatura determinada rolando 1d8 na tabela @UUID[Compendium.dnd5e.tables.RollTable.PLHwT9dC6fCZqkeo]{Bolsa de Truques Ferrugem}. A criatura desaparece no próximo amanhecer ou quando chega a 0 pontos de vida.</p><p>Essa criatura é amigável em relação a você e seus companheiros e age no seu turno. Você pode usar uma ação bônus para decidir para onde a criatura se move e qual ação ela realizará em seu próximo turno, ou dar ordens mais gerais, como atacar seus inimigos. Sem ordens, a criatura age de acordo com sua natureza.</p><p>Depois que três objetos felpudos forem retirados da bolsa, ela não pode ser usada novamente até o próximo amanhecer.</p>"
     },
     "Bag of Tricks (Tan)": {
-      "name": "Bag of Tricks (Tan)",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This ordinary bag, made from tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.</p>\n<p>You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the @UUID[Compendium.dnd5e.tables.RollTable.5PTePCTxrk2fIrll]{Tan Bag of Tricks} table.</p>\n<p>The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>\n<p>Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>"
+      "name": "Bolsa de Truques (Bronze)",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta bolsa comum, feita de tecido cinza, ferrugem ou bronze, parece vazia. Contudo, ao procurar dentro dela, revelará a presença de um pequeno objeto felpudo. A bolsa pesa 250 gramas.</p><p>Você pode usar uma ação para puxar o objeto felpudo e arremessa-lo a até 6 metros. Quando atinge o chão, o objeto se transforma em uma criatura determinada rolando 1d8 na tabela @UUID[Compendium.dnd5e.tables.RollTable.5PTePCTxrk2fIrll]{Bolsa de Truques Marrom}. A criatura desaparece no próximo amanhecer ou quando chega a 0 pontos de vida.</p><p>Essa criatura é amigável em relação a você e seus companheiros e age no seu turno. Você pode usar uma ação bônus para decidir para onde a criatura se move e qual ação ela realizará em seu próximo turno, ou dar ordens mais gerais, como atacar seus inimigos. Sem ordens, a criatura age de acordo com sua natureza.</p><p>Depois que três objetos felpudos forem retirados da bolsa, ela não pode ser usada novamente até o próximo amanhecer.</p>"
+    },
+    "Bagpipes": {
+      "name": "Gaita de Foles",
+      "description": "<p>Um conjunto de gaitas de foles capaz de provocar admiração, espanto ou medo em seu público.</p><p>Se você tiver proficiência com um instrumento musical, pode adicionar seu bônus de proficiência aos testes de atributo feitos para tocá-lo. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical corresponde a uma proficiência distinta.</p>"
     },
     "Ball Bearings": {
       "name": "Esferas de Metal",
@@ -220,9 +188,9 @@
       "name": "Cesto",
       "description": "<p>Um cesto pode conter 60 centímetros cúbicos ou 20 kg de equipamentos.</p>"
     },
-    "Quarterstaff": {
-      "name": "Bastão",
-      "description": "<p>A thick shaft of wood wrapped with a sturdy grip makes a highly functional weapon in addition to a stout walking stick.</p>"
+    "Battleaxe": {
+      "name": "Machado de Batalha",
+      "description": "<p>Uma lâmina robusta em forma de crescente montada em um cabo grosso envolto por uma empunhadura sólida. Este machado é grande o suficiente para ser manejado com duas mãos e possui uma ponta nas costas da lâmina.</p>"
     },
     "Battleaxe +1": {
       "name": "Machado de Batalha +1",
@@ -281,24 +249,12 @@
       "description": "<p><em>Arma (Machado de Batalha), raro (Requer sintonização)</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica. Além disso, enquanto estiver sintonizado com esta arma, seu máximo de pontos de vida aumenta em 1 para cada nível que você possui.</p><p><em><strong>Maldição.</strong></em> Este machado é amaldiçoado: ao se sintonizar, você é afligido pela maldição. Enquanto estiver amaldiçoado, você se recusa a se separar do machado e o mantém sempre à mão. Você também tem desvantagem nas jogadas de ataque com armas que não sejam esta, exceto quando não houver nenhum inimigo que você possa ver ou ouvir em um raio de 18 metros.</p><p>Toda vez que uma criatura hostil causar dano a você enquanto estiver com o machado, você deve ser bem-sucedido em uma salvaguarda de [[/save]] ou ficará em fúria insana. Enquanto estiver nesse estado, você deve usar sua ação em cada rodada para atacar a criatura mais próxima com o machado. Se puder fazer ataques adicionais na ação Atacar, deve usá-los, movendo-se para atacar a criatura mais próxima se derrotar seu alvo atual. Se houver vários alvos à mesma distância, escolha um aleatoriamente. Esta fúria persiste até que você comece seu turno sem ver ou ouvir nenhuma criatura em um raio de 18 metros."
     },
     "Berserker Greataxe": {
-      "name": "Berserker Greataxe",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.</p>\n<p><strong>Curse</strong>. This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.</p>\n<p>Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target.</p>\n<p>If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.</p>"
+      "name": "Machado Grande do Berserker",
+      "description": "<p><em>Arma (Machado Grande), raro (Requer sintonização)</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica. Além disso, enquanto estiver sintonizado com esta arma, seu máximo de pontos de vida aumenta em 1 para cada nível que você possui.</p><p><em><strong>Maldição.</strong></em> Este machado é amaldiçoado: ao se sintonizar, você é afligido pela maldição. Enquanto estiver amaldiçoado, você se recusa a se separar do machado e o mantém sempre à mão. Você também tem desvantagem nas jogadas de ataque com armas que não sejam esta, exceto quando não houver nenhum inimigo que você possa ver ou ouvir em um raio de 18 metros.</p><p>Toda vez que uma criatura hostil causar dano a você enquanto estiver com o machado, você deve ser bem-sucedido em uma salvaguarda de [[/save]] ou ficará em fúria insana. Enquanto estiver nesse estado, você deve usar sua ação em cada rodada para atacar a criatura mais próxima com o machado. Se puder fazer ataques adicionais na ação Atacar, deve usá-los, movendo-se para atacar a criatura mais próxima se derrotar seu alvo atual. Se houver vários alvos à mesma distância, escolha um aleatoriamente. Esta fúria persiste até que você comece seu turno sem ver ou ouvir nenhuma criatura em um raio de 18 metros."
     },
     "Berserker Handaxe": {
-      "name": "Berserker Handaxe",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.</p>\n<p><strong>Curse</strong>. This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear.</p>\n<p>Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target.</p>\n<p>If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.</p>"
-    },
-    "Hand Crossbow": {
-      "name": "Besta de Mão",
-      "description": "<p>A lightweight crossbow designed to be held in one hand or strapped to one's wrist to fire light bolts.</p>"
-    },
-    "Light Crossbow": {
-      "name": "Besta Leve",
-      "description": "<p>A small crossbow with a wooden haft and a tense cord which is capable of firing a single bolt which can puncture even heavy armor at close range.</p>"
-    },
-    "Heavy Crossbow": {
-      "name": "Besta Pesada",
-      "description": "<p>A large crossbow mounted on a sturdy block of wood which is loaded using a hand crank and fires thick steel bolts with deadly acceleration that punches through armor and flesh.</p>"
+      "name": "Machadinha do Berserker",
+      "description": "<p><em>Arma (Machado de Mão), raro (Requer sintonização)</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitas com esta arma mágica. Além disso, enquanto estiver sintonizado com esta arma, seu máximo de pontos de vida aumenta em 1 para cada nível que você possui.</p><p><em><strong>Maldição.</strong></em> Esta machadinha é amaldiçoada: ao se sintonizar, você é afligido pela maldição. Enquanto estiver amaldiçoado, você se recusa a se separar da machadinha e a mantém sempre à mão. Você também tem desvantagem nas jogadas de ataque com armas que não sejam esta, exceto quando não houver nenhum inimigo que você possa ver ou ouvir em um raio de 18 metros.</p><p>Toda vez que uma criatura hostil causar dano a você enquanto estiver com a machadinha, você deve ser bem-sucedido em uma salvaguarda de [[/save]] ou ficará em fúria insana. Enquanto estiver nesse estado, você deve usar sua ação em cada rodada para atacar a criatura mais próxima com a machadinha. Se puder fazer ataques adicionais na ação Atacar, deve usá-los, movendo-se para atacar a criatura mais próxima se derrotar seu alvo atual. Se houver vários alvos à mesma distância, escolha um aleatoriamente. Esta fúria persiste até que você comece seu turno sem ver ou ouvir nenhuma criatura em um raio de 18 metros."
     },
     "Bit and Bridle": {
       "name": "Freio e Rédea",
@@ -313,8 +269,12 @@
       "description": "<p>Um sistema de roldanas com um cabo entre elas e um gancho para fixar aos objetos, que permite levantar até quatro vezes o peso que você normalmente conseguiria erguer.</p>"
     },
     "Block of Incense": {
-      "name": "Block of Incense",
-      "description": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>"
+      "name": "Bloco de Incenso",
+      "description": "<p>Tipicamente encontrado em um pacote de sacerdote.</p>"
+    },
+    "Blowgun": {
+      "name": "Zarabatana",
+      "description": "<p>Uma arma primitiva, porém mortal, apreciada por tribos e guerreiros. Os dardos disparados por esta arma podem perfurar e aplicar doses letais de veneno.</p>"
     },
     "Blowgun +1": {
       "name": "Zarabatana +1",
@@ -385,8 +345,12 @@
       "description": "<p><em>Item maravilhoso, raro</em></p><p>Você pode usar uma ação para soprar esta trombeta. Em resposta, espíritos guerreiros do plano de Ysgard aparecem em um raio de até 18 metros de você. Eles usam as estatísticas do @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{furioso}. Eles retornam para Ysgard após 1 hora ou quando caem a 0 pontos de vida. Após usar a trombeta, ela não pode ser usada novamente por 7 dias.</p><p>Se têm conhecimento da existência de quatro tipos de trombeta de Valhalla, cada uma feita de um metal diferente. O tipo determina quantos furiosos são invocados e se há requerimento para uso. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Trombeta de Valhalla}.</p><p><strong>Trombeta de Latão do Valhalla.</strong> Esta trombeta invoca [[/r 3d4 + 3]] furiosos ao ser soprada e requer proficiência com todas as armas simples para ser usada.</p><p>Se você soprar a trombeta sem cumprir o requerimento, os furiosos invocados atacam você. Se cumprir, eles são amigáveis a você e aos seus companheiros e seguirão seus comandos.</p>"
     },
     "Brazier of Commanding Fire Elementals": {
-      "name": "Brazier of Commanding Fire Elementals",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While a fire burns in this brazier, you can use an action to speak the brazier's command word and summon a @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental}, as if you had cast the <em>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental}</em> spell. The brazier can't be used this way again until the next dawn.</p>\n<p>The brazier weighs 5 pounds.</p>"
+      "name": "Braseiro de Comandar Elementais do Fogo",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Enquanto uma chama estiver acesa neste braseiro de bronze, você pode usar uma ação para falar a palavra de comando e invocar um @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{elemental do fogo}, como se tivesse conjurado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}. O braseiro não pode ser usado novamente desta forma até o próximo amanhecer.</p><p>O braseiro pesa 2,5 quilos.</p>"
+    },
+    "Breastplate": {
+      "name": "Peitoral",
+      "description": "<p>Esta armadura é constituída por um peitoral de metal usado com couro flexível em seu interior. Embora ele deixe as pernas e braços do usuário relativamente desprotegidos, ela fornece boa proteção para seus órgãos vitais e permite liberdade de movimento.</p>"
     },
     "Breastplate +1": {
       "name": "Peitoral +1",
@@ -401,8 +365,12 @@
       "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus de +3 na CA enquanto estiver usando esta armadura.</p>"
     },
     "Breastplate Armor of Resistance": {
-      "name": "Breastplate Armor of Resistance",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
+      "name": "Armadura de Resistência",
+      "description": "<p><em>Armadura (leve, média ou pesada), rara (requer sintonização)</em></p><p>Você recebe resistência a um tipo de dano enquanto estiver usando esta armadura. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armadura de Resistência}.</p>"
+    },
+    "Brewer's Supplies": {
+      "name": "Suprimentos de Cervejeiro",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um cervejeiro.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Bronze Horn of Valhalla": {
       "name": "Trombeta de Bronze do Valhalla",
@@ -425,8 +393,12 @@
       "description": "<p>Uma lanterna coberta produz uma luz intensa em um raio de 9 metros e penumbra por mais 9 metros. Uma vez acesa, ela queima por 6 horas consumindo uma frasco de óleo (500 ml). Usando uma ação, você pode abaixar a cobertura, reduzindo a claridade para penumbra em um raio de 1,5 metro.</p>"
     },
     "Burglar's Pack": {
-      "name": "Burglar's Pack",
-      "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+      "name": "Ferramentas de Ladrão",
+      "description": "<p>Uma mochila pode conter até 30 centímetros cúbicos ou 15 kg de equipamentos. Você também pode prender objetos à mochila, como um saco de dormir ou uma corda enrolada.</p>"
+    },
+    "Calligrapher's Supplies": {
+      "name": "Suprimentos de Caligrafia",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários aos ofícios de caligrafia.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Caltrops": {
       "name": "Estrepes (bolsa com 20)",
@@ -437,12 +409,16 @@
       "description": "<p>Por 1 hora, uma vela acesa produz luz intensa em um raio de 1,5 metro e penumbra em mais 1,5 metro.</p>"
     },
     "Candle of Invocation": {
-      "name": "Candle of Invocation",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the Detect Evil and Good spell. The GM chooses the god and associated alignment or determines the alignment randomly from the @UUID[Compendium.dnd5e.tables.RollTable.C1N8LjO7gOjEWgh4]{Candle of Invocation} table.</p>\n<p>The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time.</p>\n<p>While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st- level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.</p>\n<p>Alternatively, when you light the candle for the first time, you can cast the <em>@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{Gate}</em>spell with it. Doing so destroys the candle.</p>"
+      "name": "Vela de Invocação",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Esta vela é dedicada a uma divindade cujo alinhamento ela compartilha. O alinhamento da vela pode ser detectado com a magia @UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{detectar mal e bem}. O Mestre escolhe o deus e o alinhamento associado ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.C1N8LjO7gOjEWgh4]{Vela de Invocação}.</p><p>A magia da vela é ativada quando ela é acesa, o que requer uma ação. Após queimar por 4 horas, a vela é destruída. Você pode apagá-la antes disso para reutilizá-la depois. Deduza o tempo que ela queimou em incrementos de 1 minuto do tempo total de queima da vela.</p><p>Enquanto estiver acesa, a vela emite luz penumbra em um raio de 9 metros. Dentro dessa luz, qualquer criatura cujo alinhamento corresponda ao da vela faz jogadas de ataque, salvaguardas e testes de atributo com vantagem. Se, além disso, essa criatura for um clérigo ou druida, ela pode conjurar magias de 1º nível que tenha preparado sem gastar espaço de magia, mas o efeito é como se fosse conjurado com espaço de 1º nível.</p><p>Outra opção, ao acender a vela pela primeira vez, é conjurar a magia @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{portal}. Nesse caso, a vela é destruída.</p>"
     },
     "Cape of the Mountebank": {
-      "name": "Cape of the Mountebank",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This cape smells faintly of brimstone. While wearing it, you can use it to cast the @UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{Dimension Door} spell as an action. This property of the cape can't be used again until the next dawn.</p>\n<p>When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.</p>"
+      "name": "Capa do Saltimbanco",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Esta capa tem um leve cheiro de enxofre. Enquanto estiver usando-a, você pode usá-la para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{porta dimensional} como uma ação. Esta propriedade da capa não pode ser usada novamente até o próximo amanhecer.</p><p>Quando você desaparece, deixa para trás uma nuvem de fumaça e reaparece em outra nuvem semelhante no destino. Essa fumaça reduz a visibilidade no espaço que você deixou e no qual reaparece, dissipando-se ao final do seu próximo turno. Um vento leve é suficiente para dispersar essa fumaça.</p>"
+    },
+    "Carpenter's Tools": {
+      "name": "Ferramentas de Carpinteiro",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um carpinteiro.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Carpet of Flying (3x5)": {
       "name": "Tapete Voador (1 x 1,5)",
@@ -457,8 +433,12 @@
       "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Pronunciar a palavra de comando do tapete como uma ação faz com que ele flutue e voe. Ele se move conforme suas instruções verbais, desde que você esteja a até 9 metros do tapete.</p><p>Este tapete mede 1,5 x 2 metros e tem velocidade de 12 metros para transportar até 300 kg ou metade dessa velocidade para transportar até o dobro da capacidade.</p><p>Existem quatro tamanhos de tapete voador. O Mestre decide o tamanho do tapete ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Tapete Voador}.</p>"
     },
     "Carpet of Flying (6x9)": {
-      "name": "Carpet of Flying (6x9)",
-      "description": "<p><em>Wondrous item</em></p><p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>This carpet is 6 ft. x 9 ft. and has a speed of 30 feet carrying up to 800 lb, or half that speed when carrying up to 1600 lb.</p>\n<p>Four sizes of carpet of flying exist. The GM chooses the size of a given carpet or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Carpet of Flying} table.</p>"
+      "name": "Tapete Voador (1,8 x 2,8)",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Pronunciar a palavra de comando do tapete como uma ação faz com que ele flutue e voe. Ele se move conforme suas instruções verbais, desde que você esteja a até 9 metros do tapete.</p><p>Este tapete mede 1,8 x 2,8 metros e tem velocidade de 9 metros para transportar até 400 kg ou metade dessa velocidade para transportar até o dobro da capacidade.</p><p>Existem quatro tamanhos de tapete voador. O Mestre decide o tamanho do tapete ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Tapete Voador}.</p>"
+    },
+    "Cartographer's Tools": {
+      "name": "Ferramentas de Cartógrafo",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um cartógrafo.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Censer": {
       "name": "Incensário",
@@ -469,8 +449,12 @@
       "description": "<p><em>Item maravilhoso, raro</em></p><p>Enquanto o incenso estiver queimando neste incensário, você pode usar uma ação para pronunciar a palavra de comando e invocar um @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{elemental do ar}, como se tivesse conjurado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}. O incensário não pode ser usado novamente desta forma até o próximo amanhecer.</p><p>Este objeto de 15 centímetros de largura e 30 centímetros de altura se assemelha a um cálice com tampa decorada. Pesa 500 gramas.</p>"
     },
     "Chain (10 feet)": {
-      "name": "Chain (10 feet)",
-      "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>"
+      "name": "Corrente (3 metros)",
+      "description": "<p>Uma corrente tem 10 pontos de vida. Uma criatura pode quebrá-la com um teste de Força CD 20 bem-sucedido.</p>"
+    },
+    "Chain Mail": {
+      "name": "Cota de malha",
+      "description": "<p>Composta por anéis metálicos entrelaçados, a cota de malha inclui uma camada de tecido acolchoado usada por baixo da malha para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui um par de manoplas.</p>"
     },
     "Chain Mail +1": {
       "name": "Cota de malha +1",
@@ -485,8 +469,12 @@
       "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +3 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Mail Armor of Resistance": {
-      "name": "Chain Mail Armor of Resistance",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
+      "name": "Cota de malha de resistência",
+      "description": "<p><em>(Armadura (pesada), rara (requer sintonização)</em></p><p>Você recebe resistência a um tipo de dano enquanto estiver usando esta armadura. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armadura de Resistência}.</p>"
+    },
+    "Chain Shirt": {
+      "name": "Camisão de Malha",
+      "description": "<p>Feito de anéis metálicos entrelaçados, o camisão de malha é usado entre várias camadas de tecido ou couro. Esta armadura oferece proteção modesta à parte superior do corpo, enquanto o som dos anéis é abafado pelas camadas externas.</p>"
     },
     "Chain Shirt +1": {
       "name": "Camisão de Malha +1",
@@ -505,36 +493,24 @@
       "description": "<p><em>(Armadura (média), rara (requer sintonização)</em></p><p>Você recebe resistência a um tipo de dano enquanto estiver usando esta armadura. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armadura de Resistência}.</p>"
     },
     "Chalk": {
-      "name": "Chalk",
-      "description": "<p>It is soft white porous sedimentary acarbonate rock, a form of limestone composed of the mineral calcite. Can be used to draw shapes. </p>"
+      "name": "Giz",
+      "description": "<p>Uma rocha sedimentar porosa, branca e macia, composta por calcita. Pode ser usada para escrever ou desenhar várias formas em diversas superfícies.</p>"
+    },
+    "Chess Set": {
+      "name": "Tabuleiro de xadrez",
+      "description": "<p>Este item é um conjunto completo de peças de xadrez e um tabuleiro. O tabuleiro também pode ser usado para variantes de damas e xadrez.</p><p>Se você tiver proficiência com um conjunto de jogos, pode adicionar seu bônus de proficiência aos testes de atributo relacionados a partidas desses jogos. Cada tipo de conjunto de jogos corresponde a uma proficiência distinta.</p>"
     },
     "Chest": {
-      "name": "Chest",
-      "description": "<p>A chest holds 12 cubic feet or 300 pounds of gear.</p>"
-    },
-    "Whip": {
-      "name": "Chicote",
-      "description": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>"
+      "name": "Baú",
+      "description": "<p>Um baú pode conter 3,5 metros cúbicos ou 150 quilos de equipamentos.</p>"
     },
     "Chime of Opening": {
-      "name": "Chime of Opening",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens.</p>\n<p>The chime can be used ten times. After the tenth time, it cracks and becomes useless.</p>"
-    },
-    "Scimitar": {
-      "name": "Cimitarra",
-      "description": "<p>This curved blade is narrow near the wrapped handle but broadens towards a gleaming tip.</p>"
+      "name": "Carrilhão de Abertura",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Este tubo de metal oco mede cerca de 30 centímetros e pesa 500 gramas. Você pode fazê-lo soar usando uma ação, apontando para um objeto a até 36 metros de distância que possa ser aberto, como uma porta, tampa ou fechadura. O carrilhão emite uma nota clara que faz com que uma fechadura ou tranca no objeto se abra, a menos que o som não possa alcançá-lo. Se não houver fechadura ou tranca trancada ao alcance, o objeto se abre sozinho.</p><p>O carrilhão pode ser usado dez vezes. Ele se quebra e se torna inutilizável após o décimo uso.</p>"
     },
     "Circlet of Blasting": {
-      "name": "Circlet of Blasting",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While wearing this circlet, you can use an action to cast the <em>@UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</em> spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.</p>"
-    },
-    "Club": {
-      "name": "Clava",
-      "description": "<p>A stout knob of wood forms a simple, but effective, cudgel. These weapons are used to bludgeon foes, bruising flesh and breaking bones.</p>"
-    },
-    "Greatclub": {
-      "name": "Clava Grande",
-      "description": "<p>A larger variant of the simple club, a hefty wooden shaft with an enormous knot of wood upon the end deals crippling bludgeoning damage to unfortunate foes.</p>"
+      "name": "Diadema da Destruição",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Enquanto estiver usando este diadema, você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{raio ardente} através dele. Ao realizar os ataques da magia, você recebe um bônus de +5 na jogada de ataque. O diadema não pode ser usado novamente desta forma até o próximo amanhecer.</p>"
     },
     "Climber's Kit": {
       "name": "Kit de Escalada",
@@ -561,8 +537,12 @@
       "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando este manto, você tem vantagem em testes de Destreza (Furtividade). Em áreas de penumbra ou de escuridão, você pode segurar as bordas do manto com as duas mãos para voar a uma velocidade de 12 metros. Se soltar as bordas ou sair da penumbra/escuridão, perde essa velocidade de voo.</p><p>Enquanto estiver usando este manto em penumbra ou escuridão, você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{metamorfose} em si mesmo, transformando-se em um morcego. Como morcego, você mantém seus valores de Inteligência, Sabedoria e Carisma. O manto não pode ser usado desta forma novamente até o próximo amanhecer.</p>"
     },
     "Cloak of the Manta Ray": {
-      "name": "Cloak of the Manta Ray",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet.</p>\n<p>Pulling the hood up or down requires an action.</p>"
+      "name": "Manto da Arraia",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Enquanto estiver usando este manto com o capuz levantado, você pode respirar debaixo d'água e tem deslocamento de natação de 18 metros. Levantar ou abaixar o capuz requer uma ação.</p>"
+    },
+    "Club": {
+      "name": "Clava",
+      "description": "<p>Um pedaço robusto de madeira forma uma arma simples, mas eficaz. Estas armas são usadas para golpear inimigos, causar hematomas e quebrar ossos.</p>"
     },
     "Club +1": {
       "name": "Clava +1",
@@ -573,36 +553,28 @@
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +2 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Club +3": {
-      "name": "Club +3",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Clava +3",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +3 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
+    },
+    "Cobbler's Tools": {
+      "name": "Ferramentas de Sapateiro",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um sapateiro.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Common Clothes": {
       "name": "Roupas Comuns",
       "description": "<p>Vestuário usado pela maioria dos plebeus.</p>"
     },
     "Component Pouch": {
-      "name": "Component Pouch",
-      "description": "<p>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</p>"
+      "name": "Bolsa de Componentes",
+      "description": "<p>Uma pequena bolsa de couro impermeável que pode ser fixada em um cinto, com compartimentos para todos os componentes materiais e outros itens necessários para conjurar magias, exceto componentes que exigem um custo específico (conforme indicado na descrição da magia).</p>"
+    },
+    "Cook's Utensils": {
+      "name": "Utensílios de Cozinheiro",
+      "description": "<p>Este tipo específico de ferramentas inclui os itens necessários para os trabalhos e práticas de um cozinheiro.</p><p>A proficiência com um tipo de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que as utilize. Cada tipo de ferramentas de artesão corresponde a uma proficiência distinta.</p>"
     },
     "Costume Clothes": {
-      "name": "Costume Clothes",
-      "description": "<p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>"
-    },
-    "Ring Mail": {
-      "name": "Cota de Anéis",
-      "description": "<p>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</p>"
-    },
-    "Chain Mail": {
-      "name": "Cota de Malha",
-      "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>"
-    },
-    "Chain Shirt": {
-      "name": "Cota de Malha Parcial",
-      "description": "<p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>"
-    },
-    "Breastplate": {
-      "name": "Couraça Peitoral",
-      "description": "<p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p>"
+      "name": "Fantasia",
+      "description": "<p>Uma fantasia completa geralmente usada por artistas e intérpretes em diversos tipos de apresentações ou por aqueles que simplesmente se recusam a sair do personagem.</p>"
     },
     "Crossbow Bolt": {
       "name": "Virote de Besta",
@@ -649,12 +621,16 @@
       "description": "<p><em>Item maravilhoso, lendário (requer sintonização)</em></p><p>Esta bola de cristal mede cerca de 15 centímetros de diâmetro. Enquanto você a estiver tocando, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{vidência} (CD 17) através dela.</p><p>Durante um vidência com esta bola de cristal, você tem visão verdadeira em um raio de 36 metros do sensor da magia.</p>"
     },
     "Cube of Force": {
-      "name": "Cube of Force",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.</p>\n<p>You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration.</p>\n<p>If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Face</strong></td>\n<td><strong>Charges</strong></td>\n<td><strong>Effect</strong></td>\n</tr>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>Gases, wind, and fog can't pass through the barrier.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>Living matter can't pass through the barrier.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>Spell effects can't pass through the barrier.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>5</td>\n<td>Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>0</td>\n<td>The barrier deactivates.</td>\n</tr>\n</tbody>\n</table>\n<p>The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Spell or Item</strong></td>\n<td><strong>Charges Lost</strong></td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Disintegrate}</td>\n<td>1d12</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.items.Item.t7GfyRp3dB3lqS9i]{Horn of Blasting}</td>\n<td>1d10</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{Passwall}</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.eGMhwmuleAM46C6L]{Prismatic Spray}</td>\n<td>1d20</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n<td>1d4</td>\n</tr>\n</tbody>\n</table>"
+      "name": "Cubo de Força",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Este cubo mede aproximadamento 2,5 centímetros de lado. Cada face tem um símbolo distinto que pode ser pressionado. O cubo tem 36 cargas e recupera 1d20 cargas gastas ao amanhecer.</p><p>Você pode usar uma ação para pressionar uma das faces do cubo, gastando um número de cargas conforme a face escolhida, como indicado na tabela « Faces do Cubo de Força ». Cada face tem um efeito diferente. Se não houver cargas suficientes, nada acontece. Caso contrário, uma barreira de força invisível se ergue, formando um cubo de 4,5 metros de lado. A barreira é centrada em você, se move com você e dura 1 minuto, até você usar uma ação para pressionar a sexta face do cubo ou até o cubo ficar sem cargas. Você pode mudar o efeito da barreira pressionando outra face e gastando as cargas correspondentes, reiniciando a duração.</p><p>Se seu movimento fizer a barreira tocar um objeto sólido que não pode atravessar o cubo, você não pode se aproximar desse objeto enquanto a barreira estiver ativa.</p><table border=\"1\"><tbody><tr><td><strong>Face</strong></td><td><strong>Cargas</strong></td><td><strong>Efeito</strong></td></tr><tr><td>1</td><td>1</td><td>Gases, vento e névoa não podem atravessar a barreira.</td></tr><tr><td>2</td><td>2</td><td>Matéria inorgânica não pode atravessar a barreira. Paredes, pisos e tetos podem atravessar se você desejar.</td></tr><tr><td>3</td><td>3</td><td>Matéria orgânica não pode atravessar a barreira.</td></tr><tr><td>4</td><td>4</td><td>Nenhum efeito de magia pode atravessar a barreira.</td></tr><tr><td>5</td><td>5</td><td>Nada pode atravessar a barreira. Paredes, pisos e tetos podem atravessar se você desejar.</td></tr><tr><td>6</td><td>0</td><td>A barreira é desativada.</td></tr></tbody></table><p>O cubo perde cargas quando a barreira é alvo de certas magias ou entra em contato com certos efeitos de magia ou itens mágicos, conforme indicado na tabela abaixo.</p><table border=\"1\"><tbody><tr><td><strong>Magia ou Item</strong></td><td><strong>Cargas perdidas</strong></td></tr><tr><td>@UUID[Compendium.dnd5e.items.Item.t7GfyRp3dB3lqS9i]{Trombeta da Destruição}</td><td>1d10</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Desintegrar}</td><td>1d12</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.eGMhwmuleAM46C6L]{Rajada Prismática}</td><td>1d20</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Muralha de Fogo}</td><td>1d4</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{Criar Passagem}</td><td>1d6</td></tr></tbody></table>"
     },
     "Cubic Gate": {
-      "name": "Cubic Gate",
-      "description": "<p><em>Wondrous item</em></p>\n<p>This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the GM.</p>\n<p>You can use an action to press one side of the cube to cast the @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{Gate} spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.</p>\n<p>The cube has 3 charges. Each use of the cube expends 1 charge. The cube regains 1d3 expended charges daily at dawn.</p>"
+      "name": "Cubo do Portal",
+      "description": "<p><em>Item maravilhoso, lendário</em></p><p>Este cubo mede 7,5 centímetros de lado e emana uma energia mágica perceptível. Cada uma das seis faces do cubo está ligada a um plano de existência distinto, sendo um deles o Plano Material. As outras faces estão ligadas a planos determinados pelo Mestre.</p><p>Você pode usar uma ação para pressionar uma face do cubo e conjurar a magia @UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{portal} através dele, abrindo um portal para o plano associado àquela face. Alternativamente, se você usar uma ação para pressionar duas vezes a mesma face, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{viagem planar} (CD 17) pelo cubo, transportando os alvos para o plano de existência associado àquela face.</p><p>O cubo possui 3 cargas. Cada uso consome 1 carga. O cubo recupera 1d3 cargas gastas diariamente ao amanhecer.</p>"
+    },
+    "Dagger": {
+      "name": "Dague",
+      "description": "<p>Une courte lame de métal montée sur une petite poignée et une garde transversale. La dague constitue un armement latéral efficace pour les guerriers endurcis ou une lame cachée pour les assassins et les voleurs.</p>"
     },
     "Dagger +1": {
       "name": "Dagger +1",
