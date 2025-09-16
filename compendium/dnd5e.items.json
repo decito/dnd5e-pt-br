@@ -25,40 +25,36 @@
       "description": "<p>O ábaco, também chamado de quadro de contagem, é uma ferramenta de cálculo.</p>"
     },
     "Acid (vial)": {
-      "name": "Acid (vial)",
-      "description": "<p>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</p>"
-    },
-    "Dagger": {
-      "name": "Adaga",
-      "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>"
+      "name": "Ácido",
+      "description": "<p>Como uma ação, você pode despejar o conteúdo deste frasco sobre uma criatura a até 1,5 metro de você, ou arremessá-lo a até 6 metros de distância, quebrando o frasco no impacto. Em ambos os casos, faça um ataque à distância contra a criatura ou objeto, tratando o ácido como uma arma improvisada: em caso de acerto, o alvo sofre 2d6 de dano de ácido.</p>"
     },
     "Adamantine Breastplate": {
-      "name": "Adamantine Breastplate",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Peitoral de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Chain Mail": {
-      "name": "Adamantine Chain Mail",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Cota de malha de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Chain Shirt": {
-      "name": "Adamantine Chain Shirt",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Camisão de malha de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Half Plate Armor": {
-      "name": "Adamantine Half Plate Armor",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Meia-armadura de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Plate Armor": {
-      "name": "Adamantine Plate Armor",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Placas de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Ring Mail": {
-      "name": "Adamantine Ring Mail",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Cota de anéis de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Scale Mail": {
-      "name": "Adamantine Scale Mail",
-      "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
+      "name": "Brunea de Adamante",
+      "description": "<p>Esta armadura é reforçada com adamante, uma das substâncias mais duras que existe.</p><p>Enquanto você estiver vestindo ela, qualquer acerto crítico contra você se torna um acerto normal.</p>"
     },
     "Adamantine Splint Armor": {
       "name": "Adamantine Splint Armor",
