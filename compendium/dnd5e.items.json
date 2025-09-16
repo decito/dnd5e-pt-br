@@ -445,64 +445,64 @@
       "description": "<p><em>Wondrous item</em></p>\n<p>This cape smells faintly of brimstone. While wearing it, you can use it to cast the @UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{Dimension Door} spell as an action. This property of the cape can't be used again until the next dawn.</p>\n<p>When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.</p>"
     },
     "Carpet of Flying (3x5)": {
-      "name": "Carpet of Flying (3x5)",
-      "description": "<p><em>Wondrous item</em></p><p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>This carpet is 3 ft. x 5 ft. and has a speed of 80 feet carrying up to 200 lb, or half that speed when carrying up to 400 lb.</p>\n<p>Four sizes of carpet of flying exist. The GM chooses the size of a given carpet or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Carpet of Flying} table.</p>"
+      "name": "Tapete Voador (1 x 1,5)",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Pronunciar a palavra de comando do tapete como uma ação faz com que ele flutue e voe. Ele se move conforme suas instruções verbais, desde que você esteja a até 9 metros do tapete.</p><p>Este tapete mede 1 x 1,5 metro e tem velocidade de 21 metros para transportar até 100 kg ou metade dessa velocidade para transportar até o dobro da capacidade.</p><p>Existem quatro tamanhos de tapete voador. O Mestre decide o tamanho do tapete ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Tapete Voador}.</p>"
     },
     "Carpet of Flying (4x6)": {
-      "name": "Carpet of Flying (4x6)",
-      "description": "<p><em>Wondrous item</em></p><p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>This carpet is 4 ft. x 6 ft. and has a speed of 60 feet carrying up to 400 lb, or half that speed when carrying up to 800 lb.</p>\n<p>Four sizes of carpet of flying exist. The GM chooses the size of a given carpet or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Carpet of Flying} table.</p>"
+      "name": "Tapete Voador (1,2 x 1,8)",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Pronunciar a palavra de comando do tapete como uma ação faz com que ele flutue e voe. Ele se move conforme suas instruções verbais, desde que você esteja a até 9 metros do tapete.</p><p>Este tapete mede 1,2 x 1,8 metro e tem velocidade de 18 metros para transportar até 200 kg ou metade dessa velocidade para transportar até o dobro da capacidade.</p><p>Existem quatro tamanhos de tapete voador. O Mestre decide o tamanho do tapete ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Tapete Voador}.</p>"
     },
     "Carpet of Flying (5x7)": {
-      "name": "Carpet of Flying (5x7)",
-      "description": "<p><em>Wondrous item</em></p><p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>This carpet is 5 ft. x 7 ft. and has a speed of 40 feet carrying up to 600 lb, or half that speed when carrying up to 1200 lb.</p>\n<p>Four sizes of carpet of flying exist. The GM chooses the size of a given carpet or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Carpet of Flying} table.</p>"
+      "name": "Tapete Voador (1,5 x 2)",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Pronunciar a palavra de comando do tapete como uma ação faz com que ele flutue e voe. Ele se move conforme suas instruções verbais, desde que você esteja a até 9 metros do tapete.</p><p>Este tapete mede 1,5 x 2 metros e tem velocidade de 12 metros para transportar até 300 kg ou metade dessa velocidade para transportar até o dobro da capacidade.</p><p>Existem quatro tamanhos de tapete voador. O Mestre decide o tamanho do tapete ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Tapete Voador}.</p>"
     },
     "Carpet of Flying (6x9)": {
       "name": "Carpet of Flying (6x9)",
       "description": "<p><em>Wondrous item</em></p><p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p><p>This carpet is 6 ft. x 9 ft. and has a speed of 30 feet carrying up to 800 lb, or half that speed when carrying up to 1600 lb.</p>\n<p>Four sizes of carpet of flying exist. The GM chooses the size of a given carpet or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.Z2OG7jt9R8zofxnJ]{Carpet of Flying} table.</p>"
     },
     "Censer": {
-      "name": "Censer",
-      "description": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>"
+      "name": "Incensário",
+      "description": "<p>Geralmente usado com blocos de incenso para perfumar o ar.</p>"
     },
     "Censer of Controlling Air Elementals": {
-      "name": "Censer of Controlling Air Elementals",
-      "description": "<p><em>Wondrous item</em></p>\n<p>While incense is burning in this censer, you can use an action to speak the censer's command word and summon an @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}, as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell. The censer can't be used this way again until the next dawn.</p>\n<p>This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.</p>"
+      "name": "Incensório de Comandar de Elementais do Ar",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Enquanto o incenso estiver queimando neste incensário, você pode usar uma ação para pronunciar a palavra de comando e invocar um @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{elemental do ar}, como se tivesse conjurado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}. O incensário não pode ser usado novamente desta forma até o próximo amanhecer.</p><p>Este objeto de 15 centímetros de largura e 30 centímetros de altura se assemelha a um cálice com tampa decorada. Pesa 500 gramas.</p>"
     },
     "Chain (10 feet)": {
       "name": "Chain (10 feet)",
       "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>"
     },
     "Chain Mail +1": {
-      "name": "Chain Mail +1",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Cota de malha +1",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +1 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Mail +2": {
-      "name": "Chain Mail +2",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Cota de malha +2",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +2 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Mail +3": {
-      "name": "Chain Mail +3",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Cota de malha +3",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +3 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Mail Armor of Resistance": {
       "name": "Chain Mail Armor of Resistance",
       "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
     },
     "Chain Shirt +1": {
-      "name": "Chain Shirt +1",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Camisão de Malha +1",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +1 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Shirt +2": {
-      "name": "Chain Shirt +2",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Camisão de Malha +2",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +2 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Shirt +3": {
-      "name": "Chain Shirt +3",
-      "description": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>"
+      "name": "Camisão de Malha +3",
+      "description": "<p><em>Esta armadura foi aprimorada por poderosas runas, forjada em forjas mágicas, abençoada por um ser poderoso ou por outro evento que aumentou a proteção de seu portador.</em></p><p>Você recebe um bônus na CA de +3 enquanto estiver usando esta armadura.</p>"
     },
     "Chain Shirt Armor of Resistance": {
-      "name": "Chain Shirt Armor of Resistance",
-      "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
+      "name": "Camisão de Malha de Resistência",
+      "description": "<p><em>(Armadura (média), rara (requer sintonização)</em></p><p>Você recebe resistência a um tipo de dano enquanto estiver usando esta armadura. O Mestre escolhe o tipo ou determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armadura de Resistência}.</p>"
     },
     "Chalk": {
       "name": "Chalk",
@@ -537,48 +537,48 @@
       "description": "<p>A larger variant of the simple club, a hefty wooden shaft with an enormous knot of wood upon the end deals crippling bludgeoning damage to unfortunate foes.</p>"
     },
     "Climber's Kit": {
-      "name": "Climber's Kit",
-      "description": "<p>A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.</p>"
+      "name": "Kit de Escalada",
+      "description": "<p>O kit de escalada inclui pítons especiais, grampos para sapatos, luvas e um cinto. Você pode usar o kit de escalada com uma ação para se prender a uma parede; uma vez preso, não pode cair mais de 7,5 metros do ponto de ancoragem, mas também não pode escalar mais de 7,5 metros em qualquer direção sem se soltar.</p>"
     },
     "Cloak of Arachnida": {
-      "name": "Cloak of Arachnida",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:</p>\n<ul>\n<li>You have resistance to poison damage.</li>\n<li>You have a climbing speed equal to your walking speed.</li>\n<li>You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</li>\n<li>You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</li>\n<li>You can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Web} spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn.</li>\n</ul>"
+      "name": "Manto da Aranha",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Esta luxuosa vestimenta de seda preta é bordada com fios de prata. Enquanto estiver usando, você recebe os seguintes benefícios:</p><ul><li>Você tem resistência a dano de veneno.</li><li>Você tem deslocamento de escalada igual ao seu deslocamento de caminhada.</li><li>Você pode se mover em qualquer direção ao longo de superfícies verticais e tetos, mantendo as mãos livres.</li><li>Você não pode ser preso por teias de aranha de nenhum tipo e pode se mover livremente por teias como se fossem terreno difícil.</li><li>Você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{teia} (CD 13). A teia criada por esta magia cobre o dobro da área normal. Após usar, esta propriedade não pode ser usada novamente até o próximo amanhecer.</li></ul>"
     },
     "Cloak of Displacement": {
-      "name": "Cloak of Displacement",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn.</p>\n<p>This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>"
+      "name": "Manto de Deslocamento",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando este manto, ela projeta uma ilusão de você mesmo, fazendo parecer que você está ao lado de sua verdadeira posição. Todas as criaturas têm desvantagem nas jogadas de ataque contra você. Se você sofrer dano, esta propriedade deixa de funcionar até o início do seu próximo turno. Esta propriedade é suprimida se você estiver incapacitado, impedido ou incapaz de se mover por qualquer motivo.</p>"
     },
     "Cloak of Elvenkind": {
-      "name": "Cloak of Elvenkind",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.</p>"
+      "name": "Manto Élfico",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Enquanto você estiver usando este manto com o capuz levantado, testes de Sabedoria (Percepção) para vê-lo têm desvantagem e você tem vantagem em testes de Destreza (Furtividade) para se esconder, pois a cor do manto muda conforme o fundo para fornecer camuflagem. Levantar ou abaixar o capuz requer uma ação.</p>"
     },
     "Cloak of Protection": {
-      "name": "Cloak of Protection",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>"
+      "name": "Manto de Proteção",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Você recebe um bônus de +1 na CA e nas salvaguardas enquanto estiver usando este manto.</p>"
     },
     "Cloak of the Bat": {
-      "name": "Cloak of the Bat",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing this cloak, you have advantage on Dexterity (Stealth) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.</p>\n<p>While wearing the cloak in an area of dim light or darkness, you can use your action to cast @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Polymorph} on yourself, transforming into a bat. While you are in the form of the bat, you retain your Intelligence, Wisdom, and Charisma scores.</p>\n<p>The cloak can't be used this way again until the next dawn.</p>"
+      "name": "Manto do Morcego",
+      "description": "<p><em>Item maravilhoso, raro (requer sintonização)</em></p><p>Enquanto estiver usando este manto, você tem vantagem em testes de Destreza (Furtividade). Em áreas de penumbra ou de escuridão, você pode segurar as bordas do manto com as duas mãos para voar a uma velocidade de 12 metros. Se soltar as bordas ou sair da penumbra/escuridão, perde essa velocidade de voo.</p><p>Enquanto estiver usando este manto em penumbra ou escuridão, você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{metamorfose} em si mesmo, transformando-se em um morcego. Como morcego, você mantém seus valores de Inteligência, Sabedoria e Carisma. O manto não pode ser usado desta forma novamente até o próximo amanhecer.</p>"
     },
     "Cloak of the Manta Ray": {
       "name": "Cloak of the Manta Ray",
       "description": "<p><em>Wondrous item</em></p>\n<p>While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet.</p>\n<p>Pulling the hood up or down requires an action.</p>"
     },
     "Club +1": {
-      "name": "Club +1",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Clava +1",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Club +2": {
-      "name": "Club +2",
-      "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+      "name": "Clava +2",
+      "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +2 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
     "Club +3": {
       "name": "Club +3",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Common Clothes": {
-      "name": "Common Clothes",
-      "description": "<p>Clothes worn by most commoners.</p>"
+      "name": "Roupas Comuns",
+      "description": "<p>Vestuário usado pela maioria dos plebeus.</p>"
     },
     "Component Pouch": {
       "name": "Component Pouch",
@@ -605,48 +605,48 @@
       "description": "<p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p>"
     },
     "Crossbow Bolt": {
-      "name": "Crossbow Bolt",
-      "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip.</p>"
+      "name": "Virote de Besta",
+      "description": "<p>Esta munição é usada para todos os tipos de bestas e geralmente consiste em uma haste metálica curta com uma ponta perfurante estreita.</p>"
     },
     "Crossbow Bolt +1": {
-      "name": "Crossbow Bolt +1",
-      "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip. It has been imbued with magic.</p>\n<p>You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</p>"
+      "name": "Virote de Besta +1",
+      "description": "<p>Esta munição é usada para todos os tipos de bestas e geralmente consiste em uma haste metálica curta com uma ponta perfurante estreita. É imbuída de magia.</p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta munição mágica. Ao atingir um alvo, o virote perde suas propriedades mágicas.</p>"
     },
     "Crossbow Bolt +2": {
-      "name": "Crossbow Bolt +2",
-      "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip. It has been imbued with magic.</p>\n<p>You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</p>"
+      "name": "Virote de Besta +2",
+      "description": "<p>Esta munição é usada para todos os tipos de bestas e geralmente consiste em uma haste metálica curta com uma ponta perfurante estreita. É imbuída de magia.</p><p>Você recebe um bônus de +2 nas jogadas de ataque e dano feitos com esta munição mágica. Ao atingir um alvo, o virote perde suas propriedades mágicas.</p>"
     },
     "Crossbow Bolt +3": {
-      "name": "Crossbow Bolt +3",
-      "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip. It has been imbued with magic.</p>\n<p>You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.</p>"
+      "name": "Virote de Besta +3",
+      "description": "<p>Esta munição é usada para todos os tipos de bestas e geralmente consiste em uma haste metálica curta com uma ponta perfurante estreita. É imbuída de magia.</p><p>Você recebe um bônus de +3 nas jogadas de ataque e dano feitos com esta munição mágica. Ao atingir um alvo, o virote perde suas propriedades mágicas.</p>"
     },
     "Crossbow Bolt Case": {
-      "name": "Crossbow Bolt Case",
-      "description": "<p>This wooden case can hold up to twenty crossbow bolts.</p>"
+      "name": "Porta Virotes",
+      "description": "<p>Este estojo de madeira pode conter até vinte virotes de besta.</p>"
     },
     "Crowbar": {
-      "name": "Crowbar",
-      "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>"
+      "name": "Pé de Cabra",
+      "description": "<p>Usar um pé de cabra concede vantagem em testes de Força para os quais o objeto pode servir como alavanca.</p>"
     },
     "Crystal": {
-      "name": "Crystal",
-      "description": "<p>This crystaline talisman serves as a spellcasting focus, helping the practitioner to channel arcane, primal, or divine energies.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
+      "name": "Cristal",
+      "description": "<p>Este cristal serve como foco arcano, ajudando o praticante a canalizar energias arcanas, primordiais ou divinas.</p><p><strong>Foco arcano.</strong> Um foco arcano é um objeto especial projetado para canalizar energias de magias arcanas. Um feiticeiro, mago ou bruxo pode usar tal objeto como foco de conjuração, em vez de qualquer componente material que não tenha custo especificado.</p>"
     },
     "Crystal Ball": {
-      "name": "Crystal Ball",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The typical Crystal Ball, a very rare item, is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying} spell (save DC 17) with it.</p>"
+      "name": "Bola de Cristal",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>A clássica bola de cristal mede cerca de 15 centímetros de diâmetro. Enquanto você a estiver tocando, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{vidência} (CD 17) através dela.</p>"
     },
     "Crystal Ball of Mind Reading": {
-      "name": "Crystal Ball of Mind Reading",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The Crystal Ball is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}spell (save DC 17) with it.</p>\n<p>You can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 17) while you are Scrying with the Crystal Ball, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this Detect Thoughts to maintain it during its duration, but it ends if Scrying ends.</p>"
+      "name": "Bola de Cristal de Leitura Mental",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Esta bola de cristal mede cerca de 15 centímetros de diâmetro. Enquanto você a estiver tocando, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{vidência} (CD 17) através dela.</p><p>Você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamentos} (CD 17) durante um vidência com esta bola de cristal, visando criaturas que você vê em um raio de 9 metros do sensor da magia. Não é necessário se concentrar para manter a detecção de pensamentos durante toda a duração, mas ela termina se a vidência acabar.</p>"
     },
     "Crystal Ball of Telepathy": {
-      "name": "Crystal Ball of Telepathy",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The crystal ball is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying} spell (save DC 17) with it.</p>\n<p>While Scrying with the Crystal Ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this Suggestion to maintain it during its duration, but it ends if Scrying ends.</p>\n<p>Once used, the Suggestion power of the Crystal Ball can't be used again until the next dawn.</p>"
+      "name": "Bola de Cristal de Telepatia",
+      "description": "<p><em>Item maravilhoso, muito raro (requer sintonização)</em></p><p>Esta bola de cristal mede cerca de 15 centímetros de diâmetro. Enquanto você a estiver tocando, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{vidência} (CD 17) através dela.</p><p>Durante um vidência com esta bola de cristal, você pode se comunicar telepaticamente com criaturas que vê em um raio de 9 metros do sensor da magia. Você pode usar uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{sugestão} (CD 17) através do sensor em uma dessas criaturas. Não é necessário se concentrar para manter a sugestão durante toda a duração, mas ela termina se a vidência acabar. Uma vez usada, a sugestão desta bola de cristal não pode ser usada novamente até o próximo amanhecer.</p>"
     },
     "Crystal Ball of True Seeing": {
-      "name": "Crystal Ball of True Seeing",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The Crystal Ball is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying} spell (save DC 17) with it.</p>\n<p>While Scrying with the Crystal Ball, you have Truesight with a radius of 120 feet centered on the spell's sensor.</p>"
+      "name": "Bola de Cristal de Visão Verdadeira",
+      "description": "<p><em>Item maravilhoso, lendário (requer sintonização)</em></p><p>Esta bola de cristal mede cerca de 15 centímetros de diâmetro. Enquanto você a estiver tocando, pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{vidência} (CD 17) através dela.</p><p>Durante um vidência com esta bola de cristal, você tem visão verdadeira em um raio de 36 metros do sensor da magia.</p>"
     },
     "Cube of Force": {
       "name": "Cube of Force",
