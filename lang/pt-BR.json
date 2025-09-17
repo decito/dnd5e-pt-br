@@ -1146,11 +1146,11 @@
   "DND5E.ChallengeRating": "Nível de Desafio",
   "DND5E.Charged": "Carregado",
   "DND5E.Charges": "Cargas",
-  "DND5E.ChatContextDamage": "Aplicar Dano",
-  "DND5E.ChatContextHealing": "Aplicar Cura",
-  "DND5E.ChatContextTempHP": "Aplicar PV Temporário",
-  "DND5E.ChatContextDoubleDamage": "Aplicar Dano Dobrado",
-  "DND5E.ChatContextHalfDamage": "Aplicar Metade do Dano",
+  "DND5E.ChatContextDamage": "Aplicar como Dano",
+  "DND5E.ChatContextHealing": "Aplicar como Cura",
+  "DND5E.ChatContextTempHP": "Aplicar como PV Temporário",
+  "DND5E.ChatContextDoubleDamage": "Aplicar como Dano Dobrado",
+  "DND5E.ChatContextHalfDamage": "Aplicar como Metade do Dano",
   "DND5E.ChatContextSelectHit": "Selecione Alvos Atingidos",
   "DND5E.ChatContextSelectMiss": "Selecione Alvos Não Atingidos",
   "DND5E.ChatFlavor": "Mensagem Narrativa no Chat",
@@ -1977,7 +1977,7 @@
         "hint": "Restrições ao tipo de item ao qual esse encantamento pode ser aplicado.",
         "allowMagical": {
           "label": "Permitir Itens Mágicos",
-          "hint": "Permite que os itens que já são mágicos sejam encantados."
+          "hint": "Permite que os itens físicos que já são mágicos sejam encantados."
         },
         "categories": {
           "label": "Categorias Válidas",
@@ -3746,7 +3746,7 @@
   "DND5E.SpellLevel7": "7° Círculo",
   "DND5E.SpellLevel8": "8° Círculo",
   "DND5E.SpellLevel9": "9° Círculo",
-  "DND5E.SpellLevelSlot": "{level} ({n} Espaços)",
+  "DND5E.SpellLevelSpell": "{level} ({n} Espaços)",
   "DND5E.SpellLevelPact": "Espaço de Pacto [{level}° Círculo] ({n} Espaços)",
   "DND5E.SpellMaterials": "Materiais de Conjuração",
   "DND5E.SpellMaterialsConsumed": "Consumir Materiais",
@@ -3763,7 +3763,7 @@
   "DND5E.SpellPreparation": {
     "Label": "Preparação da Magia",
     "Formula": "Fórmula de Preparação da Magia",
-    "Mode": "Modo de Preparação da Magia"
+    "Method": "Modo de Preparação da Magia"
   },
   "DND5E.SpellSourceClass": "Classe Fonte",
   "DND5E.SpellPrepared": "Preparada",
@@ -4846,22 +4846,22 @@
     "Title": "Utilidade",
     "FIELDS": {
       "roll": {
-        "label": "Rolagem de Utilidade",
+        "label": "Rolagem",
         "formula": {
           "label": "Fórmula de Rolagem",
-          "hint": "Fórmula para uma jogada arbitrária."
+          "hint": "Fórmula para uma rolagem arbitrária."
         },
         "name": {
           "label": "Etiqueta de Rolagem",
           "hint": "Nome de exibição do botão da rolagem."
         },
         "prompt": {
-          "label": "Prompt da Rolagem de Utilidade",
-          "hint": "A caixa de diálogo de configuração de rolagem deve ser exibida durante a rolagem?"
+          "label": "Prompt de Rolagem",
+          "hint": "Exibir a caixa de diálogo de configuração de rolagem ao rolar."
         },
         "visible": {
           "label": "Visível para Todos",
-          "hint": "O botão de rolagem deve ficar visível para todos os jogadores?"
+          "hint": "Exibir o botão de rolagem no chat para todos os jogadores."
         }
       }
     }
@@ -5194,9 +5194,9 @@
   "MACRO.5eNoActorSelected": "Nenhum personagem selecionado ou atribuído foi encontrado para que a macro seja usada.",
   "MACRO.5eUnownedWarn": "Você só pode criar botões de macro para itens que possui permissão.",
 
-  "MIGRATION.5eBegin": "Aplicando a Migração do Sistema D&D 5E para a versão {version}. Por favor, seja paciente e não feche seu jogo ou desligue seu servidor.",
-  "MIGRATION.5eComplete": "Migração do Sistema D&D 5E para a versão {version} concluída!",
-  "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5E são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
+  "MIGRATION.5eBegin": "Aplicando a Migração do Sistema D&D 5e para a versão {version}. Por favor, seja paciente e não feche seu jogo ou desligue seu servidor.",
+  "MIGRATION.5eComplete": "Migração do Sistema D&D 5e para a versão {version} concluída!",
+  "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5e são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
 
   "SETTINGS.5eAutoCollapseCardL": "Fechar automaticamente descrições de Cartões de Item no registro de chat",
   "SETTINGS.5eAutoCollapseCardN": "Fechar Cartões de Item no Chat",
