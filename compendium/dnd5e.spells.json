@@ -1,15 +1,15 @@
 {
   "label": "Magias",
   "folders": {
-    "1st Level": "1° Nível",
-    "2nd Level": "2° Nível",
-    "3rd Level": "3° Nível",
-    "4th Level": "4° Nível",
-    "5th Level": "5° Nível",
-    "6th Level": "6° Nível",
-    "7th Level": "7° Nível",
-    "8th Level": "8° Nível",
-    "9th Level": "9° Nível",
+    "1st Level": "1° Círculo",
+    "2nd Level": "2° Círculo",
+    "3rd Level": "3° Círculo",
+    "4th Level": "4° Círculo",
+    "5th Level": "5° Círculo",
+    "6th Level": "6° Círculo",
+    "7th Level": "7° Círculo",
+    "8th Level": "8° Círculo",
+    "9th Level": "9° Círculo",
     "Cantrip": "Truque"
   },
   "entries": {
