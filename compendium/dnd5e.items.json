@@ -725,40 +725,48 @@
       "description": "<p>Este item inclui uma ampla variedade de dados, tanto normais quanto viciados.</p><p>Se você tiver proficiência com um conjunto de jogos, pode adicionar seu bônus de proficiência aos testes de atributo relacionados a partidas desses jogos. Cada tipo de conjunto de jogos corresponde a uma proficiência distinta.</p>"
     },
     "Dimensional Shackles": {
-      "name": "Dimensional Shackles",
-      "description": "<p><em>Wondrous item</em></p><p>You can use an action to place these shackles on an incapacitated creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength (Athletics) check. On a success, the creature breaks free and destroys the shackles.</p>"
+      "name": "Algemas Dimensionais",
+      "description": "<p><em>Item maravilhoso, raro</em></p><p>Você pode usar uma ação para colocar estas algemas em uma criatura incapacitada. As algemas se ajustam a qualquer criatura de tamanho Pequeno, Médio ou Grande. Além de funcionarem como algemas normais, elas impedem que a criatura algemada use qualquer meio de deslocamento extradimensional, incluindo teletransporte ou viagem para outro plano de existência. Elas não impedem a criatura de atravessar um portal interdimensional.</p><p>Você e qualquer criatura que você designar ao usar estas algemas podem usar uma ação para removê-las. Uma vez a cada 30 dias, a criatura algemada pode fazer um teste de Força (Atletismo) CD 30. Em caso de sucesso, ela se liberta e destrói as algemas.</p>"
     },
     "Diplomat's Pack": {
-      "name": "Diplomat's Pack",
-      "description": "<p>A chest holds 12 cubic feet or 300 pounds of gear.</p>"
+      "name": "Pacote de Diplomata",
+      "description": "<p>Inclui um baú, 2 caixas para mapas ou pergaminhos, um conjunto de roupas finas, um vidro de tinta, uma caneta tinteiro, uma lâmpada, 2 frascos de óleo, 5 folhas de papel, um vidro de perfume, parafina e sabão.</p>"
+    },
+    "Disguise Kit": {
+      "name": "Kit de Disfarce",
+      "description": "<p>Este estojo de maquiagem, tinturas e acessórios permite alterar sua aparência física. Ter proficiência com este kit permite adicionar seu bônus de proficiência a qualquer teste de atributo feito para criar um disfarce visual.</p>"
     },
     "Dragon Scale Mail": {
-      "name": "Dragon Scale Mail",
-      "description": "<p><em>(Requires attunement)</em></p><p>Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p><p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and Breath Weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p><p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p><table><thead><tr><th><p><strong>Dragon</strong></p></th><th><p><strong>Resistance</strong></p></th></tr></thead><tbody><tr><td><p>Black</p></td><td><p>Acid</p></td></tr><tr><td><p>Blue</p></td><td><p>Lightning</p></td></tr><tr><td><p>Brass</p></td><td><p>Fire</p></td></tr><tr><td><p>Bronze</p></td><td><p>Lightning</p></td></tr><tr><td><p>Copper</p></td><td><p>Acid</p></td></tr><tr><td><p>Gold</p></td><td><p>Fire</p></td></tr><tr><td><p>Green</p></td><td><p>Poison</p></td></tr><tr><td><p>Red</p></td><td><p>Fire</p></td></tr><tr><td><p>Silver</p></td><td><p>Cold</p></td></tr><tr><td><p>White</p></td><td><p>Cold</p></td></tr></tbody></table>"
+      "name": "Brunea de Escamas de Dragão",
+      "description": "<p><em>Armadura (brunea), muito rara (requer sintonização)</em></p><p>Cada brunea de escamas de dragão é feita com escamas de uma espécie de dragão. Alguns dragões reúnem suas escamas caídas para presentear um humanoide. Em outros casos, as escamas são retiradas cuidadosamente do cadáver de um dragão caçado. De qualquer forma, uma brunea de escamas de dragão é um item de valor inestimável.</p><p>Enquanto estiver usando esta brunea, você recebe um bônus de +1 na CA, vantagem em salvaguardas contra Presença Aterrorizante e sopro de dragões, e resistência a um tipo de dano determinado pela espécie do dragão que forneceu as escamas (veja a tabela).</p><p>Além disso, você pode usar uma ação para focar seus sentidos e perceber magicamente a distância e direção do dragão mais próximo da espécie correspondente à brunea em um raio de 45 quilômetros. Esta ação especial não pode ser usada novamente até o próximo amanhecer.</p><table><thead><tr><th><p><strong>Dragão</strong></p></th><th><p><strong>Resistência</strong></p></th></tr></thead><tbody><tr><td><p>Latão</p></td><td><p>Fogo</p></td></tr><tr><td><p>Prata</p></td><td><p>Frio</p></td></tr><tr><td><p>Branco</p></td><td><p>Frio</p></td></tr><tr><td><p>Azul</p></td><td><p>Relâmpago</p></td></tr><tr><td><p>Bronze</p></td><td><p>Relâmpago</p></td></tr><tr><td><p>Cobre</p></td><td><p>Ácido</p></td></tr><tr><td><p>Negro</p></td><td><p>Ácido</p></td></tr><tr><td><p>Ouro</p></td><td><p>Fogo</p></td></tr><tr><td><p>Vermelho</p></td><td><p>Fogo</p></td></tr><tr><td><p>Verde</p></td><td><p>Veneno</p></td></tr></tbody></table>"
     },
     "Dragon Slayer Greatsword": {
-      "name": "Dragon Slayer Greatsword",
-      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.</p>"
+      "name": "Espada Grande Matadora de Dragões",
+      "description": "<p><em>Arma (espada grande), rara</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p><p>Quando você acerta um dragão com esta arma, ele sofre 3d6 de dano adicional do tipo da arma. Para esta arma, \"dragão\" refere-se a qualquer criatura do tipo dragão, incluindo tartaruga-dragão e wyvern.</p>"
     },
     "Dragon Slayer Longsword": {
-      "name": "Dragon Slayer Longsword",
-      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.</p>"
+      "name": "Espada Longa Matadora de Dragões",
+      "description": "<p><em>Arma (espada longa), rara</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p><p>Quando você acerta um dragão com esta arma, ele sofre 3d6 de dano adicional do tipo da arma. Para esta arma, \"dragão\" refere-se a qualquer criatura do tipo dragão, incluindo tartaruga-dragão e wyvern.</p>"
     },
     "Dragon Slayer Rapier": {
-      "name": "Dragon Slayer Rapier",
-      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.</p>"
+      "name": "Rapieira Matadora de Dragões",
+      "description": "<p><em>Arma (rapieira), rara</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p><p>Quando você acerta um dragão com esta arma, ele sofre 3d6 de dano adicional do tipo da arma. Para esta arma, \"dragão\" refere-se a qualquer criatura do tipo dragão, incluindo tartaruga-dragão e wyvern.</p>"
     },
     "Dragon Slayer Scimitar": {
-      "name": "Dragon Slayer Scimitar",
-      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.</p>"
+      "name": "Cimitarra Matadora de Dragões",
+      "description": "<p><em>Arma (cimitarra), rara</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p><p>Quando você acerta um dragão com esta arma, ele sofre 3d6 de dano adicional do tipo da arma. Para esta arma, \"dragão\" refere-se a qualquer criatura do tipo dragão, incluindo tartaruga-dragão e wyvern.</p>"
     },
     "Dragon Slayer Shortsword": {
-      "name": "Dragon Slayer Shortsword",
-      "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.</p>"
+      "name": "Espada Curta Matadora de Dragões",
+      "description": "<p><em>Arma (espada curta), rara</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p><p>Quando você acerta um dragão com esta arma, ele sofre 3d6 de dano adicional do tipo da arma. Para esta arma, \"dragão\" refere-se a qualquer criatura do tipo dragão, incluindo tartaruga-dragão e wyvern.</p>"
+    },
+    "Drum": {
+      "name": "Tambor",
+      "description": "<p>Um tambor, de qualquer tipo, para provocar admiração, espanto ou medo em seu público.</p><p>Se você tiver proficiência com um instrumento musical, pode adicionar seu bônus de proficiência aos testes de atributo feitos para tocá-lo. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical corresponde a uma proficiência distinta.</p>"
     },
     "Dulcimer": {
-      "name": "Dulcimer",
-      "description": "<p><strong>Atributo:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Tocar uma melodia conhecida (CD 10), ou improvisar uma canção (CD 15)</p>"
+      "name": "Xilofone",
+      "description": "<p>Um xilofone para provocar admiração, espanto ou medo em seu público.</p><p>Se você tiver proficiência com um instrumento musical, pode adicionar seu bônus de proficiência aos testes de atributo feitos para tocá-lo. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical corresponde a uma proficiência distinta.</p>"
     },
     "Dungeoneer's Pack": {
       "name": "Dungeoneer's Pack",
@@ -1487,10 +1495,6 @@
     "Jug": {
       "name": "Jug",
       "description": "<p>A pitcher holds 1 gallon of liquid.</p>"
-    },
-    "Disguise Kit": {
-      "name": "Kit de Disfarce",
-      "description": "<p class=\"phb-meta\"><strong>Atributo:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Aplicar maquiagem (CD 10)</p><p class=\"phb-meta\"><strong>Criação:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Roupas de Fantasia}</p>"
     },
     "Forgery Kit": {
       "name": "Kit de Falsificação",
@@ -2827,10 +2831,6 @@
     "Talisman of Ultimate Evil": {
       "name": "Talisman of Ultimate Evil",
       "description": "<p><em>Wondrous item, (requires attunement by a creature of evil alignment)</em></p><p>This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.</p><p>If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.</p><p>The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.</p>"
-    },
-    "Drum": {
-      "name": "Tambor",
-      "description": "<p><strong>Atributo:</strong> Carisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Tocar uma melodia conhecida (CD 10), ou improvisar uma canção (CD 15)</p>"
     },
     "Tankard": {
       "name": "Tankard",
