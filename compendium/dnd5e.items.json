@@ -770,7 +770,7 @@
     },
     "Dungeoneer's Pack": {
       "name": "Pacote de Explorador",
-      "description": "<p>Inclui uma mochila, um saco de dormir, um kit de refeição, uma caixa de fogo, 10 tochas, 10 dias de rações e um cantil. O kit também tem 15 metros de corda de cânhamo amarrada ao lado dele.</p>"
+      "description": "<p>Inclui uma mochila, um pé de cabra, um martelo, 10 grampos, 10 tochas, uma caixa de fogo, 10 dias de rações e um cantil. O kit também tem 15 metros de corda de cânhamo amarrada ao lado dele.</p>"
     },
     "Dust of Disappearance": {
       "name": "Pó do Desaparecimento",
@@ -817,56 +817,40 @@
       "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta gema, uma esmeralda, contém uma partícula de energia elemental. Ao usar uma ação para quebrar a gema, um @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{elemental da água} é conjurado como se você tivesse lançado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}, e a gema perde sua magia.</p>"
     },
     "Elven Chain": {
-      "name": "Elven Chain",
-      "description": "<p>You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>"
+      "name": "Malha Élfica",
+      "description": "<p><em>Armadura (camisão de malha), rara</em></p><p>Você recebe um bônus de +1 na CA enquanto estiver usando esta armadura. Você é considerado proficiente com esta armadura mesmo que não tenha proficiência em armaduras médias.</p>"
     },
     "Emblem": {
-      "name": "Emblem",
-      "description": "<p>A symbol engraved or carefully inlaid on a shield or some other device representing a deity through which a true believer can call forth their power and in doing so spread the faith.</p><p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>"
+      "name": "Emblema",
+      "description": "<p>Um símbolo gravado ou cuidadosamente incrustado em um escudo ou outro objeto representando uma divindade, através do qual um verdadeiro devoto pode invocar seu poder e, assim, difundir a fé.</p><p><strong>Foco arcano.</strong> Clérigos e paladinos podem usar um símbolo sagrado como foco de magia. Para utilizá-lo dessa forma, o conjurador deve segurá-lo em uma das mãos, exibi-lo de forma visível em seu corpo ou portá-lo em um escudo que possua o símbolo gravado.</p>"
     },
     "Entertainer's Pack": {
-      "name": "Entertainer's Pack",
-      "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
-    },
-    "Shield": {
-      "name": "Escudo",
-      "description": "<p>Você ganha o benefício da Classe de Armadura de um Escudo somente se tiver treinamento com ele.</p>"
-    },
-    "Shortsword": {
-      "name": "Espada Curta",
-      "description": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>"
-    },
-    "Greatsword": {
-      "name": "Espada Grande",
-      "description": "<p>A mighty two-handed blade is over four feet long an almost five inches wide. This weapon requires extensive martial training but those proficient in its use are formidable warriors.</p>"
-    },
-    "Longsword": {
-      "name": "Espada Longa",
-      "description": "<p>A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes.</p>"
+      "name": "Pacote de Artista",
+      "description": "<p> Inclui uma mochila, um saco de dormir, duas fantasias, 5 velas, 5 dias de rações, um cantil e um kit de disfarce.</p>"
     },
     "Eversmoking Bottle": {
-      "name": "Eversmoking Bottle",
-      "description": "<p><em>Wondrous item</em></p><p>Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.</p><p>The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.</p>"
+      "name": "Garrafa de Fumaça Eterna",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Fumaça escapa do gargalo desta garrafa de latão, que pesa 0,5 quilo. Ao usar uma ação para remover a tampa, uma fina nuvem de fumaça se espalha em uma área com raio de 18 metros da garrafa. A área da nuvem é de escuridão densa. A cada minuto que a garrafa permanecer aberto dentro da nuvem, o raio aumenta em 3 metros, até um máximo de 36 metros.</p><p>A nuvem persiste enquanto a garrafa estiver aberto. Para fechar a garrafa, você deve pronunciar a palavra de comando como uma ação. Uma vez fechada, a nuvem se dissipa em 10 minutos. Um vento moderado (16 a 30 km/h) dissipa a fumaça em 1 minuto, enquanto um vento forte (acima de 30 km/h) dissipa em 1 rodada.</p>"
     },
     "Exotic Saddle": {
-      "name": "Exotic Saddle",
-      "description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups.<br /><br />An exotic saddle is required for riding any aquatic or flying mount.</p>"
+      "name": "Sela Exótica",
+      "description": "<p>Um tipo de assento fixado nas costas de uma montaria, projetado para apoiar o cavaleiro e prender parte do equipamento da montaria, como estribos.<br /><br />A sela exótica é necessária para montar criaturas aquáticas ou voadoras.</p>"
     },
     "Explorer's Pack": {
-      "name": "Explorer's Pack",
-      "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+      "name": "Pacote de Explorador",
+      "description": "<p>Inclui uma mochila, um saco de dormir, um kit de refeição, uma caixa de fogo, 10 tochas, 10 dias de rações e um cantil. O kit também tem 15 metros de corda de cânhamo amarrada ao lado dele.</p>"
     },
     "Eyes of Charming": {
-      "name": "Eyes of Charming",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person} spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.</p>"
+      "name": "Olhos do Encantamento",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Estas lentes de cristal são colocadas sobre os olhos. Elas possuem 3 cargas. Enquanto estiver usando, você pode gastar 1 carga como uma ação para conjurar a magia @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{enfeitiçar pessoa} (CD 13) em um humanoide a até 9 metros, desde que você e o alvo possam se ver. As lentes recuperam todas as cargas gastas diariamente ao amanhecer.</p>"
     },
     "Eyes of Minute Seeing": {
-      "name": "Eyes of Minute Seeing",
-      "description": "<p><em>Wondrous item</em></p><p>These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.</p>"
+      "name": "Olhos de Visão Momentânea",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Estas lentes de cristal são colocadas sobre os olhos. Enquanto estiver usando, você enxerga muito melhor que o normal em uma distância de 30 centímetros. Você tem vantagem em testes de Inteligência (Investigação) baseados em visão ao examinar uma área ou objeto dentro do alcance.</p>"
     },
     "Eyes of the Eagle": {
-      "name": "Eyes of the Eagle",
-      "description": "<p><em>Wondrous item, (requires attunement)</em></p><p>These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.</p>"
+      "name": "Olhos de Águia",
+      "description": "<p><em>Item maravilhoso, incomum (requer sintonização)</em></p><p>Estas lentes de cristal são colocadas sobre os olhos. Enquanto estiver usando, você tem vantagem em testes de Sabedoria (Percepção) baseados em visão. Em condições de boa visibilidade, você pode distinguir detalhes de criaturas e objetos a grandes distâncias, desde que tenham pelo menos 60 centímetros de tamanho.</p>"
     },
     "Feather Token Anchor": {
       "name": "Feather Token Anchor",

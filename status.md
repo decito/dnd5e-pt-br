@@ -8,7 +8,7 @@
 | backgrounds      | 17/17     | (100%)  |
 | classes          | 53/53     | (100%)  |
 | class features   | 999/999   | (100%)  |
-| items            | 698/3295  | (21.1%) |
+| items            | 854/3295  | (25.9%) |
 | monster features | 0/1013    | (0.0%)  |
 | monsters         | 0/1015    | (0.0%)  |
 | races            | 0/121     | (0.0%)  |
