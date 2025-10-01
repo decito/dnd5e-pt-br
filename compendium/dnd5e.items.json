@@ -394,7 +394,7 @@
     },
     "Burglar's Pack": {
       "name": "Ferramentas de Ladrão",
-      "description": "<p>Uma mochila pode conter até 30 centímetros cúbicos ou 15 kg de equipamentos. Você também pode prender objetos à mochila, como um saco de dormir ou uma corda enrolada.</p>"
+      "description": "<p>Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.</p>"
     },
     "Calligrapher's Supplies": {
       "name": "Suprimentos de Caligrafia",
@@ -672,15 +672,15 @@
       "name": "Dardo",
       "description": "<p>Um pequeno projétil arremessado, feito com um cabo curto de madeira e penas cruzadas, com uma ponta afiada de madeira ou metal. Dardos podem ser lançados com força suficiente para perfurar a pele.</p>"
     },
-    "Dardo +1": {
+    "Dart +1": {
       "name": "Dardo +1",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +1 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
-    "Dardo +2": {
+    "Dart +2": {
       "name": "Dardo +2",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +2 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
-    "Dardo +3": {
+    "Dart +3": {
       "name": "Dardo +3",
       "description": "<p><em>Seja por uma bênção demoníaca, um legado celestial, uma experiência insana ou uma fabricação habilidosa, esta arma foi aprimorada para derramar ainda mais sangue ao seu portador.</em></p><p>Você recebe um bônus de +3 nas jogadas de ataque e dano feitos com esta arma mágica.</p>"
     },
@@ -769,52 +769,52 @@
       "description": "<p>Um xilofone para provocar admiração, espanto ou medo em seu público.</p><p>Se você tiver proficiência com um instrumento musical, pode adicionar seu bônus de proficiência aos testes de atributo feitos para tocá-lo. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical corresponde a uma proficiência distinta.</p>"
     },
     "Dungeoneer's Pack": {
-      "name": "Dungeoneer's Pack",
-      "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+      "name": "Pacote de Explorador",
+      "description": "<p>Inclui uma mochila, um saco de dormir, um kit de refeição, uma caixa de fogo, 10 tochas, 10 dias de rações e um cantil. O kit também tem 15 metros de corda de cânhamo amarrada ao lado dele.</p>"
     },
     "Dust of Disappearance": {
-      "name": "Dust of Disappearance",
-      "description": "<p><em>Wondrous item</em></p><p>Found in a small packet, this powder resembles very fine sand. There is enough of it for one use.</p><p>When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect.</p><p>If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.</p>"
+      "name": "Pó do Desaparecimento",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Este pó, armazenado em uma pequena bolsa, se assemelha a areia fina. Há o suficiente para um uso. Ao usar uma ação para espalhar o pó no ar, você e todos os objetos e criaturas em um raio de 3 metros tornam-se invisíveis por 2d4 minutos. A duração é igual para todos os afetados e o pó é destruído quando sua magia é ativada. Se uma criatura afetada atacar ou conjurar uma magia, a invisibilidade termina para ela.</p>"
     },
     "Dust of Dryness": {
-      "name": "Dust of Dryness",
-      "description": "<p><em>Wondrous item</em></p><p>This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.</p><p>Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.</p><p>An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>"
+      "name": "Pó da Seca",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta pequena bolsa contém 1d6 + 4 punhados de pó. Você pode usar uma ação para polvilhar um punhado em água. O pó transforma um cubo de água de 4,5 metros de lado em uma esfera do tamanho de uma bola de gude, que flutua ou repousa perto do local onde o pó foi aplicado. O peso da esfera é insignificante.</p><p>Qualquer um pode usar uma ação para esmagar ou arremessar a esfera contra uma superfície dura, fazendo-a se romper e liberar toda a água absorvida. Isso também encerra a magia da esfera.</p><p>Um elemental composto praticamente só de de água exposto a uma porção do pó deve fazer uma salvaguarda de Constituição CD 13, sofrendo 10d6 de dano necrótico em falha, ou metade em sucesso.</p>"
     },
     "Dust of Sneezing and Choking": {
-      "name": "Dust of Sneezing and Choking",
-      "description": "<p><em>Wondrous item</em></p><p>Found in a small container, this powder resembles very fine sand. It appears to be dust of disappearance, and an <em>@UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{Identify} </em>spell reveals it to be such. There is enough of it for one use.</p><p>When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration} spell can also end the effect on a creature.</p>"
+      "name": "Pó de Espirrar e Tossir",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Este pó, armazenado em uma pequena bolsa, se assemelha a areia fina. Ele se apresenta exatamente como o pó do desaparecimento, e até mesmo a magia @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identificação} o revê-la como tal. Há o suficiente para um uso.</p><p>Ao usar uma ação para espalhar este pó no ar, você e todas as criaturas respirando em um raio de 9 metros devem ser bem-sucedidas em uma salvaguarda de Constituição CD 15 ou ficarão incapazes de respirar e começarão a espirrar incontrolavelmente. Uma criatura afetada fica incapacitada e começa a sufocar. Enquanto estiver consciente, pode repetir a salvaguarda ao final de cada turno, encerrando o efeito em si mesma em caso de sucesso. A magia @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{restauração menor} também encerra este efeito.</p>"
     },
     "Dwarven Plate": {
-      "name": "Dwarven Plate",
-      "description": "<p>While wearing this plate armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.</p>"
+      "name": "Armadura Anã",
+      "description": "<p><em>Armadura (placas), muito rara</em></p><p>Enquanto estiver vestindo esta armadura, você recebe um bônus de +2 na CA. Além disso, se um efeito o mover pelo chão contra sua vontade, você pode usar sua reação para reduzir em até 3 metros a distância movida.</p>"
     },
     "Dwarven Thrower": {
-      "name": "Dwarven Thrower",
-      "description": "<p><em>(Requires attunement by a dwarf)</em></p><p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.</p><section class=\"secret foundry-note\" id=\"secret-DdEcPocHwtm5CFcf\"><p><strong>Foundry Note</strong></p><p>To apply the additional damage to a giant, please use the Other Formula one more time.</p></section>"
+      "name": "Arremessador Anão",
+      "description": "<p><em>Arma (martelo de guerra), muito rara (requer sintonização)</em></p><p>Você recebe um bônus de +3 nas jogadas de ataque e dano feitos com esta arma mágica. Ela possui a propriedade de arremesso, com alcance normal de 6 metros e longo de 18 metros. Quando você acerta um ataque à distância com esta arma, ela causa 1d8 de dano adicional, ou 2d8 se o alvo for um gigante. Imediatamente após o ataque, a arma retorna para sua mão.</p>"
     },
     "Efficient Quiver": {
-      "name": "Efficient Quiver",
-      "description": "<p><em>Wondrous item</em></p><p>Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds.</p><p>The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.</p><p>You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>"
+      "name": "Aljava de Ehlonna",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Cada um dos três compartimentos desta aljava está ligado a um espaço extradimensional, permitindo que a aljava contenha muitos objetos sem nunca pesar mais de 1 quilo. O compartimento curto pode conter até sessenta flechas, virotes ou objetos similares. O compartimento médio pode conter até dezoito azagaias ou objetos similares. O compartimento longo pode conter até seis objetos longos, como arcos, bastões ou lanças.</p><p>Você pode retirar qualquer objeto da aljava como se estivesse tirando de uma aljava ou bainha comum.</p>"
     },
     "Efreeti Bottle": {
-      "name": "Efreeti Bottle",
-      "description": "<p><em>Wondrous item</em></p><p>This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an @UUID[Compendium.dnd5e.monsters.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears in an unoccupied space within 30 feet of you.</p><p>The first time the bottle is opened, the GM rolls to determine what happens from the @UUID[Compendium.dnd5e.tables.RollTable.yZMFNfocj5qyVuOC]{Efreeti Bottle} table.</p>"
+      "name": "Garrafa do efreeti",
+      "description": "<p><em>Item maravilhoso, muito raro</em></p><p>Esta garrafa de latão pintada pesa 0,5 quilo. Ao usar uma ação para remover a tampa, uma nuvem espessa de fumaça sai da garrafa. No fim do seu turno, a fumaça se dissipa em uma explosão de fogo inofensiva e um @UUID[Compendium.dnd5e.monsters.Actor.LTomFUTBrkRi0Pj5]{efreeti} aparece em um espaço desocupado a até 9 metros.</p><p>Na primeira vez que a garrafa é aberta, o Mestre rola na tabela @UUID[Compendium.dnd5e.tables.RollTable.yZMFNfocj5qyVuOC]{Garrafa do efreeti} para determinar o que acontece.</p>"
     },
     "Elemental Gem of Air": {
-      "name": "Elemental Gem of Air",
-      "description": "<p><em>Wondrous item</em></p><p>This blue sapphire contains a mote of elemental energy. When you use an action to break the gem, an @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}is summoned as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell, and the gem's magic is lost.</p>"
+      "name": "Gema Elemental do Ar",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta gema, uma safira azul, contém uma partícula de energia elemental. Ao usar uma ação para quebrar a gema, um @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{elemental do ar} é conjurado como se você tivesse lançado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}, e a gema perde sua magia.</p>"
     },
     "Elemental Gem of Earth": {
-      "name": "Elemental Gem of Earth",
-      "description": "<p><em>Wondrous item</em></p><p>This yellow diamond contains a mote of elemental energy. When you use an action to break the gem, an @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{Earth Elemental} is summoned as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell, and the gem's magic is lost.</p>"
+      "name": "Gema Elemental da Terra",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta gema, um diamante amarelo, contém uma partícula de energia elemental. Ao usar uma ação para quebrar a gema, um @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{elemental da terra} é conjurado como se você tivesse lançado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}, e a gema perde sua magia.</p>"
     },
     "Elemental Gem of Fire": {
-      "name": "Elemental Gem of Fire",
-      "description": "<p><em>Wondrous item</em></p><p>This red corundum contains a mote of elemental energy. When you use an action to break the gem, a @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental} is summoned as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell, and the gem's magic is lost.</p>"
+      "name": "Gema Elemental do Fogo",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta gema, um coríndon vermelho, contém uma partícula de energia elemental. Ao usar uma ação para quebrar a gema, um @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{elemental do fogo} é conjurado como se você tivesse lançado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}, e a gema perde sua magia.</p>"
     },
     "Elemental Gem of Water": {
-      "name": "Elemental Gem of Water",
-      "description": "<p><em>Wondrous item</em></p><p>This emerald contains a mote of elemental energy. When you use an action to break the gem, a @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{Water Elemental} is summoned as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell, and the gem's magic is lost.</p>"
+      "name": "Gema Elemental da Água",
+      "description": "<p><em>Item maravilhoso, incomum</em></p><p>Esta gema, uma esmeralda, contém uma partícula de energia elemental. Ao usar uma ação para quebrar a gema, um @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{elemental da água} é conjurado como se você tivesse lançado a magia @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{conjurar elemental}, e a gema perde sua magia.</p>"
     },
     "Elven Chain": {
       "name": "Elven Chain",
