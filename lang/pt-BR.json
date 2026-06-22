@@ -6,7 +6,6 @@
       "SelectType": "O tipo {name} precisa ser selecionado para a criação."
     }
   },
-
   "TYPES.Actor.character": "Personagem",
   "TYPES.Actor.characterPl": "Personagens",
   "TYPES.Actor.encounter": "Encontro",
@@ -17,16 +16,14 @@
   "TYPES.Actor.npcPl": "PNJs",
   "TYPES.Actor.vehicle": "Veículo",
   "TYPES.Actor.vehiclePl": "Veículos",
-
   "TYPES.ActiveEffect.enchantment": "Encantamento",
   "TYPES.ActiveEffect.enchantmentPl": "Encantamentos",
-
   "TYPES.ChatMessage": {
     "request": "Mensagem de Solicitação",
     "rest": "Mensagem de Descanso",
-    "turn": "Mensagem de Turno de Combate"
+    "turn": "Mensagem de Turno de Combate",
+    "usage": "Mensagem de Uso"
   },
-
   "TYPES.Item.background": "Antecedente",
   "TYPES.Item.backgroundPl": "Antecedentes",
   "TYPES.Item.container": "Recipiente",
@@ -55,12 +52,10 @@
   "TYPES.Item.toolPl": "Ferramentas",
   "TYPES.Item.weapon": "Arma",
   "TYPES.Item.weaponPl": "Armas",
-
   "TYPES.RegionBehavior": {
     "dnd5e.difficultTerrain": "Terreno Difícil",
     "dnd5e.rotateArea": "Rotacionar Área"
   },
-
   "DND5E.title": "Dungeons & Dragons Quinta Edição",
   "DND5E.AbbreviationCR": "ND",
   "DND5E.AbbreviationConc": "C",
@@ -70,7 +65,6 @@
   "DND5E.AbbreviationLevel": "Nvl",
   "DND5E.AbbreviationLbs": "lb",
   "DND5E.AbbreviationSR": "DC",
-
   "DND5E.ABILITY": {
     "Configure": {
       "CheckLabel": "Teste de {ability}",
@@ -89,7 +83,6 @@
       "Score": "Valor de {ability}"
     }
   },
-
   "DND5E.Ability": "Atributo",
   "DND5E.Abilities": "Atributos",
   "DND5E.AbilityStr": "Força",
@@ -148,7 +141,6 @@
   "DND5E.ActionUtil": "Utilitário",
   "DND5E.ActionWarningNoItem": "O item requisitado {item} não existe mais na ficha de {name}.",
   "DND5E.ActionWarningNoToken": "Você deve ter pelo menos um token selecionado na mesa para usar esta opção.",
-
   "DND5E.ACTIVATION": {
     "FIELDS": {
       "activation": {
@@ -190,7 +182,11 @@
       },
       "Crew": {
         "Header": "Ações da Tripulação",
-        "Label": "Ação da Tripulação"
+        "Label": "Ação da Tripulação",
+        "Counted": {
+          "one": "{number} ação da tripulação",
+          "other": "{number} ações da tripulação"
+        }
       },
       "Day": {
         "Header": "Dias",
@@ -224,7 +220,11 @@
       },
       "Mythic": {
         "Header": "Ações Míticas",
-        "Label": "Ação Mítica"
+        "Label": "Ação Mítica",
+        "Counted": {
+          "one": "{number} ação mítica",
+          "other": "{number} ações míticas"
+        }
       },
       "Reaction": {
         "Header": "Reações",
@@ -245,7 +245,6 @@
       "NotEnoughActions": "Não há {type} suficiente para ativar, {required} necessário e apenas {available} disponível."
     }
   },
-
   "DND5E.ACTIVEEFFECT": {
     "AttributeKeyTooltip": "Para uma lista de chaves comuns, veja <a href=\"{url}\">a wiki</a>.",
     "FIELDS": {
@@ -255,11 +254,11 @@
       }
     }
   },
-
   "DND5E.ACTIVITY": {
     "Action": {
       "Create": "Criar Atividade",
-      "Delete": "Remover Atividade"
+      "Delete": "Remover Atividade",
+      "Edit": "Editar Atividade"
     },
     "Title": {
       "one": "Atividade",
@@ -274,13 +273,54 @@
         }
       },
       "effects": {
-        "label": "Efeitos Aplicados"
+        "label": "Efeitos Aplicados",
+        "element": {
+          "level": {
+            "label": "Limite de Nível",
+            "hint": "Intervalo de níveis necessária para aplicar esse efeito.",
+            "max": {
+              "label": "Nível Máximo"
+            },
+            "min": {
+              "label": "Nível Mínimo"
+            }
+          }
+        }
       },
       "img": {
         "label": "Ícone"
       },
       "name": {
         "label": "Nome"
+      },
+      "visibility": {
+        "identifier": {
+          "hint": "O identificador da classe à qual se aplicam os limites de nível. Se deixado em branco, é utilizado o nível do personagem.",
+          "label": "Identificador de Classe"
+        },
+        "label": "Visibilidade",
+        "level": {
+          "hint": "Intervalo de níveis necessária para aplicar esse efeito.",
+          "label": "Limite de Nível",
+          "max": {
+            "label": "Nível Máximo"
+          },
+          "min": {
+            "label": "Nível Mínimo"
+          }
+        },
+        "requireAttunement": {
+          "label": "Requer Sintonização",
+          "hint": "A atividade não estará disponível se o item exigir sintonização e não estiver sintonizado."
+        },
+        "requireIdentification": {
+          "hint": "A atividade não estará disponível se o item não for identificado.",
+          "label": "Requer Identificação"
+        },
+        "requireMagic": {
+          "hint": "A atividade não poderá ser utilizada se a magia não estiver disponível.",
+          "label": "Requer Magia"
+        }
       }
     },
     "SECTIONS": {
@@ -294,7 +334,6 @@
       "UsageNotAllowed": "Não é possível usar esta atividade no momento."
     }
   },
-
   "DND5E.ACTOR": {
     "Warning": {
       "CreateActor": "Você deve ter permissão para 'Criar Novos Atores' para invocar diretamente de um compêndio.",
@@ -303,14 +342,12 @@
       "Singleton": "Apenas um único {itemType} pode ser adicionado a um {actorType}."
     }
   },
-
   "DND5E.ActiveEffectOverrideWarning": "Este valor está sendo modificado por um Efeito Ativo e não pode ser editado. Desative o efeito para editá-lo.",
   "DND5E.Add": "Adicionar",
   "DND5E.AdditionalControls": "Controles Adicionais",
   "DND5E.AdditionalSettings": "Configurações Adicionais",
   "DND5E.AddEmbeddedItemPromptHint": "Você quer adicionar estes itens à sua ficha?",
   "DND5E.Advanced": "Avançado",
-
   "DND5E.ADVANCEMENT": {
     "AbilityScoreImprovement": {
       "Action": {
@@ -360,7 +397,8 @@
         "DescriptionEpic": "<p>Você ganha um talento de Dádiva Épica ou outro talento de sua escolha para o qual você se qualifica. {recommendation} é recomendado.</p>",
         "DescriptionLegacy": "<p>Quando você atinge o nível {firstLevelOrdinal}, e novamente no nível {otherLevelsOrdinal}, você pode aumentar um valor de habilidade de sua escolha em 2, ou pode aumentar dois valores de habilidade de sua escolha em 1. Como de costume, você não pode aumentar um valor de habilidade acima de {maxAbilityScore} usando este recurso.</p><p>Usando a regra de talentos opcionais, você pode abrir mão de usar este recurso para escolher um talento de sua escolha em vez disso.</p>",
         "DescriptionModern": "<p>Você ganha o talento de Aumento de Pontos de Habilidade ou outro talento de sua escolha para o qual você se qualifica. Você ganha este recurso novamente nos níveis {class} {otherLevels}.</p>",
-        "Name": "Aumento de Pontos de Habilidade"
+        "Name": "Aumento de Pontos de Habilidade",
+        "DescriptionEpicRecommendation": "<p>Você ganha um talento de Bênção Épica ou outro talento a sua escolha para a qual se qualifique. {recommendation} é recomendado.</p>"
       },
       "LockedHint": "Valores não podem ser modificados quando um talento é escolhido.",
       "PointsRemaining": {
@@ -371,7 +409,8 @@
       "TitleEpic": "Dádiva Épica",
       "Warning": {
         "Type": "Apenas talentos do tipo \"talento\" podem ser escolhidos."
-      }
+      },
+      "EffectTargetHint": "Este valor está sendo alterado por um Efeito Ativo. Seu valor final será {value}."
     },
     "Action": {
       "Create": "Criar Avanço",
@@ -392,19 +431,28 @@
     },
     "HitPoints": {
       "Action": {
-        "Roll": "Rolar {die}"
+        "RollClass": "Jogue Pontos de Vida de {classe}\n",
+        "RollDie": "Jogue {die}"
       },
       "Average": "Média",
       "Hint": "Acompanhar os pontos de vida do jogador para cada nível na classe.",
       "MaxAtFirstLevel": "Máximo no 1° Nível: <strong>{max}</strong>",
-      "Roll": "Rolar Pontos de Vida de {class}",
       "Starting": "Pontos de Vida no 1° Nível",
       "TakeAverage": "Usar Média",
       "Title": "Pontos de Vida",
       "Warning": {
         "Empty": "É necessário rolar os pontos de vida ou usar o valor médio.",
         "Invalid": "Os pontos de vida devem ser um número inteiro válido."
-      }
+      },
+      "Breakdown": {
+        "Average": "Média",
+        "Bonus": "Bônus",
+        "Final": "Final",
+        "Max": "Máx.",
+        "Previous": "Ant.",
+        "Roll": "Jogada"
+      },
+      "Options": "Opções"
     },
     "ItemChoice": {
       "Action": {
@@ -471,7 +519,8 @@
         "SpellLevelAvailable": "Apenas magias de {level}° nível ou inferiores podem ser escolhidas neste avanço.",
         "SpellLevelSpecific": "Apenas magias de {level}° nível podem ser escolhidas neste avanço.",
         "SpellList": "Apenas magias disponíveis na lista {lists} podem ser escolhidas neste avanço."
-      }
+      },
+      "Options": "Opções"
     },
     "ItemGrant": {
       "Details": "Detalhes da Concessão",
@@ -605,7 +654,10 @@
         }
       },
       "Hint": "Defina o tamanho do personagem.",
-      "Title": "Tamanho"
+      "Title": "Tamanho",
+      "Action": {
+        "SelectSize": "Selecione o tamanho"
+      }
     },
     "SPELLCONFIG": {
       "FIELDS": {
@@ -649,7 +701,9 @@
     "Trait": {
       "Action": {
         "AddChoice": "Adicionar Escolha",
-        "RemoveChoice": "Remover Escolha"
+        "RemoveChoice": "Remover Escolha",
+        "RemoveTrait": "Remover Traço",
+        "SelectTrait": "Selecionar Traço"
       },
       "ChoicesRemaining": "Selecione mais {count} {type}",
       "Details": "Detalhes do Traço",
@@ -703,9 +757,20 @@
       },
       "TraitType": "Tipo de Traço",
       "Title": "Traços"
+    },
+    "Deletion": {
+      "Delete": {
+        "Message": "A exclusão deste item também excluirá todas as opções de evolução definidas para ele. Essas alterações serão removidas do seu personagem, desde que a caixa de seleção abaixo esteja marcada.",
+        "Title": "Confirmar exclusão"
+      },
+      "LevelDown": {
+        "Message": "Reduzir o nível dessa classe também excluirá todas as escolhas de avanço feitas para ela. Essas alterações serão removidas do seu personagem enquanto a caixa de seleção abaixo estiver marcada.",
+        "Title": "Reduzir Nível"
+      },
+      "Label": "Remover Mudanças",
+      "Options": "Opções"
     }
   },
-
   "DND5E.AdvancementChoices": "Escolhas",
   "DND5E.AdvancementClassRestriction": "Restrição de Classe",
   "DND5E.AdvancementClassRestrictionNone": "Todas as Classes",
@@ -723,9 +788,6 @@
   "DND5E.AdvancementConfiguredIncomplete": "Não Configurado",
   "DND5E.AdvancementCustomIcon": "Ícone Personalizado",
   "DND5E.AdvancementCustomTitle": "Título Personalizado",
-  "DND5E.AdvancementDeleteConfirmationLabel": "Remover mudanças de avanço",
-  "DND5E.AdvancementDeleteConfirmationMessage": "Remover este item também descartará todas as escolhas de avanço feitas para ele. Essas alterações serão removidas do personagem se a caixa abaixo estiver marcada.",
-  "DND5E.AdvancementDeleteConfirmationTitle": "Confirmar Remoção",
   "DND5E.AdvancementFlowDropAreaHint": "Solte um item aqui para escolhê-lo.",
   "DND5E.AdvancementHint": "Dica",
   "DND5E.AdvancementItemTypeInvalidWarning": "Itens {type} não podem ser adicionados neste avanço.",
@@ -772,6 +834,15 @@
       "Radius": "Raio",
       "Thickness": "Espessura",
       "Width": "Largura"
+    },
+    "Description": {
+      "Height": "alto",
+      "Length": "longo",
+      "Radius": "raio",
+      "SizeSimple": "{number}-{unit}",
+      "SizeType": "{number}-{unit}-{type}",
+      "Thickness": "denso",
+      "Width": "largo"
     }
   },
   "DND5E.Armor": "Armadura",
@@ -796,7 +867,6 @@
   "DND5E.ArmorMediumProficiency": "Armaduras Médias",
   "DND5E.ArmorValue": "Valor de Armadura",
   "DND5E.AC": "CA",
-
   "DND5E.ATTACK": {
     "Title": {
       "one": "Ataque",
@@ -885,9 +955,9 @@
     "Weapon": {
       "Melee": "Arma Corpo a Corpo",
       "Ranged": "Arma à Distância"
-    }
+    },
+    "Hint": "Faça uma jogada de ataque e jogue o dano."
   },
-
   "DND5E.Attack": "Ataque",
   "DND5E.AttackPl": "Ataques",
   "DND5E.AttackRoll": "Jogada de Ataque",
@@ -913,7 +983,6 @@
   "DND5E.Background": "Antecedente",
   "DND5E.BackgroundAdd": "Adicionar Antecedente",
   "DND5E.BackgroundName": "Nome do Antecedente",
-
   "DND5E.Bastion": {
     "Action": {
       "BastionTurn": "Avançar Turno de Bastião"
@@ -968,7 +1037,6 @@
       "Pending": "Troca pendente"
     }
   },
-
   "DND5E.Biography": "Biografia",
   "DND5E.BiographyPublic": "Biografia Pública",
   "DND5E.BiopgrahyPublicEdit": "Editar Biografia Pública",
@@ -980,7 +1048,6 @@
   "DND5E.BonusDamage": "Bônus de Dano",
   "DND5E.BonusSaveForm": "Atualizar Bônus",
   "DND5E.BonusTitle": "Configurar Bônus do Ator",
-
   "DND5E.BONUSES": {
     "FIELDS": {
       "bonuses": {
@@ -1043,7 +1110,6 @@
       }
     }
   },
-
   "DND5E.CAST": {
     "Title": "Conjurar",
     "FIELDS": {
@@ -1093,12 +1159,11 @@
     },
     "Enchantment": {
       "Name": "Alterações de Magia"
-    }
+    },
+    "Hint": "Conjure uma magia por meio de um item."
   },
-
   "DND5E.Casting": "Conjuração",
   "DND5E.Conditions": "Condições",
-
   "DND5E.CONTAINER": {
     "Details": "Detalhes do Recipiente",
     "FIELDS": {
@@ -1131,7 +1196,6 @@
       }
     }
   },
-
   "DND5E.Controls": {
     "Hint": "Ativa dicas pela interface para controles de mouse e teclado.",
     "LeftClick": "Botão Esquerdo do Mouse",
@@ -1154,11 +1218,12 @@
   "DND5E.ChatContextSelectHit": "Selecione Alvos Atingidos",
   "DND5E.ChatContextSelectMiss": "Selecione Alvos Não Atingidos",
   "DND5E.ChatFlavor": "Mensagem Narrativa no Chat",
-
   "DND5E.CHATMESSAGE": {
     "Activities": "Atividades",
     "Deltas": {
-      "Recovery": "Recuperação"
+      "Recovery": "Recuperação",
+      "Created": "Item Criado",
+      "Deleted": "Item Excluído"
     },
     "REQUEST": {
       "Action": {
@@ -1171,7 +1236,6 @@
       "NoCombatant": "Combatente não existe mais!"
     }
   },
-
   "DND5E.CHECK": {
     "Title": "Teste",
     "FIELDS": {
@@ -1198,11 +1262,10 @@
         }
       }
     },
-    "ThisTool": "Esta Ferramenta"
+    "ThisTool": "Esta Ferramenta",
+    "Hint": "Solicita um teste de atributo, possivelmente com o auxílio de uma perícia ou ferramenta."
   },
-
   "DND5E.CheckBonus": "Bônus do Teste",
-
   "DND5E.CLASS": {
     "Multiclass": {
       "Title": "Multiclasse"
@@ -1236,7 +1299,6 @@
       }
     }
   },
-
   "DND5E.ClassAdd": "Adicionar Classe",
   "DND5E.ClassIdentifier": "Identificador de Classe",
   "DND5E.ClassIdentifierHint": "Os dados desta classe ficam acessíveis como <strong>@classes.{identifier}</strong> nas fórmulas.",
@@ -1247,21 +1309,18 @@
   "DND5E.ClassOriginal": "Classe Original",
   "DND5E.ClassSaves": "Salvaguardas",
   "DND5E.Confirm": "Confirmar",
-
   "DND5E.COMBAT": {
     "Group": {
       "ActiveCount": "{current} de {combatants}",
       "Title": "Grupo {name}"
     }
   },
-
   "DND5E.COMBATANT": {
     "Counted": {
       "one": "{number} combatente",
       "other": "{number} combatentes"
     }
   },
-
   "DND5E.CompendiumBrowser": {
     "Title": "Navegador de Compêndio",
     "Action": {
@@ -1406,7 +1465,6 @@
   "DND5E.ConsumeScaling": "Escalonamento de Recurso",
   "DND5E.ConsumeScalingLabel": "Usar Recursos",
   "DND5E.ConsumeScalingTooltip": "Se marcado, consumir recursos adicionais aumentará o nível em que a magia é lançada.",
-
   "DND5E.CONSUMABLE": {
     "FIELDS": {
       "damage": {
@@ -1466,16 +1524,17 @@
       },
       "Wand": {
         "Label": "Varinha"
+      },
+      "Wondrous": {
+        "Label": "Item Maravilhoso"
       }
     }
   },
-
   "DND5E.ConsumableUseWarnStart": "Este consumível tem",
   "DND5E.ConsumableUseWarnEnd": "da unidade atual",
   "DND5E.ConsumableUnitWarn": "unidades restantes",
   "DND5E.ConsumableLastChargeWarn": "Esta é a última carga desta unidade e consumi-la também reduzirá a quantidade do item em 1",
   "DND5E.ConsumableWithoutCharges": "unidades disponíveis para usar",
-
   "DND5E.CONSUMPTION": {
     "FIELDS": {
       "consumption": {
@@ -1540,7 +1599,8 @@
       "SlotLevel": "Espaço de Nível"
     },
     "Target": {
-      "ThisItem": "Este Item"
+      "ThisItem": "Este Item",
+      "UnknownItem": "um item desconhecido"
     },
     "Type": {
       "Action": {
@@ -1561,7 +1621,8 @@
         "PromptIncrease": "Restaurar Atributo?",
         "PromptHintDecrease": "Diminuir <code>{attribute}</code> por <strong>{cost}</strong>.",
         "PromptHintIncrease": "Aumentar <code>{attribute}</code> por <strong>{cost}</strong>.",
-        "Warning": "valor {attribute}"
+        "Warning": "valor {attribute}",
+        "NonEmbeddedHint": "Caminho do atributo a ser consumido (por exemplo, attributes.exhaustion, spells.pact.value)."
       },
       "HitDice": {
         "Label": "Dado de Vida",
@@ -1581,7 +1642,8 @@
         "PromptIncrease": "Restaurar Uso de Item?",
         "PromptHintDecrease": "Gastar <strong>{cost}</strong> {use} de {item}.",
         "PromptHintIncrease": "Recuperar <strong>{cost}</strong> {use} de {item}.",
-        "Warning": "usos em {name}"
+        "Warning": "usos em {name}",
+        "NonEmbeddedHint": "Identificador do item ou UUID do item no compêndio que será vinculado automaticamente ao item correspondente na ficha."
       },
       "Material": {
         "Label": "Material",
@@ -1589,7 +1651,8 @@
         "PromptIncrease": "Restaurar Material?",
         "PromptHintDecrease": "Reduzir a quantidade de {item} em <strong>{cost}</strong>.",
         "PromptHintIncrease": "Aumentar a quantidade de {item} em <strong>{cost}</strong>.",
-        "Warning": "de {name}"
+        "Warning": "de {name}",
+        "NonEmbeddedHint": "Identificador do item ou UUID do item no compêndio que será vinculado automaticamente ao item correspondente na ficha."
       },
       "SpellSlot": {
         "one": "{level} espaço",
@@ -1618,7 +1681,6 @@
       "WillDestroy": "Consumir {item} gastará seu uso final e ele será destruído."
     }
   },
-
   "DND5E.Consumed": "Consumido",
   "DND5E.Copy": "Copiar Texto",
   "DND5E.Copied": "Copiado {value}",
@@ -1699,7 +1761,6 @@
     }
   },
   "DND5E.Current": "Atual",
-
   "DND5E.DAMAGE": {
     "Title": "Dano",
     "FIELDS": {
@@ -1780,50 +1841,54 @@
       "None": "Sem Escalonamento",
       "Whole": "Todo Nível",
       "WholeCantrip": "Escalonamento de Truque"
+    },
+    "All": "Todo dano",
+    "Hint": "Ferir uma criatura sem qualquer ataque ou salvaguarda.",
+    "PhysicalBypass": {
+      "Description": "{damageTypes} provenientes de ataques que não sejam {bypassTypes}",
+      "DescriptionShort": "Ignoradas pelas fontes {type}",
+      "Hint": "Essas propriedades da arma ignorarão a resistência a danos no caso de danos físicos.",
+      "Label": "Exceções Físicas"
+    },
+    "Type": {
+      "Acid": "Ácido",
+      "Bludgeoning": "Contundente",
+      "Cold": "Gélido",
+      "Fire": "Ígneo",
+      "Force": "Energético",
+      "Lightning": "Elétrico",
+      "Necrotic": "Necrótico",
+      "Piercing": "Perfurante",
+      "Poison": "Venenoso",
+      "Psychic": "Psíquico",
+      "Radiant": "Radiante",
+      "Slashing": "Cortante",
+      "Thunder": "Trovejante"
     }
   },
-
   "DND5E.DamImm": "Imunidades a Dano",
   "DND5E.DamMod": "Modificações de Dano",
   "DND5E.DamRes": "Resistências a Dano",
   "DND5E.DamVuln": "Vulnerabilidades a Dano",
   "DND5E.Damage": "Dano",
-  "DND5E.DamageAcid": "Ácido",
-  "DND5E.DamageAll": "Todos os Danos",
   "DND5E.DamageApplication": {
     "Change": {
       "Modification": "Modificação a {type}",
       "Immunity": "Imunidade a {type}",
       "Resistance": "Resistência a {type}",
-      "Vulnerability": "Vulnerabilidade a {type}"
+      "Vulnerability": "Vulnerabilidade a {type}",
+      "Threshold": "Limiar de Dano"
     },
     "Downgrading": "Rebaixando a {source} para Resistência",
     "Ignoring": "Ignorando a {source}"
   },
-  "DND5E.DamageBludgeoning": "Contundente",
-  "DND5E.DamageCold": "Gélido",
-  "DND5E.DamageFire": "Ígneo",
-  "DND5E.DamageForce": "Energético",
-  "DND5E.DamageLightning": "Elétrico",
   "DND5E.DamageModification": {
     "Label": "Modificação de Dano",
     "Hint": "Fórmulas para quantidades que serão adicionadas aos danos digitados aplicados a esse ator. Valores negativos reduzirão os danos causados.",
     "BypassHint": "Essas propriedades da arma ignorarão a modificação de danos para danos físicos."
   },
-  "DND5E.DamageNecrotic": "Necrótico",
-  "DND5E.DamagePiercing": "Perfurante",
-  "DND5E.DamagePhysical": "Físico Não Mágico",
-  "DND5E.DamagePhysicalBypass": "Exceção Física",
-  "DND5E.DamagePhysicalBypassHint": "Essas propriedades de arma ignoram a resistência a dano físico.",
-  "DND5E.DamagePhysicalBypasses": "{damageTypes} de ataques que não sejam com {bypassTypes}",
-  "DND5E.DamagePhysicalBypassesShort": "Ignorada por {type}",
-  "DND5E.DamagePoison": "Venenoso",
-  "DND5E.DamagePsychic": "Psíquico",
-  "DND5E.DamageRadiant": "Radiante",
   "DND5E.DamageRoll": "Rolagem de Dano",
-  "DND5E.DamageSlashing": "Cortante",
   "DND5E.DamageThreshold": "Limite de Dano",
-  "DND5E.DamageThunder": "Trovejante",
   "DND5E.DamageType": "Tipo de Dano",
   "DND5E.DamageTypes": "Tipos de Dano",
   "DND5E.Dawn": "Amanhecer",
@@ -1879,7 +1944,6 @@
   "DND5E.DistTouch": "Toque",
   "DND5E.DocumentUseWarn": "Você não tem permissão para usar um item neste documento.",
   "DND5E.DocumentViewWarn": "Você não tem permissão para visualizar este documento.",
-
   "DND5E.DURATION": {
     "FIELDS": {
       "duration": {
@@ -1907,7 +1971,6 @@
       }
     }
   },
-
   "DND5E.Duration": "Duração",
   "DND5E.DurationPermanent": "Permanente",
   "DND5E.DurationTime": "Tempo",
@@ -1924,13 +1987,16 @@
       "Dissociate": "Dissociar Efeito"
     },
     "Empty": "Nenhum efeito associado. Use o botão <i class=\"fas fa-plus\"></i> acima para criar um, ou selecione um efeito existente no menu suspenso.",
-    "Label": "Efeitos Disponíveis"
+    "Label": "Efeitos Disponíveis",
+    "RIDER": {
+      "Activity": "Atividade Carona de Encantamento",
+      "Effect": "Efeito Carona de Encantamento"
+    }
   },
   "DND5E.EffectsApplyTokens": "Aplicar em tokens selecionados",
   "DND5E.EffectApplyWarningConcentration": "Aplicar um efeito que está sendo concentrado por outro personagem requer permissões de GM.",
   "DND5E.EffectApplyWarningOwnership": "Os efeitos não podem ser aplicados a tokens dos quais você não é o proprietário.",
   "DND5E.EffectsSearch": "Procurar Efeitos",
-
   "DND5E.ENCHANT": {
     "Title": "Encantar",
     "FIELDS": {
@@ -2014,10 +2080,11 @@
       "MissingProperty": "O item deve ter uma dessas propriedades para ser encantado: {validProperties}.",
       "NoMagicalItems": "Itens que já são mágicos não podem ser encantados.",
       "NoSubtype": "Apenas itens {allowedType} podem ser encantados por este encantamento, mas este item não tem um subtipo.",
-      "WrongType": "Itens {incorrectType} não podem ser encantados por este encantamento, apenas itens {allowedType} são permitidos."
-    }
+      "WrongType": "Itens {incorrectType} não podem ser encantados por este encantamento, apenas itens {allowedType} são permitidos.",
+      "NoTargetActor": "Para conjurar uma magia a partir de um compêndio, é necessário um personagem designado ou um token selecionado."
+    },
+    "Hint": "Aplicar um encantamento a um item que modifique suas estatísticas ou funcionalidade."
   },
-
   "DND5E.ENCHANTMENT": {
     "Action": {
       "Apply": "Aplicar Encantamento",
@@ -2061,26 +2128,23 @@
       "Override": "Este valor está sendo modificado por um Encantamento e não pode ser editado. Desabilite o encantamento na aba de efeitos para editá-lo."
     }
   },
-
   "DND5E.ENCOUNTER": {
     "Action": {
-      "Award": "Conceder XP & Moedas"
+      "Award": "Conceder XP & Moedas",
+      "AddCreature": "Adicionar Criatura"
     },
     "Difficulty": {
       "high": "Alta Dificuldade",
       "low": "Baixa Dificuldade",
       "moderate": "Dificuldade Moderada"
     },
-    "DropCreature": "Soltar Criatura",
     "Tab": {
       "Description": "Descrição",
       "Loot": "Saques",
       "Members": "Membros"
     }
   },
-
   "DND5E.Environment": "Ambiente",
-
   "DND5E.EQUIPMENT": {
     "Type": {
       "Clothing": {
@@ -2106,7 +2170,6 @@
       }
     }
   },
-
   "DND5E.EquipmentBonus": "Bônus Mágico",
   "DND5E.EquipmentHeavy": "Armadura Pesada",
   "DND5E.EquipmentLight": "Armadura Leve",
@@ -2117,7 +2180,6 @@
   "DND5E.Equipped": "Equipado",
   "DND5E.Exhaustion": "Exaustão",
   "DND5E.ExhaustionLevel": "Nível de Exaustão: {n}",
-
   "DND5E.ExperiencePoints": {
     "Abbreviation": "EXP",
     "Boons": {
@@ -2135,9 +2197,7 @@
     },
     "Value": "EXP Value"
   },
-
   "DND5E.Expertise": "Especialização",
-
   "DND5E.FACILITY": {
     "Action": {
       "DeleteDefender": "Remover Defensor",
@@ -2391,13 +2451,11 @@
       "Description": "Emitiu a ordem <strong>{order}</strong> para sua {link} {facilityType}."
     }
   },
-
   "DND5E.Favorite": "Favorito",
   "DND5E.FavoriteDrop": "Arraste para Favoritos!",
   "DND5E.FavoriteRemove": "Remover Favorito",
   "DND5E.Favorites": "Favoritos",
   "DND5E.FeatureActionRecharge": "Recarga da Ação",
-
   "DND5E.FEATURE": {
     "FIELDS": {
       "cover": {
@@ -2415,7 +2473,6 @@
       }
     }
   },
-
   "DND5E.Feature": {
     "Background": "Característica de Antecedente",
     "Class": {
@@ -2435,7 +2492,8 @@
       "PactBoon": "Dádiva de Pacto",
       "PsionicPower": "Poder Psiônico",
       "Rune": "Runa",
-      "SuperiorHuntersDefense": "Defesa do Caçador"
+      "SuperiorHuntersDefense": "Defesa do Caçador",
+      "ArtificerPlan": "Plano do Artífice"
     },
     "Feat": {
       "Label": "Talento",
@@ -2472,7 +2530,6 @@
   "DND5E.Loot.Treasure": "Tesouro",
   "DND5E.Flaws": "Fraquezas",
   "DND5E.FormulaCannotContainDiceError": "A fórmula {name} não pode conter expressões de dados.",
-
   "DND5E.FORWARD": {
     "Title": "Avançar",
     "FIELDS": {
@@ -2482,9 +2539,9 @@
     },
     "Warning": {
       "NoActivity": "A atividade vinculada deve ser configurada antes que a atividade Avançar possa ser usada."
-    }
+    },
+    "Hint": "Acionar outra atividade neste item com detalhes diferentes de consumo e dimensionamento."
   },
-
   "DND5E.EffectCreate": "Criar Efeito",
   "DND5E.EffectToggle": "Alternar Efeito",
   "DND5E.EffectEdit": "Editar Efeito",
@@ -2527,14 +2584,12 @@
   "DND5E.FilterGroupAction": "Agrupar por Ação",
   "DND5E.FilterNoSpells": "Nenhuma Magia encontrada com esses filtros.",
   "DND5E.NoSpellLevels": "Esse personagem não possui níveis como conjurador, mas você pode adicionar magias manualmente.",
-
   "DND5E.FLAGS": {
     "EnhancedDualWielding": {
       "Name": "Empunhadura Dupla Aprimorada",
       "Hint": "Permite realizar ataques extras como ação bônus usando qualquer arma corpo a corpo sem a propriedade Duas Mãos."
     }
   },
-
   "DND5E.FlagsInstructions": "Configure características e traços de personagens que ajustam os comportamentos do sistema D&D 5E.",
   "DND5E.FlagsSave": "Atualizar Traços Especiais",
   "DND5E.FlagsTitle": "Configurar Traços Especiais",
@@ -2560,7 +2615,6 @@
   "DND5E.FlagsReliableTalentHint": "Característica 'Talento Confiável' dos Ladinos.",
   "DND5E.FlagsRemarkableAthlete": "Atleta Extraordinário",
   "DND5E.FlagsRemarkableAthleteHint": "Adiciona meia Proficiência (arredondada para cima) em Iniciativa e Testes de Atributos físicos.",
-
   "DND5E.FlagsWeaponCritThreshold": "Intervalo de Acerto Crítico com Armas",
   "DND5E.FlagsWeaponCritThresholdHint": "Um intervalo de Acerto Crítico expandido para ataques com armas.",
   "DND5E.FlagsSpellCritThreshold": "Intervalo de Acerto Crítico com Magias",
@@ -2573,7 +2627,6 @@
   "DND5E.Formula": "Fórmula",
   "DND5E.FormulaMalformedError": "Ocorreu um problema ao preparar a fórmula de {property} em {name}.",
   "DND5E.FormulaMissingReferenceWarn": "A fórmula de {property} em {name} possui referências a dados ausentes: {references}",
-
   "DND5E.Gender": "Gênero",
   "DND5E.GlobalBonus": "Bônus Global",
   "DND5E.GrantedAbilities": "Habilidades Adquiridas",
@@ -2586,7 +2639,13 @@
     "Action": {
       "ChangePace": "Alterar Ritmo",
       "Remove": "Remover Membro",
-      "View": "Ver Membro"
+      "View": "Ver Membro",
+      "Inventory": {
+        "Group": "Mostrar Inventário do Grupo",
+        "Vehicle": "Mostrar Inventário do Veículo"
+      },
+      "SetPrimaryVehicle": "Marcar Veículo Primário",
+      "UnsetPrimaryVehicle": "Desmarcar Veículo Primário"
     },
     "Config": {
       "Art": {
@@ -2615,11 +2674,17 @@
     "TypeGeneric": "Grupo",
     "TypeParty": "Aventureiros",
     "Vehicle": {
-      "one": "Veículo",
-      "other": "Veículos"
+      "Count": {
+        "one": "Veículo",
+        "other": "Veículos"
+      },
+      "Primary": {
+        "label": "Veículo Primário"
+      }
     },
     "Warning": {
-      "PhysicalItemOnly": "Apenas itens físicos são suportados."
+      "PhysicalItemOnly": "Apenas itens físicos são suportados.",
+      "PlaceMembers": "Erro ao colocar tokens na cena."
     }
   },
   "DND5E.Habitat": {
@@ -2649,7 +2714,6 @@
   },
   "DND5E.Hair": "Cabelo",
   "DND5E.HalfProficient": "Meio Proficiente",
-
   "DND5E.HEAL": {
     "Title": "Cura",
     "FIELDS": {
@@ -2698,24 +2762,32 @@
           "hint": "Tipo de cura aplicado ou múltiplo para o usuário selecionar."
         }
       }
+    },
+    "HealingButton": "Cura",
+    "HealingRoll": "Jogada de Cura",
+    "Hint": "Cura uma criatura",
+    "Type": {
+      "Healing": "Pontos de Vida",
+      "HealingShort": "Cura",
+      "Maximum": "Pontos de Vida Máximos",
+      "MaximumShort": "PV Máx.",
+      "Temporary": "Pontos de Vida Temporários",
+      "TemporaryShort": "PV Temp."
     }
   },
-
-  "DND5E.Healing": "Cura",
-  "DND5E.HealingRoll": "Rolagem de Cura",
-  "DND5E.HealingTemp": "Cura (Temporária)",
   "DND5E.Height": "Altura",
-
   "DND5E.HITPOINTS": {
     "Counted": {
       "one": "{number} ponto de vida",
       "other": "{number} pontos de vida"
     },
     "DT": {
-      "Abbr": "TD"
+      "abbr": "TD"
+    },
+    "Other": {
+      "label": "Outras Opções"
     }
   },
-
   "DND5E.HitPoints": "Pontos de Vida",
   "DND5E.HitPointsBonusLevel": "Bônus por Nível",
   "DND5E.HitPointsBonusOverall": "Bônus Geral",
@@ -2734,7 +2806,6 @@
   "DND5E.HPFormula": "Fórmula de Pontos de Vida",
   "DND5E.HPFormulaError": "A fórmula de Pontos de Vida fornecida não pôde ser avaliada.",
   "DND5E.HPFormulaRollMessage": "Rolar Fórmula de Pontos de Vida",
-
   "DND5E.HITDICE": {
     "Abbreviation": "DV",
     "Action": {
@@ -2748,7 +2819,6 @@
       "other": "{number} dados de vida"
     }
   },
-
   "DND5E.HitDie": "Dado de Vida",
   "DND5E.HitDice": "Dados de Vida",
   "DND5E.HitDiceConfig": "Ajustar Dados de Vida",
@@ -2855,60 +2925,21 @@
   "DND5E.ItemWeaponStatus": "Status da Arma",
   "DND5E.ItemWeaponType": "Tipo de Arma",
   "DND5E.ItemWeaponUsage": "Uso de Arma",
-
   "DND5E.Item": {
-    "Category": {
-      "Label": "Categoria",
-      "Physical": "Físico"
-    },
-    "Property": {
-      "Adamantine": "Adamantina",
-      "Ammunition": "Munição",
-      "Concentration": "Concentração",
-      "Finesse": "Acuidade",
-      "Firearm": "Arma de Fogo",
-      "Focus": "Foco",
-      "Heavy": "Pesada",
-      "Light": "Leve",
-      "Loading": "Recarga",
-      "Material": "Material",
-      "Magical": "Mágica",
-      "Reach": "Extensão",
-      "Reload": "Automática",
-      "Returning": "Retornante",
-      "Ritual": "Ritual",
-      "Sidekick": "Apoio",
-      "Silvered": "Prateada",
-      "Somatic": "Somática",
-      "Special": "Especial",
-      "StealthDisadvantage": "Desvantagem em Furtividade",
-      "Thrown": "Arremesso",
-      "Trait": "Traço Passivo",
-      "TwoHanded": "Duas Mãos",
-      "Versatile": "Versátil",
-      "Verbal": "Verbal",
-      "WeightlessContents": "Conteúdo Sem Peso"
-    },
-    "SECTIONS": {
-      "Activities": "Atividades",
-      "Advancement": "Avanço",
-      "Contents": "Conteúdo",
-      "Description": "Descrição",
-      "Details": "Detalhes",
-      "Effects": "Efeitos"
-    }
+    "Category": {}
   },
-
   "DND5E.JackOfAllTrades": "Versatilidade",
-
   "DND5E.JOURNALENTRY": {
     "Navigation": {
       "Next": "Próximo",
       "Previous": "Anterior",
-      "Up": "Acima"
+      "Up": "Acima",
+      "Title": "Navegação"
+    },
+    "Action": {
+      "ConfigureNavigation": "Configurar Navegação"
     }
   },
-
   "DND5E.LAIR": {
     "Label": "Covil",
     "Action": {
@@ -2919,7 +2950,6 @@
     "HasLair": "Tem Covil",
     "Inside": "Dentro do Covil"
   },
-
   "DND5E.Language": {
     "All": "Todos os Idiomas",
     "Label": "Idioma",
@@ -2962,7 +2992,6 @@
     }
   },
   "DND5E.Languages": "Idiomas",
-
   "DND5E.LegendaryAction": {
     "Description": "Usos de Ação Lendária: {uses}. Imediatamente após o turno de outra criatura, o {name} pode gastar um uso para realizar uma das seguintes ações. O {name} recupera todos os usos gastos no início de cada um de seus turnos.",
     "DescriptionLegacy": "O {name} pode realizar {usesNamed}, escolhendo entre as opções abaixo. Apenas uma opção de ação lendária pode ser usada por vez e somente ao final do turno de outra criatura. O {name} recupera ações lendárias gastas no início de seu turno.",
@@ -2979,7 +3008,6 @@
     "Remaining": "Ações Lendárias Restantes",
     "Spent": "Ações Lendárias Gastas"
   },
-
   "DND5E.LegendaryResistance": {
     "Action": {
       "Resist": "Resistência Lendária"
@@ -2995,9 +3023,9 @@
     },
     "Remaining": "Resistências Lendárias Restantes",
     "Resisted": "Resistência Lendária Usada",
-    "Spent": "Resistências Lendárias Gastas"
+    "Spent": "Resistências Lendárias Gastas",
+    "LairUses": "{normal}/Dia, or {lair}/Dia no Covil"
   },
-
   "DND5E.Level": "Nível",
   "DND5E.LevelAvg": "Nível Médio",
   "DND5E.LevelPl": "Níveis",
@@ -3048,7 +3076,6 @@
   "DND5E.Normal": "Normal",
   "DND5E.NotProficient": "Não Proficiente",
   "DND5E.Notes": "Notas",
-
   "DND5E.NPC": {
     "Label": "PNJ",
     "FIELDS": {
@@ -3057,6 +3084,18 @@
           "hint": "PNJs importantes rastreiam salvaguardas contra morte, dados de vida e lealdade (se habilitado). Qualquer PNJ com níveis de classe é considerado importante independentemente desta configuração.",
           "label": "PNJ Importante"
         }
+      },
+      "attributes": {
+        "price": {
+          "denomination": {
+            "label": "Denominação"
+          },
+          "hint": "O custo de contratação por dia ou o preço de compra do gado.",
+          "label": "Custo",
+          "value": {
+            "label": "Quantia"
+          }
+        }
       }
     },
     "SECTIONS": {
@@ -3064,10 +3103,13 @@
       "BonusActions": "Ações Bônus",
       "LegendaryActions": "Ações Lendárias",
       "Reactions": "Reações",
-      "Traits": "Traços"
+      "Traits": "Traços",
+      "MythicActions": "Ações Míticas"
+    },
+    "ActionCostCounted": {
+      "other": "Custa {number} Ações"
     }
   },
-
   "DND5E.NUMBER": {
     "1": "um",
     "2": "dois",
@@ -3079,17 +3121,14 @@
     "8": "oito",
     "9": "nove"
   },
-
   "DND5E.Number": "Número",
   "DND5E.OtherFormula": "Outra Fórmula",
-
   "DND5E.ORDINAL": {
     "one": "{number}º",
     "two": "{number}º",
     "few": "{number}º",
     "other": "{number}º"
   },
-
   "DND5E.PactMagic": "Magia de Pacto",
   "DND5E.Passive": "Passiva",
   "DND5E.PassivePerception": "Percepção Passiva",
@@ -3143,7 +3182,6 @@
   "DND5E.QuantityRoll": "Rolagem de Quantidade",
   "DND5E.RacialTraits": "Traços de Espécies",
   "DND5E.RacialTraitsLegacy": "Traços Raciais",
-
   "DND5E.RANGE": {
     "FIELDS": {
       "range": {
@@ -3178,7 +3216,6 @@
       "Reach": "alcança {reach}"
     }
   },
-
   "DND5E.Range": "Alcance",
   "DND5E.RangeDistance": "Distância",
   "DND5E.RangeLong": "Longo Alcance",
@@ -3193,7 +3230,6 @@
   "DND5E.RechargeShort": "Recarga após um Descanso Curto ou Longo",
   "DND5E.Recovery": "Recuperação",
   "DND5E.RecoveryFormula": "Fórmula de Recuperação",
-
   "DND5E.REGIONBEHAVIORS": {
     "DIFFICULTTERRAIN": {
       "FIELDS": {
@@ -3219,7 +3255,10 @@
         "Rocks": "Entulho ou Rochas",
         "Liquid": "Líquido Raso",
         "Slope": "Inclinação Íngreme",
-        "Snow": "Neve Profunda"
+        "Snow": "Neve Profunda",
+        "Mud": "Lama Espessa",
+        "Sand": "Areia Movediça",
+        "Webs": "Teias Aderentes"
       }
     },
     "ROTATEAREA": {
@@ -3296,7 +3335,6 @@
       }
     }
   },
-
   "DND5E.Remaining": "Restantes",
   "DND5E.RequiredMaterials": "Materiais Necessários",
   "DND5E.Requirements": "Requisitos",
@@ -3308,7 +3346,6 @@
   "DND5E.ResourcePrimary": "Recurso 1",
   "DND5E.ResourceSecondary": "Recurso 2",
   "DND5E.ResourceTertiary": "Recurso 3",
-
   "DND5E.REST": {
     "Configuration": "Configuração de Descanso",
     "HitDice": {
@@ -3374,10 +3411,8 @@
       "OnlyByRequest": "Descansos só podem ser realizados mediante solicitação do Mestre."
     }
   },
-
   "DND5E.Ritual": "Ritual",
   "DND5E.RitualAbbr": "R",
-
   "DND5E.ROLL": {
     "Range": {
       "Label": "Intervalo de Rolagem",
@@ -3387,7 +3422,6 @@
     "Section": "Rolagens {label}",
     "Status": "Estado"
   },
-
   "DND5E.Roll": "Rolagem",
   "DND5E.RollConfiguration": {
     "Title": "Configurar Rolagem",
@@ -3406,21 +3440,6 @@
     }
   },
   "DND5E.Movement": "Deslocamento",
-  "DND5E.MovementConfig": "Configurar Deslocamento",
-  "DND5E.MovementConfigHint": "Configurar atributos de deslocamento e deslocamento especial.",
-  "DND5E.MovementWalk": "Caminhada",
-  "DND5E.MovementBurrow": "Escavação",
-  "DND5E.MovementClimb": "Escalada",
-  "DND5E.MovementHover": "Planar",
-  "DND5E.MovementFly": "Voo",
-  "DND5E.MovementSwim": "Natação",
-  "DND5E.MovementLand": "Terra",
-  "DND5E.MovementWater": "Água",
-  "DND5E.MovementAir": "Ar",
-  "DND5E.MovementSpeeds": "Deslocamentos",
-  "DND5E.MovementUnits": "Unidades",
-  "DND5E.MovementIgnoredDifficultTerrain": "Ignorar Terreno Difícil",
-
   "DND5E.SAVE": {
     "Title": {
       "one": "Salvaguarda",
@@ -3468,9 +3487,9 @@
         }
       }
     },
-    "OnSave": "Ao Passar"
+    "OnSave": "Ao Passar",
+    "Hint": "Requer uma salvaguarda com a opção de jogar o dano."
   },
-
   "DND5E.SaveBonus": "Bônus na Salvaguarda",
   "DND5E.SaveGlobalBonusHint": "Este bônus se aplica a todas as salvaguardas feitas por este ator.",
   "DND5E.Scroll": {
@@ -3497,7 +3516,6 @@
   "DND5E.SenseUnits": "Unidades",
   "DND5E.SenseSpecial": "Sentidos Especiais",
   "DND5E.Shape": "Forma",
-
   "DND5E.SheetClass": {
     "Character": "Ficha de Personagem D&D 5E Padrão",
     "ClassSummary": "Ficha de Resumo de Classe D&D 5E Padrão",
@@ -3514,9 +3532,9 @@
     "Rule": "Ficha de Regras D&D 5E Padrão",
     "SpellList": "Ficha de Lista de Magias D&D 5E Padrão",
     "Token": "Ficha de Token D&D 5E Padrão",
-    "Vehicle": "Ficha de Veículo D&D 5E Padrão"
+    "Vehicle": "Ficha de Veículo D&D 5E Padrão",
+    "RollTable": "Ficha D&D 5e de Tabela de Rolagem "
   },
-
   "DND5E.SheetModeEdit": "Editar",
   "DND5E.SheetModePlay": "Jogar",
   "DND5E.SavingThrow": "Salvaguardas",
@@ -3550,7 +3568,6 @@
   "DND5E.SizeSmallAbbr": "Pq",
   "DND5E.SizeTiny": "Minúsculo",
   "DND5E.SizeTinyAbbr": "Mn",
-
   "DND5E.SKILL": {
     "SECTIONS": {
       "Details": "Detalhes de {label}",
@@ -3564,7 +3581,6 @@
       }
     }
   },
-
   "DND5E.Skill": "Perícia",
   "DND5E.Skills": "Perícias",
   "DND5E.SkillAcr": "Acrobacia",
@@ -3602,7 +3618,6 @@
   "DND5E.SkillPassives": "Perícias Passivas",
   "DND5E.Skin": "Pele",
   "DND5E.Skip": "Pular",
-
   "DND5E.SOURCE": {
     "FIELDS": {
       "source": {
@@ -3638,7 +3653,6 @@
       "Page": "p. {page}"
     }
   },
-
   "DND5E.Special": "Especial",
   "DND5E.SpecialHint": "Valores especiais separados por ponto e vírgula.",
   "DND5E.SpecialTraits": "Traços Especiais",
@@ -3664,7 +3678,6 @@
   "DND5E.SpellcasterLevel": "Nível de Conjurador",
   "DND5E.SpellCastingHeader": "Conjuração de Magia",
   "DND5E.Spellcasting": "Conjuração",
-
   "DND5E.SPELLCASTING": {
     "METHODS": {
       "AtWill": {
@@ -3718,7 +3731,6 @@
     },
     "Unlabeled": "Conjuração Sem Rótulo"
   },
-
   "DND5E.SpellcastingClass": "Conjuração do {class}",
   "DND5E.SpellComponent": "Componente de Magia",
   "DND5E.SpellComponents": "Componentes de Magia",
@@ -3765,7 +3777,6 @@
     "Formula": "Fórmula de Preparação da Magia",
     "Method": "Modo de Preparação da Magia"
   },
-  "DND5E.SpellSourceClass": "Classe Fonte",
   "DND5E.SpellPrepared": "Preparada",
   "DND5E.SpellProgArt": "Artífice",
   "DND5E.SpellProgAvailable": "Espaços Disponíveis",
@@ -3825,7 +3836,10 @@
     "Wealth": {
       "Label": "Riqueza Inicial",
       "Hint": "Fórmula em Ouro que pode ser usada no lugar do Equipamento Inicial."
-    }
+    },
+    "ChooseList": "<em>Escolha {prefixes}:</em> {choices}",
+    "Currency": "Moeda",
+    "Prefixes": "abcdefghijklmnopqrstuvwxyz"
   },
   "DND5E.SubclassAdd": "Adicionar Subclasse",
   "DND5E.SubclassIdentifierHint": "Esse identificador deve corresponder ao identificador na classe principal para garantir que eles sejam vinculados corretamente.",
@@ -3835,7 +3849,6 @@
   "DND5E.SubclassName": "Nome da Subclasse",
   "DND5E.Subtype": "Subtipo",
   "DND5E.Summary": "Resumo",
-
   "DND5E.SUMMON": {
     "Title": "Invocação",
     "FIELDS": {
@@ -3861,8 +3874,8 @@
           "hint": "Pontos de Vida adicionais além dos especificados no bloco de estatísticas."
         },
         "saveDamage": {
-          "Label": "Bônus no Dano com Salvaguarda",
-          "Hint": "Dano adicional causado por habilidades da criatura que exigem salvaguardas."
+          "label": "Bônus no Dano com Salvaguarda",
+          "hint": "Dano adicional causado por habilidades da criatura que exigem salvaguardas."
         }
       },
       "creatureSizes": {
@@ -3870,8 +3883,8 @@
         "hint": "A criatura e o token invocados serão ajustados para este tamanho. Se mais de um tamanho for selecionado, o jogador poderá escolher ao invocar."
       },
       "creatureTypes": {
-        "Label": "Tipos de Criaturas",
-        "Hint": "A criatura invocada será ajustada para este tipo. Se mais de um for selecionado, o jogador poderá escolher ao invocar."
+        "label": "Tipos de Criaturas",
+        "hint": "A criatura invocada será ajustada para este tipo. Se mais de um for selecionado, o jogador poderá escolher ao invocar."
       },
       "match": {
         "ability": {
@@ -3889,6 +3902,10 @@
         "saves": {
           "label": "Combinar CDs de Salvaguardas",
           "hint": "Modifica as CDs das habilidades da criatura invocada para corresponder às do invocador."
+        },
+        "disposition": {
+          "label": "Combinar Disposição",
+          "hint": "Altere a disposição da criatura invocada para que corresponda à do invocador."
         }
       },
       "profiles": {
@@ -3941,6 +3958,10 @@
           "label": "Prompt de Invocação",
           "hint": "Desativa o aviso de invocação ao usar o item. Os jogadores ainda poderão invocar a partir do cartão de chat."
         }
+      },
+      "tempHP": {
+        "label": "PV Temp.",
+        "hint": "Conceda pontos de vida temporários à criatura invocada, substituindo quaisquer pontos de vida temporários existentes."
       }
     },
     "SECTIONS": {
@@ -3976,15 +3997,14 @@
       "NoOwnership": "Você deve ter propriedade sobre '{actor}' para invocá-lo.",
       "NoProfile": "Não foi possível encontrar o perfil de invocação {profileId} em '{item}'.",
       "Wildcard": "Você deve ter permissão de 'Usar navegador de arquivos' para invocar criaturas com arte curinga."
-    }
+    },
+    "Hint": "Convoque uma nova criatura para a cena."
   },
-
   "DND5E.Summoning": {
     "Label": "Invocação"
   },
   "DND5E.Supply": "Suprimento",
   "DND5E.Suppressed": "Suprimido(a)",
-
   "DND5E.TARGET": {
     "Action": {
       "PlaceTemplate": "Colocar Modelo de Medida"
@@ -4052,6 +4072,10 @@
           "width": {
             "label": "Largura da Área",
             "hint": "Largura de uma linha afetada, se aplicável."
+          },
+          "stationary": {
+            "label": "Estacionário",
+            "hint": "Emanação não pode ser movida depois de colocada."
           }
         }
       }
@@ -4064,7 +4088,8 @@
           "any": "qualquer aliado",
           "every": "todo aliado",
           "one": "{number} aliado",
-          "other": "{number} aliados"
+          "other": "{number} aliados",
+          "each": "cada aliado"
         }
       },
       "Any": {
@@ -4074,14 +4099,18 @@
         "Label": "Círculo",
         "Counted": {
           "one": "{number} círculo",
-          "other": "{number} círculos"
+          "other": "{number} círculos",
+          "oneSized": "Círculo {sizes}",
+          "otherSized": "{number} Círculos {sizes}"
         }
       },
       "Cone": {
         "Label": "Cone",
         "Counted": {
           "one": "{number} cone",
-          "other": "{number} cones"
+          "other": "{number} cones",
+          "oneSized": "{sizes} Cone",
+          "otherSized": "{number} Cones {sizes}"
         }
       },
       "Creature": {
@@ -4090,7 +4119,8 @@
           "any": "qualquer criatura",
           "every": "toda criatura",
           "one": "{number} criatura",
-          "other": "{number} criaturas"
+          "other": "{number} criaturas",
+          "each": "cada criatura"
         }
       },
       "CreatureOrObject": {
@@ -4099,28 +4129,35 @@
           "any": "qualquer criatura ou objeto",
           "every": "toda criatura ou objeto",
           "one": "{number} criatura ou objeto",
-          "other": "{number} criaturas ou objetos"
+          "other": "{number} criaturas ou objetos",
+          "each": "cada criatura ou objeto"
         }
       },
       "Cube": {
         "Label": "Cubo",
         "Counted": {
           "one": "{number} cubo",
-          "other": "{number} cubos"
+          "other": "{number} cubos",
+          "oneSized": " Cubo {sizes}",
+          "otherSized": "{number} Cubos {sizes}"
         }
       },
       "Cylinder": {
         "Label": "Cilindro",
         "Counted": {
           "one": "{number} cilindro",
-          "other": "{number} cilindros"
+          "other": "{number} cilindros",
+          "oneSized": " Cilindro  {sizes}",
+          "otherSized": "{number} Cilindros {sizes}"
         }
       },
       "Emanation": {
         "Label": "Emanação",
         "Counted": {
           "one": "{number} emanação",
-          "other": "{number} emanações"
+          "other": "{number} emanações",
+          "oneSized": "Emanação {sizes}",
+          "otherSized": "{number} Emanação {sizes}"
         }
       },
       "Enemy": {
@@ -4129,14 +4166,17 @@
           "any": "qualquer inimigo",
           "every": "todo inimigo",
           "one": "{number} inimigo",
-          "other": "{number} inimigos"
+          "other": "{number} inimigos",
+          "each": "cada inimigo"
         }
       },
       "Line": {
         "Label": "Linha",
         "Counted": {
           "one": "{number} linha",
-          "other": "{number} linhas"
+          "other": "{number} linhas",
+          "oneSized": "Linha {sizes}",
+          "otherSized": "{number} Linha {sizes}"
         }
       },
       "Object": {
@@ -4145,14 +4185,17 @@
           "any": "qualquer objeto",
           "every": "todo objeto",
           "one": "{number} objeto",
-          "other": "{number} objetos"
+          "other": "{number} objetos",
+          "each": "cada objeto"
         }
       },
       "Radius": {
         "Label": "Raio",
         "Counted": {
           "one": "{number} raio",
-          "other": "{number} raios"
+          "other": "{number} raios",
+          "oneSized": "Raio {sizes}",
+          "otherSized": "{number} Raio {sizes}"
         }
       },
       "Self": {
@@ -4162,7 +4205,9 @@
         "Label": "Esfera",
         "Counted": {
           "one": "{number} esfera",
-          "other": "{number} esferas"
+          "other": "{number} esferas",
+          "oneSized": "Esfera {sizes}",
+          "otherSized": "{number} Esfera {sizes}"
         }
       },
       "Space": {
@@ -4171,14 +4216,17 @@
           "any": "qualquer espaço",
           "every": "todo espaço",
           "one": "{number} espaço",
-          "other": "{number} espaços"
+          "other": "{number} espaços",
+          "each": "cada espaço"
         }
       },
       "Square": {
         "Label": "Quadrado",
         "Counted": {
           "one": "{number} quadrado",
-          "other": "{number} quadrados"
+          "other": "{number} quadrados",
+          "oneSized": "Quadrado {sizes}",
+          "otherSized": "{number} Quadrado {sizes}"
         }
       },
       "Target": {
@@ -4187,14 +4235,17 @@
           "any": "qualquer alvo",
           "every": "todo alvo",
           "one": "{number} alvo",
-          "other": "{number} alvos"
+          "other": "{number} alvos",
+          "each": "cada alvo"
         }
       },
       "Wall": {
         "Label": "Parede",
         "Counted": {
           "one": "{number} parede",
-          "other": "{number} paredes"
+          "other": "{number} paredes",
+          "oneSized": "Parede {sizes}",
+          "otherSized": "{number} Parede {sizes}"
         }
       },
       "WillingCreature": {
@@ -4203,7 +4254,18 @@
           "any": "qualquer criatura disposta",
           "every": "toda criatura disposta",
           "one": "{number} criatura disposta",
-          "other": "{number} criaturas dispostas"
+          "other": "{number} criaturas dispostas",
+          "each": "cada criatura disposta"
+        }
+      },
+      "Special": {
+        "Label": "{special}",
+        "Counted": {
+          "any": "qualquer {special}",
+          "each": "cada {special}",
+          "every": "toda {special}",
+          "one": "{number} {special}",
+          "other": "{number} {special}"
         }
       }
     },
@@ -4211,7 +4273,6 @@
       "PlaceTemplate": "Falha ao colocar Modelo de Medida."
     }
   },
-
   "DND5E.Target": "Alvo",
   "DND5E.TargetPl": "Alvos",
   "DND5E.TargetType": "Tipo de Alvo",
@@ -4246,25 +4307,7 @@
     "Selected": "Selecionado",
     "Targeted": "Alvejado"
   },
-  "DND5E.TokenRings": {
-    "BackgroundColor": "Cor de Fundo",
-    "Effects": {
-      "Label": "Efeitos",
-      "BackgroundWave": "Onda de Fundo",
-      "RingGradient": "Gradiente no Anel",
-      "RingPulse": "Pulso no Anel"
-    },
-    "Enabled": "Usar Anel Dinâmico",
-    "RingColor": "Cor do Anel",
-    "ScaleCorrection": "Correção de Escala",
-    "Subject": {
-      "Label": "Caminho da Arte",
-      "Hint": "Especifique explicitamente um caminho para a arte colocada sobre o anel dinâmico do token. Se não for fornecido, a imagem do assunto será definida como a arte normal do token."
-    },
-    "Title": "Anel Dinâmico"
-  },
   "DND5E.ToggleDescription": "Alternar Descrição",
-
   "DND5E.TOOL": {
     "SECTIONS": {
       "Details": "Detalhes de {label}",
@@ -4278,7 +4321,6 @@
       }
     }
   },
-
   "DND5E.ToolArtisans": "Ferramentas de Artesão",
   "DND5E.ToolBonuses": "Bônus de Ferramenta",
   "DND5E.ToolCheck": "Teste de Ferramenta",
@@ -4334,7 +4376,6 @@
   "DND5E.TraitWeaponProf": "Proficiência com Armas",
   "DND5E.Traits": "Traços",
   "DND5E.TraitsChosen": "Traços Escolhidos",
-
   "DND5E.TRANSFORM": {
     "Action": {
       "Restore": "Restaurar Transformação",
@@ -4544,6 +4585,9 @@
         },
         "Vision": {
           "Label": "Visão"
+        },
+        "TempHP": {
+          "Label": "PV Temp."
         }
       },
       "Merge": {
@@ -4562,18 +4606,9 @@
       "NoPermission": "Permissão de transformação não foi concedida aos jogadores.",
       "OriginalActor": "Nenhum ator original foi encontrado com ID '{reference}'.",
       "SourceActor": "Nenhum ator encontrado para transformar."
-    }
+    },
+    "Hint": "Mude um ator para usar as estatísticas de outro."
   },
-
-  "DND5E.Travel": {
-    "Label": "Velocidade de Viagem",
-    "Pace": {
-      "Fast": "Rápido",
-      "Normal": "Normal",
-      "Slow": "Devagar"
-    }
-  },
-
   "DND5E.Treasure": {
     "Categories": {
       "Any": "Qualquer",
@@ -4598,25 +4633,28 @@
   "DND5E.Unidentified.Title": "Não Identificado",
   "DND5E.Unidentified.Value": "???",
   "DND5E.Unit": "Unidade",
-
   "DND5E.UNITS": {
     "DISTANCE": {
       "Label": "Unidades de Distância",
       "Foot": {
         "Label": "Pés",
-        "Abbreviation": "ft"
+        "Abbreviation": "ft.",
+        "Template": "pé"
       },
       "Kilometer": {
         "Label": "Quilômetros",
-        "Abbreviation": "km"
+        "Abbreviation": "km",
+        "Template": "quilômetro"
       },
       "Meter": {
         "Label": "Metros",
-        "Abbreviation": "m"
+        "Abbreviation": "m",
+        "Template": "metro"
       },
       "Mile": {
         "Label": "Milhas",
-        "Abbreviation": "mi"
+        "Abbreviation": "mi",
+        "Template": "milha"
       }
     },
     "TIME": {
@@ -4730,12 +4768,23 @@
           }
         }
       }
+    },
+    "TRAVEL": {
+      "Kilometer": {
+        "AbbreviationHour": "km/h",
+        "AbbreviationDay": "km/d.",
+        "Label": "Quilômetros"
+      },
+      "Label": "Unidade de Viagem",
+      "Mile": {
+        "AbbreviationDay": "mi",
+        "AbbreviationHour": "mi/h",
+        "Label": "Milhas"
+      }
     }
   },
-
   "DND5E.Unknown": "Desconhecido",
   "DND5E.Unlimited": "Ilimitado",
-
   "DND5E.USAGE": {
     "SECTION": {
       "Consumption": "Consumo",
@@ -4743,7 +4792,6 @@
       "Scaling": "Escalonamento"
     }
   },
-
   "DND5E.Usage": "Uso",
   "DND5E.Use": "Usar",
   "DND5E.UseItem": "Usar {item}",
@@ -4755,7 +4803,6 @@
     "Charges": "Cargas",
     "ChargesAbbreviation": "Cargas"
   },
-
   "DND5E.USES": {
     "FIELDS": {
       "uses": {
@@ -4841,7 +4888,6 @@
       }
     }
   },
-
   "DND5E.UTILITY": {
     "Title": "Utilidade",
     "FIELDS": {
@@ -4864,11 +4910,10 @@
           "hint": "Exibir o botão de rolagem no chat para todos os jogadores."
         }
       }
-    }
+    },
+    "Hint": "Faça um lançamento aleatório ou indique que foi realizada alguma outra ação não representada por outros tipos de atividade."
   },
-
   "DND5E.Value": "Valor",
-
   "DND5E.VEHICLE": {
     "MOUNTABLE": {
       "FIELDS": {
@@ -4876,9 +4921,7 @@
           "label": "Cobertura",
           "hint": "Cobertura fornecida à tripulação que opera este equipamento."
         },
-        "crewed": {
-          "label": "Tripulado"
-        },
+        "crewed": {},
         "hp": {
           "label": "Pontos de Vida",
           "conditions": {
@@ -4901,40 +4944,140 @@
           "value": {
             "label": "Velocidade"
           }
+        },
+        "crew": {
+          "label": "Tripulação"
         }
+      }
+    },
+    "Action": {
+      "Create": {
+        "Equipment": "Criar Equipamento",
+        "Feature": "Criar Característica",
+        "Weapon": "Criar Arma"
+      },
+      "Crew": {
+        "Decrease": "Diminuir",
+        "Increase": "Aumentar"
+      },
+      "Drop": {
+        "Animal": "Largar Animal de Carga",
+        "Crew": "Largar Tripulação",
+        "Passengers": "Largar Passageiros"
+      },
+      "Uncrew": "Destripular"
+    },
+    "Actions": {
+      "Ordinal": {
+        "one": "{n}ª Ação",
+        "two": "{n}ª Ação",
+        "few": "{n}ª Ação",
+        "other": "{n}ª Ação"
+      }
+    },
+    "Activation": {
+      "Crew": {
+        "label": "Ação de Tripulação"
+      }
+    },
+    "Crew": {
+      "Assigned": "Designado",
+      "Label": "Tripulação",
+      "Passengers": "Passageiros",
+      "Unassigned": "Não Designado"
+    },
+    "FIELDS": {
+      "attributes": {
+        "actions": {
+          "label": "Ações",
+          "max": {
+            "hint": "Ações realizadas com tripulação completa",
+            "label": "Ações Máximas"
+          },
+          "spent": {
+            "label": "Gastar Ações"
+          },
+          "stations": {
+            "label": "Ações de Estação"
+          },
+          "thresholds": {
+            "full": {
+              "label": "Complementar Tripulação Completa"
+            },
+            "mid": {
+              "label": "Complementar Tripulação Parcial"
+            },
+            "label": "Limites",
+            "min": {
+              "label": "Complementar Tripulação Mínima"
+            }
+          }
+        },
+        "capacity": {
+          "cargo": {
+            "value": {
+              "label": "Carga"
+            }
+          },
+          "label": "Capacidade"
+        }
+      },
+      "crew": {
+        "max": {
+          "label": "Tripulação"
+        }
+      },
+      "passengers": {
+        "max": {
+          "label": "Passageiros"
+        }
+      },
+      "traits": {
+        "beam": {
+          "value": {
+            "label": "Viga"
+          }
+        },
+        "keel": {
+          "value": {
+            "label": "Quilha"
+          }
+        }
+      }
+    },
+    "Mishap": {
+      "label": "Avaria",
+      "Threshold": {
+        "abbr": "LA",
+        "label": "Limite de Avaria"
+      }
+    },
+    "Option": {
+      "Abilities": "Mostrar Atributos",
+      "Initiative": "Mostrar Iniciativa",
+      "Quality": "Mostrar Qualidade"
+    },
+    "Tabs": {
+      "Cargo": "Carga",
+      "CrewPassengers": "Tripulação & Passageiros"
+    },
+    "Type": {
+      "Air": {
+        "label": "Veículo Aéreo"
+      },
+      "label": "Tipo de Veículo",
+      "Land": {
+        "label": "Veículo Terrestre"
+      },
+      "Space": {
+        "label": "Veículo Espacial"
+      },
+      "Water": {
+        "label": "Veículo Aquático"
       }
     }
   },
-
   "DND5E.Vehicle": "Veículo",
-  "DND5E.VehicleActions": "Ações",
-  "DND5E.VehicleActionsHint": "Ações tomadas com a tripulação completa",
-  "DND5E.VehicleActionMax": "Máximo de Ações",
-  "DND5E.VehicleActionStations": "Posições de Ação",
-  "DND5E.VehicleActionThresholds": "Limites de Ação",
-  "DND5E.VehicleActionThresholdsFull": "Tripulação Completa",
-  "DND5E.VehicleActionThresholdsMid": "Tripulação Parcial",
-  "DND5E.VehicleActionThresholdsMin": "Tripulação Mínima",
-  "DND5E.VehicleCargo": "Carga",
-  "DND5E.VehicleCargoCapacity": "Capacidade de Carga",
-  "DND5E.VehicleCargoCrew": "Carga e Tripulação",
-  "DND5E.VehicleCreatureCapacity": "Capacidade da Criatura",
-  "DND5E.VehicleCrew": "Tripulação",
-  "DND5E.VehicleCrewPassengers": "Tripulação e Passageiros",
-  "DND5E.VehicleCrewed": "Tripulado",
-  "DND5E.VehicleCrewAction": "Ação da Tripulação",
-  "DND5E.VehicleEquipment": "Equipamento do Veículo",
-  "DND5E.VehicleMishap": "Avaria",
-  "DND5E.VehicleMishapThreshold": "Limite de Avaria",
-  "DND5E.VehiclePassengers": "Passageiros",
-  "DND5E.VehiclePassengerName": "Nome ou Tipo de Passageiro",
-  "DND5E.VehiclePassengerQuantity": "Quantidade de Passageiros",
-  "DND5E.VehicleType": "Tipo de Veículo",
-  "DND5E.VehicleTypeAir": "Veículo Aéreo",
-  "DND5E.VehicleTypeLand": "Veículo Terrestre",
-  "DND5E.VehicleTypeSpace": "Veículo Espacial",
-  "DND5E.VehicleTypeWater": "Veículo Aquático",
-  "DND5E.VehicleUncrewed": "Sem Tripulação",
   "DND5E.Versatile": "Versátil",
   "DND5E.VersatileDamage": "Dano Versátil",
   "DND5E.VsDC": "contra CD.",
@@ -4943,7 +5086,6 @@
   "DND5E.WarnCantAddMultipleAdvancements": "No momento não é possível adicionar vários itens com evolução a um ator ao mesmo tempo. Por favor, adicione-os individualmente.",
   "DND5E.WarnMultipleArmor": "Mais de uma armadura equipada, cálculo de CA pode estar incorreto.",
   "DND5E.WarnMultipleShields": "Mais de um escudo equipado, o cálculo de CA pode estar incorreto.",
-
   "DND5E.WEAPON": {
     "FIELDS": {
       "ammunition": {
@@ -4977,7 +5119,6 @@
       "Vex": "Provocar"
     }
   },
-
   "DND5E.WeaponCategory": "Arma {category}",
   "DND5E.WeaponImprov": "Improvisada",
   "DND5E.WeaponMartialM": "Marcial Corpo a Corpo",
@@ -4996,7 +5137,6 @@
   "DND5E.of": "de",
   "DND5E.per": "por",
   "DND5E.spell": "magia",
-
   "EDITOR.DND5E.Inline": {
     "ApplyStatus": "Aplicar Condição aos Tokens Selecionados",
     "AttackExtended": "<em>{type}</em>: {parts}",
@@ -5025,9 +5165,9 @@
       "NoActivityOnItem": "{item} em {actor} não possui uma Atividade com o nome {activity}.",
       "NoActor": "Nenhum ator selecionado ou designado foi encontrado para executar esta rolagem.",
       "NoItemOnActor": "{actor} não possui um item com o nome {item}."
-    }
+    },
+    "ItemActivity": "{item} ({activity})"
   },
-
   "EFFECT.DND5E": {
     "StatusBleeding": "Sangrando",
     "StatusBloodied": "Machucado",
@@ -5058,7 +5198,6 @@
     "StatusTotalCover": "Cobertura Total",
     "StatusTransformed": "Transformado(a)"
   },
-
   "TYPES.JournalEntryPage.class": "Resumo da Classe",
   "TYPES.JournalEntryPage.map": "Localização no Mapa",
   "TYPES.JournalEntryPage.rule": "Regra",
@@ -5182,22 +5321,18 @@
       "NoValidSubclass": "Nenhuma subclasse válida escolhida. Pressione o botão Editar para adicionar uma subclasse."
     }
   },
-
   "KEYBINDINGS.DND5E.DragCopy": "Forçar Cópia ao Arrastar Documento",
   "KEYBINDINGS.DND5E.DragMove": "Forçar Movimento ao Arrastar Documento",
   "KEYBINDINGS.DND5E.SkipDialogNormal": "Pular Diálogo",
   "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Pular Diálogo (Rolar com Vantagem/Crítico)",
   "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Pular Diálogo (Rolar com Desvantagem)",
-
   "MACRO.5eMissingTargetWarn": "O personagem controlado '{actor}' não possui um {type} chamado '{name}'.",
   "MACRO.5eMultipleTargetsWarn": "O personagem controlado '{actor}' possui mais de um {type} chamado '{name}'. A primeira opção correspondente será escolhida.",
   "MACRO.5eNoActorSelected": "Nenhum personagem selecionado ou atribuído foi encontrado para que a macro seja usada.",
   "MACRO.5eUnownedWarn": "Você só pode criar botões de macro para itens que possui permissão.",
-
   "MIGRATION.5eBegin": "Aplicando a Migração do Sistema D&D 5e para a versão {version}. Por favor, seja paciente e não feche seu jogo ou desligue seu servidor.",
   "MIGRATION.5eComplete": "Migração do Sistema D&D 5e para a versão {version} concluída!",
   "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5e são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
-
   "SETTINGS.5eAutoCollapseCardL": "Fechar automaticamente descrições de Cartões de Item no registro de chat",
   "SETTINGS.5eAutoCollapseCardN": "Fechar Cartões de Item no Chat",
   "SETTINGS.5eAutoSpellTemplateL": "Quando uma magia for conjurada, inicia por padrão o processo de criar um Modelo de Medição correspondente, se houver (requer cargo de jogador CONFIÁVEL ou superior).",
@@ -5211,8 +5346,11 @@
   "SETTINGS.DND5E": {
     "AUTOMATION": {
       "Movement": {
-        "Name": "Desativar Automação de Movimento",
-        "Hint": "Não aplicar penalidades de movimento em terreno difícil, ou impedir que criaturas se movam umas através das outras de acordo com a versão das regras."
+        "Name": "Automação de Movimento",
+        "Hint": "Configure o nível de automação de movimentos utilizado pelo sistema: automação total, incluindo bloqueio de tokens; automação parcial, apenas de terrenos difíceis; ou desativada por completo.",
+        "Full": "Total",
+        "NoBlocking": "Parcial",
+        "None": "Nenhuma"
       }
     },
     "BLOODIED": {
@@ -5393,7 +5531,6 @@
       }
     }
   },
-
   "SHEETS.DND5E": {
     "THEME": {
       "Label": "Tema",
@@ -5402,9 +5539,384 @@
       "Light": "Modo Claro"
     }
   },
-
   "SOURCE.BOOK.FreeRules": "Regras Gratuitas",
   "SOURCE.BOOK.SRD51": "Documento de Referência do Sistema 5.1",
   "SOURCE.BOOK.SRD52": "Documento de Referência do Sistema 5.2",
-  "SIDEBAR.SortModePriority": "Classificar por Prioridade"
+  "SIDEBAR.SortModePriority": "Classificar por Prioridade",
+  "COMMON": {
+    "AreYouSure": "Você tem Certeza?",
+    "Cancel": "Cancelar",
+    "Confirm": "Confirmar",
+    "Default": "Padrão",
+    "Delete": "Excluir",
+    "No": "Não",
+    "None": "Nenhum",
+    "Unknown": "Desconhecido",
+    "Yes": "Sim"
+  },
+  "TYPES.HINTS": {
+    "RegionBehavior": {
+      "dnd5e.difficultTerrain": "Marque uma região como terreno difícil e defina seu tipo e a quem ela afeta.",
+      "dnd5e.rotateArea": "Gire tokens, peças, paredes e outros objetos em torno de um ponto de pivô central."
+    }
+  },
+  "DND5E.CALENDAR": {
+    "Action": {
+      "AdvanceTime": "Avance em {amount}",
+      "OpenCharacterSheet": "Abrir Ficha de Personagem",
+      "OpenPartySheet": "Abrir Ficha de Grupo",
+      "ReverseTime": "Retroagir em",
+      "SetDate": "Definir Data"
+    },
+    "Component": {
+      "Day": "Dia",
+      "Month": "Mês",
+      "Year": "Ano"
+    },
+    "Configuration": {
+      "DisabledMessage": "O DM deve ativar a interface do calendário antes que ela possa ser usada pelos jogadores.",
+      "Hint": "Controle se o HUD do calendário é exibido e como ele funciona.",
+      "Label": "Configurar Calendário",
+      "Name": "Calendário",
+      "Preferences": "Preferências de Calendário",
+      "UnavailableMessage": "A interface padrão do calendário não está disponível porque foi desativada por um módulo."
+    },
+    "FIELDS": {
+      "calendar": {
+        "hint": "Este calendário será usado para acompanhar o tempo no jogo.",
+        "label": "Calendário"
+      },
+      "enabled": {
+        "hint": "Permitir que a interface do calendário seja visualizada e personalizada por todos os usuários.",
+        "label": "Permitido"
+      },
+      "formatters": {
+        "date": {
+          "label": "Formato da Data"
+        },
+        "time": {
+          "label": "Formato da Hora"
+        }
+      },
+      "visible": {
+        "label": "Exibir HUD do calendário"
+      }
+    },
+    "Formatters": {
+      "Date": "Formatadores de Data",
+      "ApproximateDate": {
+        "EarlySeason": "Início de {season}",
+        "Label": "Data Aproximada",
+        "LateSeason": "Fim de {season}",
+        "MidSeason": "Meio de {season}"
+      },
+      "ApproximateTime": {
+        "Afternoon": "Tarde",
+        "Dawn": "Aurora",
+        "Dusk": "Crepúsculo",
+        "Evening": "Tardezinha",
+        "Label": "Hora aproximada",
+        "Midnight": "Meia-noite",
+        "Morning": "Manhã",
+        "Night": "Noite",
+        "Noon": "Meio-dia",
+        "Sunrise": "Nascer-do-sol",
+        "Sunset": "Pôr-do-sol"
+      },
+      "HoursMinutes": {
+        "Format": "{H}:{M}",
+        "Label": "Horas & Minutos"
+      },
+      "HoursMinutesSeconds": {
+        "Format": "{H}:{M}:{S}",
+        "Label": "Horas, Minutos & Segundos"
+      },
+      "MonthDay": {
+        "Format": "{B} {D}",
+        "Label": "Mês & Dia"
+      },
+      "MonthDayYear": {
+        "Format": "{B} {D}, {y}",
+        "Label": "Mês, Dia & Ano"
+      },
+      "Time": "Formatadores de Hora"
+    },
+    "Gregorian": "Calendário Gregoriano",
+    "Greyhawk": {
+      "Day": {
+        "Starday": "Starday",
+        "Sunday": "Sunday",
+        "Moonday": "Moonday",
+        "Godsday": "Godsday",
+        "Waterday": "Waterday",
+        "Earthday": "Earthday",
+        "Freeday": "Freeday"
+      },
+      "Festival": {
+        "Needfest": "Needfest",
+        "Growfest": "Growfest",
+        "Richfest": "Richfest",
+        "Brewfest": "Brewfest"
+      },
+      "Formatters": {
+        "MonthDay": "{B} {d}",
+        "MonthDayYear": "{B} {d}, {y}"
+      },
+      "Month": {
+        "Fireseek": "Fireseek",
+        "Readying": "Readying",
+        "Coldeven": "Coldeven",
+        "Planting": "Planting",
+        "Flocktime": "Flocktime",
+        "Wealsun": "Wealsun",
+        "Reaping": "Reaping",
+        "Godmonth": "Godmonth",
+        "Harvester": "Harvester",
+        "Patchwall": "Patchwall",
+        "Readyreat": "Ready'reat",
+        "Sunsebb": "Sunsebb"
+      },
+      "Name": "Calendário de Greyhawk",
+      "Season": {
+        "Spring": "Primavera",
+        "Summer": "Verão",
+        "Fall": "Outono",
+        "Winter": "Inverno"
+      }
+    },
+    "Harptos": {
+      "Day": {
+        "One": "primeiro dia",
+        "Two": "segundo dia",
+        "Three": "terceiro dia",
+        "Four": "quarto dia",
+        "Five": "quinto dia",
+        "Six": "sexto dia",
+        "Seven": "sétimo dia",
+        "Eight": "oitavo dia",
+        "Nine": "nono dia",
+        "Ten": "décimo dia"
+      },
+      "Festival": {
+        "FeastOfTheMoon": "O Festival da Lua",
+        "Midwinter": "Festival de Inverno",
+        "Greengrass": "Festival do Plantio",
+        "Midsummer": "Festival de Verão",
+        "Shieldmeet": "Encontro dos Escudos",
+        "Highharvestide": "Feriado da Colheita"
+      },
+      "Formatters": {
+        "DayMonth": "{d} {B}",
+        "DayMonthYear": "{d} {B}, {y} CV",
+        "FestivalDayYear": "{day}, {y} CV"
+      },
+      "Month": {
+        "Hammer": "Martelo",
+        "HammerCommon": "Grandinverno",
+        "Alturiak": "Alturiak",
+        "AlturiakCommon": "A Garra do Inverno",
+        "Ches": "Ches",
+        "ChesCommon": "A Garra dos Pôr do Sois",
+        "Tarsakh": "Tarsakh",
+        "TarsakhCommon": "A Garra das Tempestades",
+        "Mirtul": "Mirtul",
+        "MirtulCommon": "O Derreter",
+        "Kythorn": "Kythorn",
+        "KythornCommon": "O Tempo das Flores",
+        "Flamerule": "Flamerule",
+        "FlameruleCommon": "Veronda",
+        "Eleasis": "Eleasis",
+        "EleasisCommon": "Alto-Sol",
+        "Eleint": "Eleint",
+        "Marpenoth": "Marpenoth",
+        "Uktar": "Uktar",
+        "Nightal": "Nightal",
+        "EleintCommon": "O Cair",
+        "MarpenothCommon": "Desabrochar",
+        "UktarCommon": "O Apodrecer",
+        "NightalCommon": "O Desvanecer"
+      },
+      "Name": "Calendário de Harptos (Reinos Esquecidos)",
+      "Season": {
+        "Spring": "Primavera",
+        "Summer": "Verão",
+        "Fall": "Outono",
+        "Winter": "Inverno"
+      }
+    },
+    "Khorvaire": {
+      "Day": {
+        "Sul": "Sul",
+        "Mol": "Mol",
+        "Zol": "Zol",
+        "Wir": "Wir",
+        "Zor": "Zor",
+        "Far": "Far",
+        "Sar": "Sar"
+      },
+      "Formatters": {
+        "DayMonth": "{d} {B}",
+        "DayMonthYear": "{d} {B} {y} YK"
+      },
+      "Month": {
+        "Zarantyr": "Zarantyr",
+        "Olarune": "Olarune",
+        "Therendor": "Therendor",
+        "Eyre": "Eyre",
+        "Dravago": "Dravago",
+        "Nymm": "Nymm",
+        "Lharvion": "Lharvion",
+        "Barrakas": "Barrakas",
+        "Rhaan": "Rhaan",
+        "Sypheros": "Sypheros",
+        "Aryth": "Aryth",
+        "Vult": "Vult"
+      },
+      "Name": "Calendário de Khorvaire (Eberron)",
+      "Season": {
+        "Spring": "Primavera",
+        "Summer": "Verão",
+        "Autumn": "Outono",
+        "Winter": "Inverno"
+      }
+    }
+  },
+  "DND5E.Loot.Trade": "Bens de Troca",
+  "DND5E.FlagsAlertHintLegacy": "Concede +5 à Iniciativa.",
+  "DND5E.Gear": {
+    "Action": {
+      "Add": "Adiciona ao Equipamento",
+      "Remove": "Remove do Equipamento"
+    },
+    "Label": "Equipamento"
+  },
+  "DND5E.ITEM": {
+    "Category": {
+      "Label": "Categoria",
+      "Physical": "Físico"
+    },
+    "SECTIONS": {
+      "Activities": "Atividades",
+      "Advancement": "Avanço",
+      "Contents": "Conteúdo",
+      "Description": "Descrição",
+      "Details": "Detalhes",
+      "Effects": "Efeitos"
+    },
+    "Property": {
+      "Adamantine": "Adamantina",
+      "Ammunition": "Munição",
+      "Concentration": "Concentração",
+      "Finesse": "Acuidade",
+      "Firearm": "Arma de Fogo",
+      "Focus": "Foco Arcano",
+      "Gear": "Equipamento",
+      "Heavy": "Pesado",
+      "Light": "Leve",
+      "Loading": "Carregando",
+      "Material": "Material",
+      "Magical": "Mágico",
+      "Reach": "Alcance",
+      "Reload": "Recarga",
+      "Returning": "Retornando",
+      "Ritual": "Ritual",
+      "Sidekick": "Ajudante",
+      "Silvered": "Prata",
+      "Somatic": "Somático",
+      "Special": "Especial",
+      "StealthDisadvantage": "Desvantagem em Furtividade",
+      "Thrown": "Arremesso",
+      "Trait": "Traço Passivo",
+      "TwoHanded": "Duas mãos",
+      "Versatile": "Versátil",
+      "Verbal": "Verbal",
+      "WeightlessContents": "Conteúdo sem peso"
+    }
+  },
+  "DND5E.Quality": "Qualidade",
+  "DND5E.MOVEMENT": {
+    "Action": {
+      "Configure": "Configurar Deslocamento"
+    },
+    "FIELDS": {
+      "bonus": {
+        "label": "Bônus de Deslocamento"
+      },
+      "ignoredDifficultTerrain": {
+        "label": "Terreno Difícil Ignorado"
+      },
+      "special": {
+        "label": "Deslocamento Especial"
+      },
+      "speeds": {
+        "label": "Deslocamentos"
+      },
+      "units": {
+        "label": "Unidade"
+      }
+    },
+    "Hover": "Pairar",
+    "HoverSpeed": "{speed} (hover)",
+    "Speed": "Deslocamento",
+    "Type": {
+      "Burrow": "Escavação",
+      "Climb": "Escalada",
+      "Fly": "Voo",
+      "Jump": "Salto",
+      "Speed": "Deslocamento",
+      "Swim": "Natação",
+      "Walk": "Caminhada"
+    }
+  },
+  "DND5E.SkillTitle": "{ability} ({skill})",
+  "DND5E.SourceItem": {
+    "Label": "Fonte do Item",
+    "LockedHint": "A origem deste item é determinada automaticamente pelo item de concessão e não pode ser alterada."
+  },
+  "DND5E.SPELL": {
+    "Embed": {
+      "CastingTimeTrigger": "{castingTime}, o qual você inicia ao {trigger}",
+      "Tag": {
+        "Cantrip": "Truque de {school}",
+        "CantripLegacy": "truque de {school}",
+        "Classes": "{levelSchool} ({classes})",
+        "Leveled": "Círculo {level} {school}",
+        "LeveledLegacy": "{levelOrdinal}-level {school}",
+        "Ritual": "{levelSchool} (ritual)"
+      }
+    }
+  },
+  "DND5E.SpellAttackBonus": "Bônus de Ataque Mágico",
+  "DND5E.SpellComponentsMaterial": "{components} ({materials})",
+  "DND5E.TRAVEL": {
+    "FIELDS": {
+      "pace": {
+        "label": "Ritmo"
+      },
+      "time": {
+        "hint": "Número de horas de viagem por dia utilizado para converter a velocidade de viagem em ritmo.",
+        "label": "Horas por Dia"
+      }
+    },
+    "Label": "Ritmo de Viagem",
+    "Pace": {
+      "Fast": "Rápido",
+      "Normal": "Normal",
+      "Slow": "Lento"
+    },
+    "Per": {
+      "Day": "Por Dia",
+      "Hour": "Por Hora"
+    },
+    "Slowed": {
+      "Group": "O ritmo do grupo fica mais lento porque um dos membros tem sua velocidade reduzida pela metade ou menos.",
+      "Member": "Esse membro do grupo está diminuindo a velocidade do resto do grupo."
+    },
+    "Speed": "Velocidade de Viagem",
+    "Type": {
+      "Air": "Ar",
+      "Land": "Terra",
+      "Water": "Água"
+    }
+  }
 }
