@@ -2,10 +2,10 @@
   "id": "decito-dnd5e-pt-br",
   "title": "Translation: Português Brasileiro [D&D 5E](SRD)",
   "description": "Tradução para o Português do Brasil do sistema D&D 5E (SRD)",
-  "version": "4.0.0",
+  "version": "5.3.3.1",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -48,7 +48,7 @@
   "authors": [
     {
       "name": "decito",
-      "flags": {}
+      "url": "https://decito.dev"
     }
   ],
   "manifest": "https://github.com/decito/dnd5e-pt-br/releases/latest/download/module.json",
