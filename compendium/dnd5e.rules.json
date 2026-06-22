@@ -2,58 +2,69 @@
   "label": "Regras",
   "entries": {
     "Appendix A: Conditions": {
-      "name": "Apêndice A: Condições"
-    },
-    "Appendix B: Gods and the Multiverse": {
-      "name": "Apêndice B: Deuses e Multiverso"
-    },
-    "Appendix C: Creatures": {
-      "name": "Apêndice C: Criaturas"
-    },
-    "Appendix D: Senses and Speeds": {
-      "name": "Apêndice D: Sentidos e Deslocamento"
-    },
-    "Chapter 10: Spellcasting": {
-      "name": "Capítulo 10: Conjuração"
-    },
-    "Chapter 11: DM Tools": {
-      "name": "Capítulo 11: Ferramentas do DM"
-    },
-    "Chapter 1: Beyond 1st Level": {
-      "name": "Capítulo 1: Além do primeiro nível"
-    },
-    "Chapter 2: Races": {
-      "name": "Capítulo 2: Raças"
-    },
-    "Chapter 3: Classes": {
-      "name": "Capítulo 3: Classes"
-    },
-    "Chapter 4: Personality and Background": {
-      "name": "Capítulo 4: Personalidades e Antecedentes"
-    },
-    "Chapter 5: Equipment": {
-      "name": "Capítulo 5: Equipamento"
-    },
-    "Chapter 6: Customization Options": {
-      "name": "Capítulo 6: Opções de Personalização"
-    },
-    "Chapter 7: Using Ability Scores": {
-      "name": "Capítulo 7: Utilizando os Atributos"
-    },
-    "Chapter 8: Adventuring": {
-      "name": "Capítulo 8: Aventurando-se"
-    },
-    "Chapter 9: Combat": {
-      "name": "Capítulo 9: Combate"
-    },
-    "Disclaimer": {
-      "name": "Aviso"
-    },
-    "Magic Items A-Z": {
-      "name": "Itens Mágicos A-Z"
-    },
-    "Spells A-Z": {
-      "name": "Magias A-Z"
+      "name": "Apêndice A: Condições",
+      "pages": {
+        "Conditions": {
+          "name": "Condições",
+          "text": "<p>As condições especiais (ou simplesmente « condições ») influenciam as habilidades de uma criatura de várias maneiras. Elas podem resultar de um feitiço, de uma habilidade de classe, de um ataque de monstro ou de outro efeito. A maioria, como a condição cegante, prejudica o alvo, mas algumas, como a condição invisível, são mais benéficas.</p><p>Uma condição persiste até que seja encerrada (como ao se levantar da condição deitado) ou até que se chegue ao fim da duração indicada pelo efeito que impôs a condição.</p><p>Se vários efeitos impuserem a mesma condição a uma determinada criatura, cada aplicação da condição tem sua própria duração, mas os efeitos da condição não se acumulam. A condição afeta a criatura ou não a afeta.</p><p>As definições a seguir indicam o que acontece com uma criatura sujeita a uma determinada condição.</p>"
+        },
+        "Prone": {
+          "name": "Deitado",
+          "text": "<ul><li>Uma criatura deitada só pode se mover rastejando, a menos que se levante e assim termine a condição.</li><li>A criatura tem desvantagem em ataques.</li><li>Um ataque contra a criatura tem vantagem se o atacante estiver a 1,5 metros dela. Caso contrário, o ataque tem desvantagem.</li></ul>"
+        },
+        "Grappled": {
+          "name": "Agarrado",
+          "text": "<ul><li>Uma criatura agarrada tem sua velocidade reduzida a 0 e não pode se beneficiar de nenhum bônus de velocidade.</li><li>A condição termina se o « agarrador » for @UUID[.TpkZgLfxCmSndmpb]{neutralizado}.</li><li>A condição também termina se um efeito retirar a criatura agarrada da área de alcance do agarrador ou do efeito que a agarrou, por exemplo, quando uma criatura é empurrada pelo feitiço onda trovejante.</li></ul>"
+        },
+        "Deafened": {
+          "name": "Surdo",
+          "text": "<ul><li>Uma criatura surda não ouve nada e falha automaticamente em qualquer teste de habilidade que envolva audição.</li></ul>"
+        },
+        "Blinded": {
+          "name": "Cegante",
+          "text": "<ul><li>Uma criatura cegante não vê nada e falha automaticamente em qualquer teste de habilidade que envolva visão.</li><li>Os ataques contra a criatura têm vantagem, enquanto os da criatura têm desvantagem.</li></ul>"
+        },
+        "Charmed": {
+          "name": "Encantado",
+          "text": "<ul><li>Uma criatura encantada não pode atacar seu « encantador » nem o alvo com habilidades ou efeitos mágicos prejudiciais.</li><li>O encantador tem vantagem em testes de habilidade de interação social com a criatura.</li></ul>"
+        },
+        "Frightened": {
+          "name": "Aterrorizado",
+          "text": "<ul><li>Uma criatura aterrorizada tem desvantagem em testes de habilidade e em ataques enquanto a fonte de seu medo estiver em seu campo de visão.</li><li>A criatura não pode se aproximar voluntariamente da fonte de seu medo.</li></ul>"
+        },
+        "Poisoned": {
+          "name": "Envenenado",
+          "text": "<ul><li>Uma criatura envenenada tem desvantagem em ataques e em testes de habilidade.</li></ul>"
+        },
+        "Restrained": {
+          "name": "Entravado",
+          "text": "<ul><li>Uma criatura entravada vê sua velocidade cair para 0 e não pode se beneficiar de nenhum bônus de velocidade.</li><li>Os ataques contra a criatura têm vantagem, enquanto os da criatura têm desvantagem.</li><li>A criatura tem desvantagem em testes de resistência de Destreza.</li></ul>"
+        },
+        "Stunned": {
+          "name": "Atordoado",
+          "text": "<ul><li>Uma criatura atordoada está @UUID[.TpkZgLfxCmSndmpb]{neutralizada}, não pode se mover e gagueja se tentar falar.</li><li>Ela falha automaticamente em seus testes de resistência de Destreza e Força.</li><li>Os testes de ataque contra a criatura têm vantagem.</li></ul>"
+        },
+        "Unconscious": {
+          "name": "Inconsciente",
+          "text": "<ul><li>Uma criatura inconsciente está @UUID[.TpkZgLfxCmSndmpb]{neutralizada}, não pode falar nem se mover e não está ciente de seu ambiente.</li><li>A criatura solta tudo o que está segurando e cai no chão.</li><li>Ela falha automaticamente em seus testes de resistência de Destreza e Força.</li><li>Os testes de ataque contra a criatura têm vantagem.</li><li>Qualquer ataque que acerte a criatura é um acerto crítico se o atacante estiver a 1,50 m dela.</li></ul>"
+        },
+        "Invisible": {
+          "name": "Invisível",
+          "text": "<ul><li>Não se pode ver uma criatura invisível, a menos que se tenha magia adequada ou sentidos específicos. Se tentar se esconder, a criatura é considerada em uma zona de visibilidade nula. Pode-se detectar a posição da criatura com base nos ruídos que ela produz ou nas marcas que deixa.</li><li>Os testes de ataque contra a criatura têm desvantagem, enquanto os da criatura têm vantagem.</li></ul>"
+        },
+        "Incapacitated": {
+          "name": "Neutralizada",
+          "text": "<ul><li>Uma criatura neutralizada não pode realizar ações nem reações.</li></ul>"
+        },
+        "Paralyzed": {
+          "name": "Paralisada",
+          "text": "<ul><li>Uma criatura paralisada está @UUID[.TpkZgLfxCmSndmpb]{neutralizada} e não pode falar nem se mover.</li><li>Ela falha automaticamente em seus testes de resistência de Destreza e Força.</li><li>Os testes de ataque contra a criatura têm vantagem.</li><li>Qualquer ataque que acerte a criatura é um acerto crítico se o atacante estiver a 1,50 m dela.</li></ul>"
+        },
+        "Petrified": {
+          "name": "PPetrificada",
+          "text": "<ul><li>Uma criatura petrificada é transformada em matéria sólida e inerte (geralmente pedra), assim como todo o equipamento não mágico que ela carrega. Seu peso é multiplicado por dez e a criatura não está mais sujeita ao envelhecimento.</li><li>A criatura está @UUID[.TpkZgLfxCmSndmpb]{neutralizada}, não pode falar nem se mover, e não está ciente de seu ambiente.</li><li>Os testes de ataque contra a criatura têm vantagem.</li><li>Ela falha automaticamente em seus testes de resistência de Destreza e Força.</li><li>A criatura tem resistência a todos os tipos de dano.</li><li>Ela é imune a venenos e doenças, mas um veneno ou doença que já afete seu corpo é apenas interrompido, e não completamente eliminado.</li></ul>"
+        }
+      }
     }
   }
 }
