@@ -1966,7 +1966,7 @@
   "DND5E.CoverThreeQuarters": "Three Quarters",
   "DND5E.CoverTotal": "Total",
   "DND5E.Cost": "Cost",
-  "DND5E.CostGP": "Cost (GP)",
+  "DND5E.CostGP": "Cost (PO)",
   "DND5E.CreatureAberration": "Aberration",
   "DND5E.CreatureAberrationPl": "Aberrations",
   "DND5E.CreatureBeast": "Beast",
@@ -4284,7 +4284,7 @@
     },
     "Wealth": {
       "Label": "Starting Wealth",
-      "Hint": "Formula in GP that can be used in place of starting equipment."
+      "Hint": "Formula in PO that can be used in place of starting equipment."
     }
   },
   "DND5E.SubclassAdd": "Add Subclass",
