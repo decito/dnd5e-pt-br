@@ -100,21 +100,21 @@
       "description": "<p>Uma lanterna de foca usa óleo como combustível para emitir luz plena em um cone de 18 metros e meia-luz por mais 18 metros.</p>"
     },
     "Ball Bearings": {
-      "name": "Ball Bearings",
-      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
+      "name": "Esferas de Metal",
+      "description": "<p>Como uma ação Usar Objeto, você pode derramar Esferas de Metal de sua algibeira. Elas se espalham para cobrir uma área nivelada quadrada de 3 metros de lados a até 3 metros de você. Uma criatura que entra nesta área pela primeira vez em um turno deve ser bem-sucedida em uma salvaguarda de Destreza CD 10 ou tem a condição &Reference[Prone]. Leva 10 minutos para recolher as Esferas de Metal.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Recuperar Esferas de Metal</strong> concede mais uma utilização deste item.</p></section>",
       "effects": {
         "Tripped": {
-          "name": "Tripped"
+          "name": "Tropeçou"
         }
       }
     },
     "Torch": {
-      "name": "Torch",
-      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
+      "name": "Tocha",
+      "description": "<p>Uma Tocha entra em combustão por 1 hora, emitindo Luz Plena em um raio de 6 metros e Meia-luz por mais 6 metros. Ao executar a ação Atacar, você pode atacar com a Tocha, usando-a como uma arma Simples Corpo a Corpo. Em caso de acerto, o alvo sofre 1 ponto de dano Ígneo.</p>"
     },
     "Crowbar": {
-      "name": "Crowbar",
-      "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.</p>"
+      "name": "Pé de Cabra",
+      "description": "<p>Usar um pé de cabra concede vantagem em testes de Força em que a alavanca do pé de cabra pode ser aplicada.</p>"
     },
     "Map or Scroll Case": {
       "name": "Map or Scroll Case",
@@ -125,8 +125,8 @@
       "description": "<p>Um espelho de aço portátil é útil para cosméticos pessoais, como também para espiar pelos cantos e refletir a luz como um sinal.</p>"
     },
     "Ink": {
-      "name": "Ink",
-      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
+      "name": "Tinta",
+      "description": "<p>A tinta vem em uma garrafa de 30 mililitros, o suficiente para escrever 500 páginas.</p>"
     },
     "Wand of the War Mage, +1, +2, or +3": {
       "name": "Wand of the War Mage, +1, +2, or +3",
@@ -231,10 +231,10 @@
     },
     "Air Ring of Elemental Command": {
       "name": "Air Ring of Elemental Command",
-      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Air</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr></tbody></table>",
+      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Air</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Queda Suave} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "Enfeitiçado"
         },
         "Air Focus": {
           "name": "Air Focus",
@@ -332,7 +332,7 @@
       "description": "<p><em>Armor (Any Light, Medium, or Heavy), Rare (+1), Very Rare (+2), or Legendary (+3)</em></p><p>You have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Armor +1": {
-          "name": "Armor +1",
+          "name": "Armadura +1",
           "changes": {
             "name": "{} +1",
             "system.rarity": "rare",
@@ -701,11 +701,11 @@
     },
     "Belt of Dwarvenkind": {
       "name": "Belt of Dwarvenkind",
-      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While wearing this belt, you gain the following benefits:</p><div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p></div><p>In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.</p><p>If you aren't a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 18 metros.</p><p><strong>Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p></div>",
+      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While wearing this belt, you gain the following benefits:</p><div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p></div><p>In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.</p><p>If you aren't a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 18 metros.</p><p><strong>Resilience.</strong> Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p></div>",
       "effects": {
         "Dwarvenkind Benefits": {
           "name": "Dwarvenkind Benefits",
-          "description": "<div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p><p>If you aren’t a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 18 metros.</p><p><strong>Resilience.</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p></div></div>",
+          "description": "<div class=\"def-block\"><p><strong>Dwarvish.</strong> You know Dwarvish.</p><p><strong>Friend of Dwarvenkind.</strong> You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.</p><p><strong>Toughness.</strong> Your Constitution increases by 2, to a maximum of 20.</p><p>If you aren’t a dwarf or duergar, you gain the following additional benefits while wearing the belt:</p><div class=\"def-block\"><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 18 metros.</p><p><strong>Resilience.</strong> Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p></div></div>",
           "changes": {
             "system.traits.languages.value": "dwarvish",
             "system.abilities.con.value": 20,
@@ -721,7 +721,7 @@
     },
     "Berserker Axe": {
       "name": "Berserker Axe",
-      "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.</p><section class=\"secret\" id=\"secret-kIoBCQDeN3tTKast\"><p><strong>Curse.</strong> This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.</p><p>Whenever another creature damages you while the weapon is in your possession, you must succeed on a [[/save ability=wis dc=15 format=long]] or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.</p><p>While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.</p></section></div><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Machado Grande} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.</p><section class=\"secret\" id=\"secret-kIoBCQDeN3tTKast\"><p><strong>Curse.</strong> This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.</p><p>Whenever another creature damages you while the weapon is in your possession, you must succeed on a [[/save ability=wis dc=15 format=long]] or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.</p><p>While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.</p></section></div><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Berserker HP Increase": {
           "name": "Berserker HP Increase",
@@ -885,11 +885,11 @@
     },
     "Brooch of Shielding": {
       "name": "Brooch of Shielding",
-      "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>",
+      "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos}</em> spell.</p>",
       "effects": {
         "Resistance: Force": {
           "name": "Resistance: Force",
-          "description": "<p>Additionally, you have Immunity to damage from the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>",
+          "description": "<p>Additionally, you have Immunity to damage from the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos}</em> spell.</p>",
           "changes": {
             "system.traits.dr.value": "force"
           }
@@ -1074,7 +1074,7 @@
     },
     "Cube of Force": {
       "name": "Cube of Force",
-      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>This cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.</p><p>The cube starts with 10 charges, and it regains 1d6 <span class=\"no-break\">expended</span> charges daily at dawn.</p><table><caption>Cube of Force Faces</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsTi]{Tiny Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbPrivateSanctu]{Private Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplOtilukesRe]{Resilient Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}</em></td><td>5</td></tr></tbody></table>"
+      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>This cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.</p><p>The cube starts with 10 charges, and it regains 1d6 <span class=\"no-break\">expended</span> charges daily at dawn.</p><table><caption>Cube of Force Faces</caption><thead><tr><td>Spell</td><td>Charge Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Armadura Arcana}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsTi]{Tiny Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbPrivateSanctu]{Private Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplOtilukesRe]{Resilient Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}</em></td><td>5</td></tr></tbody></table>"
     },
     "Cubic Gate": {
       "name": "Cubic Gate",
@@ -1103,7 +1103,7 @@
     },
     "Dancing Sword": {
       "name": "Dancing Sword",
-      "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}), Very Rare (Requires Attunement)</em></p></div><p>You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.</p><p>While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.</p><p>After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Espada Curta}), Very Rare (Requires Attunement)</em></p></div><p>You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.</p><p>While the weapon hovers, you can take a Bonus Action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same Bonus Action, you can cause the weapon to attack one creature within 5 feet of the weapon.</p><p>After the hovering weapon attacks for the fourth time, it flies back to you and tries to return to your hand. If you have no hand free, the weapon falls to the ground in your space. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or are more than 30 feet away from it.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Dancing Sword": {
           "name": "Dancing Sword",
@@ -1302,7 +1302,7 @@
       "description": "<p> Permanently reduce your Intelligence or Wisdom by 1d4 + 1 (to a minimum score of 1). You can draw one additional card beyond your declared draws.</p>"
     },
     "Rogue": {
-      "name": "Rogue",
+      "name": "Ladino",
       "description": "<p> An NPC of the DM's choice becomes Hostile toward you. You don't know the identity of this NPC until they or someone else reveals it. Nothing less than a <em>Wish</em> spell or divine intervention can end the NPC's hostility toward you.</p>",
       "effects": {
         "Rogue Card: Hostility": {
@@ -1316,7 +1316,7 @@
       "description": "<p>All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.</p>"
     },
     "Sage": {
-      "name": "Sage",
+      "name": "Sábio",
       "description": "<p> At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question.</p>"
     },
     "Skull": {
@@ -1547,7 +1547,7 @@
       "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Earth</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone} (3 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "Enfeitiçado"
         },
         "Earth Focus": {
           "name": "Earth Focus",
@@ -1565,7 +1565,7 @@
     },
     "Efreeti Chain": {
       "name": "Efreeti Chain",
-      "description": "<p><em>Armor (@UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail} or @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Cota de malha parcial}), Legendary (Requires Attunement)</em></p><p>While wearing this armor, you gain a +3 bonus to Armor Class, you have Immunity to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Armor (@UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Cota de Malha} or @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Cota de malha parcial}), Legendary (Requires Attunement)</em></p><p>While wearing this armor, you gain a +3 bonus to Armor Class, you have Immunity to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Efreeti Bonuses: Resistance, Primordial, Movement": {
           "name": "Efreeti Bonuses: Resistance, Primordial, Movement",
@@ -1598,7 +1598,7 @@
     },
     "Elven Chain": {
       "name": "Elven Chain",
-      "description": "<p><em>Armor (@UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail} or @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Cota de malha parcial}), Rare</em></p><p>You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Armor (@UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Cota de Malha} or @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Cota de malha parcial}), Rare</em></p><p>You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Elven Chain": {
           "name": "Elven Chain",
@@ -1619,7 +1619,7 @@
     },
     "Energy Bow": {
       "name": "Energy Bow",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, which has no string. Each time you pull your arm back in a firing motion, a magical arrow made of golden energy appears nocked and ready to fire. An arrow produced by this weapon deals Force damage instead of Piercing damage on a hit, and it disappears after it hits or misses its target. Until it disappears, the arrow emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p>This weapon has the following additional properties.</p><details><summary><strong>Arrow of Restraint.</strong></summary><p>Whenever you use this weapon to make a ranged attack against a creature, you can try to restrain the target instead of dealing damage to it. If the arrow hits, the target must succeed on a [[/save ability=str dc=15 format=long]] or have the &Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p></details><details><summary><strong>Arrow of Transport.</strong></summary><p>As a Magic action, you can fire one energy arrow from this weapon at a target you can see within 60 feet of yourself. The target can be either a willing Medium or smaller creature or an object that isn't being worn or carried, provided the object is small enough to fit inside a 5-foot Cube. The arrow teleports the target to an unoccupied space you can see within 10 feet of you.</p></details><details><summary><strong>Energy Ladder.</strong></summary><p>As a Magic action, you can loose a flurry of energy arrows from this weapon at a wall up to 60 feet away from yourself. The arrows become glowing rungs that stick out of the wall, forming a magical ladder up to 60 feet long on the wall. This ladder lasts for 1 minute before disappearing.</p></details><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Arco Longo} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}), Very Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, which has no string. Each time you pull your arm back in a firing motion, a magical arrow made of golden energy appears nocked and ready to fire. An arrow produced by this weapon deals Force damage instead of Piercing damage on a hit, and it disappears after it hits or misses its target. Until it disappears, the arrow emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p>This weapon has the following additional properties.</p><details><summary><strong>Arrow of Restraint.</strong></summary><p>Whenever you use this weapon to make a ranged attack against a creature, you can try to restrain the target instead of dealing damage to it. If the arrow hits, the target must succeed on a [[/save ability=str dc=15 format=long]] or have the &Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p></details><details><summary><strong>Arrow of Transport.</strong></summary><p>As a Magic action, you can fire one energy arrow from this weapon at a target you can see within 60 feet of yourself. The target can be either a willing Medium or smaller creature or an object that isn't being worn or carried, provided the object is small enough to fit inside a 5-foot Cube. The arrow teleports the target to an unoccupied space you can see within 10 feet of you.</p></details><details><summary><strong>Energy Ladder.</strong></summary><p>As a Magic action, you can loose a flurry of energy arrows from this weapon at a wall up to 60 feet away from yourself. The arrows become glowing rungs that stick out of the wall, forming a magical ladder up to 60 feet long on the wall. This ladder lasts for 1 minute before disappearing.</p></details><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Energy Bow": {
           "name": "Energy Bow",
@@ -1657,7 +1657,7 @@
     },
     "Eyes of Charming": {
       "name": "Eyes of Charming",
-      "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell's level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.</p>"
+      "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Enfeitiçar Pessoa}</em> (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell's level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.</p>"
     },
     "Eyes of Minute Seeing": {
       "name": "Eyes of Minute Seeing",
@@ -1707,7 +1707,7 @@
       "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "Enfeitiçado"
         },
         "Fire Focus": {
           "name": "Fire Focus",
@@ -1765,7 +1765,7 @@
     },
     "Frost Brand": {
       "name": "Frost Brand",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}), Very Rare (Requires Attunement)</em></p><p>When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.</p><p>In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Espada Curta}), Very Rare (Requires Attunement)</em></p><p>When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.</p><p>In freezing temperatures, the weapon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Frost Brand": {
           "name": "Frost Brand",
@@ -1994,7 +1994,7 @@
     },
     "Hat of Many Spells": {
       "name": "Hat of Many Spells",
-      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement by a Wizard)</em></p><p>This pointed hat has the following properties.</p><p><em><strong>Spellcasting Focus.</strong></em> While holding the hat, you can use it as a Spellcasting Focus for your Wizard spells. Any spell you cast using the hat gains a special Somatic component: you must reach into the hat and \"pull\" the spell out of it.</p><p><em><strong>Unknown Spell.</strong></em> While holding the hat, you can try to cast a level 1+ spell you don't know. The spell must be on the Wizard spell list, it must be of a level you can cast, and it can't have Material components costing more than 1,000 PO. Once you decide on the spell, you must expend a spell slot of the spell's level. Then, to determine whether you cast the spell, make an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell using its normal casting time, and you can't use this property again until you finish a Short or Long Rest. On a failed check, you fail to cast the spell and a random effect occurs instead, determined by rolling on the following table.</p><p>Any spell you cast from the hat uses your spell save DC and spell attack bonus.</p><details><summary>Roll Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgHatOfManySpel caption=false rollable]</p></details>"
+      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement by a Wizard)</em></p><p>This pointed hat has the following properties.</p><p><em><strong>Foco de Conjuração.</strong></em> While holding the hat, you can use it as a Spellcasting Focus for your Wizard spells. Any spell you cast using the hat gains a special Somatic component: you must reach into the hat and \"pull\" the spell out of it.</p><p><em><strong>Unknown Spell.</strong></em> While holding the hat, you can try to cast a level 1+ spell you don't know. The spell must be on the Wizard spell list, it must be of a level you can cast, and it can't have Material components costing more than 1,000 PO. Once you decide on the spell, you must expend a spell slot of the spell's level. Then, to determine whether you cast the spell, make an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell using its normal casting time, and you can't use this property again until you finish a Short or Long Rest. On a failed check, you fail to cast the spell and a random effect occurs instead, determined by rolling on the following table.</p><p>Any spell you cast from the hat uses your spell save DC and spell attack bonus.</p><details><summary>Roll Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgHatOfManySpel caption=false rollable]</p></details>"
     },
     "Headband of Intellect": {
       "name": "Headband of Intellect",
@@ -2010,7 +2010,7 @@
     },
     "Helm of Brilliance": {
       "name": "Helm of Brilliance",
-      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>This helm is set with [[/r 1d10 # Diamonds]] diamonds, [[/r 2d10 # Rubies]] rubies, [[/r 3d10 # Fire Opals]] fire opals, and [[/r 4d10 # Opals]] opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.</p><p>You gain the following benefits while wearing the helm.</p><p><em><strong>Diamond Light.</strong></em> As long as it has at least one diamond, the helm emits a 30-foot Emanation. When at least one Undead is within that area, the Emanation is filled with Dim Light. Any Undead that starts its turn in that area takes 1d6 Radiant damage.</p><p><em><strong>Fire Opal Flames.</strong></em> As long as the helm has at least one fire opal, you can take a Magic action to cause one weapon you are holding to burst into flames. The flames emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 Fire damage. The flames last until you take a Bonus Action to extinguish them or until you drop or stow the weapon.</p><p><em><strong>Ruby Resistance.</strong></em> As long as the helm has at least one ruby, you have Resistance to Fire damage.</p><p><em><strong>Spells.</strong></em> You can cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} (opal), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (fire opal), @UUID[Compendium.dnd5e.spells24.Item.phbsplPrismaticS]{Prismatic Spray} (diamond), or @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (ruby). The gem is destroyed when the spell is cast and disappears from the helm.</p><p><em><strong>Taking Fire Damage.</strong></em> Roll [[/r 1d20]] if you are wearing the helm and take Fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems and is then destroyed. Each creature within a 60-foot Emanation originating from you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking Radiant damage equal to the number of gems in the helm.</p><p><strong>Diamonds:</strong></p><p><strong>Rubies:</strong></p><p><strong>Fire Opals:</strong></p><p><strong>Opals:</strong></p><section class=\"secret\" id=\"secret-WLySYxWw3x7ifRjR\"><p><strong>Nota do Foundry</strong></p><p>You can track the number of each gem in the description.</p><p>If you roll a 1 as part of the <em><strong>Taking Fire Damage</strong></em> property use the <strong>Explosive Emanation</strong> activity. It will allow you to enter the number of gems remaining in the helm and increase the damage automatically.</p></section>",
+      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>This helm is set with [[/r 1d10 # Diamonds]] diamonds, [[/r 2d10 # Rubies]] rubies, [[/r 3d10 # Fire Opals]] fire opals, and [[/r 4d10 # Opals]] opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.</p><p>You gain the following benefits while wearing the helm.</p><p><em><strong>Diamond Light.</strong></em> As long as it has at least one diamond, the helm emits a 30-foot Emanation. When at least one Undead is within that area, the Emanation is filled with Dim Light. Any Undead that starts its turn in that area takes 1d6 Radiant damage.</p><p><em><strong>Fire Opal Flames.</strong></em> As long as the helm has at least one fire opal, you can take a Magic action to cause one weapon you are holding to burst into flames. The flames emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 Fire damage. The flames last until you take a Bonus Action to extinguish them or until you drop or stow the weapon.</p><p><em><strong>Ruby Resistance.</strong></em> As long as the helm has at least one ruby, you have Resistance to Fire damage.</p><p><em><strong>Spells.</strong></em> You can cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} (opal), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (fire opal), @UUID[Compendium.dnd5e.spells24.Item.phbsplPrismaticS]{Prismatic Spray} (diamond) ou @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (ruby). The gem is destroyed when the spell is cast and disappears from the helm.</p><p><em><strong>Taking Fire Damage.</strong></em> Roll [[/r 1d20]] if you are wearing the helm and take Fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems and is then destroyed. Each creature within a 60-foot Emanation originating from you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking Radiant damage equal to the number of gems in the helm.</p><p><strong>Diamonds:</strong></p><p><strong>Rubies:</strong></p><p><strong>Fire Opals:</strong></p><p><strong>Opals:</strong></p><section class=\"secret\" id=\"secret-WLySYxWw3x7ifRjR\"><p><strong>Nota do Foundry</strong></p><p>You can track the number of each gem in the description.</p><p>If you roll a 1 as part of the <em><strong>Taking Fire Damage</strong></em> property use the <strong>Explosive Emanation</strong> activity. It will allow you to enter the number of gems remaining in the helm and increase the damage automatically.</p></section>",
       "effects": {
         "Burst Into Flames": {
           "name": "Burst Into Flames"
@@ -2174,7 +2174,7 @@
     },
     "Iron Flask": {
       "name": "Iron Flask",
-      "description": "<p><em>Wondrous Item, Legendary</em></p><p>While holding this brass-stoppered iron flask, you can take a Magic action to target a creature that you can see within 60 feet of yourself. If the flask is empty and the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has Advantage on the save. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't age and doesn't need to breathe, eat, or drink.</p><p>You can take a Magic action to remove the flask's stopper and release the creature in the flask. The creature then obeys your commands for 1 hour, understanding those commands even if it doesn't know the language in which the commands are given. If you issue no commands or give the creature a command that is likely to result in its death or imprisonment, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.</p><p>An @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify} spell reveals if the flask contains a creature, but the only way to determine the type of creature is to open the flask. A newly discovered <em>Iron Flask</em> might already contain a creature chosen by the GM.</p><section class=\"secret\" id=\"secret-LJ4Og6JjdncKvEKV\"><p><strong>Nota do Foundry</strong></p><p>This item has one limited use for tracking whether or not a creature has been trapped in the flask.</p><p>The <strong>Add Trapped Creature</strong> activity expends a usage to indicate it is currently full.</p><p>The <strong>Release Trapped Creature</strong> activity is a summon activity which restores a usage to indicate it can now contain another creature. You can edit the activity, change to the \"Summon\" tab and drag the captured creature's Actor onto the tab so it can be summoned later.</p></section>"
+      "description": "<p><em>Wondrous Item, Legendary</em></p><p>While holding this brass-stoppered iron flask, you can take a Magic action to target a creature that you can see within 60 feet of yourself. If the flask is empty and the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has Advantage on the save. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't age and doesn't need to breathe, eat, or drink.</p><p>You can take a Magic action to remove the flask's stopper and release the creature in the flask. The creature then obeys your commands for 1 hour, understanding those commands even if it doesn't know the language in which the commands are given. If you issue no commands or give the creature a command that is likely to result in its death or imprisonment, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.</p><p>An @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identificar} spell reveals if the flask contains a creature, but the only way to determine the type of creature is to open the flask. A newly discovered <em>Iron Flask</em> might already contain a creature chosen by the GM.</p><section class=\"secret\" id=\"secret-LJ4Og6JjdncKvEKV\"><p><strong>Nota do Foundry</strong></p><p>This item has one limited use for tracking whether or not a creature has been trapped in the flask.</p><p>The <strong>Add Trapped Creature</strong> activity expends a usage to indicate it is currently full.</p><p>The <strong>Release Trapped Creature</strong> activity is a summon activity which restores a usage to indicate it can now contain another creature. You can edit the activity, change to the \"Summon\" tab and drag the captured creature's Actor onto the tab so it can be summoned later.</p></section>"
     },
     "Iron Horn of Valhalla": {
       "name": "Iron Horn of Valhalla",
@@ -2231,7 +2231,7 @@
     },
     "Luck Blade": {
       "name": "Luck Blade",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Foice}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}), Legendary (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.</p><p><strong>Luck.</strong> If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don't have the Incapacitated condition. You must use the second roll. Once used, this property can't be used again until the next dawn.</p><p><strong>Wish.</strong> The weapon has [[/r 1d3#Initial Charges]] charges. While holding it, you can expend 1 charge and cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Foice} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Espada Curta}), Legendary (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.</p><p><strong>Sorte.</strong> If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don't have the Incapacitated condition. You must use the second roll. Once used, this property can't be used again until the next dawn.</p><p><strong>Wish.</strong> The weapon has [[/r 1d3#Initial Charges]] charges. While holding it, you can expend 1 charge and cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Luck Blade": {
           "name": "Luck Blade",
@@ -2419,7 +2419,7 @@
     },
     "Oathbow": {
       "name": "Oathbow",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very Rare (Requires Attunement)</em></p><p>When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can utter or sign the following command words: \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn 7 days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.</p><p>When you make a ranged attack roll with this weapon against your sworn enemy, you have Advantage on the roll. In addition, your target gains no benefit from Half Cover or Three-Quarters Cover, and you suffer no Disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6 Piercing damage.</p><p>While your sworn enemy lives, you have Disadvantage on attack rolls with all other weapons.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Arco Longo} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}), Very Rare (Requires Attunement)</em></p><p>When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can utter or sign the following command words: \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn 7 days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.</p><p>When you make a ranged attack roll with this weapon against your sworn enemy, you have Advantage on the roll. In addition, your target gains no benefit from Half Cover or Three-Quarters Cover, and you suffer no Disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6 Piercing damage.</p><p>While your sworn enemy lives, you have Disadvantage on attack rolls with all other weapons.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Oathbow": {
           "name": "Oathbow",
@@ -2488,10 +2488,10 @@
     },
     "Dragon Orb": {
       "name": "Dragon Orb",
-      "description": "<p><em>Wondrous Item, Artifact (Requires Attunement)</em></p><section class=\"secret\" id=\"secret-giR5yoa8kkJFGmuP\"><p>While attuned to an orb, you can take a Magic action to peer into the orb's depths. You must then make a DC 15 Charisma saving throw. On a successful save, you control the orb for as long as you remain attuned to it. On a failed save, the orb imposes the Charmed condition on you for as long as you remain attuned to it.</p><p>While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion} on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.</p><p><em><strong>Destroying an Orb.</strong></em> An <em>Dragon Orb</em> has AC 20 and is destroyed if it takes damage from a <em>+3 Weapon</em> or a @UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate} spell. Nothing else can harm it.</p></section><p>An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.</p><p><em><strong>Spells.</strong></em> The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar Ferimentos} (level 9 version)</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death Ward}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying} (save DC 18)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Call Dragons.</strong></em> While you control the orb, you can take a Magic action to cause the orb to issue a telepathic call that extends in all directions for 40 miles. Chromatic dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Chromatic dragons drawn to the orb might be Hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.</p>",
+      "description": "<p><em>Wondrous Item, Artifact (Requires Attunement)</em></p><section class=\"secret\" id=\"secret-giR5yoa8kkJFGmuP\"><p>While attuned to an orb, you can take a Magic action to peer into the orb's depths. You must then make a DC 15 Charisma saving throw. On a successful save, you control the orb for as long as you remain attuned to it. On a failed save, the orb imposes the Charmed condition on you for as long as you remain attuned to it.</p><p>While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion} on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular society or organization, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.</p><p><em><strong>Destroying an Orb.</strong></em> An <em>Dragon Orb</em> has AC 20 and is destroyed if it takes damage from a <em>+3 Weapon</em> or a @UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate} spell. Nothing else can harm it.</p></section><p>An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.</p><p><em><strong>Spells.</strong></em> The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Curar Ferimentos} (level 9 version)</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death Ward}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying} (save DC 18)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Call Dragons.</strong></em> While you control the orb, you can take a Magic action to cause the orb to issue a telepathic call that extends in all directions for 40 miles. Chromatic dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Chromatic dragons drawn to the orb might be Hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "Enfeitiçado"
         }
       }
     },
@@ -2841,7 +2841,7 @@
     },
     "Ring of Elemental Command": {
       "name": "Ring of Elemental Command",
-      "description": "<p><em>Ring, Legendary (Requires Attunement)</em></p><p>Each Ring of Elemental Command is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane. For example, a Ring of Elemental Command (air) is linked to the Elemental Plane of Air.</p><p>Every Ring of Elemental Command has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the Charmed condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><strong>Elemental Focus.</strong> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><strong>Spellcasting.</strong> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><td><p>Plane</p></td><td><p>Spells (Charges)</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAirRingOfElem]{Air Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEarthRingOfEl]{Earth Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFireRingOfEle]{Fire Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWaterRingOfEl]{Water Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>"
+      "description": "<p><em>Ring, Legendary (Requires Attunement)</em></p><p>Each Ring of Elemental Command is linked to one of the four Elemental Planes. The DM chooses or randomly determines the linked plane. For example, a Ring of Elemental Command (air) is linked to the Elemental Plane of Air.</p><p>Every Ring of Elemental Command has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the Charmed condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><strong>Elemental Focus.</strong> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><strong>Spellcasting.</strong> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><td><p>Plane</p></td><td><p>Spells (Charges)</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAirRingOfElem]{Air Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Queda Suave} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEarthRingOfEl]{Earth Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFireRingOfEle]{Fire Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWaterRingOfEl]{Water Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>"
     },
     "Ring of Evasion": {
       "name": "Ring of Evasion",
@@ -3124,7 +3124,7 @@
     },
     "Robe of Eyes": {
       "name": "Robe of Eyes",
-      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:</p><p><strong>All-Around Vision.</strong> The robe gives you Advantage on Wisdom (Perception) checks that rely on sight.</p><p><strong>Special Senses.</strong> You have Darkvision and Truesight, both with a range of 120 feet.</p><p><em><strong>Drawbacks.</strong></em> A<em> </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} spell cast on the robe or a @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} spell cast within 5 feet of the robe gives you the &Reference[Blinded] condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for <em>Light</em> or DC 15 for <em>Daylight</em>), ending the condition on yourself on a success.</p>",
+      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:</p><p><strong>All-Around Vision.</strong> The robe gives you Advantage on Wisdom (Perception) checks that rely on sight.</p><p><strong>Special Senses.</strong> You have Darkvision and Truesight, both with a range of 120 feet.</p><p><em><strong>Drawbacks.</strong></em> A<em> </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Luz} spell cast on the robe or a @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} spell cast within 5 feet of the robe gives you the &Reference[Blinded] condition for 1 minute. At the end of each of your turns, you make a Constitution saving throw (DC 11 for <em>Light</em> or DC 15 for <em>Daylight</em>), ending the condition on yourself on a success.</p>",
       "effects": {
         "Special Senses": {
           "name": "Special Senses",
@@ -3146,7 +3146,7 @@
     },
     "Robe of Stars": {
       "name": "Robe of Stars",
-      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.</p><p>Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}. Daily at dusk, 1d6 removed stars reappear on the robe.</p><p>While you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.</p><section class=\"secret\" id=\"secret-a1r37HVL7VTqMrwu\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Enter/Exit Astral Plane</strong> activity includes a 5 foot measured template that can be used to mark where you exited the Astral Plane for tracking.</p></section>",
+      "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.</p><p>Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos}. Daily at dusk, 1d6 removed stars reappear on the robe.</p><p>While you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.</p><section class=\"secret\" id=\"secret-a1r37HVL7VTqMrwu\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Enter/Exit Astral Plane</strong> activity includes a 5 foot measured template that can be used to mark where you exited the Astral Plane for tracking.</p></section>",
       "effects": {
         "Robe of Stars": {
           "name": "Robe of Stars",
@@ -3187,7 +3187,7 @@
     },
     "Rod of Alertness": {
       "name": "Rod of Alertness",
-      "description": "<p><em>Rod, Very Rare (Requires Attunement)</em></p><p>This rod has the following properties.</p><p><strong>Alertness.</strong> While holding the rod, you have Advantage on Wisdom (Perception) checks and on Initiative rolls.</p><p><strong>Spells.</strong> While holding the rod, you can cast the following spells from it:</p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectPois]{Detect Poison and Disease}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplSeeInvisib]{See Invisibility}</p></li></ul><p><strong>Protective Aura.</strong> As a Magic action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. While in that Bright Light, you and your allies gain a +1 bonus to Armor Class and saving throws and can sense the location of any Invisible creature that is also in the Bright Light.</p><p>The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a Magic action to pull the rod from the ground. Once used, this property can't be used again until the next dawn.</p><section class=\"secret\" id=\"secret-jGrucoqKAFLoFtqT\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Plant Rod</strong> activity can be used to place a 60 foot template representing the Bright Light radius. It includes an Active Effect which can be applied to the relevant Actors and adds the +1 bonus to AC and Saving Throws.</p></section>",
+      "description": "<p><em>Rod, Very Rare (Requires Attunement)</em></p><p>This rod has the following properties.</p><p><strong>Alertness.</strong> While holding the rod, you have Advantage on Wisdom (Perception) checks and on Initiative rolls.</p><p><strong>Spells.</strong> While holding the rod, you can cast the following spells from it:</p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectPois]{Detect Poison and Disease}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplSeeInvisib]{See Invisibility}</p></li></ul><p><strong>Protective Aura.</strong> As a Magic action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. While in that Bright Light, you and your allies gain a +1 bonus to Armor Class and saving throws and can sense the location of any Invisible creature that is also in the Bright Light.</p><p>The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a Magic action to pull the rod from the ground. Once used, this property can't be used again until the next dawn.</p><section class=\"secret\" id=\"secret-jGrucoqKAFLoFtqT\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Plant Rod</strong> activity can be used to place a 60 foot template representing the Bright Light radius. It includes an Active Effect which can be applied to the relevant Actors and adds the +1 bonus to AC and Saving Throws.</p></section>",
       "effects": {
         "Protective Aura": {
           "name": "Protective Aura",
@@ -3263,7 +3263,7 @@
     },
     "Scimitar of Speed": {
       "name": "Scimitar of Speed",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}), Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.</p>"
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra}), Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.</p>"
     },
     "Sending Stones": {
       "name": "Sending Stones",
@@ -3539,7 +3539,7 @@
     },
     "Staff of Charming": {
       "name": "Staff of Charming",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges. While holding the staff, you can use any of its properties:</p><p><strong>Cast Spell.</strong> You can expend 1 of the staff's charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Command}, or @UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend Languages} from it using your spell save DC.</p><p><strong>Reflect Enchantment.</strong> If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.</p><p><strong>Resist Enchantment.</strong> If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.</p><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.</p>"
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges. While holding the staff, you can use any of its properties:</p><p><strong>Cast Spell.</strong> You can expend 1 of the staff's charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Enfeitiçar Pessoa}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Command} ou @UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend Languages} from it using your spell save DC.</p><p><strong>Reflect Enchantment.</strong> If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a Reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.</p><p><strong>Resist Enchantment.</strong> If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn.</p><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles to dust and is destroyed.</p>"
     },
     "Staff of Fire": {
       "name": "Staff of Fire",
@@ -3571,7 +3571,7 @@
     },
     "Staff of Power": {
       "name": "Staff of Power",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGlobeofInv]{Globe of Invulnerability}</p></td><td><p>6</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}</p></td><td><p>5</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains [[/r 1d8 + 2]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p>",
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGlobeofInv]{Globe of Invulnerability}</p></td><td><p>6</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 5 version)</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}</p></td><td><p>5</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains [[/r 1d8 + 2]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p>",
       "effects": {
         "Staff of Power": {
           "name": "Staff of Power",
@@ -3594,7 +3594,7 @@
     },
     "Staff of the Magi": {
       "name": "Staff of the Magi",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 50 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.</p><p><em><strong>Spell Absorption.</strong></em> While holding the staff, you have Advantage on saving throws against spells. In addition, you can take a Reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below).</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{Conjure Elemental}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</p></td><td><p>3</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlamingSph]{Flaming Sphere}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplKnock00000]{Knock}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswall00]{Passwall}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplTelekinesi]{Telekinesis}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</p></td><td><p>2</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 20, the staff regains [[/r 1d12 + 1]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion ([[/r 1d2]], teleported on a 1). If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p><section class=\"secret\" id=\"secret-aWlDNImPrAgu7dbv\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Spell Absorption</strong> activity allows you to select the level of the cast spell and restores that number of charges.</p></section>",
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 50 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.</p><p><em><strong>Spell Absorption.</strong></em> While holding the staff, you have Advantage on saving throws against spells. In addition, you can take a Reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below).</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureEle]{Conjure Elemental}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</p></td><td><p>3</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlamingSph]{Flaming Sphere}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplKnock00000]{Knock}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Luz}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (level 7 version)</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mãos Mágicas}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswall00]{Passwall}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplTelekinesi]{Telekinesis}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</p></td><td><p>2</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining Charges.</strong></em> The staff regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 20, the staff regains [[/r 1d12 + 1]] charges.</p><p><em><strong>Retributive Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion ([[/r 1d2]], teleported on a 1). If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a creature takes half as much damage.</p><section class=\"secret\" id=\"secret-aWlDNImPrAgu7dbv\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Spell Absorption</strong> activity allows you to select the level of the cast spell and restores that number of charges.</p></section>",
       "effects": {
         "Spell Attack Bonus": {
           "name": "Spell Attack Bonus",
@@ -3700,7 +3700,7 @@
     },
     "Sun Blade": {
       "name": "Sun Blade",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}), Rare (Requires Attunement)</em></p><p>This item appears to be a sword hilt.</p><p><em><strong>Blade of Radiance.</strong></em> While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the <em>Sun Blade</em>.</p><p>You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.</p><p><em><strong>Sunlight.</strong></em> The sword's luminous blade emits Bright Light in a 15-foot radius and Dim Light for an additional 15 feet. The light is sunlight. While the blade persists, you can take a Magic action to expand or reduce its radius of Bright Light and Dim Light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p><section class=\"secret\" id=\"secret-DDIn6fZIjHvPnfKS\"><p><strong>Nota do Foundry</strong></p><p>If you are proficient with Shortswords you can manually set the item as proficient.</p></section>"
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}), Rare (Requires Attunement)</em></p><p>This item appears to be a sword hilt.</p><p><em><strong>Blade of Radiance.</strong></em> While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the <em>Sun Blade</em>.</p><p>You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.</p><p><em><strong>Sunlight.</strong></em> The sword's luminous blade emits Bright Light in a 15-foot radius and Dim Light for an additional 15 feet. The light is sunlight. While the blade persists, you can take a Magic action to expand or reduce its radius of Bright Light and Dim Light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p><section class=\"secret\" id=\"secret-DDIn6fZIjHvPnfKS\"><p><strong>Nota do Foundry</strong></p><p>If you are proficient with Shortswords you can manually set the item as proficient.</p></section>"
     },
     "Potion of Healing (Superior)": {
       "name": "Potion of Healing (Superior)",
@@ -3726,7 +3726,7 @@
     },
     "Sword of Life Stealing": {
       "name": "Sword of Life Stealing",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}), Rare (Requires Attunement)</em></p><p>When you attack a creature with this magic weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 15 Necrotic damage if it isn't a Construct or an Undead, and you gain Temporary Hit Points equal to the amount of Necrotic damage taken.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Espada Curta}), Rare (Requires Attunement)</em></p><p>When you attack a creature with this magic weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 15 Necrotic damage if it isn't a Construct or an Undead, and you gain Temporary Hit Points equal to the amount of Necrotic damage taken.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Sword of Life Stealing": {
           "name": "Sword of Life Stealing",
@@ -3746,7 +3746,7 @@
     },
     "Sword of Sharpness": {
       "name": "Sword of Sharpness",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}), Very Rare (Requires Attunement)</em></p><p>When you attack an object with this magic weapon and hit, maximize your weapon damage dice against the target.</p><p>When you attack a creature with this weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 14 Slashing damage and gains <span class=\"no-break\">1 &Reference[Exhaustion]</span> level.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra}), Very Rare (Requires Attunement)</em></p><p>When you attack an object with this magic weapon and hit, maximize your weapon damage dice against the target.</p><p>When you attack a creature with this weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 14 Slashing damage and gains <span class=\"no-break\">1 &Reference[Exhaustion]</span> level.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Sword of Sharpness": {
           "name": "Sword of Sharpness",
@@ -3765,7 +3765,7 @@
     },
     "Sword of Wounding": {
       "name": "Sword of Wounding",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}), Rare (Requires Attunement)</em></p><p>When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Espada Curta}), Rare (Requires Attunement)</em></p><p>When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Sword of Wounding": {
           "name": "Sword of Wounding",
@@ -3834,7 +3834,7 @@
           }
         },
         "Prone": {
-          "name": "Prone"
+          "name": "Caído"
         }
       }
     },
@@ -3912,10 +3912,10 @@
       "description": "<p><em>See: &Reference[unarmedstrike]</em></p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled"
+          "name": "Agarrado"
         },
         "Prone": {
-          "name": "Prone"
+          "name": "Caído"
         }
       }
     },
@@ -3943,7 +3943,7 @@
     },
     "Vorpal Sword": {
       "name": "Vorpal Sword",
-      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}), Legendary (Requires Attunement)</em></p><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. In addition, the weapon ignores Resistance to Slashing damage.</p><p>When you use this weapon to attack a creature that has at least one head and roll a 20 on the d20 for the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it has Immunity to Slashing damage, if it doesn't have or need a head, or if the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 30 Slashing damage from the hit. If the creature has Legendary Resistance, it can expend one daily use of that trait to avoid losing its head, taking the extra damage instead.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+      "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGlaive0000]{Glaive}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Espada Grande}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa} ou @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Cimitarra}), Legendary (Requires Attunement)</em></p><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. In addition, the weapon ignores Resistance to Slashing damage.</p><p>When you use this weapon to attack a creature that has at least one head and roll a 20 on the d20 for the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it has Immunity to Slashing damage, if it doesn't have or need a head, or if the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 30 Slashing damage from the hit. If the creature has Legendary Resistance, it can expend one daily use of that trait to avoid losing its head, taking the extra damage instead.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Vorpal Sword": {
           "name": "Vorpal Sword",
@@ -3984,11 +3984,11 @@
     },
     "Wand of Magic Detection": {
       "name": "Wand of Magic Detection",
-      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic} from it. The wand regains 1d3 expended charges daily at dawn.</p>"
+      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia} from it. The wand regains 1d3 expended charges daily at dawn.</p>"
     },
     "Wand of Magic Missiles": {
       "name": "Wand of Magic Missiles",
-      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Paralysis": {
       "name": "Wand of Paralysis",
@@ -4025,7 +4025,7 @@
       "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Water</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
-          "name": "Charmed"
+          "name": "Enfeitiçado"
         },
         "Water Focus": {
           "name": "Water Focus",
@@ -4052,7 +4052,7 @@
           }
         },
         "Weapon +2": {
-          "name": "Weapon +2",
+          "name": "Arma +2",
           "changes": {
             "name": "{} +2",
             "system.magicalBonus": 2,
@@ -4235,11 +4235,11 @@
       "name": "Ring"
     },
     "Caltrops": {
-      "name": "Caltrops",
-      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
+      "name": "Estrepes",
+      "description": "<p>Como uma ação Usar Objeto, você pode espalhar Estrepes de sua bolsa para cobrir uma área quadrada de 1,5 metro de lados a até 1,5 metro de você. Uma criatura que entra nesta área pela primeira vez em um turno deve ser bem-sucedida em uma salvaguarda de Destreza CD 15 ou sofre 1 ponto de dano Perfurante e tem o Deslocamento reduzido a 0 até o início do próximo turno dela. Leva 10 minutos para recolher os Estrepes.</p>",
       "effects": {
         "Slowed": {
-          "name": "Slowed",
+          "name": "Desacelerado",
           "changes": {
             "system.attributes.movement.walk": 0,
             "system.attributes.movement.fly": 0,
@@ -4267,7 +4267,7 @@
       "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Foco Arcano} é adornado com joias ou esculpido para canalizar magia arcana. Um bruxo, feiticeiro ou mago pode usar esse item como foco de conjuração.</p>"
     },
     "Orb": {
-      "name": "Orb",
+      "name": "Orbe",
       "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Foco Arcano} é adornado com joias ou esculpido para canalizar magia arcana. Um bruxo, feiticeiro ou mago pode usar esse item como foco de conjuração.</p>"
     },
     "Rod": {
@@ -4298,7 +4298,7 @@
     },
     "Ammunition (Varies)": {
       "name": "Ammunition (Varies)",
-      "description": "<p>Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</td><td>0,5 kg</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1 kg</td><td>3 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>0,5 kg</td><td>1 PO</td></tr></tbody></table>"
+      "description": "<p>Ammunition is required by a weapon that has the Ammunition property. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}</td><td>0,5 kg</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1 kg</td><td>3 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>0,5 kg</td><td>1 PO</td></tr></tbody></table>"
     },
     "Antitoxin": {
       "name": "Antitoxin",
@@ -4330,7 +4330,7 @@
       "description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>"
     },
     "Book": {
-      "name": "Book",
+      "name": "Livro",
       "description": "<p>Um livro contém texto de ficção ou não-ficção. Se você consultar um livro de não-ficção especializado em um determinado tema, você obtém um bônus de +5 em testes de Inteligência (Arcanismo, História, Natureza ou Religião) que você fizer sobre esse tema.</p>"
     },
     "Bottle, Glass": {
@@ -4342,12 +4342,12 @@
       "description": "<p>A Bucket holds up to half a cubic foot of contents.</p>"
     },
     "Burglar's Pack": {
-      "name": "Burglar's Pack",
-      "description": "<p>A Burglar's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Sino}, 10 @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candles}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}, e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
+      "name": "Kit de Assaltante",
+      "description": "<p>Um kit de assaltante contém os seguintes itens: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Esferas de Metal}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Sino}, 10 @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lanterna Coberta}, 7 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{frascos de Óleo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações} (5 dias), @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo} e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
     },
     "Candle": {
-      "name": "Candle",
-      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>"
+      "name": "Vela",
+      "description": "<p>Por 1 hora, uma Vela acesa emite Luz Plena em um raio de 1,5 metro e Meia-luz por mais 1,5 metro.</p>"
     },
     "Case, Crossbow Bolt": {
       "name": "Case, Crossbow Bolt",
@@ -4370,11 +4370,11 @@
       "description": "<p>A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action.</p>"
     },
     "Clothes, Fine": {
-      "name": "Clothes, Fine",
-      "description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>"
+      "name": "Roupas Finas",
+      "description": "<p>Roupas Finas são feitas de tecidos caros e adornadas com detalhes habilmente trabalhados. Alguns eventos e locais admitem apenas pessoas vestindo essas roupas.</p>"
     },
     "Clothes, Traveler's": {
-      "name": "Trajes, Viajante",
+      "name": "Roupas de Viagem",
       "description": "<p>As Roupas de Viagem são vestimentas resistentes projetadas para viagens em vários ambientes.</p>"
     },
     "Component Pouch": {
@@ -4383,19 +4383,19 @@
     },
     "Diplomat's Pack": {
       "name": "Diplomat's Pack",
-      "description": "<p>A Diplomat's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{lamparina}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume}, e @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}.</p>"
+      "description": "<p>A Diplomat's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{lamparina}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume} e @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}.</p>"
     },
     "Druidic Focus (Varies)": {
-      "name": "Druidic Focus (Varies)",
-      "description": "<p>A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão})</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcYewwand000]{Yew wand}</td><td>0,5 kg</td><td>10 PO</td></tr></tbody></table>"
+      "name": "Foco Druídico (varia)",
+      "description": "<p>Um foco druídico assume uma das formas da tabela Focos Druídicos e é esculpido, amarrado com fita ou pintado para canalizar a magia primordial. Druidas e guardiões podem usar tal objeto como foco de conjuração.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão})</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcYewwand000]{Yew wand}</td><td>0,5 kg</td><td>10 PO</td></tr></tbody></table>"
     },
     "Dungeoneer's Pack": {
-      "name": "Dungeoneer's Pack",
-      "description": "<p>A Dungeoneer's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 frascos de @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações} (10 dias), @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Tochas} (10), e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
+      "name": "Kit de Aventureiro",
+      "description": "<p>Um kit de aventureiro contém os seguintes itens: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Estrepes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}, 2 frascos de @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações} (10 dias), @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Tochas} (10), e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
     },
     "Entertainer's Pack": {
-      "name": "Entertainer's Pack",
-      "description": "<p>An Entertainer's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Saco de Dormir}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Sino}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterna de Foco}, 3 @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Espelho}, 8 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo}, 9 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}, e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
+      "name": "Kit de Artista",
+      "description": "<p>Um kit de artista contém os seguintes itens: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Saco de Dormir}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Sino}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Lanterna de Foco}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Fantasias} (3), @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Espelho}, @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo} (8 frascos), @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações} (9 dias), @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo} e @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Cantil}.</p>"
     },
     "Explorer's Pack": {
       "name": "Kit de Explorador",
@@ -4410,25 +4410,25 @@
       "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>"
     },
     "Healer's Kit": {
-      "name": "Healer's Kit",
-      "description": "<p>A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>"
+      "name": "Kit de Curandeiro",
+      "description": "<p>O kit de curandeiro tem dez usos. Como uma ação usar, você pode gastar um de seus usos para estabilizar uma criatura inconsciente que esteja com 0 ponto de vida sem precisar fazer um teste de Sabedoria (Medicina)</p>"
     },
     "Holy Symbol (Varies)": {
       "name": "Símbolo Sagrado (varia)",
       "description": "<p>Um Símbolo Sagrado assume uma das formas na tabela Símbolo Sagrado e é adornado ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como um Foco de Conjuração.</p><p>A tabela indica se um Símbolo Sagrado precisa ser segurado, usado ou exibido em tecido (como um tabardo ou um estandarde) ou em um Escudo.</p><table><caption>Símbolos Sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Custo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{Amuleto} (usado ou segurado)</td><td>0,5 kg</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{Emblema} (carregado em tecido ou em um escudo)</td><td>—</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{Relicário} (segurado)</td><td>1 kg</td><td>5 PO</td></tr></tbody></table>"
     },
     "Hunting Trap": {
-      "name": "Hunting Trap",
-      "description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>",
+      "name": "Armadilha de Caça",
+      "description": "Como uma ação Usar Objeto, você pode armar uma Armadilha de Caça, que é um anel de aço dentado que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é presa em uma corrente pesada a um objeto imóvel, como uma árvore ou um espigão cravado no chão. Uma criatura que pisa no prato deve ser bem-sucedida em uma salvaguarda de Destreza CD 13 ou sofre 1d4 de dano Perfurante e tem o Deslocamento reduzido a 0 até o início de seu próximo turno. Depois disso, até que a criatura se liberte da armadilha, o movimento dela é limitado pelo comprimento da corrente (normalmente 1 metro). Uma criatura pode executar uma ação para realizar um teste de Força (Atletismo) CD 13, libertando-se ou libertando outra criatura ao alcance dela em caso de sucesso. Cada falha causa [[/damage 1 type=piercing]] à criatura presa.",
       "effects": {
         "Trapped": {
-          "name": "Trapped"
+          "name": "Preso"
         }
       }
     },
     "Ink Pen": {
-      "name": "Ink Pen",
-      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
+      "name": "Caneta Tinteiro",
+      "description": "<p>A caneta tinteiro, junto com a tinta, é usada para escrever ou desenhar.</p>"
     },
     "Jug": {
       "name": "Jug",
@@ -4439,16 +4439,16 @@
       "description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>"
     },
     "Lantern, Bullseye": {
-      "name": "Lantern, Bullseye",
+      "name": "Lanterna, de Foco",
       "description": "<p>Uma lanterna de foco usa óleo como combustível para projetar luz plena em um cone de 18 metros e meia-luz por mais 18 metros.</p>"
     },
     "Lantern, Hooded": {
-      "name": "Lantern, Hooded",
-      "description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>"
+      "name": "Lanterna Coberta",
+      "description": "<p>Uma Lanterna Coberta usa Óleo para combustão para emitir Luz Plena em um raio de 9 metros e Meia-luz por mais 9 metros. Como uma Ação Bônus, você pode baixar o capuz, reduzindo a luz para Meia-luz em um raio de 1,5 metro, ou levantá-lo novamente.</p>"
     },
     "Lock": {
       "name": "Lock",
-      "description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>"
+      "description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Ferramentas de Ladrão} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>"
     },
     "Magnifying Glass": {
       "name": "Magnifying Glass",
@@ -4468,11 +4468,11 @@
       "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
     },
     "Net": {
-      "name": "Net",
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a [[/skill ath 10]] check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>",
+      "name": "Rede",
+      "description": "<p>Ao executar a ação Atacar, você pode substituir um de seus ataques pelo arremesso de uma Rede. Escolha uma criatura à sua vista a até 4,5 metros de distância. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e seu Bônus de Proficiência) ou tem a condição &Reference[Restrained] até escapar. O alvo é bem-sucedido automaticamente se for de tamanho Enorme ou maior.</p><p>Para escapar, o alvo ou uma criatura a até 1,5 metro dele deve executar uma ação para realizar um [[/skill ath 10]], libertando a criatura contida em caso de sucesso. Destruir a Rede (CA 10; 5 PV; imunidade a dano de Contundente, Psíquico e Venenoso) também liberta o alvo, encerrando a condição.</p>",
       "effects": {
         "Caught in Net": {
-          "name": "Caught in Net"
+          "name": "Preso na Rede"
         }
       }
     },
@@ -4497,7 +4497,7 @@
       "description": "<p>An Iron Pot holds up to 1 gallon.</p>"
     },
     "Pouch": {
-      "name": "Pouch",
+      "name": "Bolsa",
       "description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>"
     },
     "Priest's Pack": {
@@ -4517,8 +4517,8 @@
       "description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>"
     },
     "Scholar's Pack": {
-      "name": "Scholar's Pack",
-      "description": "<p>A Scholar's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{lamparina}, 10 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo}, 10 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho}, e @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}.</p>"
+      "name": "Kit de Erudito",
+      "description": "<p>Um kit de erudito contém os seguintes itens: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Caneta Tinteiro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{lamparina}, @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Óleo} (10 frascos), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (10 folhas) e @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo}.</p>"
     },
     "Shovel": {
       "name": "Shovel",
@@ -4553,24 +4553,24 @@
       "description": "<p>A Vial holds up to 4 ounces.</p>"
     },
     "Arrows": {
-      "name": "Arrows",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "name": "Flechas",
+      "description": "<p><em><strong>Armazenamento:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}</em></p><p>Qualquer arma que possua a propriedade munição requer algum tipo de @UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{munição}. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p>"
     },
     "Bolts": {
       "name": "Bolts",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>Armazenamento:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</em></p><p>Qualquer arma que possua a propriedade munição requer algum tipo de @UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{munição}. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p>"
     },
     "Bullets, Firearm": {
       "name": "Bullets, Firearm",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>Armazenamento:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>Qualquer arma que possua a propriedade munição requer algum tipo de @UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{munição}. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p>"
     },
     "Bullets, Sling": {
       "name": "Bullets, Sling",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>Armazenamento:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>Qualquer arma que possua a propriedade munição requer algum tipo de @UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{munição}. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p>"
     },
     "Needles": {
       "name": "Needles",
-      "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
+      "description": "<p><em><strong>Armazenamento:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>Qualquer arma que possua a propriedade munição requer algum tipo de @UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{munição}. A descrição da arma especifica o tipo de munição usada por ela. A tabela Munição lista os diferentes tipos e a quantidade obtida ao comprá-las. A tabela também lista o item normalmente usado para armazenar cada tipo de munição, que é vendido separadamente.</p>"
     },
     "Breastplate": {
       "name": "Breastplate"
@@ -4579,7 +4579,7 @@
       "name": "Chain Mail"
     },
     "Chain Shirt": {
-      "name": "Chain Shirt"
+      "name": "Cota de Malha Parcial"
     },
     "Half Plate Armor": {
       "name": "Half Plate Armor"
@@ -4603,26 +4603,26 @@
       "name": "Scale Mail"
     },
     "Shield": {
-      "name": "Shield",
+      "name": "Escudo",
       "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
     },
     "Splint Armor": {
       "name": "Splint Armor"
     },
     "Studded Leather Armor": {
-      "name": "Studded Leather Armor"
+      "name": "Armadura de Couro Batido"
     },
     "Sprig of mistletoe": {
-      "name": "Sprig of mistletoe",
-      "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Foco Druídico} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
+      "name": "Ramo de Visco",
+      "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{foco druídico} assume uma das formas da tabela Focos Druídicos e é esculpido, amarrado com fita ou pintado para canalizar a magia primordial. Druidas e guardiões podem usar tal objeto como foco de conjuração.</p>"
     },
     "Wooden staff": {
       "name": "Wooden staff",
-      "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Foco Druídico} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><p>Esse item também funciona como um @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota do Foundry</strong></p><p>Este item foi configurado com as propriedades adicionais de um bastão.</p></section>"
+      "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{foco druídico} assume uma das formas da tabela Focos Druídicos e é esculpido, amarrado com fita ou pintado para canalizar a magia primordial. Druidas e guardiões podem usar tal objeto como foco de conjuração.</p><p>Esse item também funciona como um @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Nota do Foundry</strong></p><p>Este item foi configurado com as propriedades adicionais de um bastão.</p></section>"
     },
     "Yew wand": {
       "name": "Yew wand",
-      "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Foco Druídico} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
+      "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{foco druídico} assume uma das formas da tabela Focos Druídicos e é esculpido, amarrado com fita ou pintado para canalizar a magia primordial. Druidas e guardiões podem usar tal objeto como foco de conjuração.</p>"
     },
     "Dice": {
       "name": "Dados",
@@ -4641,16 +4641,16 @@
       "description": "<p><strong>Atributo:</strong> Sabedoria</p><p class=\"phb-meta\"><strong>Usar:</strong> Discernir se alguém está trapaceando (CD 10), ou ganhar o jogo (CD 20)</p>"
     },
     "Amulet": {
-      "name": "Amulet",
-      "description": "<p><em><strong>Usage Requirement: </strong>Worn or held</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+      "name": "Amuleto",
+      "description": "<p><em><strong>Especificações de uso: </strong>Usado ou segurado</em></p><p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} assume uma das formas da tabela Símbolos Sagrados e é adornado com joias ou pintado para canalizar magia divina. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração.</p>"
     },
     "Emblem": {
       "name": "Emblem",
-      "description": "<p><em><strong>Usage Requirement: </strong>Borne on fabric or a Shield</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+      "description": "<p><em><strong>Especificações de uso: </strong>Borne on fabric or a Shield</em></p><p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} assume uma das formas da tabela Símbolos Sagrados e é adornado com joias ou pintado para canalizar magia divina. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração.</p>"
     },
     "Reliquary": {
       "name": "Reliquary",
-      "description": "<p><em><strong>Usage Requirement: </strong>Held</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
+      "description": "<p><em><strong>Especificações de uso: </strong>Held</em></p><p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado} assume uma das formas da tabela Símbolos Sagrados e é adornado com joias ou pintado para canalizar magia divina. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração.</p>"
     },
     "Bagpipes": {
       "name": "Gaita de Foles",
@@ -4800,19 +4800,19 @@
       "name": "Dart"
     },
     "Flail": {
-      "name": "Flail"
+      "name": "Mangual"
     },
     "Glaive": {
       "name": "Glaive"
     },
     "Greataxe": {
-      "name": "Greataxe"
+      "name": "Machado Grande"
     },
     "Greatclub": {
       "name": "Greatclub"
     },
     "Greatsword": {
-      "name": "Greatsword"
+      "name": "Espada Grande"
     },
     "Halberd": {
       "name": "Halberd"
@@ -4821,13 +4821,13 @@
       "name": "Hand Crossbow"
     },
     "Handaxe": {
-      "name": "Handaxe"
+      "name": "Machadinha"
     },
     "Heavy Crossbow": {
       "name": "Heavy Crossbow"
     },
     "Javelin": {
-      "name": "Javelin",
+      "name": "Azagaia",
       "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
     },
     "Lance": {
@@ -4840,10 +4840,10 @@
       "name": "Light Hammer"
     },
     "Longbow": {
-      "name": "Longbow"
+      "name": "Arco Longo"
     },
     "Longsword": {
-      "name": "Longsword"
+      "name": "Espada Longa"
     },
     "Mace": {
       "name": "Maça"
@@ -4870,13 +4870,13 @@
       "name": "Rapier"
     },
     "Scimitar": {
-      "name": "Scimitar"
+      "name": "Cimitarra"
     },
     "Shortbow": {
-      "name": "Shortbow"
+      "name": "Arco Curto"
     },
     "Shortsword": {
-      "name": "Shortsword"
+      "name": "Espada Curta"
     },
     "Sickle": {
       "name": "Foice"
@@ -4885,7 +4885,7 @@
       "name": "Sling"
     },
     "Spear": {
-      "name": "Spear"
+      "name": "Lança"
     },
     "Trident": {
       "name": "Trident"

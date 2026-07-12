@@ -56,7 +56,7 @@
     },
     "Archery": {
       "name": "Archery",
-      "description": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>You gain a +2 bonus to attack rolls you make with Ranged weapons.</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which adds the bonus to Ranged weapon attack rolls.</p></section>",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>You gain a +2 bonus to attack rolls you make with Ranged weapons.</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which adds the bonus to Ranged weapon attack rolls.</p></section>",
       "effects": {
         "Archery Style": {
           "name": "Archery Style",
@@ -67,11 +67,11 @@
       }
     },
     "Defense": {
-      "name": "Defense",
-      "description": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which provides the Armor Class bonus. Disable it when you are not wearing armor.</p></section>",
+      "name": "Defensivo",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Você ganha um bônus de +1 na classe de armadura enquanto estiver usando uma armadura leve, média ou pesada.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa habilidade inclui um Efeito Ativo que concede o bônus à Classe de Armadura. Desative-o quando não estiver usando armadura.</p></section>",
       "effects": {
         "Defense": {
-          "name": "Defense",
+          "name": "Defensivo",
           "changes": {
             "system.attributes.ac.bonus": 1
           }
@@ -80,11 +80,11 @@
     },
     "Great Weapon Fighting": {
       "name": "Great Weapon Fighting",
-      "description": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This effect is not automated.</p></section>"
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This effect is not automated.</p></section>"
     },
     "Two-Weapon Fighting": {
       "name": "Two-Weapon Fighting",
-      "description": "<p><em>(Prerequisite: Fighting Style Feature)</em></p><p>When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Nota do Foundry</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Nota do Foundry</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
     },
     "Ability Score Improvement": {
       "name": "Ability Score Improvement",
@@ -108,11 +108,11 @@
     },
     "Magic Initiate": {
       "name": "Iniciado em Magia",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Dois Truques.</strong> Você aprende dois truques da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Clérigo}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida}, or @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago} spell list. Seu atributo de conjuração para as magias deste talento é Inteligência, Sabedoria ou Carisma (à sua escolha ao selecionar esse talento).</p><p><strong>Magia de 1º Círculo.</strong> Escolha uma magia de 1º círculo da mesma lista que você selecionou para os truques deste talento. Você tem essa magia sempre preparada. Você pode conjurá-la uma vez sem um espaço de magia, e você restaura a capacidade de conjurá-la dessa maneira ao completar um Descanso Longo. Você também pode conjurar a magia usando qualquer espaço de magia que tiver.</p><p><strong>Mudança de Magia.</strong> Sempre que você alcança um novo nível, pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo círculo da lista de magias escolhida.</p><p><strong>Repetível.</strong> Você pode adquirir este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.</p>"
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Dois Truques.</strong> Você aprende dois truques da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Clérigo}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} ou @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago} spell list. Seu atributo de conjuração para as magias deste talento é Inteligência, Sabedoria ou Carisma (à sua escolha ao selecionar esse talento).</p><p><strong>Magia de 1º Círculo.</strong> Escolha uma magia de 1º círculo da mesma lista que você selecionou para os truques deste talento. Você tem essa magia sempre preparada. Você pode conjurá-la uma vez sem um espaço de magia, e você restaura a capacidade de conjurá-la dessa maneira ao completar um Descanso Longo. Você também pode conjurar a magia usando qualquer espaço de magia que tiver.</p><p><strong>Mudança de Magia.</strong> Sempre que você alcança um novo nível, pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo círculo da lista de magias escolhida.</p><p><strong>Repetível.</strong> Você pode adquirir este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.</p>"
     },
     "Savage Attacker": {
-      "name": "Savage Attacker",
-      "description": "<p>You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</p>"
+      "name": "Atacante Selvagem",
+      "description": "<p>Você treinou para causar ataques particularmente nocivos. Uma vez por turno, ao atingir um alvo com uma arma, pode jogar os dados de dano da arma duas vezes e usar qualquer uma das jogadas contra o alvo.</p>"
     },
     "Skilled": {
       "name": "Habilidoso",

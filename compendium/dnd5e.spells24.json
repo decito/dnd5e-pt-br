@@ -183,12 +183,12 @@
       }
     },
     "Animal Friendship": {
-      "name": "Animal Friendship",
-      "description": "<p>Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the &Reference[charmed apply=false] condition for the duration. If you or one of your allies deals damage to the target, the spells ends.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional Beast for each spell slot level above 1.</p>",
+      "name": "Amizade Animal",
+      "description": "<p>Escolha como alvo uma Fera à sua vista e no alcance da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou tem a condição &Reference[charmed apply=false] pela duração da magia. Se você ou um de seus aliados causar dano ao alvo, a magia encerra.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">The target has the &Reference[charmed apply=false] condition for the duration. If you or one of your allies deals damage to the target, the spells ends.</span></p>"
+          "name": "Enfeitiçado",
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">O alvo tem a condição &Reference[charmed apply=false] pela duração da magia. Se você ou um de seus aliados causar dano ao alvo, a magia encerra.</span></p>"
         }
       }
     },
@@ -208,7 +208,7 @@
     },
     "Animate Dead": {
       "name": "Animate Dead",
-      "description": "<p>Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Skeleton}</strong> if you chose bones or a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong> if you chose a corpse.</p><p>On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete.</p><p>The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.</p>"
+      "description": "<p>Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmSkeleton000000]{Esqueleto}</strong> if you chose bones or a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong> if you chose a corpse.</p><p>On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete.</p><p>The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.</p>"
     },
     "Animate Objects": {
       "name": "Animate Objects",
@@ -242,7 +242,7 @@
           "description": "<p>The creature has the &Reference[Frightened apply=false] condition. The Frightened creature must use its movement on its turns to get as far away as possible from the target, moving by the safest route.</p><p><strong>Ending the Effect.</strong> If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a [[/save ability=wis format=long]]. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.</p>"
         },
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The creature has the &Reference[Charmed apply=false] condition. The Charmed creature must use its movement on its turns to get as close as possible to the target, moving by the safest route. If the creature is within 5 feet of the target, the creature can’t willingly move away. If the target damages the Charmed creature, that creature can make a Wisdom saving throw to end the effect, as described below.</p><p><strong>Ending the Effect.</strong> If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.</p>"
         }
       }
@@ -481,8 +481,8 @@
       }
     },
     "Burning Hands": {
-      "name": "Burning Hands",
-      "description": "<p>A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the Cone that aren't being worn or carried start burning.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
+      "name": "Mãos Flamejantes",
+      "description": "<p>AUma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
     },
     "Call Lightning": {
       "name": "Call Lightning",
@@ -514,18 +514,18 @@
       "description": "<p>One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong>You can target one additional creature for each spell slot level above 4.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The target has the &Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
         }
       }
     },
     "Charm Person": {
-      "name": "Charm Person",
-      "description": "<p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
+      "name": "Enfeitiçar Pessoa",
+      "description": "<p>Um Humanoide à sua vista e no alcance da magia realiza uma salvaguarda de Sabedoria. Ele tem Vantagem se você ou seus aliados estiverem lutando contra ele. Se falhar, o alvo tem a condição &Reference[charmed apply=false] até que a magia termine ou até que você ou seus aliados causem dano a ele. A criatura Enfeitiçada é Amigável a você. Quando a magia termina, o alvo sabe que foi Enfeitiçado por você.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
-          "description": "<p>the target has the &Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
+          "name": "Enfeitiçado",
+          "description": "<p>O alvo tem a condição &Reference[charmed apply=false] até que a magia termine ou até que você ou seus aliados causem dano a ele. A criatura Enfeitiçada é Amigável a você. Quando a magia termina, o alvo sabe que foi Enfeitiçado por você.</p>"
         }
       }
     },
@@ -569,8 +569,8 @@
       }
     },
     "Command": {
-      "name": "Command",
-      "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus Action.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can affect one additional creature for each spell slot level above 1.</p>"
+      "name": "Comando",
+      "description": "<p>Você profere uma palavra única de comando para uma criatura à sua vista e no alcance da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou segue o comando no próximo turno dele. Escolha o comando a partir destas opções:</p><p><strong>Abaixar.</strong> O alvo tem a condição Caído e, em seguida, termina o turno.</p><p><strong>Aproximar.</strong> O alvo se move em sua direção pela rota mais curta e direta, terminando o turno dele se ele se mover a até 1,5 metro de você.</p><p><strong>Fugir.</strong> O alvo usa o próprio turno se afastando de você pelos meios mais rápidos disponíveis.</p><p><strong>Largar.</strong>O alvo solta o que estiver segurando e, em seguida, termina o turno.</p><p><strong>Parar.</strong> No turno do alvo, ele não se move e não executa nenhuma ação ou Ação Bônus.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher um efeito adicional para cada círculo de espaço de magia acima de 1.</p>"
     },
     "Commune": {
       "name": "Commune",
@@ -597,7 +597,7 @@
       "description": "<p>Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.</p><p>For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each &Reference[Charmed apply=false] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>You can take a Bonus Action to designate a direction that is horizontal to you. Each &Reference[Charmed apply=false] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         }
       }
@@ -626,7 +626,7 @@
     },
     "Conjure Elemental": {
       "name": "Conjure Elemental",
-      "description": "<p>You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit's element, which determines its damage type: @UUID[Compendium.dnd5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredFireE]{fire (Fire)}, or @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The spirit lasts for the duration.</p><p>Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes 8d8 damage of the spirit's type, and the target has the &Reference[Restrained apply=false] condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes 4d8 damage of the spirit's type. On a successful save, the target isn't Restrained by the spirit.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
+      "description": "<p>You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit's element, which determines its damage type: @UUID[Compendium.dnd5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredFireE]{fire (Fire)} ou @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The spirit lasts for the duration.</p><p>Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes 8d8 damage of the spirit's type, and the target has the &Reference[Restrained apply=false] condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes 4d8 damage of the spirit's type. On a successful save, the target isn't Restrained by the spirit.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
     },
     "Conjure Fey": {
       "name": "Conjure Fey",
@@ -723,8 +723,8 @@
       "description": "<p>Uma criatura que você toca recupera um número de Pontos de Vida igual a 2d8 mais seu modificador de atributo de conjuração.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> A cura aumenta em 2d8 para cada círculo de espaço de magia acima de 1.</p>"
     },
     "Dancing Lights": {
-      "name": "Dancing Lights",
-      "description": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>"
+      "name": "Luzes Dançantes",
+      "description": "<p>Você cria até quatro luzes do tamanho de tochas no alcance da magia, fazendo com que elas pareçam tochas, lanternas ou esferas brilhantes que pairam pela duração da magia. Como alternativa, você combina as quatro luzes em uma forma Média, brilhante, a qual é vagamente humanoide. Seja qual for a forma que você escolher, cada luz emite Meia-luz em um raio de 3 metros.</p><p>Como uma Ação Bônus, você pode mover as luzes até 18 metros para um espaço no alcance da magia. Uma luz deve estar a até 6 metros de outra luz criada por esta magia, e uma luz desaparece se ultrapassar o alcance da magia.</p>"
     },
     "Darkness": {
       "name": "Darkness",
@@ -941,8 +941,8 @@
       }
     },
     "Eldritch Blast": {
-      "name": "Eldritch Blast",
-      "description": "<p>You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.</p><p><strong>Aprimoramento de Truque.</strong> The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total Beams}</p>"
+      "name": "Raio Místico",
+      "description": "<p>Você lança um raio de energia crepitante. Faça um ataque mágico à distância contra uma criatura ou objeto dentro da distância da magia. Se acertar, o alvo sofre 1d10 pontos de dano energético.</p><p><strong>Aprimoramento de Truque.</strong> A magia cria dois raios no nível 5, três raios no nível 11 e quatro raios no nível 17. Você pode direcionar os raios para o mesmo alvo ou para alvos diferentes. Realize uma jogada de ataque separada para cada raio.</p><p>[[(floor((@details.level+1)/6)+1)]]{Raios Totais}</p>"
     },
     "Elementalism": {
       "name": "Elementalism",
@@ -1016,12 +1016,12 @@
       }
     },
     "Ensnaring Strike": {
-      "name": "Ensnaring Strike",
-      "description": "<p>As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the <span style=\"font-family:Signika, sans-serif\">&Reference[restrained apply=false] </span>condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends.</p><p>While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, the spell ends.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>",
+      "name": "Golpe Constritor",
+      "description": "<p>Ao acertar o alvo, vinhas agarradoras aparecem nele e ele realiza uma salvaguarda de Força. Uma criatura Grande ou maior tem Vantagem nesta salvaguarda. Se falhar, o alvo está com a condição <span style=\"font-family:Signika, sans-serif\">&Reference[restrained apply=false] até que a magia termine. Em caso de sucesso, as videiras murcham e a magia se encerra.</p><p>Enquanto Contido desse modo, o alvo sofre 1d6 pontos de dano Perfurante no início de cada um dos turnos dele. O alvo ou uma criatura ao alcance dele pode executar uma ação para realizar um teste de [[/check ability=str skill=ath dc=@attributes.spell.dc]] contra a CD para evitar sua magia. Em caso de sucesso, a magia termina.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>",
       "effects": {
         "Ensnared": {
-          "name": "Ensnared",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">The target has the &Reference[restrained apply=false] condition until the spell ends.</span></p><p><span style=\"font-family:Signika, sans-serif\">While Restrained, the target takes [[/damage 1d6 type=piercing]] (plus 1d6 per spell slot level above 1) damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, the spell ends.</span></p>"
+          "name": "Constrito",
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">O alvo está com a condição &Reference[restrained apply=false] até que a magia termine.</span></p><p><span style=\"font-family:Signika, sans-serif\">Enquanto contido desse modo, o alvo sofre [[/damage 1d6 type=piercing]] (mais 1d6 para cada círculo de espaço de magia acima do 1º) no início de cada um dos turnos dele. O alvo ou uma criatura ao alcance dele pode executar uma ação para realizar um [[/check ability=str skill=ath]] contra a CD para evitar sua magia. Em caso de sucesso, as videiras desaparecem.</span></p>"
         }
       }
     },
@@ -1094,12 +1094,12 @@
       "description": "<p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.</p><p>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.</p><p>Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects.</p>"
     },
     "Faerie Fire": {
-      "name": "Faerie Fire",
-      "description": "<p>Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed &Reference[dimlight] in a 10-foot radius and can't benefit from the Invisible condition.</p><p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>",
+      "name": "Fogo das Fadas",
+      "description": "<p>Objetos em um Cubo de 6 metros de lado no alcance da magia são delineados por luz azul, verde ou violeta (à sua escolha). Cada criatura no Cubo também é delineada se falhar em uma salvaguarda de Destreza. Pela duração da magia, objetos e criaturas afetadas emitem &Reference[dimlight] em um raio de 3 metros e não podem se beneficiar da condição Invisível.</p><p>Jogadas de ataque contra uma criatura ou objeto afetado têm Vantagem se o atacante puder vê-la.</p>",
       "effects": {
         "Outlined": {
-          "name": "Outlined",
-          "description": "<p>For the duration, objects and affected creatures shed &Reference[dimlight] in a 10-foot radius and can’t benefit from the Invisible condition.</p><p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>"
+          "name": "Delineado",
+          "description": "Pela duração da magia, objetos e criaturas afetadas emitem &Reference[dimlight] em um raio de 3 metros e não podem se beneficiar da condição Invisível.</p><p>Jogadas de ataque contra uma criatura ou objeto afetado têm Vantagem se o atacante puder vê-la.</p>"
         }
       }
     },
@@ -1118,8 +1118,8 @@
       }
     },
     "Feather Fall": {
-      "name": "Feather Fall",
-      "description": "<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.</p>"
+      "name": "Queda Suave",
+      "description": "<p>Escolha até cinco criaturas em queda no alcance da magia. A taxa de queda de cada uma diminui para 18 metros por rodada até que a magia termine. Se uma criatura pousar antes do fim da magia, não sofre dano da queda e a magia se encerra para ela.</p>"
     },
     "Find Familiar": {
       "name": "Find Familiar",
@@ -1151,8 +1151,8 @@
       "description": "<p>You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.</p><p>A Humanoid killed by this spell rises at the start of your next turn as a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong> (see appendix B) that follows your verbal orders.</p>"
     },
     "Fire Bolt": {
-      "name": "Fire Bolt",
-      "description": "<p>You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.</p><p><strong>Aprimoramento de Truque.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>"
+      "name": "Raio de Fogo",
+      "description": "<p>Você arremessa uma partícula de fogo em uma criatura ou objeto no alcance da magia. Realize um ataque mágico à distância contra o alvo. Em caso de acerto, o alvo sofre 1d10 pontos de dano Ígneo. Um objeto inflamável atingido por esta magia entra em combustão se não estiver sendo usado ou carregado.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d10 quando você atinge os níveis 5 (2d10), 11 (3d10) e 17 (4d10).</p>"
     },
     "Fire Shield": {
       "name": "Fire Shield",
@@ -1364,7 +1364,7 @@
     },
     "Guards and Wards": {
       "name": "Guards and Wards",
-      "description": "<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p><p>When you cast this spell, you can specify individuals that are unaffected by the spell's effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.</p><p>The spell creates the effects below within the warded area. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of the following effects can be dispelled. If all four are dispelled, <em>Guards and Wards</em> ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.</p><p><strong>Corridors.</strong> Fog fills all the warded corridors, making them &Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.</p><p><strong>Doors.</strong> All doors in the warded area are magically locked, as if sealed by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</em> spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded area from top to bottom, as in the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em> spell. These strands regrow in 10 minutes if they are destroyed while <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect. </strong>Place one of the following magical effects within the warded area:</p><ul><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights}</em> in four corridors, with a simple program that the lights repeat as long as <em>Guards and Wards</em> lasts</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMouth]{Magic Mouth}</em> in two locations</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}</em> in two locations (the vapors return within 10 minutes if dispersed while <em>Guards and Wards</em> lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em> in one corridor or room (the wind blows continuously while the spell lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</em> in one 5-foot square; any creature that enters that square receives the suggestion mentally</li></ul>"
+      "description": "<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p><p>When you cast this spell, you can specify individuals that are unaffected by the spell's effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.</p><p>The spell creates the effects below within the warded area. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of the following effects can be dispelled. If all four are dispelled, <em>Guards and Wards</em> ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.</p><p><strong>Corridors.</strong> Fog fills all the warded corridors, making them &Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.</p><p><strong>Doors.</strong> All doors in the warded area are magically locked, as if sealed by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</em> spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded area from top to bottom, as in the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em> spell. These strands regrow in 10 minutes if they are destroyed while <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect. </strong>Place one of the following magical effects within the warded area:</p><ul><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Luzes Dançantes}</em> in four corridors, with a simple program that the lights repeat as long as <em>Guards and Wards</em> lasts</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMouth]{Magic Mouth}</em> in two locations</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}</em> in two locations (the vapors return within 10 minutes if dispersed while <em>Guards and Wards</em> lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em> in one corridor or room (the wind blows continuously while the spell lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</em> in one 5-foot square; any creature that enters that square receives the suggestion mentally</li></ul>"
     },
     "Guidance": {
       "name": "Orientação",
@@ -1541,8 +1541,8 @@
       "description": "<p>Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the &Reference[Blinded], &Reference[Deafened], and &Reference[Poisoned] conditions on the target.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The healing increases by 10 for each spell slot level above 6.</p>"
     },
     "Healing Word": {
-      "name": "Healing Word",
-      "description": "<p>A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The healing increases by 2d4 for each spell slot level above 1.</p>"
+      "name": "Palavra Curativa",
+      "description": "<p>Uma criatura à sua escolha, à sua vista e no alcance da magia recupera Pontos de Vida iguais a 2d4 mais seu modificador de atributo de conjuração.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> A cura aumenta em 2d4 para cada círculo de espaço de magia acima de 1.</p>"
     },
     "Heat Metal": {
       "name": "Heat Metal",
@@ -1573,12 +1573,12 @@
       }
     },
     "Heroism": {
-      "name": "Heroism",
-      "description": "<p>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
+      "name": "Heroísmo",
+      "description": "<p>Você toca uma criatura voluntária que se torna imbuída de bravura. Até que a magia termine, a criatura é imune à condição Amedrontado e recebe Pontos de Vida Temporários igual ao seu modificador de atributo de conjuração no início de cada um dos turnos dela.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
       "effects": {
         "Bravery": {
-          "name": "Bravery",
-          "description": "<p>The creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.</p>",
+          "name": "Bravura",
+          "description": "<p>A criatura é imune à condição Amedrontado e recebe Pontos de Vida Temporários igual ao seu modificador de atributo de conjuração no início de cada um dos turnos dela</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -1586,47 +1586,47 @@
       }
     },
     "Hex": {
-      "name": "Hex",
-      "description": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).</p>",
+      "name": "Danação",
+      "description": "<p>Você coloca uma maldição em uma criatura à sua vista e no alcance da magia. Até que a magia termine, você causa 1d6 pontos de dano Necrótico adicional ao alvo sempre que o acertar com uma jogada de ataque. Além disso, escolha um atributo ao conjurar a magia. O alvo tem Desvantagem nos testes de atributo realizados com o atributo escolhido.</p><p>Se o alvo é reduzido a 0 Pontos de Vida antes que esta magia termine, você pode executar uma ação Bônus em um turno posterior para amaldiçoar uma nova criatura.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Sua Concentração pode durar mais com um espaço de magia de 2º círculo (até 4 horas), 3º–4º círculo (até 8 horas) ou 5º círculo ou superior (até 24 horas).</p>",
       "effects": {
         "Hexed Strength": {
-          "name": "Hexed Strength",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Força Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.str.check.roll.mode": -1
           }
         },
         "Hexed Dexterity": {
-          "name": "Hexed Dexterity",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Destreza Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.dex.check.roll.mode": -1
           }
         },
         "Hexed Constitution": {
-          "name": "Hexed Constitution",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Constituição Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.con.check.roll.mode": -1
           }
         },
         "Hexed Intelligence": {
-          "name": "Hexed Intelligence",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Inteligência Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.int.check.roll.mode": -1
           }
         },
         "Hexed Wisdom": {
-          "name": "Hexed Wisdom",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Sabedoria Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.wis.check.roll.mode": -1
           }
         },
         "Hexed Charisma": {
-          "name": "Hexed Charisma",
-          "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
+          "name": "Carisma Amaldiçoada",
+          "description": "<p>O alvo tem desvantagem nos testes de atributo realizados com o atributo escolhido.</p>",
           "changes": {
             "system.abilities.cha.check.roll.mode": -1
           }
@@ -1675,12 +1675,12 @@
       }
     },
     "Hunter's Mark": {
-      "name": "Hunter's Mark",
-      "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
+      "name": "Marca do Predador",
+      "description": "<p>Você marca magicamente como sua presa uma criatura à sua vista e no alcance da magia. Até que a magia termine, você causa 1d6 pontos de dano Energético adicionais ao alvo sempre que o acertar com uma jogada de ataque. Você também tem Vantagem em qualquer teste de [[/check ability=wis skill=prc]] ou [[/check ability=wis skill=sur]] que realizar para encontrá-lo.</p><p>Se o alvo é reduzido a 0 Pontos de Vida antes que esta magia termine, você pode executar uma ação Bônus para mover a marca para uma nova criatura à sua vista e no alcance da magia.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
       "effects": {
         "Hunter's Mark": {
-          "name": "Hunter's Mark",
-          "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
+          "name": "Marca do Predador",
+          "description": "<p>Até que a magia termine, você causa 1d6 pontos de dano Energético adicionais ao alvo sempre que o acertar com uma jogada de ataque.</p>"
         }
       }
     },
@@ -1826,12 +1826,12 @@
       "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location if that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you if you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead blocks a direct path between you and the object.</p>"
     },
     "Longstrider": {
-      "name": "Longstrider",
-      "description": "<p>You touch a creature. The target's Speed increases by 10 feet until the spell ends.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
+      "name": "Passos Largos",
+      "description": "<p>Você toca uma criatura. O deslocamento do alvo aumenta em 3 metros até a magia terminar.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> Você pode escolher uma criatura adicional para cada círculo de espaço de magia acima de 1.</p>",
       "effects": {
         "Longstrider": {
-          "name": "Longstrider",
-          "description": "<p>The target’s Speed increases by 10 feet until the spell ends.</p>",
+          "name": "Passos Largos",
+          "description": "<p>O deslocamento do alvo aumenta em 3 metros até a magia terminar.</p>",
           "changes": {
             "system.attributes.movement.walk": 10
           }
@@ -1839,12 +1839,12 @@
       }
     },
     "Mage Armor": {
-      "name": "Mage Armor",
-      "description": "<p>You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>",
+      "name": "Armadura Arcana",
+      "description": "<p>Você toca uma criatura voluntária que não está usando armadura. Até que a magia termine, a CA base do alvo se torna 13 mais o modificador de Destreza dele. A magia se encerra se o alvo vestir uma armadura.</p>",
       "effects": {
         "Mage Armor": {
-          "name": "Mage Armor",
-          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>",
+          "name": "Armadura Arcana",
+          "description": "<p>A CA base do alvo se torna 13 mais o modificador de Destreza dele.</p>",
           "changes": {
             "system.attributes.ac.calc": "mage"
           }
@@ -1852,8 +1852,8 @@
       }
     },
     "Mage Hand": {
-      "name": "Mage Hand",
-      "description": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>"
+      "name": "Mãos Mágicas",
+      "description": "<p>Uma mão espectral flutuante aparece em um ponto que você escolher no alcance da magia. A mão permanece pela duração. A mão desaparece se estiver a mais de 9 metros de você ou se você conjurar esta magia novamente.</p><p>Ao conjurar a magia, você pode usar a mão para manipular um objeto, abrir uma porta ou um recipiente destrancado, guardar ou recolher itens de recipientes abertos, ou despejar o conteúdo de um frasco.</p><p>Como uma ação Usar Magia em seus próximos turnos, você pode controlar a mão novamente. Como parte dessa ação, você pode mover a mão até 9 metros.</p><p>A mão não pode atacar, ativar itens mágicos ou carregar mais de 5 quilos.</p>"
     },
     "Magic Circle": {
       "name": "Magic Circle",
@@ -1881,8 +1881,8 @@
       }
     },
     "Magic Missile": {
-      "name": "Magic Missile",
-      "description": "<p>You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The spell creates one more dart for each spell slot level above 1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>"
+      "name": "Mísseis Mágicos",
+      "description": "<p>Você cria três dardos brilhantes feitos de pura energia mágica. Cada dardo acerta uma criatura à sua escolha, à sua vista e no alcance da magia. Um dardo causa 1d4 + 1 pontos de dano Energético ao alvo. Os dardos acertam ao mesmo tempo, e você pode direcioná-los para uma mesma criatura ou várias.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> A magia cria um dardo adicional para cada círculo de espaço de magia acima de 1.</p><p>[[2 + @item.level]]{Dardos Nível [[lookup @item.level]]}</p>"
     },
     "Magic Mouth": {
       "name": "Magic Mouth",
@@ -1942,7 +1942,7 @@
       "description": "<p>You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, \"Walk to the village down that road, and help the villagers there harvest crops until sunset.\" Or you could say, \"Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.\"</p><p>Each target must succeed on a Wisdom saving throw or have the &Reference[Charmed apply=false] condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The duration is longer with a spell slot of level 7 (10 days), 8 (30 days), or 9 (366 days).</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The target has the &Reference[Charmed apply=false] condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability.</p>"
         }
       }
@@ -1972,8 +1972,8 @@
       }
     },
     "Mending": {
-      "name": "Mending",
-      "description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><p>This spell can physically repair a magic item, but it can't restore magic to such an object.</p>"
+      "name": "Reparar",
+      "description": "<p>Essa magia repara uma única ruptura ou rasgo em um objeto que você tocar, como um elo de corrente quebrado, partes de uma chave partida, uma capa rasgada ou um odre furado. Se a ruptura ou rasgo não ultrapassar 30 centímetros em qualquer dimensão, ela é reparada sem deixar vestígios do dano anterior.</p><p>Essa magia pode reparar fisicamente um item mágico, mas não pode restaurar a magia de tal objeto.</p>"
     },
     "Message": {
       "name": "Message",
@@ -2007,8 +2007,8 @@
       }
     },
     "Minor Illusion": {
-      "name": "Minor Illusion",
-      "description": "<p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.</p>"
+      "name": "Ilusão Menor",
+      "description": "<p>Você cria um som ou uma imagem de um objeto no alcance da magia que permanece pela duração da magia. Veja as descrições abaixo para os efeitos de cada um. A ilusão encerra se você conjurar essa magia novamente.</p><p>Uma criatura pode perceber a ilusão ao executar a ação estudar para examinar o som ou a imagem e ser bem-sucedida em um teste de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra a CD para evitar sua magia. A ilusão se torna desbotada para uma criatura que consiga discerni-la.</p><p><strong>Som.</strong> Se você criar um som, o volume pode variar de um sussurro a um grito. Pode ser sua voz, a voz de outra pessoa, o rugido de um leão, o bater de tambores ou qualquer outro som que você escolher. O som continua ininterrupto pela duração da magia, ou você pode criar sons distintos em diferentes momentos antes que a magia termine.</p><p><strong>Imagem.</strong> Se você criar a imagem de um objeto — como uma cadeira, pegadas enlameadas ou um pequeno baú — ela não pode ter dimensões superiores a um cubo de 1,5 metro de lados. A imagem não pode gerar som, luz, cheiro ou qualquer outro efeito sensorial. A interação física com a imagem demonstra que se trata de uma ilusão, pois os objetos podem atravessá-la.</p>"
     },
     "Mirage Arcane": {
       "name": "Mirage Arcane",
@@ -2260,8 +2260,8 @@
       }
     },
     "Produce Flame": {
-      "name": "Produce Flame",
-      "description": "<p>A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.</p><p>Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>"
+      "name": "Criar Chamas",
+      "description": "<p>Uma chama bruxuleante surge em sua mão e permanece lá pela duração da magia. Enquanto estiver lá, a chama não emite calor, não queima nada, e emite Luz Plena em um raio de 6 metros e Meia-luz por mais 6 metros. A magia se encerra se você a conjurar novamente.</p><p>Até que a magia termine, você pode executar uma ação Usar Magia para arremessar a chama em uma criatura ou objeto a até 18 metros de você. Realize um ataque mágico à distância. Em caso de acerto, o alvo sofre 1d8 pontos de dano Ígneo.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>"
     },
     "Programmed Illusion": {
       "name": "Programmed Illusion",
@@ -2381,12 +2381,12 @@
       }
     },
     "Ray of Frost": {
-      "name": "Ray of Frost",
-      "description": "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>",
+      "name": "Raio de Gelo",
+      "description": "<p>Um feixe congelante de luz azul-esbranquiçada parte em direção a uma criatura no alcance da magia. Realize um ataque mágico à distância contra o alvo. Se acertar, a criatura sofre 1d8 pontos de dano Gélido e seu Deslocamento é reduzido em 3 metros até o início do seu próximo turno.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>",
       "effects": {
         "Reduced Movement": {
-          "name": "Reduced Movement",
-          "description": "<p>The target's Speed is reduced by 10 feet until the start of your next turn.</p>",
+          "name": "Movimento Reduzido",
+          "description": "<p>O deslocamento do alvo é reduzido em 3 metros até o início do seu próximo turno.</p>",
           "changes": {
             "system.attributes.movement.walk": -10,
             "system.attributes.movement.swim": -10,
@@ -2556,12 +2556,12 @@
       "description": "<p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>"
     },
     "Searing Smite": {
-      "name": "Searing Smite",
-      "description": "<p>As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot. </strong>All the damage increases by 1d6 for each spell slot level above 1.</p>",
+      "name": "Destruição Cauterizante",
+      "description": "<p>Ao acertar o alvo, o ataque causa 1d6 pontos de dano Ígneo adicional. No início de cada turno do alvo, até que a magia termine, ele sofre 1d6 pontos de dano Ígneo e, então, realiza uma salvaguarda de Constituição. Se falhar, a magia continua; se for bem-sucedido, a magia se encerra.</p><p><strong>Usando um Espaço de Magia de Círculo Superior. </strong>Todo dano aumenta em 1d6 para cada círculo de espaço de magia acima de 1.</p>",
       "effects": {
         "Seared": {
-          "name": "Seared",
-          "description": "<p>At the start of each of its turns until the spell ends, the target takes [[/damage 1d6 type=fire]] damage and then makes a [[/save ability=con]] saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p>"
+          "name": "Cauterizado",
+          "description": "<p>No início de cada turno do alvo, até que a magia termine, ele sofre [[/damage 1d6 type=fire]] e, então, realiza uma [[/save ability=con]]. Se falhar, a magia continua; se for bem-sucedido, a magia se encerra.</p>"
         }
       }
     },
@@ -2610,12 +2610,12 @@
       "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>"
     },
     "Shield": {
-      "name": "Shield",
-      "description": "<p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>",
+      "name": "Égide",
+      "description": "<p>Uma barreira imperceptível de energia mágica o protege. Até o início do seu próximo turno, você recebe um bônus de +5 na CA, incluindo contra o ataque que ativou a magia, e não sofre dano de <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{mísseis mágicos}</em>.</p>",
       "effects": {
         "Imperceptible Barrier": {
-          "name": "Imperceptible Barrier",
-          "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>",
+          "name": "Barreira Imperceptível",
+          "description": "<p>Até o início do seu próximo turno, você recebe um bônus de +5 na CA, incluindo contra o ataque que ativou a magia, e não sofre dano de <em>mísseis mágicos</em>.</p>",
           "changes": {
             "system.attributes.ac.bonus": 5
           }
@@ -2707,12 +2707,12 @@
       }
     },
     "Shocking Grasp": {
-      "name": "Shocking Grasp",
-      "description": "<p>Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>",
+      "name": "Toque Chocante",
+      "description": "<p>Raios saltam de você em direção a uma criatura que você tenta tocar. Realize uma jogada de ataque mágico corpo a corpo contra o alvo. Em caso de acerto, o alvo sofre 1d8 pontos de dano Elétrico e não pode realizar Ataques de Oportunidade até o início do próximo turno dele.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>",
       "effects": {
         "Shocked": {
-          "name": "Shocked",
-          "description": "<p>The target can’t make Opportunity Attacks until the start of its next turn.</p>"
+          "name": "Em Choque",
+          "description": "<p>O alvo não pode realizar Ataques de Oportunidade até o início do próximo turno dele.</p>"
         }
       }
     },
@@ -2738,12 +2738,12 @@
       "description": "<p>You create a simulacrum of one Beast or Humanoid that is within 10 feet of you for the entire casting of the spell. You finish the casting by touching both the creature and a pile of ice or snow that is the same size as that creature, and the pile turns into the simulacrum, which is a creature. It uses the game statistics of the original creature at the time of casting, except it is a Construct, its Hit Point maximum is half as much, and it can't cast this spell.</p><p>The simulacrum is Friendly to you and creatures you designate. It obeys your commands and acts on your turn in combat. The simulacrum can't gain levels, and it can't take Short or Long Rests.</p><p>If the simulacrum takes damage, the only way to restore its Hit Points is to repair it as you take a Long Rest, during which you expend components worth 100 PO per Hit Point restored. The simulacrum must stay within 5 feet of you for the repair.</p><p>The simulacrum lasts until it drops to 0 Hit Points, at which point it reverts to snow and melts away. If you cast this spell again, any simulacrum you created with this spell is instantly destroyed.</p>"
     },
     "Sleep": {
-      "name": "Sleep",
-      "description": "<p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the &Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.</p>",
+      "name": "Sono",
+      "description": "<p>Cada criatura à sua escolha em uma Esfera de 1,5 metro de raio centrada em um ponto no alcance da magia deve ser bem-sucedida em uma salvaguarda de Sabedoria ou tem a condição &Reference[incapacitated apply=false] até o final do próximo turno dela, quando deve repetir a salvaguarda. Se o alvo falhar na segunda salvaguarda, ele tem a condição Inconsciente pela duração da magia. A magia encerra em um alvo se ele sofrer dano ou se alguém a até 1,5 metro dele executar uma ação para sacudi-lo, liberando-o do efeito da magia.</p><p>Criaturas que não dormem, como elfos, ou que têm Imunidade à condição Exaustão, são automaticamente bem-sucedidas nas salvaguardas contra esta magia.</p>",
       "effects": {
         "Sleeping": {
-          "name": "Sleeping",
-          "description": "<p>The target has the &Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>"
+          "name": "Dormindo",
+          "description": "<p>O alvo tem a condição &Reference[incapacitated apply=false] até o final do próximo turno dela, quando deve repetir a salvaguarda. Se o alvo falhar na segunda salvaguarda, ele tem a condição &Reference[unconscious] pela duração da magia. A magia encerra em um alvo se ele sofrer dano ou se alguém a até 1,5 metro dele executar uma ação para sacudi-lo, liberando-o do efeito da magia.</p>"
         }
       }
     },
@@ -2756,7 +2756,7 @@
       "description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell's gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section class=\"secret\" id=\"secret-2RobIVhv3tn7gmU7\"><p><strong>Nota do Foundry</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
       "effects": {
         "Slowed": {
-          "name": "Slowed",
+          "name": "Desacelerado",
           "description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>",
           "changes": {
             "system.attributes.ac.bonus": -2,
@@ -2771,8 +2771,8 @@
       }
     },
     "Sorcerous Burst": {
-      "name": "Sorcerous Burst",
-      "description": "<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p><p>If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.</p><p><strong>Cantrip Upgrade. </strong>O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>"
+      "name": "Explosão de Feitiçaria",
+      "description": "<p>Você lança energia feiticeira em uma criatura ou objeto dentro da distância da magia. Faça uma jogada de ataque mágico à distância contra o alvo. Em um acerto, o alvo sobre 1d8 pontos de dano de um tipo à sua escolha: ácido, elétrico, gélido, ígneo, psíquico, trovejante ou venenoso.</p><p>Se você tirar um 8 em um d8 para esta magia, pode jogar outro d8 e adicioná-lo ao dano. Quando você conjura esta magia, o número máximo de d8 que você pode adicionar ao dano é igual ao seu modificador de atributo de conjuração.</p><p><strong>Aprimoramento de Truque. </strong>O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8), 11 (3d8) e 17 (4d8).</p>"
     },
     "Spare the Dying": {
       "name": "Spare the Dying",
@@ -2940,7 +2940,7 @@
           "name": "Incapacitated"
         },
         "Sleeping": {
-          "name": "Sleeping",
+          "name": "Dormindo",
           "description": "<p>A creature awakens if it takes damage or if someone takes an action to shake it awake.</p>"
         },
         "Stunned": {
@@ -2988,8 +2988,8 @@
       }
     },
     "Thunderwave": {
-      "name": "Thunderwave",
-      "description": "<p>You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.</p><p>In addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The damage increases by 1d8 for each spell slot level above 1.</p>"
+      "name": "Onda Trovejante",
+      "description": "<p>Você libera uma onda de energia estrondosa. Cada criatura em um Cubo de 4,5 metros originado em você realiza uma salvaguarda de Constituição. Se falhar, uma criatura sofre 2d8 pontos de dano Trovejante e é empurrada a 3 metros de distância de você. Em caso de sucesso, uma criatura sofre apenas metade do dano.</p><p>Além disso, objetos soltos que estão totalmente dentro do Cubo são empurrados 3 metros para longe de você, e um estrondo trovejante é audível a até 90 metros.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d8 para cada círculo de espaço de magia acima de 1.</p>"
     },
     "Time Stop": {
       "name": "Time Stop",
@@ -3036,14 +3036,14 @@
       }
     },
     "True Strike": {
-      "name": "True Strike",
-      "description": "<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p><p><strong>Aprimoramento de Truque.</strong> Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>",
+      "name": "Golpe Certeiro",
+      "description": "<p>Guiado pelo lampejo de uma intuição mágica, você realiza um ataque com a arma usada na conjuração da magia. O ataque usa seu atributo de conjuração para as jogadas de ataque e dano em vez de usar Força ou Destreza. Se o ataque causar dano, ele pode ser Radiante ou do tipo de dano normal da arma (à sua escolha).</p><p><strong>Aprimoramento de Truque.</strong> Independentemente de você causas dano radiante ou o tipo de dano normal da arma, o ataque causa dano radiante extra quando você atinge os níveis 5 (1d6), 11 (2d6) e 17 (3d6).</p>",
       "effects": {
         "True Strike": {
-          "name": "True Strike",
+          "name": "Golpe Certeiro",
           "changes": {
             "system.damage.base.types": "radiant",
-            "name": "{} (True Strike)",
+            "name": "{} (Golpe Certeiro)",
             "system.damage.parts": [
               ["(floor((@details.level + 1) / 6))d6", "radiant"]
             ],
@@ -3051,10 +3051,10 @@
           }
         },
         "Ranged Weapon": {
-          "name": "Ranged Weapon",
+          "name": "Arma de combate à distância",
           "changes": {
             "system.damage.base.types": "radiant",
-            "name": "{} (True Strike)",
+            "name": "{} (Golpe Certeiro)",
             "system.damage.base.bonus": "(floor((@details.level + 1) / 6))d6[radiant]"
           }
         }
@@ -3073,12 +3073,12 @@
       "description": "<p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against one creature within reach. On a hit, the target takes 3d6 Necrotic damage, and you regain Hit Points equal to half the amount of Necrotic damage dealt.</p><p>Until the spell ends, you can make the attack again on each of your turns as a Magic action, targeting the same creature or a different one.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>"
     },
     "Vicious Mockery": {
-      "name": "Vicious Mockery",
-      "description": "<p>You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.</p><p><strong>Aprimoramento de Truque.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
+      "name": "Zombaria Perversa",
+      "description": "<p>Você libera uma série de insultos carregados com encantamentos sutis em uma criatura que pode ouvir você e que esteja à sua vista e no alcance da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou sofre 1d6 pontos de dano Psíquico e tem Desvantagem na próxima jogada de ataque que realizar antes do final do próximo turno dele.</p><p><strong>Aprimoramento de Truque.</strong> O dano aumenta em 1d6 quando você atinge os níveis 5 (2d6), 11 (3d6) e 17 (4d6).</p>",
       "effects": {
         "Mocked": {
-          "name": "Mocked",
-          "description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
+          "name": "Zombado",
+          "description": "<p>O alvo tem desvantagem na próxima jogada de ataque que faça antes do fim do seu próximo turno.</p>"
         }
       }
     },

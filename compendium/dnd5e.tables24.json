@@ -55,7 +55,7 @@
           "name": "Moon"
         },
         "49-56": {
-          "name": "Rogue"
+          "name": "Ladino"
         },
         "57-64": {
           "name": "Ruin"
@@ -148,13 +148,13 @@
           "name": "Puzzle"
         },
         "61-64": {
-          "name": "Rogue"
+          "name": "Ladino"
         },
         "65-68": {
           "name": "Ruin"
         },
         "69-73": {
-          "name": "Sage"
+          "name": "Sábio"
         },
         "74-77": {
           "name": "Skull"
@@ -521,7 +521,7 @@
           "description": "A harmless swarm of butterflies fills a 10-foot Cube within 30 feet of yourself. The swarm disperses after 1 minute."
         },
         "61-65": {
-          "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a vial of @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{flask of Alchemist’s Fire}; on a 3, a @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}; on a 4, a lit @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}."
+          "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a vial of @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{flask of Alchemist’s Fire}; on a 3, a @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}; on a 4, a lit @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}."
         },
         "66-70": {
           "description": "You suffer a bout of “magic sickness” and have the &Reference[Poisoned] condition for 1 hour."
@@ -530,7 +530,7 @@
           "description": "You have the &Reference[Petrified] condition until the end of your next turn."
         },
         "76-80": {
-          "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda} with a @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook} tied to one end; on a 3, a bag of @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}; on a 4, a gem worth 50 PO."
+          "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda} with a @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook} tied to one end; on a 3, a bag of @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Estrepes}; on a 4, a gem worth 50 PO."
         },
         "81-85": {
           "description": "A creature appears in an unoccupied space as close to you as possible. The creature isn’t under your control and acts as it normally would, and it disappears after 1 hour or when it drops to 0 Hit Points. Roll [[/r 1d4]] to determine the creature: on a 1, a @UUID[Compendium.dnd5e.actors24.Actor.mmCamel000000000]{Camel}; on a 2, a @UUID[Compendium.dnd5e.actors24.Actor.mmConstrictorSna]{Constrictor Snake}; on a 3, an @UUID[Compendium.dnd5e.actors24.Actor.mmElephant000000]{Elephant}; on a 4, a @UUID[Compendium.dnd5e.actors24.Actor.mmMule0000000000]{Mule}."
@@ -1086,7 +1086,7 @@
       "description": "<p>A roll table of effects for the @UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder} which implements the effects as activities where possible.</p>",
       "results": {
         "1-20": {
-          "description": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}; on a 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
+          "description": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}; on a 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
         },
         "21-25": {
           "description": "Nothing happens at the chosen point of origin. Instead, you have the &Reference[Stunned] condition until the start of your next turn, believing something awesome just happened."
@@ -1723,16 +1723,16 @@
     },
     "Elven Lineage": {
       "name": "Elven Lineage",
-      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p>",
       "results": {
         "1-1": {
-          "name": "Elf, Drow"
+          "name": "Elfo, Drow"
         },
         "2-2": {
           "name": "Elfo, Alto"
         },
         "3-3": {
-          "name": "Elf, Wood"
+          "name": "Elfo, Silvestre"
         }
       }
     },
@@ -1741,25 +1741,25 @@
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
       "results": {
         "1-1": {
-          "name": "Tiefling, Abyssal"
+          "name": "Tiferino Abissal"
         },
         "2-2": {
-          "name": "Tiefling, Chthonic"
+          "name": "Tiferino Ctônico"
         },
         "3-3": {
-          "name": "Tiefling, Infernal"
+          "name": "Tiferino Infernal"
         }
       }
     },
     "Gnomish Lineage": {
       "name": "Gnomish Lineage",
-      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p>",
       "results": {
         "1-1": {
           "name": "Gnome, Forest"
         },
         "2-2": {
-          "name": "Gnome, Rock"
+          "name": "Gnomo das Rochas"
         }
       }
     },
@@ -2230,16 +2230,16 @@
           "description": "Aasimar"
         },
         "2-2": {
-          "name": "Dragonborn"
+          "name": "Draconato"
         },
         "3-3": {
-          "name": "Dwarf"
+          "name": "Anão"
         },
         "6-6": {
-          "name": "Goliath"
+          "name": "Golias"
         },
         "7-7": {
-          "name": "Halfling"
+          "name": "Pequenino"
         },
         "8-8": {
           "name": "Humano"

@@ -45,7 +45,7 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} adheres to anything that touches it. A Huge or smaller creature adhered to the [[lookup @name lowercase]]{monster} has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). Ability checks made to escape this grapple have Disadvantage.</p>"
         }
       }
@@ -273,7 +273,7 @@
       "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has the &Reference[Prone] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone] condition.</p>"
         }
       }
@@ -323,7 +323,7 @@
       "description": "<p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=3o27u4Ww7SmCgc8k]], one creature the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=3o27u4Ww7SmCgc8k]] feet.</p><p><em>Failure:</em> The target has the &Reference[Charmed apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the user's next turn.</p>"
         }
       }
@@ -459,7 +459,7 @@
     },
     "Corrosive Form": {
       "name": "Corrosive Form",
-      "description": "<p class=\"feature\">A creature that hits the [[lookup @name lowercase]]{monster} with a melee attack roll takes [[/damage average]] damage. Nonmagical ammunition is destroyed immediately after hitting the [[lookup @name lowercase]]{monster} and dealing any damage. Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after dealing damage to the [[lookup @name lowercase]]{monster} and coming into contact with it. The weapon is destroyed if the penalty reaches −5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em> spell on the weapon.</p><p class=\"feature\">In 1 minute, the [[lookup @name lowercase]]{monster} can eat through 2 feet of nonmagical wood or metal.</p><section id=\"secret-NtgKYdQoCuiAaxOa\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature provides an <strong>Attack Penalty</strong> active effect that will modify a targeted weapon. Since this penalty can be applied multiple times to multiple nonmagical weapons, this active effect needs to be dragged from this item's Effect tab onto the target Item's weapons.</p></section>",
+      "description": "<p class=\"feature\">A creature that hits the [[lookup @name lowercase]]{monster} with a melee attack roll takes [[/damage average]] damage. Nonmagical ammunition is destroyed immediately after hitting the [[lookup @name lowercase]]{monster} and dealing any damage. Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after dealing damage to the [[lookup @name lowercase]]{monster} and coming into contact with it. The weapon is destroyed if the penalty reaches −5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Reparar}</em> spell on the weapon.</p><p class=\"feature\">In 1 minute, the [[lookup @name lowercase]]{monster} can eat through 2 feet of nonmagical wood or metal.</p><section id=\"secret-NtgKYdQoCuiAaxOa\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature provides an <strong>Attack Penalty</strong> active effect that will modify a targeted weapon. Since this penalty can be applied multiple times to multiple nonmagical weapons, this active effect needs to be dragged from this item's Effect tab onto the target Item's weapons.</p></section>",
       "effects": {
         "Damaged: -1 Attack": {
           "name": "Damaged: -1 Attack",
@@ -476,7 +476,7 @@
     },
     "Coven Magic": {
       "name": "Coven Magic",
-      "description": "<p class=\"feature\">While within 30 feet of at least two hag allies, the [[lookup @name lowercase]]{monster} can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC [[lookup @abilities.int.dc]]): <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAugury0000]{Augury}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLocateObje]{Locate Object}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplUnseenServ]{Unseen Servant}</em>. The [[lookup @name lowercase]]{monster} must finish a Long Rest before using this trait to cast that spell again.</p>"
+      "description": "<p class=\"feature\">While within 30 feet of at least two hag allies, the [[lookup @name lowercase]]{monster} can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC [[lookup @abilities.int.dc]]): <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAugury0000]{Augury}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Convocar Familiar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identificar}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLocateObje]{Locate Object}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplUnseenServ]{Unseen Servant}</em>. The [[lookup @name lowercase]]{monster} must finish a Long Rest before using this trait to cast that spell again.</p>"
     },
     "Create Specter": {
       "name": "Create Specter",
@@ -533,7 +533,7 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures.</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=IPCXEQoTuaAG5l52]], each [[lookup @target.affects.type activity=IPCXEQoTuaAG5l52]] in the [[lookup @name lowercase]]{monster}'s destination space.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Prone apply=false] condition.</p><p class=\"feature\"><em>Success:</em> Half damage, and the target is pushed 5 feet straight away from the [[lookup @name lowercase]]{monster}.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -588,7 +588,7 @@
     },
     "Dissolving Pseudopod": {
       "name": "Dissolving Pseudopod",
-      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em> spell on the armor.</p>",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Reparar}</em> spell on the armor.</p>",
       "effects": {
         "Damaged: -1 AC": {
           "name": "Damaged: -1 AC",
@@ -601,7 +601,7 @@
     },
     "Divine Aid": {
       "name": "Divine Aid",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Benção}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{Healing Word}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, using the same spellcasting ability as Spellcasting.</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Benção}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{palavra curativa}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, using the same spellcasting ability as Spellcasting.</p>"
     },
     "Divine Awareness": {
       "name": "Divine Awareness",
@@ -709,7 +709,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Charmed apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the attacking creature's next turn.</p>"
         }
       }
@@ -739,7 +739,7 @@
       "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=66IPjaLIJqqwvmrL]], [[lookup @target.affects.labels.statblock activity=66IPjaLIJqqwvmrL]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=66IPjaLIJqqwvmrL]] feet.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Charmed apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
       "effects": {
         "Charmed": {
-          "name": "Charmed",
+          "name": "Enfeitiçado",
           "description": "<p>The target has the &Reference[Charmed apply=false] condition until the start of the attacking creature’s next turn.</p>"
         }
       }
@@ -845,7 +845,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Huge or smaller creature, the [[lookup @name lowercase]]{monster} pulls the target up to 25 feet straight toward itself, and the target has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -855,7 +855,7 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} throws a [[lookup @target.affects.special activity=E7YKnUIWsavrnNzK]] Grappled by it to a space it can see within [[lookup @range.value activity=E7YKnUIWsavrnNzK]] feet of itself [[lookup @range.special activity=E7YKnUIWsavrnNzK]].</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=E7YKnUIWsavrnNzK]], the creature thrown and each creature in the destination space.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Prone apply=false] condition.</p><p class=\"feature\"><em>Success:</em> Half damage.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -957,7 +957,7 @@
       "description": "<p>[[/attack extended]]. [[/damage extended average]]. If the target is a [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]] creature and the [[lookup @name lowercase]]{monster} moved {NN}+ feet straight toward it immediately before the hit, the target takes an extra [[/damage 2d8 average type=piercing]] damage and has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition if the attacking creature used its moving attack feature.</p>"
         }
       }
@@ -977,7 +977,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]).</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
@@ -1013,7 +1013,7 @@
       "effects": {
         "Disadv.: Attacks": {
           "name": "Disadv.: Attacks",
-          "description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
+          "description": "<p>O alvo tem desvantagem na próxima jogada de ataque que faça antes do fim do seu próximo turno.</p>"
         }
       }
     },
@@ -1260,7 +1260,7 @@
     },
     "Magic of the Spider Queen": {
       "name": "Magic of the Spider Queen",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em>, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em>, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).</p>"
     },
     "Magic Resistance": {
       "name": "Magic Resistance",
@@ -1528,7 +1528,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of two pincers.</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
@@ -1619,7 +1619,7 @@
       "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=aDWVHpJgsNPPNrDs]], [[lookup @target.affects.special activity=aDWVHpJgsNPPNrDs]] the [[lookup @name lowercase]]{monster} can see within [[lookup @target.template.size activity=aDWVHpJgsNPPNrDs]] [[lookup @target.template.units activity=aDWVHpJgsNPPNrDs]]. <em>Failure:</em> The target has the &Reference[Grappled] condition (escape DC [[lookup @skills.ath.passive]]).</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
@@ -1649,7 +1649,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.special activity=z58sUDUmqxECJgT3]] creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -1680,7 +1680,7 @@
     },
     "Reflective Carapace": {
       "name": "Reflective Carapace",
-      "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} is targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell or a spell that requires a ranged attack roll, roll [[/r 1d6]].</p><p class=\"feature\">On a <strong>1–5</strong>, the [[lookup @name lowercase]]{monster} is unaffected.</p><p class=\"feature\">On a <strong>6</strong>, the [[lookup @name lowercase]]{monster} is unaffected and reflects the spell, turning the caster into the target.</p>"
+      "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} is targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos}</em> spell or a spell that requires a ranged attack roll, roll [[/r 1d6]].</p><p class=\"feature\">On a <strong>1–5</strong>, the [[lookup @name lowercase]]{monster} is unaffected.</p><p class=\"feature\">On a <strong>6</strong>, the [[lookup @name lowercase]]{monster} is unaffected and reflects the spell, turning the caster into the target.</p>"
     },
     "Reflexive Antennae": {
       "name": "Reflexive Antennae",
@@ -1699,7 +1699,7 @@
       "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]], each [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup @target.template.size activity=zuf9EEVj4nI1joaH]]-foot Cone. </p><p class=\"feature\"><em>Failure:</em> The target is pushed up to 30 feet straight away from the [[lookup @name lowercase]]{monster} and has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -1744,7 +1744,7 @@
           "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
         },
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -1758,7 +1758,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -1818,7 +1818,7 @@
     },
     "Sense Magic": {
       "name": "Sense Magic",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} senses magic within 120 feet of itself. This trait otherwise works like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em> spell but isn't itself magical.</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} senses magic within 120 feet of itself. This trait otherwise works like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</em> spell but isn't itself magical.</p>"
     },
     "Shadow Stealth": {
       "name": "Shadow Stealth",
@@ -1843,7 +1843,7 @@
       "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=eIErvLccVVCXiCSl]], one [[lookup @target.affects.type activity=eIErvLccVVCXiCSl]] within [[lookup @range.value activity=eIErvLccVVCXiCSl]] [[lookup @range.units activity=eIErvLccVVCXiCSl]]. that the [[lookup @name lowercase]]{monster} can see. <em>Failure:</em> [[/damage average]] damage. If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -1894,7 +1894,7 @@
       "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=C7BMf8hIfCjxRSWC]], one [[lookup @target.affects.type activity=C7BMf8hIfCjxRSWC]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=C7BMf8hIfCjxRSWC]] [[lookup @range.units activity=C7BMf8hIfCjxRSWC]]. <em>Failure:</em> If the [[lookup @target.affects.type activity=C7BMf8hIfCjxRSWC]] has 100 Hit Points or fewer, it dies. It otherwise takes [[/damage average]] damage.</p>"
     },
     "Sleep": {
-      "name": "Sleep",
+      "name": "Sono",
       "description": "<p>The [[lookup @name lowercase]]{monster} casts the @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000] spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).</p>"
     },
     "Sleep Breath": {
@@ -2027,7 +2027,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -2067,7 +2067,7 @@
           "description": "<p>While swallowed, a creature has the &Reference[Blinded apply=false] and &Reference[Restrained apply=false] conditions, has &Reference[Total Cover apply=false] against attacks.</p>"
         },
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If you are regurgitated, you fall into a space within 10 ft. and are &Reference[Prone apply=false].</p>"
         }
       }
@@ -2081,7 +2081,7 @@
       "description": "<p class=\"feature\">[[/attack extended activity=rO8NirkWF6w9GXTc]]. [[/damage average extended activity=rO8NirkWF6w9GXTc]], or [[/damage average activity=hzeHzcSKHC4AvIJQ]] damage if the swarm is &Reference[Bloodied apply=false]. If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Medium or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -2095,7 +2095,7 @@
       "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a {size} or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -2129,7 +2129,7 @@
       "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a {size} or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of {count} tentacles.</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p><strong>Escape Tests (see origin item for DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
         }
       }
@@ -2149,7 +2149,7 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from all four tentacles.</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
         }
       }
@@ -2233,7 +2233,7 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} moves up to its Speed without provoking &Reference[OpportunityAttacks] and can move through the spaces of [[lookup @target.affects.special activity=FG9rAj3Q8UTxbGLF]]. Each [[lookup @target.affects.type activity=FG9rAj3Q8UTxbGLF]] whose space the [[lookup @name lowercase]]{monster} enters is targeted once by the following effect. </p><p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=FG9rAj3Q8UTxbGLF]]. </p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target has a &Reference[Prone apply=long] condition.</p><p></p>"
         }
       }
@@ -2261,7 +2261,7 @@
       "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>If the target is a Large or smaller creature, it has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -2375,7 +2375,7 @@
       "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=cZy0VYbCVY8aRB4z]], one [[lookup @target.affects.special activity=cZy0VYbCVY8aRB4z]] in the [[lookup @name lowercase]]{monster}'s space. <em>Failure:</em> [[/damage average activity=cZy0VYbCVY8aRB4z]] damage, and the target has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple ends, the target can't cast spells with a Verbal component and takes [[/damage average activity=kDz92inkRCjGrPiz]] damage at the start of each of the [[lookup @name lowercase]]{monster}'s turns.</p>",
       "effects": {
         "Grappled": {
-          "name": "Grappled",
+          "name": "Agarrado",
           "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Until the grapple ends, the target can’t cast spells with a Verbal component and takes additional damage at the start of each of the NPC’s turns.</p>"
         }
       }
@@ -2464,7 +2464,7 @@
       "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]], each Medium or smaller [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] in the [[lookup @name lowercase]]{monster}'s space. <em>Failure:</em> [[/damage average]] damage, and the target is pushed up to 20 feet straight away from the [[lookup @name lowercase]]{monster} and has the &Reference[Prone apply=false] condition. <em>Success:</em> Half damage only.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>The target is pushed up to 20-ft. straight away from the attacking creature and has the &Reference[Prone apply=false] condition.</p>"
         }
       }
@@ -2507,7 +2507,7 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} moves up to its Speed. At the end of this movement, the [[lookup @name lowercase]]{monster} creates an instantaneous shock wave in a [[lookup @target.template.size activity=g4W0ovZxBeUrZKb8]]-[[lookup @target.template.units activity=g4W0ovZxBeUrZKb8]]. Emanation originating from itself. Creatures in that area lose &Reference[Concentration] and, if Medium or smaller, have the &Reference[Prone apply=false] condition. The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>",
       "effects": {
         "Prone": {
-          "name": "Prone",
+          "name": "Caído",
           "description": "<p>Creatures in that area lose &Reference[Concentration] and, if Medium or smaller, have the &Reference[Prone apply=false] condition.</p>"
         }
       }
