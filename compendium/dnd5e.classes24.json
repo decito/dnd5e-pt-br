@@ -49,11 +49,11 @@
       }
     },
     "Divine Order: Thaumaturge": {
-      "name": "Divine Order: Thaumaturge",
-      "description": "<p>Você se dedicou à seguinte função sagrada:</p><p><strong>Thaumaturge.</strong> You know one extra cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Lista de magias do clérigo}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1, currently [[lookup @abilities.wis.mod]]).</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which increases the number of cantrips you can know and grants the bonus to your Intelligence (Arcana or Religion) checks.</p></section>",
+      "name": "Ordem Divina: Taumaturgo",
+      "description": "<p>Você se dedicou à seguinte função sagrada:</p><p><strong>Taumaturgo.</strong> Você conhece um truque extra da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Lista de magias do clérigo}. Além disso, sua conexão mística com o divino lhe dá um bônus nos seus testes de Inteligência (Aracanismo e Religião). O bônus é igual ao seu modificador de Sbedoria (mínimo de +1, atualmente [[lookup @abilities.wis.mod]]).</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo que aumenta o número de magias básicas que você pode conhecer e concede um bônus aos seus testes de Inteligência (Arcanismo ou Religião).</p></section>",
       "effects": {
         "Thaumaturge": {
-          "name": "Thaumaturge",
+          "name": "Taumaturgo",
           "changes": {
             "system.scale.cleric.cantrips-known.value": 1,
             "system.skills.arc.bonuses.check": "(max(1,@abilities.wis.mod))",
@@ -912,7 +912,7 @@
       "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you're in an area of &Reference[Dim Light] or &Reference[Darkness], you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that sets the Invisible status effect.</p></section>",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
         }
       }
@@ -1143,7 +1143,7 @@
       "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Nota do Foundry</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
       "effects": {
         "Stunned": {
-          "name": "Stunned"
+          "name": "Atordoado"
         },
         "Slowed": {
           "name": "Desacelerado"

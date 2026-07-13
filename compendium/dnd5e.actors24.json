@@ -27,7 +27,7 @@
     "Undead": "Undead",
     "Conjurations": "Conjurations",
     "Companions": "Companions",
-    "Magic Items": "Magic Items",
+    "Magic Items": "Itens Mágicos",
     "Premades": "Personagens Prontos",
     "Summons": "Summons",
     "Vehicles": "Vehicles"
@@ -984,7 +984,7 @@
               }
             },
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>The attacker has the &Reference[Blinded apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -1835,7 +1835,7 @@
           "description": "<p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the &Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as much damage only.</p><p>A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns, ending the effect on itself on a success.</p><p>This spell dispels &Reference[Darkness] in its area that was created by any spell.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>A creature &Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
             }
           }
@@ -2278,7 +2278,7 @@
           "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened"
+              "name": "Amedrontado"
             }
           }
         },
@@ -2573,7 +2573,7 @@
               }
             },
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>The attacker has the &Reference[Blinded apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -4061,7 +4061,7 @@
         },
         "Burning Hands": {
           "name": "Mãos Flamejantes",
-          "description": "<p>AUma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
+          "description": "<p>Uma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
         },
         "Robe": {
           "name": "Túnica",
@@ -5397,7 +5397,7 @@
           "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Nota do Foundry</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
           "effects": {
             "Stunned": {
-              "name": "Stunned"
+              "name": "Atordoado"
             },
             "Slowed": {
               "name": "Desacelerado"
@@ -7214,7 +7214,7 @@
           "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened"
+              "name": "Amedrontado"
             }
           }
         },
@@ -8302,7 +8302,7 @@
         },
         "Burning Hands": {
           "name": "Mãos Flamejantes",
-          "description": "<p>AUma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
+          "description": "<p>Uma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
         },
         "Command": {
           "name": "Comando",
@@ -8511,7 +8511,7 @@
           "description": "<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional Humanoid for each spell slot level above 2.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             }
           }
@@ -8836,7 +8836,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             }
           }
@@ -8873,7 +8873,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             }
           }
@@ -8883,7 +8883,7 @@
           "description": "<p>You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"300 feet upward to the northwest at a 45-degree angle.\"</p><p>You can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.</p><p>If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.</p>"
         },
         "Chain Mail": {
-          "name": "Chain Mail",
+          "name": "Cota de Malha",
           "effects": {
             "Elven Chain": {
               "name": "Elven Chain",
@@ -8903,7 +8903,7 @@
           "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened"
+              "name": "Amedrontado"
             }
           }
         },
@@ -9758,7 +9758,7 @@
           "description": "<p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the &Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as much damage only.</p><p>A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns, ending the effect on itself on a success.</p><p>This spell dispels &Reference[Darkness] in its area that was created by any spell.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>A creature &Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
             }
           }
@@ -9908,7 +9908,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -10482,7 +10482,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -10596,11 +10596,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
             },
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>The target has the &Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>"
             }
           }
@@ -10888,7 +10888,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] in a [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Deafened apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Deafened": {
-              "name": "Deafened",
+              "name": "Surdo",
               "description": "<p>The target is &Reference[Deafened apply=long] until the end of its next turn.</p>"
             }
           }
@@ -11478,11 +11478,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             }
           }
@@ -11511,7 +11511,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -11591,7 +11591,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -11926,7 +11926,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -11994,7 +11994,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -12058,11 +12058,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
             },
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>The target has the &Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
             }
           }
@@ -12400,7 +12400,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] in a [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Deafened apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Deafened": {
-              "name": "Deafened",
+              "name": "Surdo",
               "description": "<p>The target is &Reference[Deafened apply=long] until the end of its next turn.</p>"
             }
           }
@@ -13035,11 +13035,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             }
           }
@@ -13080,7 +13080,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -13172,7 +13172,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -13498,7 +13498,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -13637,7 +13637,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the assassin's next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the assassin’s next turn.</p>"
             }
           }
@@ -13791,7 +13791,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]].&gt;</p>"
         },
         "Leather Armor": {
-          "name": "Armadura de Couroouro"
+          "name": "Armadura de Couro"
         }
       }
     },
@@ -13873,11 +13873,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mN9aF1WkHQWLIN4B]], each [[lookup @target.affects.type activity=mN9aF1WkHQWLIN4B]] in a [[lookup @target.template.size activity=mN9aF1WkHQWLIN4B]]-foot [[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]. If the [[lookup @name lowercase]]{monster} sees its reflection in the [[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]], the [[lookup @name lowercase]]{monster} must make this save. </p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. </p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
             },
             "Petrified": {
-              "name": "Petrified",
+              "name": "Petrificado",
               "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
             }
           }
@@ -13911,7 +13911,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn. Until this poison ends, the target can't regain Hit Points.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the user's next turn. Until this poison ends, the target can’t regain Hit Points.</p>"
             }
           }
@@ -14152,7 +14152,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn. While Poisoned, the target can't regain Hit Points.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>the target has the &Reference[Poisoned apply=false] condition until the start of the attacking creature’s next turn.</p>"
             }
           }
@@ -14176,11 +14176,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
             },
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>The target has the &Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
             }
           }
@@ -14545,7 +14545,7 @@
           "description": "<p class=\"feature\">The devil conjures a fiery chain to bind a creature.</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=9vCVJrzUZL0ra4w2]], [[lookup @target.affects.labels.statblock activity=9vCVJrzUZL0ra4w2]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=9vCVJrzUZL0ra4w2]] feet.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Restrained apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn, at which point the chain disappears. If the target is Large or smaller, the devil moves the target up to 30 feet straight toward itself.</p><p class=\"feature\"><em>Success:</em> The chain disappears.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition until the end of the attacking creature's next turn.</p>"
             }
           }
@@ -14555,7 +14555,7 @@
           "description": "<p class=\"feature\"><em>Trigger:</em> A [[lookup @target.affects.type activity=btp6NZvx465nxWTF]] the [[lookup @name lowercase]]{monster} can see starts its turn within [[lookup @target.template.size activity=btp6NZvx465nxWTF]] feet of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Response—Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=btp6NZvx465nxWTF]], the triggering [[lookup @target.affects.type activity=btp6NZvx465nxWTF]].</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition until the end of its turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Unnerving Gaze for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of its turn.</p>"
             }
           }
@@ -14751,7 +14751,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Mng39fcFDc4I1AzY]], each [[lookup @target.affects.type activity=Mng39fcFDc4I1AzY]] in a [[lookup @target.template.size activity=Mng39fcFDc4I1AzY]]-[[lookup @target.template.units activity=Mng39fcFDc4I1AzY]]. Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Moan for the next 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
             }
           }
@@ -14775,7 +14775,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Incapacitated apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -14899,11 +14899,11 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is subjected to the following effect.</p><p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]].</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
             },
             "Petrified": {
-              "name": "Petrified",
+              "name": "Petrificado",
               "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
             }
           }
@@ -14988,7 +14988,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of the biter's next turn.</p>"
             }
           }
@@ -15247,7 +15247,7 @@
           "description": "<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional Humanoid for each spell slot level above 2.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -15260,7 +15260,7 @@
           "description": "<p>Um Símbolo Sagrado assume uma das formas na tabela Símbolo Sagrado e é adornado ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como um Foco de Conjuração.</p><p>A tabela indica se um Símbolo Sagrado precisa ser segurado, usado ou exibido em tecido (como um tabardo ou um estandarde) ou em um Escudo.</p><table><caption>Símbolos Sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Custo</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{Amuleto} (usado ou segurado)</td><td>0,5 kg</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{Emblema} (carregado em tecido ou em um escudo)</td><td>—</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{Relicário} (segurado)</td><td>1 kg</td><td>5 PO</td></tr></tbody></table>"
         },
         "Leather Armor": {
-          "name": "Armadura de Couroouro"
+          "name": "Armadura de Couro"
         }
       }
     },
@@ -15305,7 +15305,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is subjected to the following effect.</p><p><em>Constitution Saving Throw</em>: DC [[lookup @save.dc.value activity=F0T3hYR3EtUEMhvs]].</p><p><em>First Failure</em>: The target has the &Reference[Poisoned apply=false] condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success.</p><p><em>Subsequent Failures</em>: The Poisoned target's Hit Point maximum decreases by 5 ([[/r 1d10]]).</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p><em>First CON Save Failure</em>: The target has the &Reference[Poisoned apply=false] condition. While Poisoned, the target’s Hit Point maximum doesn’t return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. </p><p><em>Subsequent CON Save Failures</em>: The Poisoned target’s Hit Point maximum decreases by 5 ([[/r 1d10]]).&lt;/p&gt;</p>"
             }
           }
@@ -15695,7 +15695,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -15735,7 +15735,7 @@
           "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} conjures a whirlwind at a point it can see within 120 feet. The whirlwind fills a [[lookup @target.template.size activity=TYNKL0QDItFpbR2G]]-foot-radius, [[lookup @target.template.height activity=TYNKL0QDItFpbR2G]]-foot-high [[lookup @target.template.type capitalize activity=TYNKL0QDItFpbR2G]] centered on that point. The whirlwind lasts until the [[lookup @name lowercase]]{monster}'s Concentration on it ends. The [[lookup @name lowercase]]{monster} can move the whirlwind up to 20 feet at the start of each of its turns.</p><p class=\"feature\">Whenever the whirlwind enters a creature's space or a creature enters the whirlwind, that creature is subjected to the following effect.</p><p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=TYNKL0QDItFpbR2G]] (a creature makes this save only once per turn, and the [[lookup @name lowercase]]{monster} is unaffected).</p><p class=\"feature\"><em>Failure:</em> While in the whirlwind, the target has the &Reference[Restrained apply=false] condition and moves with the whirlwind. At the start of each of its turns, the Restrained target takes [[/damage average]] damage. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition and moves with the whirlwind.</p><p>At the end of each of its turns, the target repeats the save, ending the effect on itself on a success.</p>"
             }
           }
@@ -15790,7 +15790,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=USxIbGZPLvfPnnoI]], each [[lookup @target.affects.type activity=USxIbGZPLvfPnnoI]] in a [[lookup @target.template.size activity=USxIbGZPLvfPnnoI]]-foot Emanation originating from the [[lookup @name lowercase]]{monster} that can see the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=USxIbGZPLvfPnnoI]] [[lookup @duration.units activity=USxIbGZPLvfPnnoI]], it succeeds automatically.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             }
           }
@@ -15856,7 +15856,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=vRnhmBCQqIwIlfS4]], each creature in a [[lookup @target.template.size activity=vRnhmBCQqIwIlfS4]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can't take Reactions.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions.</p>"
             }
           }
@@ -16001,7 +16001,7 @@
           "description": "<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &Reference[difficultterrain]. They disappear when the spell ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>"
             },
             "Spell Changes": {
@@ -16139,7 +16139,7 @@
           "description": "<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &Reference[difficultterrain]. They disappear when the spell ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>"
             },
             "Spell Changes": {
@@ -16188,7 +16188,7 @@
           "description": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=soAO2jRWos8FsxeU]], each creature in a [[lookup @target.template.size activity=soAO2jRWos8FsxeU]]-foot Cone.</p><p><em>Failure:</em> The target has the &Reference[Blinded apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>The target has the &Reference[Blinded apply=false] condition until the end of the user's next turn.</p>"
             }
           }
@@ -16363,7 +16363,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -16503,7 +16503,7 @@
           "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=n8nEah4vbrEPphNF]], one creature the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=n8nEah4vbrEPphNF]] feet. </p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Restrained apply=false] condition until the rope is destroyed, the [[lookup @name lowercase]]{monster} uses a Bonus Action to release the target, or the [[lookup @name lowercase]]{monster} uses Entangling Rope again.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition until the rope is destroyed.</p>"
             }
           }
@@ -16523,7 +16523,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>"
             }
           }
@@ -16537,7 +16537,7 @@
           "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=Ln5NXBaHGKlwdoiP]], one Large or smaller [[lookup @target.affects.type activity=Ln5NXBaHGKlwdoiP]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=Ln5NXBaHGKlwdoiP]] feet.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Restrained apply=false] condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition until the web is destroyed.</p>"
             }
           }
@@ -16822,7 +16822,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mJbwhj3beOIB3Jgj]], any creature (other than a [[lookup @name lowercase]]{monster}) that starts its turn in a [[lookup @target.template.size activity=mJbwhj3beOIB3Jgj]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition until the start of its next turn.</p><p><em>Success:</em> The target is immune to the Stench of all [[lookup @name lowercase]]{monster} for 1 hour.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of its next turn.</p>"
             }
           }
@@ -16836,7 +16836,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a non-Undead creature, it is subjected to the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=nDM4WpckiZjvBzfg]].</p><p><em>Failure:</em> The target has the &Reference[Paralyzed apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -16888,7 +16888,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=v8KiqUloIE5eocSu]], each creature in a [[lookup @target.template.size activity=v8KiqUloIE5eocSu]]-foot Cone that can see the [[lookup @name lowercase]]{monster} and isn't an Undead.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Horrifying Visage for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of the attacking creature's next turn.</p>"
             }
           }
@@ -16898,7 +16898,7 @@
           "description": "<p class=\"feature\"><em>Charisma Saving Throw:</em> DC [[lookup @save.dc.value activity=7gmNBVjwuYTyANMe]], one [[lookup @target.affects.special activity=7gmNBVjwuYTyANMe]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=7gmNBVjwuYTyANMe]] feet.</p><p class=\"feature\"><em>Failure:</em> The target is possessed by the [[lookup @name lowercase]]{monster}; the [[lookup @name lowercase]]{monster} disappears, and the target has the &Reference[Incapacitated apply=false] condition and loses control of its body. The [[lookup @name lowercase]]{monster} now controls the body, but the target retains awareness. The [[lookup @name lowercase]]{monster} can't be targeted by any attack, spell, or other effect, except ones that specifically target Undead. The [[lookup @name lowercase]]{monster}'s game statistics are the same, except it uses the possessed target's Speed, as well as the target's Strength, Dexterity, and Constitution modifiers.</p><p class=\"feature\">The possession lasts until the body drops to 0 Hit Points or the [[lookup @name lowercase]]{monster} leaves as a Bonus Action. When the possession ends, the [[lookup @name lowercase]]{monster} appears in an unoccupied space within 5 feet of the target, and the target is immune to this ghost's Possession for 24 hours.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Possession for 24 hours.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition and loses control of its body.</p>"
             }
           }
@@ -16922,7 +16922,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.type activity=u64Kjp19EAOJoLeo]] [[lookup @target.affects.special activity=u64Kjp19EAOJoLeo]], it is subjected to the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=u64Kjp19EAOJoLeo]].</p><p><em>Failure:</em> The target has the &Reference[Paralyzed apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -17012,7 +17012,7 @@
           "description": "<p><em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet. <em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition until the start of the insect's next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the insect’s next turn.</p>"
             }
           }
@@ -17477,7 +17477,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -17553,7 +17553,7 @@
           "description": "<p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=JfU8KFZkAJxWtrhk]], each creature in a [[lookup @target.template.size activity=JfU8KFZkAJxWtrhk]]-foot-radius Sphere centered on a point within [[lookup @range.value activity=JfU8KFZkAJxWtrhk]] feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Blinded apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>the target has the &Reference[Blinded apply=false] condition until the end of the user’s next turn.</p>"
             }
           }
@@ -17673,7 +17673,7 @@
           "description": "<p>You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.</p><p>The &Reference[Stunned apply=false] target makes a [[/save ability=con dc=@attributes.spell.dc]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>",
           "effects": {
             "Stunned": {
-              "name": "Stunned",
+              "name": "Atordoado",
               "description": "<p>The &Reference[Stunned apply=false] target makes a [[/save ability=con]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>"
             },
             "No Movement": {
@@ -17897,11 +17897,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=reU3RXAk0MdPmKCl]], each [[lookup @target.affects.type activity=reU3RXAk0MdPmKCl]] in a [[lookup @target.template.size activity=reU3RXAk0MdPmKCl]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>",
           "effects": {
             "Petrified": {
-              "name": "Petrified",
+              "name": "Petrificado",
               "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
             },
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
             }
           }
@@ -18109,7 +18109,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -18263,7 +18263,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4plP8QiJxzFZZO7]], [[lookup @target.affects.labels.statblock activity=r4plP8QiJxzFZZO7]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=r4plP8QiJxzFZZO7]] feet.</p><p><em>Failure:</em> 31 (7d8) Poison damage, and the target has the &Reference[Blinded apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p><p><em>Success:</em> Half damage only.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>The target has the &Reference[Blinded apply=false] condition until the start of the attacking creature ’s next turn.</p>"
             }
           }
@@ -18483,7 +18483,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mJbwhj3beOIB3Jgj]], any creature (other than a [[lookup @name lowercase]]{monster}) that starts its turn in a [[lookup @target.template.size activity=mJbwhj3beOIB3Jgj]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition until the start of its next turn.</p><p><em>Success:</em> The target is immune to the Stench of all [[lookup @name lowercase]]{monster} for 1 hour.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of its next turn.</p>"
             }
           }
@@ -18525,7 +18525,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
             }
           }
@@ -18630,11 +18630,11 @@
           "description": "<p>[[/attack extended]]. <em>Hit:</em> [[/damage]] damage, and the target is subjected to the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=zINRP55nQzeLTh4x]].</p><p><em>Failure:</em> The target has the Poisoned condition until the end of the homunculus's next turn.</p><p><em>Failure by 5 or More:</em> The target has the &Reference[Poisoned apply=false] condition for 1 minute. While Poisoned, the target has the &Reference[Unconscious apply=false] condition, which ends early if the target takes any damage.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of the biter's next turn. While Poisoned, the target has the &Reference[Unconscious apply=false] condition, which ends early if the target takes any damage.</p>"
             },
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>While Poisoned, the target has the &Reference[Unconscious apply=false] condition, which ends early if the target takes any damage.</p>"
             }
           }
@@ -18832,7 +18832,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -18905,7 +18905,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Y9H9ImnMcffBZlH3]], one [[lookup @target.affects.type activity=Y9H9ImnMcffBZlH3]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=Y9H9ImnMcffBZlH3]] feet.</p><p><em>Failure:</em> If the target has 20 Hit Points or fewer, it has the &Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=Y9H9ImnMcffBZlH3]] [[lookup @duration.units activity=Y9H9ImnMcffBZlH3]], until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes [[/damage average]] damage.</p>",
           "effects": {
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>If the target has 20 Hit Points or fewer, it has the &Reference[Unconscious apply=false] condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it.</p>"
             }
           }
@@ -19022,7 +19022,7 @@
       },
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
         }
       }
@@ -19393,7 +19393,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -19570,7 +19570,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Paralyzed apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition until the start of the attacking creature's next turn.</p>"
             }
           }
@@ -19602,11 +19602,11 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Igeu89TALGlNPXDg]], one creature within [[lookup @range.value activity=Igeu89TALGlNPXDg]] feet.</p><p class=\"feature\"><em>Failure</em>: The target has the &Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of the attacking creature’s next turn.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             },
             "Prone": {
@@ -19777,7 +19777,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -19984,11 +19984,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mN9aF1WkHQWLIN4B]], each [[lookup @target.affects.type activity=mN9aF1WkHQWLIN4B]] in a [[lookup @target.template.size activity=mN9aF1WkHQWLIN4B]]-foot [[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]. If the [[lookup @name lowercase]]{monster} sees its reflection in the [[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]], the [[lookup @name lowercase]]{monster} must make this save. </p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. </p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>The target has the &Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success.</p>"
             },
             "Petrified": {
-              "name": "Petrified",
+              "name": "Petrificado",
               "description": "<p>The target has the &Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
             }
           }
@@ -20035,7 +20035,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]]<span style=\"font-family:'Roboto Condensed', sans-serif\">, and the target has the &Reference[Poisoned apply=false] condition until the end of the </span>[[lookup @name lowercase]]{monster}'s<span style=\"font-family:'Roboto Condensed', sans-serif\"> next turn.</span></p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the end of the attacking creature's next turn.</p>"
             }
           }
@@ -20169,7 +20169,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], one [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Dreadful Glare for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the end of the attacking creature's next turn.</p>"
             }
           }
@@ -20290,7 +20290,7 @@
               }
             },
             "Blinded": {
-              "name": "Blinded",
+              "name": "Cego",
               "description": "<p>Each creature of the attacking creature's choice that it can see within 5 ft. of its destination space has the &Reference[Blinded apply=long] condition until the end of the attacking creature's next turn.</p>"
             }
           }
@@ -20323,7 +20323,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], one [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Paralyzed apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[<span style=\"font-family:'Roboto Condensed', sans-serif\">Paralyzed</span> apply=false] condition until the attacking creature's next turn.</p>"
             }
           }
@@ -20359,7 +20359,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=GP5MnIyXCVZ4ZMTQ]], each [[lookup @target.affects.type activity=GP5MnIyXCVZ4ZMTQ]] in a [[lookup @target.template.size activity=GP5MnIyXCVZ4ZMTQ]]-<span style=\"font-family:'Roboto Condensed', sans-serif\">foot</span> Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Frightened apply=false] condition for [[lookup @duration.value activity=GP5MnIyXCVZ4ZMTQ]] [[lookup @duration.units activity=GP5MnIyXCVZ4ZMTQ]], until it takes damage, or until it ends its turn with the [[lookup @name lowercase]]{monster} out of line of sight.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Horror Nimbus for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition for 1 minute, until it takes damage, or until it ends its turn with the attacking creature out of line of sight.</p>"
             }
           }
@@ -20760,7 +20760,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of the attacking creature’s next turn</p>"
             }
           }
@@ -20782,7 +20782,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -20879,7 +20879,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.formula activity=tKShuY4vDM7tn9aC]].</p><p><em>Failure:</em> The target's Hit Point maximum decreases by [[/damage 1d10 average]] and doesn't return to normal until the Poisoned condition ends on the target.</p><p><em>Success:</em> The Poisoned condition ends.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition. Whenever the Poisoned target finishes a Long Rest, it must make a Constitution Saving Throw or have its Hit Point maximum reduced by [[/damage 1d10 average]] until the Poisoned condition ends.</p>"
             }
           }
@@ -20899,7 +20899,7 @@
           "description": "<p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=VC2iSwNPNaZ7M2bT]], [[lookup @target.affects.special activity=VC2iSwNPNaZ7M2bT]] by the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Stunned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p><p><em>Success:</em> Half damage only.</p>",
           "effects": {
             "Stunned": {
-              "name": "Stunned",
+              "name": "Atordoado",
               "description": "<p>The target has the &Reference[Stunned apply=false] condition until the start of the attacking creature's next turn.</p>"
             }
           }
@@ -21100,7 +21100,7 @@
           "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} emanates an aura in a [[lookup @target.template.size activity=oT8238p9jXwVy76c]]-foot Emanation while it doesn't have the Incapacitated condition.</p><p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=oT8238p9jXwVy76c]], [[lookup @target.affects.special activity=oT8238p9jXwVy76c]].</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s aura for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p>"
             }
           }
@@ -21122,7 +21122,7 @@
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it must make the following saving throw.</p><p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=fM7YmQ4hBtRXJkMe]].</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition. While Poisoned, the target can't regain Hit Points and takes [[/damage average activity=aa2GUeTEVLOdmfrB]] damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition.</p>"
             }
           }
@@ -21157,7 +21157,7 @@
           "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -21423,7 +21423,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -21745,7 +21745,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC 12, one creature the pseudodragon can see within 5 feet.</p><p class=\"feature\"><em>Failure:</em> 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour.</p><p class=\"feature\"><em>Failure by 5 or More:</em> While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition for 1 hour.</p>"
             },
             "Poisoned (Failure 5+)": {
@@ -21823,7 +21823,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p> The target has the &Reference[Poisoned apply=false] condition until the start of the [[lookup @name lowercase]]{monster}’s next turn.</p>"
             }
           }
@@ -21837,7 +21837,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -21881,7 +21881,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=L6pjs2RafI3pF8b3]], one creature within [[lookup @range.value activity=L6pjs2RafI3pF8b3]] feet.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition.</p>"
             }
           }
@@ -22019,7 +22019,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -22509,7 +22509,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=FR0ETDHBas1Z5LfF]], any [[lookup @target.affects.special activity=FR0ETDHBas1Z5LfF]] that starts its turn within [[lookup @range.value activity=FR0ETDHBas1Z5LfF]] feet of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}'s true form.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s Horrific Appearance for 24 hours.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of its next turn.</p>"
             }
           }
@@ -22719,11 +22719,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             }
           }
@@ -22922,7 +22922,7 @@
           "description": "<p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=B6xM8C2pABIb5o7y]], one creature the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=B6xM8C2pABIb5o7y]] feet.</p><p><em>Failure:</em> The target has the &Reference[Blinded apply=false] condition for 1 minute.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>",
           "effects": {
             "Blinded": {
-              "name": "Blinded"
+              "name": "Cego"
             }
           }
         },
@@ -23015,7 +23015,7 @@
           "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=zPMfwwIoTFzIrN5H]], each [[lookup @target.affects.type activity=zPMfwwIoTFzIrN5H]] in a [[lookup @target.template.size activity=zPMfwwIoTFzIrN5H]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Incapacitated apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the start of the attacking creature's next turn.</p>"
             }
           }
@@ -23174,7 +23174,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=xZul1ImCP658OBv3]], one [[lookup @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target gains 1 &Reference[Exhaustion apply=false] level. While the target has any Exhaustion levels, it appears [[/r 3d10]] years older.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>",
           "effects": {
             "Exhaustion": {
-              "name": "Exhaustion",
+              "name": "Exaustão",
               "description": "<p>The target gains 1 &Reference[Exhaustion apply=long] level. </p>"
             }
           }
@@ -23206,11 +23206,11 @@
           "description": "<p class=\"feature\">The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest):</p><p class=\"feature-trait\"><strong>First Roar.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Igeu89TALGlNPXDg]], each enemy in a [[lookup @target.template.size activity=Igeu89TALGlNPXDg]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> The target has the &Reference[Frightened apply=false] condition for [[lookup @duration.value activity=Igeu89TALGlNPXDg]] [[lookup @duration.units activity=Igeu89TALGlNPXDg]].</p><p class=\"feature-trait\"><strong>Second Roar.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=uFTndQPvULZVHT9R]], each [[lookup @target.affects.type activity=uFTndQPvULZVHT9R]] in a [[lookup @target.template.size activity=uFTndQPvULZVHT9R]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=uFTndQPvULZVHT9R]] [[lookup @duration.units activity=uFTndQPvULZVHT9R]], it succeeds automatically.</p><p class=\"feature-trait\"><strong>Third Roar.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=Td8ArIMDfxWDLbE9]], each [[lookup @target.affects.type activity=Td8ArIMDfxWDLbE9]] in a [[lookup @target.template.size activity=Td8ArIMDfxWDLbE9]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Prone apply=false] condition.</p><p><em>Success:</em> [[lookup @damage.onSave capitalize activity=Td8ArIMDfxWDLbE9]] damage only.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition for 1 minute.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             },
             "Prone": {
@@ -23334,7 +23334,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=xZul1ImCP658OBv3]], one [[lookup @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target gains 1 &Reference[Exhaustion apply=false] level. While the target has any Exhaustion levels, it appears [[/r 3d10]] years older.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>",
           "effects": {
             "Exhaustion": {
-              "name": "Exhaustion",
+              "name": "Exaustão",
               "description": "<p>The target gains 1 &Reference[Exhaustion apply=long] level. </p>"
             }
           }
@@ -23484,7 +23484,7 @@
           "description": "<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional Humanoid for each spell slot level above 2.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
             },
             "Spell Changes": {
@@ -23540,7 +23540,7 @@
           "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
             },
             "Spell Changes": {
@@ -24097,7 +24097,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Chain Mail": {
-          "name": "Chain Mail"
+          "name": "Cota de Malha"
         },
         "Pack Tactics": {
           "name": "Pack Tactics",
@@ -24364,7 +24364,7 @@
           "description": "<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &Reference[difficultterrain]. They disappear when the spell ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>"
             },
             "Spell Changes": {
@@ -24466,7 +24466,7 @@
           "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} drops to 0 Hit Points outside its resting place, the [[lookup @name lowercase]]{monster} uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed.</p><p class=\"feature\">While it has 0 Hit Points in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the &Reference[Paralyzed apply=false] condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.</p>",
           "effects": {
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>Once in its resting place, it returns to its vampire form and has the &Reference[Paralyzed apply=false] condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.</p>"
             }
           }
@@ -24682,7 +24682,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=voqQeTnihpy3BTFf]], each creature in a [[lookup @target.template.size activity=voqQeTnihpy3BTFf]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes [[/damage average activity=ukZveNVmvvtwbDj0]] at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
             }
           }
@@ -24692,7 +24692,7 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=eoIikvnPayaj02oN]], each creature in a [[lookup @target.template.size activity=eoIikvnPayaj02oN]]-foot Emanation originating from the [[lookup @name lowercase]]{monster} (demons succeed automatically).</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &Reference[Stunned apply=false] condition until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>",
           "effects": {
             "Stunned": {
-              "name": "Stunned",
+              "name": "Atordoado",
               "description": "<p>The target has the &Reference[Stunned apply=false]] condition until the end of the vrock’s next turn.</p>"
             }
           }
@@ -25110,7 +25110,7 @@
           "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} and its light have the &Reference[Invisible apply=false] condition until the [[lookup @name lowercase]]{monster}'s &Reference[Concentration] ends on this effect, which ends early immediately after the [[lookup @name lowercase]]{monster} makes an attack roll or uses Consume Life.</p>",
           "effects": {
             "Invisible": {
-              "name": "Invisible",
+              "name": "Invisível",
               "description": "<p>The attacking creature and its light have the &Reference[Invisible apply=false] condition until their Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses the Consume Life bonus action.</p>"
             }
           }
@@ -25224,7 +25224,7 @@
           "description": "<p>[[/attack extended]]. [[/damage average extended]], and the target has the &Reference[Poisoned apply=false] condition until the start of the wyvern's next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The &Reference[Poisoned apply=false] condition until the start of the attacking creature’s next turn.</p>"
             }
           }
@@ -25322,11 +25322,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Unconscious apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats the save.</p>"
             },
             "Unconscious": {
-              "name": "Unconscious",
+              "name": "Inconsciente",
               "description": "<p>The target has the &Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
             }
           }
@@ -25496,11 +25496,11 @@
           "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
           "effects": {
             "Incapacitated": {
-              "name": "Incapacitated",
+              "name": "Incapacitado",
               "description": "<p>The target has the &Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p>"
             },
             "Paralyzed": {
-              "name": "Paralyzed",
+              "name": "Paralisado",
               "description": "<p>The target has the &Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
             }
           }
@@ -25552,7 +25552,7 @@
           "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle caption=false]</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>At the start of each of its turns, the &Reference[Restrained apply=false] target repeats the [[/save ability=dex]] save. On a failed save, the target takes 4d8 (plus 2d8 for each spell slot level above 5) damage of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</p>"
             }
           }
@@ -25568,7 +25568,7 @@
           "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle caption=false]</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>At the start of each of its turns, the &Reference[Restrained apply=false] target repeats the [[/save ability=dex]] save. On a failed save, the target takes 4d8 (plus 2d8 for each spell slot level above 5) damage of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</p>"
             }
           }
@@ -25584,7 +25584,7 @@
           "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle caption=false]</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>At the start of each of its turns, the &Reference[Restrained apply=false] target repeats the [[/save ability=dex]] save. On a failed save, the target takes 4d8 (plus 2d8 for each spell slot level above 5) damage of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</p>"
             }
           }
@@ -25598,7 +25598,7 @@
       "name": "Invisible Sensor",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
         },
         "Active Sense: Sight": {
@@ -25720,7 +25720,7 @@
       },
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
         }
       }
@@ -25767,7 +25767,7 @@
           "description": "<p><em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet. <em>Failure:</em> The target has the &Reference[Poisoned apply=false] condition until the start of the insect's next turn.</p>",
           "effects": {
             "Poisoned": {
-              "name": "Poisoned",
+              "name": "Envenenado",
               "description": "<p>The target has the &Reference[Poisoned apply=false] condition until the start of the insect’s next turn.</p>"
             }
           }
@@ -25799,7 +25799,7 @@
           "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &Reference[frightened apply=false] condition until the end of your next turn.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened"
+              "name": "Amedrontado"
             }
           }
         },
@@ -25878,7 +25878,7 @@
           "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &Reference[frightened] condition until the end of your next turn.</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened"
+              "name": "Amedrontado"
             }
           }
         }
@@ -25905,7 +25905,7 @@
       },
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
         }
       }
@@ -25954,7 +25954,7 @@
           "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle caption=false]</p>",
           "effects": {
             "Restrained": {
-              "name": "Restrained",
+              "name": "Contido",
               "description": "<p>At the start of each of its turns, the &Reference[Restrained apply=false] target repeats the [[/save ability=dex]] save. On a failed save, the target takes 4d8 (plus 2d8 for each spell slot level above 5) damage of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</p>"
             }
           }
@@ -25970,7 +25970,7 @@
           "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureFey caption=false]</p>",
           "effects": {
             "Frightened": {
-              "name": "Frightened",
+              "name": "Amedrontado",
               "description": "<p>The target has the &Reference[Frightened apply=false] condition until the start of your next turn, with both you and the spirit as the source of the fear.</p>"
             }
           }
@@ -26055,7 +26055,7 @@
       "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplUnseenServ caption=false]</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
         }
       }

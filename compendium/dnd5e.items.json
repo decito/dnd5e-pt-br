@@ -2874,7 +2874,7 @@
     },
     "Truth Serum": {
       "name": "Truth Serum",
-      "description": "<p><em>(ingested)</em></p><p>A creature subjected to this poison must succeed on a <strong>DC 11 Constitution saving throw</strong> or become @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned} for <strong>1 hour</strong>. The @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned} creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>"
+      "description": "<p><em>(ingested)</em></p><p>A creature subjected to this poison must succeed on a <strong>DC 11 Constitution saving throw</strong> or become @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Envenenado} for <strong>1 hour</strong>. The @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Envenenado} creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>"
     },
     "Two-Person Tent": {
       "name": "Two-Person Tent",

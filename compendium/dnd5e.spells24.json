@@ -238,7 +238,7 @@
           "name": "Sympathy"
         },
         "Frightened": {
-          "name": "Frightened",
+          "name": "Amedrontado",
           "description": "<p>The creature has the &Reference[Frightened apply=false] condition. The Frightened creature must use its movement on its turns to get as far away as possible from the target, moving by the safest route.</p><p><strong>Ending the Effect.</strong> If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a [[/save ability=wis format=long]]. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.</p>"
         },
         "Charmed": {
@@ -482,7 +482,7 @@
     },
     "Burning Hands": {
       "name": "Mãos Flamejantes",
-      "description": "<p>AUma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
+      "description": "<p>Uma fina camada de chamas parte de você. Cada criatura em um Cone de 4,5 metros realiza uma salvaguarda de Destreza, sofrendo 3d6 pontos de dano Ígneo se falhar, ou metade desse dano em caso de sucesso.</p><p>Objetos inflamáveis no Cone que não estão sendo usados ou carregados entram em combustão.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> O dano aumenta em 1d6 pontos para cada círculo de espaço de magia acima do 1º.</p>"
     },
     "Call Lightning": {
       "name": "Call Lightning",
@@ -564,7 +564,7 @@
       "description": "<p>You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the &Reference[blinded apply=false] condition until the end of your next turn.</p>",
       "effects": {
         "Blinded": {
-          "name": "Blinded"
+          "name": "Cego"
         }
       }
     },
@@ -867,7 +867,7 @@
           "name": "Blinded, Deafened"
         },
         "Deafened": {
-          "name": "Deafened"
+          "name": "Surdo"
         }
       }
     },
@@ -1030,7 +1030,7 @@
       "description": "<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &Reference[difficultterrain]. They disappear when the spell ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>",
       "effects": {
         "Restrained": {
-          "name": "Restrained",
+          "name": "Contido",
           "description": "<p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>"
         }
       }
@@ -1062,7 +1062,7 @@
       "description": "<p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into &Reference[DifficultTerrain].</p><p>Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the &Reference[Restrained apply=false] condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.</p><p>A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.</p>",
       "effects": {
         "Restrained": {
-          "name": "Restrained",
+          "name": "Contido",
           "description": "<p>A &Reference[Restrained apply=false] creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.</p>"
         }
       }
@@ -1350,7 +1350,7 @@
       "description": "<p>A creature you touch has the Invisible condition until the spell ends.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible"
+          "name": "Invisível"
         }
       }
     },
@@ -1638,7 +1638,7 @@
       "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 5.</p>",
       "effects": {
         "Paralyzed": {
-          "name": "Paralyzed",
+          "name": "Paralisado",
           "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         }
       }
@@ -1648,7 +1648,7 @@
       "description": "<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional Humanoid for each spell slot level above 2.</p>",
       "effects": {
         "Paralyzed": {
-          "name": "Paralyzed",
+          "name": "Paralisado",
           "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         }
       }
@@ -1669,7 +1669,7 @@
           }
         },
         "Blinded": {
-          "name": "Blinded",
+          "name": "Cego",
           "description": "<p>The attacker has the &Reference[Blinded apply=false] condition until the end of its next turn.</p>"
         }
       }
@@ -1760,7 +1760,7 @@
       "description": "<p>A creature you touch has the &Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Usando Espaços de Magia de Círculo Superior.</strong> You can target one additional creature for each spell slot level above 2.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
         }
       }
@@ -2043,7 +2043,7 @@
       "description": "<p>You gain the &Reference[Invisible apply=false] condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.</p><p>As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.</p><p>You can see through its eyes and hear through its ears as if you were located where it is.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "<p>The &Reference[invisible apply=false] immediately after you make an attack roll, deals damage, or casts a spell.</p>"
         }
       }
@@ -2197,7 +2197,7 @@
       "description": "<p>You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.</p><p>The &Reference[Stunned apply=false] target makes a [[/save ability=con dc=@attributes.spell.dc]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>",
       "effects": {
         "Stunned": {
-          "name": "Stunned",
+          "name": "Atordoado",
           "description": "<p>The &Reference[Stunned apply=false] target makes a [[/save ability=con]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>"
         },
         "No Movement": {
@@ -2886,7 +2886,7 @@
       "description": "<p>A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the &Reference[Deafened apply=false] condition for the duration.</p><p>At the start of each of your later turns, the storm produces different effects, as detailed below.</p><p><strong>Turn 2.</strong> Acidic rain falls. Each creature and object under the cloud takes 4d6 Acid damage.</p><p><strong>Turn 3.</strong> You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Turn 4.</strong> Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.</p><p><strong>Turns 5–10.</strong> Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is &Reference[DifficultTerrain] and &Reference[HeavilyObscured], ranged attacks with weapons are impossible there, and strong wind blows through the area.</p>",
       "effects": {
         "Deafened": {
-          "name": "Deafened"
+          "name": "Surdo"
         }
       }
     },
@@ -2909,7 +2909,7 @@
       "description": "<p>You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.</p><p>Until the spell ends, you can take a Magic action to create a new Line of radiance.</p><p>For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight.</p>",
       "effects": {
         "Blinded": {
-          "name": "Blinded",
+          "name": "Cego",
           "description": "<p>The target has the &Reference[Blinded apply=false] condition until the start of your next turn.</p>"
         }
       }
@@ -2919,7 +2919,7 @@
       "description": "<p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the &Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as much damage only.</p><p>A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns, ending the effect on itself on a success.</p><p>This spell dispels &Reference[Darkness] in its area that was created by any spell.</p>",
       "effects": {
         "Blinded": {
-          "name": "Blinded",
+          "name": "Cego",
           "description": "<p>A creature &Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
         }
       }
@@ -2933,18 +2933,18 @@
           "description": "<p>The target is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.</p>"
         },
         "Frightened": {
-          "name": "Frightened",
+          "name": "Amedrontado",
           "description": "<p>While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.</p>"
         },
         "Incapacitated": {
-          "name": "Incapacitated"
+          "name": "Incapacitado"
         },
         "Sleeping": {
           "name": "Dormindo",
           "description": "<p>A creature awakens if it takes damage or if someone takes an action to shake it awake.</p>"
         },
         "Stunned": {
-          "name": "Stunned"
+          "name": "Atordoado"
         }
       }
     },

@@ -658,7 +658,7 @@
       "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the &Reference[Poisoned apply=false] condition for 24 hours. On a successful save, the creature takes half as much damage only.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "Envenenado"
         }
       }
     },
@@ -1089,7 +1089,7 @@
       "description": "<div><p><em>Weapon (Dagger), Rare</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &Reference[Poisoned apply=false] condition for 1 minute. The weapon can't be used this way again until the next dawn.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned",
+          "name": "Envenenado",
           "description": "<p>The creature has the &Reference[Poisoned apply=false] condition for 1 minute.</p>"
         },
         "Poison Coat": {
@@ -1503,7 +1503,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>This powder resembles fine sand. There is enough of it for one use. When you take a Utilize action to throw the dust into the air, you and each creature and object within a 10-foot Emanation originating from you have the Invisible condition for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the Invisible condition ends for that creature.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible",
+          "name": "Invisível",
           "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of Disappearance}</em></p><p>You have the &Reference[Invisible] condition for 2d4 minutes or until you make an attack roll, deal damage, or cast a spell.</p>"
         }
       }
@@ -1969,7 +1969,7 @@
           }
         },
         "Stunned": {
-          "name": "Stunned",
+          "name": "Atordoado",
           "description": "<p>The target has the &Reference[Stunned apply=false] condition until the end of your next turn.</p>"
         },
         "Giant's Bane: Paired Attunement Bonuses": {
@@ -2088,7 +2088,7 @@
       "description": "<p><em>Wondrous Item, Rare</em></p><p>You can take a Magic action to blow the horn, which emits a thunderous blast in a 30-foot Cone that is audible out to 600 feet. Each creature in the Cone makes a DC 15 Constitution saving throw. On a failed save, a creature takes 5d8 Thunder damage and has the &Reference[Deafened apply=false] condition for 1 minute. On a successful save, a creature takes half as much damage only. Glass or crystal objects in the Cone that aren't being worn or carried take 10d8 Thunder damage.</p><p>Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 Force damage to the user and destroys the horn.</p><section class=\"secret\" id=\"secret-rkHeC2mFJBKqNOh0\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Roll for Explosion Chance</strong> activity will return 1 if it explodes otherwise it will return 0.</p></section>",
       "effects": {
         "Deafened": {
-          "name": "Deafened"
+          "name": "Surdo"
         }
       }
     },
@@ -2218,10 +2218,10 @@
       "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Lolth's Sting must succeed on a DC 13 Constitution saving throw or have the &reference[Poisoned apply=false] condition for 1 hour. If the creature fails the save by 5 or more, the creature also has the &Reference[Unconscious apply=false] condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "Envenenado"
         },
         "Unconscious": {
-          "name": "Unconscious"
+          "name": "Inconsciente"
         }
       }
     },
@@ -2260,7 +2260,7 @@
       "description": "<p>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Maça}), Rare (Requires Attunement)</p><p>When you hit a Fiend or an Undead with this magic weapon, that creature takes an extra 2d6 Radiant damage. If the target has 25 Hit Points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature has the &Reference[Frightened apply=false] condition until the end of your next turn.</p><p><em><strong>Light.</strong></em> While you hold this weapon, it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p>",
       "effects": {
         "Frightened": {
-          "name": "Frightened",
+          "name": "Amedrontado",
           "description": "<p>On a successful save, the creature has the &Reference[Frightened apply=false] condition until the end of your next turn.</p>"
         }
       }
@@ -2274,7 +2274,7 @@
       "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Maça}). Rare (Requires Attunement)</em></p><p>This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. While Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.</p>",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "Amedrontado"
         }
       }
     },
@@ -2551,7 +2551,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "Amedrontado"
         }
       }
     },
@@ -2662,7 +2662,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the &Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.</p>",
       "effects": {
         "Invisible": {
-          "name": "Invisible"
+          "name": "Invisível"
         }
       }
     },
@@ -2691,7 +2691,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>This concoction looks, smells, and tastes like a Potion of Healing or another beneficial potion. However, it is actually poison masked by illusion magic. <em>Identify</em> reveals its true nature.</p><p>If you drink this potion, you take 4d6 Poison damage and must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "Envenenado"
         }
       }
     },
@@ -3140,7 +3140,7 @@
       "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can take a Magic action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn.</p><p>During this time, the robe sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet, and creatures that can see you have Disadvantage on attack rolls against you. Any creature in the Bright Light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or have the Stunned condition until the effect ends.</p><section class=\"secret\" id=\"secret-fHn9nt3cSF0lOwcT\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Display Dazzling Hues</strong> activity includes a measured template which can be used for tracking the area of Bright Light.</p></section>",
       "effects": {
         "Stunned": {
-          "name": "Stunned"
+          "name": "Atordoado"
         }
       }
     },
@@ -3203,10 +3203,10 @@
       "description": "<p><em>Rod, Legendary (Requires Attunement)</em></p><p>This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.</p><p><em><strong>Buttons</strong></em>. You can press one of the following buttons as a Bonus Action; a button's effect lasts until you push a different button or until you push the same button again, which causes the rod to revert to its normal form:</p><details><summary>Button Effects</summary><p><strong>Button 1.</strong> A fiery blade sprouts from the end opposite the rod's flanged head. The flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet, and the blade functions as a magic Longsword or Shortsword (your choice) that deals an extra 2d6 Fire damage on a hit.</p><p><strong>Button 2.</strong> The rod's flanged head folds down and two crescent-shaped blades spring out, transforming the rod into a magic Battleaxe that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p><strong>Button 3.</strong> The rod's flanged head folds down, a spear point springs from the rod's tip, and the rod's handle lengthens into a 6-foot haft, transforming the rod into a magic Spear that grants a +3 bonus to attack rolls and damage rolls made with it.</p><p><strong>Button 4.</strong> The rod transforms into a climbing pole up to 50 feet long (you specify the length), though the rod's buttons remain within your reach. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.</p><p><strong>Button 5.</strong> The rod transforms into a handheld battering ram and grants its user a +10 bonus to Strength (Athletics) checks made to break through doors, barricades, and other barriers.</p><p><strong>Button 6.</strong> The rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.</p></details><p><strong>Drain Life.</strong> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target takes an extra 4d6 Necrotic damage, and you regain a number of Hit Points equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn.</p><p><strong>Paralyze.</strong> When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target has the &Reference[Paralyzed apply=false] condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can't be used again until the next dawn.</p><p><strong>Terrify.</strong> While holding the rod, you can take a Magic action to force each creature you can see within 30 feet of yourself to make a DC 17 Wisdom saving throw. On a failed save, a target has the &Reference[Frightened apply=false] condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.</p><section class=\"secret\" id=\"secret-o1BCgF1HX5lyWN4U\"><p><strong>Nota do Foundry</strong></p><p>An activity has been added for each usable button that implements the attack with the relevant bonuses.</p><p>The properties are also implemented as activities and track their own uses per dawn.</p><p>When using Button 5, you can manually add a +10 bonus in the Situational Bonus field when making the check.</p></section>",
       "effects": {
         "Frightened": {
-          "name": "Frightened"
+          "name": "Amedrontado"
         },
         "Paralyzed": {
-          "name": "Paralyzed"
+          "name": "Paralisado"
         }
       }
     },
@@ -3627,10 +3627,10 @@
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement)</em></p><p>This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, it can't be used again until the next dawn.</p><p><em><strong>Lightning.</strong></em> When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 Lightning damage (no action required).</p><p><em><strong>Thunder.</strong></em> When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder audible out to 300 feet (no action required). The target you hit must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn.</p><p><em><strong>Thunder and Lightning.</strong></em> Immediately after you hit with a melee attack using the staff, you can take a Bonus Action to use the Lightning and Thunder properties (see above) at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one.</p><p><em><strong>Lightning Strike.</strong></em> You can take a Magic action to cause a bolt of lightning to leap from the staff's tip in a Line that is 5 feet wide and 120 feet long. Each creature in that Line makes a DC 17 Dexterity saving throw, taking 9d6 Lightning damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Thunderclap.</strong></em> You can take a Magic action to cause the staff to produce a thunderclap audible out to 600 feet. Every creature within a 60-foot Emanation originating from you makes a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 Thunder damage and has the Deafened condition for 1 minute. On a successful save, a creature takes half as much damage only.</p>",
       "effects": {
         "Stunned": {
-          "name": "Stunned"
+          "name": "Atordoado"
         },
         "Deafened": {
-          "name": "Deafened"
+          "name": "Surdo"
         }
       }
     },
@@ -3882,7 +3882,7 @@
       "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the &Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's Speed is halved while the creature is Poisoned in this way.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "Envenenado"
         }
       }
     },
@@ -3903,7 +3903,7 @@
       "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the &Reference[Poisoned] condition for 1 hour. The Poisoned creature can't knowingly communicate a lie.</p>",
       "effects": {
         "Poisoned": {
-          "name": "Poisoned"
+          "name": "Envenenado"
         }
       }
     },
@@ -3995,7 +3995,7 @@
       "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the &Reference[Paralyzed apply=false] condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
       "effects": {
         "Paralyzed": {
-          "name": "Paralyzed"
+          "name": "Paralisado"
         }
       }
     },
@@ -4016,7 +4016,7 @@
       "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell's maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the GM determines randomly which among them are affected.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into dust and is destroyed.</p><details><summary>Wand of Wonder Effects Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgWandOfWonderE rollable caption=false]</p></details><section class=\"secret\" id=\"secret-cRW0AfZNJaYwjQa0\"><p><strong>Nota do Foundry</strong></p><p>The actionable effects of the table are included as activities and implemented as much as possible in the table to provide flexibility in how you'd like to use them.</p><p>The <strong>Expend</strong> activity should be used for any effect which isn't implemented as an activity for tracking charge uses.</p></section>",
       "effects": {
         "Blinded": {
-          "name": "Blinded"
+          "name": "Cego"
         }
       }
     },
@@ -4576,7 +4576,7 @@
       "name": "Breastplate"
     },
     "Chain Mail": {
-      "name": "Chain Mail"
+      "name": "Cota de Malha"
     },
     "Chain Shirt": {
       "name": "Cota de Malha Parcial"
