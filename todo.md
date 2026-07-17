@@ -19,6 +19,19 @@
   - [ ] Trade Goods
 
 - [ ] Traduzir compêndio de 2024 para o português brasileiro.
+  - [ ] Backgrounds
+  - [ ] Classes
+  - [ ] Class Features
+  - [ ] Heroes
+  - [ ] Items (atualmente em progresso)
+  - [ ] Monster Features
+  - [ ] Monsters
+  - [ ] Races
+  - [ ] Rules
+  - [ ] Spells
+  - [ ] Subclasses
+  - [ ] Tables
+  - [ ] Trade Goods
 
 - [ ] Revisar presença dos secrets-ids das `sections`.
 
