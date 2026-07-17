@@ -1,14 +1,13 @@
 # TODO
 
-- [x] Traduzir arquivo lang para o português brasileiro.
-  - [x] Falta adicionar as 2000 strings que estavam ausentes originalmente.
+- [x] Traduzir arquivo lang da versão 5.3.3 para o português brasileiro.
 
 - [~] Traduzir compêndio de 2014 para o português brasileiro.
   - [x] Backgrounds
   - [x] Classes
   - [x] Class Features
   - [x] Heroes
-  - [~] Items (atualmente em progresso)
+  - [~] Items
   - [ ] Monster Features
   - [ ] Monsters
   - [ ] Races
@@ -19,6 +18,15 @@
   - [ ] Trade Goods
 
 - [ ] Traduzir compêndio de 2024 para o português brasileiro.
+  - [ ] Origins
+  - [ ] Classes
+  - [ ] Feats
+  - [ ] Equipment
+  - [ ] Spells
+  - [ ] Actors
+  - [ ] Monster Features
+  - [ ] Content
+  - [ ] Tables
 
 - [ ] Revisar presença dos secrets-ids das `sections`.
 
