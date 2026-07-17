@@ -1,136 +1,167 @@
 {
   "label": "Origens de Personagem",
   "folders": {
+    "Backgrounds": "Backgrounds",
     "Dragonborn": "Dragonborn",
-    "Elf": "Elf",
-    "Goliath": "Goliath",
-    "Traits": "Traits",
-    "Orc": "Orc",
     "Dwarf": "Dwarf",
+    "Elf": "Elf",
+    "Gnome": "Gnome",
+    "Goliath": "Goliath",
+    "Halfling": "Halfling",
+    "Human": "Human",
+    "Orc": "Orc",
     "Species": "Species",
     "Tiefling": "Tiefling",
-    "Gnome": "Gnome",
-    "Human": "Human",
-    "Backgrounds": "Backgrounds",
-    "Halfling": "Halfling"
+    "Traits": "Traits"
   },
   "entries": {
     "Acolyte": {
       "name": "Acólito",
-      "description": "<p><strong>Valores de Atributo:</strong> Inteligência, Sabedoria, Carisma</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Clérigo)</p><p><strong>Proficiências em Perícias:</strong> Intuição e Religião</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (orações), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (10 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>"
-    },
-    "Criminal": {
-      "name": "Criminoso",
-      "description": "<p><strong>Valores de Atributo:</strong> Destreza, Constituição, Inteligência</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alerta}</p><p><strong>Proficiências em Perícias:</strong> Prestidigitação e Furtividade</p><p><strong>Proficiência com Ferramentas:</strong> Ferramentas de Ladrão</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Adagas}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Ferramentas de Ladrão}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Roupas de Viagem}, 16 GP; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>"
-    },
-    "Sage": {
-      "name": "Sábio",
-      "description": "<p><strong>Valores de Atributo:</strong> Constituição, Inteligência, Sabedoria</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Mago)</p><p><strong>Proficiências em Perícias:</strong> Arcanismo e História</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (história), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (8 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>"
-    },
-    "Soldier": {
-      "name": "Soldado",
-      "description": "<p><strong>Valores de Atributo:</strong> Força, Destreza, Constituição</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Atacante Selvagem}</p><p><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</p><p><strong>Proficiência com Ferramentas:</strong> <em>Escolha um tipo de</em> <em>kits de jogos</em> (veja @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Lança}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}, Kit de jogos (como acima), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Kit de Curandeiro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Roupas de Viagem}, 14 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>"
-    },
-    "Tiefling, Abyssal": {
-      "name": "Tiferino Abissal",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Creature Type</strong>: Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table>"
-    },
-    "Tiefling, Chthonic": {
-      "name": "Tiferino Ctônico",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Legados Ínferos</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table>"
-    },
-    "Dragonborn": {
-      "name": "Draconato",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dragonborn-traits\">Dragonborn Traits</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um draconato, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Dracônica.</strong> Sua linhagem procede de um progenitor dragão. Escolha o tipo de dragão na tabela Ancestrais Dracônicos. Sua escolha afeta seu Sopro e traços de Resistência a Dano, bem como sua aparência.</p><table><caption>Ancestrais Dracônicos</caption><thead><tr><td>Dragão</td><td>Tipo de Dano</td><td>Dragão</td><td>Tipo de Dano</td></tr></thead><tbody><tr><td>Azul</td><td>Elétrico</td><td>Negro</td><td>Ácido</td></tr><tr><td>Branco</td><td>Gélido</td><td>Ouro</td><td>Ígneo</td></tr><tr><td>Bronze</td><td>Elétrico</td><td>Prata</td><td>Gélido</td></tr><tr><td>Cobre</td><td>Ácido</td><td>Verde</td><td>Venenoso</td></tr><tr><td>Latão</td><td>Ígneo</td><td>Vermelho</td><td>Ígneo</td></tr></tbody></table><p><strong>Sopro.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Resistência a Dano. </strong>Você tem Resistência ao tipo de dano determinado por seu traço Ancestralidade Dracônica.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Voo Dracônico.</strong> No nível 5 do personagem, você pode canalizar magia dracônica para voar temporariamente. Como uma Ação Bônus, asas espectrais brotam das suas costas e duram 10 minutos, até que você as retraia (nenhuma ação é necessária) ou obtenha a condição incapacitado. Pela duração, você tem um Deslocamento de Voo igual ao seu Deslocamento. Suas asas parecem feitas da mesma energia que o seu Sopro. Após usar esse traço, você não pode usá-lo novamente até completar um Descanso Longo.</p>"
-    },
-    "Elf, Drow": {
-      "name": "Elfo, Drow",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem Drow</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>A distância da sua Visão no Escuro aumenta para 36 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{luzes dançantes}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitara ou encerrar a condição &Reference[Charmed].</p><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>"
-    },
-    "Dwarf": {
-      "name": "Anão",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dwarf-traits\">Traços Raciais dos Anões</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 1,5 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um anão, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resiliência Anã.</strong> Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p><p><strong>Tenacidade Anã.</strong> Seus Pontos de Vida máximos aumentam em 1, e mais 1 toda vez que você ganha um nível.</p><p><strong>Conhecimento de Pedras.</strong> Como uma Ação Bônus, você adquire Sismiconsciência com um alcance de 18 metros por 10 minutos. Você deve estar em, ou tocar, uma superfície de pedra para usar a Sismiconsciência. A pedra pode ser natural ou trabalhada. Você pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo.</p>"
-    },
-    "Gnome, Forest": {
-      "name": "Gnome, Forest",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Traços de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 1 a 1,3 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um gnomo, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Astúcia Gnômica.</strong> Você tem Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.</p><p><strong>Linhagem Gnômica.</strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Seja qual fora linhagem que você escolher, sua escolha determina se Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para as magias desse traço (escolha o atributo quando selecionar a linhagem):</p><p><strong>Forest Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p>"
-    },
-    "Goliath": {
-      "name": "Golias",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Traços dos Golias</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 2 a 2,5 metros de altura)</p><p><strong>Deslocamento:</strong> 10,5 metros</p><p>Como um golias, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Gigante.</strong> Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p><p><strong>Forma Grande.</strong> A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><p><strong>Porte Poderoso.</strong> Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição Imobilizado. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p>"
-    },
-    "Halfling": {
-      "name": "Pequenino",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"halfling-traits\">Traços Raciais dos Pequeninos/h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 0,5 a 1 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um pequenino, você tem os seguintes traços especiais.</p><p><strong>Corajoso.</strong> Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Amedrontado.</p><p><strong>Agilidade Pequenina.</strong> Você pode se mover pelo espaço de qualquer criatura que seja um tamanho maior que você, mas você não pode parar no mesmo espaço.</p><p><strong>Sorte.</strong> Ao tirar 1 no D20 de um Teste de D20, você pode jogar novamente o dado e deve usar a nova jogada.</p><p><strong>Furtividade Natural.</strong> Você pode executar a ação Esconder m</p>"
-    },
-    "Elf, High": {
-      "name": "Elfo, Alto",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">Altos Elfos</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atingte os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Traços de Linhagem de Alto Elfo</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Sempre que você terminar um descanso longo, você pode substituir esse truque por outro da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{lista de magias de mago}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Passo nebuloso}</td></tr></tbody></table><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p>"
-    },
-    "Human": {
-      "name": "Humano",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Habil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>"
-    },
-    "Tiefling, Infernal": {
-      "name": "Tiferino Infernal",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Legados Ínferos</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem Resistência a dano Ígneo. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{raio de fogo}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Repreensão Infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table>"
-    },
-    "Orc": {
-      "name": "Orc",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Traços Raciais de Orc</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,8 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um orc, você possui esses traços especiais.</p><p><strong>Surto de Adrenalina. </strong>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resistência Implacável.</strong> Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>"
-    },
-    "Gnome, Rock": {
-      "name": "Gnomo das Rochas",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Traços de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 1 a 1,3 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um gnomo, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Astúcia Gnômica.</strong> Você tem Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.</p><p><strong>Linhagem Gnômica.</strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Seja qual fora linhagem que você escolher, sua escolha determina se Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para as magias desse traço (escolha o atributo quando selecionar a linhagem):</p><p><strong>Gnomo das Rochas.</strong> Você sabe os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{reparar} e @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Além disso, você pode gastar 10 minutos conjurando <em>prestidigitação arcana</em> para fabricar um dispositivo mecânico minúsculo (CA 5, 1 PV), como um brinquedo, isqueiro mecânico ou caixa de música. Ao fabricar o dispositivo, você determina a função dele escolhendo um efeito de <em>prestidigitação arcana</em>; o dispositivo produz esse efeito sempre que você ou outra criatura executa uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções possíveis, você escolhe uma dessas opções para o dispositivo ao fabricá-lo. Por exemplo, se você escolher o efeito de Brincar com Fogo da magia, você determina se o dispositivo acende ou extingue fogo; o dispositivo não faz ambas as coisas. Você pode ter três desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após ser fabricado ou quando você o desmonta com um toque como uma ação Usar Objeto.</p>"
-    },
-    "Elf, Wood": {
-      "name": "Elfo, Silvestre",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Elfos Silvestres</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem de Elfo Silvestre</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Seu deslocamento aumenta para 10,5 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{arte druídica}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Passos Largos}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Passo sem Rastro}</td></tr></tbody></table><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado.</p><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>"
-    },
-    "Fiendish Legacy, Abyssal": {
-      "name": "Fiendish Legacy, Abyssal",
-      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>"
+      "description": "<p><strong>Valores de Atributo:</strong> Inteligência, Sabedoria, Carisma</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Clérigo)</p><p><strong>Proficiências em Perícias:</strong> Intuição e Religião</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (orações), @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Símbolo Sagrado}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (10 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgAcolyte0000 inline classes=\"free-rules-embed\"]</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Intelligence, Wisdom, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "Background Proficiencies": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Insight and Religion. It also grants you proficiency in Calligrapher's Supplies."
+        },
+        "Background Feat": {
+          "title": "Background Feat",
+          "hint": "Your background grants you the Magic Initiate (Cleric) feat."
+        },
+        "Choose Languages": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
     },
     "Adrenaline Rush": {
       "name": "Surto de Adrenalina",
-      "description": "<p>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p>"
+      "description": "<p>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p>",
+      "requirements": "Orc",
+      "activities": {
+        "Adrenaline Rush: Dash": {
+          "name": "Adrenaline Rush: Dash"
+        }
+      }
     },
     "Brave": {
       "name": "Corajoso",
-      "description": "<p>Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição &Reference[Frightened].</p>"
+      "description": "<p>Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição &Reference[Frightened].</p>",
+      "requirements": "Halfling"
     },
     "Breath Weapon": {
       "name": "Sopro",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota do Foundry</strong></p><p>As atividades <strong>Sopro (Cone)</strong> e <strong>Sopro (Linha)</strong> estão ambas configuradas de acordo com seu modelo e incluem o tipo de dano. O dano também aumenta à medida que você sobe de nível.</p><p>Você pode selecionar o tipo de dano na caixa de diálogo do lançamento de dano. O sistema lembrará sua escolha posteriormente. Você pode editar as atividades para remover os outros tipos de dano e assim pular essa etapa.</p></section>"
-    },
-    "Fiendish Legacy, Chthonic": {
-      "name": "Fiendish Legacy, Chthonic",
-      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p><table><caption>Chthonic Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>"
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota do Foundry</strong></p><p>As atividades <strong>Sopro (Cone)</strong> e <strong>Sopro (Linha)</strong> estão ambas configuradas de acordo com seu modelo e incluem o tipo de dano. O dano também aumenta à medida que você sobe de nível.</p><p>Você pode selecionar o tipo de dano na caixa de diálogo do lançamento de dano. O sistema lembrará sua escolha posteriormente. Você pode editar as atividades para remover os outros tipos de dano e assim pular essa etapa.</p></section>",
+      "requirements": "Dragonborn",
+      "activities": {
+        "Breath Weapon (Cone)": {
+          "name": "Breath Weapon (Cone)"
+        },
+        "Breath Weapon (Line)": {
+          "name": "Breath Weapon (Line)"
+        }
+      }
     },
     "Cloud's Jaunt": {
       "name": "Caminhar nas Nuvens",
-      "description": "<p>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p>"
+      "description": "<p>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p>",
+      "requirements": "Goliath (Cloud Giant)",
+      "activities": {
+        "Cloud's Jaunt": {
+          "name": "Cloud's Jaunt",
+          "target": "Unoccupied space"
+        }
+      }
+    },
+    "Criminal": {
+      "name": "Criminoso",
+      "description": "<p><strong>Valores de Atributo:</strong> Destreza, Constituição, Inteligência</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alerta}</p><p><strong>Proficiências em Perícias:</strong> Prestidigitação e Furtividade</p><p><strong>Proficiência com Ferramentas:</strong> Ferramentas de Ladrão</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Adagas}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Ferramentas de Ladrão}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Roupas de Viagem}, 16 GP; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "Background Feat": {
+          "title": "Background Feat",
+          "hint": "Your backgrounds you the Alert feat."
+        },
+        "Background Proficiencies": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Sleight of Hand and Stealth. It also grants you proficiency with Thieves' Tools."
+        },
+        "Choose Languages": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
     },
     "Draconic Flight": {
       "name": "Voo Dracônico",
       "description": "<p>No nível 5 do personagem, você pode canalizar magia dracônica para voar temporariamente. Como uma Ação Bônus, asas espectrais brotam das suas costas e duram 10 minutos, até que você as retraia (nenhuma ação é necessária) ou obtenha a condição incapacitado. Pela duração, você tem um Deslocamento de Voo igual ao seu Deslocamento. Suas asas parecem feitas da mesma energia que o seu Sopro. Após usar esse traço, você não pode usá-lo novamente até completar um Descanso Longo.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
+      "requirements": "Dragonborn",
+      "activities": {
+        "Draconic Flight": {
+          "name": "Draconic Flight"
+        }
+      },
       "effects": {
         "Draconic Flight": {
           "name": "Voo Dracônico"
         }
       }
     },
-    "Elven Lineage, Drow": {
-      "name": "Linhagem Élfica, Drow",
-      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><h3>Características de Linhagem Drow</h3><table><thead><tr><td><p>Nível 1</p></td><td><p>Nível 3</p></td><td><p>Nível 5</p></td></tr></thead><tbody><tr><td><p>A distância da sua Visão no Escuro aumenta para 36 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{luzes dançantes}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as características e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>"
+    "Dragonborn": {
+      "name": "Draconato",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dragonborn-traits\">Dragonborn Traits</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um draconato, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Dracônica.</strong> Sua linhagem procede de um progenitor dragão. Escolha o tipo de dragão na tabela Ancestrais Dracônicos. Sua escolha afeta seu Sopro e traços de Resistência a Dano, bem como sua aparência.</p><table><caption>Ancestrais Dracônicos</caption><thead><tr><td>Dragão</td><td>Tipo de Dano</td><td>Dragão</td><td>Tipo de Dano</td></tr></thead><tbody><tr><td>Azul</td><td>Elétrico</td><td>Negro</td><td>Ácido</td></tr><tr><td>Branco</td><td>Gélido</td><td>Ouro</td><td>Ígneo</td></tr><tr><td>Bronze</td><td>Elétrico</td><td>Prata</td><td>Gélido</td></tr><tr><td>Cobre</td><td>Ácido</td><td>Verde</td><td>Venenoso</td></tr><tr><td>Latão</td><td>Ígneo</td><td>Vermelho</td><td>Ígneo</td></tr></tbody></table><p><strong>Sopro.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Resistência a Dano. </strong>Você tem Resistência ao tipo de dano determinado por seu traço Ancestralidade Dracônica.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Voo Dracônico.</strong> No nível 5 do personagem, você pode canalizar magia dracônica para voar temporariamente. Como uma Ação Bônus, asas espectrais brotam das suas costas e duram 10 minutos, até que você as retraia (nenhuma ação é necessária) ou obtenha a condição incapacitado. Pela duração, você tem um Deslocamento de Voo igual ao seu Deslocamento. Suas asas parecem feitas da mesma energia que o seu Sopro. Após usar esse traço, você não pode usá-lo novamente até completar um Descanso Longo.</p>",
+      "subtype": "Dragonborn",
+      "advancement": {
+        "65BqBxGcj6z4S803": {
+          "hint": "Medium (about 5–7 feet tall)"
+        },
+        "Breath Weapon": {
+          "title": "Breath Weapon"
+        },
+        "Draconic Ancestry": {
+          "title": "Draconic Ancestry"
+        },
+        "Damage Resistance": {
+          "title": "Damage Resistance",
+          "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+        },
+        "Draconic Flight": {
+          "title": "Draconic Flight"
+        }
+      }
+    },
+    "Dwarf": {
+      "name": "Anão",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"dwarf-traits\">Traços Raciais dos Anões</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 1,5 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um anão, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resiliência Anã.</strong> Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p><p><strong>Tenacidade Anã.</strong> Seus Pontos de Vida máximos aumentam em 1, e mais 1 toda vez que você ganha um nível.</p><p><strong>Conhecimento de Pedras.</strong> Como uma Ação Bônus, você adquire Sismiconsciência com um alcance de 18 metros por 10 minutos. Você deve estar em, ou tocar, uma superfície de pedra para usar a Sismiconsciência. A pedra pode ser natural ou trabalhada. Você pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo.</p>",
+      "subtype": "Dwarf",
+      "advancement": {
+        "6HdONjMD4UozXSfC": {
+          "hint": "Medium (about 4–5 feet tall)"
+        },
+        "Dwarf Traits": {
+          "title": "Dwarf Traits"
+        },
+        "Dwarven Resilience": {
+          "title": "Dwarven Resilience",
+          "hint": "You have Resistance to Poison damage."
+        }
+      }
     },
     "Dwarven Resilience": {
       "name": "Resiliência Anã",
-      "description": "<p>Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente resistência ao dano por veneno, mas não terá vantagem nas salvaguardas para evitar ou encerrar a condição de envenenado.</p></section>"
+      "description": "<p>Você tem Resistência a Dano Venenoso. Você também tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Envenenado.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente resistência ao dano por veneno, mas não terá vantagem nas salvaguardas para evitar ou encerrar a condição de envenenado.</p></section>",
+      "requirements": "Dwarf"
     },
     "Dwarven Toughness": {
       "name": "Tenacidade Anã",
       "description": "<p>Seus Pontos de Vida máximos aumentam em 1, e mais 1 toda vez que você ganha um nível.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Nota do Foundry</strong></p><p>O aumento do máximo de Pontos de Vida é calculado automaticamente a cada nível.</p></section>",
+      "requirements": "Dwarf",
       "effects": {
         "Dwarven Toughness": {
           "name": "Tenacidade Anã",
@@ -140,21 +171,132 @@
         }
       }
     },
+    "Elf, Drow": {
+      "name": "Elfo, Drow",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem Drow</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>A distância da sua Visão no Escuro aumenta para 36 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{luzes dançantes}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitara ou encerrar a condição &Reference[Charmed].</p><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>",
+      "subtype": "Elf",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "Elf Traits": {
+          "title": "Elf Traits"
+        },
+        "Keen Senses": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        "Drow Traits": {
+          "title": "Drow Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "Elf, High": {
+      "name": "Elfo, Alto",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"high-elves\">Altos Elfos</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atingte os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem esta magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Traços de Linhagem de Alto Elfo</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Sempre que você terminar um descanso longo, você pode substituir esse truque por outro da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{lista de magias de mago}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Passo nebuloso}</td></tr></tbody></table><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p>",
+      "subtype": "Elf",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "Elf Traits": {
+          "title": "Elf Traits"
+        },
+        "Keen Senses": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        },
+        "High Elf Traits": {
+          "title": "High Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "Elf, Wood": {
+      "name": "Elfo, Silvestre",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"wood-elves\">Elfos Silvestres</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Traços Raciais dos Elfos</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,5 a 1,8 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um elfo, você possui esses traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Linhagem Élfica. </strong>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem de Elfo Silvestre</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Seu deslocamento aumenta para 10,5 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{arte druídica}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Passos Largos}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Passo sem Rastro}</td></tr></tbody></table><p><strong>Ancestralidade Feérica.</strong> Você tem vantagem em salvaguardas para evitar ou encerrar a condição enfeitiçado.</p><p><strong>Sentidos Aguçados.</strong> Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><p><strong>Transe.</strong> Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>",
+      "subtype": "Elf",
+      "advancement": {
+        "5w2FaHXRKiN7v1rE": {
+          "hint": "Medium (about 5–6 feet tall)"
+        },
+        "Elf Traits": {
+          "title": "Elf Traits"
+        },
+        "Wood Elf Traits": {
+          "title": "Wood Elf Traits"
+        },
+        "FRJszO7cYchbaGzt": {
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "zFsEPXauTgmYxqiJ": {
+          "title": "Wood Elf Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "Keen Senses": {
+          "title": "Keen Senses",
+          "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+        }
+      }
+    },
+    "Elven Lineage, Drow": {
+      "name": "Linhagem Élfica, Drow",
+      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><h3>Características de Linhagem Drow</h3><table><thead><tr><td><p>Nível 1</p></td><td><p>Nível 3</p></td><td><p>Nível 5</p></td></tr></thead><tbody><tr><td><p>A distância da sua Visão no Escuro aumenta para 36 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{luzes dançantes}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as características e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>",
+      "requirements": "Elf (Drow)"
+    },
+    "Elven Lineage, High Elf": {
+      "name": "Linhagem Élfica, Alto Elfo",
+      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Linhagens Élficas</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Sempre que você terminar um descanso longo, você pode substituir este truque por outro da lista de magias de Mago.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Passo nebuloso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as habilidades e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>",
+      "requirements": "Elf (High)"
+    },
+    "Elven Lineage, Wood Elf": {
+      "name": "Linhagem Élfica, Elfo Silvestre",
+      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem de Elfo Silvestre</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Seu deslocamento aumenta para 10,5 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{arte druídica}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Passos Largos}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Passo sem Rastro}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as características e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>",
+      "requirements": "Elf (Wood)"
+    },
     "Fey Ancestry": {
       "name": "Ancestralidade Feérica",
-      "description": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição &Reference[Charmed] .</p>"
+      "description": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição &Reference[Charmed] .</p>",
+      "requirements": "Elf"
+    },
+    "Fiendish Legacy, Abyssal": {
+      "name": "Fiendish Legacy, Abyssal",
+      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
+      "requirements": "Tiefling"
+    },
+    "Fiendish Legacy, Chthonic": {
+      "name": "Fiendish Legacy, Chthonic",
+      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.</p><table><caption>Chthonic Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
+      "requirements": "Tiefling"
+    },
+    "Fiendish Legacy, Infernal": {
+      "name": "Legado Ínfero, Infernal",
+      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>O legado infernal liga os tiferinos não apenas à Gehenna, mas também aos Nove Infernos e aos intensos campos de batalha de Aqueronte. Características físicas comuns incluem chifres, espinhos, caudas, olhos dourados e um leve odor de enxofre ou fumaça, sendo que a maioria desses tiferinos têm ancestrais diabólicos.</p><table><caption>Traços de Legado Infernal</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem Resistência a dano Ígneo. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{raio de fogo}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Repreensão Infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>",
+      "requirements": "Tiefling"
     },
     "Fire's Burn": {
       "name": "Fire's Burn",
-      "description": "<p>Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p>"
-    },
-    "Gnomish Lineage, Forest": {
-      "name": "Gnomish Lineage, Forest",
-      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>The free castings are included in the spell.</p></section>"
+      "description": "<p>Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p>",
+      "requirements": "Goliath (Fire Giant)",
+      "activities": {
+        "Burn": {
+          "name": "Burn",
+          "condition": "When you hit a target with an attack roll and deal damage to it"
+        }
+      }
     },
     "Frost's Chill": {
       "name": "Frost's Chill",
       "description": "<p>Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which can be used for tracking and reduces their Speed by 10.</p></section>",
+      "requirements": "Goliath (Frost Giant)",
+      "activities": {
+        "Chill": {
+          "name": "Chill",
+          "condition": "When you hit a target with an attack roll and deal damage to it"
+        }
+      },
       "effects": {
         "Chilled": {
           "name": "Chilled",
@@ -170,11 +312,51 @@
     },
     "Giant Ancestry": {
       "name": "Ancestralidade Gigante",
-      "description": "<p>Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição Caído.</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p>"
+      "description": "<p>Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição Caído.</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p>",
+      "requirements": "Goliath"
+    },
+    "Gnome, Forest": {
+      "name": "Gnome, Forest",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Traços de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 1 a 1,3 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um gnomo, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Astúcia Gnômica.</strong> Você tem Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.</p><p><strong>Linhagem Gnômica.</strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Seja qual fora linhagem que você escolher, sua escolha determina se Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para as magias desse traço (escolha o atributo quando selecionar a linhagem):</p><p><strong>Forest Gnome.</strong> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p>",
+      "subtype": "Gnome",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        "Gnome Traits": {
+          "title": "Gnome Traits"
+        },
+        "Forest Gnome Lineage Spell": {
+          "title": "Forest Gnome Lineage Spell",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        },
+        "Forest Gnome Lineage Cantrip": {
+          "title": "Forest Gnome Lineage Cantrip",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
+    },
+    "Gnome, Rock": {
+      "name": "Gnomo das Rochas",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"gnome-traits\">Traços de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 1 a 1,3 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um gnomo, você tem os seguintes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Astúcia Gnômica.</strong> Você tem Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.</p><p><strong>Linhagem Gnômica.</strong> Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais. Seja qual fora linhagem que você escolher, sua escolha determina se Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para as magias desse traço (escolha o atributo quando selecionar a linhagem):</p><p><strong>Gnomo das Rochas.</strong> Você sabe os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{reparar} e @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Além disso, você pode gastar 10 minutos conjurando <em>prestidigitação arcana</em> para fabricar um dispositivo mecânico minúsculo (CA 5, 1 PV), como um brinquedo, isqueiro mecânico ou caixa de música. Ao fabricar o dispositivo, você determina a função dele escolhendo um efeito de <em>prestidigitação arcana</em>; o dispositivo produz esse efeito sempre que você ou outra criatura executa uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções possíveis, você escolhe uma dessas opções para o dispositivo ao fabricá-lo. Por exemplo, se você escolher o efeito de Brincar com Fogo da magia, você determina se o dispositivo acende ou extingue fogo; o dispositivo não faz ambas as coisas. Você pode ter três desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após ser fabricado ou quando você o desmonta com um toque como uma ação Usar Objeto.</p>",
+      "subtype": "Gnome",
+      "advancement": {
+        "O7gYRGMSW3atQ2Yc": {
+          "hint": "Small (about 3-4 feet tall)"
+        },
+        "Gnome Traits": {
+          "title": "Gnome Traits"
+        },
+        "Rock Gnome Traits": {
+          "title": "Rock Gnome Traits",
+          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+        }
+      }
     },
     "Gnomish Cunning": {
       "name": "Astúcia Gnômica",
       "description": "<p>Você tem Vantagem em salvaguardas de Inteligência, Sabedoria e Carisma.</p>",
+      "requirements": "Gnome",
       "effects": {
         "Gnomish Cunning": {
           "name": "Astúcia Gnômica",
@@ -187,9 +369,50 @@
         }
       }
     },
+    "Gnomish Lineage, Forest": {
+      "name": "Gnomish Lineage, Forest",
+      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion} cantrip. You also always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>The free castings are included in the spell.</p></section>",
+      "requirements": "Gnome (Forest)"
+    },
+    "Gnomish Lineage, Rock": {
+      "name": "Linhagem Gnômica, das Rochas",
+      "description": "<p>Você sabe os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{reparar} e @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Além disso, você pode gastar 10 minutos conjurando <em>prestidigitação arcana</em> para fabricar um dispositivo mecânico minúsculo (CA 5, 1 PV), como um brinquedo, isqueiro mecânico ou caixa de música. Ao fabricar o dispositivo, você determina a função dele escolhendo um efeito de <em>prestidigitação arcana</em>; o dispositivo produz esse efeito sempre que você ou outra criatura executa uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções possíveis, você escolhe uma dessas opções para o dispositivo ao fabricá-lo. Por exemplo, se você escolher o efeito de Brincar com Fogo da magia, você determina se o dispositivo acende ou extingue fogo; o dispositivo não faz ambas as coisas. Você pode ter três desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após ser fabricado ou quando você o desmonta com um toque como uma ação Usar Objeto.</p>",
+      "requirements": "Gnome (Rock)"
+    },
+    "Goliath": {
+      "name": "Golias",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Traços dos Golias</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 2 a 2,5 metros de altura)</p><p><strong>Deslocamento:</strong> 10,5 metros</p><p>Como um golias, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Gigante.</strong> Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p><p><strong>Forma Grande.</strong> A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><p><strong>Porte Poderoso.</strong> Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição Imobilizado. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p>",
+      "subtype": "Goliath",
+      "advancement": {
+        "LETPMtBLvmzWUUb0": {
+          "hint": "Medium (about 7-8 feet tall)"
+        },
+        "Goliath Traits": {
+          "title": "Goliath Traits"
+        },
+        "Giant Ancestry": {
+          "title": "Giant Ancestry",
+          "hint": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+        }
+      }
+    },
+    "Halfling": {
+      "name": "Pequenino",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"halfling-traits\">Traços Raciais dos Pequeninos/h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Pequeno (de 0,5 a 1 metro de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um pequenino, você tem os seguintes traços especiais.</p><p><strong>Corajoso.</strong> Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição Amedrontado.</p><p><strong>Agilidade Pequenina.</strong> Você pode se mover pelo espaço de qualquer criatura que seja um tamanho maior que você, mas você não pode parar no mesmo espaço.</p><p><strong>Sorte.</strong> Ao tirar 1 no D20 de um Teste de D20, você pode jogar novamente o dado e deve usar a nova jogada.</p><p><strong>Furtividade Natural.</strong> Você pode executar a ação Esconder m</p>",
+      "subtype": "Halfling",
+      "advancement": {
+        "GYp1vi82hSEoe3mO": {
+          "hint": "Small (about 2-3 feet tall)"
+        },
+        "Halfling Traits": {
+          "title": "Halfling Traits"
+        }
+      }
+    },
     "Halfling Nimbleness": {
       "name": "Agilidade Pequenina",
       "description": "<p>Você pode se mover pelo espaço de qualquer criatura que seja um tamanho maior que você, mas você não pode parar no mesmo espaço.</p>",
+      "requirements": "Halfling",
       "effects": {
         "Halfling Nimbleness": {
           "name": "Agilidade Pequenina",
@@ -199,25 +422,52 @@
         }
       }
     },
-    "Elven Lineage, High Elf": {
-      "name": "Linhagem Élfica, Alto Elfo",
-      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Linhagens Élficas</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Sempre que você terminar um descanso longo, você pode substituir este truque por outro da lista de magias de Mago.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Passo nebuloso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as habilidades e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>"
-    },
     "Hill's Tumble": {
       "name": "Hill's Tumble",
-      "description": "<p>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p>"
+      "description": "<p>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p>",
+      "requirements": "Goliath (Hill Giant)",
+      "activities": {
+        "Hill's Tumble": {
+          "name": "Hill's Tumble",
+          "condition": "When you hit a Large or smaller creature with an attack roll and deal damage to it"
+        }
+      }
     },
-    "Fiendish Legacy, Infernal": {
-      "name": "Legado Ínfero, Infernal",
-      "description": "<p>Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>O legado infernal liga os tiferinos não apenas à Gehenna, mas também aos Nove Infernos e aos intensos campos de batalha de Aqueronte. Características físicas comuns incluem chifres, espinhos, caudas, olhos dourados e um leve odor de enxofre ou fumaça, sendo que a maioria desses tiferinos têm ancestrais diabólicos.</p><table><caption>Traços de Legado Infernal</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem Resistência a dano Ígneo. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{raio de fogo}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Repreensão Infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Nota do Foundry</strong></p><p>A Resistência e as magias são concedidas a você automaticamente, e você será solicitado a escolher o atributo de conjuração durante o avanço de nível.</p></section>"
+    "Human": {
+      "name": "Humano",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"human-traits\">Traços Raciais Humanos</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 0,5 a 1,2 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento: </strong>9 metros</p><p>Como um humano você tem os seguintes traços especiais.</p><p><strong>Engenhoso. </strong>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p><p><strong>Habil. </strong>Você ganha proficiência em uma perícia, à sua escolha.</p><p><strong>Versátil.</strong> Você ganha um talento de origem, à sua escolha (veja capítulo 5). Habilidoso é recomendável.</p>",
+      "subtype": "Human",
+      "advancement": {
+        "dLxv96vt2B2KOEe2": {
+          "hint": "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+        },
+        "Human Traits": {
+          "title": "Human Traits"
+        },
+        "Skillful": {
+          "title": "Skillful",
+          "hint": "You gain proficiency in one skill of your choice."
+        },
+        "Versatile": {
+          "title": "Versatile",
+          "hint": "You gain an Origin feat of your choice. Skillful is recommended."
+        }
+      }
     },
     "Keen Senses": {
       "name": "Sentidos Aguçados",
-      "description": "<p>Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Após selecionar essa espécie, será solicitado que você faça sua escolha.</p></section>"
+      "description": "<p>Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Após selecionar essa espécie, será solicitado que você faça sua escolha.</p></section>",
+      "requirements": "Elf"
     },
     "Large Form": {
       "name": "Large Form",
       "description": "<p>A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which automates the increase to your Speed and the Advantage on Strength checks.</p></section>",
+      "requirements": "Goliath",
+      "activities": {
+        "Enlarge": {
+          "name": "Enlarge"
+        }
+      },
       "effects": {
         "Large Form": {
           "name": "Large Form",
@@ -232,6 +482,7 @@
     "Luck": {
       "name": "Sorte",
       "description": "<p>Ao tirar 1 no D20 de um Teste de D20, você pode jogar novamente o dado e deve usar a nova jogada.</p>",
+      "requirements": "Halfling",
       "effects": {
         "Luck": {
           "name": "Sorte",
@@ -243,15 +494,31 @@
     },
     "Naturally Stealthy": {
       "name": "Furtividade Natural",
-      "description": "<p>Você pode executar a ação &Reference[Hide] mesmo quando estiver encoberto apenas por uma criatura que seja pelo menos um tamanho maior que você.</p>"
+      "description": "<p>Você pode executar a ação &Reference[Hide] mesmo quando estiver encoberto apenas por uma criatura que seja pelo menos um tamanho maior que você.</p>",
+      "requirements": "Halfling"
+    },
+    "Orc": {
+      "name": "Orc",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"orc-traits\">Traços Raciais de Orc</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,8 a 2 metros de altura)</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um orc, você possui esses traços especiais.</p><p><strong>Surto de Adrenalina. </strong>Você pode executar a ação Correr como uma Ação Bônus. Ao executar isso, você adquire um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência. Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Curto ou Longo.</p><p><strong>Visão no Escuro.</strong> Você tem visão no escuro com distância de 36 metros.</p><p><strong>Resistência Implacável.</strong> Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>",
+      "subtype": "Orc",
+      "advancement": {
+        "B2sUOuY0KhoULqlX": {
+          "hint": "Medium (about 6-7 feet tall)"
+        },
+        "Orc Traits": {
+          "title": "Orc Traits"
+        }
+      }
     },
     "Otherworldly Presence": {
       "name": "Presença Sobrenatural",
-      "description": "<p>Você conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Quando você receber essa magia, ela permitirá que você escolha seu atributo de conjuração.</p></section>"
+      "description": "<p>Você conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Taumaturgia}{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Quando você receber essa magia, ela permitirá que você escolha seu atributo de conjuração.</p></section>",
+      "requirements": "Tiefling"
     },
     "Powerful Build": {
       "name": "Porte Poderoso",
       "description": "<p>Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição &Reference[Grappled apply=false]. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Nota do Foundry</strong></p><p>Esse recurso inclui um Efeito Ativo que ajusta automaticamente o seu tamanho ao determinar a capacidade de carga.</p></section>",
+      "requirements": "Goliath",
       "effects": {
         "Powerful Build": {
           "name": "Porte Poderoso",
@@ -263,23 +530,88 @@
     },
     "Relentless Endurance": {
       "name": "Resistência Implacável",
-      "description": "<p>Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>"
+      "description": "<p>Ao ser reduzido a 0 Pontos de Vida, mas não morto imediatamente, você fica com 1 Ponto de Vida. Após usar este traço, você não pode fazê-lo novamente até completar um Descanso Longo.</p>",
+      "requirements": "Orc",
+      "activities": {
+        "Relentlessly Endure": {
+          "name": "Relentlessly Endure",
+          "condition": "When you are reduced to 0 Hit Points but not killed outright"
+        }
+      }
     },
     "Resourceful": {
       "name": "Engenhoso",
-      "description": "<p>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p>"
+      "description": "<p>Você ganha inspiração heroica sempre que você terminar um descanso longo.</p>",
+      "requirements": "Human"
     },
-    "Gnomish Lineage, Rock": {
-      "name": "Linhagem Gnômica, das Rochas",
-      "description": "<p>Você sabe os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{reparar} e @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{prestidigitação arcana}. Além disso, você pode gastar 10 minutos conjurando <em>prestidigitação arcana</em> para fabricar um dispositivo mecânico minúsculo (CA 5, 1 PV), como um brinquedo, isqueiro mecânico ou caixa de música. Ao fabricar o dispositivo, você determina a função dele escolhendo um efeito de <em>prestidigitação arcana</em>; o dispositivo produz esse efeito sempre que você ou outra criatura executa uma Ação Bônus para ativá-lo com um toque. Se o efeito escolhido tiver opções possíveis, você escolhe uma dessas opções para o dispositivo ao fabricá-lo. Por exemplo, se você escolher o efeito de Brincar com Fogo da magia, você determina se o dispositivo acende ou extingue fogo; o dispositivo não faz ambas as coisas. Você pode ter três desses dispositivos ao mesmo tempo, e cada um se desfaz 8 horas após ser fabricado ou quando você o desmonta com um toque como uma ação Usar Objeto.</p>"
+    "Sage": {
+      "name": "Sábio",
+      "description": "<p><strong>Valores de Atributo:</strong> Constituição, Inteligência, Sabedoria</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Iniciado em Magia} (Mago)</p><p><strong>Proficiências em Perícias:</strong> Arcanismo e História</p><p><strong>Proficiência com Ferramentas:</strong> Suprimentos de Calígrafo</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Bastão}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Suprimentos de Calígrafo}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Livro} (história), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Pergaminho} (8 folhas), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}, 8 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "Background Proficiencies": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies."
+        },
+        "Background Feat": {
+          "title": "Background Feat",
+          "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
+        },
+        "Choose Languages": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
     },
     "Skillful": {
       "name": "Hábil",
-      "description": "<p>Você ganha proficiência em uma perícia, à sua escolha.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Você será solicitado a fazer essa escolha ao selecionar esta espécie.</p></section>"
+      "description": "<p>Você ganha proficiência em uma perícia, à sua escolha.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Você será solicitado a fazer essa escolha ao selecionar esta espécie.</p></section>",
+      "requirements": "Human"
+    },
+    "Soldier": {
+      "name": "Soldado",
+      "description": "<p><strong>Valores de Atributo:</strong> Força, Destreza, Constituição</p><p><strong>Talento:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Atacante Selvagem}</p><p><strong>Proficiências em Perícias:</strong> Atletismo e Intimidação</p><p><strong>Proficiência com Ferramentas:</strong> <em>Escolha um tipo de</em> <em>kits de jogos</em> (veja @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipamento:</strong> <em>Escolha A ou B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Lança}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Arco Curto}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Flechas}, Kit de jogos (como acima), @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Kit de Curandeiro}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Aljava}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Roupas de Viagem}, 14 PO; ou (B) 50 PO</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000 inline classes=\"free-rules-embed\"]</p>",
+      "advancement": {
+        "Background Ability Score Improvement": {
+          "title": "Background Ability Score Improvement",
+          "hint": "Your background allows you to increase your Strength, Dexterity, and Constitution scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+        },
+        "Background Proficiencies": {
+          "title": "Background Proficiencies",
+          "hint": "Your background grants you proficiency in Athletics and Intimidation. It also grants you proficiency with any Gaming Set."
+        },
+        "Background Feat": {
+          "title": "Background Feat",
+          "hint": "Your background grants you the Savage Attacker feat."
+        },
+        "Choose Languages": {
+          "title": "Choose Languages",
+          "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+        }
+      }
+    },
+    "Stone's Endurance": {
+      "name": "Stone's Endurance",
+      "description": "<p>Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p>",
+      "requirements": "Goliath (Stone Giant)",
+      "activities": {
+        "heal": {
+          "condition": "When you take damage"
+        }
+      }
     },
     "Stonecunning": {
       "name": "Conhecimento de Pedras",
       "description": "<p>Como uma Ação Bônus, você adquire &Reference[Tremorsense] com um alcance de 18 metros por 10 minutos. Você deve estar em, ou tocar, uma superfície de pedra para usar a Sismiconsciência. A pedra pode ser natural ou trabalhada. Você pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota do Foundry</strong></p><p>Essa habilidade inclui os usos limitados e um Efeito Ativo que concede a você 18 metros de “Sismiconsciência”. Ela não atualiza automaticamente as configurações de visão do seu Token.</p></section>",
+      "requirements": "Dwarf",
+      "activities": {
+        "Stonecunning": {
+          "name": "Stonecunning"
+        }
+      },
       "effects": {
         "Stonecunning": {
           "name": "Conhecimento de Pedras",
@@ -289,25 +621,122 @@
         }
       }
     },
-    "Stone's Endurance": {
-      "name": "Stone's Endurance",
-      "description": "<p>Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p>"
-    },
     "Storm's Thunder": {
       "name": "Storm's Thunder",
-      "description": "<p>Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p>"
+      "description": "<p>Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p>",
+      "requirements": "Goliath (Storm Giant)",
+      "activities": {
+        "Storm's Thunder": {
+          "name": "Storm's Thunder",
+          "condition": "When you take damage from a creature within 60 feet of you"
+        }
+      }
+    },
+    "Tiefling, Abyssal": {
+      "name": "Tiferino Abissal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"abyssal\">Abyssal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Creature Type</strong>: Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</td></tr></tbody></table>",
+      "subtype": "Tiefling",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "Tiefling Traits": {
+          "title": "Tiefling Traits"
+        },
+        "Abyssal Tiefling Traits": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "You have Resistance to Poison damage."
+        },
+        "VhCiGFOLtG8H93jy": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "KwcwntR3Ai0R5iPN": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "9iZufhdzY3XN7Em3": {
+          "title": "Abyssal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "Otherworldly Presence": {
+          "title": "Otherworldly Presence"
+        }
+      }
+    },
+    "Tiefling, Chthonic": {
+      "name": "Tiferino Ctônico",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"chthonic\">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Legados Ínferos</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr></tbody></table>",
+      "subtype": "Tiefling",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "Medium (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "Tiefling Traits": {
+          "title": "Tiefling Traits"
+        },
+        "Otherworldly Presence": {
+          "title": "Otherworldly Presence"
+        },
+        "Chthonic Tiefling Traits": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "You have Resistance to Necrotic damage."
+        },
+        "pIi692Cevlw7qZRe": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "DU7Y6D1IJSSgObJK": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "R0k1RmQximNOQw1R": {
+          "title": "Chthonic Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      }
+    },
+    "Tiefling, Infernal": {
+      "name": "Tiferino Infernal",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"infernal\">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"tiefling-traits\">Traços de Tiferino</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamanho: </strong>Médio (de 1,2 a 2 metros de altura) ou Pequeno (de 1 a 1,3 metro de altura), escolhido ao selecionar esta espécie</p><p><strong>Deslocamento:</strong> 9 metros</p><p>Como um tiferino, você tem estes traços especiais.</p><p><strong>Visão no Escuro. </strong>Você tem visão no escuro com distância de 18 metros.</p><p><strong>Legado Ínfero.</strong> Você é o portador de um legado que lhe confere poderes sobrenaturais.</p><p>Ao atingir os níveis de personagem 3 e 5, você aprende magias de círculo superior, conforme indicado na tabela. Essas magias estão sempre preparadas e podem ser conjuradas uma vez sem usar um espaço de magia, sendo restauradas quando completa um Descanso Longo. Além disso, você pode conjurá-las utilizando qualquer espaço de magia que possua do círculo correspondente. Atributos como Inteligência, Sabedoria ou Carisma servem como seu atributo de conjuração para essas magias (escolha um atributo ao selecionar o legado).</p><p><strong>Presença Sobrenatual.</strong> Você conhece o truque@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{taumaturgia}. Ao conjurar com este traço, a magia usa o mesmo atributo de conjuração que você usa para sua Característica Legado Ínfero.</p><table><caption>Legados Ínferos</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Você tem Resistência a dano Ígneo. Você também conhece o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{raio de fogo}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Repreensão Infernal}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}</td></tr></tbody></table>",
+      "subtype": "Tiefling",
+      "advancement": {
+        "lskxIeib6rIreZ1h": {
+          "hint": "Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)"
+        },
+        "Tiefling Traits": {
+          "title": "Tiefling Traits"
+        },
+        "Otherworldly Presence": {
+          "title": "Otherworldly Presence"
+        },
+        "Infernal Tiefling Traits": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "You have Resistance to Fire damage."
+        },
+        "gMovXMwHeD9cCL99": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "ol3SWLw2FTNEiXrb": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        },
+        "cj8h25IH0Zvdy3Bm": {
+          "title": "Infernal Tiefling Traits",
+          "hint": "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+        }
+      }
     },
     "Trance": {
       "name": "Transe",
-      "description": "<p>Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>"
+      "description": "<p>Você não precisa dormir, e magia não pode fazer você dormir. Você pode concluir um descanso longo em 4 horas se passar essas horas meditando em transe, durante o qual você se mantém consciente.</p>",
+      "requirements": "Elf"
     },
     "Versatile": {
       "name": "Versátil",
-      "description": "<p>Você ganha um @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{talento de origem}, à sua escolha @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Habilidoso} é recomendado.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Será solicitado que você faça sua escolha ao selecionar esta espécie.</p></section>"
-    },
-    "Elven Lineage, Wood Elf": {
-      "name": "Linhagem Élfica, Elfo Silvestre",
-      "description": "<p>Você faz parte de uma linhagem que lhe concede habilidades sobrenaturais.</p><p>Quando você atinge os níveis 3 e 5, você aprende uma magia de círculo mais alto, como indicado na tabela. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem um espaço de magia, e recupera a habilidade de conjurá-la dessa forma ao final de um descanso longo. Você também pode conjurar a magia usando quaisquer espaços de magia do círculo apropriado que tiver. Carisma, Inteligência ou Sabedoria são seu atributo de conjuração para as magias que você conjura com este traço (escolha a habilidade ao selecionar a linhagem).</p><table><caption>Características de Linhagem de Elfo Silvestre</caption><thead><tr><td>Nível 1</td><td>Nível 3</td><td>Nível 5</td></tr></thead><tbody><tr><td>Seu deslocamento aumenta para 10,5 metros. Você também sabe o truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{arte druídica}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Passos Largos}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Passo sem Rastro}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota do Foundry</strong></p><p>Você receberá automaticamente as características e magias correspondentes ao selecionar a espécie e à medida que subir de nível.</p></section>"
+      "description": "<p>Você ganha um @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{talento de origem}, à sua escolha @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Habilidoso} é recomendado.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Será solicitado que você faça sua escolha ao selecionar esta espécie.</p></section>",
+      "requirements": "Human"
     }
   }
 }

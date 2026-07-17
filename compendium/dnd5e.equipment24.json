@@ -1307,7 +1307,7 @@
       "effects": {
         "Rogue Card: Hostility": {
           "name": "Rogue Card: Hostility",
-          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Rogue}</em></p><p>An NPC (unknown identity) is Hostile towards you.</p>"
+          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Ladino}</em></p><p>An NPC (unknown identity) is Hostile towards you.</p>"
         }
       }
     },
