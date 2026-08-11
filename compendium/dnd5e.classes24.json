@@ -111,7 +111,7 @@
     },
     "Brutal Strike": {
       "name": "Brutal Strike",
-      "description": "<p>If you use [[/item Reckless Attack]], you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra [[lookup @scale.barbarian.brutal-strike]] damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.</p><p><strong>Forceful Blow. </strong>The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking &Reference[Opportunity Attacks].</p><p><strong>Hamstring Blow. </strong>The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect for the Hamstring Blow which can be applied to a target.</p><p>The <strong>damage</strong> activity automatically scales when you gain Improved Brutal Strike (2).</p></section>",
+      "description": "<p>If you use [[/item Reckless Attack]], you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra [[lookup @scale.barbarian.brutal-strike]] damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.</p><p><strong>Forceful Blow. </strong>The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking &amp;Reference[Opportunity Attacks].</p><p><strong>Hamstring Blow. </strong>The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect for the Hamstring Blow which can be applied to a target.</p><p>The <strong>damage</strong> activity automatically scales when you gain Improved Brutal Strike (2).</p></section>",
       "effects": {
         "Hamstrung": {
           "name": "Hamstrung",
@@ -124,11 +124,11 @@
     },
     "Danger Sense": {
       "name": "Danger Sense",
-      "description": "<p>You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the &Reference[Incapacitated] condition.</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature automates the Advantage on Dexterity saving throws but is not automatically disabled when Incapacitated. It can be temporarily deactivated in the Effects tab.</p></section>",
+      "description": "<p>You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature automates the Advantage on Dexterity saving throws but is not automatically disabled when Incapacitated. It can be temporarily deactivated in the Effects tab.</p></section>",
       "effects": {
         "Danger Sense": {
           "name": "Danger Sense",
-          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &Reference[Incapacitated] condition.</p>",
+          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>",
           "changes": {
             "system.abilities.dex.save.roll.mode": 1
           }
@@ -199,7 +199,7 @@
     },
     "Intimidating Presence": {
       "name": "Intimidating Presence",
-      "description": "<p>As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the &Reference[Frightened] creature's turns, the creature repeats the save, ending the effect on itself on a success.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Save</strong> activity includes an Active Effect which adds the Frightened condition.</p><p>The <strong>Recharge</strong> activity consumes a use of Rage and recharges your use of Intimidating Presence.</p></section>",
+      "description": "<p>As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the &amp;Reference[Frightened] creature's turns, the creature repeats the save, ending the effect on itself on a success.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Save</strong> activity includes an Active Effect which adds the Frightened condition.</p><p>The <strong>Recharge</strong> activity consumes a use of Rage and recharges your use of Intimidating Presence.</p></section>",
       "effects": {
         "Intimidated": {
           "name": "Intimidated"
@@ -208,7 +208,7 @@
     },
     "Mindless Rage": {
       "name": "Mindless Rage",
-      "description": "<p>You have Immunity to the &Reference[Charmed] and &Reference[Frightened] conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which grants the Charmed and Frightened condition immunity. It is not applied automatically when you begin your Rage though.</p></section>",
+      "description": "<p>You have Immunity to the &amp;Reference[Charmed] and &amp;Reference[Frightened] conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which grants the Charmed and Frightened condition immunity. It is not applied automatically when you begin your Rage though.</p></section>",
       "effects": {
         "Mindless Rage": {
           "name": "Mindless Rage",
@@ -220,7 +220,7 @@
     },
     "Persistent Rage": {
       "name": "Persistent Rage",
-      "description": "<p>When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.</p><p>In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the &Reference[Unconscious] condition (not just the &Reference[Incapacitated] condition) or don Heavy armor.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an activity which can be used when you roll Initiative which will recharge all of your Rage uses.</p></section>"
+      "description": "<p>When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.</p><p>In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the &amp;Reference[Unconscious] condition (not just the &amp;Reference[Incapacitated] condition) or don Heavy armor.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an activity which can be used when you roll Initiative which will recharge all of your Rage uses.</p></section>"
     },
     "Primal Champion": {
       "name": "Primal Champion",
@@ -276,7 +276,7 @@
     },
     "Unarmed Strike": {
       "name": "Ataque Desarmado",
-      "description": "<p>You can use Dexterity instead of Strength for the attack and damage rolls of your &Reference[Unarmed Strike]{unarmed strikes}. You can roll your Martial Arts die in place of the normal damage.</p>\n<p><em>See: @UUID[Compendium.dnd5e.classes24.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
+      "description": "<p>You can use Dexterity instead of Strength for the attack and damage rolls of your &amp;Reference[Unarmed Strike]{unarmed strikes}. You can roll your Martial Arts die in place of the normal damage.</p>\n<p><em>See: @UUID[Compendium.dnd5e.classes24.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
       "effects": {
         "Grappled": {
           "name": "Agarrado"
@@ -427,7 +427,7 @@
     },
     "Preserve Life": {
       "name": "Preserve Life",
-      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>"
+      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>"
     },
     "Sear Undead": {
       "name": "Sear Undead",
@@ -733,7 +733,7 @@
     },
     "Eldritch Smite": {
       "name": "Eldritch Smite",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd5e.classes24.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the &Reference[Prone] condition if it is Huge or smaller.</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Smite</strong> activity consumes a Pact Magic spell slot and increases the damage based on your pact spell level.</p></section>"
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd5e.classes24.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the &amp;Reference[Prone] condition if it is Huge or smaller.</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Smite</strong> activity consumes a Pact Magic spell slot and increases the damage based on your pact spell level.</p></section>"
     },
     "Eldritch Spear": {
       "name": "Eldritch Spear",
@@ -909,7 +909,7 @@
     },
     "One with Shadows": {
       "name": "One with Shadows",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you're in an area of &Reference[Dim Light] or &Reference[Darkness], you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that sets the Invisible status effect.</p></section>",
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you're in an area of &amp;Reference[Dim Light] or &amp;Reference[Darkness], you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that sets the Invisible status effect.</p></section>",
       "effects": {
         "Invisible": {
           "name": "Invisível",
@@ -1184,7 +1184,7 @@
     },
     "Abjure Foes": {
       "name": "Abjure Foes",
-      "description": "<p>As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the &Reference[Frightened] condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which applies the Frightened condition.</p></section>",
+      "description": "<p>As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the &amp;Reference[Frightened] condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which applies the Frightened condition.</p></section>",
       "effects": {
         "Abjured": {
           "name": "Abjured"
@@ -1248,7 +1248,7 @@
     },
     "Aura of Protection": {
       "name": "Aura of Protection",
-      "description": "<p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the &Reference[Incapacitated apply=false] condition.</p><p>You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1, currently [[lookup @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which automatically improves your Saving Throws but it should not be used for other impacted characters because it will add their Charisma modifier and not the Paladin's. They should add your modifier manually.</p></section>",
+      "description": "<p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the &amp;Reference[Incapacitated apply=false] condition.</p><p>You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1, currently [[lookup @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which automatically improves your Saving Throws but it should not be used for other impacted characters because it will add their Charisma modifier and not the Paladin's. They should add your modifier manually.</p></section>",
       "effects": {
         "Protected": {
           "name": "Protected",
@@ -1299,7 +1299,7 @@
     },
     "Cunning Action": {
       "name": "Cunning Action",
-      "description": "<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: &Reference[Dash], &Reference[Disengage], or &Reference[Hide].</p>",
+      "description": "<p>Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: &amp;Reference[Dash], &amp;Reference[Disengage], or &amp;Reference[Hide].</p>",
       "effects": {
         "Hiding": {
           "name": "Hiding"
@@ -1308,7 +1308,7 @@
     },
     "Cunning Strike": {
       "name": "Cunning Strike",
-      "description": "<p>You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.</p><p>If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p><p><strong>Poison (Cost: 1d6).</strong> You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the &Reference[Poisoned] condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.</p><p>To use this effect, you must have a Poisoner's Kit on your person.</p><p><strong>Trip (Cost: 1d6).</strong> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the &Reference[Prone] condition.</p><p><strong>Withdraw (Cost: 1d6).</strong> Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p><section class=\"secret\" id=\"secret-kCs7nMVrTvJRlkCy\"><p><strong>Nota do Foundry</strong></p><p>After using Cunning Strike effects use the <strong>Cunning Sneak Attack</strong> activity on this feature. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can select the damage type in the damage roll dialog.</p><p>The <strong>Poison</strong> activity includes an Active Effect that applies the Poisoned condition.</p><p>The <strong>Trip</strong> activity includes an Active Effect that applies the Prone condition or you can use the inline condition above.</p></section>",
+      "description": "<p>You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.</p><p>If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p><p><strong>Poison (Cost: 1d6).</strong> You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the &amp;Reference[Poisoned] condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.</p><p>To use this effect, you must have a Poisoner's Kit on your person.</p><p><strong>Trip (Cost: 1d6).</strong> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the &amp;Reference[Prone] condition.</p><p><strong>Withdraw (Cost: 1d6).</strong> Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p><section class=\"secret\" id=\"secret-kCs7nMVrTvJRlkCy\"><p><strong>Nota do Foundry</strong></p><p>After using Cunning Strike effects use the <strong>Cunning Sneak Attack</strong> activity on this feature. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can select the damage type in the damage roll dialog.</p><p>The <strong>Poison</strong> activity includes an Active Effect that applies the Poisoned condition.</p><p>The <strong>Trip</strong> activity includes an Active Effect that applies the Prone condition or you can use the inline condition above.</p></section>",
       "effects": {
         "Cunning Strike: Poisoned": {
           "name": "Cunning Strike: Poisoned",
@@ -1321,7 +1321,7 @@
     },
     "Devious Strikes": {
       "name": "Devious Strikes",
-      "description": "<p>You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or it has the &Reference[Unconscious] condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the &Reference[Blinded] condition until the end of its next turn.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Nota do Foundry</strong></p><p>After using Cunning Strike effects use the [[/item Cunning Strike activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can control the damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong> activity includes an Active Effect for tracking the dazed target but it does not automate the effect.</p><p>The <strong>Knock Out</strong> activity includes an Active Effect which applies the Unconscious condition.</p><p>The <strong>Obscure</strong> activity includes an Active Effect which applies the Blinded condition.</p></section>",
+      "description": "<p>You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or it has the &amp;Reference[Unconscious] condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the &amp;Reference[Blinded] condition until the end of its next turn.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Nota do Foundry</strong></p><p>After using Cunning Strike effects use the [[/item Cunning Strike activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can control the damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong> activity includes an Active Effect for tracking the dazed target but it does not automate the effect.</p><p>The <strong>Knock Out</strong> activity includes an Active Effect which applies the Unconscious condition.</p><p>The <strong>Obscure</strong> activity includes an Active Effect which applies the Blinded condition.</p></section>",
       "effects": {
         "Devious Strikes: Dazed": {
           "name": "Devious Strikes: Dazed",
@@ -1367,7 +1367,7 @@
     },
     "Second-Story Work": {
       "name": "Second-Story Work",
-      "description": "<p>You've trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Nota do Foundry</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>",
+      "description": "<p>You've trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Nota do Foundry</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>",
       "effects": {
         "Second-Story Work": {
           "name": "Second-Story Work",
@@ -1395,7 +1395,7 @@
     },
     "Supreme Sneak": {
       "name": "Supreme Sneak",
-      "description": "<p>You gain the following Cunning Strike option.</p><p><strong>Stealth Attack (Cost: 1d6).</strong> If you have the &Reference[Hide] action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind &Reference[Three-Quarters Cover] or &Reference[Total Cover].</p>"
+      "description": "<p>You gain the following Cunning Strike option.</p><p><strong>Stealth Attack (Cost: 1d6).</strong> If you have the &amp;Reference[Hide] action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover].</p>"
     },
     "Thief": {
       "name": "Thief",
@@ -1793,7 +1793,7 @@
     },
     "Hurl Through Hell": {
       "name": "Hurl Through Hell",
-      "description": "<p>Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the &Reference[Incapacitated] condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota do Foundry</strong></p><p>This feature includes one limited use.</p><p>The <strong>Regain Use</strong> activity will expend a Pact Magic spell slot and restore a use of this feature.</p></section>"
+      "description": "<p>Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the &amp;Reference[Incapacitated] condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota do Foundry</strong></p><p>This feature includes one limited use.</p><p>The <strong>Regain Use</strong> activity will expend a Pact Magic spell slot and restore a use of this feature.</p></section>"
     },
     "Magical Cunning": {
       "name": "Magical Cunning",

@@ -271,7 +271,7 @@
     },
     "phbspGoliath0000": {
       "name": "Golias",
-      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Traços dos Golias</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 2 a 2,5 metros de altura)</p><p><strong>Deslocamento:</strong> 10,5 metros</p><p>Como um golias, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Gigante.</strong> Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p><p><strong>Forma Grande.</strong> A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><p><strong>Porte Poderoso.</strong> Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição Imobilizado. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p>",
+      "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"goliath-traits\">Traços dos Golias</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamanho: </strong>Médio (de 2 a 2,5 metros de altura)</p><p><strong>Deslocamento:</strong> 10,5 metros</p><p>Como um golias, você tem os seguintes traços especiais.</p><p><strong>Ancestralidade Gigante.</strong> Você é descendente de Gigantes. Escolha um dos seguintes benefícios — um benefício sobrenatural de sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo:</p><p><strong>Caminhar nas Nuvens (gigante das nuvens). </strong>Como uma Ação Bônus, você se teleporta magicamente até 9 metros para um espaço desocupado à sua vista.</p><p><strong>Ardor do Fogo (gigante do fogo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode causar 1d10 pontos de dano Ígneo a esse alvo.</p><p><strong>Frio Congelante (gigante do gelo).</strong> Ao atingir um alvo com uma jogada de ataque e causar dano a ele, você também pode infligir 1d6 pontos de dano Gélido a esse alvo e reduzir o Deslocamento dele em 3 metros até o início do seu próximo turno.</p><p><strong>Queda da Colina (gigante da colina). </strong>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &amp;Reference[Prone].</p><p><strong>Resistência da Pedra (gigante da pedra).</strong> Ao sofrer dano, pode executar uma Reação para jogar 1d12. Adicione seu modificador de Constituição ao número obtido e reduza o dano desse total.</p><p><strong>Trovão da Tempestade (gigante da tempestade).</strong> Ao sofrer dano de uma criatura a até 18 metros de você, você pode executar uma Reação para causar 1d8 pontos de dano Trovejante a essa criatura.</p><p><strong>Forma Grande.</strong> A partir do nível 5 de personagem, você pode alterar seu tamanho para Grande como uma Ação Bônus se estiver em um espaço grande o suficiente. Essa transformação se mantém por 10 minutos ou até que você a encerrar (nenhuma ação é necessária). Pela duração, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Após usar este traço, você não pode utilizá-lo novamente até completar um Descanso Longo.</p><p><strong>Porte Poderoso.</strong> Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição Imobilizado. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p>",
       "subtype": "Golias",
       "advancement": {
         "LETPMtBLvmzWUUb0": {
@@ -448,7 +448,7 @@
     },
     "phbsptBrave00000": {
       "name": "Corajoso",
-      "description": "<p>Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição &Reference[Frightened].</p>",
+      "description": "<p>Você tem Vantagem nas salvaguardas que realizar para evitar ou encerrar a condição &amp;Reference[Frightened].</p>",
       "requirements": "Halfling"
     },
     "phbsptBreathWeap": {
@@ -517,7 +517,7 @@
     },
     "phbsptFeyAncestr": {
       "name": "Ancestralidade Feérica",
-      "description": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição &Reference[Charmed] .</p>",
+      "description": "<p>Você tem vantagem em salvaguardas para evitar ou encerrar a condição &amp;Reference[Charmed] .</p>",
       "requirements": "Elfo"
     },
     "phbsptFiresBurn0": {
@@ -585,7 +585,7 @@
     },
     "phbsptHillsTumbl": {
       "name": "Queda da Colina",
-      "description": "<p>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &Reference[Prone].</p>",
+      "description": "<p>Ao atingir uma criatura Grande ou menor com uma jogada de ataque e causar dano a ela, você pode impor a esse alvo a condição &amp;Reference[Prone].</p>",
       "requirements": "Golias (Gigante da Colina)",
       "activities": {
         "Hill's Tumble": {
@@ -632,7 +632,7 @@
     },
     "phbsptNaturallyS": {
       "name": "Furtividade Natural",
-      "description": "<p>Você pode executar a ação &Reference[Hide] mesmo quando estiver encoberto apenas por uma criatura que seja pelo menos um tamanho maior que você.</p>",
+      "description": "<p>Você pode executar a ação &amp;Reference[Hide] mesmo quando estiver encoberto apenas por uma criatura que seja pelo menos um tamanho maior que você.</p>",
       "requirements": "Halfling"
     },
     "phbsptOtherworld": {
@@ -642,7 +642,7 @@
     },
     "phbsptPowerfulBu": {
       "name": "Porte Poderoso",
-      "description": "<p>Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição &Reference[Grappled apply=false]. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Nota do Foundry</strong></p><p>Esse recurso inclui um Efeito Ativo que ajusta automaticamente o seu tamanho ao determinar a capacidade de carga.</p></section>",
+      "description": "<p>Você tem Vantagem em qualquer teste de atributo que realizar para encerrar a condição &amp;Reference[Grappled apply=false]. Você também conta como um tamanho maior ao determinar sua capacidade de carga.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Nota do Foundry</strong></p><p>Esse recurso inclui um Efeito Ativo que ajusta automaticamente o seu tamanho ao determinar a capacidade de carga.</p></section>",
       "requirements": "Golias",
       "effects": {
         "Powerful Build": {
@@ -678,7 +678,7 @@
     },
     "phbsptStonecunni": {
       "name": "Conhecimento de Pedras",
-      "description": "<p>Como uma Ação Bônus, você adquire &Reference[Tremorsense] com um alcance de 18 metros por 10 minutos. Você deve estar em, ou tocar, uma superfície de pedra para usar a Sismiconsciência. A pedra pode ser natural ou trabalhada. Você pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota do Foundry</strong></p><p>Essa habilidade inclui os usos limitados e um Efeito Ativo que concede a você 18 metros de “Sismiconsciência”. Ela não atualiza automaticamente as configurações de visão do seu Token.</p></section>",
+      "description": "<p>Como uma Ação Bônus, você adquire &amp;Reference[Tremorsense] com um alcance de 18 metros por 10 minutos. Você deve estar em, ou tocar, uma superfície de pedra para usar a Sismiconsciência. A pedra pode ser natural ou trabalhada. Você pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e você restaura todos os usos gastos quando completa um Descanso Longo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota do Foundry</strong></p><p>Essa habilidade inclui os usos limitados e um Efeito Ativo que concede a você 18 metros de “Sismiconsciência”. Ela não atualiza automaticamente as configurações de visão do seu Token.</p></section>",
       "requirements": "Anão",
       "activities": {
         "Stonecunning": {

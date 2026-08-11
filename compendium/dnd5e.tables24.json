@@ -252,7 +252,7 @@
       "name": "Bag of Beans Effect",
       "results": {
         "1-1": {
-          "description": "[[/r 5d4#Toadstools]] toadstools sprout. If a creature eats a toadstool, roll [[/r 1d2#Toadstool side-effect]]{any die}. On an odd roll, the eater must succeed on a [[/save ability=con dc=15 format=long]] or take [[/damage 5d6 type=poison]] damage and have the &Reference[Poisoned] condition for 1 hour. On an even roll, the eater gains [[/healing 5d6 type=temphp]] for 1 hour."
+          "description": "[[/r 5d4#Toadstools]] toadstools sprout. If a creature eats a toadstool, roll [[/r 1d2#Toadstool side-effect]]{any die}. On an odd roll, the eater must succeed on a [[/save ability=con dc=15 format=long]] or take [[/damage 5d6 type=poison]] damage and have the &amp;Reference[Poisoned] condition for 1 hour. On an even roll, the eater gains [[/healing 5d6 type=temphp]] for 1 hour."
         },
         "2-10": {
           "description": "A geyser erupts and spouts water, beer, mayonnaise, tea, vinegar, wine, or oil (DM’s choice) 30 feet into the air for [[/r 1d4#Geyser duration (minutes)]] minutes."
@@ -515,7 +515,7 @@
           "description": "You cast a random spell determined by rolling [[/r 1d10]]: on a 1, @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 5, @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}; on a 6, @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} (cast on yourself); on a 7, @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}; on an 8, @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force}; on a 9, @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}; on a 10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
         },
         "51-55": {
-          "description": "You have the &Reference[Stunned] condition until the end of your next turn, believing something awesome just happened."
+          "description": "You have the &amp;Reference[Stunned] condition until the end of your next turn, believing something awesome just happened."
         },
         "56-60": {
           "description": "A harmless swarm of butterflies fills a 10-foot Cube within 30 feet of yourself. The swarm disperses after 1 minute."
@@ -524,10 +524,10 @@
           "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a vial of @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{flask of Alchemist’s Fire}; on a 3, a @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Pé de Cabra}; on a 4, a lit @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}."
         },
         "66-70": {
-          "description": "You suffer a bout of “magic sickness” and have the &Reference[Poisoned] condition for 1 hour."
+          "description": "You suffer a bout of “magic sickness” and have the &amp;Reference[Poisoned] condition for 1 hour."
         },
         "71-75": {
-          "description": "You have the &Reference[Petrified] condition until the end of your next turn."
+          "description": "You have the &amp;Reference[Petrified] condition until the end of your next turn."
         },
         "76-80": {
           "description": "You pull a nonmagical object out of the hat. Roll [[/r 1d4]] to determine the object: on a 1, a @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}; on a 2, a @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Corda} with a @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook} tied to one end; on a 3, a bag of @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Estrepes}; on a 4, a gem worth 50 PO."
@@ -1089,7 +1089,7 @@
           "description": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}; on a 3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}; on a 5–6, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a 7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a 9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}."
         },
         "21-25": {
-          "description": "Nothing happens at the chosen point of origin. Instead, you have the &Reference[Stunned] condition until the start of your next turn, believing something awesome just happened."
+          "description": "Nothing happens at the chosen point of origin. Instead, you have the &amp;Reference[Stunned] condition until the start of your next turn, believing something awesome just happened."
         },
         "26-30": {
           "description": "You cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}. The Line created by the spell extends from you to the chosen point of origin."
@@ -1098,10 +1098,10 @@
           "description": "Nothing happens at the chosen point of origin. Instead, you take [[/damage 1d6 type=psychic]] damage."
         },
         "36-40": {
-          "description": "Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is &Reference[Lightly Obscured]."
+          "description": "Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is &amp;Reference[Lightly Obscured]."
         },
         "41-45": {
-          "description": "A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is &Reference[Heavily Obscured]."
+          "description": "A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is &amp;Reference[Heavily Obscured]."
         },
         "46-50": {
           "description": "You cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}. The Line created by the spell extends from you to the chosen point of origin."
@@ -1125,7 +1125,7 @@
           "description": "Leaves grow from the creature nearest to the chosen point of origin. Unless they are picked off, the leaves turn brown and fall off after 24 hours."
         },
         "78-82": {
-          "description": "Nothing happens at the chosen point of origin. Instead, a burst of colorful, shimmering light extends from you in a 30-foot Emanation. Each creature in the area must succeed on a [[/save con 15]] saving throw or have the &Reference[Blinded] condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+          "description": "Nothing happens at the chosen point of origin. Instead, a burst of colorful, shimmering light extends from you in a 30-foot Emanation. Each creature in the area must succeed on a [[/save con 15]] saving throw or have the &amp;Reference[Blinded] condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
         },
         "83-87": {
           "description": "Nothing happens at the chosen point of origin. Instead, you cast @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on yourself."
@@ -1137,7 +1137,7 @@
           "description": "You cast @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}, targeting the creature closest to the chosen point of origin. Roll [[/r 1d4]] to determine the target’s new form. On a 1, the new form is a Black Bear; on a 2, the new form is a Giant Wasp; on a 3–4, the new form is a Frog."
         },
         "98-100": {
-          "description": "The creature closest to the chosen point of origin makes a [[/save con 15]] saving throw. On a failed save, the creature has the &Reference[Restrained] condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the &Reference[Petrified] condition instead of the Restrained condition. The petrification lasts until the creature is freed by the @UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration} spell or similar magic."
+          "description": "The creature closest to the chosen point of origin makes a [[/save con 15]] saving throw. On a failed save, the creature has the &amp;Reference[Restrained] condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the &amp;Reference[Petrified] condition instead of the Restrained condition. The petrification lasts until the creature is freed by the @UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration} spell or similar magic."
         }
       }
     },
@@ -1788,11 +1788,11 @@
         },
         "6-6": {
           "name": "Indigo",
-          "description": "<p><em>Failed Save:</em> The target has the &Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p><p><em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>"
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p><p><em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>"
         },
         "7-7": {
           "name": "Violet",
-          "description": "<p><em>Failed Save:</em> The target has the &Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p><p><em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p><p><em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
         }
       }
     },
@@ -1821,11 +1821,11 @@
         },
         "6-6": {
           "name": "Indigo",
-          "description": "<p><em>Failed Save:</em> The target has the &Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
         },
         "7-7": {
           "name": "Violet",
-          "description": "<p><em>Failed Save:</em> The target has the &Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
         },
         "8-8": {
           "name": "Special",
