@@ -2,7 +2,7 @@
   "label": "Herois",
   "entries": {
     "Akra (Dragonborn Cleric)": {
-      "name": "Akra (Draconato Clérigo)",
+      "name": "Akra (Dragonborn Clérigo)",
       "description": "<p>Um seguidor devoto de sua divindade e dos costumes de sua sociedade, Akra se sente um pouco fora de lugar ao se aventurar em terras estrangeiras. Mas ela se sente obrigada a fazer tudo em seu poder para levar paz à região.</p>"
     },
     "Aoth (Human Druid)": {
@@ -18,15 +18,15 @@
       "description": "<p>Vagando pela terra trazendo justiça a todos, Krusk tem apenas um objetivo: a destruição do mal onde quer que ele esteja.</p>"
     },
     "Merric (Halfling Barbarian)": {
-      "name": "Merric (Pequenino Bárbaro)",
+      "name": "Merric (Halfling Bárbaro)",
       "description": "<p>Merric já foi uma justiceira, devido ao seu senso inato de justiça de rua. Embora seu tamanho pequeno possa não parecer muito em combate, ela mais do que compensa isso com suas violentas explosões de raiva.</p>"
     },
     "Morthos (Tiefling Sorcerer)": {
-      "name": "Morthos (Tiferino Feiticeiro)",
+      "name": "Morthos (Tiefling Feiticeiro)",
       "description": "<p>A investigação de Morthos sobre sua complexa ascendência dracônico-infernal a levou a uma vida acadêmica, mas logo ficou claro que os tolos no comando ​​estavam escondendo muitos segredos dela.</p>"
     },
     "Perrin (Halfling Monk)": {
-      "name": "Perrin (Pequenino Monge)",
+      "name": "Perrin (Halfling Monge)",
       "description": "<p>Um estudante dedicado de seu mosteiro local, Perrin foi encarregado de trazer equilíbrio às terras vizinhas.</p>"
     },
     "Quillathe (Elf Ranger)": {

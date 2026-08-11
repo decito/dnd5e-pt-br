@@ -1741,13 +1741,13 @@
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
       "results": {
         "1-1": {
-          "name": "Tiferino Abissal"
+          "name": "Tiefling Abissal"
         },
         "2-2": {
-          "name": "Tiferino Ctônico"
+          "name": "Tiefling Ctônico"
         },
         "3-3": {
-          "name": "Tiferino Infernal"
+          "name": "Tiefling Infernal"
         }
       }
     },
@@ -2230,7 +2230,7 @@
           "description": "Aasimar"
         },
         "2-2": {
-          "name": "Draconato"
+          "name": "Dragonborn"
         },
         "3-3": {
           "name": "Anão"
@@ -2239,7 +2239,7 @@
           "name": "Golias"
         },
         "7-7": {
-          "name": "Pequenino"
+          "name": "Halfling"
         },
         "8-8": {
           "name": "Humano"

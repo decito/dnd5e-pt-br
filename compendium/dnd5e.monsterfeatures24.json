@@ -13,7 +13,7 @@
     },
     "Aberrant Ground": {
       "name": "Aberrant Ground",
-      "description": "<p>The ground in a [[lookup @target.template.size activity=zVznqPXgYjETqpQz]]-foot Emanation originating from the [[lookup @name]]{monster} is &Reference[Difficult Terrain].</p>"
+      "description": "<p>The ground in a [[lookup @target.template.size activity=zVznqPXgYjETqpQz]]-foot Emanation originating from the [[lookup @name]]{monster} is &amp;Reference[Difficult Terrain].</p>"
     },
     "Abyssal Glaive": {
       "name": "Abyssal Glaive",
@@ -21,7 +21,7 @@
     },
     "Acid Absorption": {
       "name": "Acid Absorption",
-      "description": "<p>Whenever the [[lookup @name lowercase]]{monster} is subjected to &Reference[Acid] damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>",
+      "description": "<p>Whenever the [[lookup @name lowercase]]{monster} is subjected to &amp;Reference[Acid] damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>",
       "effects": {
         "Acid Absorption": {
           "name": "Acid Absorption",
@@ -42,11 +42,11 @@
     },
     "Adhesive (Object Form Only)": {
       "name": "Adhesive (Object Form Only)",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} adheres to anything that touches it. A Huge or smaller creature adhered to the [[lookup @name lowercase]]{monster} has the &Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>",
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} adheres to anything that touches it. A Huge or smaller creature adhered to the [[lookup @name lowercase]]{monster} has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>",
       "effects": {
         "Grappled": {
           "name": "Agarrado",
-          "description": "<p>The target has the &Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). Ability checks made to escape this grapple have Disadvantage.</p>"
+          "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). Ability checks made to escape this grapple have Disadvantage.</p>"
         }
       }
     },
