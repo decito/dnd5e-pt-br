@@ -4284,7 +4284,7 @@
     },
     "Wealth": {
       "Label": "Starting Wealth",
-      "Hint": "Formula in PO that can be used in place of starting equipment."
+      "Hint": "Formula in GP that can be used in place of starting equipment."
     }
   },
   "DND5E.SubclassAdd": "Add Subclass",
