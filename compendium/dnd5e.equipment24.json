@@ -1,50 +1,50 @@
 {
   "label": "Equipamento",
   "folders": {
-    "Rings": "Rings",
-    "Ammunition": "Ammunition",
-    "Simple Melee": "Simple Melee",
-    "Light": "Light",
-    "Other": "Other",
-    "Scrolls": "Scrolls",
-    "Bags of Tricks": "Bags of Tricks",
-    "Belts of Giant Strength": "Belts of Giant Strength",
-    "Artisan": "Artisan",
-    "Spellcasting Focuses": "Spellcasting Focuses",
-    "Spell Scrolls": "Spell Scrolls",
-    "Poisons": "Poisons",
-    "Elemental Gems": "Elemental Gems",
-    "Musical Instrument": "Musical Instrument",
-    "Gaming Set": "Gaming Set",
-    "Healing": "Healing",
-    "Medium": "Medium",
-    "Heavy": "Heavy",
-    "Magical": "Magical",
-    "Potions": "Potions",
-    "Arcane Focus": "Arcane Focus",
-    "Potions of Giant Strength": "Potions of Giant Strength",
-    "Simple Ranged": "Simple Ranged",
-    "Mysterious Deck Cards": "Mysterious Deck Cards",
-    "Martial Melee": "Martial Melee",
-    "Druidic Focus": "Druidic Focus",
-    "Figurines": "Figurines",
-    "Feather Tokens": "Feather Tokens",
-    "Holy Symbol": "Holy Symbol",
-    "Martial Ranged": "Martial Ranged",
-    "Weapons": "Weapons",
-    "Wands": "Wands",
-    "Horns of Valhalla": "Horns of Valhalla",
-    "Traps": "Traps",
-    "Rods": "Rods",
-    "Staff": "Staff",
-    "Armor": "Armor",
-    "Ioun Stones": "Ioun Stones",
-    "Adventuring Gear": "Adventuring Gear",
-    "Tools": "Tools",
-    "Equipment": "Equipment",
-    "Consumables": "Consumables",
-    "Containers": "Containers",
-    "Supplemental": "Supplemental"
+    "Rings": "Anéis",
+    "Ammunition": "Munição",
+    "Simple Melee": "Corpo a Corpo Simples",
+    "Light": "Leve",
+    "Other": "Outros",
+    "Scrolls": "Pergaminhos",
+    "Bags of Tricks": "Bolsas de Truques",
+    "Belts of Giant Strength": "Cintos de Força de Gigante",
+    "Artisan": "Artesão",
+    "Spellcasting Focuses": "Focos de Conjuração",
+    "Spell Scrolls": "Pergaminhos de Magia",
+    "Poisons": "Venenos",
+    "Elemental Gems": "Gemas Elementais",
+    "Musical Instrument": "Instrumento Musical",
+    "Gaming Set": "Conjunto de Jogos",
+    "Healing": "Cura",
+    "Medium": "Média",
+    "Heavy": "Pesada",
+    "Magical": "Mágico",
+    "Potions": "Poções",
+    "Arcane Focus": "Foco Arcano",
+    "Potions of Giant Strength": "Poções de Força de Gigante",
+    "Simple Ranged": "À Distância Simples",
+    "Mysterious Deck Cards": "Cartas do Baralho Misterioso",
+    "Martial Melee": "Corpo a Corpo Marcial",
+    "Druidic Focus": "Foco Druídico",
+    "Figurines": "Estatuetas",
+    "Feather Tokens": "Penas de Quaal",
+    "Holy Symbol": "Símbolo Sagrado",
+    "Martial Ranged": "À Distância Marcial",
+    "Weapons": "Armas",
+    "Wands": "Varinhas",
+    "Horns of Valhalla": "Trombetas de Valhala",
+    "Traps": "Armadilhas",
+    "Rods": "Bastões",
+    "Staff": "Cajados",
+    "Armor": "Armaduras",
+    "Ioun Stones": "Pedras iônicas",
+    "Adventuring Gear": "Equipamento de Aventura",
+    "Tools": "Ferramentas",
+    "Equipment": "Equipamento",
+    "Consumables": "Consumíveis",
+    "Containers": "Recipientes",
+    "Supplemental": "Suplementar"
   },
   "entries": {
     "Blanket": {
@@ -73,7 +73,7 @@
     },
     "Oil": {
       "name": "Óleo",
-      "description": "<p>Você pode encharcar uma criatura, objeto ou um espaço com óleo ou usá-lo como combustível, conforme detalhado abaixo.</p><p><strong>Encharcando uma Criatura ou um Objeto.</strong> Ao executar a ação atacar, você pode substituir um de seus ataques pelo arremesso de um frasco de Óleo. Escolha como alvo uma criatura ou objeto a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 + seu modificador de Destreza e bônus de proficiência) ou ficará coberto de óleo. aso sofra qualquer dano ígneo antes de o óleo secar (após 1 minuto), o alvo sofre mais [[/damage 5 type=fire]] devido ao óleo em chamas..</p><p><strong>Encharcando um Espaço.</strong> Você pode executar a ação usar para derramar um frasco de óleo em  terreno plano, cobrindo uma área de 1,5 metro quadrado em um raio de 1,5 metro de si mesmo. Se aceso, o óleo queima até o fim do turno, 2 rodadas a partir do momento em que foi aceso (ou 12 segundos) e causa 5 pontos de dano ígneo a qualquer criatura que entre na área ou termine seu turno lá. Uma criatura pode sofrer esse dano apenas uma vez por turno.</p><p><strong>Combustível.</strong> O óleo serve como combustível para lamparinas e lanternas. Uma vez aceso, um frasco de óleo queima por 6 horas em uma lamparina ou lanterna. Essa duração não precisa ser consecutiva; você pode extinguir o óleo em chamas (como uma ação usar) e reacendê-lo novamente até que ele tenha queimado por um total de 6 horas.</p>"
+      "description": "<p>Você pode encharcar uma criatura, objeto ou um espaço com óleo ou usá-lo como combustível, conforme detalhado abaixo.</p><p><strong>Encharcando uma Criatura ou um Objeto.</strong> Ao executar a ação Atacar, você pode substituir um de seus ataques pelo arremesso de um frasco de Óleo. Escolha como alvo uma criatura ou objeto a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 + seu modificador de Destreza e bônus de proficiência) ou ficará coberto de óleo. Caso sofra qualquer dano ígneo antes de o óleo secar (após 1 minuto), o alvo sofre mais [[/damage 5 type=fire]] devido ao óleo em chamas.</p><p><strong>Encharcando um Espaço.</strong> Você pode executar a ação Usar para derramar um frasco de Óleo em terreno plano, cobrindo uma área quadrada de 1,5 metro de lado a até 1,5 metro de você. Se aceso, o óleo queima por 2 rodadas a partir do momento em que foi aceso (ou 12 segundos) e causa 5 pontos de dano ígneo a qualquer criatura que entre na área ou termine seu turno lá. Uma criatura pode sofrer esse dano apenas uma vez por turno.</p><p><strong>Combustível.</strong> O óleo serve como combustível para lamparinas e lanternas. Uma vez aceso, um frasco de Óleo queima por 6 horas em uma lamparina ou lanterna. Essa duração não precisa ser consecutiva; você pode extinguir o óleo em chamas (como uma ação Usar) e reacendê-lo novamente até que ele tenha queimado por um total de 6 horas.</p>"
     },
     "Bedroll": {
       "name": "Saco de Dormir",
@@ -84,8 +84,8 @@
       "description": "<p>Uma folha de pergaminho pode comportar cerca de 250 palavras escritas à mão.</p>"
     },
     "Hooded Lantern": {
-      "name": "Hooded Lantern",
-      "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
+      "name": "Lanterna Furta-Fogo",
+      "description": "<p>Uma lanterna furta-fogo emite luz plena em um raio de 9 metros e meia-luz por mais 9 metros. Quando acesa, queima por 6 horas usando um frasco (0,5 litro) de óleo. Como uma ação, você pode abaixar a cobertura, reduzindo a luz para meia-luz em um raio de 1,5 metro.</p>"
     },
     "Lamp": {
       "name": "Lamparina",
@@ -97,7 +97,7 @@
     },
     "Bullseye Lantern": {
       "name": "Lanterna de Foco",
-      "description": "<p>Uma lanterna de foca usa óleo como combustível para emitir luz plena em um cone de 18 metros e meia-luz por mais 18 metros.</p>"
+      "description": "<p>Uma lanterna de foco usa óleo como combustível para emitir Luz Plena em um cone de 18 metros e Meia-Luz por mais 18 metros.</p>"
     },
     "Ball Bearings": {
       "name": "Esferas de Metal",
@@ -117,8 +117,8 @@
       "description": "<p>Usar um pé de cabra concede vantagem em testes de Força em que a alavanca do pé de cabra pode ser aplicada.</p>"
     },
     "Map or Scroll Case": {
-      "name": "Map or Scroll Case",
-      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
+      "name": "Estojo de Mapas ou Pergaminhos",
+      "description": "<p>Este estojo cilíndrico de couro pode conter até dez folhas de papel enroladas ou cinco folhas de pergaminho enroladas.</p>"
     },
     "Mirror": {
       "name": "Espelho",
@@ -129,7 +129,7 @@
       "description": "<p>A tinta vem em uma garrafa de 30 mililitros, o suficiente para escrever 500 páginas.</p>"
     },
     "Wand of the War Mage, +1, +2, or +3": {
-      "name": "Wand of the War Mage, +1, +2, or +3",
+      "name": "Varinha do Mago de Guerra, +1, +2 ou +3",
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcWand000000]{Wand}, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore &amp;Reference[HalfCover] when making a spell attack roll.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "War Mage +1": {
@@ -195,15 +195,15 @@
       }
     },
     "Ioun Stone of Absorption": {
-      "name": "Ioun Stone of Absorption",
+      "name": "Pedra iônica da Absorção",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p>"
     },
     "Adamantine Armor": {
-      "name": "Adamantine Armor",
+      "name": "Armadura de Adamante",
       "description": "<p><em>Armor (Any Medium or Heavy, Except Hide Armor), Uncommon</em></p><p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any &amp;Reference[CriticalHits] against you becomes a normal hit.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Adamantine Armor": {
-          "name": "Adamantine Armor",
+          "name": "Armadura de Adamante",
           "changes": {
             "system.properties": "ada",
             "name": "Adamantine {}",
@@ -217,7 +217,7 @@
       }
     },
     "Ioun Stone of Agility": {
-      "name": "Ioun Stone of Agility",
+      "name": "Pedra iônica da Agilidade",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p>",
       "effects": {
         "Enhanced Agility: Dexterity Bonus": {
@@ -230,7 +230,7 @@
       }
     },
     "Air Ring of Elemental Command": {
-      "name": "Air Ring of Elemental Command",
+      "name": "Anel do Comando Elemental do Ar",
       "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &amp;Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Air.</strong> You know Auran, you have Resistance to Lightning damage, and you have a Fly Speed equal to your Speed and can hover.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Air</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Queda Suave} (0 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1 charge)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
@@ -248,7 +248,7 @@
       }
     },
     "Ammunition, +1, +2, or +3": {
-      "name": "Ammunition, +1, +2, or +3",
+      "name": "Munição, +1, +2 ou +3",
       "description": "<p><em>Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare (+3)</em></p><p>You have a bonus to attack rolls and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.</p><p>This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Ammunition +1": {
@@ -284,7 +284,7 @@
       }
     },
     "Amulet of Health": {
-      "name": "Amulet of Health",
+      "name": "Amuleto da Saúde",
       "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>Your Constitution is 19 while you wear this amulet. It has no effect on you if your Constitution is 19 or higher without it.</p>",
       "effects": {
         "Upgraded Constitution": {
@@ -296,15 +296,15 @@
       }
     },
     "Amulet of Proof against Detection and Location": {
-      "name": "Amulet of Proof against Detection and Location",
+      "name": "Amuleto de Proteção contra Detecção e Localização",
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this amulet, you can't be targeted by &amp;Reference[schoolsofmagic]{Divination} spells or perceived through magical scrying sensors unless you allow it.</p>"
     },
     "Amulet of the Planes": {
-      "name": "Amulet of the Planes",
+      "name": "Amuleto dos Planos",
       "description": "<p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence (Arcana) check. On a successful check, you cast @UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift} . On a failed check, you and each creature and object within 15 feet of you travel to a random destination determined by rolling 1d100 and consulting the following table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgAmuletOfThePl rollable caption=false]</p>"
     },
     "Feather Token (Anchor)": {
-      "name": "Feather Token (Anchor)",
+      "name": "Penas de Quaal (Âncora)",
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.</p>",
       "effects": {
         "Anchor": {
@@ -314,21 +314,21 @@
       }
     },
     "Animated Shield": {
-      "name": "Animated Shield",
+      "name": "Escudo Animado",
       "description": "<p><em>Armor (Shield), Very Rare (Requires Attunement)</em></p><p>While holding this Shield, you can take a Bonus Action to cause it to animate. The Shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The Shield remains animate for 1 minute, until you take a Bonus Action to end this effect, or until you die or have the &amp;Reference[Incapacitated apply=false] condition, at which point the Shield falls to the ground or into your hand if you have one free.</p>",
       "effects": {
         "Animated Shield": {
-          "name": "Animated Shield",
+          "name": "Escudo Animado",
           "description": "<p>The Shield hovers in your space to protect you as if you were wielding it, leaving your hands free.</p>"
         }
       }
     },
     "Apparatus of the Crab": {
-      "name": "Apparatus of the Crab",
+      "name": "Dispositivo de Kwalish",
       "description": "<div><p><em>Wondrous Item, Legendary</em></p><p>This item first appears to be a sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful [[/check ability=int skill=inv dc=20]] check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.</p><p>The <em>@UUID[Compendium.dnd5e.actors24.Actor.dmgApparatusofKw]{Apparatus of the Crab}</em> is a Large object with the following statistics: AC 20; HP 200; Speed 30 ft., Swim 30 ft. (or 0 ft. for both if the legs aren't extended); Immunity to Poison and Psychic damage.</p><p>@Embed[Compendium.dnd5e.actors24.Actor.dmgApparatusofKw caption=false]</p></div>"
     },
     "Armor, +1, +2, or +3": {
-      "name": "Armor, +1, +2, or +3",
+      "name": "Armadura, +1, +2 ou +3",
       "description": "<p><em>Armor (Any Light, Medium, or Heavy), Rare (+1), Very Rare (+2), or Legendary (+3)</em></p><p>You have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Armor +1": {
@@ -663,7 +663,7 @@
       }
     },
     "Ioun Stone of Awareness": {
-      "name": "Ioun Stone of Awareness",
+      "name": "Pedra iônica da Consciência",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.</p>",
       "effects": {
         "Enhanced Awareness: Initiative and Perception": {
@@ -684,7 +684,7 @@
       "description": "<div><p>This bag resembles a <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgBagOfHolding0]{Bag of Holding}</em> but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.</p><p>The extradimensional creature attached to the bag can sense whatever is placed inside the bag. Animal or vegetable matter placed wholly in the bag is devoured and lost forever. When part of a living creature is placed in the bag, as happens when someone reaches inside it, there is a [[/r 1dc#Creature pulled in on a 1, or \"Heads\"]]{50 percent} chance that the creature is pulled inside the bag. A creature inside the bag can take an action to try to escape, doing so with a successful [[/check ability=str skill=ath dc=15 format=long]]. Another creature can take an action to reach into the bag to pull a creature out, doing so with a successful [[/check ability=str skill=ath dc=20 format=long]], provided the puller isn't pulled inside the bag first. Any creature that starts its turn inside the bag is devoured, its body destroyed.</p><p>Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The GM determines the time and plane.</p><p>If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.</p></div>"
     },
     "Bag of Holding": {
-      "name": "Bag of Holding",
+      "name": "Bolsa de Armazenamento",
       "description": "<div><p>This bag has an interior space considerably larger than its outside dimensions—roughly 2 feet square and 4 feet deep on the inside. The bag can hold up to 500 pounds, not exceeding a volume of 64 <span class=\"no-break\">cubic</span> feet. The bag weighs 5 pounds, regardless of its contents. Retrieving an item from the bag requires a Utilize action.</p><p>If the bag is overloaded, pierced, or torn, it is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth unharmed, but the bag must be put right before it can be used again. The bag holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside.</p><p>Placing a <em>Bag of Holding</em> inside an extradimensional space created by a <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgHewardsHandyH]{Handy Haversack}</em>, <em>@UUID[Compendium.dnd5e.equipment24.Item.dmgPortableHole0]{Portable Hole}</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within a 10-foot-radius Sphere centered on the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way and can't be reopened.</p></div>"
     },
     "Gray Bag of Tricks": {
@@ -744,7 +744,7 @@
       }
     },
     "Feather Token (Bird)": {
-      "name": "Feather Token (Bird)",
+      "name": "Penas de Quaal (Pássaro)",
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRoc00000000000]{Roc}</strong>, but it can't attack. It obeys your simple commands and can carry up to 500 pounds while flying at its maximum speed (16 miles per hour for a maximum of 144 miles per day, with a 1-hour rest for every 3 hours of flying) or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action.</p>"
     },
     "Elemental Gem (Blue Sapphire)": {
@@ -960,7 +960,7 @@
       "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>While gently swinging this censer, you can take a Magic action to summon an <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmAirElemental00]{Air Elemental}</strong>. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The censer can't be used this way again until the next dawn.</p>"
     },
     "Central Pouch": {
-      "name": "Central Pouch"
+      "name": "Bolsa Central"
     },
     "Chime of Opening": {
       "name": "Chime of Opening",
@@ -1008,7 +1008,7 @@
       }
     },
     "Cloak of Invisibility": {
-      "name": "Cloak of Invisibility",
+      "name": "Capa de Invisibilidade",
       "description": "<div><p><em>Wondrous Item, Legendary (Requires Attunement)</em></p></div><p>This cloak has 3 charges and regains 1d3 expended charges daily at dawn . While wearing the cloak, you can take a Magic action to pull its hood over your head and expend 1 charge to give yourself the &amp;Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the cloak.</p>",
       "effects": {
         "Hood Up: Invisible": {
@@ -1018,7 +1018,7 @@
       }
     },
     "Cloak of Protection": {
-      "name": "Cloak of Protection",
+      "name": "Capa de Proteção",
       "description": "<div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>You gain a +1 bonus to Armor Class and saving throws while you wear this cloak.</p>",
       "effects": {
         "Bonus AC/Saves: +1": {
@@ -1677,11 +1677,11 @@
       }
     },
     "Feather Token (Fan)": {
-      "name": "Feather Token (Fan)",
+      "name": "Penas de Quaal (Leque)",
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>If you are on a boat or ship, you can take a Magic action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a strong wind. This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>",
       "effects": {
         "Feather Token: Fan": {
-          "name": "Feather Token: Fan",
+          "name": "Penas de Quaal: Leque",
           "description": "<p>This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>"
         }
       }
@@ -1751,7 +1751,7 @@
       "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring a Magic action to use:</p><p>@Embed[Compendium.dnd5e.equipment24.Item.dmgBoatUtility00 caption=false]</p>"
     },
     "Ioun Stone of Fortitude": {
-      "name": "Ioun Stone of Fortitude",
+      "name": "Pedra iônica da Fortitude",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>",
       "effects": {
         "Enhance Fortitude: Constitution Bonus": {
@@ -1943,11 +1943,11 @@
       }
     },
     "Ioun Stone of Greater Absorption": {
-      "name": "Ioun Stone of Greater Absorption",
+      "name": "Pedra iônica da Absorção Maior",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p>"
     },
     "Potion of Healing (Greater)": {
-      "name": "Potion of Healing (Greater)",
+      "name": "Poção de Cura (Maior)",
       "description": "<p><em>Potion, Uncommon</em></p><p>You regain 4d4 + 4 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>"
     },
     "Hammer of Thunderbolts": {
@@ -2134,7 +2134,7 @@
       "description": "<p><em>Rod, Uncommon</em></p><p>This iron rod has a button on one end. You can take a Utilize action to press the button, which causes the rod to become magically fixed in place. Until you or another creature takes a Utilize action to push the button again, the rod doesn't move, even if it defies gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can take a Utilize action to make a DC 30 Strength (Athletics) check, moving the fixed rod up to 10 feet on a successful check.</p>"
     },
     "Ioun Stone of Insight": {
-      "name": "Ioun Stone of Insight",
+      "name": "Pedra iônica da Intuição",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>",
       "effects": {
         "Enhanced Insight: Wisdom Bonus": {
@@ -2147,7 +2147,7 @@
       }
     },
     "Ioun Stone of Intellect": {
-      "name": "Ioun Stone of Intellect",
+      "name": "Pedra iônica do Intelecto",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p>",
       "effects": {
         "Enhanced Intellect: Intelligence Bonus": {
@@ -2160,7 +2160,7 @@
       }
     },
     "Ioun Stone": {
-      "name": "Ioun Stone",
+      "name": "Pedra iônica",
       "description": "<p><em>Wondrous Item, Rarity Varies (Requires Attunement)</em></p><p>Roughly marble sized, <em>Ioun Stones</em> are named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun Stones</em> exist, each type a distinct combination of shape and color.</p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>Each <em>Ioun Stone</em> orbiting your head is considered to be an object you are wearing. The orbiting stone avoids contact with other creatures and objects, adjusting its orbit to avoid collisions and thwarting all attempts by other creatures to attack or snatch it.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>The type of stone determines its rarity and effects.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgAbsorptionIou]{Absorption} (Very Rare).</strong> While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgAgilityIounSt]{Agility} (Very Rare).</strong> Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgAwarenessIoun]{Awareness} (Rare).</strong> While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgFortitudeIoun]{Fortitude} (Very Rare).</strong> Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgGreaterAbsorp]{Greater Absorption} (Legendary).</strong> While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgInsightIounSt]{Insight} (Very Rare).</strong> Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgIntellectIoun]{Intellect} (Very Rare).</strong> Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgLeadershipIou]{Leadership} (Very Rare).</strong> Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgMasteryIounSt]{Mastery} (Legendary).</strong> Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgProtectionIou]{Protection} (Rare).</strong> You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgRegnerationIo]{Regeneration} (Legendary).</strong> You regain 15 Hit Points at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgReserveIounSt]{Reserve} (Rare).</strong> This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains 1d4 levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgStrengthIounS]{Strength} (Very Rare).</strong> Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p><p><strong>@UUID[Compendium.dnd5e.equipment24.Item.dmgSustenanceIou]{Sustenance} (Rare).</strong> You don't need to eat or drink while this clear spindle orbits your head.</p>"
     },
     "Iron Bands": {
@@ -2198,7 +2198,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &amp;Reference[Invisible apply=false] creatures and objects are visible as long as they are in the lantern's Bright Light. You can take a Utilize action to lower the hood, reducing the lantern's light to Dim Light in a 5-foot radius.</p>"
     },
     "Ioun Stone of Leadership": {
-      "name": "Ioun Stone of Leadership",
+      "name": "Pedra iônica da Liderança",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</span></p>",
       "effects": {
         "Enhanced Leadership: Charisma Bonus": {
@@ -2211,7 +2211,7 @@
       }
     },
     "Left Pouch": {
-      "name": "Left Pouch"
+      "name": "Bolsa Esquerda"
     },
     "Spider's Sting": {
       "name": "Spider's Sting",
@@ -2226,7 +2226,7 @@
       }
     },
     "Long Compartment": {
-      "name": "Long Compartment",
+      "name": "Compartimento Longo",
       "description": "<p>The long compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.</p>"
     },
     "Luck Blade": {
@@ -2335,7 +2335,7 @@
       }
     },
     "Ioun Stone of Mastery": {
-      "name": "Ioun Stone of Mastery",
+      "name": "Pedra iônica da Maestria",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p><span style=\"font-family:'Roboto Condensed', sans-serif\">Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.</span></p>",
       "effects": {
         "Enhanced Mastery: Proficiency Bonus": {
@@ -2356,7 +2356,7 @@
       "description": "<p><em>Ingested Poison</em></p><p>A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the &amp;Reference[Poisoned apply=false] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
     },
     "Midsize Compartment": {
-      "name": "Midsize Compartment",
+      "name": "Compartimento Médio",
       "description": "<p>The midsize compartment holds up to 18 Javelins or similar objects.</p>"
     },
     "Crystal Ball of Mind Reading": {
@@ -2591,7 +2591,7 @@
       }
     },
     "Portable Hole": {
-      "name": "Portable Hole",
+      "name": "Buraco Portátil",
       "description": "<p><em>Wondrous Item, Rare</em></p><p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p><p>You can take a Magic action to unfold a <em>Portable Hole</em> and place it on or against a solid surface, whereupon the <em>Portable Hole</em> creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can't be used to create open passages. Any creature inside an open <em>Portable Hole</em> can exit the hole by climbing out of it.</p><p>You can take a Magic action to close a <em>Portable Hole</em> by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.</p><p>If the hole is folded up, a creature within the hole's extradimensional space can take an action to make a DC 10 Strength (Athletics) check. On a successful check, the creature forces its way out and appears within 5 feet of the <em>Portable Hole</em>. A closed <em>Portable Hole</em> holds enough air for 1 hour of breathing, divided by the number of breathing creatures inside.</p><p>Placing a <em>Portable Hole</em> inside an extradimensional space created by a <em>Bag of Holding</em>, <em>Handy Haversack</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate and not behind &amp;Reference[Total Cover] is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>"
     },
     "Potion of Animal Friendship": {
@@ -2637,7 +2637,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell for 10 minutes (no Concentration required).</p><p>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</p>"
     },
     "Potion of Healing": {
-      "name": "Potion of Healing",
+      "name": "Poção de Cura",
       "description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>"
     },
     "Potion of Heroism": {
@@ -2788,7 +2788,7 @@
       "description": "<p><em>Potion, Rarity Varies</em></p><p>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.</p><p>This potion's transparent liquid has floating in it a sliver of light resembling a giant's fingernail.</p><table><thead><tr><td>Potion</td><td>Str.</td><td>Rarity</td></tr></thead><tbody><tr><td><em>Potion of Giant Strength</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgHillPotionOfG]{hill})</td><td>21</td><td>Uncommon</td></tr><tr><td><em>Potion of Giant Strength</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgFrostPotionOf]{frost} or @UUID[Compendium.dnd5e.equipment24.Item.dmgStonePotionOf]{stone})</td><td>23</td><td>Rare</td></tr><tr><td><em>Potion of Giant Strength</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgFirePotionOfG]{fire})</td><td>25</td><td>Rare</td></tr><tr><td><em>Potion of Giant Strength</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgCloudPotionOf]{cloud})</td><td>27</td><td>Very Rare</td></tr><tr><td><em>Potion of Giant Strength</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgStormPotionOf]{storm})</td><td>29</td><td>Legendary</td></tr></tbody></table>"
     },
     "Ioun Stone of Protection": {
-      "name": "Ioun Stone of Protection",
+      "name": "Pedra iônica da Proteção",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.</p>",
       "effects": {
         "Enhanced Protection: +1 AC": {
@@ -2805,7 +2805,7 @@
       "description": "<p><em>Injury Poison</em></p><p>A creature subjected to Purple Worm Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
     },
     "Feather Token": {
-      "name": "Feather Token",
+      "name": "Penas de Quaal",
       "description": "<p><em>Wondrous Item, Rarity Varies</em></p><p>This object looks like a feather. Different types of feather tokens exist, each with a different <span class=\"no-break\">single</span>-use effect. The GM chooses the kind of token or determines it randomly by rolling on the Feather Tokens table. The type of token determines its rarity.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgQuaalsFeather caption=false rollable]</p>"
     },
     "Quarterstaff of the Acrobat": {
@@ -2821,15 +2821,15 @@
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, a @UUID[Compendium.dnd5e.actors24.Actor.mmFireElemental0]{Fire Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>"
     },
     "Ioun Stone of Regeneration": {
-      "name": "Ioun Stone of Regeneration",
+      "name": "Pedra iônica da Regeneração",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>You regain [[/healing 15 type=healing]] at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p>"
     },
     "Ioun Stone of Reserve": {
-      "name": "Ioun Stone of Reserve",
+      "name": "Pedra iônica da Reserva",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains [[/r 1d4#Spell Levels]] levels of stored spells chosen by the DM.</p><p>Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p><p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p>"
     },
     "Right Pouch": {
-      "name": "Right Pouch"
+      "name": "Bolsa Direita"
     },
     "Ring of Animal Influence": {
       "name": "Ring of Animal Influence",
@@ -2865,7 +2865,7 @@
       }
     },
     "Ring of Invisibility": {
-      "name": "Ring of Invisibility",
+      "name": "Anel de Invisibilidade",
       "description": "<p><em>Ring, Legendary (Requires Attunement)</em></p><p>While wearing this ring, you can take a Magic action to give yourself the &amp;Reference[Invisible] condition. You remain Invisible until the ring is removed or until you take a Bonus Action to become visible again.</p>"
     },
     "Ring of Jumping": {
@@ -2877,7 +2877,7 @@
       "description": "<p><em>Ring, Uncommon (Requires Attunement)</em></p><p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can take a Magic action to cause the ring to become imperceptible until you take another Magic action to make it perceptible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.</p>"
     },
     "Ring of Protection": {
-      "name": "Ring of Protection",
+      "name": "Anel de Proteção",
       "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to Armor Class and saving throws while wearing this ring.</p>",
       "effects": {
         "Ring of Protection": {
@@ -2894,7 +2894,7 @@
       "description": "<p><em>Ring, Very Rare (Requires Attunement)</em></p><p>While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after [[/r 1d6 + 1]] days if you have at least 1 Hit Point the whole time.</p><section class=\"secret\" id=\"secret-N3RMelHP7jT5vBMy\"><p><strong>Nota do Foundry</strong></p><p>The <strong>Heal</strong> activity allows you to enter the number of 10 minute increments that have passed and will automatically scale the healing formula. For example, if it's been an hour, you can enter 6 and it will roll 6d6.</p></section>"
     },
     "Ring of Resistance": {
-      "name": "Ring of Resistance",
+      "name": "Anel de Resistência",
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgsupRingofResi]{Ring}, Rare</em></p><p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRingOfResista rollable caption=false]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "effects": {
         "Acid Resistance": {
@@ -3338,7 +3338,7 @@
       }
     },
     "Short Compartment": {
-      "name": "Short Compartment",
+      "name": "Compartimento Curto",
       "description": "<p>The short compartment can hold up to 60 Arrows, Bolts, or similar objects.</p>"
     },
     "Silver Horn of Valhalla": {
@@ -3482,7 +3482,7 @@
       "description": "<p><em>Wondrous Item, Legendary</em></p><p>This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with @UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfSlipperi]{Oil of Slipperiness}. When found, a container contains 1d6 + 1 ounces.</p><p>One ounce of the glue can cover a 1-foot square surface. Applying an ounce of <em>Sovereign Glue</em> takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of @UUID[Compendium.dnd5e.equipment24.Item.dmgUniversalSolv]{Universal Solvent} or @UUID[Compendium.dnd5e.equipment24.Item.dmgOilOfEthereal]{Oil of Etherealness}, or with a @UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish} spell.</p><section class=\"secret\" id=\"secret-5E4TGkxH4i9Bo67I\"><p><strong>Nota do Foundry</strong></p><p>This item includes 7 limited uses. The <strong>Determine Ounces</strong> activity can be used to determine the number of ounces equivalent to 1d6 + 1.</p><p>The <strong>Apply Glue</strong> activity allows you to select the number of ounces you're applying.</p></section>"
     },
     "Spell Scroll": {
-      "name": "Spell Scroll",
+      "name": "Pergaminho de Magia",
       "description": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Create Scrolls from Spells</h3><p>You can easily create a Scroll for a Spell by right clicking on the spell and selecting the <span class=\"reference\"><em class=\"fa-solid fa-scroll fa-fw\"> </em> Create Scroll</span> option.</p></article></section><p>A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.</p><p>If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p><p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.</p><table><thead><tr><th><p>Spell Level</p></th><th><p>Rarity</p></th><th><p>Save DC</p></th><th><p>Attack Bonus</p></th></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>1</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>2</p></td><td><p>Uncommon</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>3</p></td><td><p>Uncommon</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>4</p></td><td><p>Rare</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>5</p></td><td><p>Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>6</p></td><td><p>Very Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>7</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>8</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>9</p></td><td><p>Legendary</p></td><td><p>19</p></td><td><p>+11</p></td></tr></tbody></table><p><em><strong>Copying a Scroll into a Spellbook.</strong></em> A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.</p>"
     },
     "Spell Scroll, 1st Level": {
@@ -3686,7 +3686,7 @@
       }
     },
     "Ioun Stone of Strength": {
-      "name": "Ioun Stone of Strength",
+      "name": "Pedra iônica da Força",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p>",
       "effects": {
         "Enhanced Strength: Strength Bonus": {
@@ -3703,15 +3703,15 @@
       "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Espada longa}), Rare (Requires Attunement)</em></p><p>This item appears to be a sword hilt.</p><p><em><strong>Blade of Radiance.</strong></em> While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the <em>Sun Blade</em>.</p><p>You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.</p><p><em><strong>Sunlight.</strong></em> The sword's luminous blade emits Bright Light in a 15-foot radius and Dim Light for an additional 15 feet. The light is sunlight. While the blade persists, you can take a Magic action to expand or reduce its radius of Bright Light and Dim Light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p><section class=\"secret\" id=\"secret-DDIn6fZIjHvPnfKS\"><p><strong>Nota do Foundry</strong></p><p>If you are proficient with Shortswords you can manually set the item as proficient.</p></section>"
     },
     "Potion of Healing (Superior)": {
-      "name": "Potion of Healing (Superior)",
+      "name": "Poção de Cura (Superior)",
       "description": "<p><em>Potion, Rare</em></p><p>You regain 8d4 + 8 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>"
     },
     "Potion of Healing (Supreme)": {
-      "name": "Potion of Healing (Supreme)",
+      "name": "Poção de Cura (Suprema)",
       "description": "<p><em>Potion, Very Rare</em></p><p>You regain 10d4 + 20 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>"
     },
     "Ioun Stone of Sustenance": {
-      "name": "Ioun Stone of Sustenance",
+      "name": "Pedra iônica da Sustentação",
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>You don't need to eat or drink while this clear spindle orbits your head.</p>",
       "effects": {
         "Sustained": {
@@ -3721,7 +3721,7 @@
       }
     },
     "Feather Token (Swan Boat)": {
-      "name": "Feather Token (Swan Boat)",
+      "name": "Penas de Quaal (Barco-Cisne)",
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can take a Magic action while on the boat to command it to move or to turn up to 90 degrees. The boat remains for 24 hours and then disappears. You can dismiss the boat as a Magic action.</p>"
     },
     "Sword of Life Stealing": {
@@ -3887,7 +3887,7 @@
       }
     },
     "Feather Token (Tree)": {
-      "name": "Feather Token (Tree)",
+      "name": "Penas de Quaal (Árvore)",
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You must be outdoors to use this token. You can take a Magic action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p>"
     },
     "Trident of Fish Command": {
@@ -3920,7 +3920,7 @@
       }
     },
     "Universal Solvent": {
-      "name": "Universal Solvent",
+      "name": "Solvente Universal",
       "description": "<p><em>Wondrous Item, Legendary</em></p><p>This tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.</p><p>You can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including @UUID[Compendium.dnd5e.equipment24.Item.dmgSovereignGlue]{Sovereign Glue}.</p><section class=\"secret\" id=\"secret-cCr2F0ctb7qvQ3x8\"><p><strong>Nota do Foundry</strong></p><p>This item includes 7 limited uses. The <strong>Determine Ounces</strong> activity can be used to determine the number of ounces equivalent to 1d6 + 1.</p><p>The <strong>Apply Solvent</strong> activity allows you to select the number of ounces you're applying.</p></section>"
     },
     "Vicious Weapon": {
@@ -3983,8 +3983,8 @@
       "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Magic Detection": {
-      "name": "Wand of Magic Detection",
-      "description": "<p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia} from it. The wand regains 1d3 expended charges daily at dawn.</p>"
+      "name": "Varinha de Detectar Magia",
+      "description": "<p><em>Varinha, Incomum</em></p><p>Esta varinha tem 3 cargas. Enquanto a segura, você pode gastar 1 carga para conjurar <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detectar Magia}</em> por meio dela. A varinha recupera 1d3 cargas gastas diariamente ao amanhecer.</p>"
     },
     "Wand of Magic Missiles": {
       "name": "Wand of Magic Missiles",
@@ -4108,7 +4108,7 @@
       "description": "<p><em>Wondrous Item, Legendary</em></p><p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p><p>You can take a Magic action to unfold the <em>Well of Many Worlds</em> and place it on a solid surface, whereupon it forms a two-way, 6-foot-diameter, circular portal to another world or plane of existence. Each time the item opens a portal, the DM decides where it leads. The portal remains open until a creature within 5 feet of it takes a Magic action to close it by taking hold of the edges of the cloth and folding it up.</p><p>Once the <em>Well of Many Worlds</em> has opened a portal, it can't do so again for [[/r 1d8 # Hours]] hours.</p>"
     },
     "Feather Token (Whip)": {
-      "name": "Feather Token (Whip)",
+      "name": "Penas de Quaal (Chicote)",
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to throw the token to a point within 10 feet of yourself. The token disappears, and a @UUID[Compendium.dnd5e.actors24.Actor.dmgqftFloatingWh]{floating whip} takes its place. You can then take a Bonus Action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus Action, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of the whip. The whip disappears after 1 hour, when you take a Magic action to dismiss it, or when you die or have the Incapacitated condition.</p>"
     },
     "Wind Fan": {
