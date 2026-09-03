@@ -1788,7 +1788,7 @@
         "Label": "Poção"
       },
       "Rod": {
-        "Label": "Bastão"
+        "Label": "Cetro"
       },
       "Scroll": {
         "Label": "Pergaminho"
@@ -1997,7 +1997,7 @@
   "DND5E.CreatureTypeTitle": "Configurar Tipo de Criatura",
   "DND5E.CreatureSwarm": "Enxame",
   "DND5E.CreatureSwarmSize": "Tamanho do Enxame",
-  "DND5E.CreatureSwarmPhrase": "Enxame de {size} {type}",
+  "DND5E.CreatureSwarmPhrase": "Enxame de {type} {size}",
   "DND5E.CreatureTag": "{type} {size}, {alignment}",
   "DND5E.CreatureTypeConfig": "Configurar Tipo de Criatura",
   "DND5E.CreatureTypeSelectorCustom": "Tipo Personalizado",
@@ -2131,9 +2131,9 @@
     "Type": {
       "Acid": "Ácido",
       "Bludgeoning": "Contundente",
-      "Cold": "Frio",
-      "Fire": "Fogo",
-      "Force": "Força",
+      "Cold": "Gélido",
+      "Fire": "Ígneo",
+      "Force": "Energético",
       "Lightning": "Elétrico",
       "Necrotic": "Necrótico",
       "Piercing": "Perfurante",
@@ -2442,7 +2442,7 @@
         "Label": "Anel"
       },
       "Rod": {
-        "Label": "Cajado"
+        "Label": "Cetro"
       },
       "Trinket": {
         "Label": "Bugiganga"
@@ -3808,7 +3808,7 @@
   },
   "DND5E.RollExample": "ex. 1d4",
   "DND5E.RollMode": "Modo de Rolagem",
-  "DND5E.RollSituationalBonus": "Bônus Situaciaonais?",
+  "DND5E.RollSituationalBonus": "Bônus Situacionais?",
   "DND5E.Rule": {
     "Tooltip": "Dica",
     "Type": {
@@ -3926,8 +3926,8 @@
   "DND5E.SensesConfig": "Configurar Sentidos",
   "DND5E.SensesConfigHint": "Configure quaisquer sentidos especiais que este ator possua.",
   "DND5E.SenseDarkvision": "Visão no Escuro",
-  "DND5E.SenseBlindsight": "Visão Cega",
-  "DND5E.SenseTremorsense": "Sentido Sísmico",
+  "DND5E.SenseBlindsight": "Persepção às Cegas",
+  "DND5E.SenseTremorsense": "Sismiconciência",
   "DND5E.SenseTruesight": "Visão Verdadeira",
   "DND5E.SenseUnits": "Unidades",
   "DND5E.SenseSpecial": "Sentidos Especiais",
@@ -5744,7 +5744,7 @@
       "EquipmentHeader": "Equipamento",
       "EquipmentDescription": "Você começa com os seguintes equipamentos, além dos equipamentos concedidos pelo seu antecedente:",
       "Features": {
-        "DescriptionLegacy": "Como {lowercaseName}, você adquire as seguintes características de classe, que estão resumidas na tabela {name}.",
+        "DescriptionLegacy": "Como {lowercaseName}, você adquire as seguintes características de classe, que estão resumidas na tabela O {name}.",
         "DescriptionModern": "Como {name}, você adquire as seguintes características de classe ao alcançar os níveis especificados de {name}. Essas características estão listadas na tabela de Características de {name}.",
         "Header": "Características de Classe",
         "Name": "Nível {level}: {name}"
@@ -5754,7 +5754,7 @@
         "HitDiceLegacy": "<strong>Dados de Vida:</strong> {dice} por nível de {class}",
         "HitDiceModern": "{dice} por nível de {class}",
         "Level1": "<strong>Pontos de Vida no 1º Nível:</strong> {max} + seu modificador de Constituição",
-        "LevelX": "<strong>Pontos de Vida em Níveis Superiores:</strong> {dice} (ou {average}) + seu modificador de Constituição por nível de {class} após o 1º"
+        "LevelX": "<strong>Pontos de Vida a partir do 2° Nível:</strong> {dice} (ou {average}) + seu modificador de Constituição por nível de {class}."
       },
       "ItemHint": "Arraste e solte uma classe aqui",
       "NoValidClass": "Nenhuma classe válida selecionada; pressione o botão de editar para adicionar uma classe.",
@@ -5910,7 +5910,7 @@
     "METRIC": {
       "LengthUnits": {
         "Name": "Usar Unidades Métricas de Distância",
-        "Hint": "Configura por pardão o uso de metros em vez de pés para deslocamento e sentidos."
+        "Hint": "Configura por padrão o uso de metros em vez de pés para deslocamento e sentidos."
       },
       "VolumeUnits": {
         "Name": "Usar Unidades Métricas de Volume",

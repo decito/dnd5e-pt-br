@@ -1,18 +1,18 @@
 {
-  "label": "Monstros",
+  "label": "Monstros (SRD)",
   "folders": {
     "Aberration": "Aberração",
-    "Beast": "Bestas",
+    "Beast": "Besta",
     "Celestial": "Celestial",
     "Construct": "Constructo",
     "Dragon": "Dragão",
     "Elemental": "Elemental",
-    "Fey": "Fada",
-    "Fiend": "Corruptor",
+    "Fey": "Feérico",
+    "Fiend": "Ínfero",
     "Giant": "Gigante",
     "Humanoid": "Humanoide",
     "Monstrosity": "Monstruosidade",
-    "Ooze": "Limo",
+    "Ooze": "Gosma",
     "Plant": "Planta",
     "Summons": "Invocações",
     "Undead": "Morto-vivo"
@@ -103,7 +103,7 @@
       "name": "Olho Arcano"
     },
     "Arcane Hand": {
-      "name": "Mão de Bigby"
+      "name": "Mão Arcana"
     },
     "Arcane Sword": {
       "name": "Espada Arcana"
@@ -142,7 +142,7 @@
       "name": "Bandido"
     },
     "Bandit Captain": {
-      "name": "Capitão dos Bandidos"
+      "name": "Bandido Capitão"
     },
     "Barbed Devil": {
       "name": "Diabo Farpado"
@@ -157,13 +157,13 @@
       "name": "Diabo Barbado"
     },
     "Behir": {
-      "name": "Behir"
+      "name": "Beír"
     },
     "Berserker": {
-      "name": "Furioso"
+      "name": "Berserker"
     },
     "Black Bear": {
-      "name": "Urso Preto"
+      "name": "Urso Negro"
     },
     "Black Dragon Wyrmling": {
       "name": "Dragão Negro Filhote"
@@ -193,13 +193,13 @@
       "name": "Dragão de Bronze Filhote"
     },
     "Brown Bear": {
-      "name": "Urso Marrom"
+      "name": "Urso Pardo"
     },
     "Bugbear": {
-      "name": "Bugbear"
+      "name": "Bugurso"
     },
     "Bulette": {
-      "name": "Bulette"
+      "name": "Bulete"
     },
     "Camel": {
       "name": "Camelo"
@@ -220,7 +220,7 @@
       "name": "Chuul"
     },
     "Clay Golem": {
-      "name": "Golem de Barro"
+      "name": "Golem de Argila"
     },
     "Cloaker": {
       "name": "Mantor"
@@ -250,16 +250,16 @@
       "name": "Crocodilo"
     },
     "Cult Fanatic": {
-      "name": "Fanático de Culto"
+      "name": "Cultista Fanático"
     },
     "Cultist": {
       "name": "Cultista"
     },
     "Dancing Lights (medium)": {
-      "name": "Luzes Dançantes (médio)"
+      "name": "Luzes Dançantes (Médio)"
     },
     "Dancing Lights (tiny)": {
-      "name": "Luzes Dançantes (pequena)"
+      "name": "Luzes Dançantes (Minúsculo)"
     },
     "Darkmantle": {
       "name": "Manto Negro"
@@ -271,7 +271,7 @@
       "name": "Gnomo das Profundezas"
     },
     "Deer": {
-      "name": "Veado"
+      "name": "Cervo"
     },
     "Deva": {
       "name": "Deva"
@@ -283,19 +283,19 @@
       "name": "Djinni"
     },
     "Doppelganger": {
-      "name": "Duplo"
+      "name": "Dúplice"
     },
     "Draft Horse": {
       "name": "Cavalo de Carga"
     },
     "Dragon Turtle": {
-      "name": "Tartaruga-Dragão"
+      "name": "Dragão Tartaruga"
     },
     "Dretch": {
       "name": "Dretch"
     },
     "Drider": {
-      "name": "Drider"
+      "name": "Draider"
     },
     "Drow": {
       "name": "Drow"
@@ -310,7 +310,7 @@
       "name": "Duergar"
     },
     "Dust Mephit": {
-      "name": "Mephit da Poeira"
+      "name": "Mefit de Poeira"
     },
     "Eagle": {
       "name": "Águia"
@@ -319,7 +319,7 @@
       "name": "Elemental da Terra"
     },
     "Efreeti": {
-      "name": "Efreeti"
+      "name": "Ifriti"
     },
     "Elephant": {
       "name": "Elefante"
@@ -343,7 +343,7 @@
       "name": "Gigante do Fogo"
     },
     "Flesh Golem": {
-      "name": "Golem de carne"
+      "name": "Golem de Carne"
     },
     "Flying Snake": {
       "name": "Cobra Voadora"
@@ -352,7 +352,7 @@
       "name": "Espada Voadora"
     },
     "Frog": {
-      "name": "Sapo"
+      "name": "Rã"
     },
     "Frost Giant": {
       "name": "Gigante do Gelo"
@@ -364,7 +364,7 @@
       "name": "Cubo Gelatinoso"
     },
     "Ghast": {
-      "name": "Lívido"
+      "name": "Carneçal"
     },
     "Ghost": {
       "name": "Fantasma"
@@ -409,10 +409,10 @@
       "name": "Mosca Gigante"
     },
     "Giant Frog": {
-      "name": "Sapo Gigante"
+      "name": "Rã Gigante"
     },
     "Giant Goat": {
-      "name": "Bode Gigante"
+      "name": "Cabra Gigante"
     },
     "Giant Hyena": {
       "name": "Hiena Gigante"
@@ -427,7 +427,7 @@
       "name": "Coruja Gigante"
     },
     "Giant Poisonous Snake": {
-      "name": "Serpente Venenosa Gigante"
+      "name": "Cobra Venenosa Gigante"
     },
     "Giant Rat": {
       "name": "Rato Gigante"
@@ -457,7 +457,7 @@
       "name": "Vespa Gigante"
     },
     "Giant Weasel": {
-      "name": "Arminho Gigante"
+      "name": "Doninha Gigante"
     },
     "Giant Wolf Spider": {
       "name": "Aranha-Lobo Gigante"
@@ -484,7 +484,7 @@
       "name": "Dragão de Ouro Filhote"
     },
     "Gorgon": {
-      "name": "Gorgon"
+      "name": "Górgon"
     },
     "Gray Ooze": {
       "name": "Limo Cinzento"
@@ -541,7 +541,7 @@
       "name": "Homúnculo"
     },
     "Horned Devil": {
-      "name": "Diabo de Chifres"
+      "name": "Diabo Chifrudo"
     },
     "Hunter Shark": {
       "name": "Tubarão Caçador"
@@ -556,7 +556,7 @@
       "name": "Diabo do Gelo"
     },
     "Ice Mephit": {
-      "name": "Mephit do Gelo"
+      "name": "Mefit de Gelo"
     },
     "Imp": {
       "name": "Diabrete"
@@ -607,7 +607,7 @@
       "name": "Mão Mágica"
     },
     "Magma Mephit": {
-      "name": "Mephit do Magma"
+      "name": "Mefit de Magma"
     },
     "Magmin": {
       "name": "Magmin"
@@ -616,7 +616,7 @@
       "name": "Mamute"
     },
     "Manticore": {
-      "name": "Manticora"
+      "name": "Mantícora"
     },
     "Marilith": {
       "name": "Marilith"
@@ -631,7 +631,7 @@
       "name": "Povo do Mar"
     },
     "Merrow": {
-      "name": "Sirenídeo"
+      "name": "Merrow"
     },
     "Mimic": {
       "name": "Mímico"
@@ -640,7 +640,7 @@
       "name": "Minotauro"
     },
     "Minotaur Skeleton": {
-      "name": "Esqueleto de Minotauro"
+      "name": "Esqueleto Minotauro"
     },
     "Mule": {
       "name": "Mula"
@@ -649,7 +649,7 @@
       "name": "Múmia"
     },
     "Mummy Lord": {
-      "name": "Senhor das Múmias"
+      "name": "Múmias Real"
     },
     "Nalfeshnee": {
       "name": "Nalfeshnee"
@@ -664,7 +664,7 @@
       "name": "Nobre"
     },
     "Ochre Jelly": {
-      "name": "Gosma Ocre"
+      "name": "Geleia Ocre"
     },
     "Octopus": {
       "name": "Polvo"
@@ -673,7 +673,7 @@
       "name": "Ogro"
     },
     "Ogre Zombie": {
-      "name": "Ogro Zumbi"
+      "name": "Zumbi Ogro"
     },
     "Oni": {
       "name": "Oni"
@@ -688,28 +688,28 @@
       "name": "Coruja"
     },
     "Owlbear": {
-      "name": "Urso-Coruja"
+      "name": "Urso-coruja"
     },
     "Panther": {
       "name": "Pantera"
     },
     "Pegasus": {
-      "name": "Pegasus"
+      "name": "Pégaso"
     },
     "Phase Spider": {
-      "name": "Aranha Interplanar"
+      "name": "Aranha Planar"
     },
     "Pit Fiend": {
-      "name": "Senhor das Profundezas"
+      "name": "Demônio do Abismo"
     },
     "Planetar": {
-      "name": "Planetário"
+      "name": "Planetar"
     },
     "Plesiosaurus": {
       "name": "Plesiossauro"
     },
     "Poisonous Snake": {
-      "name": "Serpente Venenosa"
+      "name": "Cobra Venenosa"
     },
     "Polar Bear": {
       "name": "Urso Polar"
@@ -745,10 +745,10 @@
       "name": "Dragão Vermelho Filhote"
     },
     "Reef Shark": {
-      "name": "Tubarão dos Arrecifes"
+      "name": "Tubarão do Recife"
     },
     "Remorhaz": {
-      "name": "Remorhaz"
+      "name": "Remorraz"
     },
     "Rhinoceros": {
       "name": "Rinoceronte"
@@ -757,7 +757,7 @@
       "name": "Cavalo de Montaria"
     },
     "Roc": {
-      "name": "Roca"
+      "name": "Roc"
     },
     "Roper": {
       "name": "Estrangulador"
@@ -796,7 +796,7 @@
       "name": "Sombra"
     },
     "Shambling Mound": {
-      "name": "Arbusto Errante"
+      "name": "Monte Verderrante"
     },
     "Shield Guardian": {
       "name": "Guardião do Escudo"
@@ -829,13 +829,13 @@
       "name": "Espião"
     },
     "Steam Mephit": {
-      "name": "Mephit do Vapor"
+      "name": "Mefit de Vapor"
     },
     "Stirge": {
       "name": "Stirge"
     },
     "Stone Giant": {
-      "name": "Gigante de Pedra"
+      "name": "Gigante da Pedra"
     },
     "Stone Golem": {
       "name": "Golem de Pedra"
@@ -859,7 +859,7 @@
       "name": "Enxame de Insetos"
     },
     "Swarm of Poisonous Snakes": {
-      "name": "Enxame de Serpentes Venenosas"
+      "name": "Enxame de Cobras Venenosas"
     },
     "Swarm of Quippers": {
       "name": "Enxame de Piranhas"
@@ -886,19 +886,19 @@
       "name": "Tigre"
     },
     "Treant": {
-      "name": "Ente"
+      "name": "Ent"
     },
     "Tribal Warrior": {
       "name": "Guerreiro Tribal"
     },
     "Triceratops": {
-      "name": "Tricerátops"
+      "name": "Tricerátopo"
     },
     "Troll": {
       "name": "Troll"
     },
     "Tyrannosaurus Rex": {
-      "name": "Tiranossauro"
+      "name": "Tiranossauro Rex"
     },
     "Unicorn": {
       "name": "Unicórnio"
@@ -928,19 +928,19 @@
       "name": "Cavalo de Guerra"
     },
     "Warhorse Skeleton": {
-      "name": "Esqueleto de Cavalo de Guerra"
+      "name": "Esqueleto Cavalo de Guerra"
     },
     "Water Elemental": {
       "name": "Elemental da Água"
     },
     "Weasel": {
-      "name": "Arminho"
+      "name": "Doninha"
     },
     "Werebear": {
       "name": "Homem-Urso"
     },
     "Wereboar": {
-      "name": "Homem-Urso"
+      "name": "Homem-Javali"
     },
     "Wererat": {
       "name": "Homem-Rato"
@@ -973,7 +973,7 @@
       "name": "Aparição"
     },
     "Wyvern": {
-      "name": "Wyvern"
+      "name": "Serpe"
     },
     "Xorn": {
       "name": "Xorn"
