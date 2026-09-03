@@ -1,7 +1,7 @@
 {
   "id": "decito-dnd5e-pt-br",
-  "title": "Translation: Português Brasileiro [D&D 5E](SRD)",
-  "description": "Tradução para o Português do Brasil do sistema D&D 5E (SRD)",
+  "title": "Translation: Português (Brasil) [D&D 5E](SRD)",
+  "description": "Tradução para o Português Brasileiro do sistema D&D 5E (SRD)",
   "version": "5.3.3.3",
   "compatibility": {
     "minimum": "13",
@@ -41,7 +41,7 @@
   "languages": [
     {
       "lang": "pt-BR",
-      "name": "Português Brasileiro",
+      "name": "Português (Brasil)",
       "path": "lang/pt-BR.json"
     }
   ],
@@ -49,8 +49,17 @@
     {
       "name": "decito",
       "url": "https://decito.dev"
+    },
+    {
+      "name": "java3040",
+      "url": "https://github.com/java3040"
+    },
+    {
+      "name": "MagelaCE",
+      "url": "https://github.com/MagelaCE"
     }
   ],
+  "url": "https://github.com/decito/dnd5e-pt-br",
   "manifest": "https://github.com/decito/dnd5e-pt-br/releases/latest/download/module.json",
   "download": "https://github.com/decito/dnd5e-pt-br/releases/latest/download/module.zip"
 }
