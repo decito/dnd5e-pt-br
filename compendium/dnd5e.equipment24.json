@@ -655,7 +655,7 @@
     },
     "Assasin's Blood": {
       "name": "Assassin's Blood",
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the &amp;Reference[Poisoned apply=false] condition for 24 hours. On a successful save, the creature takes half as much damage only.</p>",
+      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood makes a DC 10 Constitution saving throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the &Reference[Poisoned apply=false] condition for 24 hours. On a successful save, the creature takes half as much damage only.</p>",
       "effects": {
         "Poisoned": {
           "name": "Envenenado"
@@ -697,7 +697,7 @@
     },
     "Bead of Nourishment": {
       "name": "Bead of Nourishment",
-      "description": "<div><p><em>Wondrous Item, Common</em></p><p>This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}.</p></div>"
+      "description": "<div><p><em>Wondrous Item, Common</em></p><p>This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações}.</p></div>"
     },
     "Belt of Dwarvenkind": {
       "name": "Belt of Dwarvenkind",
@@ -766,7 +766,7 @@
     },
     "Boots of Levitation": {
       "name": "Boots of Levitation",
-      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>While you wear these boots, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate}</em> on yourself.</p>"
+      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>While you wear these boots, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitação}</em> on yourself.</p>"
     },
     "Boots of Speed": {
       "name": "Boots of Speed",
@@ -855,11 +855,11 @@
     },
     "Brass Horn of Valhalla": {
       "name": "Brass Horn of Valhalla",
-      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Simple weapons</em></p><p><em>Spirits: 3</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Simple weapons</em></p><p><em>Spirits: 3</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
           "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
+          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions.</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -872,11 +872,11 @@
     },
     "Bronze Horn of Valhalla": {
       "name": "Bronze Horn of Valhalla",
-      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Training with all Medium armor</em></p><p><em>Spirits: 4</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Training with all Medium armor</em></p><p><em>Spirits: 4</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
           "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
+          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions.</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -940,7 +940,7 @@
     },
     "Cape of the Mountebank": {
       "name": "Cape of the Mountebank",
-      "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>This cape smells faintly of brimstone. While wearing it, you can use it to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em> as a Magic action. This property can't be used again until the next dawn.</p><p>When you teleport with that spell, you leave behind a cloud of smoke. The space you left is &amp;Reference[LightlyObscured] by that smoke until the end of your next turn.</p>"
+      "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>This cape smells faintly of brimstone. While wearing it, you can use it to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em> as a Magic action. This property can't be used again until the next dawn.</p><p>When you teleport with that spell, you leave behind a cloud of smoke. The space you left is &Reference[LightlyObscured] by that smoke until the end of your next turn.</p>"
     },
     "Carpet of Flying": {
       "name": "Carpet of Flying",
@@ -948,7 +948,7 @@
     },
     "Crawler Mucus": {
       "name": "Crawler Mucus",
-      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The creature also has the &amp;Reference[Paralyzed apply=false] condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Carrion Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the &Reference[Poisoned apply=false] condition for 1 minute. The creature also has the &Reference[Paralyzed apply=false] condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>",
       "effects": {
         "Poisoned and Paralyzed": {
           "name": "Poisoned and Paralyzed"
@@ -968,7 +968,7 @@
     },
     "Circlet of Blasting": {
       "name": "Circlet of Blasting",
-      "description": "<div><p><em>Wondrous Item, Uncommon</em></p></div><p>While wearing this circlet, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Scorching Ray}</em> with it (+5 to hit). The circlet can't cast this spell again until the next dawn.</p>"
+      "description": "<div><p><em>Wondrous Item, Uncommon</em></p></div><p>While wearing this circlet, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Raio Ardente}</em> with it (+5 to hit). The circlet can't cast this spell again until the next dawn.</p>"
     },
     "Clawed Gauntlet": {
       "name": "Clawed Gauntlet",
@@ -976,7 +976,7 @@
     },
     "Cloak of Arachnida": {
       "name": "Cloak of Arachnida",
-      "description": "<div><p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p></div><p>This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.</p><p><strong>Poison Resistance.</strong> You have Resistance to Poison damage.</p><p><strong>Spider Climb.</strong> You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.</p><p><strong>Spider Walk.</strong> You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.</p><p><strong>Web.</strong> You can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em> (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn.</p>",
+      "description": "<div><p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p></div><p>This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.</p><p><strong>Poison Resistance.</strong> You have Resistance to Poison damage.</p><p><strong>Spider Climb.</strong> You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.</p><p><strong>Spider Walk.</strong> You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.</p><p><strong>Web.</strong> You can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Teia}</em> (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn.</p>",
       "effects": {
         "Spider Movement and Resistance": {
           "name": "Spider Movement and Resistance",
@@ -1032,7 +1032,7 @@
     },
     "Cloak of the Bat": {
       "name": "Cloak of the Bat",
-      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in &amp;Reference[DimLight] or &amp;Reference[Darkness], you lose this Fly Speed.</p><p>While wearing the cloak in an area of Dim Light or Darkness, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}</em> on yourself, shape-shifting into a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBat00000000000]{Bat}</strong>. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.</p>",
+      "description": "<div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in &Reference[DimLight] or &Reference[Darkness], you lose this Fly Speed.</p><p>While wearing the cloak in an area of Dim Light or Darkness, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polimorfia}</em> on yourself, shape-shifting into a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBat00000000000]{Bat}</strong>. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.</p>",
       "effects": {
         "Fly Speed": {
           "name": "Fly Speed"
@@ -1066,7 +1066,7 @@
     },
     "Collapsing Roof": {
       "name": "Collapsing Roof",
-      "description": "<div><p><em>Deadly Trap (Levels 1–4)</em></p><p><strong>Trigger:</strong> A creature crosses a trip wire</p><p><strong>Duration:</strong> Instantaneous</p><p>This trap uses a trip wire to collapse an unstable section of ceiling. The trip wire is 3 inches off the ground and stretches between two weak supports that topple when the trip wire is pulled.</p><p>The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking 11 (2d10) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into &amp;Reference[Difficult Terrain].</p><p><em><strong>Detect and Disarm.</strong></em> As a Search action, a creature can examine the trapped area and make a [[/check prc 11]] check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).</p><p><em><strong>At Higher Levels.</strong></em> You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.</p><table><thead><tr><th><p>Levels</p></th><th><p>Bludgeoning Damage</p></th><th><p>Save DC</p></th></tr></thead><tbody><tr><td><p>5–10</p></td><td><p>22 (4d10)</p></td><td><p>15</p></td></tr><tr><td><p>11–16</p></td><td><p>55 (10d10)</p></td><td><p>17</p></td></tr><tr><td><p>17–20</p></td><td><p>99 (18d10)</p></td><td><p>19</p></td></tr></tbody></table></div>"
+      "description": "<div><p><em>Deadly Trap (Levels 1–4)</em></p><p><strong>Trigger:</strong> A creature crosses a trip wire</p><p><strong>Duration:</strong> Instantaneous</p><p>This trap uses a trip wire to collapse an unstable section of ceiling. The trip wire is 3 inches off the ground and stretches between two weak supports that topple when the trip wire is pulled.</p><p>The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking 11 (2d10) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into &Reference[Difficult Terrain].</p><p><em><strong>Detect and Disarm.</strong></em> As a Search action, a creature can examine the trapped area and make a [[/check prc 11]] check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).</p><p><em><strong>At Higher Levels.</strong></em> You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.</p><table><thead><tr><th><p>Levels</p></th><th><p>Bludgeoning Damage</p></th><th><p>Save DC</p></th></tr></thead><tbody><tr><td><p>5–10</p></td><td><p>22 (4d10)</p></td><td><p>15</p></td></tr><tr><td><p>11–16</p></td><td><p>55 (10d10)</p></td><td><p>17</p></td></tr><tr><td><p>17–20</p></td><td><p>99 (18d10)</p></td><td><p>19</p></td></tr></tbody></table></div>"
     },
     "Crystal Ball": {
       "name": "Crystal Ball",
@@ -1086,7 +1086,7 @@
     },
     "Dagger of Venom": {
       "name": "Dagger of Venom",
-      "description": "<div><p><em>Weapon (Dagger), Rare</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &amp;Reference[Poisoned apply=false] condition for 1 minute. The weapon can't be used this way again until the next dawn.</p>",
+      "description": "<div><p><em>Weapon (Dagger), Rare</em></p></div><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>You can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the &Reference[Poisoned apply=false] condition for 1 minute. The weapon can't be used this way again until the next dawn.</p>",
       "effects": {
         "Poisoned": {
           "name": "Envenenado",
@@ -1119,7 +1119,7 @@
     },
     "Decanter of Endless Water": {
       "name": "Decanter of Endless Water",
-      "description": "<div><p><em>Wondrous Item, Uncommon</em></p></div><p>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</p><p>You can take a Magic action to remove the stopper and issue one of three command words, whereupon an amount of @UUID[Compendium.dnd5e.equipment24.Item.dmgspWaterfresh0]{fresh water} or @UUID[Compendium.dnd5e.equipment24.Item.dmgspWatersalt00]{salt water} (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words:</p><div class=\"def-block\"><p><strong>Splash.</strong> The decanter produces 1 gallon of water.</p><p><strong>Fountain.</strong> The decanter produces 5 gallons of water.</p><p><strong>Geyser.</strong> The decanter produces 30 gallons of water that gushes forth in a Line 30 feet long and 1 foot wide. If you're holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the Line must succeed on a DC 13 Strength saving throw or take 1d4 Bludgeoning damage and have the &amp;Reference[Prone] condition. Instead of a creature, you can target one object in the Line that isn't being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.</p></div>"
+      "description": "<div><p><em>Wondrous Item, Uncommon</em></p></div><p>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</p><p>You can take a Magic action to remove the stopper and issue one of three command words, whereupon an amount of @UUID[Compendium.dnd5e.equipment24.Item.dmgspWaterfresh0]{fresh water} or @UUID[Compendium.dnd5e.equipment24.Item.dmgspWatersalt00]{salt water} (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words:</p><div class=\"def-block\"><p><strong>Splash.</strong> The decanter produces 1 gallon of water.</p><p><strong>Fountain.</strong> The decanter produces 5 gallons of water.</p><p><strong>Geyser.</strong> The decanter produces 30 gallons of water that gushes forth in a Line 30 feet long and 1 foot wide. If you're holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the Line must succeed on a DC 13 Strength saving throw or take 1d4 Bludgeoning damage and have the &Reference[Prone] condition. Instead of a creature, you can target one object in the Line that isn't being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.</p></div>"
     },
     "Deck of Illusions": {
       "name": "Deck of Illusions",
@@ -1204,7 +1204,7 @@
     },
     "Dimensional Shackles": {
       "name": "Dimensional Shackles",
-      "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>You can take a Utilize action to place these shackles on a creature that has the &amp;Reference[Incapacitated apply=false] condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>",
+      "description": "<div><p><em>Wondrous Item, Rare</em></p></div><p>You can take a Utilize action to place these shackles on a creature that has the &Reference[Incapacitated apply=false] condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>",
       "effects": {
         "Dimensionally Bound": {
           "name": "Dimensionally Bound",
@@ -1338,7 +1338,7 @@
       }
     },
     "Talons": {
-      "name": "Talons",
+      "name": "Garras",
       "description": "<p> Every magic item you wear or carry disintegrates. Artifacts in your possession vanish instead.</p>"
     },
     "Throne": {
@@ -1514,11 +1514,11 @@
     },
     "Dust of Sneezing and Choking": {
       "name": "Dust of Sneezing and Choking",
-      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>Found in a small container, this powder resembles @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of Disappearance}, and <em>Identify</em> reveals it to be such. There is enough of it for one use.</p><p>As a Utilize action, you can throw the dust into the air, forcing yourself and every creature in a 30-foot Emanation originating from you to make a DC 15 Constitution saving throw. Constructs, Elementals, Oozes, Plants, and Undead succeed on the save automatically.</p><p>On a failed save, a creature begins sneezing uncontrollably; it has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>",
+      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>Found in a small container, this powder resembles @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of Disappearance}, and <em>Identify</em> reveals it to be such. There is enough of it for one use.</p><p>As a Utilize action, you can throw the dust into the air, forcing yourself and every creature in a 30-foot Emanation originating from you to make a DC 15 Constitution saving throw. Constructs, Elementals, Oozes, Plants, and Undead succeed on the save automatically.</p><p>On a failed save, a creature begins sneezing uncontrollably; it has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restauração Menor}</em> spell.</p>",
       "effects": {
         "Incapacitated and Suffocating (Sneezing)": {
           "name": "Incapacitated and Suffocating (Sneezing)",
-          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]<br></em>The creature has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>"
+          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]<br></em>The creature has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Restauração Menor}</em> spell.</p>"
         }
       }
     },
@@ -1544,7 +1544,7 @@
     },
     "Earth Ring of Elemental Command": {
       "name": "Earth Ring of Elemental Command",
-      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &amp;Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Earth</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone} (3 charges)</p></td></tr></tbody></table>",
+      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Earth.</strong> You know Terran, and you have Resistance to Acid damage. Terrain composed of rubble, rocks, or dirt isn't Difficult Terrain for you. In addition, you can move through solid earth or rock as if those areas were Difficult Terrain without disturbing the matter through which you pass. If you end your turn in solid earth or rock, you are shunted out to the nearest unoccupied space you last occupied.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Earth</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Muralha de Pedra} (3 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado"
@@ -1594,7 +1594,7 @@
     },
     "Elixir of Health": {
       "name": "Elixir of Health",
-      "description": "<div><p><em>Potion, Rare</em></p></div><p>When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: &amp;Reference[Blinded apply=false], &amp;Reference[Deafened apply=false], &amp;Reference[Paralyzed apply=false], and &amp;Reference[Poisoned apply=false].</p><p>The clear, red liquid has tiny bubbles of light in it.</p>"
+      "description": "<div><p><em>Potion, Rare</em></p></div><p>When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: &Reference[Blinded apply=false], &Reference[Deafened apply=false], &Reference[Paralyzed apply=false], and &Reference[Poisoned apply=false].</p><p>The clear, red liquid has tiny bubbles of light in it.</p>"
     },
     "Elven Chain": {
       "name": "Elven Chain",
@@ -1638,13 +1638,13 @@
         },
         "Restrained (Arrow of Restraint)": {
           "name": "Restrained (Arrow of Restraint)",
-          "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p>"
+          "description": "<p>The target has the &Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p>"
         }
       }
     },
     "Essence of Ether": {
       "name": "Essence of Ether",
-      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 8 hours. The creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
+      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Essence of Ether must succeed on a DC 15 Constitution saving throw or have the &Reference[Poisoned apply=false] condition for 8 hours. The creature also has the &Reference[Unconscious apply=false] condition while Poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
       "effects": {
         "Poisoned and Unconscious": {
           "name": "Poisoned and Unconscious"
@@ -1704,7 +1704,7 @@
     },
     "Fire Ring of Elemental Command": {
       "name": "Fire Ring of Elemental Command",
-      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &amp;Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3 charges)</p></td></tr></tbody></table>",
+      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Fire.</strong> You know Ignan, and you have Immunity to Fire damage.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Mãos Flamejantes} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire Storm} (4 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Muralha de Fogo} (3 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado"
@@ -1829,7 +1829,7 @@
       "effects": {
         "Mastiff Figurine": {
           "name": "Mastiff Figurine",
-          "description": "<p>The mastiff has an Intelligence of 8 and can speak Common. It also has &amp;Reference[Blindsight] with a range of 60 feet.</p>",
+          "description": "<p>The mastiff has an Intelligence of 8 and can speak Common. It also has &Reference[Blindsight] with a range of 60 feet.</p>",
           "changes": {
             "system.abilities.int.value": 8,
             "system.traits.languages.value": "common",
@@ -1869,7 +1869,7 @@
     },
     "Gem of Seeing": {
       "name": "Gem of Seeing",
-      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have &amp;Reference[Truesight] out to 120 feet when you peer through the gem.</p><p>The gem regains 1d3 expended charges daily at dawn.</p>",
+      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have &Reference[Truesight] out to 120 feet when you peer through the gem.</p><p>The gem regains 1d3 expended charges daily at dawn.</p>",
       "effects": {
         "Seeing": {
           "name": "Seeing",
@@ -1990,7 +1990,7 @@
     },
     "Hat of Disguise": {
       "name": "Hat of Disguise",
-      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this hat, you can cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disguise Self} spell. The spell ends if the hat is removed.</p>"
+      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this hat, you can cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disfarçar-se} spell. The spell ends if the hat is removed.</p>"
     },
     "Hat of Many Spells": {
       "name": "Hat of Many Spells",
@@ -2029,7 +2029,7 @@
     },
     "Helm of Telepathy": {
       "name": "Helm of Telepathy",
-      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this helm, you have telepathy with a range of 30 feet, and you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect Thoughts} or @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion} (save DC 13) from the helm. Once either spell is cast from the helm, that spell can't be cast from it again until the next dawn.</p>",
+      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this helm, you have telepathy with a range of 30 feet, and you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect Thoughts} or @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Sugestão} (save DC 13) from the helm. Once either spell is cast from the helm, that spell can't be cast from it again until the next dawn.</p>",
       "effects": {
         "Telepathy": {
           "name": "Telepathy",
@@ -2098,7 +2098,7 @@
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
           "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
+          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions.</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -2107,7 +2107,7 @@
     },
     "Horseshoes of a Zephyr": {
       "name": "Horseshoes of a Zephyr",
-      "description": "<p><em>Wondrous Item, Very Rare</em></p><p>These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.</p><p>While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above a surface. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores &amp;Reference[Difficult Terrain]. In addition, the creature can travel for up to 12 hours a day without gaining &amp;Reference[Exhaustion] levels from extended travel.</p>",
+      "description": "<p><em>Wondrous Item, Very Rare</em></p><p>These horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.</p><p>While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above a surface. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores &Reference[Difficult Terrain]. In addition, the creature can travel for up to 12 hours a day without gaining &Reference[Exhaustion] levels from extended travel.</p>",
       "effects": {
         "Ignore Difficult Terrain": {
           "name": "Ignore Difficult Terrain",
@@ -2165,7 +2165,7 @@
     },
     "Iron Bands": {
       "name": "Iron Bands",
-      "description": "<p><em>Wondrous Item, Rare</em></p><p>This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can take a Magic action to throw the sphere at a Huge or smaller creature you can see within 60 feet of yourself. As the sphere moves through the air, it opens into a tangle of metal bands.</p><p>Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your Proficiency Bonus. On a hit, the target has the &amp;Reference[Restrained apply=false] condition until you take a Bonus Action to issue a command that releases it. Doing so or missing with the attack causes the bands to contract and become a sphere once more.</p><p>A creature that can touch the bands, including the one Restrained, can take an action to make a DC 20 Strength (Athletics) check to break the iron bands. On a successful check, the item is destroyed, and the Restrained creature is freed. On a failed check, any further attempts made by that creature automatically fail until 24 hours have elapsed.</p><p>Once the bands are used, they can't be used again until the next dawn.</p>",
+      "description": "<p><em>Wondrous Item, Rare</em></p><p>This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can take a Magic action to throw the sphere at a Huge or smaller creature you can see within 60 feet of yourself. As the sphere moves through the air, it opens into a tangle of metal bands.</p><p>Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your Proficiency Bonus. On a hit, the target has the &Reference[Restrained apply=false] condition until you take a Bonus Action to issue a command that releases it. Doing so or missing with the attack causes the bands to contract and become a sphere once more.</p><p>A creature that can touch the bands, including the one Restrained, can take an action to make a DC 20 Strength (Athletics) check to break the iron bands. On a successful check, the item is destroyed, and the Restrained creature is freed. On a failed check, any further attempts made by that creature automatically fail until 24 hours have elapsed.</p><p>Once the bands are used, they can't be used again until the next dawn.</p>",
       "effects": {
         "Restrained by Iron": {
           "name": "Restrained by Iron"
@@ -2178,11 +2178,11 @@
     },
     "Iron Horn of Valhalla": {
       "name": "Iron Horn of Valhalla",
-      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Martial weapons</em></p><p><em>Spirits: 5</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: Proficiency with all Martial weapons</em></p><p><em>Spirits: 5</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
           "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
+          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions.</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -2195,7 +2195,7 @@
     },
     "Lantern of Revealing": {
       "name": "Lantern of Revealing",
-      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &amp;Reference[Invisible apply=false] creatures and objects are visible as long as they are in the lantern's Bright Light. You can take a Utilize action to lower the hood, reducing the lantern's light to Dim Light in a 5-foot radius.</p>"
+      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. &Reference[Invisible apply=false] creatures and objects are visible as long as they are in the lantern's Bright Light. You can take a Utilize action to lower the hood, reducing the lantern's light to Dim Light in a 5-foot radius.</p>"
     },
     "Ioun Stone of Leadership": {
       "name": "Pedra iônica da Liderança",
@@ -2280,7 +2280,7 @@
     },
     "Malice": {
       "name": "Malice",
-      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 1 hour. The creature also has the &amp;Reference[Blinded apply=false] condition while Poisoned in this way.</p>",
+      "description": "<p><em>Inhaled Poison</em></p><p>A creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the &Reference[Poisoned apply=false] condition for 1 hour. The creature also has the &Reference[Blinded apply=false] condition while Poisoned in this way.</p>",
       "effects": {
         "Poisoned and Blinded": {
           "name": "Poisoned and Blinded"
@@ -2353,7 +2353,7 @@
     },
     "Midnight Tears": {
       "name": "Midnight Tears",
-      "description": "<p><em>Ingested Poison</em></p><p>A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the &amp;Reference[Poisoned apply=false] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
+      "description": "<p><em>Ingested Poison</em></p><p>A creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that ends the &Reference[Poisoned apply=false] condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one.</p>"
     },
     "Midsize Compartment": {
       "name": "Compartimento Médio",
@@ -2386,7 +2386,7 @@
     },
     "Necklace of Adaptation": {
       "name": "Necklace of Adaptation",
-      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the &amp;Reference[Poisoned apply=false] condition.</p>"
+      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the &Reference[Poisoned apply=false] condition.</p>"
     },
     "Necklace of Fireballs": {
       "name": "Necklace of Fireballs",
@@ -2475,11 +2475,11 @@
     },
     "Oil of Slipperiness": {
       "name": "Oil of Slipperiness",
-      "description": "<p><em>Potion, Uncommon</em></p><p>One vial of this oil can cover one Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Freedom of Movement} spell for 8 hours.</p><p>Alternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot square, duplicating the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{Grease} spell in that area for 8 hours.</p><p>This sticky, black unguent is thick and heavy, but it flows quickly when poured.</p>"
+      "description": "<p><em>Potion, Uncommon</em></p><p>One vial of this oil can cover one Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Movimentação Livre} spell for 8 hours.</p><p>Alternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot square, duplicating the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{Grease} spell in that area for 8 hours.</p><p>This sticky, black unguent is thick and heavy, but it flows quickly when poured.</p>"
     },
     "Oil of Taggit": {
       "name": "Oil of Taggit",
-      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the &amp;Reference[Poisoned apply=false] condition for 24 hours. The creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way. It wakes up if it takes damage.</p>",
+      "description": "<p><em>Contact Poison</em></p><p>A creature subjected to Oil of Taggit must succeed on a DC 13 Constitution saving throw or have the &Reference[Poisoned apply=false] condition for 24 hours. The creature also has the &Reference[Unconscious apply=false] condition while Poisoned in this way. It wakes up if it takes damage.</p>",
       "effects": {
         "Poisoned and Unconscious": {
           "name": "Poisoned and Unconscious"
@@ -2514,11 +2514,11 @@
     },
     "Periapt of Health": {
       "name": "Periapt of Health",
-      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.</p><p>In addition, you have Advantage on saving throws to avoid or end the &amp;Reference[Poisoned apply=false] condition while you wear this pendant.</p>"
+      "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.</p><p>In addition, you have Advantage on saving throws to avoid or end the &Reference[Poisoned apply=false] condition while you wear this pendant.</p>"
     },
     "Periapt of Proof against Poison": {
       "name": "Periapt of Proof against Poison",
-      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the &amp;Reference[Poisoned apply=false] condition and Poison damage.</p>",
+      "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the &Reference[Poisoned apply=false] condition and Poison damage.</p>",
       "effects": {
         "Protected Against Poison": {
           "name": "Protected Against Poison",
@@ -2535,7 +2535,7 @@
     },
     "Philter of Love": {
       "name": "Philter of Love",
-      "description": "<p><em>Potion, Uncommon</em></p><p>The next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the &amp;Reference[Charmed apply=false] condition for 1 hour.</p><p>This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</p>",
+      "description": "<p><em>Potion, Uncommon</em></p><p>The next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the &Reference[Charmed apply=false] condition for 1 hour.</p><p>This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</p>",
       "effects": {
         "In Love": {
           "name": "In Love"
@@ -2548,7 +2548,7 @@
     },
     "Pipes of Haunting": {
       "name": "Pipes of Haunting",
-      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
+      "description": "<p><em>Wondrous Item, Uncommon</em></p><p>These pipes have 3 charges and regain 1d3 expended charges daily at dawn. You can take a Magic action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the &Reference[Frightened apply=false] condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.</p>",
       "effects": {
         "Frightened": {
           "name": "Amedrontado"
@@ -2583,7 +2583,7 @@
     },
     "Poisoned Needle": {
       "name": "Poisoned Needle",
-      "description": "<div><p><em>Nuisance Trap (Levels 1–4)</em></p><p><strong>Trigger:</strong> A creature opens the trap's lock improperly or fails to disarm the trap</p><p><strong>Duration:</strong> Instantaneous</p><p>A poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes 5 (1d10) Poison damage and has the &amp;Reference[Poisoned apply=false] condition for 1 hour. On a successful save, the creature takes half as much damage only.</p><p><em><strong>Avoid.</strong></em> The trap doesn't trigger if the lock is opened using a <em>Knock</em> spell or similar magic.</p><p><em><strong>Detect and Disarm.</strong></em> As a Search action, a creature can examine the trapped lock and make a [[/check prc 15]] check, detecting the needle on a successful check. Once the trap is detected, a character can take an action to try to disarm the trap, doing so with a successful [[/check slt 15]] check. On a failed check, the creature triggers the trap.</p><p><em><strong>At Higher Levels.</strong></em> You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.</p><table><thead><tr><th><p>Levels</p></th><th><p>Poison Damage</p></th><th><p>Save DC</p></th><th></th></tr></thead><tbody><tr><td><p>5–10</p></td><td><p>11 (2d10)</p></td><td><p>13</p></td><td></td></tr><tr><td><p>11–16</p></td><td><p>22 (4d10)</p></td><td><p>15</p></td><td></td></tr><tr><td><p>17–20</p></td><td><p>55 (10d10)</p></td><td><p>17</p></td><td></td></tr></tbody></table></div>",
+      "description": "<div><p><em>Nuisance Trap (Levels 1–4)</em></p><p><strong>Trigger:</strong> A creature opens the trap's lock improperly or fails to disarm the trap</p><p><strong>Duration:</strong> Instantaneous</p><p>A poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes 5 (1d10) Poison damage and has the &Reference[Poisoned apply=false] condition for 1 hour. On a successful save, the creature takes half as much damage only.</p><p><em><strong>Avoid.</strong></em> The trap doesn't trigger if the lock is opened using a <em>Knock</em> spell or similar magic.</p><p><em><strong>Detect and Disarm.</strong></em> As a Search action, a creature can examine the trapped lock and make a [[/check prc 15]] check, detecting the needle on a successful check. Once the trap is detected, a character can take an action to try to disarm the trap, doing so with a successful [[/check slt 15]] check. On a failed check, the creature triggers the trap.</p><p><em><strong>At Higher Levels.</strong></em> You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.</p><table><thead><tr><th><p>Levels</p></th><th><p>Poison Damage</p></th><th><p>Save DC</p></th><th></th></tr></thead><tbody><tr><td><p>5–10</p></td><td><p>11 (2d10)</p></td><td><p>13</p></td><td></td></tr><tr><td><p>11–16</p></td><td><p>22 (4d10)</p></td><td><p>15</p></td><td></td></tr><tr><td><p>17–20</p></td><td><p>55 (10d10)</p></td><td><p>17</p></td><td></td></tr></tbody></table></div>",
       "effects": {
         "Poisoned Needle": {
           "name": "Poisoned Needle"
@@ -2659,7 +2659,7 @@
     },
     "Potion of Invisibility": {
       "name": "Potion of Invisibility",
-      "description": "<p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the &amp;Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.</p>",
+      "description": "<p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the &Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.</p>",
       "effects": {
         "Invisible": {
           "name": "Invisível"
@@ -2853,7 +2853,7 @@
     },
     "Ring of Free Action": {
       "name": "Ring of Free Action",
-      "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>While you wear this ring, &amp;Reference[Difficult Terrain] doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Restrained apply=false] condition.</p>",
+      "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>While you wear this ring, &Reference[Difficult Terrain] doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the &Reference[Paralyzed apply=false] or &Reference[Restrained apply=false] condition.</p>",
       "effects": {
         "Free Action": {
           "name": "Free Action",
@@ -2870,7 +2870,7 @@
     },
     "Ring of Jumping": {
       "name": "Ring of Jumping",
-      "description": "<p><em>Ring, Uncommon (Requires Attunement)</em></p><p>While wearing this ring, you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplJump000000]{Jump} from it, but can target only yourself when you do so.</p>"
+      "description": "<p><em>Ring, Uncommon (Requires Attunement)</em></p><p>While wearing this ring, you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplJump000000]{Salto} from it, but can target only yourself when you do so.</p>"
     },
     "Ring of Mind Shielding": {
       "name": "Ring of Mind Shielding",
@@ -3115,7 +3115,7 @@
     },
     "Ring of X-ray Vision": {
       "name": "Ring of X-ray Vision",
-      "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.</p><p>Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 &amp;Reference[Exhaustion] level.</p>",
+      "description": "<p><em>Ring, Rare (Requires Attunement)</em></p><p>While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.</p><p>Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 &Reference[Exhaustion] level.</p>",
       "effects": {
         "X-Ray Vision": {
           "name": "X-Ray Vision"
@@ -3216,7 +3216,7 @@
     },
     "Rod of Rulership": {
       "name": "Rod of Rulership",
-      "description": "<p><em>Rod, Rare (Requires Attunement)</em></p><p>You can take a Magic action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of yourself. Each target must succeed on a DC 15 Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for 8 hours. While Charmed in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be Charmed in this way. Once used, this property can't be used again until the next dawn.</p>",
+      "description": "<p><em>Rod, Rare (Requires Attunement)</em></p><p>You can take a Magic action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of yourself. Each target must succeed on a DC 15 Wisdom saving throw or have the &Reference[Charmed apply=false] condition for 8 hours. While Charmed in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be Charmed in this way. Once used, this property can't be used again until the next dawn.</p>",
       "effects": {
         "Obedient": {
           "name": "Obedient"
@@ -3229,7 +3229,7 @@
     },
     "Rolling Stone": {
       "name": "Rolling Stone",
-      "description": "<div><p ><em>Deadly Trap (Levels 11–16) or Nuisance Trap (Levels 17–20)</em></p><p><strong>Trigger:</strong> A creature moves onto a pressure plate</p><p><strong>Duration:</strong> Until the stone stops rolling</p><p>When a creature moves onto a hidden pressure plate, a 5-foot-radius orb of solid stone is released from a secret compartment and begins to roll. The stone and all creatures nearby roll Initiative; the stone gets a [[/r 1d20 + 8]]{+8} bonus on its Initiative roll.</p><p>On its turn, the stone moves 60 feet in one direction, changing course if redirected by an obstacle. The stone can move through creatures' spaces, and creatures can move through the stone's space, treating it as &amp;Reference[Difficult Terrain]. Whenever the stone enters a creature's space for the first time on a turn or a creature enters the stone's space while the stone is rolling, that creature must succeed on a DC 15 Dexterity saving throw or take 55 (10d10) Bludgeoning damage and have the &amp;Reference[Prone apply=false] condition.</p><p>The stone stops when it hits a wall or similar barrier. It can't go around corners, but creative dungeon builders incorporate curving turns into nearby passages that allow the stone to keep moving.</p><p><em><strong>Detect and Disarm.</strong></em> As a Study action, a creature can examine the section of floor that forms the pressure plate and make a [[/check inv 15]] check, deducing the pressure plate's function on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.</p><p><em><strong>Destroy the Stone.</strong></em> The stone is a Large object that has AC 17, HP 100, a Damage Threshold of 10, and Immunity to Poison and Psychic damage.</p><p><em><strong>Slow the Stone.</strong></em> As an action, a creature can try to slow down the stone with a DC 20 Strength (Athletics) check. If the check is successful, the distance the stone moves on its turn is reduced by 15 feet. If that distance drops to 0, it stops moving and is no longer a threat.</p></div>"
+      "description": "<div><p ><em>Deadly Trap (Levels 11–16) or Nuisance Trap (Levels 17–20)</em></p><p><strong>Trigger:</strong> A creature moves onto a pressure plate</p><p><strong>Duration:</strong> Until the stone stops rolling</p><p>When a creature moves onto a hidden pressure plate, a 5-foot-radius orb of solid stone is released from a secret compartment and begins to roll. The stone and all creatures nearby roll Initiative; the stone gets a [[/r 1d20 + 8]]{+8} bonus on its Initiative roll.</p><p>On its turn, the stone moves 60 feet in one direction, changing course if redirected by an obstacle. The stone can move through creatures' spaces, and creatures can move through the stone's space, treating it as &Reference[Difficult Terrain]. Whenever the stone enters a creature's space for the first time on a turn or a creature enters the stone's space while the stone is rolling, that creature must succeed on a DC 15 Dexterity saving throw or take 55 (10d10) Bludgeoning damage and have the &Reference[Prone apply=false] condition.</p><p>The stone stops when it hits a wall or similar barrier. It can't go around corners, but creative dungeon builders incorporate curving turns into nearby passages that allow the stone to keep moving.</p><p><em><strong>Detect and Disarm.</strong></em> As a Study action, a creature can examine the section of floor that forms the pressure plate and make a [[/check inv 15]] check, deducing the pressure plate's function on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.</p><p><em><strong>Destroy the Stone.</strong></em> The stone is a Large object that has AC 17, HP 100, a Damage Threshold of 10, and imunidade a dano psíquico e venenoso.</p><p><em><strong>Slow the Stone.</strong></em> As an action, a creature can try to slow down the stone with a DC 20 Strength (Athletics) check. If the check is successful, the distance the stone moves on its turn is reduced by 15 feet. If that distance drops to 0, it stops moving and is no longer a threat.</p></div>"
     },
     "Rope of Climbing": {
       "name": "Rope of Climbing",
@@ -3253,7 +3253,7 @@
       "description": "<p><em>Wondrous Item, Legendary (Requires Attunement)</em></p><p>This beetle-shaped medallion provides three benefits while it is on your person.</p><p><em><strong>Defense.</strong></em> You gain a +1 bonus to Armor Class.</p><p><em><strong>Preservation.</strong></em> The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a Reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.</p><p><em><strong>Spell Resistance.</strong></em> You have Advantage on saving throws against spells.</p>",
       "effects": {
         "Protected": {
-          "name": "Protected",
+          "name": "Protegido",
           "description": "<p>You gain a +1 bonus to Armor Class and you have Advantage on saving throws against spells.</p>",
           "changes": {
             "system.attributes.ac.bonus": 1
@@ -3343,11 +3343,11 @@
     },
     "Silver Horn of Valhalla": {
       "name": "Silver Horn of Valhalla",
-      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits: 2</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn of Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits: 2</em></p><p>You can take a Magic action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions. Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.</p>",
       "effects": {
         "Horn of Valhalla: Condition Immunity": {
           "name": "Horn of Valhalla: Condition Immunity",
-          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>",
+          "description": "<p>The spirits look like living, breathing warriors, and they have Immunity to the &Reference[Charmed apply=false] and &Reference[Frightened apply=false] conditions.</p>",
           "changes": {
             "system.traits.ci.value": "frightened"
           }
@@ -3543,7 +3543,7 @@
     },
     "Staff of Fire": {
       "name": "Staff of Fire",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)</em></p><p>You have Resistance to Fire damage while you hold this staff.</p><p><em><strong>Spells.</strong></em> The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th>Spell</th><th>Charge Cost</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands}</td><td>1</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</td><td>3</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}</td><td>4</td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff crumbles into cinders and is destroyed.</p>",
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)</em></p><p>You have Resistance to Fire damage while you hold this staff.</p><p><em><strong>Spells.</strong></em> The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th>Spell</th><th>Charge Cost</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Mãos Flamejantes}</td><td>1</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo}</td><td>3</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Muralha de Fogo}</td><td>4</td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff crumbles into cinders and is destroyed.</p>",
       "effects": {
         "Fire Resistance": {
           "name": "Fire Resistance",
@@ -3555,7 +3555,7 @@
     },
     "Staff of Frost": {
       "name": "Staff of Frost",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)</em></p><p>You have Resistance to Cold damage while you hold this staff.</p><p><em><strong>Spells.</strong></em> The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th>Spell</th><th>Charge Cost</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</td><td>5</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</td><td>4</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Fog Cloud}</td><td>1</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice}</td><td>4</td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff turns to water and is destroyed.</p>",
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)</em></p><p>You have Resistance to Cold damage while you hold this staff.</p><p><em><strong>Spells.</strong></em> The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th>Spell</th><th>Charge Cost</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone de Frio}</td><td>5</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Tempestade Glacial}</td><td>4</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Névoa Obscurecente}</td><td>1</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice}</td><td>4</td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the staff turns to water and is destroyed.</p>",
       "effects": {
         "Resistance to Cold": {
           "name": "Resistance to Cold",
@@ -3590,7 +3590,7 @@
     },
     "Staff of Swarming Insects": {
       "name": "Staff of Swarming Insects",
-      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges.</p><p><em><strong>Insect Cloud.</strong></em> While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area &amp;Reference[Heavily Obscured] for creatures other than you. A strong wind (like that created by @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}) disperses the swarm and ends the effect.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGiantInsec]{Giant Insect}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Insect Plague}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, a swarm of insects consumes and destroys the staff, then disperses.</p>"
+      "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 10 charges.</p><p><em><strong>Insect Cloud.</strong></em> While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area &Reference[Heavily Obscured] for creatures other than you. A strong wind (like that created by @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}) disperses the swarm and ends the effect.</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGiantInsec]{Giant Insect}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Praga de Insetos}</p></td><td><p>5</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, a swarm of insects consumes and destroys the staff, then disperses.</p>"
     },
     "Staff of the Magi": {
       "name": "Staff of the Magi",
@@ -3653,7 +3653,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.</p><section id=\"secret-nh2ZHIcUKEYwoYE9\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This item includes an Active Effect that automates the bonus.</p></section>",
       "effects": {
         "Lucky": {
-          "name": "Lucky",
+          "name": "Sortudo",
           "changes": {
             "system.bonuses.abilities.check": 1,
             "system.bonuses.abilities.save": 1
@@ -3790,7 +3790,7 @@
       "description": "<p><em>Wondrous Item, Legendary (Requires Attunement by a Cleric or Paladin)</em></p><p>This talisman is a mighty symbol of goodness. A Fiend or an Undead that touches the talisman takes 8d6 Radiant damage and takes the damage again each time it ends its turn holding or carrying the talisman.</p><p><em><strong>Holy Symbol.</strong></em> You can use the talisman as a Holy Symbol. You gain a +2 bonus to spell attack rolls while you wear or hold it.</p><p><em><strong>Pure Rebuke.</strong></em> The talisman has 7 charges. While wearing or holding the talisman, you can take a Magic action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a DC 20 Dexterity saving throw. If the target is a Fiend or an Undead, it has Disadvantage on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes 4d6 Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.</p>",
       "effects": {
         "Holy Symbol": {
-          "name": "Holy Symbol",
+          "name": "Símbolo Sagrado",
           "changes": {
             "system.bonuses.msak.attack": 2,
             "system.bonuses.rsak.attack": 2
@@ -3807,7 +3807,7 @@
       "description": "<p><em>Wondrous Item, Legendary (Requires Attunement)</em></p><p>This item symbolizes unrepentant evil. A creature that isn't a Fiend or an Undead that touches the talisman takes 8d6 Necrotic damage and takes the damage again each time it ends its turn holding or carrying the talisman.</p><p><em><strong>Holy Symbol.</strong></em> You can use the talisman as a Holy Symbol. You gain a +2 bonus to spell attack rolls while you wear or hold it.</p><p><em><strong>Ultimate End.</strong></em> The talisman has 6 charges. While wearing or holding the talisman, you can take a Magic action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a DC 20 Dexterity saving throw. If the target is a Celestial, it has Disadvantage on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes 4d6 Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.</p>",
       "effects": {
         "Holy Symbol": {
-          "name": "Holy Symbol",
+          "name": "Símbolo Sagrado",
           "changes": {
             "system.bonuses.msak.attack": 2,
             "system.bonuses.rsak.attack": 2
@@ -3821,7 +3821,7 @@
     },
     "Crystal Ball of Telepathy": {
       "name": "Crystal Ball of Telepathy",
-      "description": "<div><p><em>Wondrous Item, Legendary (Requires Attunement)</em></p></div><p>While touching this crystal orb, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em> (save DC 17) with it. In addition, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</em> (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this <em>Suggestion</em> to maintain it during its duration, but it ends if <em>Scrying</em> ends. You can't cast <em>Suggestion</em> in this way again until the next dawn.</p>"
+      "description": "<div><p><em>Wondrous Item, Legendary (Requires Attunement)</em></p></div><p>While touching this crystal orb, you can cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em> (save DC 17) with it. In addition, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Sugestão}</em> (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this <em>Suggestion</em> to maintain it during its duration, but it ends if <em>Scrying</em> ends. You can't cast <em>Suggestion</em> in this way again until the next dawn.</p>"
     },
     "Thunderous Greatclub": {
       "name": "Thunderous Greatclub",
@@ -3879,7 +3879,7 @@
     },
     "Torpor": {
       "name": "Torpor",
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's Speed is halved while the creature is Poisoned in this way.</p>",
+      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison must succeed on a DC 15 Constitution saving throw or have the &Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's Speed is halved while the creature is Poisoned in this way.</p>",
       "effects": {
         "Poisoned": {
           "name": "Envenenado"
@@ -3900,7 +3900,7 @@
     },
     "Truth Serum": {
       "name": "Truth Serum",
-      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the &amp;Reference[Poisoned] condition for 1 hour. The Poisoned creature can't knowingly communicate a lie.</p>",
+      "description": "<p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the &Reference[Poisoned] condition for 1 hour. The Poisoned creature can't knowingly communicate a lie.</p>",
       "effects": {
         "Poisoned": {
           "name": "Envenenado"
@@ -3964,7 +3964,7 @@
     },
     "Wand of Binding": {
       "name": "Wand of Binding",
-      "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Imobilizar Pessoa}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Enemy Detection": {
       "name": "Wand of Enemy Detection",
@@ -3972,15 +3972,15 @@
     },
     "Wand of Fear": {
       "name": "Wand of Fear",
-      "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Command} (\"flee\" or \"grovel\" only)</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear} (60-foot Cone)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Rare (Requires Attunement)</em></p><p>This wand has 7 charges.</p><p><em><strong>Spells.</strong></em> While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Comando} (\"flee\" or \"grovel\" only)</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Medo} (60-foot Cone)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Fireballs": {
       "name": "Wand of Fireballs",
-      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Lightning Bolts": {
       "name": "Wand of Lightning Bolts",
-      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Relâmpago} (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Magic Detection": {
       "name": "Varinha de Detectar Magia",
@@ -3992,7 +3992,7 @@
     },
     "Wand of Paralysis": {
       "name": "Wand of Paralysis",
-      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the &amp;Reference[Paralyzed apply=false] condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
+      "description": "<p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can take a Magic action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a DC 15 Constitution saving throw or have the &Reference[Paralyzed apply=false] condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>",
       "effects": {
         "Paralyzed": {
           "name": "Paralisado"
@@ -4001,7 +4001,7 @@
     },
     "Wand of Polymorph": {
       "name": "Wand of Polymorph",
-      "description": "<p><em>Wand, Very Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph} (save DC 15) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Very Rare (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polimorfia} (save DC 15) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Secrets": {
       "name": "Wand of Secrets",
@@ -4009,7 +4009,7 @@
     },
     "Wand of Web": {
       "name": "Wand of Web",
-      "description": "<p><em>Wand, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web} (save DC 13) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
+      "description": "<p><em>Wand, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Teia} (save DC 13) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Wand of Wonder": {
       "name": "Wand of Wonder",
@@ -4022,7 +4022,7 @@
     },
     "Water Ring of Elemental Command": {
       "name": "Water Ring of Elemental Command",
-      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &amp;Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Water</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>",
+      "description": "<p>Ring, Legendary (Requires Attunement)</p><p>Each <em>Ring of Elemental Command</em> is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. For example, a <em>Ring of Elemental Command</em> (air) is linked to the Elemental Plane of Air.</p><p>Every <em>Ring of Elemental Command</em> has the following two properties:</p><p><strong>Elemental Bane.</strong> While wearing the ring, you have Advantage on attack rolls against Elementals and they have Disadvantage on attack rolls against you.</p><p><strong>Elemental Compulsion.</strong> While wearing the ring, you can take a Magic action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a DC 18 Wisdom saving throw. On a failed save, the Elemental has the &Reference[Charmed apply=false] condition until the start your next turn, and you determine what it does with its move and action on its next turn.</p><p><em><strong>Elemental Focus.</strong></em> While wearing the ring, you benefit from additional properties corresponding to the ring's linked Elemental Plane:</p><p><strong>Water.</strong> You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.</p><p><em><strong>Spellcasting.</strong></em> The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.</p><table><thead><tr><th style=\"min-width:50px\"><p>Plane</p></th><th><p>Spells (Charges)</p></th></tr></thead><tbody><tr><td><p>Water</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Tempestade Glacial} (2 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami} (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of Ice} (3 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2 charges)</p></td></tr></tbody></table>",
       "effects": {
         "Charmed": {
           "name": "Enfeitiçado"
@@ -4120,7 +4120,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>These boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>",
       "effects": {
         "Winged": {
-          "name": "Winged",
+          "name": "Alado",
           "description": "<p>The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet.</p>",
           "changes": {
             "system.attributes.movement.fly": 30
@@ -4133,7 +4133,7 @@
       "description": "<p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>While wearing this cloak, you can take a Magic action to turn the cloak into a pair of wings on your back. The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet. If you are aloft when the wings disappear, you fall. When the wings disappear, you can't use them again for [[/r 1d12]] hours.</p>",
       "effects": {
         "Winged": {
-          "name": "Winged",
+          "name": "Alado",
           "description": "<p>The wings lasts for 1 hour or until you end the effect early as a Magic action. The wings give you a Fly Speed of 60 feet.</p>",
           "changes": {
             "system.attributes.movement.fly": 60
@@ -4283,16 +4283,16 @@
       "description": "<p>Um @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Foco Arcano} é adornado com joias ou esculpido para canalizar magia arcana. Um bruxo, feiticeiro ou mago pode usar esse item como foco de conjuração.</p>"
     },
     "Acid": {
-      "name": "Acid",
+      "name": "Ácido",
       "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>"
     },
     "Alchemist's Fire": {
       "name": "Alchemist's Fire",
-      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage and start &amp;Reference[burning].</p>",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage and start &Reference[burning].</p>",
       "effects": {
         "Burning.": {
           "name": "Burning.",
-          "description": "<p>Rules reference: &amp;Reference[burning].</p>"
+          "description": "<p>Rules reference: &Reference[burning].</p>"
         }
       }
     },
@@ -4350,8 +4350,8 @@
       "description": "<p>Por 1 hora, uma Vela acesa emite Luz Plena em um raio de 1,5 metro e Meia-luz por mais 1,5 metro.</p>"
     },
     "Case, Crossbow Bolt": {
-      "name": "Case, Crossbow Bolt",
-      "description": "<p>A Crossbow Bolt Case holds up to 20 Bolts.</p>"
+      "name": "Estojo para Virotes de Besta",
+      "description": "<p>Um estojo para virotes de besta comporta até 20 virotes.</p>"
     },
     "Case, Map or Scroll": {
       "name": "Estojo, para Mapa ou Pergaminho",
@@ -4359,7 +4359,7 @@
     },
     "Chain": {
       "name": "Chain",
-      "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>"
+      "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &Reference[Grappled], &Reference[Incapacitated], or &Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>"
     },
     "Chest": {
       "name": "Chest",
@@ -4455,17 +4455,17 @@
       "description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>"
     },
     "Manacles": {
-      "name": "Manacles",
-      "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful [[/tool thief dex 15]] check.</p>",
+      "name": "Algemas",
+      "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &Reference[Grappled], &Reference[Incapacitated], or &Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. Enquanto estiver presa, a criatura tem desvantagem em jogadas de ataque e fica contida se as algemas estiverem presas a uma corrente ou gancho que esteja fixo no lugar. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Para estourar as algemas, é necessário obter sucesso em um teste de Força (Atletismo) CD 25 como uma ação.</p><p>Cada par de algemas vem com uma chave. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful [[/tool thief dex 15]] check.</p>",
       "effects": {
         "Manacled": {
-          "name": "Manacled"
+          "name": "Algemado"
         }
       }
     },
     "Map": {
-      "name": "Map",
-      "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
+      "name": "Mapa",
+      "description": "<p>Se consultar um mapa preciso, você ganha um bônus de +5 nos testes de Sabedoria (Sobrevivência) que fizer para encontrar o caminho no local representado nele.</p>"
     },
     "Net": {
       "name": "Rede",
@@ -4505,8 +4505,8 @@
       "description": "<p>Um kit de sacerdote contém os seguintes itens: @UUID[Compendium.dnd5e.equipment24.Item.phbagHolyWater00]{Água Benta}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Caixa para Fogo},[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{cobertor}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{lamparina}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rações} (7 dias) e @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Túnica}.</p>"
     },
     "Quiver": {
-      "name": "Quiver",
-      "description": "<p>A Quiver holds up to 20 Arrows.</p>"
+      "name": "Aljava",
+      "description": "<p>Uma aljava pode guardar até 20 flechas.</p>"
     },
     "Ram, Portable": {
       "name": "Ram, Portable",
@@ -4545,8 +4545,8 @@
       "description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>"
     },
     "Tent": {
-      "name": "Tent",
-      "description": "<p>A Tent sleeps up to two Small or Medium creatures.</p>"
+      "name": "Tenda",
+      "description": "<p>Duas criaturas Pequenas ou Médias podem dormir em uma tenda.</p>"
     },
     "Vial": {
       "name": "Vial",
@@ -4582,7 +4582,7 @@
       "name": "Cota de Malha Parcial"
     },
     "Half Plate Armor": {
-      "name": "Half Plate Armor"
+      "name": "Armadura de Placas Parcial"
     },
     "Hide Armor": {
       "name": "Hide Armor"
@@ -4791,7 +4791,7 @@
       "name": "Blowgun"
     },
     "Club": {
-      "name": "Club"
+      "name": "Clava"
     },
     "Dagger": {
       "name": "Adaga"
@@ -4818,7 +4818,7 @@
       "name": "Halberd"
     },
     "Hand Crossbow": {
-      "name": "Hand Crossbow"
+      "name": "Besta de Mão"
     },
     "Handaxe": {
       "name": "Machadinha"
@@ -4834,7 +4834,7 @@
       "name": "Lance"
     },
     "Light Crossbow": {
-      "name": "Light Crossbow"
+      "name": "Besta Leve"
     },
     "Light Hammer": {
       "name": "Light Hammer"
@@ -4864,10 +4864,10 @@
       "name": "Pistol"
     },
     "Quarterstaff": {
-      "name": "Quarterstaff"
+      "name": "Bastão"
     },
     "Rapier": {
-      "name": "Rapier"
+      "name": "Rapieira"
     },
     "Scimitar": {
       "name": "Cimitarra"
@@ -4897,7 +4897,7 @@
       "name": "Warhammer"
     },
     "Whip": {
-      "name": "Whip"
+      "name": "Chicote"
     },
     "Fine Clothes": {
       "name": "Fine Clothes",

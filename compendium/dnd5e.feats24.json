@@ -1,120 +1,140 @@
 {
   "label": "Talentos",
   "folders": {
-    "Origin Feats": "Origin Feats",
-    "Epic Boon Feats": "Epic Boon Feats",
-    "Fighting Style Feats": "Fighting Style Feats",
-    "General Feats": "General Feats"
+    "Origin Feats": "Talentos de Origem",
+    "Epic Boon Feats": "Talentos de Benção Épica",
+    "Fighting Style Feats": "Talentos de Estilo de Luta",
+    "General Feats": "Talentos Gerais"
   },
   "entries": {
-    "Boon of Combat Prowess": {
-      "name": "Boon of Combat Prowess",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Peerless Aim.</strong> When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.</p>"
+    "phbBoonofCombatP": {
+      "name": "Benção da Proeza em Combate",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente um valor de atributo, à sua escolha, em 1 até um máximo de 30.</p><p><strong>Mira Inigualável.</strong> Ao fazer uma jogada de ataque e errar, você pode fazer esse ataque acertar. Uma vez usado este benefício, você não poderá usá-lo novamente até o início do seu próximo turno.</p>"
     },
-    "Boon of Dimensional Travel": {
-      "name": "Boon of Dimensional Travel",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Blink Steps.</strong> Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.</p>"
+    "phbBoonofDimensi": {
+      "name": "Benção da Viagem Dimensional",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente um valor de atributo, à sua escolha, em 1 até um máximo de 30.</p><p><strong>Passos Invisíveis.</strong> Imediatamente após usar a ação atacar ou a ação mágica, você pode se teleportar até 9 metros para um espaço desocupado que você possa ver.</p>",
+      "activities": {
+        "Teleport": {
+          "name": "Teleportar",
+          "condition": "Imediatamente após usar a ação atacar ou a ação mágica",
+          "target": "Espaço desocupado"
+        }
+      }
     },
-    "Boon of Fate": {
-      "name": "Boon of Fate",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Improve Fate.</strong> When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.</p>"
+    "phbBoonofFate000": {
+      "name": "Benção do Destino",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente um valor de atributo, à sua escolha, em 1 até um máximo de 30.</p><p><strong>Aprimorar Destino.</strong> Quando você ou outra criatura a até 18 metros for bem-sucedida ou falhar em um teste de d20, você pode jogar 2d4 e aplicar o resultado obtido como um bônus ou penalidade ao resultado do d20. Uma vez usado esse benefício, você não poderá usá-lo novamente até jogar iniciativa ou terminar um descanso curto ou longo.</p>",
+      "activities": {
+        "Improve Fate": {
+          "name": "Aprimorar Destino",
+          "roll": "Bônus/Penalidade",
+          "condition": "Quando você ou outra criatura a até 18 metros for bem-sucedida ou falhar em um teste de d20"
+        }
+      }
     },
-    "Boon of Irresistible Offense": {
-      "name": "Boon of Irresistible Offense",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 30.</p><p><strong>Overcome Defenses.</strong> The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.</p><p><strong>Overwhelming Strike.</strong> When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feat's effects are not automated. The additional damage can be added in the Situational Bonus field of the damage's dialog roll box.</p></section>"
+    "phbBoonofIrresis": {
+      "name": "Benção da Ofensa Irresistível",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Increase your Força ou Destreza score by 1, to a maximum of 30.</p><p><strong>Superar Defesas.</strong> O dano contundente, perfurante e cortante que você causa sempre ignora Resistência.</p><p><strong>Golpe Avassalador.</strong> Ao obter 20 no d20 de uma jogada de ataque, você pode causar dano extra ao alvo igual ao valor de atributo aumentado por este talento. O tipo de dano adicional é o mesmo do tipo do ataque.</p><section id=\"secret-B9D2nT6vBjWr9JMV\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Os efeitos desse talento não são automáticos. O dano adicional pode ser inserido no campo “Bônus situacional” da caixa de diálogo de dano.</p></section>"
     },
-    "Boon of Spell Recall": {
-      "name": "Boon of Spell Recall",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</p><p><strong>Free Casting.</strong> Whenever you cast a spell with a level 1–4 spell slot, roll [[/r 1d4]]. If the number you roll is the same as the slot's level, the slot isn't expended.</p><section class=\"secret\" id=\"secret-KMAFFZCOzi6Cuemh\"><p><strong>Nota do Foundry</strong></p><p>If the number is the same, uncheck the Consumption option when using the spell.</p></section>"
+    "phbBoonofSpellRe": {
+      "name": "Benção da Magia Recordada",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Increase your Inteligência, Sabedoria ou Carisma score by 1, to a maximum of 30.</p><p><strong>Conjuração Livre.</strong> Sempre que você conjurar uma magia com um espaço de magia de 1° a 4° círculo, jogue [[/r 1d4]]. Se o resultado for igual ao círculo do espaço, o espaço não será gasto.</p><section class=\"secret\" id=\"secret-KMAFFZCOzi6Cuemh\"><p><strong>Nota do Foundry</strong></p><p>Se o número for o mesmo, desmarque a opção “Consumo” ao usar a magia.</p></section>",
+      "activities": {
+        "Free Cast Roll": {
+          "name": "Jogada de Conjuração Livre",
+          "roll": "Jogada",
+          "condition": "Sempre que você conjurar uma magia com um espaço de magia de 1° a 4° círculo"
+        }
+      }
     },
-    "Boon of Truesight": {
-      "name": "Boon of Truesight",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Truesight.</strong> You have Truesight with a range of 60 feet.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which grants you Truesight with a range of 60 feet.</p></section>",
+    "phbBoonofTruesig": {
+      "name": "Benção da Visão Verdadeira",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente um valor de atributo, à sua escolha, em 1 até um máximo de 30.</p><p><strong>Visão Verdadeira.</strong> Você tem visão verdadeira a uma distância de até de 18 metros.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo que concede Visão Verdadeira com um alcance de 18 metros.</p></section>",
       "effects": {
         "Boon of Truesight": {
-          "name": "Boon of Truesight",
-          "changes": {
-            "system.attributes.senses.truesight": 60
-          }
+          "name": "Benção da Visão Verdadeira"
         }
       }
     },
-    "Boon of the Night Spirit": {
-      "name": "Boon of the Night Spirit",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</p><p><strong>Merge with Shadows.</strong> While within Dim Light or Darkness, you can give yourself the &amp;Reference[Invisible] condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.</p><p><strong>Shadowy Form.</strong> While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature's <strong>Boon of the Night Spirit</strong> Active Effect includes the Resistances but must be toggled on/off in the Effects tab of your sheet.</p><p>The <strong>Merge with Shadows</strong> activity includes an Active Effect that applies the Invisible condition.</p></section>",
+    "phbBoonoftheNigh": {
+      "name": "Benção do Espírito Noturno",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente um valor de atributo, à sua escolha, em 1 até um máximo de 30.</p><p><strong>Fundir-se às Sombras.</strong> Enquanto estiver em meia-luz ou na escuridão, você pode obter a condição &Reference[Invisible] como uma ação bônus. A condição é encerrada imediatamente após você executar uma ação, uma ação bônus ou uma reação.</p><p><strong>Forma Sombria.</strong> Enquanto estiver em meia-luz ou na escuridão, você tem Resistência a todos os danos, exceto radiante e psíquico.</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>O efeito ativo <strong>Benção do Espírito Noturno</strong> desta característica inclui as resistências, mas deve ser ativado ou desativado na aba “Efeitos” da sua ficha.</p><p>A característica <strong>Fundir-se às Sombras</strong> inclui um efeito ativo que aplica a condição invisível.</p></section>",
+      "activities": {
+        "Merge with the Shadows": {
+          "name": "Fundir-se às Sombras"
+        }
+      },
       "effects": {
         "Boon of the Night Spirit": {
-          "name": "Boon of the Night Spirit",
-          "changes": {
-            "system.traits.dr.value": "thunder"
-          }
+          "name": "Benção do Espírito Noturno"
         },
         "Merged with Shadows": {
-          "name": "Merged with Shadows"
+          "name": "Fundido às Sombras"
         }
       }
     },
-    "Archery": {
-      "name": "Archery",
-      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>You gain a +2 bonus to attack rolls you make with Ranged weapons.</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This feature includes an Active Effect which adds the bonus to Ranged weapon attack rolls.</p></section>",
+    "phbfstArchery000": {
+      "name": "Arquearia",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Você ganha um bônus de +2 nas jogadas de ataque feitas com armas de combate à distância.</p><section id=\"secret-n13Z6zR2u0CiIA7D\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo que adiciona o bônus às jogadas de ataque com armas de longo alcance.</p></section>",
       "effects": {
         "Archery Style": {
-          "name": "Archery Style",
-          "changes": {
-            "system.bonuses.rwak.attack": 2
-          }
+          "name": "Estilo de Arquearia"
         }
       }
     },
-    "Defense": {
+    "phbfstDefense000": {
       "name": "Defensivo",
-      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Você ganha um bônus de +1 na classe de armadura enquanto estiver usando uma armadura leve, média ou pesada.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa habilidade inclui um Efeito Ativo que concede o bônus à Classe de Armadura. Desative-o quando não estiver usando armadura.</p></section>",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Você ganha um bônus de +1 na classe de armadura enquanto estiver usando uma armadura leve, média ou pesada.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo que concede o bônus à Classe de Armadura. Desative-o quando não estiver usando armadura.</p></section>",
       "effects": {
-        "Defense": {
-          "name": "Defensivo",
-          "changes": {
-            "system.attributes.ac.bonus": 1
-          }
+        "Defensivo": {
+          "name": "Defensivo"
         }
       }
     },
-    "Great Weapon Fighting": {
-      "name": "Great Weapon Fighting",
-      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>This effect is not automated.</p></section>"
+    "phbfstGreatWeapo": {
+      "name": "Combate com Armas Grandes",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Ao jogar o dano de um ataque com uma arma de combate corpo a corpo que estiver segurando com as duas mãos, você pode tratar qualquer 1 ou 2 em um dado de dano como um 3. A arma precisa ter as propriedades duas mãos ou versátil para receber este benefício.</p><section id=\"secret-jkbP75uR9eNGIRN0\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Esse efeito não é automatizado.</p></section>"
     },
-    "Two-Weapon Fighting": {
-      "name": "Two-Weapon Fighting",
-      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Nota do Foundry</strong></p><p>This feature is not automated. You can add your modifier in the Situational Bonus field of the damage roll.</p></section>"
+    "phbfstTwoWeaponF": {
+      "name": "Combate com Duas Armas",
+      "description": "<p><em>(Pré-requisito: Característica de Estilo de Luta)</em></p><p>Ao executar um ataque extra como resultado do uso de uma arma com a propriedade leve, você pode adicionar seu modificador de atributo ao dano desse ataque, caso ainda não o esteja fazendo.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Nota do Foundry</strong></p><p>Essa característica não é automatizada. Você pode adicionar seu modificador no campo “Bônus situacional” da jogada de dano.</p></section>"
     },
-    "Ability Score Improvement": {
-      "name": "Ability Score Improvement",
-      "description": "<p><em>General Feat (Prerequisite: Level 4+)</em></p><p>Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.</p><p><strong>Repetível.</strong> Você pode obter este talento mais de uma vez.</p>"
+    "phbftAbilityScor": {
+      "name": "Aumento no Valor de Atributo",
+      "description": "<p><em>Talento geral (pré-requisito: nível 4+)</em></p><p>Aumente um valor de atributo à sua escolha em 2, ou aumente dois valores de atributos à sua escolha em 1 cada. Este talento não pode aumentar um valor de atributo acima de 20.</p><p><strong>Repetível.</strong> Você pode obter este talento mais de uma vez.</p>"
     },
-    "Alert": {
+    "phbftAlert000000": {
       "name": "Alerta",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Proficiência em Iniciativa.</strong> Ao rolar iniciativa, você pode adicionar seu bônus de proficiência ao resultado.</p><p><strong>Troca de Iniciativa.</strong> Imediatamente após jogar Iniciativa, você pode trocar sua Iniciativa com a Iniciativa de um aliado voluntário no mesmo combate. Não é possível fazer a troca se você ou o aliado tem a condição &amp;Reference[Incapacitated].</p><section id=\"secret-yzfXk3D5M1jv9ixH\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica adiciona automaticamente o bônus à sua Iniciativa.</p></section>",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Proficiência em Iniciativa.</strong> Ao rolar iniciativa, você pode adicionar seu bônus de proficiência ao resultado.</p><p><strong>Troca de Iniciativa.</strong> Imediatamente após jogar Iniciativa, você pode trocar sua Iniciativa com a Iniciativa de um aliado voluntário no mesmo combate. Não é possível fazer a troca se você ou o aliado tem a condição &Reference[Incapacitated].</p><section id=\"secret-yzfXk3D5M1jv9ixH\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica adiciona automaticamente o bônus à sua Iniciativa.</p></section>",
       "effects": {
-        "Alert": {
-          "name": "Alerta",
-          "changes": {
-            "flags.dnd5e.initiativeAlert": true
-          }
+        "Alerta": {
+          "name": "Alerta"
         }
       }
     },
-    "Grappler": {
-      "name": "Grappler",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p><p><strong>Punch and Grab.</strong> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.</p><p><strong>Attack Advantage.</strong> You have Advantage on attack rolls against a creature &amp;Reference[Grappled] by you.</p><p><strong>Fast Wrestler.</strong> You don't have to spend extra movement to move a creature by you if the creature is your size or smaller.</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Nota do Foundry</strong></p><p>The Advantage is not automated.</p></section>"
+    "phbftGrappler000": {
+      "name": "Imobilizador",
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Aumento no Valor de Atributo.</strong> Aumente seu valor de Força ou Destreza em 1, até um máximo de 20.</p><p><strong>Agarrar e Socar.</strong> No seu turno, ao acertar uma criatura com um ataque desarmado como parte da ação atacar, você pode usar tanto a opção dano quanto a opção agarrar. Você pode usar esse benefício apenas uma vez por turno.</p><p><strong>Vantagem no Ataque.</strong> Você tem vantagem em jogadas de ataque de ataque contra uma criatura &Reference[Grappled]{agarrada} por você.</p><p><strong>Agarrador Rápido.</strong> Você não precisa gastar deslocamento adicional para se mover quando você move uma criatura agarrada por você se a criatura for do seu tamanho ou menor.</p><section class=\"secret\" id=\"secret-LAjjGo55LPacAy8v\"><p><strong>Nota do Foundry</strong></p><p>A vantagem não é automatizada.</p></section>",
+      "requirements": "Força ou Destreza 13 ou maior"
     },
-    "Magic Initiate": {
+    "phbftMagicInitia": {
       "name": "Iniciado em Magia",
-      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Dois Truques.</strong> Você aprende dois truques da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Clérigo}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} ou @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago} spell list. Seu atributo de conjuração para as magias deste talento é Inteligência, Sabedoria ou Carisma (à sua escolha ao selecionar esse talento).</p><p><strong>Magia de 1º Círculo.</strong> Escolha uma magia de 1º círculo da mesma lista que você selecionou para os truques deste talento. Você tem essa magia sempre preparada. Você pode conjurá-la uma vez sem um espaço de magia, e você restaura a capacidade de conjurá-la dessa maneira ao completar um Descanso Longo. Você também pode conjurar a magia usando qualquer espaço de magia que tiver.</p><p><strong>Mudança de Magia.</strong> Sempre que você alcança um novo nível, pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo círculo da lista de magias escolhida.</p><p><strong>Repetível.</strong> Você pode adquirir este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.</p>"
+      "description": "<p>Você ganha os seguintes benefícios.</p><p><strong>Dois Truques.</strong> Você aprende dois truques da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Clérigo}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} ou @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago} spell list. Seu atributo de conjuração para as magias deste talento é Inteligência, Sabedoria ou Carisma (à sua escolha ao selecionar esse talento).</p><p><strong>Magia de 1º Círculo.</strong> Escolha uma magia de 1º círculo da mesma lista que você selecionou para os truques deste talento. Você tem essa magia sempre preparada. Você pode conjurá-la uma vez sem um espaço de magia, e você restaura a capacidade de conjurá-la dessa maneira ao completar um Descanso Longo. Você também pode conjurar a magia usando qualquer espaço de magia que tiver.</p><p><strong>Mudança de Magia.</strong> Sempre que você alcança um novo nível, pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo círculo da lista de magias escolhida.</p><p><strong>Repetível.</strong> Você pode adquirir este talento mais de uma vez, mas deve escolher uma lista de magias diferente a cada vez.</p>",
+      "advancement": {
+        "Two Cantrips": {
+          "title": "Dois Truques"
+        },
+        "Level 1 Spell": {
+          "title": "Magia de 1º Círculo"
+        }
+      }
     },
-    "Savage Attacker": {
+    "phbftSavageAttac": {
       "name": "Atacante Selvagem",
       "description": "<p>Você treinou para causar ataques particularmente nocivos. Uma vez por turno, ao atingir um alvo com uma arma, pode jogar os dados de dano da arma duas vezes e usar qualquer uma das jogadas contra o alvo.</p>"
     },
-    "Skilled": {
+    "phbftSkilled0000": {
       "name": "Habilidoso",
       "description": "<p>Você ganha proficiência em qualquer combinação de três perícias ou ferramentas à sua escolha.</p><p><strong>Repetível.</strong> Você pode obter este talento mais de uma vez.</p>"
     }

@@ -41,7 +41,7 @@
   },
 
   "TYPES.Item.background": "Background",
-  "TYPES.Item.backgroundPl": "Backgrounds",
+  "TYPES.Item.backgroundPl": "Antecedentes",
   "TYPES.Item.container": "Container",
   "TYPES.Item.containerPl": "Containers",
   "TYPES.Item.class": "Class",
@@ -56,12 +56,12 @@
   "TYPES.Item.featurePl": "Features",
   "TYPES.Item.loot": "Loot",
   "TYPES.Item.lootPl": "Loot",
-  "TYPES.Item.race": "Species",
-  "TYPES.Item.racePl": "Species",
+  "TYPES.Item.race": "Espécies",
+  "TYPES.Item.racePl": "Espécies",
   "TYPES.Item.raceLegacy": "Race",
   "TYPES.Item.raceLegacyPl": "Races",
   "TYPES.Item.spell": "Spell",
-  "TYPES.Item.spellPl": "Spells",
+  "TYPES.Item.spellPl": "Magias",
   "TYPES.Item.subclass": "Subclass",
   "TYPES.Item.subclassPl": "Subclasses",
   "TYPES.Item.tool": "Tool",
@@ -82,7 +82,7 @@
   },
 
   "DND5E.title": "Dungeon & Dragons Fifth Edition",
-  "DND5E.AbbreviationCR": "CR",
+  "DND5E.AbbreviationCR": "ND",
   "DND5E.AbbreviationConc": "Conc.",
   "DND5E.AbbreviationDC": "DC",
   "DND5E.AbbreviationKg": "kg",
@@ -140,7 +140,7 @@
   "DND5E.AbilityPromptTitle": "{ability} Ability Check",
   "DND5E.AbilityUseChargesLabel": "{value} Charges",
   "DND5E.AbilityUseConsumableLabel": "{max} per {per}",
-  "DND5E.AbilityUseCast": "Cast Spell",
+  "DND5E.AbilityUseCast": "Conjurar Magia",
   "DND5E.AbilityUseUse": "Use Ability",
   "DND5E.AbilityUseConfig": "Usage Configuration",
   "DND5E.AbilityBonuses": "Ability Bonuses",
@@ -152,7 +152,7 @@
   "DND5E.AbilityConfigurationHint": "Configure ability saving throw proficiency, saving throw bonuses, and check bonuses.",
   "DND5E.AbilityCheckBonus": "Check Bonus",
   "DND5E.AbilityCheckGlobalBonusHint": "This bonus applies to all ability checks made by this actor.",
-  "DND5E.Action": "Action",
+  "DND5E.Action": "Ação",
   "DND5E.ActionAbbr": "A",
   "DND5E.ActionPl": "Actions",
   "DND5E.ActionAbil": "Ability Check",
@@ -202,11 +202,11 @@
     "Type": {
       "Action": {
         "Header": "Actions",
-        "Label": "Action"
+        "Label": "Ação"
       },
       "BonusAction": {
         "Header": "Bonus Actions",
-        "Label": "Bonus Action"
+        "Label": "Ações Bônus"
       },
       "Crew": {
         "Counted": {
@@ -256,7 +256,7 @@
       },
       "Reaction": {
         "Header": "Reactions",
-        "Label": "Reaction"
+        "Label": "Reação"
       },
       "ShortRest": {
         "Label": "End of a Short Rest"
@@ -431,7 +431,7 @@
         "DescriptionEpic": "<p>You gain an Epic Boon feat or another feat of your choice for which you qualify.</p>",
         "DescriptionEpicRecommendation": "<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. {recommendation} is recommended.</p>",
         "DescriptionLegacy": "<p>When you reach {firstLevelOrdinal} level, and again at {otherLevelsOrdinal} level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above {maxAbilityScore} using this feature.</p><p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
-        "DescriptionModern": "<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at {class} levels {otherLevels}.</p>",
+        "DescriptionModern": "<p>Você ganha o talento Aumento no Valor de Atributo ou outro talento à sua escolha para o qual se qualifique. You gain this feature again at {class} levels {otherLevels}.</p>",
         "Name": "Ability Score Improvement"
       },
       "LockedHint": "Scores cannot be modified with a feat selected.",
@@ -440,7 +440,7 @@
         "other": "{points} Points Remaining"
       },
       "Title": "Ability Score Improvement",
-      "TitleEpic": "Epic Boon",
+      "TitleEpic": "Bênção Épica",
       "Warning": {
         "Type": "Only features with the \"feat\" type can be selected."
       }
@@ -482,7 +482,7 @@
       "Average": "Average",
       "Breakdown": {
         "Average": "Avg.",
-        "Bonus": "Bonus",
+        "Bonus": "Bônus",
         "Final": "Final",
         "Max": "Max",
         "Previous": "Prev.",
@@ -649,7 +649,7 @@
         "CR": {
           "FIELDS": {
             "value": {
-              "label": "CR"
+              "label": "ND"
             }
           },
           "Hint": "Use this for representing creature challenge ratings for features like Wild Shape",
@@ -666,7 +666,7 @@
           },
           "Hint": "Use this for dice values like bardic inspiration, sneak attack, or superiority dice.",
           "Identifier": "This scale value for the current level will be available in a formula using:<br><copyable-text>@scale.{class}.{identifier}</copyable-text> - whole formula (<code>4d6</code>)<br><copyable-text>@scale.{class}.{identifier}.die</copyable-text> - whole die (<code>d6</code>)<br><copyable-text>@scale.{class}.{identifier}.number</copyable-text> - number of dice (<code>4</code>)<br><copyable-text>@scale.{class}.{identifier}.faces</copyable-text> - number of faces (<code>6</code>)",
-          "Label": "Dice"
+          "Label": "Dados"
         },
         "Distance": {
           "Hint": "Use this for numerical values that represent a distance, such as unarmored movement speed, or aura of protection radius.",
@@ -765,7 +765,7 @@
               "label": "Count"
             },
             "pool": {
-              "label": "Traits"
+              "label": "Traços"
             }
           }
         },
@@ -785,7 +785,7 @@
         },
         "Expertise": {
           "Hint": "Gain expertise in a trait in which you already have proficiency.",
-          "Label": "Expertise"
+          "Label": "Especialista"
         },
         "Force": {
           "Hint": "Gain expertise in a trait regardless of your previous proficiency level.",
@@ -801,7 +801,7 @@
         }
       },
       "TraitType": "Trait Type",
-      "Title": "Traits"
+      "Title": "Traços"
     }
   },
 
@@ -835,7 +835,7 @@
   "DND5E.AdvancementSelectionCreateButton": "Create Advancement",
   "DND5E.AdvancementSelectionTitle": "Select Advancement Type",
   "DND5E.AdvancementTitle": "Advancement",
-  "DND5E.Advantage": "Advantage",
+  "DND5E.Advantage": "Vantagem",
   "DND5E.AdvantageMode": "Advantage Mode",
   "DND5E.Age": "Age",
   "DND5E.Alignment": "Alignment",
@@ -885,9 +885,9 @@
   "DND5E.ArmorClassFlat": "Flat",
   "DND5E.ArmorClassUnarmored": "Unarmored",
   "DND5E.ArmorClassNatural": "Natural Armor",
-  "DND5E.ArmorClassMage": "Mage Armor",
+  "DND5E.ArmorClassMage": "Armadura Arcana",
   "DND5E.ArmorClassMotionless": "Armor Class while Motionless",
-  "DND5E.ArmorClassDraconic": "Draconic Resilience",
+  "DND5E.ArmorClassDraconic": "Resiliência Dracônica",
   "DND5E.ArmorClassUnarmoredMonk": "Unarmored Defense (Monk)",
   "DND5E.ArmorClassUnarmoredBarbarian": "Unarmored Defense (Barbarian)",
   "DND5E.ArmorClassUnarmoredBard": "Unarmored Defense (Bard)",
@@ -897,7 +897,7 @@
   "DND5E.ArmorClassCalculation": "Calculation",
   "DND5E.ArmorClassFormula": "Formula",
   "DND5E.ArmorHeavyProficiency": "Heavy",
-  "DND5E.ArmorLightProficiency": "Light",
+  "DND5E.ArmorLightProficiency": "Luz",
   "DND5E.ArmorMediumProficiency": "Medium",
   "DND5E.ArmorValue": "Armor Value",
   "DND5E.AC": "AC",
@@ -978,7 +978,7 @@
       "TwoHanded": "Two-Handed"
     },
     "Title": {
-      "one": "Attack",
+      "one": "Atacar",
       "other": "Attacks"
     },
     "Type": {
@@ -994,7 +994,7 @@
     }
   },
 
-  "DND5E.Attack": "Attack",
+  "DND5E.Attack": "Atacar",
   "DND5E.AttackPl": "Attacks",
   "DND5E.AttackRoll": "Attack Roll",
   "DND5E.Attributes": "Attributes",
@@ -1079,8 +1079,8 @@
   "DND5E.BiographyPublic": "Public Biography",
   "DND5E.BiopgrahyPublicEdit": "Edit Public Biography",
   "DND5E.Bonds": "Bonds",
-  "DND5E.Bonus": "Bonus",
-  "DND5E.BonusAction": "Bonus Action",
+  "DND5E.Bonus": "Bônus",
+  "DND5E.BonusAction": "Ações Bônus",
   "DND5E.BonusActionAbbr": "BA",
   "DND5E.BonusAttack": "Attack Bonus",
   "DND5E.BonusDamage": "Damage Bonus",
@@ -1422,7 +1422,7 @@
       "Spell": "Spell",
       "Spellbook": "Additional Spells"
     },
-    "Title": "Cast"
+    "Title": "Conjurar"
   },
 
   "DND5E.Casting": "Casting",
@@ -1639,7 +1639,7 @@
       "Hint": "Configure which compendium packs have their content available in the compendium browser."
     },
     "Tabs": {
-      "Feat.other": "Feats",
+      "Feat.other": "Talentos",
       "Item.other": "Items",
       "Monster.other": "Monsters"
     },
@@ -1676,9 +1676,9 @@
   "DND5E.ContextMenuActionDisable": "Disable",
   "DND5E.ContextMenuActionView": "View",
   "DND5E.Contiguous": "Contiguous",
-  "DND5E.ConBlinded": "Blinded",
+  "DND5E.ConBlinded": "Cego",
   "DND5E.ConCharmed": "Charmed",
-  "DND5E.ConDeafened": "Deafened",
+  "DND5E.ConDeafened": "Surdo",
   "DND5E.ConDiseased": "Diseased",
   "DND5E.CONDITIONS": {
     "RiderConditions": {
@@ -1686,19 +1686,19 @@
       "hint": "When this Active Effect is applied, these additional status conditions will be applied separately."
     }
   },
-  "DND5E.ConExhaustion": "Exhaustion",
-  "DND5E.ConFrightened": "Frightened",
-  "DND5E.ConGrappled": "Grappled",
+  "DND5E.ConExhaustion": "Exaustão",
+  "DND5E.ConFrightened": "Amedrontado",
+  "DND5E.ConGrappled": "Agarrado",
   "DND5E.ConImm": "Condition Immunities",
   "DND5E.ConIncapacitated": "Incapacitated",
-  "DND5E.ConInvisible": "Invisible",
-  "DND5E.ConParalyzed": "Paralyzed",
-  "DND5E.ConPetrified": "Petrified",
-  "DND5E.ConPoisoned": "Poisoned",
-  "DND5E.ConProne": "Prone",
-  "DND5E.ConRestrained": "Restrained",
-  "DND5E.ConStunned": "Stunned",
-  "DND5E.ConUnconscious": "Unconscious",
+  "DND5E.ConInvisible": "Invisível",
+  "DND5E.ConParalyzed": "Paralisado",
+  "DND5E.ConPetrified": "Petrificado",
+  "DND5E.ConPoisoned": "Envenenado",
+  "DND5E.ConProne": "Caído",
+  "DND5E.ConRestrained": "Contido",
+  "DND5E.ConStunned": "Atordoado",
+  "DND5E.ConUnconscious": "Inconsciente",
   "DND5E.Concentration": "Concentration",
   "DND5E.ConcentrationAbbr": "C",
   "DND5E.ConcentrationBreak": "Break Concentration",
@@ -1762,7 +1762,7 @@
       }
     },
     "Category": {
-      "Poison": "Poison"
+      "Poison": "Venenoso"
     },
     "Type": {
       "Ammunition": {
@@ -1778,7 +1778,7 @@
         "Label": "Food"
       },
       "Poison": {
-        "Label": "Poison",
+        "Label": "Venenoso",
         "Contact": "Contact",
         "Ingested": "Ingested",
         "Inhaled": "Inhaled",
@@ -1961,12 +1961,12 @@
   "DND5E.Consumed": "Consumed",
   "DND5E.Copy": "Copy Text",
   "DND5E.Copied": "Copied {value}",
-  "DND5E.Cover": "Cover",
+  "DND5E.Cover": "Capa",
   "DND5E.CoverHalf": "Half",
   "DND5E.CoverThreeQuarters": "Three Quarters",
   "DND5E.CoverTotal": "Total",
   "DND5E.Cost": "Cost",
-  "DND5E.CostGP": "Cost (GP)",
+  "DND5E.CostGP": "Cost (PO)",
   "DND5E.CreatureAberration": "Aberration",
   "DND5E.CreatureAberrationPl": "Aberrations",
   "DND5E.CreatureBeast": "Beast",
@@ -2008,7 +2008,7 @@
   "DND5E.Critical": "Critical",
   "DND5E.CriticalHit": "Critical Hit",
   "DND5E.PowerfulCritical": "Powerful Critical",
-  "DND5E.CRLabel": "CR {cr}",
+  "DND5E.CRLabel": "ND {cr}",
   "DND5E.Currency": "Currency",
   "DND5E.CurrencyAbbrCP": "cp",
   "DND5E.CurrencyAbbrEP": "ep",
@@ -2091,7 +2091,7 @@
               },
               "number": {
                 "label": "Dice Scaling",
-                "abbr": "Dice",
+                "abbr": "Dados",
                 "hint": "Number of dice to increase for each scaling step. Will be applied to the first die found in the damage formula if more than one is present."
               },
               "formula": {
@@ -2129,15 +2129,15 @@
     },
     "Title": "Damage",
     "Type": {
-      "Acid": "Acid",
+      "Acid": "Ácido",
       "Bludgeoning": "Bludgeoning",
-      "Cold": "Cold",
-      "Fire": "Fire",
+      "Cold": "Gélido",
+      "Fire": "Ígneo",
       "Force": "Force",
-      "Lightning": "Lightning",
+      "Lightning": "Elétrico",
       "Necrotic": "Necrotic",
       "Piercing": "Piercing",
-      "Poison": "Poison",
+      "Poison": "Venenoso",
       "Psychic": "Psychic",
       "Radiant": "Radiant",
       "Slashing": "Slashing",
@@ -2208,7 +2208,7 @@
   "DND5E.DetailsEdit": "Edit Details",
   "DND5E.Die": "Die",
   "DND5E.Dimensions": "Dimensions",
-  "DND5E.Disadvantage": "Disadvantage",
+  "DND5E.Disadvantage": "Desvantagem",
   "DND5E.Discord": "Discord",
   "DND5E.Disclaimer": "Disclaimer",
   "DND5E.DisplayCard": "Display in Chat",
@@ -2222,7 +2222,7 @@
   "DND5E.DistMi": "Miles",
   "DND5E.DistMiAbbr": "mi",
   "DND5E.DistSelf": "Self",
-  "DND5E.DistTouch": "Touch",
+  "DND5E.DistTouch": "Toque",
   "DND5E.DocumentUseWarn": "You lack permission to use an item on this document.",
   "DND5E.DocumentViewWarn": "You lack permission to view this document.",
 
@@ -2467,7 +2467,7 @@
   "DND5E.EquipmentShield": "Shield",
   "DND5E.EquipmentShieldProficiency": "Shields",
   "DND5E.Equipped": "Equipped",
-  "DND5E.Exhaustion": "Exhaustion",
+  "DND5E.Exhaustion": "Exaustão",
   "DND5E.ExhaustionLevel": "Exhaustion Level {n}",
 
   "DND5E.ExperiencePoints": {
@@ -2488,7 +2488,7 @@
     "Value": "XP Value"
   },
 
-  "DND5E.Expertise": "Expertise",
+  "DND5E.Expertise": "Especialista",
 
   "DND5E.FACILITY": {
     "Action": {
@@ -2714,7 +2714,7 @@
         "Garden": "Garden",
         "Library": "Library",
         "Sanctuary": "Sanctuary",
-        "Smithy": "Smithy",
+        "Smithy": "Ferraria",
         "Storehouse": "Storehouse",
         "Workshop": "Workshop",
         "GamingHall": "Gaming Hall",
@@ -2732,7 +2732,7 @@
         "Menagerie": "Menagerie",
         "Observatory": "Observatory",
         "Pub": "Pub",
-        "Reliquary": "Reliquary",
+        "Reliquary": "Relicário",
         "Demiplane": "Demiplane",
         "Guildhall": "Guildhall",
         "Sanctum": "Sanctum",
@@ -2753,7 +2753,7 @@
   "DND5E.FEATURE": {
     "FIELDS": {
       "cover": {
-        "label": "Cover",
+        "label": "Capa",
         "hint": "Cover provided to crew by this vehicle feature."
       },
       "properties": {
@@ -2775,12 +2775,12 @@
       "ArcaneShot": "Arcane Shot",
       "ArtificerInfusion": "Artificer Infusion",
       "ArtificerPlan": "Artificer Plan",
-      "ChannelDivinity": "Channel Divinity",
+      "ChannelDivinity": "Canalizar Divindade",
       "DefensiveTactic": "Defensive Tactic",
       "EldritchInvocation": "Eldritch Invocation",
       "ElementalDiscipline": "Elemental Discipline",
-      "FightingStyle": "Fighting Style",
-      "HuntersPrey": "Hunter's Prey",
+      "FightingStyle": "Estilo de Luta",
+      "HuntersPrey": "Presa do Caçador",
       "Ki": "Ki Ability",
       "Maneuver": "Maneuver",
       "Metamagic": "Metamagic Option",
@@ -2788,7 +2788,7 @@
       "PactBoon": "Pact Boon",
       "PsionicPower": "Psionic Power",
       "Rune": "Rune",
-      "SuperiorHuntersDefense": "Superior Hunter's Defense"
+      "SuperiorHuntersDefense": "Defesa do Caçador Superior"
     },
     "Feat": {
       "Label": "Feat",
@@ -2804,7 +2804,7 @@
       "Label": "Supernatural Gift",
       "Blessing": "Blessing",
       "Charm": "Charm",
-      "EpicBoon": "Epic Boon"
+      "EpicBoon": "Bênção Épica"
     },
     "Vehicle": {
       "Label": "Vehicle Feature"
@@ -2873,7 +2873,7 @@
   "DND5E.FeaturesBackground": "Background Features",
   "DND5E.FeaturesClass": "{class} Features",
   "DND5E.FeaturesOther": "Other Features",
-  "DND5E.Feats": "Feats",
+  "DND5E.Feats": "Talentos",
   "DND5E.FeetAbbr": "ft.",
   "DND5E.Filter": "Filter",
   "DND5E.FilterClear": "Clear Filters",
@@ -2906,7 +2906,7 @@
   "DND5E.FlagsAlert": "Alert Feat",
   "DND5E.FlagsAlertHint": "Proficient in Initiative rolls.",
   "DND5E.FlagsAlertHintLegacy": "Provides +5 to Initiative.",
-  "DND5E.FlagsJOAT": "Jack of All Trades",
+  "DND5E.FlagsJOAT": "Pau pra Toda Obra",
   "DND5E.FlagsJOATHint": "Half-Proficiency to Ability Checks in which you are not already Proficient.",
   "DND5E.FlagsObservant": "Observant Feat",
   "DND5E.FlagsObservantHint": "Provides a +5 to passive Perception and Investigation.",
@@ -3082,7 +3082,7 @@
       "HealingShort": "Healing",
       "Maximum": "Maximum Hit Points",
       "MaximumShort": "Max HP",
-      "Temporary": "Temporary Hit Points",
+      "Temporary": "Pontos de Vida Temporários",
       "TemporaryShort": "Temp HP"
     }
   },
@@ -3111,7 +3111,7 @@
   "DND5E.HitPointsMin": "Minimum Hit Points",
   "DND5E.HitPointsOverride": "Maximum Override",
   "DND5E.HitPointsOverrideHint": "Override automatically calculated hit points, ignoring any HP from classes, bonuses, and ability modifier.",
-  "DND5E.HitPointsTemp": "Temporary Hit Points",
+  "DND5E.HitPointsTemp": "Pontos de Vida Temporários",
   "DND5E.HitPointsTempShort": "Temporary HP",
   "DND5E.HitPointsTempMax": "Temporary Maximum",
   "DND5E.HitPointsTempMaxHint": "Temporary change to the maximum HP.",
@@ -3256,7 +3256,7 @@
       "Focus": "Focus",
       "Gear": "Gear",
       "Heavy": "Heavy",
-      "Light": "Light",
+      "Light": "Luz",
       "Loading": "Loading",
       "Material": "Material",
       "Magical": "Magical",
@@ -3333,7 +3333,7 @@
       "CommonSign": "Common Sign Language",
       "DeepSpeech": "Deep Speech",
       "Draconic": "Draconic",
-      "Druidic": "Druidic",
+      "Druidic": "Druídico",
       "Dwarvish": "Dwarvish",
       "Elvish": "Elvish",
       "Giant": "Giant",
@@ -3341,7 +3341,7 @@
       "Gnoll": "Gnoll",
       "Gnomish": "Gnomish",
       "Goblin": "Goblin",
-      "Halfling": "Halfling",
+      "Halfling": "Pequenino",
       "Ignan": "Ignan",
       "Infernal": "Infernal",
       "Orc": "Orc",
@@ -3472,7 +3472,7 @@
       "LegendaryActions": "Legendary Actions",
       "MythicActions": "Mythic Actions",
       "Reactions": "Reactions",
-      "Traits": "Traits"
+      "Traits": "Traços"
     }
   },
 
@@ -3594,7 +3594,7 @@
   "DND5E.RangeNormal": "Normal Range",
   "DND5E.RangeUnits": "Range Type or Units",
   "DND5E.Rarity": "Rarity",
-  "DND5E.Reaction": "Reaction",
+  "DND5E.Reaction": "Reação",
   "DND5E.ReactionAbbr": "R",
   "DND5E.ReactionPl": "Reactions",
   "DND5E.Recharge": "Recharge",
@@ -3712,7 +3712,7 @@
   "DND5E.Remaining": "Remaining",
   "DND5E.RequiredMaterials": "Required Materials",
   "DND5E.Requirements": "Requirements",
-  "DND5E.Resistances": "Resistances",
+  "DND5E.Resistances": "Resistências",
   "DND5E.Resources": "Resources",
   "DND5E.ResourceLabel": "Label",
   "DND5E.ResourceMax": "Resource Maximum",
@@ -3813,7 +3813,7 @@
     "Tooltip": "Tooltip",
     "Type": {
       "Label": "Rule Type",
-      "Condition": "Condition",
+      "Condition": "Condição",
       "Rule": "Rule"
     }
   },
@@ -3846,7 +3846,7 @@
       "Burrow": "Burrow",
       "Climb": "Climb",
       "Fly": "Fly",
-      "Jump": "Jump",
+      "Jump": "Salto",
       "Speed": "Speed",
       "Swim": "Swim",
       "Walk": "Walk"
@@ -3925,10 +3925,10 @@
   "DND5E.Senses": "Senses",
   "DND5E.SensesConfig": "Configure Senses",
   "DND5E.SensesConfigHint": "Configure any special sensory perception abilities that this actor possesses.",
-  "DND5E.SenseDarkvision": "Darkvision",
-  "DND5E.SenseBlindsight": "Blindsight",
-  "DND5E.SenseTremorsense": "Tremorsense",
-  "DND5E.SenseTruesight": "Truesight",
+  "DND5E.SenseDarkvision": "Visão no Escuro",
+  "DND5E.SenseBlindsight": "Visão às Cegas",
+  "DND5E.SenseTremorsense": "Sismiconsciência",
+  "DND5E.SenseTruesight": "Visão Verdadeira",
   "DND5E.SenseUnits": "Units",
   "DND5E.SenseSpecial": "Special Senses",
   "DND5E.Shape": "Shape",
@@ -4084,7 +4084,7 @@
   "DND5E.SpecialHint": "Special values separated by semi-colons.",
   "DND5E.SpecialTraits": "Special Traits",
   "DND5E.Species": {
-    "Label": "Species",
+    "Label": "Espécies",
     "Add": "Add Species",
     "AddLegacy": "Add Race",
     "Features": "Species Features",
@@ -4120,7 +4120,7 @@
   "DND5E.SpellCastUpcast": "Cast at Level",
   "DND5E.SpellcasterLevel": "Spellcaster Level",
   "DND5E.SpellCastingHeader": "Spell Casting",
-  "DND5E.Spellcasting": "Spellcasting",
+  "DND5E.Spellcasting": "Conjuração",
 
   "DND5E.SPELLCASTING": {
     "METHODS": {
@@ -4134,7 +4134,7 @@
         "label": "Ritual Only"
       },
       "Spell": {
-        "label": "Spellcasting",
+        "label": "Conjuração",
         "Full": {
           "label": "Full Caster"
         },
@@ -4157,7 +4157,7 @@
       }
     },
     "SLOTS": {
-      "spell0": "Cantrips",
+      "spell0": "Truques",
       "spell1": "1st Level",
       "spell2": "2nd Level",
       "spell3": "3rd Level",
@@ -4284,7 +4284,7 @@
     },
     "Wealth": {
       "Label": "Starting Wealth",
-      "Hint": "Formula in GP that can be used in place of starting equipment."
+      "Hint": "Formula in PO that can be used in place of starting equipment."
     }
   },
   "DND5E.SubclassAdd": "Add Subclass",
@@ -4361,7 +4361,7 @@
           },
           "cr": {
             "label": "Challenge Rating",
-            "abbr": "CR",
+            "abbr": "ND",
             "hint": "Maximum CR of the summoned creature."
           },
           "level": {
@@ -4788,9 +4788,9 @@
   "DND5E.ToolThieves": "Thieves' Tools",
   "DND5E.ToolVehicle": "Vehicles",
   "DND5E.TraitAll": "All {category}",
-  "DND5E.TraitArmorPlural.one": "Armor Training",
-  "DND5E.TraitArmorPlural.other": "Armor Training",
-  "DND5E.TraitArmorProf": "Armor Training",
+  "DND5E.TraitArmorPlural.one": "Treinamento com Armadura",
+  "DND5E.TraitArmorPlural.other": "Treinamento com Armadura",
+  "DND5E.TraitArmorProf": "Treinamento com Armadura",
   "DND5E.TraitArmorLegacyPlural.one": "Armor Proficiency",
   "DND5E.TraitArmorLegacyPlural.other": "Armor Proficiencies",
   "DND5E.TraitArmorLegacyProf": "Armor Proficiencies",
@@ -4811,22 +4811,22 @@
   "DND5E.TraitDVPlural.one": "Damage Vulnerability",
   "DND5E.TraitDVPlural.other": "Damage Vulnerabilities",
   "DND5E.TraitGenericPlural.one": "Trait",
-  "DND5E.TraitGenericPlural.other": "Traits",
+  "DND5E.TraitGenericPlural.other": "Traços",
   "DND5E.TraitLanguagesPlural.one": "Language",
   "DND5E.TraitLanguagesPlural.other": "Languages",
   "DND5E.TraitSave": "Update",
   "DND5E.TraitSavesPlural.one": "Saving Throw Proficiency",
-  "DND5E.TraitSavesPlural.other": "Saving Throw Proficiencies",
+  "DND5E.TraitSavesPlural.other": "Proficiências em Salvaguardas",
   "DND5E.TraitSelectorSpecial": "Special (Split with Semi-Colon)",
   "DND5E.TraitSkillsPlural.one": "Skill Proficiency",
-  "DND5E.TraitSkillsPlural.other": "Skill Proficiencies",
+  "DND5E.TraitSkillsPlural.other": "Proficiências em Perícias",
   "DND5E.TraitToolPlural.one": "Tool Proficiency",
-  "DND5E.TraitToolPlural.other": "Tool Proficiencies",
-  "DND5E.TraitToolProf": "Tool Proficiencies",
+  "DND5E.TraitToolPlural.other": "Proficiências com Ferramentas",
+  "DND5E.TraitToolProf": "Proficiências com Ferramentas",
   "DND5E.TraitWeaponPlural.one": "Weapon Proficiency",
-  "DND5E.TraitWeaponPlural.other": "Weapon Proficiencies",
-  "DND5E.TraitWeaponProf": "Weapon Proficiencies",
-  "DND5E.Traits": "Traits",
+  "DND5E.TraitWeaponPlural.other": "Proficiências com Armas",
+  "DND5E.TraitWeaponProf": "Proficiências com Armas",
+  "DND5E.Traits": "Traços",
   "DND5E.TraitsChosen": "Chosen Traits",
 
   "DND5E.TRANSFORM": {
@@ -4842,7 +4842,7 @@
         "element": {
           "cr": {
             "label": "Challenge Rating",
-            "abbr": "CR",
+            "abbr": "ND",
             "hint": "Maximum CR of the source creature."
           },
           "level": {
@@ -4909,7 +4909,7 @@
         "Label": "Polymorph"
       },
       "WildShape": {
-        "Label": "Wild Shape"
+        "Label": "Forma Selvagem"
       }
     },
     "Profile": {
@@ -5032,10 +5032,10 @@
           "Label": "Self"
         },
         "Skills": {
-          "Label": "Skill Proficiencies"
+          "Label": "Proficiências em Perícias"
         },
         "Spells": {
-          "Label": "Spells"
+          "Label": "Magias"
         },
         "TempHP": {
           "Label": "Temp HP"
@@ -5049,7 +5049,7 @@
           "Label": "Save Proficiencies"
         },
         "Skills": {
-          "Label": "Skill Proficiencies"
+          "Label": "Proficiências em Perícias"
         }
       }
     },
@@ -5514,7 +5514,7 @@
     "MOUNTABLE": {
       "FIELDS": {
         "cover": {
-          "label": "Cover",
+          "label": "Capa",
           "hint": "Cover provided to crew operating this equipment."
         },
         "crew": {
@@ -5602,15 +5602,15 @@
       }
     },
     "Mastery": {
-      "Label": "Weapon Mastery",
+      "Label": "Maestria com Armas",
       "Flavor": "Mastery",
       "Cleave": "Cleave",
       "Graze": "Graze",
       "Nick": "Nick",
-      "Push": "Push",
+      "Push": "Empurrar",
       "Sap": "Sap",
       "Slow": "Slow",
-      "Topple": "Topple",
+      "Topple": "Derrubar",
       "Vex": "Vex"
     }
   },
@@ -5643,7 +5643,7 @@
     "CheckShort": "{check}",
     "CheckLong": "{check} check",
     "CheckUsing": "{check} using {tool}",
-    "DamageExtended": "<em>Hit:</em> {damage} damage",
+    "DamageExtended": "<em>Acerto:</em> {damage} damage",
     "DamageDouble": "{first} plus {second}",
     "DamageShort": "{formula} {type}",
     "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",
@@ -5685,7 +5685,7 @@
     "StatusHeavilyEncumbered": "Heavily Encumbered",
     "StatusHiding": "Hiding",
     "StatusHovering": "Hovering",
-    "StatusMalnutrition": "Malnutrition",
+    "StatusMalnutrition": "Desnutrição",
     "StatusMarked": "Marked",
     "StatusSilenced": "Silenced",
     "StatusSleeping": "Sleeping",
@@ -5746,7 +5746,7 @@
       "Features": {
         "DescriptionLegacy": "As a {lowercaseName}, you gain the following class features, which are summarized in the {name} table.",
         "DescriptionModern": "As a {name}, you gain the following class features when you reach the specified {name} levels. These features are listed in the {name} Features table.",
-        "Header": "Class Features",
+        "Header": "Características de Classe",
         "Name": "Level {level}: {name}"
       },
       "HitPoints": {
@@ -5922,7 +5922,7 @@
       }
     },
     "NPCS": {
-      "Name": "NPCs",
+      "Name": "PNJs",
       "AutoRecharge": {
         "Name": "Recharge Abilities",
         "Hint": "Roll to recharge NPC abilities automatically at the start of the NPC's turn.",

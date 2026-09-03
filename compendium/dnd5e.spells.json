@@ -1010,7 +1010,7 @@
       "name": "Corda Extradimensional"
     },
     "Sacred Flame": {
-      "description": "<p>Uma irradiação instantânea semelhante a uma chama irrompe em uma criatura à sua vista, no alcance da magia. O alvo deve fazer uma salvaguarda de Destreza. Se falhar, sofre 1d8 pontos de dano radiante. O alvo não tem benefício algum de cobertura para essa salvaguarda.</p>\n<p>O dano desta magia aumenta em 1d8 quando você alcança o 5º nível (2d8), 11º nível (3d8) e 17º nível (4d8).</p>",
+      "description": "<p>Uma irradiação semelhante a uma chama irrompe em uma criatura que você possa ver dentro da distância da magia. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza. Se falhar, sofre 1d8 pontos de dano radiante. O alvo não tem benefício algum de cobertura parcial ou cobertura de três quartos para esta salvaguarda.</p>\n<p>O dano aumenta em 1d8 quando você atinge os níveis 5 (2d8),  11 (3d8) e 17 (4d8).</p>",
       "name": "Chama Sagrada"
     },
     "Sanctuary": {

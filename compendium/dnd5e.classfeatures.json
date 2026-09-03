@@ -675,7 +675,7 @@
       "description": "<p>No 20° nível, se você não tiver pontos de chi restantes ao rolar a iniciativa, recupera 4 pontos de chi.</p>"
     },
     "Persistent Rage": {
-      "name": "Fúria Persistente",
+      "name": "Fúria Implacável",
       "description": "<p>A partir do 15° nível, sua @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Fúria} é tão intensa que só terminará prematuramente se você ficar inconsciente ou escolher encerrá-la.</p>"
     },
     "Potent Cantrip": {
