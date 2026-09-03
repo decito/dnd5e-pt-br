@@ -1,129 +1,722 @@
 {
-  "label": "Tabelas",
+  "label": "Tabelas (SRD)",
   "entries": {
-    "Armor of Resistance": {
-      "name": "Armor of Resistance",
-      "description": ""
-    },
-    "Bag of Beans": {
-      "name": "Bag of Beans",
-      "description": ""
-    },
     "Bonds (Acolyte)": {
-      "name": "Bonds (Acolyte)",
-      "description": ""
-    },
-    "Candle of Invocation": {
-      "name": "Candle of Invocation",
-      "description": ""
-    },
-    "Carpet of Flying": {
-      "name": "Carpet of Flying",
-      "description": ""
-    },
-    "Confusion": {
-      "name": "Confusion",
-      "description": ""
-    },
-    "Efreeti Bottle": {
-      "name": "Efreeti Bottle",
-      "description": ""
-    },
-    "Feather Token": {
-      "name": "Feather Token",
-      "description": "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect."
+      "name": "Vínculos (Acólito)",
+      "results": {
+        "1-1": {
+					"description": "Eu seria capaz de morrer para recuperar uma antiga relíquia da minha fé, há muito perdida."
+        },
+        "2-2": {
+					"description": "Um dia, terei minha vingança contra a hierarquia corrupta do templo, que me declarou herege."
+        },
+        "3-3": {
+					"description": "Eu devo minha vida ao sacerdote que me acolheu quando meus pais morreram."
+        },
+        "4-4": {
+					"description": "Tudo o que faço é pelas pessoas comuns."
+        },
+        "5-5": {
+					"description": "Farei qualquer coisa para proteger o templo onde servi."
+        },        
+        "6-6": {
+					"description": "Eu procuro preservar um texto sagrado que meus inimigos consideram herético e desejam destruir."
+        }
+      }
     },
     "Flaws (Acolyte)": {
-      "name": "Flaws (Acolyte)",
-      "description": ""
-    },
-    "Grey Bag of Tricks": {
-      "name": "Grey Bag of Tricks",
-      "description": ""
-    },
-    "Horn of Valhalla": {
-      "name": "Horn of Valhalla",
-      "description": ""
+      "name": "Fraquezas (Acólito)",
+      "results": {
+        "1-1": {
+					"description": "Eu julgo os outros de forma dura, e a mim mesmo de modo ainda mais severo."
+        },
+        "2-2": {
+					"description": "Eu deposito muita confiança naqueles que exercem o poder na hierarquia do meu templo."
+        },
+        "3-3": {
+					"description": "Minha piedade, por vezes, me leva a confiar cegamente naqueles que professam a fé na minha divindade."
+        },
+        "4-4": {
+					"description": "Eu sou inflexível no meu modo de pensar."
+        },
+        "5-5": {
+					"description": "Eu desconfio de estranhos e sempre espero o pior deles."
+        },
+        "6-6": {
+					"description": "Quando escolho um objetivo, fico obcecado com ele, em detrimento de tudo o mais na minha vida."
+        }
+      }
     },
     "Ideals (Acolyte)": {
-      "name": "Ideals (Acolyte)",
-      "description": ""
+      "name": "Ideais (Acólito)",
+      "results": {
+        "1-1": {
+					"description": "Tradição. As antigas tradições de adoração e sacrifício devem ser preservadas e mantidas (Ordeiro)."
+        },
+        "2-2": {
+					"description": "Caridade. Eu sempre tento ajudar aqueles em necessidade, não importa o custo pessoal (Bom)."
+        },
+        "3-3": {
+					"description": "Mudança. Devemos ajudar a trazer as mudanças que os deuses estão constantemente planejando para o mundo (Caótico)."
+        },
+        "4-4": {
+					"description": "Poder. Espero um dia subir até o topo da hierarquia religiosa da minha fé (Ordeiro)."
+        },
+        "5-5": {
+					"description": "Fé. Creio que minha divindade guiará minhas ações. Tenho fé que, se eu me esforçar, tudo vai correr bem (Ordeiro)."
+        },
+        "6-6": {
+					"description": "Aspiração. Procuro provar que sou digno do favor da minha divindade ao orientar minhas ações segundo os seus ensinamentos (Qualquer)."
+        }
+      }
     },
     "Indefinite Madness": {
-      "name": "Indefinite Madness",
-      "description": "The character is afflicted with indefinite madness."
-    },
-    "Iron Flask": {
-      "name": "Iron Flask",
-      "description": ""
+      "name": "Insanidade Permanente",
+      "description": "<p>Fraqueza (dura até ser curada)</p>",
+      "results": {
+        "1-15": {
+					"description": "\"Ficar bêbado me mantém são\"."
+        },
+        "16-25": {
+					"description": "\"Eu guardo tudo o que encontro\"."
+        },
+        "26-30": {
+					"description": "\"Eu tento me tornar mais parecido com alguém que conheço - adotando seu estilo de se vestir, maneirismos e nome\"."
+        },
+        "31-35": {
+					"description": "\"Eu devo distorcer a verdade, exagerar ou mentir descaradamente para ser interessante para outras pessoas\"."
+        },
+        "36-45": {
+					"description": "\"Alcançar meu objetivo é a única coisa que me interessa, e vou ignorar todo o resto em busca disso\"."
+        },
+        "46-50": {
+					"description": "\"Eu acho difícil me importar com qualquer coisa que se passe ao meu redor\"."
+        },
+        "51-55": {
+					"description": "\"Eu não gosto de como as pessoas me julgam o tempo todo\"."
+        },
+        "56-70": {
+					"description": "\"Eu sou a pessoa mais inteligente, sábia, forte, rápida e bonita que conheço\"."
+        },
+        "71-80": {
+					"description": "\"Estou convencido de que inimigos poderosos estão me caçando, e seus agentes estão aonde quer que eu vá. Eu tenho certeza de que eles estão me vigiando o tempo todo\"."
+        },
+        "81-85": {
+					"description": "\"Há somente uma pessoa em quem posso confiar. E só eu posso ver este amigo especial\"."
+        },
+        "86-95": {
+					"description": "\"Eu não levo nada a sério. Quanto mais grave a situação, mais engraçada eu a acho\"."
+        },
+        "96-100": {
+					"description": "\"Eu descobri que realmente gosto de matar pessoas\"."
+        }
+      }
     },
     "Long-Term Madness": {
-      "name": "Long-Term Madness",
-      "description": "<p>The character is afflicted with long-term madness for [[/r 1d10*10]] hours.</p>"
-    },
-    "Manual of Golems": {
-      "name": "Manual of Golems",
-      "description": ""
-    },
-    "Necklace of Prayer Beads": {
-      "name": "Necklace of Prayer Beads",
-      "description": ""
+      "name": "Insanidade de Longa Duração",
+      "description": "<p>Efeito (dura [[/r 1d10*10]]{1d10 x 10} horas)</p>",
+      "results": {
+        "1-10": {
+					"description": "O personagem se sente compelido a repetir uma atividade específica de novo e de novo, como lavar as mãos, tocar nas coisas, orar ou contar moedas."
+        },
+        "11-20": {
+					"description": "O personagem experimenta alucinações vívidas e tem desvantagem em testes de atributo."
+        },
+        "21-30": {
+					"description": "O personagem sofre de paranoia extrema. Ele tem desvantagem em testes de Sabedoria e Carisma."
+        },
+        "31-40": {
+					"description": "O personagem trata algo (geralmente a origem da insanidade) com intensa repulsa, como se estivesse afetado pelo efeito da magia @UUID[Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH]{Antipatia/Simpatia}."
+        },
+        "41-45": {
+					"description": "O personagem experimenta um forte delírio. Escolha uma poção. O personagem acredita que está sob os efeitos dessa poção."
+        },
+        "46-55": {
+					"description": "O personagem torna-se dependente de um \"amuleto da sorte,\" como uma pessoa ou um objeto, e tem desvantagem nas jogadas de ataque, testes de atributo e salvaguardas quando estiver a mais de 9 metros dele."
+        },
+        "56-65": {
+					"description": "O personagem fica &amp;Reference[blinded]{cego} (25%) ou &amp;Reference[deafened]{surdo} (75%)."
+        },
+        "66-75": {
+					"description": "O personagem experimenta tremores incontroláveis ou tiques nervosos, que impõem desvantagem nas suas jogadas de ataque, testes de atributo e salvaguardas que envolvam Força ou Destreza."
+        },
+        "76-85": {
+					"description": "O personagem sofre amnésia parcial. Ele conhece a própria identidade e mantém traços raciais e características de classe, mas não reconhece outras pessoas ou se lembra de nada que tenha acontecido antes da insanidade surtir efeito."
+        },
+        "86-90": {
+					"description": "Sempre que sofrer dano, o personagem deve ser bem-sucedido em uma salvaguarda de [[/save wis 15]] ou ser afetado como se tivesse falhado em uma salvaguarda contra a magia @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{Confusão}. Este efeito dura 1 minuto."
+        },
+        "91-95": {
+					"description": "O personagem perde a capacidade de falar."
+        },
+        "96-100": {
+					"description": "O personagem fica &amp;Reference[unconscious]{inconsciente}. Nenhuma quantidade de sacudidas ou dano pode acordar o personagem."
+        }
+      }
     },
     "Personality Traits (Acolyte)": {
-      "name": "Personality Traits (Acolyte)",
-      "description": ""
-    },
-    "Potion of Resistance": {
-      "name": "Poção de Resistência",
-      "description": ""
-    },
-    "Reincarnate": {
-      "name": "Reincarnar",
-      "description": ""
-    },
-    "Ring of Resistance": {
-      "name": "Anel de Resistência",
-      "description": ""
-    },
-    "Robe of Useful Items": {
-      "name": "Manto de Itens Úteis",
-      "description": ""
-    },
-    "Rust Bag of Tricks": {
-      "name": "Bolsa Ferrugenta de Truques",
-      "description": ""
-    },
-    "Sentient Magic Items Alignment": {
-      "name": "Alinhamento de Itens Mágicos Sentientes",
-      "description": ""
-    },
-    "Sentient Magic Items Communication": {
-      "name": "Sentient Magic Items Communication",
-      "description": ""
-    },
-    "Sentient Magic Items Purpose": {
-      "name": "Sentient Magic Items Purpose",
-      "description": ""
-    },
-    "Sentient Magic Items Senses": {
-      "name": "Sentient Magic Items Senses",
-      "description": ""
+      "name": "Traço de Personalidade (Acólito)",
+      "results": {
+        "1-1": {
+					"description": "Eu idolatro um determinado herói da minha fé e me refiro constantemente aos seus exemplos e ações."
+        },
+        "2-2": {
+					"description": "Eu posso criar uma ponte entre os inimigos mais ferozes, sentir empatia para com eles e sempre trabalhar na busca pela paz."
+        },
+        "3-3": {
+					"description": "Eu vejo presságios em todos os eventos e ações. Os deuses tentam falar conosco, só precisamos ouvir."
+        },
+        "4-4": {
+					"description": "Nada pode abalar minha atitude otimista."
+        },
+        "5-5": {
+					"description": "Eu cito (corretamente ou não) textos sagrados e provérbios em quase todas as situações."
+        },
+        "6-6": {
+					"description": "Eu sou tolerante (ou intolerante) para com outras religiões, e respeito (ou condeno) a adoração a outros deuses."
+        },
+        "7-7": {
+					"description": "Eu desfrutava de boa comida, bebida e da alta sociedade na elite do meu templo. A vida dura me irrita."
+        },
+        "8-8": {
+					"description": "Eu passei tanto tempo no templo que possuo pouca experiência em lidar com as pessoas no mundo exterior."
+        }
+      }
     },
     "Short-Term Madness": {
-      "name": "Short-Term Madness",
-      "description": "<p>The character is afflicted with short-term madness for [[/r 1d10]] minutes.</p>"
+      "name": "Insanidade de Curta Duração",
+      "description": "<p>Efeito (dura [[/r 1d10]] minutos)</p>",
+      "results": {
+        "1-20": {
+					"description": "O personagem retira-se para dentro de sua própria mente e fica &amp;Reference[paralyzed]{paralisado}. O efeito termina se o personagem sofrer qualquer dano."
+        },
+        "21-30": {
+					"description": "O personagem fica  &amp;Reference[incapacitated]{incapacitado} e passa esse tempo gritando, rindo ou chorando."
+        },
+        "31-40": {
+					"description": "O personagem fica &amp;Reference[frightened]{amedrontado} e deve usar sua ação e movimento a cada rodada para fugir da fonte do medo."
+        },
+        "41-50": {
+					"description": "O personagem começa a balbuciar e é incapaz de falar normalmente ou conjurar."
+        },
+        "51-60": {
+					"description": "O personagem deve usar sua ação a cada rodada para atacar a criatura mais próxima."
+        },
+        "61-70": {
+					"description": "O personagem experimenta alucinações vívidas e tem desvantagem em testes de atributo."
+        },
+        "71-75": {
+					"description": "O personagem obedece às ordens de qualquer um, desde que isso não seja obviamente autodestrutivo."
+        },
+        "76-80": {
+					"description": "O personagem experimenta uma vontade irresistível de comer algo estranho, como terra, lodo ou dejetos."
+        },
+        "81-90":{
+					"description":  "O personagem fica &amp;Reference[stunned]{atordoado}."
+        },
+        "91-100": {
+					"description": "O personagem fica &amp;Reference[unconscious]{inconsciente}."
+        }
+      }
+    },
+    "Armor of Resistance": {
+      "name": "Armadura de Resistência",
+      "results": {
+        "1-1": {
+					"description": "Ácido"
+        },
+        "2-2": {
+					"description": "Elétrico"
+        },
+        "4-4": {
+					"description": "Energético"
+        },
+        "3-3": {
+					"description": "Venenoso"
+        },
+        "5-5": {
+					"description": "Gélido"
+        },
+        "6-6": {
+					"description": "Ígneo"
+        },
+        "7-7": {
+					"description": "Necrótico"
+        },
+        "8-8": {
+					"description": "Psíquico"
+        },
+        "9-9": {
+					"description": "Radiante"
+        },
+        "10-10": {
+					"description": "Trovejante"
+        }
+      }
+    },
+    "Bag of Beans": {
+      "name": "Bolsa de Feijões",
+      "results": {
+        "1-1": {
+					"description": "[[/r 5d4]] cogumelos brotam. Se uma criatura comer um deles, jogue qualquer dado. Caso o resultado seja ímpar, a criatura deve ser bem-sucedida em uma salvaguarda de [[/save con 15]] ou sofre [[/damage 5d6 poison]]{5d6} pontos de dano venenoso, ficando  &Reference[poisoned]{envenenada} por 1 hora. Caso o resultado seja par, a criatura recebe [[/heal 5d6 temp]]{5d6} de pontos de vida temporários por 1 hora."
+        },
+        "2-10": {
+					"description": "Um gêiser entra em erupção e jorra água, cerveja, suco de amoras, chá, vinagre, vinho ou óleo (à escolha do DM), a uma altura de 9 metros durante [[/r 1d12]] rodadas."
+        },
+        "11-20": {
+					"description": "Um @UUID[Compendium.dnd5e.monsters.Actor.NB6wUgVqeOQtsQKu]{Ent} brota. Há uma chance de 50% de o ent ser caótico e mau e atacar."
+        },
+        "21-30": {
+					"description": "Uma estátua sua, animada porém incapaz de se deslocar, surge. Ela o ameaça verbalmente. Se você se afastar dela e outras criaturas se aproximarem, ela o descreve como o mais hediondo dos vilões e sugere aos recém-chegados que o encontrem e ataquem. Se você estiver no mesmo plano de existência da estátua, ela sabe onde você está. A estátua torna-se inanimada após 24 horas ."
+        },
+        "31-40": {
+					"description": "Uma fogueira com chamas azuis aparece e queima por 24 horas (ou até ser apagada)."
+        },
+        "41-50": {
+					"description": "[[/r 1d6 + 6]] @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{Guinchadores} brotam."
+        },
+        "51-60": {
+					"description": "[[/r 1d4 + 8]] sapos rosa-choque surgem do local em que o feijão foi plantado. Sempre que um sapo é tocado, ele se transforma em uma criatura de tamanho Grande ou menor à escolha do DM. O monstro permanece por 1 minuto e, em seguida, desaparece em uma nuvem de fumaça rosa-choque."
+        },
+        "61-70": {
+					"description": "Um @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{Bulete} surge do solo e ataca."
+        },
+        "71-80": {
+					"description": "Uma árvore frutífera cresce. Ela tem [[/r 1d10 + 20]] frutos, [[/r 1d8]] dos quais agem como poções mágicas determinadas aleatoriamente, enquanto um age como um veneno de ingestão à escolha do DM. A árvore desaparece após 1 hora. Frutos colhidos permanecem, conservando qualquer propriedade mágica por 30 dias."
+        },
+        "81-90": {
+					"description": "Um ninho com [[/r 1d4 + 3]] ovos surge. Qualquer criatura que coma um ovo deve fazer uma salvaguarda de [[/save con 20]]. Em caso de sucesso, a criatura aumenta permanentemente seu menor valor de atributo em 1, sorteando caso haja valores igualmente baixos. Se falhar, sofre [[/damage 10d6 force]]{10d6} pontos de dano energético devido a uma explosão mágica interna."
+        },
+        "91-99": {
+					"description": "Uma pirâmide com uma base quadrada de 78 metros de lado irrompe do solo. Dentro dela há um sarcófago contendo uma @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{Múmia Real}. A pirâmide é tratada como o covil da múmia real, e o sarcófago contém tesouro à escolha do DM."
+        },
+        "100-100": {
+					"description": "Um pé de feijão gigante brota, crescendo até uma altura à escolha do DM. O topo leva aonde o DM determinar, seja um local com uma bela vista, o castelo de um gigante das nuvens ou outro plano de existência."
+        }
+      }
+    },
+    "Candle of Invocation": {
+      "name": "Vela de Invocação",
+      "results": {
+        "1-2":  {
+					"description": "Caótico e mau"
+        },
+        "3-4":  {
+					"description": "Caótico e neutro"
+        },
+        "5-7":  {
+					"description": "Caótico e bom"
+        },
+        "8-9":  {
+					"description": "Neutro e mau"
+        },
+        "10-11":  {
+					"description": "Neutro"
+        },
+        "12-13":  {
+					"description": "Neutro e bom"
+        },
+        "14-15":  {
+					"description": "Ordeiro e mau"
+        },
+        "16-17":  {
+					"description": "Ordeiro e neutro"
+        },
+        "18-20":  {
+					"description": "Ordeiro e bom"
+        }
+      }
+    },
+    "Carpet of Flying": {
+      "name": "Tapete Voador"
+    },
+    "Confusion": {
+      "name": "Confusão",
+      "results": {
+        "1-1": {
+					"description": "A criatura usa todo o deslocamento dela para se movimentar em uma direção aleatória. Para determinar a direção, jogue [[/r 1d8]] e atribua uma direção para cada face do dado. A criatura não executa uma ação neste turno."
+        },
+        "2-6": {
+					"description": "A criatura não se move e nem executa ações neste turno."
+        },
+        "7-8": {
+					"description": "A criatura usa a ação dela para fazer um ataque corpo a corpo contra uma criatura determinada aleatoriamente e que esteja no alcance dela. Se não houver nenhuma criatura dentro do alcance, a criatura não faz nada neste turno."
+        },
+        "9-10": {
+					"description": "A criatura pode agir e mover-se normalmente."
+        }
+      }
+    },
+    "Efreeti Bottle": {
+      "name": "Garrafa Ifriti",
+      "results": {
+        "1-10": {
+					"description": "O ifriti o ataca. Após lutar por 5 rodadas, ele desaparece e a garrafa perde seu efeito mágico."
+        },
+        "11-90": {
+					"description": "O ifriti lhe serve durante 1 hora, fazendo o que você ordenar. Em seguida, ele retorna para a garrafa e uma nova rolha a fecha. A rolha não pode ser removida pelas próximas 24 horas. As próximas duas vezes que a garrafa for aberta, o mesmo efeito ocorre. Se a garrafa for aberta uma quarta vez, o ifriti escapa e desaparece, e a garrafa perde seu efeito mágico."
+        },
+        "91-100": {
+					"description": "O ifriti pode conjurar a magia @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desejo} três vezes para você. Ele desaparece ao conceder o desejo final ou após 1 hora, e a garrafa perde seu efeito mágico."
+        }
+      }
+    },
+    "Grey Bag of Tricks": {
+      "name": "Bolsa de Truques (Cinza)"
+    },
+    "Horn of Valhalla": {
+      "name": "Trombeta de Valhalla"
+    },
+    "Iron Flask": {
+      "name": "Frasco de Ferro",
+      "results": {
+        "1-50": {
+					"description": "Vazia"
+        },
+        "51-54": {
+					"description": "Demônio (tipo 1)"
+        },
+        "55-58": {
+					"description": "Demônio (tipo 2)"
+        },
+        "59-62": {
+					"description": "Demônio (tipo 3)"
+        },
+        "63-64": {
+					"description": "Demônio (tipo 4)"
+        },
+        "65-65": {
+					"description": "Demônio (tipo 5)"
+        },
+        "66-66": {
+					"description": "Demônio (tipo 6)"
+        },
+        "68-69": {
+					"description": "Diabo (maior)"
+        },
+        "70-73": {
+					"description": "Diabo (menor)"
+        },
+        "78-83": {
+					"description": "Elemental (qualquer)"
+        }
+      }
+    },
+    "Necklace of Prayer Beads": {
+      "name": "Colar de Contas de Oração",
+      "results": {
+        "1-6": {
+					"description": "Conta de Abençoar"
+        },
+        "7-12": {
+					"description": "Conta de Curar"
+        },
+        "13-16": {
+					"description": "Conta de Favorecer"
+        },
+        "17-18": {
+					"description": "Conta de Destruir"
+        },
+        "19-19": {
+					"description": "Conta de Invocar"
+        },
+        "20-20": {
+					"description": "Conta de Caminhar no Vento"
+        }
+      }
+    },
+    "Potion of Resistance": {
+      "name": "Poção de Resistência"
+    },
+    "Reincarnate": {
+      "name": "Reencarnar",
+      "results": {
+        "1-4": {
+					"description": "Dragonborn"
+        },
+        "5-13": {
+					"description": "Anão da Colina"
+        },
+        "14-21": {
+					"description": "Anão da Montanha"
+        },
+        "22-25": {
+					"description": "Elfo Obscuro (Drow)"
+        },
+        "26-34": {
+					"description": "Elfo, Alto"
+        },
+        "35-42": {
+					"description": "Elfo Silvestre"
+        },
+        "43-46": {
+					"description": "Gnomo dos Bosques"
+        },
+        "47-52": {
+					"description": "Gnomo das Rochas"
+        },
+        "53-56": {
+					"description": "Meio-Elfo"
+        },
+        "57-60": {
+					"description": "Meio-Orc"
+        },
+        "61-68": {
+					"description": "Halfling Pés-Ligeiros"
+        },
+        "69-76": {
+					"description": "Halfling Robusto"
+        },
+        "77-96": {
+					"description": "Humano"
+        },
+        "97-100": {
+					"description": "Tiefling"
+        }
+      }
+    },
+    "Ring of Resistance": {
+      "name": "Anel de Resistência"
+    },
+    "Robe of Useful Items": {
+      "name": "Túnica dos Itens Úteis",
+      "results": {
+        "1-8": {
+					"description": "Bolsa com 100 PO"
+        },
+        "9-15": {
+					"description": "Cofre de prata (30 centímetros de comprimento, 15 centímetros de largura e profundidade) no valor de 500 PO"
+        },
+        "16-22": {
+					"description": "Porta de ferro (até 3 metros de largura e 3 metros de altura, barrada em um dos lados à sua escolha) que você pode colocar em uma abertura ao seu alcance; ela se ajusta de acordo com a abertura, encaixando-se e articulando-se sozinha"
+        },
+        "23-30": {
+					"description": "10 pedras preciosas no valor de 100 PO cada"
+        },
+        "31-44": {
+					"description": "Escada de madeira (7 metros de comprimento)"
+        },
+        "45-51": {
+					"description": "Um @UUID[Compendium.dnd5e.monsters.Actor.rz8UTUnFT87BsAFR]{Cavalo de Montaria} com bolsas de sela"}
+          ,
+        "52-59": {
+					"description": "Fosso (um cubo de 3 metros de lado), que você pode colocar no chão a até 3 metros de você"
+        },
+        "60-68": {
+					"description": "4 @UUID[Compendium.dnd5e.items.Item.ytlsBjYsZ7OBSEBs]{Poção de Cura}"
+        },
+        "69-75": {
+					"description": "Barco a remo (4 metros de comprimento)"
+        },
+        "76-83": {
+					"description": "Pergaminho mágico contendo uma magia de 1° a 3° círculo"
+        },
+        "84-90": {
+					"description": "2 @UUID[Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA]{Mastins}"
+        },
+        "91-96": {
+					"description": "Janela (60 centímetros por 1,2 metro, até 60 centímetros de profundidade), que você pode colocar em uma superfície vertical ao seu alcance"
+        },
+        "97-100": {
+					"description": "@UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Aríete Portátil}"
+        }
+      }
+    },
+    "Sentient Magic Items Communication": {
+      "name": "Comunicação de Itens Mágicos Sencientes",
+      "results": {
+        "1-60": {
+					"description": "O item se comunica com seu portador transmitindo emoções."
+        },
+        "61-90": {
+					"description": "O item pode falar, ler e compreender um ou mais idiomas."
+        },
+        "91-100": {
+					"description": "O item pode falar, ler e compreender um ou mais idiomas. Além disso, ele pode se comunicar telepaticamente com seu portador."
+        }
+      }
+    },
+    "Sentient Magic Items Purpose": {
+      "name": "Proposito de Itens Mágicos Sencientes",
+      "results": {
+        "1-1": {
+					"description": "Alinhado: o item busca derrotar ou destruir aqueles de alinhamento diretamente oposto ao dele. (Um item com este propósito nunca é neutro.)"
+        },
+        "2-2": {
+					"description": "Flagelo: o item busca derrotar ou destruir criaturas de um tipo em particular, como ínferos, magos, metamorfos ou trolls."
+        },
+        "3-3": {
+					"description": "Protetor: o item busca defender um raça específica ou tipo de criatura, como elfos ou druidas."
+        },
+        "4-4": {
+					"description": "Cruzado: o item busca derrotar, enfraquecer ou destruir os servos de uma divindade em particular."
+        },
+        "5-5": {
+					"description": "Templário: o item busca defender os servos e interesses de uma divindade em particular."
+        },
+        "6-6": {
+					"description": "Destruidor: o item almeja destruição e incita seu portador a lutar de modo arbitrário."
+        },
+        "7-7": {
+					"description": "Buscador de Glória: o item busca fama como o maior item mágico no mundo, tornando seu portador uma figura famosa ou notória."
+        },
+        "8-8": {
+					"description": "Buscador de Conhecimento: o item almeja conhecimento ou está determinado a solucionar um mistério, descobrir um segredo ou desvendar uma profecia enigmática."
+        },
+        "9-9": {
+					"description": "Buscador de Destino: o item está convencido de que seu portador é parte importante de eventos futuros."
+        },
+        "10-10": {
+					"description": "Buscador do Criador: o item busca seu criador e quer entender a razão de sua criação."
+        }
+      }
+    },
+    "Sentient Magic Items Senses": {
+      "name": "Sentidos de Itens Mágicos Sencientes",
+      "results": {
+        "1-1": {
+					"description": "Audição e visão normais a até 9 metros."
+        },
+        "2-2": {
+					"description": "Audição e visão normais a até 18 metros."
+        },
+        "3-3": {
+					"description": "Audição e visão normais a até 36 metros."
+        },
+        "4-4": {
+					"description": "Audição e visão no escuro a até 36 metros."
+        }
+      }
     },
     "Sphere of Annihilation": {
-      "name": "Sphere of Annihilation",
-      "description": ""
-    },
-    "Tan Bag of Tricks": {
-      "name": "Tan Bag of Tricks",
-      "description": ""
+      "name": "Esfera da Aniquilação",
+      "results": {
+        "1-50": {
+					"description": "A esfera é destruída."
+        },
+        "51-85": {
+					"description": "A esfera se move através ou para dentro do espaço extradimensional."
+        },
+        "86-100": {
+					"description": "Uma fenda espacial envia cada criatura e objeto a até 54 metros da esfera, incluindo a própria esfera, para um plano de existência aleatório."
+        }
+      }
     },
     "Wand of Wonder": {
-      "name": "Wand of Wonder",
-      "description": ""
+      "name": "Varinha das Maravilhas",
+      "results": {
+        "1-5": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Lentidão}."
+        },
+        "6-10": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{Fogo das Fadas}."
+        },
+        "11-15": {
+					"description": "Você fica &Reference[Stunned]{atordoado} até o início do seu próximo turno, acreditando que algo fenomenal acabou de acontecer."
+        },
+        "16-20": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Lufada de Vento}."
+        },
+        "21-25": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detectar Pensamentos} em um alvo à sua escolha. Se não tiver escolhido uma criatura como alvo, em vez disso você sofre [[/damage 1d6 psychic]]{1d6} pontos de dano psíquico."
+        },
+        "26-30": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Nuvem Fétida}."
+        },
+        "31-33": {
+					"description": "Chuva forte cai em um raio de 18 metros centrado no alvo. A área torna-se parcialmente obscurecida. A chuva cai até o início do seu próximo turno."
+        },
+        "34-36": {
+					"description": "Um animal aparece no espaço desocupado mais próximo do alvo. O animal não está sob seu controle e age normalmente. Jogue [[/r 1d100]] para determinar qual animal aparece. Entre 01-25, aparece um @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]{Rinoceronte} entre 26-50, aparece um @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]{Elefante}; e entre 51-100, aparece um @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]{Rato}."
+        },
+        "37-46": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Relâmpago}."
+        },
+        "47-49": {
+					"description": "Uma nuvem de 600 borboletas gigantes preenche um raio de 9 metros centrado no alvo. A área torna-se totalmente obscurecida. As borboletas permanecem por 10 minutos."
+        },
+        "50-53": {
+					"description": "Você aumenta o alvo como se tivesse conjurado @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Aumentar/Reduzir}. Se o alvo não puder ser afetado por esta magia , ou se você não escolheu uma criatura como alvo, você se torna o alvo."
+        },
+        "54-58": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Escuridão}."
+        },
+        "59-62": {
+					"description": "Grama cresce sobre o solo em um raio de 18 metros centrado no alvo. Se já houver grama no local, esta cresce dez vezes o tamanho normal e permanece desta forma por 1 minuto."
+        },
+        "63-65": {
+					"description": "Um objeto à escolha do DM desaparece, indo para o Plano Etéreo. O objeto não deve estar sendo usado nem carregado, devendo estar a até 36 metros do alvo e não deve ser maior do que 3 metros em qualquer dimensão."
+        },
+        "66-69": {
+					"description": "Você encolhe como se tivesse conjurado @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Aumentar/Reduzir} em si mesmo."
+        },
+        "70-79": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Bola de Fogo}."
+        },
+        "80-84": {
+					"description": "Você conjura @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibilidade} em si mesmo."
+        },
+        "85-87": {
+					"description": "Folhas crescem no alvo. Se você escolheu um ponto no espaço como alvo, folhas brotam da criatura mais próxima desse ponto. A menos que sejam arrancadas, as folhas ficam marrons e caem após 24 horas."
+        },
+        "88-90": {
+					"description": "Um fluxo de [[/r 1d4 * 10]]{1d4 x 10} gemas, cada uma valendo 1 PO, é disparado a partir da ponta da varinha em uma linha de 9 metros de comprimento e 1,5 metro de largura. Cada gema causa 1 ponto de dano contundente, e o dano total das gemas é dividido igualmente entre todas as criaturas na linha."
+        },
+        "91-95": {
+					"description": "Uma rajada de luz cintilante e colorida estende-se a partir de você em um raio de 9 metros. Você e cada criatura na área que possa enxergar devem ser bemsucedidos em uma salvaguarda de [[/save con 15]] ou ficam &Reference[Blinded]{cegos} por 1 minuto. Uma criatura pode repetir a salvaguarda no final de cada um dos turnos dela, encerrando o efeito sobre si em caso de sucesso."
+        },
+        "96-97": {
+					"description": "A pele do alvo assume um tom azul brilhante por [[/r 1d10]] dias. Se você escolheu um ponto no espaço, a criatura mais próxima desse ponto é afetada."
+        },
+        "98-100": {
+					"description": "Se você escolheu como alvo uma criatura, esta deve fazer uma salvaguarda de [[/save con 15]]. Se não escolheu uma criatura como alvo, você se torna o alvo e deve fazer a salvaguarda. Se falhar por 5 ou mais, o alvo é instantaneamente &Reference[Petrified]{petrificado}. Em qualquer outra falha, o alvo fica &Reference[Restrained]{contido} e começa a se transformar em pedra. Enquanto estiver contido desta maneira, o alvo deve repetir a salvaguarda ao final do próximo turno dele, ficando petrificado se falhar ou encerrando o efeito em caso de sucesso. A petrificação dura até que o alvo seja libertado pela magia @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Restauração Maior} ou outro efeito mágico semelhante."
+        }
+      }
+    },
+    "Feather Token": {
+      "name": "Insígnia da Pena",
+      "description": "<p>Este minúsculo objeto se parece com uma pena. Existem diferentes tipos de insígnias da pena, cada um com um tipo diferente de efeito de uso único."
+    },
+    "Manual of Golems": {
+      "name": "Manual dos Golens"
+    },
+    "Rust Bag of Tricks": {
+      "name": "Bolsa de Truques (Ferrugem)"
+    },
+    "Sentient Magic Items Alignment": {
+      "name": "Alinhamento de Itens Mágicos Sencientes",
+      "results": {
+        "1-15": {
+					"description": "Ordeiro e bom"
+        },
+        "16-35": {
+					"description": "Neutro e bom"
+        },
+        "36-50": {
+					"description": "Caótico e bom"
+        },
+        "51-63": {
+					"description": "Ordeiro e neutro"
+        },
+        "64-73": {
+					"description": "Neutro"
+        },
+        "74-85": {
+					"description": "Caótico e neutro"
+        },
+        "86-89": {
+					"description": "Ordeiro e mal"
+        },
+        "90-96": {
+					"description": "Neutro e mal"
+        },
+        "97-100": {
+					"description": "Caótico e mal"
+        }
+      }
+    },
+    "Tan Bag of Tricks": {
+      "name": "Bolsa de Truques (Bronze)"
     }
   }
 }
