@@ -877,8 +877,8 @@
       "description": "<p><em>Item maravilhoso</em></p><p>Este minúsculo objeto se parece com uma pena. Existem diferentes tipos de insígnias da pena, cada um com um tipo diferente de efeito de uso único. O DM escolhe o tipo de insígnia ou a determina aleatoriamente na tabela @UUID[Compendium.dnd5e.tables.RollTable.OEdr086W61t1DRJo]{Insígnia da Pena}.</p><p><em><strong>Chicote.</strong></em> Com uma ação você pode jogar a insígnia em um ponto a até 3 metros de você. A insígnia desaparece e um chicote flutuante aparece no lugar. Então, você pode usar uma ação bônus para fazer um ataque mágico corpo a corpo contra uma criatura a até 3 metros do chicote, com um bônus de ataque de +9. Em caso de acerto, o alvo sofre [[/damage 1d6 + 5 force]]{1d6 + 5} pontos de dano energético.</p><p>Com uma ação bônus em seu turno, você pode ordenar que o chicote se mova até 6 metros e faça um ataque contra uma criatura a até 3 metros dele. Ele desaparece depois de 1 hora, quando você usar uma ação para dispensá-lo, ficar &amp;Reference[incapacitated apply=false]{incapacitado} ou morrer.</p>"
     },
     "Feed": {
-      "name": "Ração Animal",
-      "description": "<p>Alimento padrão adequado para uma montaria ou outro animal, geralmente composto de grãos ou feno.</p>"
+      "name": "Feed",
+      "description": "<p>Standard feed suitable for a mount or other animal, often consisting of grains or hay.</p>"
     },
     "Figurine of Wondrous Power (Bronze Griffon)": {
       "name": "Estatueta de Poder Maravilhoso (Grifo de Bronze)",
@@ -1699,6 +1699,10 @@
     "Manacles": {
       "name": "Algemas",
       "description": "<p>Estas contenções de metal podem prender uma criatura Pequena ou Média. Escapar das algemas requer um teste bem-sucedido de [[/check dex 20]]. Quebrá-los requer um teste bem-sucedido de [[/check str 20]]. Cada conjunto de algemas vem com uma chave. Sem ela, uma criatura proficiente com ferramentas de ladrão pode destravar as algemas sendo bem-sucedida em um teste de [[/check dex 15]]. As algemas têm 15 pontos de vida.</p>"
+    },
+    "Flail": {
+      "name": "Mangual",
+      "description": "<p>A heavy iron ball attached to a stout wooden shaft with a heavy chain, allowing it to deal devastating damage at the end of wide, sweeping swings.</p>"
     },
     "Mantle of Spell Resistance": {
       "name": "Manto de Resistência à Magia",

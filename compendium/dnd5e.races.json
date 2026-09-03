@@ -9,12 +9,12 @@
     "Elf Features": "Características de Elfo",
     "Gnome": "Gnomo",
     "Gnome Features": "Características de Gnomo",
-    "Halfling": "Halfling",
+    "Halfling": "Pequenino",
     "Halfling Features": "Características de Halfling",
     "Human": "Humano",
     "Orc": "Orc",
     "Orc Features": "Características de Orc",
-    "Tiefling": "Tiefling",
+    "Tiefling": "Tiferino",
     "Tiefling Features": "Características de Tiefling"
   },
   "entries": {
@@ -27,49 +27,49 @@
       "name": "Corajoso"
     },
     "Breath Weapon": {
-      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda, cujo tipo também será determinado por sua herança dracônica. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p><section class=\"secret foundry-note\" id=\"secret-bTTAXItqCqmVPlTG\"><p><strong>Nota do Foundry</strong></p><p>Edite em Detalhes essa característica, alterando o tipo de dano, a salvaguarda e a área de efeito para corresponder ao seu Ancestral Dracônico.</p></section>",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua Ancestralidade Dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda, cujo tipo também será determinado por sua Ancestralidade Dracônica. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p><section class=\"secret foundry-note\" id=\"secret-bTTAXItqCqmVPlTG\"><p><strong>Nota do Foundry</strong></p><p>Edite em Detalhes essa característica, alterando o tipo de dano, a salvaguarda e a área de efeito para corresponder ao seu Ancestral Dracônico.</p></section>",
       "name": "Arma de Sopro"
     },
     "Breath Weapon - Brass": {
-			"name": "Arma de Sopro - Latão",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - White": {
-			"name": "Arma de Sopro - Branco",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano gélido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Blue": {
-			"name": "Arma de Sopro - Azul",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano elétrico ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Black": {
-			"name": "Arma de Sopro - Negro",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ácido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Gold": {
-			"name": "Arma de Sopro - Ouro",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>>"
-		},
-		"Breath Weapon - Copper": {
-			"name": "Arma de Sopro - Cobre",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ácido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Red": {
-			"name": "Arma de Sopro - Vermelho",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Green": {
-			"name": "Arma de Sopro - Verde",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano venenoso ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Silver": {
-			"name": "Arma de Sopro - Prata",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano gélido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
-		"Breath Weapon - Bronze": {
-			"name": "Arma de Sopro - Bronze",
-			"description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano elétrico ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
-		},
+      "name": "Arma de Sopro - Latão",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - White": {
+      "name": "Arma de Sopro - Branco",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano gélido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Blue": {
+      "name": "Arma de Sopro - Azul",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano elétrico ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Black": {
+      "name": "Arma de Sopro - Negro",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ácido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Gold": {
+      "name": "Arma de Sopro - Ouro",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>>"
+    },
+    "Breath Weapon - Copper": {
+      "name": "Arma de Sopro - Cobre",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ácido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Red": {
+      "name": "Arma de Sopro - Vermelho",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano ígneo ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Green": {
+      "name": "Arma de Sopro - Verde",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano venenoso ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Silver": {
+      "name": "Arma de Sopro - Prata",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Constituição. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano gélido ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
+    "Breath Weapon - Bronze": {
+      "name": "Arma de Sopro - Bronze",
+      "description": "<p>Você pode usar uma ação para emitir energia destrutiva. Sua herança dracônica determina a quantidade, forma e tipo de dano causado.</p><p>Quando você usa seu ataque de sopro, cada criatura na área atingida precisa realizar uma salvaguarda de Destreza. A CD para o teste de salvaguarda é igual a 8 + seu modificador de Constituição + bônus de proficiência. Uma criatura sofre 2d6 pontos de dano elétrico ao falhar na salvaguarda, e metade desse dano ao ser bem-sucedida. O dano aumenta para 3d6 no 6° nível, 4d6 no 11º e 5d6 no 16°</p><p>Depois de usar seu ataque de sopro, você não pode tornar a usá-lo até completar um descanso curto ou longo.</p>"
+    },
     "Damage Resistance": {
       "description": "<p>Você possui resistência ao tipo de dano associado ao seu ancestral dracônico.</p>",
       "name": "Resistência a Dano"
