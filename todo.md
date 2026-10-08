@@ -21,8 +21,8 @@
   - [x] Origins
   - [x] Classes
   - [x] Feats
-  - [~] Equipment
-  - [ ] Spells
+  - [x] Equipment
+  - [~] Spells
   - [ ] Actors
   - [ ] Monster Features
   - [ ] Content

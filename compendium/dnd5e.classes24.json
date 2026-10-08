@@ -2027,7 +2027,7 @@
     },
     "phbpdnFaithfulSt": {
       "name": "Montaria Fiel",
-      "description": "<p>Você pode clamar pela ajuda de uma montaria de outro mundo. Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Convocar Montaria} preparada.</p><p>Você também pode conjurá-Ia uma vez sem gastar um espaço de magia, e recupera a habilidade de fazer isso ao final de um descanso longo.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Nota do Foundry</strong></p><p>A magia Convocar Montaria é adicionada à sua lista de magias como sempre preparada e com uma utilização gratuita a cada Descanso Longo quando você atingir este nível.</p></section>"
+      "description": "<p>Você pode clamar pela ajuda de uma montaria de outro mundo. Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Convocar Montaria} preparada.</p><p>Você também pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a habilidade de fazer isso ao final de um descanso longo.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Nota do Foundry</strong></p><p>A magia Convocar Montaria é adicionada à sua lista de magias como sempre preparada e com uma utilização gratuita a cada Descanso Longo quando você atingir este nível.</p></section>"
     },
     "phbpdnFightingSt": {
       "name": "Estilo de Luta",
@@ -2968,24 +2968,24 @@
       }
     },
     "phbwlkMysticArca": {
-      "name": "Mystic Arcanum",
-      "description": "<p>Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.</p><p>You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.</p><p>You gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.</p><p>Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.</p>",
+      "name": "Arcanum Místico",
+      "description": "<p>Seu patrono lhe revela um segredo mágico chamado arcanum. Escolha uma magia de 6° círculo de bruxo como seu arcanum.</p><p>Você pode conjurar sua magia de arcanum sem gastar um espaço de magia, e deve terminar um descanso longo antes de conjurá-la dessa forma novamente.</p><p>Você ganha outra magia de bruxo à sua escolha que pode ser conjurada dessa forma ao alcançar os níveis 13 (magia de 7° círculo), 15 (magia de 8° círculo) e 17 (magia de 9° círculo) de bruxo. Você recupera todos os usos de seu Arcanum Místico quando termina um descanso longo.</p><p>Sempre que você ganhar um nível de bruxo poderá substituir uma das suas magias de arcanum por outra magia de bruxo do mesmo círculo.</p>",
       "advancement": {
         "Mystic Arcanum (6th level)": {
-          "title": "Mystic Arcanum (6th level)",
-          "hint": "Choose one level 6 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
+          "title": "Arcanum Místico (6º círculo)",
+          "hint": "Escolha uma magia de 6° círculo de bruxo como seu arcanum. Você pode conjurar sua magia de arcanum sem gastar um espaço de magia, e deve terminar um descanso longo antes de conjurá-la dessa forma novamente."
         },
         "Mystic Arcanum (7th level)": {
-          "title": "Mystic Arcanum (7th level)",
-          "hint": "Choose one level 7 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
+          "title": "Arcanum Místico (7º círculo)",
+          "hint": "Escolha uma magia de 7° círculo de bruxo como seu arcanum. Você pode conjurar sua magia de arcanum sem gastar um espaço de magia, e deve terminar um descanso longo antes de conjurá-la dessa forma novamente."
         },
         "Mystic Arcanum (8th level)": {
-          "title": "Mystic Arcanum (8th level)",
-          "hint": "Choose one level 8 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
+          "title": "Arcanum Místico (8º círculo)",
+          "hint": "Escolha uma magia de 8° círculo de bruxo como seu arcanum. Você pode conjurar sua magia de arcanum sem gastar um espaço de magia, e deve terminar um descanso longo antes de conjurá-la dessa forma novamente."
         },
         "Mystic Arcanum (9th level)": {
-          "title": "Mystic Arcanum (9th level)",
-          "hint": "Choose one level 9 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
+          "title": "Arcanum Místico (9º círculo)",
+          "hint": "Escolha uma magia de 9° círculo de bruxo como seu arcanum. Você pode conjurar sua magia de arcanum sem gastar um espaço de magia, e deve terminar um descanso longo antes de conjurá-la dessa forma novamente."
         }
       }
     },
