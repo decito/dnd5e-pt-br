@@ -2027,11 +2027,7 @@
     },
     "phbpdnFaithfulSt": {
       "name": "Montaria Fiel",
-<<<<<<< HEAD
       "description": "<p>Você pode clamar pela ajuda de uma montaria de outro mundo. Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Convocar Montaria} preparada.</p><p>Você também pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a habilidade de fazer isso ao final de um descanso longo.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Nota do Foundry</strong></p><p>A magia Convocar Montaria é adicionada à sua lista de magias como sempre preparada e com uma utilização gratuita a cada Descanso Longo quando você atingir este nível.</p></section>"
-=======
-      "description": "<p>Você pode clamar pela ajuda de uma montaria de outro mundo. Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Convocar Montaria} preparada.</p><p>Você também pode conjurá-Ia uma vez sem gastar um espaço de magia, e recupera a habilidade de fazer isso ao final de um descanso longo.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Nota do Foundry</strong></p><p>A magia Convocar Montaria é adicionada à sua lista de magias como sempre preparada e com uma utilização gratuita a cada Descanso Longo quando você atingir este nível.</p></section>"
->>>>>>> main
     },
     "phbpdnFightingSt": {
       "name": "Estilo de Luta",
@@ -2113,11 +2109,7 @@
     },
     "phbpdnPaladinsSm": {
       "name": "Destruição do Paladino",
-<<<<<<< HEAD
-      "description": "<p>Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Destruição Divina} preparada. Além disso, você pode conjurá-la sem gastar um espaço de magia, mas deve terminar um descanso longo antes de conjurá-la dessa forma novamente.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Ao atingir esse nível, a magia Destruição Divina é adicionada à sua lista de magias como Sempre Preparada e com uma utilização livre.</p></section>"
-=======
       "description": "<p>Você sempre tem a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Destruição Divina} preparada. Além disso, você pode conjurá-Ia sem gastar um espaço de magia, mas deve terminar um descanso longo antes de conjurá-Ia dessa forma novamente.</p><section id=\"secret-47mDL7wHB8aQP7SD\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Ao atingir esse nível, a magia Destruição Divina é adicionada à sua lista de magias como Sempre Preparada e com uma utilização livre.</p></section>"
->>>>>>> main
     },
     "phbpdnProtection": {
       "name": "Aura de Proteção",
@@ -2910,7 +2902,6 @@
     "phbwlkFiendSpell": {
       "name": "Magias Ínferas",
       "description": "<p>A mágica do seu patrono garante que você sempre tenha certas magias preparadas; ao atingir o nível de bruxo especificado na tabela Magias Ínferas, você sempre terá as magias listadas preparadas.</p><table><caption>Magias Ínferas</caption><thead><tr><td>Nível de Bruxo</td><td>Magias</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Mãos Flamejantes}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Comando}, @UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Raio Ardente}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Sugestão}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo}, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Nuvem Fétida}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireShield]{Escudo Ardente}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Muralha de Fogo}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGeas000000]{Missão}, @UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Praga de Insetos}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Az5JbDGwh8PLTt7g\"><p><strong>Nota do Foundry</strong></p><p>À medida que você subir de nível, essas magias serão concedidas a você automaticamente.</p></section>"
-<<<<<<< HEAD
     },
     "phbwlkFiendishRe": {
       "name": "Resistência Ínfera",
@@ -2998,95 +2989,6 @@
         }
       }
     },
-=======
-    },
-    "phbwlkFiendishRe": {
-      "name": "Resistência Ínfera",
-      "description": "<p>Escolha um tipo de dano além de energético sempre que terminar um descanso curto ou longo. Você tem Resistência a esse tipo de dano até escolher um tipo diferente com esta característica.</p><section class=\"secret\" id=\"secret-MG3loWptcg4gpsdG\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um Efeito Ativo para cada tipo de dano, que lhe concederá a Resistência adequada. Aplique e desative os efeitos conforme necessário ao mudar de tipo.</p></section>",
-      "effects": {
-        "Fiendish Resilience: Acid": {
-          "name": "Resistência Ínfera: Ácido"
-        },
-        "Fiendish Resilience: Bludgeoning": {
-          "name": "Resistência Ínfera: Contundente"
-        },
-        "Fiendish Resilience: Cold": {
-          "name": "Resistência Ínfera: Gélido"
-        },
-        "Fiendish Resilience: Fire": {
-          "name": "Resistência Ínfera: Ígneo"
-        },
-        "Fiendish Resilience: Lightning": {
-          "name": "Resistência Ínfera: Elétrico"
-        },
-        "Fiendish Resilience: Necrotic": {
-          "name": "Resistência Ínfera: Necrótico"
-        },
-        "Fiendish Resilience: Piercing": {
-          "name": "Resistência Ínfera: Perfurante"
-        },
-        "Fiendish Resilience: Poison": {
-          "name": "Resistência Ínfera: Venenoso"
-        },
-        "Fiendish Resilience: Psychic": {
-          "name": "Resistência Ínfera: Psíquico"
-        },
-        "Fiendish Resilience: Radiant": {
-          "name": "Resistência Ínfera: Radiante"
-        },
-        "Fiendish Resilience: Slashing": {
-          "name": "Resistência Ínfera: Cortante"
-        },
-        "Fiendish Resilience: Thunder": {
-          "name": "Resistência Ínfera: Trovejante"
-        }
-      }
-    },
-    "phbwlkHurlThroug": {
-      "name": "Lançar no Inferno",
-      "description": "<p>Uma vez por turno, ao atingir uma criatura com uma jogada de ataque, você pode tentar transportar instantaneamente o alvo pelos Planos Inferiores. O alvo deve ser bem-sucedido em uma salvaguarda de Carisma contra sua CD para evitar magia, ou o alvo desaparece e é lançado em uma paisagem de pesadelos. O alvo sofre 8d10 pontos de dano psíquico se não for um ínfero, e fica com a condição &Reference[Incapacitated] até o fim do seu próximo turno, quando retorna ao espaço que ocupava anteriormente ou ao espaço desocupado mais próximo.</p><p>Uma vez que use essa característica, você não poderá fazê-lo novamente até terminar um descanso longo, a menos que gaste um espaço de magia de Magia de Pacto (nenhuma ação necessária) para restaurar este uso.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um uso limitado.</p><p>A atividade <strong>Recuperar Uso</strong> consumirá um espaço de magia de Magia do Pacto e restaurará um uso dessa característica.</p></section>",
-      "activities": {
-        "Hurl Through Hell": {
-          "name": "Lançar no Inferno",
-          "condition": "Uma vez por turno, ao atingir uma criatura com uma jogada de ataque"
-        },
-        "Regain Use": {
-          "name": "Reganhar Uso"
-        }
-      }
-    },
-    "phbwlkMagicalCun": {
-      "name": "Astúcia Mágica",
-      "description": "<p>Você pode executar um rito esotérico por 1 minuto. Ao final dele, você recupera espaços de magia gastos de Magia de Pacto, mas não mais do que um número igual à metade do seu máximo (arredondar para cima). Uma vez que use esta característica, você não poderá fazê-lo no vamente até terminar um descanso longo.</p><section id=\"secret-uXJIaDc9mWHsrILV\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Essa característica inclui um uso gratuito e restaurará o número correto de espaços de magia de Magia do Pacto.</p></section>",
-      "activities": {
-        "Regain Pact Spell Slots": {
-          "name": "Reganhar Espaços de Magia de Pacto"
-        }
-      }
-    },
-    "phbwlkMysticArca": {
-      "name": "Mystic Arcanum",
-      "description": "<p>Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.</p><p>You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.</p><p>You gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.</p><p>Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.</p>",
-      "advancement": {
-        "Mystic Arcanum (6th level)": {
-          "title": "Mystic Arcanum (6th level)",
-          "hint": "Choose one level 6 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
-        },
-        "Mystic Arcanum (7th level)": {
-          "title": "Mystic Arcanum (7th level)",
-          "hint": "Choose one level 7 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
-        },
-        "Mystic Arcanum (8th level)": {
-          "title": "Mystic Arcanum (8th level)",
-          "hint": "Choose one level 8 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
-        },
-        "Mystic Arcanum (9th level)": {
-          "title": "Mystic Arcanum (9th level)",
-          "hint": "Choose one level 9 Warlock spell as this arcanum. You can cast your arcanum spell without expending a spell slot, and you must finish a Long Rest before you can cast it this way again."
-        }
-      }
-    },
->>>>>>> main
     "phbwlkPactMagic0": {
       "name": "Magia de Pacto",
       "description": "<p>Por meio de uma cerimônia oculta, você realizou um pacto com uma entidade misteriosa para obter poderes mágicos. A entidade é uma voz nas sombras, de identidade incerta; mas a dádiva que ela lhe concede é real: a capacidade de conjurar magias. Veja as @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{regras de conjuração de magias}. As informações a seguir explicam como aplicar essas regras às magias de Bruxo, que estão listadas na@UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Lista de Magias do Bruxo}.</p><p><strong>Truques.</strong> You know two Warlock cantrips of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplEldritchBl]{Raio Místico} e @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitação Arcana} são recomendados. Ao alcançar um nível de Bruxo, você pode substituir um dos seus truques dessa característica por outro truque de Bruxo à sua escolha.</p><p>Ao atingir os níveis 4 e 10 de Bruxo, você aprende mais um truque de Bruxo à sua escolha, conforme detalhado na coluna Truques da tabela Características de Bruxo.</p><p><strong>Máximo Atual de Truques Conhecidos:</strong> [[lookup @scale.warlock.cantrips-known]]</p><p><strong>Espaços de Magia.</strong> A tabela @UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Características do Bruxo} mostra quantos espaços de magia você tem para conjurar suas magias de Bruxo de 1º a 5º círculo. A tabela também mostra o círculo desses espaços, todos do mesmo círculo. Você restaura todos os espaços de Magia de Pacto gastos ao completar um Descanso Curto ou Longo.</p><p>Por exemplo, quando você é um Bruxo de nível 5, você tem dois espaços de magia de 3º círculo. Para conjurar a magia *Raio de Bruxa* de 1º círculo, você deve gastar um desses espaços e conjurá-la como uma magia de 3º círculo.</p><p><strong>Magias Preparadas de 1º Círculo ou Maior.</strong> Você prepara a lista de magias de 1º círculo ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha duas magias de Bruxo de 1º círculo. @UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Enfeitiçar Pessoa} e @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Danação} são recomendados.</p><p><strong>Máximo Atual de Magias Preparadas:</strong> [[lookup @scale.warlock.max-prepared]]</p><p>O número de magias em sua lista aumenta à medida que você alcança níveis de Bruxo, conforme mostrado na coluna Magias Preparadas da tabela Características de Bruxo. Quando esse número aumentar, escolha magias adicionais de Bruxo até que o número de magias em sua lista corresponda ao número da tabela. As magias escolhidas devem ser de um círculo não superior mostrado na coluna círculo do Espaço da tabela para o seu nível. Quando você atinge o nível 6, por exemplo, você aprende uma nova magia de Bruxo, que pode ser de 1º a 3º círculo.</p><p>Se outra característica de Bruxo lhe concede magias sempre preparadas, elas não contam para o número de magias que você pode preparar com essa característica, mas ainda são consideradas magias de Bruxo para você.</p><p><strong>Mudando Suas Magias Preparadas.</strong> Sempre que você ganha um nível de Bruxo, pode substituir uma magia da sua lista por outra magia de Bruxo de um nível elegível.</p><p><strong>Atributo de Conjuração.</strong> Carisma é o atributo de conjuração para suas magias de Bruxo.</p><p><strong>Foco de Conjuração.</strong> Você pode usar um Foco Arcano como um Foco de Conjuração para suas magias de Bruxo.</p>"
