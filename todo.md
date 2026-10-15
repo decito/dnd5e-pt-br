@@ -17,7 +17,7 @@
   - [ ] Tables
   - [ ] Trade Goods
 
-- [~] Traduzir compêndio de 2024 para o português brasileiro.
+- [ ] Traduzir compêndio de 2024 para o português brasileiro.
   - [x] Origins
   - [x] Classes
   - [x] Feats
